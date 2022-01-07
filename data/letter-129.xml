@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 129: Jakob Marx (Mannschaften), 30.10.1870, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Jakob</surname>
+                  <forename>Marx</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 129 von Jakob Marx, 30.10.1870.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 129: Jakob Marx (Mannschaften), 30.10.1870, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Jakob</surname>
+                        <forename>Marx</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1870-10-30">1870</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="129">
+            <head>
+               <supplied>SB-Nr. 129: Jakob Marx (Mannschaften), <date when="1870-10-30">30.10.1870</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Das ist die Domkirche Orleans den 30ten Oktober 1870</p>
+            <lb/>
+            <p rendition="#et">in Orleans</p>
+            <lb/>
+            <p rendition="#et">Theureste Eltern u. Geschwisterte!</p>
+            <lb/>
+            <p>Die so Kindliche u. Brüderliche Liebe forderte mich schon<lb/>längst wieder auf an Euch geliebteste zu schreiben aber<lb/>ich wartete schon seyd acht Tagen mit größter Sehnsucht<lb/>auf einen Brief fon Euch aber es kam keiner u. ich stehe<lb/>jezt im Zweifel ob Ihr den Brief den ich Euch am 4ten<lb/>Oktober in Mondlerin geschrieben bekomen habt oder<lb/>nicht oder der Eurige ferliegen geblieben ist den ich müßte<lb/>ihn sonst schon haben den der Kornel hat 8 Tage for mir <lb/>geschrieben der häte schon einen bekomen for 8 Tage aber<lb/>
+               <del rendition="#s">e</del>Er ist leider Gott am 10 Oktober im Gefecht bei Arthier<lb/>fon einem Granaten splieter an beiden Füßen ferwundet<lb/>worden aber doch nicht gefährlich, u. ich bin jezt angefiert<lb/>mit dem geld auch der andere ist noch nicht da aber ferloren ist es<lb/>doch nicht auch lonung habe ich nur 33kr bekomen weil ich jezt<lb/>zum 2 Bartalion zur 5ten Kompagnie zugedeilt bin bis wier<lb/>zum Regiment komen dan kann ich zum 3ten Bartalion dan<lb/>bekomen wier unsere Lonung aber wer weis wen wier<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>dazu komen u. jezt war ich erst 3 Tage beim 2 Bartalion<del rendition="#s"> u</del>
+               <lb/>als die Lonung ausbezalth wurde u. ich stehe jezt ganz schlecht<lb/>mit dem geld ich hate schon 2 Tage keinen kr mehr darum<lb/>Bite ich Euch geliebteste mir etliche Gulden zu schiken wen<lb/>Ihr solt den Brief nicht bekomen haben wo ich auch um<lb/>3 oder 4 Gulden geschrieben habe u. habt Ihr was ich gewiß<lb/>hofe mir schon einen Brief mit geld geschikt so bekome ich ihn<lb/>schon den er kan zum Regiment geschikt oder ferliegen geblieben<lb/>sein, das Regiment kan bei Paris sein u. wier sind jezt bereits<lb/>30. Stunden fon Paris <del rendition="#s">sein</del>gegen Süden in der großen Stat<lb/>Orleans seydem 18ten Oktober, wo ich den Anton Salcher<lb/>dem Heinerich Weib seinen Bruder gleich getrofen habe u. wier<lb/>sind jezt imer beieinander schönen Grus an Sie u. auch dem<lb/>Xawer das hat mich sehr gefreut u. wen mir das geld ausgeth<lb/>dan leith er mir eins bis ich fon Euch den Brief bekomen werde<lb/>den er bekam 14 sl 51 kr Lonung auch den <unclear reason="illegible" cert="high" resp="#MN">Jaud und Prinzing</unclear> habe<lb/>ich schon gedrofen auch der Egg Lukas ist hier hab Ihn aber noch<lb/>nicht getrofen, u. der gute Lukas Hochenleitner ist was<lb/>mich sehr betrübte u. schmerzte bei Sedan gefallen es wurde<lb/>Ihm durch den Kopf geschoßen. Nun liebste Eltern u.<lb/>Geschwisterte dieses Monat habe ich schon fiel erleiden<lb/>müßen ich kan es Euch nicht ferschweigen obgleich ich<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>weis das Ihr Euch wieder um so mehr bekümern wertet<lb/>den wier haben fon 8ten an den 18ten ihmer streng <del rendition="#s">imer</del>
+               <lb/>
+               <del rendition="#s">streng</del> maschieren müßen den 9ten glaubten wier schon<lb/>den Feind zu trefen u. maschierten den ganzen Tag wo auch for<lb/>einer Stat 2 Tode u. 1 ferwunteter Franzos lagen wier marschierten<lb/>durch die Stat u. wurden dan in einem Dorfe einkuartier wo wier<lb/>dan den 10ten früe 4 Uhr wieder abmaschierten wo es auch stark<lb/>wie am Sontag regnete den formittags 10 Uhr hörten wier schon<lb/>den Doner der Kanonen u. auch das Gewehr Feuer den die Jäger<lb/>u. das Leibregiment u. das 11te Regiment waren schon weit for<lb/>uns es war eine ganze Difision beienander u. auch Preußische<lb/>Gawallerie war bei uns, um 12 Uhr kamen auch wier dazu<lb/>da <del rendition="#s">w</del>krachte es fürchterlich den ganzen Abend den die Franzosen<lb/>haten eine gute Stelung da flogen die Granaten über uns hin u.<lb/>fon den Franzosen herüber ich that keinen schuß den wier im<lb/>3ten 4ten Zug waren in der Reserfe fon der Ersatzkompagnie<lb/>wärend der erste u. zweite im Feuern waren wier lagen in<lb/>einem Aker auf freiem Felde da wurde der Kornel verwundet<lb/>da flogen die Kugeln daher als wen es anfing stark zu Rieseln<lb/>wurden aber Gott sei Dank weinige getrofen u. die Franzosen<lb/>müßten imer zurük den unsere Kanonen donerten furchtbar<lb/>auf sie los u. auch die Kugelspriezen bis sie endlich die Flucht ergr⸗<lb/>iefen u. sich auch Dausend Man gefangen gaben auch drei<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>
+               <space dim="horizontal"/>Kanonen mußten sie stehen laßen 1 mit 6 Pferde 500 nahmen<lb/>wier Ersatzleute fom 2 Regiment gefangen die andern die Jäger u. auch<lb/>die Preußen dan kam ich auch zum Tranzbord zurük nach Korbel<lb/>da haten wier <del rendition="#s">v</del>drei Tage zu maschieren u. zwar streng dan<lb/>wieder zurück Herzliebste Eltern u. Geschwisterte da hate ich fom<lb/>9ten Abens bis 11ten Abens nichts warmes u. den 10ten den ganzen<lb/>Tag nichts zu Eßen u. den ganzen Tag den Tornister zu tragen dan<lb/>den 10ten Nachts wurden die gefangenen in Arthier in die<lb/>Kierche gespert u. wier mußten sie bewonhen da lag ich im<lb/>Kirchhof hat es mich sehr gefroren u. auf der Brust that es mir<lb/>sehr wehe aber bis morgens gings wieder ganz gut, auch beide<lb/>Kirchentage mußte ich maschieren am Samstag 10 Stunden da<lb/>könt Ihr Euch denken wie Es mir um das Herz war u. jezt imer<lb/>schlechtes Quatier imer auf dem harten Boden liegen aber ich<lb/>leide alles gerne u. geduldig in Gottes Namen wen ich nur<lb/>wieder glüklich Euch u. mein liebes Eresing sehen werde.<lb/>Ich bin in der gewissen Hoffnung das es bald Friede wird Metz ist auch<lb/>schon übergeben das ist jetzt gewis. Ich beschließe nun mein Schreiben<lb/>u. mitt den herzlichsten Grüßen an Euch u. alle wie sonst..<metamark>_</metamark>..</p>
+            <lb/>
+            <p>Könt mir eine 5 <add place="superlinear">
+                  <metamark/>oder 2</add> sl <unclear reason="illegible" cert="high" resp="#MN">Parkirote</unclear> schiken ich werde Euch bald wieder schreiben</p>
+            <lb/>
+            <p rendition="#et">Adreße An Jakob Marx Soldat beim 2 Infanterie Regiment<lb/>
+               <space dim="horizontal"/>2ten Bartalion 5 Kompagnie 1 Division 2 Brigade<lb/>
+               <space dim="horizontal"/>Feldpost</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

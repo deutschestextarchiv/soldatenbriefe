@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 34: Friedrich Binder (Mannschaften), 07.09.1813, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Friedrich</surname>
+                  <forename>Binder</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 34 von Friedrich Binder, 07.09.1813.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 34: Friedrich Binder (Mannschaften), 07.09.1813, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Friedrich</surname>
+                        <forename>Binder</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1813-09-07">1813</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="34">
+            <head>
+               <supplied>SB-Nr. 34: Friedrich Binder (Mannschaften), <date when="1813-09-07">07.09.1813</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Ein Lager bei Ehne 1 Meile von Jüterbork den</p>
+            <lb/>
+            <p>7ten September 1813.</p>
+            <lb/>
+            <p rendition="#et">Geliebte Eltern!</p>
+            <lb/>
+            <p>Seit meinem letzten Schreiben aus <hi rendition="#aq">Treuenbrietzen</hi> haben<lb/>wir wieder viel ausstehen müssen, wir sind bis ½ Meile<lb/>von <hi rendition="#aq">Wittenberg </hi>vorgedrungen und hatten schon einige<lb/>Schanzen in Besitz, als unsere <hi rendition="#aq">Avantgarde</hi> Sonntag den<lb/>5ten <hi rendition="#aq">Sept.</hi> von einer überlegenen Macht angegrif⸗<lb/>fen wurde und wir mußten seitwärts uns nach <lb/>
+               <hi rendition="#aq">Treuenbrietzen</hi> zurückziehen; allein am Montag, als <lb/>an meinen Geburtstag, griffen wir sie des Morgens um<lb/>10 Uhr an, wir hatten das erste Treffen und mußten den<lb/>ganzen Tag ins Feuer stehen, die Schweden hatten das zweite<lb/>Treffen und kamen erst gegen Abend. Eine solche Schlacht<lb/>wie diese, kann sich so leicht kein Offizier besinnen<lb/>solches fürchterliches Kanonenfeuer haben wir noch nie<lb/>gehört, gleich halbe <hi rendition="#aq">Compagnien</hi> hinten, unser Regiment<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>hat die beinah die Hälfte verloren, von unsern Detaschement<lb/>ist 1 Todter, der Flügelmann <hi rendition="#aq">Alers</hi> aus der Jägerstraße<lb/>No. 75. dessen Frau die <hi rendition="#aq">Caroline</hi> grüßen sollte, 19 Blessirte<lb/>und 3 Vermisste, worunter auch <hi rendition="#aq">Herzog</hi> ist, wo er ge⸗<lb/>blieben ist wissen wir nicht, ob er gefangen oder todt ist,<lb/>wir haben ihn aber nicht auf dem Felde gefunden; kurz<lb/>die Kugeln von den Kanonen und Gewehren sind wie<lb/>Erbsen unter uns gefallen, vorzüglich die Granaten und<lb/>
+               <gap reason="illegible"/>. Ich bin, Gott sei Tausendmal Dank, auch<lb/>dieses mal glücklich davon gekommen und werde mit Gottes<lb/>Hülfe auch fernerhin gesund bleiben. Neues weiss ich nicht<lb/>zu schreiben, als dass ich den grossen <hi rendition="#aq">Müller</hi> gesprochen<lb/>habe, er ist noch gesund, und Johann ist von <hi rendition="#aq">Friesack</hi>
+               <lb/>nach <hi rendition="#aq">Stettin</hi> marschirt. So eben bekom̃en wir Ordre<lb/>zum Marsch, leben Sie recht wohl, dies wünschet von <lb/>Herzen</p>
+            <lb/>
+            <p rendition="#et">Ihr<lb/>
+               <space dim="horizontal"/>sie liebender Sohn<lb/>
+               <space dim="horizontal"/>Fr. <hi rendition="#aq">Binder</hi>.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[2]</fw>
+            <p rendition="#et">Nachschrift</p>
+            <lb/>
+            <p>Wir sind noch nicht wegmarschirt, sondern<lb/>haben Gottesdienst auf dem Felde ge⸗<lb/>halten und Freudenschüsse gethan<lb/>für den erhaltenen Sieg.</p>
+            <lb/>
+            <p rendition="#et">35 Kanonen haben wir hier<lb/>
+               <space dim="horizontal"/>bereits schon erobert und<lb/>
+               <space dim="horizontal"/>125 Munitionswagen.</p>
+            <lb/>
+            <p rendition="#et">Leben Sie recht wohl, und<lb/>
+               <space dim="horizontal"/>verzeihen Sie die schlechte<lb/>
+               <space dim="horizontal"/>Schreiberei, es ist auf den<lb/>
+               <space dim="horizontal"/>Tornister auf freier<lb/>
+               <space dim="horizontal"/>Erde geschehn.</p>
+            <lb/>
+            <p rendition="#et">Fr. Binder</p>
+            <lb/>
+            <p rendition="#et">Schreiben Sie mir recht bald<lb/>
+               <space dim="horizontal"/>wieder und tausend Grüße allen<lb/>
+               <space dim="horizontal"/>Bekannten und der Caroline.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

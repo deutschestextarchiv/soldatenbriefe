@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 48: Josef Wolfinger (Mannschaften), 20.07.1848, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Josef</surname>
+                  <forename>Wolfinger</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 48 von Josef Wolfinger, 20.07.1848.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 48: Josef Wolfinger (Mannschaften), 20.07.1848, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Josef</surname>
+                        <forename>Wolfinger</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1848-07-20">1848</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="48">
+            <head>
+               <supplied>SB-Nr. 48: Josef Wolfinger (Mannschaften), <date when="1848-07-20">20.07.1848</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Saltzburg den 1848.</p>
+            <lb/>
+            <p rendition="#et">Libste</p>
+            <lb/>
+            <p rendition="#et">Mutta und Schwestan</p>
+            <lb/>
+            <p>Ich mache euch zuwissen das ich den Brif von<lb/>Euch richtig Erhalten habe. und Grüße euch alle<lb/>Ser undadeñig und mache euch zuwissen das<lb/>Ich ser Gezwungen bin. an euch balt wider<lb/>Zu Schreiben. und hoffe mein Jezigeß Schreiben<lb/>Wird euch in eina besseren Freid und<lb/>Gesundheit antrefen aber Libste Schwestan ich<lb/>Verdenke euch nicht weil euch die Leite wegen<lb/>Meiña das ich schon Tod <add place="superlinear">
+                  <metamark/>wer</add> so Angeblauscht haben.</p>
+            <lb/>
+            <p>und ir habt mir eiñen so Draurigen Brief<lb/>Geschickt das die Mutta schon seit der<lb/>Pfingsten in Bett Grang ligt. und daß ir<lb/>Glaubt eß geht ir als wie den Vatta.</p>
+            <lb/>
+            <p>Aber es hat mir vor Etliche Tagen davor<lb/>Getreimt es ich eira Schreiben bekom̃en hab<lb/>Daß die Mutta Gestorben war. und als<lb/>Ich wach geworden war ich so Fro das<lb/>Es nicht war ist. weil mir im Treim gewesen<lb/>
+               <gap reason="illegible"/> als wen ich Zuhause war. und ich habe<lb/>
+               <gap reason="illegible"/> diesen Treim gleich eiñen Vadarunsa<lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">gebe</unclear>tten daß dises Traurige Unglük nicht<lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">war</unclear> werden soll. und wie ich den Brif<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>Lese so S<del rendition="#s">ch</del>ehe daß die Mutta richtig in Toten<lb/>Bette lige so hads mir gleich das Hertz Gebrochen<lb/>daß mir der Libe Gott diese Anmañung gegeben<lb/>hat das eß beinah so Draurig zugeht. aber ir<lb/>Meiñe Liben Schwestan ich Bitte euch wendet<lb/>Ir nur daß Beste Mitdel an das die Mutta<lb/>Noch einmal Aufkomen möchte wen eß der<lb/>Libe Gott zulest das ich sie noch einmal Sehen<lb/>Und mit ir Sprechen kan. ich kan euch nicht<lb/>Verdenken meine Liben Schwestan das ir ein so<lb/>Drauriges Hertz haben müst weil ir nicht wiset<lb/>Woß eiren rad Suchen müst. wen der Vatta<lb/>Noch Leben dat so wer es für eich nicht so<lb/>Draurig oder wen ich Zuhause sein könte<lb/>daß wir Mitsam̃en einen rad ausmachen<lb/>köñen. aber ich hofe der Libe Gott wird<lb/>Unsa radgeba sein. weil wir uns nirgens<lb/>helfen könen wen nicht Gottes Wille dabei ist.</p>
+            <lb/>
+            <p>Libste Schwestan ich Bitte eich noch einmal wen<lb/>Eß der Libe Gott nicht anders haben will<lb/>Daß er uns die Mutta schon wegnem̃en sol so<lb/>Machet ir alles in Besta Gurtheit aus<lb/>Ich lasse alles eich über und ir könt es<lb/>Pirmabata und den Leobolt Schwarz<lb/>Lassen. da hofe wird eß nicht weit<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>Und wen mir der Libe Gott daß Glük und<lb/>den Gesund verleiht daß ich wida einmal<lb/>Zuhause kom̃en kan. so hofe ir werdet mich nicht<lb/>Verlassen so wie auch ich eich nicht verlassen<lb/>Werde weil mir auch alleweil in besta Gurtheit<lb/>Und Eiñigkeit Gelebt haben. und Bitte eich<lb/>Libste Schwestan wen dieses Unglük von der Mutta<lb/>Eintrefen soll so nemet es eich nicht so Schwer<lb/>Zum Herzen. daß ir nicht entweder Krang oder<lb/>Gar Sterben müset. und sogar die Klara.</p>
+            <lb/>
+            <p>Ich Schreibe eich noch eine bar Wort daß ich eich<lb/>Zu meina Mañung gebe. wen die Mutta eine<lb/>Langmütige Krangheit griegen solte so<lb/>Fraget ir den Krawingler um eiñen rad ob ir<lb/>Nicht von den Hern Pfara eine untastüzung <unclear reason="illegible" cert="high" resp="#MN">grün</unclear>
+               <lb/>Möchtet weil ir gar keiñen Mithelfa habt. den ir<lb/>könt dieses schon Vorbringen daß der Vatta<lb/>Schon lang Tod ist und der Bruder ist Soldat.</p>
+            <lb/>
+            <p>Ich als dein Soñ Libste Mutta grüße dich und<lb/>Beurlaube mich mit meina Hand Schrift vill<lb/>Dausentmal wen ich dich mit meiñen Augen nicht<lb/>Mer Sehen und mit meiñen Mund mit dir nichtmer<lb/>Sprechen kañ. und bitte dich Libste Mutta<lb/>Verzeihe mir alles wen ich dir waß leitz gedan<lb/>Hab und Danke dir für deine mühe und blag<lb/>Waß für mi gethan hast. den der Libe Gott wird<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>Dich Belonen das mich Sodreilich und Erlich Aufer<lb/>zogen hast. und du möchtes bei Gott Bitten für<lb/>Mich wen ich mein Leben beim Grüg Aufopfan<lb/>Mus daß er mir eine Glükselige Sterbstund verleihe.<lb/>Und daß wir in der Himlischen Freid mit einander<lb/>Sehen köñen. aber meine Libste Mutta ich Bitte dich<lb/>Noch einmal. wen dich mein Schreiben wider in Beßerer<lb/>
+               <add place="superlinear">
+                  <metamark/>Gesundheit</add> Andrefe so Verzeihe mir mein Drauriges Schreiben<lb/>Weil es mir der Libe Gott so ins Hertz geben hat<lb/>Daß ich eich dieses alles hab Schreiben müssen weil<lb/>Mir nicht Wissen wan der Libe Gott bei uns<lb/>Einkert. den ich bitte Gott deglich das er uns<lb/>Erhörren und eiñe Erleichterung Schenken möchte.<lb/>Daß wir noch einmal Sehen und Leben köñen<lb/>Mitt einander. Ich Grüße eich nochmal alle Mutta<lb/>Elisabet Klara und Añamaria und alle meine<lb/>Freind. die Neiigkeiten was es gibt wa<del rendition="#s">s</del>r die<lb/>Große stelung das andere hat garkeinen <unclear reason="illegible" cert="high" resp="#MN">ausn</unclear>
+               <lb/>nicht. Ich schlise mein Schreiben und bin Gott sei<lb/>Dank Gesund wens ir so Gesund seitz als ich<lb/>Bin ich ser Zufriden.</p>
+            <lb/>
+            <p>Und verbleibe Eirer Gehorsamster Soñ und<lb/>Bruder.</p>
+            <lb/>
+            <p>Ich befinde mich noch in Saltzburg in der<lb/>Hohen Festung bei der 6<hi rendition="#sup">ten</hi> Landwer Kumbani<lb/>Von G.H. Baden 59<hi rendition="#sup">des</hi> Linien Infandari Regament</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

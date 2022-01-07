@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 121: Carl Brauer (Mannschaften?), 13.09.1870, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Carl</surname>
+                  <forename>Brauer</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 121 von Carl Brauer, 13.09.1870.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 121: Carl Brauer (Mannschaften?), 13.09.1870, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Carl</surname>
+                        <forename>Brauer</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1870-09-13">1870</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="121">
+            <head>
+               <supplied>SB-Nr. 121: Carl Brauer (Mannschaften?), <date when="1870-09-13">13.09.1870</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Höckelheim d. 13 Sept.</p>
+            <lb/>
+            <p rendition="#et">Vielgeliebte Eltern</p>
+            <lb/>
+            <p rendition="#et">Es sind nun noch 3 Tage bis wir<lb/>nach Braunschweig kommen, ich<lb/>habe es jetzt auch bereits satt, ich<lb/>habe jetzt bereits 8 Tage lang mein<lb/>Zeug nicht vom Leibe gehabt, und<lb/>weiß auch noch nicht ob ich diese<lb/>Nacht ein Bett bekomme wier haben<lb/>auch zwei Nächte unter freihen<lb/>Himmel logirt. Morgen früh machen<lb/>wir nach Sesen wo wir schon ein<lb/>mal gewesen sind als wir zum ersten<lb/>male da waren bin ich mit sehr<lb/>knapper Noth mit dem Leben davon<lb/>gekommen. Es brach nämlich an dem<lb/>Abend um 10 Uhr (ich saß noch vor der<lb/>Thür gegenüber) Feuer aus ich war<lb/>der erste der in dem Hause war<lb/>und hätte wenn ich ein par Eimer<lb/>Wasser gehabt hätte das Feuer auslöschen<lb/>können, ich rettete was ich nur konte<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>da rißen die Leute die Treppe ohne<lb/>mein wissen ab und ich saß<lb/>oben im Hause, ich schmiß danach<lb/>verschiedene Sachen aus dem Fenster<lb/>bis ich nicht mer vor Qualm aus<lb/>halten konte ich sah mich genöthigt<lb/>aus dem Fenster an der Wand hin⸗<lb/>unter zu klettern wobei ich mein<lb/>ganzes Zeug zerrissen habe, ich<lb/>kam aber sonst gans munter unten<lb/>an, kaum war ich unten so stürzte<lb/>die Decke in dem Zimmer welches<lb/>ich oben verlassen hatte ein, wörtlich<lb/>will ich euch das näher erzählen.<lb/>Es branten 3 Hauser und eine<lb/>große Scheune ab. Wir werden<lb/>wohl den Donnerstag Nachmitag<lb/>um 4 Uhr in Braunschweig ankomen<lb/>wir kommen von Salzgitter in <lb/>das Wilhelmithor.</p>
+            <lb/>
+            <p rendition="#et">Viele Grüße an alle<lb/>
+               <space dim="horizontal"/>Bekante</p>
+            <lb/>
+            <p rendition="#et">Euer Sohn Carl.</p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

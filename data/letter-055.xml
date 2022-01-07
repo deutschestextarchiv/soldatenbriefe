@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 55: Julius Rothgiesser (Unteroffizier), 11.05.1849, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Julius</surname>
+                  <forename>Rothgiesser</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 55 von Julius Rothgiesser, 11.05.1849.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 55: Julius Rothgiesser (Unteroffizier), 11.05.1849, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Julius</surname>
+                        <forename>Rothgiesser</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1849-05-11">1849</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="55">
+            <head>
+               <supplied>SB-Nr. 55: Julius Rothgiesser (Unteroffizier), <date when="1849-05-11">11.05.1849</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p rendition="#et">
+               <hi rendition="#aq">Düppeler Schantze</hi> 11/5 1849.</p>
+            <lb/>
+            <p rendition="#et">Liebe Schwester!</p>
+            <lb/>
+            <p rendition="#et">Ich hätte Dir schon längst mal geschrieben,<lb/>wenn ich nur eher Gelegenheit gehabt<lb/>hätte, bequem zu schreiben; <metamark>_</metamark> seit den 29 v.<lb/>liegen wir unter freiem Himmel, wo<lb/>wir wenig Logisgeld zu bezahlen haben.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Sehr leid that es mir, bei unserer Reise<lb/>nicht nach dort kommen zu können,<lb/>da wir schon bei Altona abgesetzt wurden.</p>
+            <lb/>
+            <p rendition="#et">Wir stehen hier dichte vor dem Feinde<lb/>und erwarten morgen Nacht das erste<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>Gefecht.<metamark>_</metamark> Wie es da ausfallen wird,<lb/>das wissen die Götter!!<metamark>_</metamark> Daß ich vor<lb/>dem Ausmarsche in Fähnrichs-Range<lb/>avancirt bin, glaube ich, Dir schon ange⸗<lb/>zeigt zu haben.<metamark>_</metamark> Im übrigen ist es ein<lb/>ganz fideles Leben im Felde, nur daß<lb/>man so seine Verpflegung u. Aufwart⸗<lb/>ung nicht hat. Immer sehr viel Appetit<lb/>u. wenig zu essen, da man für Geld<lb/>nichts bekommen kann.<metamark>_</metamark> Von <hi rendition="#aq">Helfft</hi>
+               <lb/>habe ich gestern einige Würste u. ¼<lb/>Kistchen Zigarren zum Present bekommen.<lb/> Sollten dort auch solche <hi rendition="#u">Mezihes</hi> zu<lb/>haben sein, so kannst Du sie nur dreiste<lb/>an untenstehende Adr: schicken.<metamark>_</metamark> Wenn<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>ich nach Braunschweig komme, werde ich<lb/>Alles wieder gut machen.<metamark>_</metamark> Nach Holzminden<lb/>habe ich schon geschrieben.<metamark>_</metamark> Schreibe mir<lb/>bald wieder u. grüße Herrn u. Mad.<lb/>Löwenthal u. Alles was im Hause ist.</p>
+            <lb/>
+            <p rendition="#et">Dein Julius.</p>
+            <lb/>
+            <p rendition="#et">Meine Adr. ist:</p>
+            <lb/>
+            <p rendition="#et">An das Kommando des herzogl.<lb/>Braunschw. Inf. Regiment<lb/>
+               <space dim="horizontal"/>1 tes Bataillion 3 te Kompagnie<lb/>für den Vice⸗Sergant J. Rothgiehser.<lb/>
+               <space dim="horizontal"/>in<lb/>
+               <space dim="horizontal"/>Schleswig Holstein.</p>
+            <lb/>
+            <p>(Paquete von 6 ℔ u. alle Briefe sind <lb/>für uns <hi rendition="#u">frei</hi>.)</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

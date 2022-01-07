@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 89: Carl Tettschlag (Mannschaften?), 30.07.1866, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Carl</surname>
+                  <forename>Tettschlag</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 89 von Carl Tettschlag, 30.07.1866.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 89: Carl Tettschlag (Mannschaften?), 30.07.1866, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Carl</surname>
+                        <forename>Tettschlag</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1866-07-30">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="89">
+            <head>
+               <supplied>SB-Nr. 89: Carl Tettschlag (Mannschaften?), <date when="1866-07-30">30.07.1866</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p rendition="#et">Beierdorf den 30 Julius 1866.</p>
+            <lb/>
+            <p rendition="#et">Inigvielgeliebte Wilhelmiene u. Schwager,<lb/>Mit Sehnsuchtvollen Herzen und freuden ergreife<lb/>Ich die Feder um an dich gutes Herz zu schreiben<lb/>mein Wunsch und meine Hoffnung ist das dich<lb/>und alle mein schreiben bei der besten gesundheid<lb/>antrefen möge, was mich anbetrift bin ich ja auch noch<lb/>Gottseidang so weid gesund, Liebe Wilhelmiene deinen<lb/>lieben brif habe ich richtig erhalten am 27 Julius. wo ich <lb/>mich sehr darüber gefreut habe. das ihr noch alle gesund seid<lb/>Ach nun die lieben meinigen kann ich euch mit Teilen<lb/>das das Feinde hehr gestelt worden ist, Und mein Herz<lb/>schohn vorfreuden schlegt, das ich dich Treuiniggeliebte Wilhelmiene<lb/>wieder in meine Arme ein schließen kann, es wirt<lb/>wohl noch eine weile Dauren aber die hoffnung ist doch<lb/>da, Wir Zwar 150 Meilen Entfernt es ist eine schöhne<lb/>Strecke, Nur wihr haben doch misen den Weg sehr zu<lb/>uns reißen mit Schwerter um Eissen durch Kämfen<lb/>Viele Trübe Wochen Tag und Stunden Todes Angst Hunger<lb/>und Durst Hitze und viele viele Nächte auf der Nassen<lb/>Erde gelegen, Und der <add place="superlinear">
+                  <metamark/>liebe</add> Gott hat mich allees holfen über<lb/>winden, Und der liebe Gott wirt mich gewies ferner<lb/>wohl auf meinen Rück Marsch wo wir in Frieden<lb/>Maschieren vor unglük behüten und bewaren das ich in<lb/>mein Vatterland und bei euch die lieben meinigen <lb/>wieder kom̃en werde Und es thut mich auch nicht leid das<lb/>Ich Diesen Feldzug mit gemacht habe, den ich möchte ja doch <lb/>Dienen ich konnte doch nicht zu Hause sein.<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+            </p>
+            <lb/>
+            <p>Und so habe ich doch gekämpft für euch und für unser<lb/>Vatterland Den wen da viele nicht mit wolten, und<lb/>Nur sich in die Lazarehte rum Drüken, Und wihr würden<lb/>dann geschlagen und der Feind Kehme in unser Land. ihr<lb/>mist euch das mann nicht soleicht vorstellen. Denn ihr<lb/>könnt euch dencken die starke Armee die geSchlagen worden<lb/>ist und unser Armee, wo wir gekom̃en sein dasiet es<lb/>schlecht aus den das Getreide war grade allens so in der<lb/>Blüte und war allens so vernichtet worden, die Leute haben<lb/>misen Entfliehen aus ihre Wonungen, und fiele die zurük<lb/>kehren nach ihre Wohnung die finden ihre Wohnung nicht<lb/>mehr. den weil Viele Dörfer <add place="superlinear">
+                  <metamark/>sind</add> nun soweit Geschoßen<lb/>worden sind wo die Leute Heimathsloß rumgehen<lb/>und fast nichts zu Essen haben Dennk nich wen das bei uns<lb/>geschehen wehr, so haben wir keinen Großen schaden von<lb/>den weil allees in Feindes Land geschehen ist. Auch<lb/>möchte ich da nicht Wohnen wo da Schlachten Gewesen sind<lb/>wo Tausendweis Pferde und viele Tausendweis von<lb/>Menschen Eingeschart worden sind. also können wihr<lb/>Got nicht genug Dannken das er uns so bei gestanden hat das, das<lb/>nicht in unser Land geschehen ist, Und das wir Solche Armee<lb/>Geschlagen haben, wo der Keiser von Östercher selbst müste<lb/>Um Frieden Bitten, Das wir Ihm seine Haupt Statd<lb/>Wien, nicht vernichten solten, Den sie war schwer zu<lb/>Nemen gewesen, aber wir haten sie doch gekricht, aber<lb/>es ist so besser das es zum Frieden gekom̃en ist. Den sonst<lb/>häte es noch viele Menschen würden kosten, Den wir häten<lb/>3 mal über die Dohnau misen, den die Dohnau fliest in<lb/>3 flüse vor Wienen. Der Frieden ist aber sehr Sigreich wieder<lb/>der Preusen aus gefallen, den es wird wieder ein ganzen<lb/>teil zu preusen werden, Den wir werden wohl halb Sachen<lb/>Nemen und Böhmen.<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+            </p>
+            <lb/>
+            <p>Aber ich kann euch auch mit Teilen das Preusen noch nicht<lb/>Solchen Feldzug gehabt hat: Den unser forgesetzten haben es<lb/>uns selbst gesagt das der 7 Jährige Krig den Fridrich der<lb/>Große gefürt hat. nicht so schlim gewesen ist. Auch nicht der<lb/>der Freiheit von 1813- u. 14+15, wir können uns mit<lb/>Recht Preusen Nenen, und können Stoltz darauf sein,<lb/>Sprachen unser Forgesetzten, Und ich muß selb sagen<lb/>es ist <del rendition="#s">es</del>ein Rum <add place="superlinear">
+                  <metamark/>und</add> Ehre wer da gesund mit davongekomen<lb/>ist, Den wen ich schon lage werde Tod sein und es<lb/>wird davon gesprochen, dann können unser Kinder<lb/>Sagen da war mein Vatter auch dabei, Gott kann<lb/>Ich aber nicht genug Dannken das er mir so beschüzt<lb/>hat von mir sind Neben Leute gefallen und hinter<lb/>Leute Kugel sind mir vorn Kopf vorbei gesumt<lb/>Kugel haben mir das Gewehr zerschlagen und der<lb/>liebe Gott hat mich beschüzt,<lb/>Heute haben wir Parade Gehabt vor seiner<lb/>Mayestät den Kinig hier bei Beierdorf vor Wien.</p>
+            <lb/>
+            <p>Kann sein das wir Morgen den Rück Marsch<lb/>antreten, Weitter Neues kann ich bis jezt nicht<lb/>schreiben Ich Grüße alle ins gesamt viel Tausend<lb/>
+               <add place="superlinear">
+                  <metamark/>mal</add> und dich liebe Wilhelmiene von Ganzen Herzen<lb/>mit <unclear reason="illegible" cert="high" resp="#MN">
+                  <hi rendition="#aq">Carchen</hi>
+               </unclear> und ich verbleibe Dein Dich Treulibender<lb/>Gathe bis in Tod <hi rendition="#aq">Carl Tettschlag</hi>.</p>
+            <lb/>
+            <p>Grüst mein Nachtbar Guten Morgen<lb/>
+               <hi rendition="#aq">Steinerten</hi> und last<space dim="horizontal"/>liebe Wilhelmiene wieder<lb/>euch von ihm was Sehen ist unser<lb/>erzehlen den der weis Hoffnung<lb/>auch wie es in der Welt<lb/>
+               <add place="superlinear">
+                  <metamark/>zu geht</add> auserdem grüst alle bekanten</p>
+            <lb/>
+            <p>C Tettschlag Zabel u.s.w.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

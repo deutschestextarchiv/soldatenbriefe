@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 6: Seiler (Offizier), 08.11.1757, Ostmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname/>
+                  <forename/>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 6 von Seiler, 08.11.1757.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 6: Seiler (Offizier), 08.11.1757, Ostmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname/>
+                        <forename/>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1757-11-08">1757</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="6">
+            <head>
+               <supplied>SB-Nr. 6: Seiler<note type="editorial">Vorname unbekannt</note> (Offizier), <date when="1757-11-08">08.11.1757</date>, <choice>
+                     <abbr>OMD</abbr>
+                     <expan>Ostmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Heilig ist unser Gott der Herre Zebaoth!</p>
+            <lb/>
+            <p>Meine Hertz Vielgeliebte Mama.</p>
+            <lb/>
+            <p>Obiges lob⸗ und Danck⸗lied hat unser König Selbst den 5. dieses Abends um 6 uhr mit seiner Armée auf der Wahlstatt bey Weißenfels dem Könige aller Könige zu Ehren angestimmet, da wir an diesem Tage von 3 biß 5 uhr Nachmittags den grösten Sieg über die vereinigte Franzöische Creyß Armée erfochten haben. Ich bin wieder ein Augen⸗Zeuge gewesen und ist die Cavallerie in Keiner bataille so zusammen gekommen als in dieser, doch freüet eüch mit mir, ich lebe noch und bin frisch und gesund Gott ewig zu danken! davon gekommen, unser General ist durchgeschoßen und wird schwerlich davon kommen, mein alter Obristlieutenant von Winterfeld ist stark am Haupte bleßirt, derselbe liegt in Merseburg dem Capitain von Wartenberg ist ein Pferd unter dem leibe todtgeschoßen; die Cavallerie hat wohl am meisten gelitten, doch werden es wohl keine 100 Mann überhaupt seyn. Die Infanterie wäre diesesmahl nicht nöthig gewesen, weil wir schon in der feindlichen Infanterie ein Hieben, wie die unsrige noch nicht aufmarchirt war. Der feindliche Verlust Hingegen ist ungleich größer, ich sage nicht zuviel, daß 6 biß 7000 Todte und bleßirte außer denen vielen Gefangenen und Deserteurs ein <hi rendition="#aq">numerus certus pro incerto</hi> sey, 57 Canonen habe ich den andern Morgen selbst gezählet, auch noch gestern 4 unterwegs angetroffen so sie haben müßen stehen laßen, da wir den feind biß Weimar verfolget haben auch noch in der Gegend auf dem Dorf Diesdorf stehen. Wir haben nechst Gott diesen Sieg keinem als dem General Seidlitz zu dancken, der es Ihro Mayst. den Tag vorhero wiederrathen den Feind anzugreifen, weil er in solcher Situation wie die Oestereicher bey Collin stunden, wir zogen uns also an dem Tage als den 4t zurück und bezogen unser lager, der Feind welcher glaubte, daß wir uns aus Furcht zurückzogen wurde dadurch Keck <del rendition="#s">und</del> verließ sein vortheilhaftes terrain und Kam den 5t auf uns loß uns zu attaquiren, Menschlichen Ansehen nach wäre es auch wohl möglich gewesen mit 66 000 Mann kaum <gap reason="illegible"/>0000 Preußen zu schlagen, doch war es in dem Rath der wächter anders beschloßen und wir schwache Preußen haben die starke frantzösche Armée wovon so viel in den Zeitungen ist geredet worden totaliter geschlagen, es kommen noch täglich Deserteurs an, denn die gantze Creyß und Reichstrouppen sind auseinander und heißt es so mancher Knecht so mancher Weg und glaube schwerlich daß solche wieder werden zusammen kommen. Unser Bruder Hermann ist in Wittenberg von wo er ich ein Schreiben von demselben nebst einer Einlage von dem Prediger erhalten habe, worin ich deßen gute Gesinnung gegen Mich in Ansehung Meiner Equipage Gelder zu schaffen ersehen habe, itzo brauche es noch nicht als biß wir werden in die winter quartiere kommen, wo solche aber noch seyn werden steht noch ins weite Feld. Ich schließe hiermit wenn ich Meinen Bruder den Prediger in Gedanken küße, Fritzen und den Necks zu Borsekow grüße Meine allerliebste Mama aber versichere, daß ich bis in meinen Todt sey und bleibe</p>
+            <lb/>
+            <p rendition="#et">Dero gehorsamster Sohn <lb/> Lt. Seiler.</p>
+            <lb/>
+            <p>Diesdorf bey Eckersberg den 8t Novb. 1757</p>
+            <lb/>
+            <p>P.S. Gott laße uns nur noch einmal in dieser Welt gesund zusammen kommen, da will ich euch so viel erzählen.</p>
+            <lb/>
+            <p>
+               <hi rendition="#et2 #aq">
+                  <space dim="horizontal"/>Madame<lb/> Madame Seilerin<lb/> née Meisterin<lb/> present<lb/> á <lb/> Schrepkow.</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

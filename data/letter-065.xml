@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 65: Julius Schulze (Mannschaften), 26.01.1864, Westmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Julius</surname>
+                  <forename>Schulze</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 65 von Julius Schulze, 26.01.1864.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 65: Julius Schulze (Mannschaften), 26.01.1864, Westmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Julius</surname>
+                        <forename>Schulze</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1864-01-26">1864</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="65">
+            <head>
+               <supplied>SB-Nr. 65: Julius Schulze (Mannschaften), <date when="1864-01-26">26.01.1864</date>, <choice>
+                     <abbr>WMD</abbr>
+                     <expan>Westmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Stolpe</hi> den 26/1 64.</p>
+            <lb/>
+            <p rendition="#et">Lieber Vater!</p>
+            <lb/>
+            <p>Deinen Brief nebst Haarsohlen habe ich richtig<lb/>erhalten, und <del rendition="#s">habe</del>sie sofort in die Stiefel gelegt<lb/>und habe jetzt immer einen warmen Fuß.<lb/>Ich musste für den Brief 8 Schillinge bezahlen,<lb/>weil nicht die richtige Adresse daraufstand.</p>
+            <lb/>
+            <p>Meine Adresse ist: „An den Drag: <hi rendition="#aq">J. Sch.</hi>
+               <lb/>
+               <space dim="horizontal"/>2<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">te</reg>
+               </choice> W: Westph. Drag. Regt: Nro. 7., <unclear reason="illegible" cert="high" resp="#MN">*W</unclear>
+               <lb/>
+               <space dim="horizontal"/>mobiles kombinirtes Armee Corps<lb/>
+               <space dim="horizontal"/>6<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">te</reg>
+               </choice> Division. Feldpostbrief.</p>
+            <lb/>
+            <p>Wir sind jetzt in die Contenements-Quartiere<lb/>eingerückt und denken hier vorläufig zu blei⸗<lb/>ben.</p>
+            <lb/>
+            <p>Von <hi rendition="#aq">Schlesswig</hi> sind wir ungefähr 5 Meilen<lb/>ab und rücken am 1<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">ten</reg>
+               </choice> Februar dorthin.<lb/>Die Quartiere sind hier sehr gut und <add place="superlinear">
+                  <metamark/>wir</add> werden<lb/>aufs Beste empfangen, in jeder Stadt und<lb/>Dorf stecken Fahnen heraus und die Kinder<lb/>haben blau, weiß, rothe Schleifen an. Mützen u.s.w.<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>zu stecken, in Mecklenburg, Lauenburg hatten<lb/>wir sehr schlechte Quartiere.</p>
+            <lb/>
+            <p>Aus <hi rendition="#aq">Stendal</hi> kommen oft, Sendungen von<lb/>Strümpfen, Hosen, Jacken u.s.w. und werden<lb/>hier an uns vertheilt; ich habe neulich ein paar<lb/>Strümpfe bekommen, welche aber schon getragen<lb/>sind und nicht viel Werth haben, auch ist gestern<lb/>eine Partie Unterhosen und Jacken angekom̃en<lb/>wo von diejenigen welche bekommen, die keine<lb/>haben. Schreib mir doch in deinem nächsten<lb/>Briefe, ob ich, <hi rendition="#aq">Friedrich</hi> u.s.w. von <hi rendition="#aq">Burg</hi> etwas<lb/>Unterzeug bekomme, sonst melde ich mich hier zu<lb/>einer Jacke und Hose.</p>
+            <lb/>
+            <p>Ich bin ein Wenig vom Schreiben abgelöst, <add place="superlinear">
+                  <metamark/>weil es zu viel ist</add>
+               <lb/>und muss nur bloß zum Stab reiten, um<lb/>Befehle zu holen.<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+            </p>
+            <lb/>
+            <p>Seit vorgestern haben wir Mittagwind<lb/>und fortdauernden Regen.<lb/>Ich will hier mit schließen und hoffe<lb/>dass Dich sowie Mutter, <hi rendition="#aq">Hermine Paul<lb/>Hermañ</hi>, <hi rendition="#aq">Pauline</hi> u.s.w. der Brief<lb/>gesund und munter antrifft u. ich bin<lb/>jetzt im̃er noch kreutz fidel und denke<lb/>jeden Tag an Euch und, wenns man erst<lb/>losgeht, drauf freuen will ich schon. <lb/>Sagt man zu <hi rendition="#aq">Paul</hi> und <hi rendition="#aq">Hermañ</hi>
+               <lb/>sie sollen machen, dass sie groß werden,<lb/>damit sie hier mitfechten können</p>
+            <lb/>
+            <p>Grüß <del rendition="#s">also</del>ganz <hi rendition="#aq">Burg</hi> von<lb/>
+               <lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">Julius</hi>
+               <lb/>
+               <space dim="horizontal"/>Dragoner</p>
+            <lb/>
+            <p rendition="#et">Jede Kugel macht kein Loch.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

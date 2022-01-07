@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 60: Franz Duschl (Mannschaften), 05.06.1850, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Franz</surname>
+                  <forename>Duschl</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 60 von Franz Duschl, 05.06.1850.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 60: Franz Duschl (Mannschaften), 05.06.1850, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Franz</surname>
+                        <forename>Duschl</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1850-06-05">1850</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="60">
+            <head>
+               <supplied>SB-Nr. 60: Franz Duschl (Mannschaften), <date when="1850-06-05">05.06.1850</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p rendition="#et">Vielgeliebteste Älltern!</p>
+            <lb/>
+            <p>Sehet an die schöne Krazerstadt mit den Höhen<lb/>
+               <space dim="horizontal"/>Schlossberg.</p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Gratz am </hi>5<hi rendition="#sup #uu">ten</hi> Juni 1850.</p>
+            <lb/>
+            <p rendition="#et">Liebe Älltern!</p>
+            <lb/>
+            <p>Mein neueres Betragen zwiengt mich, Euch wieder einmahl<lb/>Nachricht geben von meinen Befinden. Liebste Älltern<lb/>und Bruder und Schwester ich grüße Euch alle recht<lb/>herzlich, und wünsche, daß Euch mein Schreiben in<lb/>bester Gesundheit antrefen werde. Ich hatte schon<lb/>zwey Mahl geträumt ich hätte <unclear reason="illegible" cert="high" resp="#MN">dich</unclear> liebe Mutter<lb/>zum Grabe begleiten sehen. Ach daß währe wohl für<lb/>einen so weit entferten Sohn ein schauderhafter<lb/>Zustand. Gott wierd mir dieses traurige Schicksall<lb/>nicht zugesendet haben, daß Ihr Eins ohne meine<lb/>Augen von dieser Welt wegscheuden müßtet.<lb/>Ich bitte Gott, alle Tage, daß er mich und Euch eine<lb/>volle Gesundheit schencken <gap reason="illegible"/> alle<lb/>
+               <gap reason="illegible"/> neuen Tag bey <gap reason="illegible"/>
+               <lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+            </p>
+            <lb/>
+            <p>Liebe Älltern ich bin ihmer Gesund, und bin noch nie eine virtel<lb/>Stunde in Spietahl gewesen. Ich bin noch ihmer bei meinem<lb/>Hauptman, er ist etwas schlimer geworden, aber seine<lb/>Mutter ist jetzt so gut, und gibt mir das Essen zu<lb/>Mittag, da muß ich einen Kamerdiener machen, ich muß<lb/>alles auftragen und wegräumen.</p>
+            <lb/>
+            <p>Die Neuigkeiten sind in Steyermarck sehr wenig, ich weiß<lb/>sonst gar nichts zu schreiben, als das den neunten Mey<lb/>unser geliebter Keiser Franz Josef in Kraz gewesen<lb/>ist. Die ganze Stadt war beleichtet, ich habe nicht bald<lb/>so was schöneres gesehen als wie dieses. Sie haben ihm<lb/>auch ein schönes Lied gedicht.</p>
+            <lb/>
+            <p>Ein Schütz steht auf den Alpenschnee,<lb/>Und sieht einen Adler ziehen<lb/>Legt an die Lüfte, doch sehnt sie jeh,<lb/>Und spricht <gap reason="illegible"/> weiter fliehen!<lb/>Ihm Thal dort kom̃t der Keiser gleich<lb/>Schon seh ich die Tücher wallen<lb/>Der führt den Adler von Östereich;<lb/>Heut darf kein Adler fallen.</p>
+            <lb/>
+            <p>Dieser Schütz hat ihm schon vom weiten auf den Dampfwagen<lb/>
+               <del rendition="#s">schon</del>daher fahren sehen, da sind kleine Standaren ausge<gap reason="illegible"/>
+               <lb/>gewesen, darum heißt es, er sieht die Tücher wallen.<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+            </p>
+            <lb/>
+            <p>Liebe Älltern, was glaubet Ihr, soll ich mein Kleid ver⸗<lb/>kaufen lassen oder nicht, den es ist so, ich hoffe mier<lb/>nicht bald einen Urlaub, und es wierd mir auch viel zu<lb/>klein seyn worden, mein Bruder wierd es noch nicht<lb/>brauchen können, es wierd ihm noch zu groß seyn,<lb/>besonders der Mantel, wenn der Vatter den Mantel<lb/>wenn der Winter wieder anrückt verkaufen tähte;<lb/>Aber den Hud nicht den behalt ich, <del rendition="#s">und</del>den um<lb/>das Geld bekom̃t man zu alle Zeiten was.</p>
+            <lb/>
+            <p>Liebe Älltern ich lasse euch meine Freunde und<lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">Fiermgöthenleute</unclear> recht herzlich grüßen; und wün<lb/>sche Ihnen alle ein langes und gesundes Leben.<lb/>Schreibet Ihr mier doch mier doch die Neuigkeiten welches<lb/>bei Euch gibt ein, und wie es meinen Vater<lb/>geht. Jetzt schließe ich mein Schreiben mit<lb/>schönen Gruß an Euch alle, und hoffe eine<lb/>baldiege Antwort von Euern Befinden mir zu<lb/>Schreiben, lebe ich und verbleibe Euer</p>
+            <lb/>
+            <p rendition="#et">gehorsamer Sohn<lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">Franz Duschl</hi>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

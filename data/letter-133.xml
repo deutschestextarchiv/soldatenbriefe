@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 133: Joachim Paul (Mannschaften), 13.11.1870, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Joachim</surname>
+                  <forename>Paul</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 133 von Joachim Paul, 13.11.1870.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 133: Joachim Paul (Mannschaften), 13.11.1870, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Joachim</surname>
+                        <forename>Paul</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1870-11-13">1870</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="133">
+            <head>
+               <supplied>SB-Nr. 133: Joachim Paul (Mannschaften), <date when="1870-11-13">13.11.1870</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Montes den 13ten November 1870.</p>
+            <lb/>
+            <p rendition="#et">Liebste Katharina!</p>
+            <lb/>
+            <p rendition="#et">Deinen Brief habe ich erhalten und<lb/>daraus gelesen das dein Bruder gefangen<lb/>sein soll.</p>
+            <lb/>
+            <p>Das kan ich nicht <add place="superlinear">
+                  <metamark/>glauben</add> ich kan Dir da weiter<lb/>keine Ausku<add place="superlinear">
+                  <metamark/>n</add>ft schreiben als das die<lb/>die Ersatzmanschaft von 9ten Jagerpar⸗<lb/>talion den 27ten September in Sankt<lb/>miechel durch Maschiert sind, wo ich<lb/>grat von der Wache abgelößt wurde<lb/>und Sie Maschierten vor uns vorbei<lb/>und ich sah in nur mit einem Blik<lb/>und jetzt sind Sie in Olians wir<lb/>sind 36 bis 40 Stunden auseinander.</p>
+            <lb/>
+            <p>Er hat vieleicht keine Zeit zu<lb/>schreiben, es wierd bei denen sein<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>als wie bei uns wen wier schreiben<lb/>so muß bei der Nacht schreiben beim<lb/>Tag hat man keine Zeit.</p>
+            <lb/>
+            <p>Wier sind jetzt 4 Wochen in Montes<lb/>und haben viel zu thun mit die<lb/>Freischaler, beim Tag haben wier fast<lb/>ein Gefecht und bei der Nacht stehen<lb/>wier auf Vorposten.</p>
+            <lb/>
+            <p>Liebste Katharina es ist nun 3 Monate<lb/>das ich von Dir entfernt bin und<lb/>habe schon viel ausgestanden, und<lb/>hofe das mich der liebe Gott beschützet<lb/>bis ich kan zurükeren zu Dir und<lb/>bei Dir wieder froe Tage Erleben kan.<lb/>Ach wen ich Denke an die froen Stunden<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>wo wier so frölich besamen waren.<metamark>_</metamark>.<lb/>es feld mir das Herz so schwer und<lb/>die Hand wird mir so schwer das ich<lb/>kan die Feder nicht mer halten.</p>
+            <lb/>
+            <p>Ich Schließe mein schreiben mit vielen<lb/>Grüßen an Deine Eltern und Brüder<lb/>und verbleibe dein.</p>
+            <lb/>
+            <p rendition="#et">Dich<lb/>
+               <space dim="horizontal"/>Liebender Paul.<lb/>
+               <space dim="horizontal"/>Joachim.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

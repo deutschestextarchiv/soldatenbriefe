@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 11: Johann C. Riemann (Mannschaften), 16.06.1762, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Johann</surname>
+                  <forename>C. Riemann</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 11 von Johann C. Riemann, 16.06.1762.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 11: Johann C. Riemann (Mannschaften), 16.06.1762, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Johann</surname>
+                        <forename>C. Riemann</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1762-06-16">1762</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="11">
+            <head>
+               <supplied>SB-Nr. 11: Johann C. Riemann (Mannschaften), <date when="1762-06-16">16.06.1762</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Gott zum Grus</p>
+            <lb/>
+            <p>Meine Lieben Vettern und <unclear reason="illegible" cert="high" resp="#MN">B</unclear>eschen und alle insgesamt Wertheste lieben Freunde insonders auch Hertzvielgeliebste Schwester.</p>
+            <lb/>
+            <p>Wenn euch diese meine wenige zeillen bey guter gesundheit und erwünschten wohlstande treffen wird, soll es mir lieb seyn. was mich anbelanget so bin ich bis hieher durch Gottes allmächtige Hülfe noch immer gnädichlich erhalten bey gesunden gliedern aber sehr wunderlich zumahl wenn ich an die lieben Pfingsten gedenke Gott im Himmel sey es geklagt was das vor betrübte Tage waren, ich will so lange ich lebe daran gedenken. Canonen und Cardaunen Knal war unser Glocken Klang, Trompeten und Trommel Schall war unser Gesang, Marsch Marsch und Pardon unser Predigt und dabey nicht einmahl das liebe Brodt saat. Hertzviellgeliebte Schwester und auch allesamt werthesten Freunde ich mus mit überheufften Thränen euch die betrübte nachricht geben das in den betrübten Pfingst Tagen unser lieber Bruder Beniamin auch gelegenheit gegeben, den weg aus dieser welt zu suchen und ihn auch gefunden und den 7. Juni des abens aus dieser Welt in die Ewigkeit gegangen und liegt in das Städtlein Tumsen begraben zwieschen Torgau und Wittenberg. Die ursach seines Todes ist der unverhoffte überfall so geschehen im dorff Salteritzs ohnweit Geringswalda von den Feindlichen Truppen. Da hat er eine Plessur bekommen durch das linke Bein dabey ein starker Schwulst dazu gekommen, der ihn das licht dieser welt genommen, er ist aber verständig gewesen bis an sein Ende. ach lieber Gott, ich wollte ich wäre bey ihn, mit dausend Freuden wolt‘ ich den weg gehen, so müde als ich mein leben bin. mein Hertze möchte mir in dausend stücken springen, wenn ich den Brieff lese, den er mir geschrieben einen Tag vor seinen Ende und zu mir geschickt. so viell Freude er mir gemacht, da er in Gera zu mir kam, noch viel dausendmahl mehr Hertzeleit wird er mir machen, ich werde seiner nimmermehr vergeßen können, weill wir uns so gut vertragen konten und immer einer den andern Trost verschaffte. seinen abgang aus dieser welt habe ich beschrieben, wo er geblieben ist, wer wird den meinen beschreiben, wo ich nochmahl bleiben werde? Ey nun, es mag der liebe Gott thun, laßet uns mit unsers bruders Ehre trösten, er hat den ruhm in dieser welt gelaßen, das er als ein getreuer Krieges Knecht mit tapfern muth sein Blut vergoßen und Leben laßen vor sein recht, vor seines Königs Ehre, vor sein Vaterland und seine Bundesgenoßen und uns allen zu gute. Der liebe Gott gebe ihn die Ewige seligkeit davor, er ist aller noth entgangen und ist an den ort wo aller Krieg und Kriegesgeschrey ein Ende hat. ihn thut kein Canonen Knal mehr erschrecken. Hertzvielgeliebte Schwester <gap reason="illegible"/> so halte diesen unsers bruders abschit in Ehren und las ihn nicht von dir, damit du mahl sagen kanst, wo er geblieben ist in der welt. ich werde sehen wen ich mit Gottes Hülfe mahl zu dir wieder komme, ob du ihn noch wirst ausweisen können. sehen wir uns in dieser Welt nicht wieder Ey so mag es der liebe Gott machen wie er will, wir sehen uns doch gewis in jener Welt da aller Krieg und Kriegesgeschrey ein Ende hat, es ist gewis das wir uns alle da versammeln. unser lieber Bruder Beniamin ist gut begraben, er hat den Felscher vorher geld geben, der hat ihn ein hoch Sarg machen laßen und auch recht gut zur erden bestätiget, da habe ich mich recht über gefreuet. ich befehle dir liebe Schwester nebst alle Vettern und <unclear reason="illegible" cert="high" resp="#MN">B</unclear>eschen und alle insgesamt lieben Freunde in Gottes allmächtigen Schutz und ich bleibe euer getreuer Freund und Vetter und meine liebe Schwester ihr getreuer Bruder bis in den Todt und wenn ihr gelegenheit habt, so geth doch die betrübte Frau mit Trost zur Hand Insonders Hertzliebste Schwester, damit doch unsers Bruders nachgelaßenes Blut nicht gar verlaßen wird. Adje Lieben Freunde, Adje mein Hertzallerliebste Schwester, Adje mit Gottes Hülfe sehen wir uns wieder, geschieht es nicht hier so geschieht es doch gewis dort wo unser lieber Bruder ist. Johann Christian Riemann Musquetier unter den Hochlöblichen Genr. Mar. v. Jung Stutterheim Regiement bey das Herrn Capitain v. Borg Compagnie in der gegend zwieschen Frauenstein und Döplitzwalda in Lager bey Prätzschendorff d. 16. Juni 1762.</p>
+            <lb/>
+            <p>Dieser brieff zu kommen an Heinrich Röbern wird ihn eilend überschickt <lb/> Drucksberge</p>
+            <lb/>
+
+            <lg type="poem">
+               <l>Mein hertz möcht zerbrechen in stücken</l>
+               <lb/>
+               <l>wenn ich das Siegel hierauf muß drücken</l>
+               <lb/>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

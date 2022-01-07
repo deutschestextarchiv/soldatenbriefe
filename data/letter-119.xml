@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 119: Simon Marx (Mannschaften), 29.08.1870, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Simon</surname>
+                  <forename>Marx</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 119 von Simon Marx, 29.08.1870.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 119: Simon Marx (Mannschaften), 29.08.1870, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Simon</surname>
+                        <forename>Marx</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1870-08-29">1870</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="119">
+            <head>
+               <supplied>SB-Nr. 119: Simon Marx (Mannschaften), <date when="1870-08-29">29.08.1870</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Nanzig 29 August</p>
+            <lb/>
+            <p rendition="#et">Liebste Eltern;</p>
+            <lb/>
+            <p rendition="#et">Ich kan ihnen nun schreiben<lb/>das ich bereitz in Mitte des<lb/>feindlichen Landes bin und<lb/>wie es zu geht. Leider Gott⸗<lb/>es ist sehr schlim für uns den<lb/>wir verstehen keinen Menschen<lb/>mehr ihm reden wen wir<lb/>was wollen müssen wir imer<lb/>mit den Händen deutten und<lb/>bewegen und alles theuer<lb/>Das Geld ist auch ganz anders<lb/>ein Laib Brod der 6 Pfund<lb/>wiegt kostet einen Gulden<lb/>nach unßere Geld dan ist es<lb/>ein Brod wie bei uns <lb/>Die Offen nudeln und ganz<lb/>Schwäme nicht gesalzen das<lb/>Wasser ganz sonders<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>Bier gibt es Einzellnes da<lb/>kostet die Maß 24 Kreuzer<lb/>Wein gibt es genug den<lb/>Schoppen zu 6 Kreuzer aber<lb/>wir sind ihn nicht gewönht<lb/>Das Klima sehr ungesund<lb/>Es ist bisher imer kalt das<lb/>wir meine wir müßen<lb/>erfrieren Ich bin auch<lb/>schon 4 Tage sehr kranck<lb/>gewessen. Jezt Gott sei Dank<lb/>geht es wieder besser Die<lb/>Leutte in der Stadt und<lb/>Umgebung sind sehr falsch mit<lb/>uns wo wir hinkamen ist<lb/>alles fort die Häuser gesperrt<lb/>und die Leute in den Wald<lb/>Liebste Eltern ich kan ihnen<lb/>schreiben das uns die Leute<lb/>bei der Nacht recht verfolgen<lb/>und uns auf das Leben gehn<lb/>wen wir so bei der Nacht<lb/>draußen sind es werden sehr<lb/>vielle erschoßen von diesen<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>Leutten. Wie lange es noch so<lb/>fortgeht und wo wir noch hin⸗<lb/>komen weis ich nicht Vielleicht<lb/>wißt ihr mehr als ich den wir<lb/>bekomen gar keine Nachrichten<lb/>mehr. Und keinen Brief hab<lb/>ich von euch schon lange nicht<lb/>mehr erhalten schreibt mir<lb/>auf wen ihr Zeit habt aber<lb/>ich weis nicht bekome ich ihn<lb/>oder nicht Geld kan man nicht<lb/>genug brauchen Hunger und<lb/>Durst müßen wir leiden<lb/>das wir möchten verschmachten<lb/>und vergehen Mehr kan ich Euch<lb/>nicht schreiben als das ich hoffe<lb/>wen nun bald ein Ende herging<lb/>den 66 und jezt das ist ein<lb/>großer Untterschied Einen<lb/>schönen Gruß an Euch alle<lb/>Mein schreiben beschließe ich<lb/>verbleibe </p>
+            <lb/>
+            <p rendition="#et">Ihr<lb/>
+               <space dim="horizontal"/>Gehorsamster<lb/>
+               <space dim="horizontal"/>Sohn Simon Marx</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+            <p>Meine Adresse</p>
+            <lb/>
+            <p>Soldat Simon Marx<lb/>5<hi rendition="#sup">te</hi> Landwehr Baon<lb/>1<hi rendition="#sup">te</hi> Compangeni<lb/>
+               <space dim="horizontal"/>in der<lb/>mobilen Armee</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

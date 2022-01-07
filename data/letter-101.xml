@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 101: Gottfried Schüller (Mannschaften), 15.06.1866, Westmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Gottfried</surname>
+                  <forename>Schüller</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 101 von Gottfried Schüller, 15.06.1866.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 101: Gottfried Schüller (Mannschaften), 15.06.1866, Westmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Gottfried</surname>
+                        <forename>Schüller</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1866-06-15">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="101">
+            <head>
+               <supplied>SB-Nr. 101: Gottfried Schüller (Mannschaften), <date when="1866-06-15">15.06.1866</date>, <choice>
+                     <abbr>WMD</abbr>
+                     <expan>Westmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Erda den 15 Juni 1866.</p>
+            <lb/>
+            <p rendition="#et">Vielgeliebte meines Herzens!!!</p>
+            <lb/>
+            <p rendition="#et">
+               <add place="superlinear">
+                  <metamark/>In</add> Der größten Eile ergreife ich die Feder einige Zeilen<lb/>an Dich zu schreiben. Deinen werthen Brief habe ich erhalten<lb/>und gesehn daß Du noch gesund bist was mir sehr freut.<lb/>Eben vor einer halben Stunde wir waren im Begriff nach dem<lb/>Exier Platz zu maschieren kommt plötzlich Befehl nach Hause<lb/>zu maschieren und uns jeden Augenblick bereit zu halten wenn<lb/>Generalmarsch geschlagen würde mit Sack und Pack auszu<lb/>rücken wohin wissen wir nicht. Liebe Helene Du kannst<lb/>Dir denken wie es mir zu Muthe ist. Könnte ich noch einmal<lb/>eine Stunde bei Dir sein um Dir die Hand zum letzten<lb/>Male zu drücken. Ich habe bis jetzt noch immer auf Frieden<lb/>gewehnet aber jetzt glaube ich daß es drüber los geht. Heute<lb/>den 15 sollte ja die Wahl sein aber hier wird soviel gesagt<lb/>man Alles nicht glauben. Wir liegen hier in Erda schon seit<lb/>Mittwoch über drei Wochen im Quatier ich wollte wir könnten<lb/>nur hier bleiben denn die Quatiere sind ziemlich gut. Hier ist<lb/>Alles evangelisch aber hier ist eine Tracht besonders unter den<lb/>Frauenzimmer Du müßtest zurück lachen wenn Du sie<lb/>
+               <fw type="folNum" place="bottom">[1]</fw> 
+               <lb/>sehen würdest wenn Du keine Lust dazu hättest. Die Rekruten<lb/>werden auch diesen Monat schon eingezogen. Es ist zwar noch<lb/>nicht zu kennen aber ich glaube ich glaube jetzt nicht mehr an Frieden<lb/>der östereichsische Gesandte ist von Berlin abgereist. Dein schönes<lb/>Gedicht hat mir sehr gut gefallen. Es grämt mich aber sehr ich habe<lb/>meiner Schwester in Dohlen noch keine Antwort und auch meiner<lb/>andern Schwester noch und auch meiner Tante nicht von Mörs<lb/>habe ich am Sonntag noch einen bekommen Liebes Lenchen<lb/>schreibe mir aber sofort Antwort denn ich verlange<lb/>und auch was in Dohlen Neues ist. Ich einen Dohler bei unser<lb/>Komp. der Karl Hermges vom Markt. Meiner Schwester kannst<lb/>Du sagen lassen es wäre nicht schön daß Sie mir noch nicht einmal schreibe<lb/>es würde los gegehen. Ich höre jetzt grade das um zehn Uhr<lb/>Generalmarsch geschlagen wird es sei jetzt acht Uhr meine<lb/>Hand sie zittert entschuldige mein schlecht Schreiben. So<lb/>oft <del rendition="#s">mit</del>Morgens Reweilgeschlage und Abends<lb/>Zapfenstreich denk ich an Dich. Sollte es los gehen und ich<lb/>sollte fallen so gedenke meiner in jener Welt wenn Du die<lb/>Trauerordre erhälst. Alle Kugeln treffen zwar nicht davon abge<lb/>sehen. Hiermit schieße Ich in der Hoffnung dass Dich mein<lb/>
+               <del rendition="#s">s</del>Schreiben so gesund antrifft wie es mich verläßt. Grüße<lb/>Dein Bruder Mathias August u.s.w. Es grüßt Dich viel<lb/>Tausendmal Dein Dich <del rendition="#s">l</del>innigst liebender <hi rendition="#aq">Gottfried</hi>
+               <lb/>Meine Adresse bleibt wie früher<space dim="horizontal"/>
+               <hi rendition="#aq">Schüller</hi>
+               <lb/>Ich hoffe Sehr bald auf Antwort.<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+            </p>
+            <lb/>
+            <p>Lebewohl auf Wiedersehn Sei so gut und lasse der Wittwe<lb/>Oder auf E. m.g. Hormges sagen wir wären hier<lb/>
+               <space dim="horizontal"/>for gerückt aus Erda heraus<lb/>
+               <space dim="horizontal"/>Wetzlar und einen Gruß von</p>
+            <lb/>
+            <p rendition="#et">Karl</p>
+            <lb/>
+            <lg type="poem">
+               <l>Lebe wohl ob wir uns wiedersehn</l>
+               <lb/>
+               <l>Weiß nur der der unser Schicksal lenkt</l>
+               <lb/>
+               <l>Wenn die Sonn erwacht, will ich Deiner flehen</l>
+               <lb/>
+               <l>Flehe Du für mich wenn sie sich senkt</l>
+               <lb/>
+               <l>Die Errinnerungen an Dich begleiten</l>
+               <lb/>
+               <l>Wie ein Schatten mich bis an mein Grab</l>
+               <lb/>
+               <l>Und die heißen Sehnsuchtsthränen gleiten</l>
+               <lb/>
+               <l>Mir die Wangen <unclear reason="illegible" cert="high" resp="#MN">fallend</unclear> noch hinab.</l>
+               <lb/>
+            </lg>
+            <p>Die Briefe kosten Dir jetzt nichts mehr</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

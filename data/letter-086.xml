@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 86: Wilhelm Radermacher (Mannschaften?), 21.07.1866, Westmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Wilhelm</surname>
+                  <forename>Radermacher</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 86 von Wilhelm Radermacher, 21.07.1866.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 86: Wilhelm Radermacher (Mannschaften?), 21.07.1866, Westmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Wilhelm</surname>
+                        <forename>Radermacher</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1866-07-21">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="86">
+            <head>
+               <supplied>SB-Nr. 86: Wilhelm Radermacher (Mannschaften?), <date when="1866-07-21">21.07.1866</date>, <choice>
+                     <abbr>WMD</abbr>
+                     <expan>Westmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>der 21 Julie</p>
+            <lb/>
+            <p>Soeben habe den Geldbrief erhalten mit 3 Thr<lb/>und gesehen das ihr noch Alle gesund seid wier liegen hier schon den<lb/>3 tag in einen Biwak auf einer Stelle und warten auf Friede<lb/>Es wird sich heute oder Morgen endscheiden ob es friede giebt<lb/>oder noch mehr Krieg wenn es Aber noch mehr Krieg Giebt dann geht es<lb/>Schlecht für uns den wier liegen hier 2 Stunden vor der Schanze<lb/>den die Östreicher haben sich 4 Stunden vor Wien<lb/>Verschanzt und wenn wier die Schanze mit Sturm einnehmen<lb/>dan geht es uns Schlecht. Aber wier warten Alle auf frieden<lb/>das es doch der liebe Gott gebe. Ich habe mich gefreud über<lb/>das Geld den wier bekomen nur den tag 18 Pfennig<lb/>das ist Schnell auf nun ich weis das Wenn ihr mir mit Geld<lb/>helfen könntet dann war ich gewiß zu Hause Aber das geht<lb/>nicht Ich mus halten bis ans Ende. Ich tröste mich an mein<lb/>Sieben Kameraden. Heute Mitag als ich am Schreiben war<lb/>und der Danil Daniel Becher von Benroth war<lb/>Am Kochen den wier beiden Kochen zusammen Als ich den ich<lb/>13 Reihen geschrieben hate da wurden wier Alamirt da musten<lb/>wier das Essen weg schütten und Uhmhängen da solten wier<lb/>gleich vor Rücken auf die Schanze los Als wir zirka 100<lb/>Schritte aus dem Biwak waren da kam Befehl das wird wieder<lb/>Ins ins Biwak solten gehen da war es ein gejubel vor freude<lb/>das wier noch nicht vor brauchten denn das Schießen ist uns<lb/>laßt balt Alle leid. das wier auf die Arme Östreicher Schießen<lb/>und sie auf uns und wier haben uns nie gesehen das thut mir leid<lb/>Ob es friede gibt wießen wier noch nicht. wenn du aber wieder<lb/>Schreibst dann Schreibe aber deinen Volständigen<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>Namen hinden auf den Brief das heist deine Adreße<lb/>denn wenn ich von hier einen Brief Schreibe und ich bekomme<lb/>Antwort von dier auf den Brief das dauert immer 20 bis<lb/>24 tage. Wenn es jetzt friede gibt dann sind wier in der<lb/>Zeit zu Hause deshalb Schreibe deinen Namen hinden<lb/>auf den Brief dann kommt der Brief wieder zurük und sonst<lb/>wird er noch auf gebrochen. Ich habe noch immer Hofnung<lb/>dich wieder zu sehen. Ach dann können wier Gott nicht genug<lb/>Danken dafür. Glaube mir doch wenn ich auch ein hohes<lb/>Alter erreichen dan vergeße ich doch nie dieses<lb/>Krieges. Grüße mir meine Mutter die jetz Wittwe ist<lb/>und meinen lieben Bruder Heinrich. sage ihm wenn ich wieder<lb/>bin in Kamen dann solte er auch freude an mir haben<lb/>ich kann mir es vorstellen wie es den zu Muthe ist.</p>
+            <lb/>
+            <p>Gott wird uns wohl helfen das wier wieder beisamen kommen<lb/>Ich nehme mir manchmahl vor wenn der liebe Gott wieder<lb/>nach Hause führt ich wolte es ihm nie vergeßen Ach wenn<lb/>mir der liebe Gott noch den Gedanken lies.</p>
+            <lb/>
+            <p>Ich bin noch gesund und munter. Sei nur gutes Muths<lb/>und Traue auf Gott denn ich weis du hast jetzt eine<lb/>dobelte Schwere zeit.</p>
+            <lb/>
+            <p rendition="#et">Es grüst dich dein getreuer <lb/>
+               <space dim="horizontal"/>Wilhemmel<hi rendition="#aq"> Radermacher</hi>
+               <lb/>
+               <space dim="horizontal"/>bis in todt</p>
+            <lb/>
+            <p rendition="#et">Grüße mir deine Eltern.<lb/>
+               <space dim="horizontal"/>und Nachbaren.</p>
+            <lb/>
+            <p>Ich denke jetzt<lb/>manchmal an unsern<lb/>decks den wir gehabt<lb/>haben. Laßet<lb/>eure Lenden<lb/>Lenden uhmgürtet<lb/>und euer Licht brennen.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[2]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

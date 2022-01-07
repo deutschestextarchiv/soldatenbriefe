@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 83: Wilhelm Werk (Mannschaften), 01.07.1866, Ostmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Wilhelm</surname>
+                  <forename>Werk</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 83 von Wilhelm Werk, 01.07.1866.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 83: Wilhelm Werk (Mannschaften), 01.07.1866, Ostmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Wilhelm</surname>
+                        <forename>Werk</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1866-07-01">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="83">
+            <head>
+               <supplied>SB-Nr. 83: Wilhelm Werk (Mannschaften), <date when="1866-07-01">01.07.1866</date>, <choice>
+                     <abbr>OMD</abbr>
+                     <expan>Ostmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Im Biwak vor der Böhmischen Festung <hi rendition="#aq">Josephstadt</hi> am 1ten July 1866</p>
+            <lb/>
+            <p rendition="#et">Geliebte Mutter!</p>
+            <lb/>
+            <p rendition="#et">und Geschwister!</p>
+            <lb/>
+            <p>Nachdem nun nach dem Rathschluß des Allmächtigen Gottes der Krieg zum<lb/>Ausbruch gekom̃en ist ergreife ich nochmals die Feder da ich jetzt nicht<lb/>mehr oft werde Zeit haben zu schreiben um Dir etwas von meinem<lb/>jetzigen Befinden mitzutheilen da es überhaupt beim Höchsten steht ob<lb/>es das letzte Mal sein dürfte, auch habe ich noch mitzutheilen daß ich<lb/>schon einen Brief aus dem Biwak bei <hi rendition="#aq">Neisse</hi> wo wir 8 Tage lagen<lb/>an Dich geschrieben habe und da ich noch keinen von Dir habe glaubte<lb/>ich es könnte einer verloren gegangen sein. Am Sonntag früh heute<lb/>vor acht Tagen rückten wir von <hi rendition="#aq">Neisse</hi> aus und zwar über Glatz<lb/>und Reinerz nach Böhmen woselbst wir gestern ankamen. die erste<lb/>Schlacht hatte schon zwischen dem 5. Armeecorps und 300000 Oestereichern<lb/>stattgefunden und zwar bei Nachhod, einer Oestereichschen Stadt und<lb/>begegneten uns unter Weges schon 4000 Gefangene welche von unse-<lb/>ren Leuten nach Glatz transportiert wurden unter andern 10 Oestereichi-<lb/>sche Geschütze, die Oestereicher hatten die Schlacht verloren und sich 6 Meilen<lb/>bis zur Festung <hi rendition="#aq">Josephstadt</hi> zurück gezogen, im Ganzen 10 Tausend Gefangene<lb/>und 6 Tausend Todte und Verwundete C<hi rendition="#sup #uu">a</hi> 16000 Mann <add place="superlinear">
+                  <metamark/>verloren</add>. Preußen 4 Tausend<lb/>Todte und verwundete verloren die Oestereicher stehen hinter der Festung<lb/>und müßen nun erst diese Festung nehmen, ehe wir dieselben weiter zurück<lb/>drängen was wir jedoch in 2 Tagen mit Gottes Beistand vollbracht zu haben<lb/>hoffen und gehen dann wahrscheinlich über Königgrätz nach Prag wo wir noch<lb/>12 Meilen vor uns haben. Gestern begann die Belagerung und wird die Beschießung<lb/>ununterbrochen fortgesetzt. auf dem Schlachtfelde bei Nachhod lag größtentheils<lb/>Infanterie, von Artillerie waren sehr wenig geblieben. Prinz Friedrich Karl<lb/>hat noch größere Siege errungen und ist Preußen Herr von Hannover Sachsen<lb/>Churhessen und einem Theil von Oesterreich und wenn der König aller Könige den<lb/>Preußen beisteht wie bis jetzt so wird der Krieg in ¼ Jahr beendet sein<lb/>
+               <space dim="horizontal"/>Gestern<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+            </p>
+            <lb/>
+            <p>Gestern früh um 5 Uhr wurden wir von unserem Frühstück abgehalten<lb/>
+               <gap reason="illegible"/> es kamen nämlich sämtlich Kollonnen und Furragewagen<lb/>in der Kariäre zurück gefahren mit dem Geschrei Oestereichscher Kavallerie<lb/>wir standen da wie versteinert, sprangen jedoch alle an unsere Ge-<lb/>schütze um uns durch Kartätschen zu währen, der Feind war jedoch<lb/>schon wieder zurück gedrängt worden, nun sattelten wir schnell<lb/>unsere Pferde und marschierten bis Josephstadt, es kom̃t soeben wieder<lb/>die Nachricht Prinz Friedrich Karl hat 5000 Oestereicher bei der Festung<lb/>gefangen genom̃en, die Oestereicher haben ihren Muth verloren und<lb/>bitten um 4 Wochen Waffenstillstand! sie bekom̃en aber<lb/>keinen sondern in 4 Wochen hoffen wir in Wien zu sein<lb/>in 5 oder 6 Tagen in Prag. Auf dem Schlachtfelde bei Nachhod lagen<lb/>die todten Oestreicher Haufenweise. Meine Kasse besteht noch<lb/>in 3 Thr ich brauche hier kein Geld mehr, für Geld bekom̃t<lb/>man hier gar nichts zu kaufen und hatten wir einige Tage keinen<lb/>Bissen Brod zu essen, sondern aßen lauter Rindfleisch und Kaffe<lb/>jetzt mit Zucker, Fleisch bekom̃en wir soviel wir essen mögen<lb/>und erhalten wir uns sowie unsere Pferde durchs plündern es<lb/>werden aber blos Lebensmittel und Furrage genom̃en sonst<lb/>nichts, Kühe und Schafe werden den Leuten weggenom̃en<lb/>und geschlachtet, wir sind bei der Reserve und marschieren hinten<lb/>mit 30 Geschützen und decken der Armee den Rücken es ist<lb/>daher wohin wir kom̃en schon alles ausgestorben die meisten<lb/>Einwohner haben ihre Möbel ausgeräumt weil sie glauben<lb/>wir würden alles anzünden und haben sich in die Wälder geflüchtet.</p>
+            <lb/>
+            <p>Wir liegen nun natürlich immerfort unter freiem Himel und<lb/>sind ganz lustig und heiter in der Hoffnung das der Feldzug schneller<lb/>wie wir glaubten beendet sein wird, da die Oestereicher große Furcht<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>
+               <space dim="horizontal"/>vor uns haben und sich so schnell wie möglich zurückziehen.</p>
+            <lb/>
+            <p>Viele Grüße an Euch alle in der Hoffnung daß ich Euch später<lb/>wieder von Preußischen Siegen mittheilen könnte und uns<lb/>gesund wieder sehen könnten und verbleibe ich</p>
+            <lb/>
+            <p rendition="#et">Dein<lb/>
+               <space dim="horizontal"/>gehorsamer Sohn<lb/>
+               <space dim="horizontal"/>Wilhelm.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

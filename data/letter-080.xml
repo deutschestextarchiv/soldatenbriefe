@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 80: Hubert Schoepffer sen. (Offizier), 16.06.1866, Ostmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Hubert</surname>
+                  <forename>Schoepffer sen.</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 80 von Hubert Schoepffer sen., 16.06.1866.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 80: Hubert Schoepffer sen. (Offizier), 16.06.1866, Ostmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Hubert</surname>
+                        <forename>Schoepffer sen.</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1866-06-16">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="80">
+            <head>
+               <supplied>SB-Nr. 80: Hubert Schoepffer sen. (Offizier), <date when="1866-06-16">16.06.1866</date>, <choice>
+                     <abbr>OMD</abbr>
+                     <expan>Ostmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Klossdorf</hi> b. <hi rendition="#aq">Brieg</hi> d. 16 <hi rendition="#aq">Juni</hi> 66.</p>
+            <lb/>
+            <p rendition="#et">Liebe Eltern!</p>
+            <lb/>
+            <p rendition="#et">Nun bin ich auf einmal nicht weit von unse⸗<lb/>rer alten <hi rendition="#aq">schlesischen</hi> Heimath, nämlich zwischen<lb/>
+               <hi rendition="#aq">Brieg</hi> u <hi rendition="#aq">Strehlen</hi>, wohin wir gestern Morgen von<lb/>
+               <hi rendition="#aq">Brieg</hi> marschirten (über<hi rendition="#aq"> Mollwitz</hi>) nachdem wir 24<lb/>Stunden ununterbrochen auf der Bahn gefahren waren.</p>
+            <lb/>
+            <p>Die Fahrt war, namentlich in <hi rendition="#aq">Schlesien</hi>, ganz angenehm,<lb/>da wir namentlich in <hi rendition="#aq">Bunzlau</hi>, <hi rendition="#aq">Liegnitz</hi> u <hi rendition="#aq">Breslau</hi>
+               <lb/>von großem Publikum empfangen und bewirthet<lb/>wurden. Etwas müde kamen wir allerdings gestern<lb/>um 3 Uhr früh in <hi rendition="#aq">Brieg</hi> an, mußten jedoch gleich weiter<lb/>marschiren u. wurden auf dem 3stündigen Marsche bis<lb/>hierher so durchnäßt durch einen bis Abend dauernden<lb/>Landregen, daß unsere Sachen heute noch nicht trocken<lb/>sind u. wir noch im Mantel u. Paradehosen umherlaufen<lb/>müssen. Ich bin mit 12 Mann und einem Unteroffizier<lb/>im Quartier bei einem ziemlich begüterten jungen<lb/>Bauer, der selbst eingezogen ist, und dessen Mutter uns<lb/>sehr gut und reichlich bewirthet; mich versieht sie namentlich<lb/>recht gut, da ein verstorbener Sohn von ihr , der in <hi rendition="#aq">Bres</hi>⸗<lb/>
+               <hi rendition="#aq">lau</hi> das Abiturientenexamen machte, auch als <unclear reason="illegible" cert="high" resp="#MN">Volontär</unclear>
+               <lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>
+               <space dim="horizontal"/>gedient hat. Dienst haben wir bis jetzt hier noch<lb/>gar nicht gehabt; können uns also gehörig pflegen.</p>
+            <lb/>
+            <p rendition="#et">
+               <add place="superlinear">
+                  <metamark/>Sonntag.</add> Gestern Vormittag besuchte ich einen ½ Stunde von<lb/>hier wohnenden Förster, Namens <hi rendition="#aq">Stensdorf</hi>, in <hi rendition="#aq">Hohwald</hi>
+               <lb/>einen sehr netten alten Mann, der auch nach <hi rendition="#aq">Neustadt</hi>
+               <lb/>commandirt <add place="superlinear">
+                  <metamark/>war</add> u. dort mit vielen jetzigen Oberförstern<lb/>verkehrt hat z.B. auch mit <hi rendition="#aq">Olberg</hi>, <hi rendition="#aq">Thilo v. W. etc</hi>, von<lb/>denen er viel zu erzählen wußte.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Die ganze Compagnie hat sich im Dorfe schon sehr<lb/>beliebt gemacht, den ganzen Nachmittag war Alles<lb/>auf den Wiesen u. half Heu einfahren, Klee mähen<lb/>etc. wobei ich mich auch betheiligte, und meine Reit⸗<lb/>u. Rosselenkkunst zeigte. Es kam viel Spaß dabei<lb/>vor und ist Einem ordentlich wohl, statt des lang⸗<lb/>weiligen Commißdienstes auch einmal eine nützliche<lb/>Arbeit zu thun. Abends war Musik u Tanz in der <lb/>Schenke, wobei sich auch die Offiziere betheiligten.</p>
+            <lb/>
+            <p>Wir werden wahrscheinlich an 8 Tage hier liegen<lb/>bleiben, da die Dörfer vor uns um um <hi rendition="#aq">Glatz</hi> u.<lb/>
+               <hi rendition="#aq">Neisse</hi> alle schon dicht besetzt sind. Damit die Geschichte<lb/>nicht zu langweilig wird, werde ich <hi rendition="#aq">Stensdorf</hi> öfter<lb/>besuchen (der übrigens auch eine recht nette Tochter u.<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>
+               <space dim="horizontal"/>Nichte hat) landwirthschaftliche Arbeiten treiben und<lb/>viel Brief schreibe. Wenn Du übrigens an mich schreibst,<lb/>so setze zu meiner vollständigen Adresse (: 12 Comp II G. B. <lb/>z.F. II Brig. I Divis. I Armee.) nur noch z.Z. <hi rendition="#aq">Klosdorf</hi>.<lb/>bei <hi rendition="#aq">Brieg i/Schl.</hi>; der Brief wird doch nachgeschickt, wenn<lb/>wir nicht mehr hier sind, auch ohne daß: Feldpostbrief da⸗<lb/>rauf steht, was doch von <hi rendition="#aq">Dresden</hi> aus nicht geht. (Nebenbei<lb/>bitte ich auch um eine Kleinigkeit Geld.). <metamark>_</metamark> Täglich kommen<lb/>übrigens noch Truppen in die hiesige Gegend und ist jetzt<lb/>fast bis zur Oder alles besetzt. Ob <del rendition="#s">es</del>freilich Aussichten<lb/>auf Krieg sind, davon wissen immer nochso wenig,<lb/>wie vor einigen Wochen; hier habe ich gar Nichts be⸗<lb/>stimmtes mehr gehört.</p>
+            <lb/>
+            <p rendition="#et">Mama ist wohl jetzt zurück, da die Gesandten ab⸗<lb/>berufen sind; wie steht es mit <hi rendition="#aq">Richard‘s</hi> Examen, er<lb/>hat seit einem halben Jahre fast gar nichts von sich hören<lb/>lassen. Er mußte sich doch wohl jetzt auch stellen, ist<lb/>doch aber wohl zurückgestellt worden. Wenn er noch<lb/>in <hi rendition="#aq">Görlitz</hi> ist, schicken wir wohl am besten <add place="superlinear">
+                  <metamark/>u sichersten</add> die Briefe<lb/>durch ihn, wobei die Strecke von hier bis dahin nichts<lb/>kostet.</p>
+            <lb/>
+            <p rendition="#et">Aus Mangel an Papier muß ich schon aufhören<lb/>jedoch bald Mehr, wenn wir Veränderungen erleben<lb/>Mit den herzlichsten Grüßen<space dim="horizontal"/>
+               <hi rendition="#u">Euer </hi>
+               <hi rendition="#aq #u">Hubert</hi>
+               <hi rendition="#u">.</hi>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

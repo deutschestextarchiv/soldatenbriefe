@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 29: Wilhelm Nosten (Mannschaften?), 14.04.1812, Westmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Wilhelm</surname>
+                  <forename>Nosten</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 29 von Wilhelm Nosten, 14.04.1812.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 29: Wilhelm Nosten (Mannschaften?), 14.04.1812, Westmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Wilhelm</surname>
+                        <forename>Nosten</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1812-04-14">1812</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="29">
+            <head>
+               <supplied>SB-Nr. 29: Wilhelm Nosten (Mannschaften?), <date when="1812-04-14">14.04.1812</date>, <choice>
+                     <abbr>WMD</abbr>
+                     <expan>Westmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Stralsund</hi> 14 <hi rendition="#aq">April</hi> 1812</p>
+            <lb/>
+            <p rendition="#et">Lieber Vater und Mutter</p>
+            <lb/>
+            <p>Mein schreiben wird euch wohl gesund antreffen ich wil euch<lb/>zu wissen thun wie es hier bewand ist, wir bekommen<lb/>alle Tage zweymal Erbsen und anders nichts und ich bin<lb/>noch frisch und gesund 1½ stüber ist einen Schilling drey Schilling<lb/>ist ein Preusisch 6 stüber stück und wir wissen nicht wo wir<lb/>noch auf zu Maschiren d. 5<hi rendition="#sup #uu">t</hi>
+               <hi rendition="#aq"> Febr.</hi> seind wir aus <hi rendition="#aq">Düsseldorff</hi>
+               <lb/>Marschiret und den 17 <hi rendition="#aq">März</hi> seind wir in <hi rendition="#aq">Stralsund</hi>
+               <lb/>gekommen ich wünsche das es ihnen beßer geht wie mir<lb/>Vater und Mutter Schwestern und Schwager ich grüße euch<lb/>ganz Sanftmüthig in der Liebe gottes.</p>
+            <lb/>
+            <p rendition="#et">Euer</p>
+            <lb/>
+            <p>und wan sie schreiben wollen so schreiben getreuer Sohn<lb/>sie an das 1 <hi rendition="#aq">Regement</hi> 2 <hi rendition="#aq">Battalion</hi>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">Wilhelm Nosten</hi>
+               <lb/>
+               <space dim="horizontal"/>3 <hi rendition="#aq">Compagnie</hi>
+            </p>
+            <lb/>
+            <p rendition="#et">Johan Wilhelm Nosten bin<lb/>
+               <space dim="horizontal"/>Geboren im Jahr 1791 den 16 dezember</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[1]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

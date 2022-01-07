@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 84: Franz Kaufhold (Mannschaften?), 10.07.1866, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Franz</surname>
+                  <forename>Kaufhold</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 84 von Franz Kaufhold, 10.07.1866.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 84: Franz Kaufhold (Mannschaften?), 10.07.1866, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Franz</surname>
+                        <forename>Kaufhold</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1866-07-10">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="84">
+            <head>
+               <supplied>SB-Nr. 84: Franz Kaufhold (Mannschaften?), <date when="1866-07-10">10.07.1866</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Prag, 10. Juli 1866</p>
+            <lb/>
+            <p>Vielgeliebten Schwieger Eltern!</p>
+            <lb/>
+            <p>Hoffentlig werden Euch diese wenigen Zeilen so gesund antreffen<lb/>wie sie mich verlassen, auf Euer mir Werthetes Schreiben vom 19<hi rendition="#sup #uu">ten</hi> Juni<lb/>worauf ich ja zwar schon geantwortet habe, jedoch mit bangerfülltem<lb/>Herzen, wo dazumal jeden Augenblick der Schrecklige Krieges Todt<lb/>sich einem jeden von uns Kriegern vor Augen Schwebte, und sich uns<lb/>auf Tausenden, von abermals Tausenden in gräßliger Art, der Todt<lb/>mit seiner gemachten Beuthe nämlig der auf dem Schlachtfelde geblieben<lb/>Soldadten vor Augen zeigte. Dank der Großen Barmherzigkeit Gottes,<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>Die mich bishierher beschützt u. erhalten hat, indem so viele meiner Krieges<lb/>Kameraden die Böhmische Östreiche Erde mit Ihrem Blute getränkt, und zwar<lb/>am 26<hi rendition="#sup #uu">ten</hi> Juni war die erste Schlacht hier in Böhmen beim Städtchen Weißwasser,<lb/>wo unsere Garde Reserve Chor wo ich zu gehöre, bloß eine Stunde davon auf der<lb/>Rückseite war, wo von Morgens bis Abends der Kanonen u. Gewehre <unclear reason="illegible" cert="high" resp="#MN">Donner</unclear> uns<lb/>Schreckenhafft durch Ohr u. Herz knallte u. Schallte, u. da wir im Walde im Biwack<lb/>lagen, wo der Wiederhall noch nachschallte, u. Nachmittag noch ein großer Doñer<lb/>Gewitter dazu Trath, so hörte es sich so schreckenhaft zu, als wollte die Welt <lb/>untergehen,<lb/>doch zum Glück koñten es unsere vor uns stehenden Truppen zwingen, u. schlugen<lb/>die Östreicher zurück, sonst wären wir noch mit ins Gefecht gekom̃en, den Tag<lb/>darauf Marschierten wir nun durchs Schlachtfeld, wo uns große Reihen von<lb/>Wagen mit Todten u. Verwundeten u. noch viele daliegen Todten Menschen u. <lb/>Pferden<lb/>begegneten, den 28<hi rendition="#sup #uu">ten</hi> Juni war die Schlacht bei München⸗Kräz, wo die Östreicher<lb/>wieder von unser Lienien Armee Zurückgeschlagen, u. wir zur Reserve im̃er<lb/>Nach Marschierten. Den 29<hi rendition="#sup #uu">ten</hi> Juni kamen wir im Dorf Koßmañus an,<lb/>Wo wir 10 Minuthen nach der Einquartirung durch Allarmmarsch durch Trom̃el<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>Und Trompethenschall, zum Angriff auf die Östreicher aufgefordert wurden, der Mañ müsse<lb/>seine 60 Patrohnen zur Hand nehmen, frisch das Gewehr laden, sämtliche Battallions⸗Fahnen wurden<lb/>hier zum erstenmal enthüllt, Ihrer Scheide, u. flatterten dem Feinde entgegen, die Arrtallerie stellte sich<lb/>schon abgebrutzt auf, mehrere Regimenter Infanterie wie Gavallerie Schwärmten zum Angriff aus, deñ<lb/>der Feind sei wie mañ uns sagte, kaum eine Viertelstunde vor uns, Es lag eine große Waldes<lb/>Anhöhe vor uns, wo es schien als wäre diese stark besetzt von Östreicher, Wie Einem da das Herz vor banger<lb/>Erwartung hoch wallend geschlagen, in dem Gedanken vielleicht hat die letzte Stunde jetzt für mich geschlagen,<lb/>köñt Ihr Euch Theuresten SchwiegerEltern wohl vorstellen, doch wo die Stelle <gap reason="illegible"/> 
+               <lb/>
+               <gap reason="illegible"/> 20 Tausend Mañ vielleicht noch größer angesehen, hatte sich sogleich<lb/>
+               <gap reason="illegible"/> Marschierten ohne denselben weiter zu verfolgen, zurück weil von der linken<lb/>Flanke von unserer Haupt Armee ein Angriff auf denselben gemacht wurde, u. wir kamen nicht<lb/>zum Gefecht, Soñtag als am 1<hi rendition="#sup #uu">ten</hi> Juli ging ich in Koßmañus wo das Fest Maria Heimsuchung gefeiert,<lb/>zur Kirche Empfing da die Beicht u. Kommunion, wo der da betreffende Pfarrer so ziemlich Deutsch koñte,<lb/>wo uns 8 Soldathen in der Kirche das Evangelium auf Deutsch vorgelesen, Hoch preise meine Seele<lb/>den Herrn u. s. w. den übrigen Einwohnern liest er das Evang: pöhmisch vor, es wurde pöhmisch gesungen, gebethet<lb/>wo wir nichts verstanden, u. sind nun schon beinah drei Wochen, das mañ hier unter Böhmischen verlebt<lb/>wo man kein Wort versteht, fragt Einer, so sprechen sie Ne Rosumim, d.h. auf Deutsch ich kañ nicht verstehen<lb/>Sonst ist es auch ein Wüstes Volk hier, u. Arm in Böhmen, wo ich viel, so wie meine Kameraden über <gap reason="illegible"/>
+               <lb/>Mehrere Tage koñte mañ nichts vor Geld haben, weil die Einwohner in der Nähe der <gap reason="illegible"/>
+               <lb/>von da geflüchtet u. unsere <gap reason="illegible"/> zurückgeblieben, so hatte mañ nichts als etwas Rohes Fleisch, was<lb/>
+               <gap reason="illegible"/> Alle Tage wurden die Märsche nur größer im̃er größer vorgesetzt<lb/>5 bis 6 Meilen bis Nachts auf freiem Felde, durchnäßt von Schweiß u. manchmal Regen dazu,<lb/>Doch ich habe Alles dieses mit ausgehalten, hunnterte von uns blieben Erschöpft liegen auf dem Wege,<lb/>sie mussten <gap reason="illegible"/> gefahren werden oder kamen ins Lazareth. Einer der härtesten Tage war nun<lb/>der 3<hi rendition="#sup #uu">ten</hi> Juli <unclear reason="illegible" cert="high" resp="#MN">da es</unclear> so stark Regnete wo wir 4 Meilen des Morgens gemarschiert, u. in die Stadt Neu⸗<lb/>Lischov eingequartiert wurden, doch 2 Stunden darnach wurde schon wieder Allarm geschlagen, <gap reason="illegible"/> ging<lb/>es wieder im Eile <unclear reason="illegible" cert="high" resp="#MN">Schritt</unclear> noch 4 Stunden weiter, dem Schlachtfelde zu, wo uns wieder gesagt, wir können<lb/>den Abend noch <unclear reason="illegible" cert="high" resp="#MN">mit ins</unclear> Gefecht. Abends 11 Uhr kamen wir in der Stadt Löchernitz bei Königsgrätz an,<lb/>wo denselben Tag die Hauptschlacht ein 8stündliges Gefecht stadt gefunden, auf den Marsche von<lb/>
+               <gap reason="illegible"/> den Dampf von Bulver u. von 7 brennenden Dörfern, <unclear reason="illegible" cert="high" resp="#MN">die Feuers worgen</unclear>
+               <lb/>
+               <gap reason="illegible"/> Schauderhafter Anblick, beim eintrethen dieser Stadt, die Einwohner waren geflüchtet<lb/>alles Öde u. düster, die Schlacht hatte geendet unsere Preusische Armee, die Linie die voraus war, hatte<lb/>gesiegt, u. hatte die Östreicher über hartnäckigem Kampfe zurückgeschlagen, von Einer Seite aus hatten<lb/>die Östreicher unsere Armee bald zurückgeschlagen u. das 3 mal, u. wär das 7<hi rendition="#sup #u">te</hi> Arrtallerie Regiment<lb/>welches noch nachgeschickt worden, eine viertel Stunde später gekom̃en , so wären die Östreicher die Schlacht Linie<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>durchgebrochen, u. wir wären als Nachstehender Trupp angegriffen, wo Tausende von uns noch hätten<lb/>den Abend die Erde müssen blutbenetzend Küssen, doch das Westpfählische Artallerie Reg. welches noch am höchsten <unclear reason="illegible" cert="high" resp="#MN">gantz</unclear>
+               <lb/>angelangt hatte, nun noch furchtbar gestritten, wo auf diesem Schlachtfelde bei Königsgrätz von beiterseits Preuß<lb/>u. Östreich furchtbar viele Todte u. verwundete geblieben, die Westpfälische Artelerie welche jetzt bei uns zertheilt erzählte<lb/>uns, das sie an manchen Stellen im Awangssieren nicht mit dem Geschütz über die haufenweise liegenden<lb/>Toden köñet Fahren, mañ spricht es seien 19 Tausend Preußen u über 30 Tausend Östreicher auf diesem<lb/>Schlachtfelde geblieben. Wo wir nun Abends 11 Uhr auf dem Schlachtfelde ankamen so war die bemañte Stadt Löchernitz<lb/>traurig mit anzusehen die Kirche säm̃tliche großen Häuser waren mit Verwundeten belegt. Eine Maße Wagen<lb/>hielten auf den Straßen mit Verwundeten, dieses Seufzen u. Stöhnen was Einen <gap reason="illegible"/>
+               <lb/>
+               <gap reason="illegible"/> waren wir im Biwack ins Feld gelegt. Die Schlacht war beendigt<lb/>aber des Morgens wie wir Erwachten, u. es hell wurde, sahen wir noch mehr Schauerhaftes, wir hatten zwischen<lb/>Todten Biwackieret, unsere Todte lagen noch bei uns im Lager, welche noch nicht weggeschafft worden.<lb/>Reihen von großen Grabeshügeln in unserer Nähe, wo vor einigen Stunden zu Hunderten ins Grab<lb/>gleich wo sie gefallen gesenkt waren, Und weil wir Nachmittags 1 Uhr erst wieder weiter Marschierten so<lb/>sah mañ den ganzen Morgen Reihen von Wagen 15 bis 20 hinter einander, mit Verwundeten welche<lb/>noch in den Kornfeldern aufgefunden, u. die Nacht so in Schweigen unter freiem Him̃el gelegen, dieses <lb/>
+               <gap reason="illegible"/> bei den <unclear reason="illegible" cert="high" resp="#MN">Hehren</unclear>, wo wir Ihnen Wasser auf die Wagen Reichten indem sie <gap reason="illegible"/> Durst<lb/>Es kam wie der Bepfehl vor uns im Eilmarsche der Feind von der Rechten Flanke vorzumarschieren<lb/>Wo nun im̃er fest müsste Marschiert werden, es sollte dieses hier Krieges List sein, der Feind sollte<lb/>uns in der Voderseite haben, u. war unsere Garde Reserve Chor 3 Meilen weiter vor, als unsere Haupt<lb/>
+               <gap reason="illegible"/> u. wäre Prinz Friedrich Carl nicht ins <gap reason="illegible"/>
+               <lb/>Bepfehlenden dreimal sogleich zuvorgekom̃en <gap reason="illegible"/>, so wenn wir Abgeschnitten werden, von<lb/>den Östreicher, u. unsere ganze Garde Reserve Chor wäre verlohren gewesen, Prinz Carl soll unseren <gap reason="illegible"/>
+               <lb/>welcher uns gar zu gern ins Feuer gebracht, Barbarisch <gap reason="illegible"/> haben ausgeschimpft wie Er sich unterstehen köñte <lb/>die Landwehr, die fast alle Frau u. Kinder zu <gap reason="illegible"/>, so nah an der <gap reason="illegible"/> zu bringen, so lange <lb/>noch Linie da wäre, Sollten wir Landwehrmacht mit zum Gefecht. Auch hat sich die<lb/>Kronprinzessin Vicktoria an den König verwendet, die Garde <gap reason="illegible"/> so viel wie möglich<lb/>zu verschohnen. So habe ich Euch deñ meine Lieben SchwiegerEltern in einigen Zeilen<lb/>dargethan was das Wort Krieg vor schwäre Opfer fordert, Wir wollen Also nun Gemeindschaftlich die<lb/>Hände zu Gott im Him̃el empor strecken, u. wollen Rufen Verleih uns doch den Lieben Frieden O. Herr<lb/>Gott Him̃els u der Erde. Nun Inniggeliebte Schwieger-Mutter. Inbetreff meines Abmarsches von Hause<lb/>das ich Sie nicht hätte mit wollen haben zur Begleitung, so dachte ich ja Liebe Schwieger-Mutter weil niemand<lb/>als Sch Vater u. das kleine Gretchen zu Hause waren, ich belästige Euch nur dadurch u. dañ stellte ich mich<lb/>das auch nicht vor das es sollte kom̃en, ich dachte ich wäre Einige Wochen wohl in Magdeburg<lb/>oder Berlin, dañ ginge es wieder nach Hause, dass ich so noch mit vor den Feind käme, dachte ich zu<lb/>Hause nicht. Indem ich schließe, verbleibe ich Euer getreuer</p>
+            <lb/>
+            <p rendition="#et">SchwiegerSohn, <hi rendition="#aq">Franz Kaufhold</hi>.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

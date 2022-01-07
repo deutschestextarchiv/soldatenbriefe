@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 109: Karl Linpökh (Offizier), 01.05.1869, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Karl</surname>
+                  <forename>Linpökh</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 109 von Karl Linpökh, 01.05.1869.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 109: Karl Linpökh (Offizier), 01.05.1869, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Karl</surname>
+                        <forename>Linpökh</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1869-05-01">1869</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="109">
+            <head>
+               <supplied>SB-Nr. 109: Karl Linpökh (Offizier), <date when="1869-05-01">01.05.1869</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p rendition="#et">Liebe Eltern !</p>
+            <lb/>
+            <p>Ihr werdet wohl schon längere<lb/>Zeit auf einen Brief von mir ge⸗<lb/>wartet haben, aber ich war jetzt<lb/>dermaßen beschäftigt, daß ich nicht<lb/>dazu kam. Wir erfreuten uns<lb/>des Besuches unseres H. Brigadiers <lb/>und da ich Kompagnie-Komdt.<lb/>Direktor u. Lehrer von Regmts-Vor⸗<lb/>bereitungsschule bin, so wußte ich<lb/>nicht, wo zuerst anfangen. Insbesondere<lb/>ist letztere ein wahres Corps der<lb/>Rache, zum Theil junge leichtsinnige<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>Leute, die sich gerne über die ziemlich<lb/>genauen Vorschriften unserer <hi rendition="#aq">Commiss</hi>⸗<lb/>Ordnung hinaussetzen, anders-Theils<lb/>wieder schlecht, sehr schlecht <del rendition="#s">talentirte u.</del>
+               <lb/>vorbereitete Köpfe hier und da sogar<lb/>mangelhaft talentirt, die in theoretischer<lb/>Beziehung wieder nicht entsprachen. Wir<lb/>müssen eben mit Wasser kochen, so<lb/>lange wir unsern gegenwärtigen Ober⸗<lb/>sten haben, wird Alles <del rendition="#s">abges</del>gründlich<lb/>abgeschreckt freiwillig einzutreten.</p>
+            <lb/>
+            <p>Bester Beweis davon unter andern auch un⸗<lb/>sere Musik die statt der vorgeschriebenen<lb/>Anzahl von 48 Köpfen gegenwärtig schon<lb/>auf 32 herabgesunken ist und trotz großer<lb/>
+               <fw type="folNum" place="bottom">[2]</fw> 
+               <lb/>Zulagen sich allmonatlich vermindert. Unser<lb/>Regelmeister hat bereits gekündigt u.<lb/>steht in Aussicht, daß ihm einige der tüch⸗<lb/>tigsten Kräfte folgen werden.</p>
+            <lb/>
+            <p>Euer letzter Brief hat mich sehr er⸗<lb/>freut namentlich die Mittheilung über<lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">
+                  <hi rendition="#aq">Minus Couverts-Deodartion</hi>
+               </unclear>, da mich eine<lb/>Nachricht der Wiener Wehrzeitung etwas<lb/>darüber irre geführt hat.</p>
+            <lb/>
+            <p>Auch ich bin in der angenehmen Lage<lb/>Euch eine Mittheilung mach zu können<lb/>die Euch wohl einige Befriedigung bereiten<lb/>wird, Uns soll nämlich <hi rendition="#aq">Pesth</hi> als Garni⸗<lb/>son beschieden sein In <hi rendition="#aq">pecuniärer</hi> Be⸗<lb/>ziehung wird <hi rendition="#aq">Pesth</hi> wohl eine schwere Last<lb/>werden, die jedoch bis zur Gage-Erhö⸗<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+hung, auf die wir mit nächsten Jahr sicher<lb/>rechnen, nicht allzu schwer drücken wird<lb/>Ich hätte bald vergessen Euch über das<lb/>Resultat unserer Prüfung zu berichten.</p>
+            <lb/>
+            <p>Die Vorbereitungsschule wird nicht geprüft<lb/>die Offiz. haben <del rendition="#s">nichts</del>wenig gekonnt (auch kaum<lb/>Oberstlieut seine Gegenstände nicht) was<lb/>wohl auch daraus resultiren mag, daß<lb/>der Oberst Brig. sehr viel Fragen auf einmal<lb/>stellte und hiedurch die H verwirrte. Das<lb/>Exerzieren ging sehr gut, aber der H Oberst<lb/>scheint sich vorgenommen zu haben nichts<lb/>gut zu finden, uns hatte für <del rendition="#s">uns</del>alle<lb/>unsere Leistungen u. Anstrengungen kein<lb/>anderes Lob ausgesprochen, als daß unsere Leute<lb/>recht schön u: wohlgenährt sind, und daß sich mit<lb/>ihnen sehr viel leisten läßt u dann kamen die Aus⸗<lb/>stellungen schaarenweise, die unsere Obersten<lb/>wahrhaft unglücklich machen und uns eine gesalzene<lb/>
+               <gap reason="illegible"/> u. noch viele Unannehmlichkeiten</p>
+            <lb/>
+            <note place="left">
+               <p>bringen wird. Ich grüße Euch vielmals herzlichst u verbleibe Briefpapier ausgegan<lb/>
+                  <unclear reason="illegible" cert="high" resp="#MN">Essezz</unclear> 1/5 1869 Euer Karl gen</p>
+            </note>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

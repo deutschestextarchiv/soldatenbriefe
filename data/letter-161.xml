@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 161: Adalbert von Barby (Offizier), 30.04.1871, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Adalbert</surname>
+                  <forename>von Barby</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 161 von Adalbert von Barby, 30.04.1871.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 161: Adalbert von Barby (Offizier), 30.04.1871, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Adalbert</surname>
+                        <forename>von Barby</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1871-04-30">1871</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="161">
+            <head>
+               <supplied>SB-Nr. 161: Adalbert von Barby (Offizier), <date when="1871-04-30">30.04.1871</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <space dim="horizontal"/>
+               <hi rendition="#u">Compiègne den 30</hi>
+               <hi rendition="#sup #uu">sten</hi>
+               <hi rendition="#u"> April 1871.</hi>
+            </p>
+            <lb/>
+            <p>Heute an diesem stillen Samstag Morgen will ich<lb/>Euch, theure Ältern, mein treues Gedächtniß zu Eurem<lb/>Hochzeitssegen übermorgen aus weiter Ferne zurufen. <lb/>Früher dachte ich diesen Tag mit Euch in <hi rendition="#aq">Coburg</hi> zu<lb/>verleben u Euch von meinen Kriegsereignissen er⸗<lb/>zählen zu können<metamark>_</metamark> Gott hat es indeß ganz anders<lb/>beschlossen<metamark>_</metamark> Unsere Rückkehr in die theure Heimath<lb/>liegt wohl noch in weiter Ferne<metamark>_</metamark> So kann ich Euch nur<lb/>aus dem feindlichen Lande meinen herzlichen Gruß<lb/>senden. Wir können nur Gottes Gnade preisen, der<lb/>Euch diesen Tag nun schon zum 2<hi rendition="#sup #uu">ten</hi> Male nach Eurer<lb/>goldenen Hochzeit erleben läßt<metamark>_</metamark> Gott schütze und erhalte<lb/>Euch zu unserem Segen noch lange und schenke uns<lb/>die baldige Freude, uns Alle in dem älterlichen<lb/>Hause bei Euch zusam̃en zu finden<metamark>_</metamark> Ihr werdet <lb/>diesen Tag wohl ganz still in <hi rendition="#aq">Coburg</hi> verleben in<lb/>den Gedanken, daß Eure Kinder geistig bei Euch sind<metamark>_</metamark>
+               <lb/>Aus obiger Adresse köñt Ihr ersehen, daß ich in<lb/>der Nähe des kaiserlichen Schlosses jetzt lebe. Seit<lb/>dem 25<hi rendition="#sup #uu">sten</hi> d. Mts. bin ich mit der Brigade hier und<lb/>habe die Husaren Brigade (v. <unclear reason="illegible" cert="high" resp="#MN">Redem</unclear>) hier abgelöst<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>Ich bin hier mit meinen beiden höheren Behörden an<lb/>einem Orte zusam̃en, dem General v. <hi rendition="#aq">Rheinbaben</hi> und<lb/>dem Kronprinzen von <hi rendition="#aq">Sachsen</hi>
+               <metamark>_</metamark> Auch die Kronprinzessin ist<lb/>mit hier<metamark>_</metamark> Sie hat einst die Hand <hi rendition="#aq">Napoleons</hi> ausgeschlagen und<lb/>bewohnt jetzt dieselben Räume der Kaiserin <hi rendition="#aq">Eugenie</hi>
+               <metamark>_</metamark> Es<lb/>mag ein eigenes Gefühl für sie sein.<metamark>_</metamark> Meine Aufwartung<lb/>habe ich noch nicht gemacht, da die Herrschaften auf 4 Tage<lb/>eine Reise nach <hi rendition="#aq">Amiens</hi>, <hi rendition="#aq">Rouen</hi> u <hi rendition="#aq">Dieppe</hi> gemacht haben.</p>
+            <lb/>
+            <p>Vor meiner Brigade liegen die Ulanen N<hi rendition="#sup #uu">o</hi> 13 hier<lb/>in den kaiserlichen Ställen der <hi rendition="#aq">Garde⸗Lanciers</hi>; in<lb/>unmittelbarer Nähe die Dragoner N<hi rendition="#sup #uu">o</hi> 19<metamark>_</metamark> Die Kürassire N<hi rendition="#sup #uu">o</hi> 4<lb/>liegen ein wenig weiter in Kantoñements<metamark>_</metamark> In<lb/>nächster Zeit will ich die Regiments⸗Besichtigung der<lb/>Ulanen u Dragoner auf dem hiesigen Exerzirplatz abhalten<lb/>Man lebt hier in <hi rendition="#aq">Frankreich</hi> ein dienstliches Leben<lb/>wie im Frieden<metamark>_</metamark> Das Schloß selbst hat einzelne sehr<lb/>schöne Räume ohne großen Glanz, dagegen ist der Park<lb/>feenhaft schön<metamark>_</metamark> Denkt Euch einen Wald von unserem<lb/>
+               <gap reason="illegible"/> mit dem schönsten Brunnen von<lb/>Laubholz jetzt im Monat Mai. Man reitet stundenlang<lb/>auf Rasen u unter dem Schatten dieser Bäume.<metamark>_</metamark> Es ist<lb/>ein Genuß, den man in dieser Ausdehung nicht kennt.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>
+               <gap reason="illegible"/>
+            </p>
+            <lb/>
+            <p>
+               <gap reason="illegible"/> In <hi rendition="#aq">Pierrefonds</hi> liegen die 18<hi rendition="#sup #uu">ten</hi> Garde Ulanen<lb/>die ich auch aufsuchen will. <hi rendition="#aq">Rochow</hi> war neulich <gap reason="illegible"/>
+               <lb/>
+               <gap reason="illegible"/> u wir haben ein heiter Diner mit einander<lb/>verlebt<metamark>_</metamark> 
+               <hi rendition="#aq">Cory</hi> hatte mich zum 20<hi rendition="#sup #uu">sten</hi> d. Mts. nach <hi rendition="#aq">Creil</hi>
+               <lb/>eingeladen, um den Geburtstag von <hi rendition="#aq">Constanze</hi> mit<lb/>ihm zu feiern<metamark>_</metamark> Leider kam der Marschbefehl früher<lb/>damals an u da gab es so viel anzuordnen, daß ich<lb/>die Reise zu <hi rendition="#aq">Cory</hi> aufgeben mußte<metamark>_</metamark> Es hat mir<lb/>recht Leid gethan. <hi rendition="#aq">Cory</hi> sandte mir später das <hi rendition="#aq">Menu</hi>
+               <lb/>
+               <note place="left">
+                  <p>dauern sollte, einen Urlaub nach <hi rendition="#aq">Deutschland</hi> zu erlangen<metamark>_</metamark> Gott schütze Euch, theure Ältern, und schenke uns<lb/>ein glückliches Wiedersehen.<metamark>_</metamark> Gott befohlen! Euer treuer Sohn <hi rendition="#aq">Adalbert</hi>.</p>
+               </note>
+               <lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>des für uns bestellten <hi rendition="#aq">Diners</hi>
+               <metamark>_</metamark> Ich habe <hi rendition="#aq">Cory</hi> von hier aus<lb/>geschrieben u ihn eingeladen hirherzukom̃en.<metamark>_</metamark> Ich will ihn dann<lb/>im Park spazieren fahren u wir wollen dann im <hi rendition="#aq">Hotel de la<lb/>Cloche</hi> theuer aber gut <hi rendition="#aq">diniren</hi>
+               <metamark>_</metamark> Das sind nun mahl die Soñen<lb/>seiten unsers hiesigen Aufenthalts, doch die Sehnsucht nach<lb/>Haus zu kom̃en ist doch die vorherschende Stim̃ung<metamark>_</metamark> Ich bin<lb/>oft recht melancholisch wenn ich bedenke, daß unser Aufenthalt<lb/>in diesem Lande eigentlich noch garnicht abzusehen ist.<metamark>_</metamark> Dabei<lb/>ist das Leben selbst ganz enorm theuer. Wir haben nichts<lb/>von den Franzosen zu verlangen als unsere Wohung<metamark>_</metamark> Alles<lb/>Andere müssen wir bezahlen<metamark>_</metamark> Wir werden dabei auf eine<lb/>ganz arge Weise übertheuert<metamark>_</metamark> Unsere Zulagen sind dazu<lb/>garnicht ausreichend.<metamark>_</metamark> Es liegt deshalb wohl in der Billigkeit<lb/>daß wir in den eroberten 5 Millarden auch anständige<lb/>Retablissements⸗Gelder erhalten<metamark>_</metamark> Weñ man bedenkt, daß<lb/>unsere Pferde doch im Allgemeinen sehr gelitten haben, u<lb/>daß wir von allen unsern Sachen u Pferdebekleidungen<lb/>Abschied nehmen müssen; so haben wir auch recht bedeutende<lb/>Ausgaben. <hi rendition="#aq">Frankreich</hi> zahlt vorläufig keinen <hi rendition="#aq">Sous</hi> und<lb/>wir müssen Alles bis jetzt vorschießen<metamark>_</metamark> Ehe die Zustände<lb/>hier nicht ruhiger werden hat dieses Land auch keinen<lb/>Kredit, um die im̃er größer werdenden Sum̃en zu be⸗<lb/>zahlen.<metamark>_</metamark> Sollten wir bis zum Herbst hier noch bleiben<lb/>
+               <gap reason="illegible"/>
+               <lb/>brennen um Euch theure Ältern und meine lieben Kinder<lb/>wieder zu sehen<metamark>_</metamark> 
+               <hi rendition="#aq">Angelica</hi> schrieb mir neulich, daß sie<lb/>Alle wohl u sie Alle in ihren jetzigen Altern mir einen<lb/>großen Genuß bieten würden. Solche Kinder muß<lb/>man bei den ohnehin so flüchtigen Leben nun ver⸗<lb/>säumen.<metamark>_</metamark> Das ist ein Gedanke, der mich oft recht<lb/>traurig macht.<metamark>_</metamark> Welch schwere Treñungen haben mir die<lb/>Kriege schon auferlegt<metamark>_</metamark> Doch ich will Gott um Geduld bitten<lb/>weñ ich meine Kinder nur gesund wiedersehe<lb/>
+               <note place="left">
+                  <p>Nur für dieses Mal will ich schließen. Auf manche andere Dinge will ich Dir mündlich später Ant⸗<lb/>wort und meine Ansichten geben<metamark>_</metamark> Ich gebe die Hoffnung nicht auf, weñs mit uns hier noch lange</p>
+               </note>
+               <lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+            </p>
+            <lb/>
+            <p>Mein neuer Adjutant Lt. v <hi rendition="#aq">Heimbrechts</hi> von den Husaren N<hi rendition="#sup #uu">o</hi> 16<lb/>ist ein sehr eleganter hübscher kleiner Mañ.<metamark>_</metamark> Er stam̃t aus Nehren⸗<lb/>
+               <hi rendition="#aq">Darmstadt</hi>
+               <metamark>_</metamark> Seine Ältern sind todt. Er soll ein sehr weiser Mañ<lb/>schon jetzt sein<metamark>_</metamark> Bis jetzt gefällt er mir ganz gut<metamark>_</metamark> Hoffentlich<lb/>leben wir uns gut miteinander ein<metamark>_</metamark> Ich hatte vor ein Paar<lb/>Tagen einen Brief von <hi rendition="#aq">Alvensleben</hi> aus <hi rendition="#aq">Hannover</hi>, dem ich zu <lb/>seinem 69<hi rendition="#sup #uu">sten</hi> Geburtstag am 10<hi rendition="#sup #uu">ten</hi> April gratulirt hatte<metamark>_</metamark> Er hat also<lb/>seinen Abschied geht im Mai nach <hi rendition="#aq">Wittekind</hi> in <hi rendition="#aq">Dobritz</hi> und<lb/>später nach <hi rendition="#aq">Schochwitz</hi>, wo seine 3 ältesten Kinder wie begraben<lb/>liegen. Sein Sohn <hi rendition="#aq">Kurt</hi> hat bei <hi rendition="#aq">St Privat</hi> 8 Kugeln erhalten<lb/>ist aber nun wieder beim 18<hi rendition="#sup #uu">ten</hi> Garde Regiment<metamark>_</metamark> Er scheidet<lb/>auch ziemlich bitter aus der Armee, denn man hat ihn auch<lb/>nicht gut behandelt<metamark>_</metamark> Er hat mir viele Grüße an Euch aufgetragen<lb/>Papa läßt er sagen, daß er nun auch zum Civil⸗Todt gekom̃en<lb/>sei<metamark>_</metamark> Gott würde aber schon weiter helfen. Mir thut es <lb/>sehr Leid ihn aus <hi rendition="#aq">Hannover</hi> zu verlieren. Er war mir doch<lb/>der liebste Umgang.<metamark>_</metamark> Für Deinen lieben Brief am 16<hi rendition="#sup #uu">ten</hi> d. Mts.<lb/>mit den Anlagen sage ich Dir, theure Mutter, den besten Dank<lb/>Sie haben mich alle sehr interessirt<metamark>_</metamark> Auf meine <gap reason="illegible"/>
+               <lb/>Hermarsch begegnete ich <gap reason="illegible"/>, der sehr ungern <hi rendition="#aq">Compiègne</hi> 
+               <lb/>verließ in sich sehr <gap reason="illegible"/> bei der Kronprinzessin von <hi rendition="#aq">Sachsen</hi>
+               <lb/>gemacht haben soll<metamark>_</metamark> 
+               <hi rendition="#aq">Alfred</hi> geht es wieder besser, er hat<lb/>seine Brigade übernom̃en, dagegen soll <hi rendition="#aq">Gustav Rauch</hi> noch<lb/>im̃er in <hi rendition="#aq">Frankfurth</hi> sein – Er muß nur uns <gap reason="illegible"/>
+            </p>
+            <lb/>
+            <p>
+               <gap reason="illegible"/>
+            </p>
+            <lb/>
+            <p>Abschied zu nehmen, da seine Gesundheit eigentlich zu Ende sei<lb/>
+               <hi rendition="#aq">Adelens</hi> Brief erhielt ich neulich durch <hi rendition="#aq">Cory</hi> zugeschickt<metamark>_</metamark> der<lb/>Fürst aus <hi rendition="#aq">Detmold</hi> mag sich ziemlich lächerlich in <hi rendition="#aq">Berlin</hi>
+               <lb/>gemacht haben<metamark>_</metamark> Von <hi rendition="#aq">Rudolph</hi> habe ich in langer Zeit nichts<lb/>gehört.<metamark>_</metamark> Grüße Papa recht herzlich von mir<metamark>_</metamark> Hoffentlich<lb/>wird er nun bei dem begiñenden Frühlinge seinen<lb/>fatalen Husten wieder los<metamark>_</metamark> 
+               <hi rendition="#aq">Constanze</hi> grüße auch recht<lb/>herzlich von mir, wie gern hätte ich mit <hi rendition="#aq">Cory</hi> am 23<hi rendition="#sup #uu">sten</hi>
+               <lb/>auf Ihr Wohl getrunken<metamark>_</metamark> Ich habe wenigstens an jenem<lb/>Tage mit den besten Wünschen ihr gedacht.<lb/>
+               <note place="left">Hier in <hi rendition="#aq">Compiègne </hi>ist auch der Ludwig <hi rendition="#aq">v. Brauchitsch </hi>der 2<hi rendition="#sup #uu">ten</hi> 
+                  <hi rendition="#aq">Ferichower</hi> Kreiss als <lb/>deutscher Präfekt<lb/>Er läßt sich dem Vater empfehlen, der ja auch als Wahlmañ früher für ihn gestim̃t hat</note>
+               <lb/>
+               <fw type="folNum" place="bottom">[4]</fw>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

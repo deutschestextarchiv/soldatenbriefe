@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 138: Bernhard Prahmann (Mannschaften), 19.12.1870, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Bernhard</surname>
+                  <forename>Prahmann</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 138 von Bernhard Prahmann, 19.12.1870.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 138: Bernhard Prahmann (Mannschaften), 19.12.1870, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Bernhard</surname>
+                        <forename>Prahmann</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1870-12-19">1870</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="138">
+            <head>
+               <supplied>SB-Nr. 138: Bernhard Prahmann (Mannschaften), <date when="1870-12-19">19.12.1870</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Langny⸗ Thorigny</hi>, den 19ten Decembr. 1870.</p>
+            <lb/>
+            <p rendition="#et">Lieber Bruder Friedrich!</p>
+            <lb/>
+            <p>Deinen lieben Brief von 13<hi rendition="#sup #uu">ten</hi> habe ich richtig erhalten,<lb/>worin ich die, von Dir mir zugeschickten 10rl richtig<lb/>erhalten <add place="superlinear">
+                  <metamark/>habe</add>, was mich sehr erfreut. Es soll mich lieb<lb/>sein, wenn dieser Brief Euch Allen bei guter<lb/>Gesundheit antreffen wird, was mich anbetrifft,<lb/>so bin ich bis jetzt gottlob noch gesund, und <lb/>werde, wen Gott es will, auch gesund wieder<lb/>zurückkehren. Lieber Bruder, du schreibst mich auch<lb/>wegen die Paquete, mit Cigarren und Wurst, dieselben<lb/>habe ich erhalten, aber sie sind lange auf den Stationen<lb/>liegen geblieben, das Paquet Cigarrn hat gerade<lb/>1 Monat unterwegs verweilt. Ich bedanke mich<lb/>vielmals für die schönen Sachen die Du Lieber<lb/>Bruder, und mein lieber Bruder Wilhelm <lb/>mich zugeschickt haben. Ich habe jetzt keine Noth,<lb/>ich bekomme ja meine Menage, jedes mal auf<lb/>drei Tage, Speck, Kaffee, Reis, Brodt, Schnaps.<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+            </p>
+            <lb/>
+            <p>Ich bekomme a Tag, Löhnung 3 ½ Groschen<lb/>
+               <del rendition="#s">Löhnung</del> und Tagszulage a Tag 8 Groschen<lb/>nach französischen Gelde 1 Franks. Lieber<lb/>Bruder, hier ist keine Bäckerei, sondern<lb/>hier sind die großen Proviant⸗Magazine,<lb/>
+               <del rendition="#s">E</del>es ist hier das Haupt⸗Centralmagazin<lb/>für die 3<hi rendition="#sup">te</hi> Armee. Hier müssen wir arbeiten,<lb/>ausladen, Hafer, Fleisch, Brodt, Beklei⸗<lb/>dungsstücken, Armeepräserven von der<lb/>königlichen Feldschlächterei, überhaupt<lb/>die Bedürfnisse für die Armee. Wir müssen<lb/>ausladen von Morgens 8 Uhr bis Mittags<lb/>11 ½ Uhr, aldann von 1 ½ Uhr bis 5 Uhr<lb/>Abends. Hier kommen die Züge der<lb/>Verwundeten und Kranken durch, es<lb/>kommen hier Züge von Deutschland<lb/>mit Ersatzmillitair, das geht hier alles<lb/>durcheinander. Es hat jetzt seit einer<lb/>kurzen Zeit das Bombardiren losgegangen<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>von Paris, das man das Krachen hier hören<lb/>kann. Es sind hier von den Franzosen 2 Brükken<lb/>gesprengt, die eine liegt im Wasser und die <lb/>Andere ist nur halb gesprengt. Die Pionire<lb/>haben hier eine neue gebaut, und eine ist<lb/>jetzt wieder in Bau begriffen. Hier in <lb/>Langny waren als wir ankamen, fast alle<lb/>Einwohner geflüchtet, nach Paris, es<lb/>stand hier Alles leer, da zogen wir hier <lb/>in ein Haus, wo wir jetzt noch in Frieden<lb/>wohnen. Wir haben uns hier häuslich einge⸗<lb/>richtet, und lauern stets auf den Frieden.<lb/>Wir sind unser 10 Mann hier in Quartier,<lb/>wir sind Alle noch wohlgemuth, und danken<lb/>Gott, das es uns so geglückt hat, sonst<lb/>wären wir villeicht auch schon todt, oder<lb/>verwundet, wie unsere andern Kameraden,<lb/>die in Felde stehen.<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+            </p>
+            <lb/>
+            <p>Lieber Bruder, ich wünsche Euch Allen gute<lb/>Feiertage, ich kann diesmal nicht bei Euch<lb/>sein. Ich werde hier die ganzen Feiertage<lb/>arbeiten müssen, nun ja es soll nichts <lb/>schaden, wenn ich nur gesund bleibe.</p>
+            <lb/>
+            <p>Also hiermit schließe ich, inder Hoffnung<lb/>das Du bald wieder schreibst, verbleibe<lb/>
+               <space dim="horizontal"/>ich Dein treuer Bruder</p>
+            <lb/>
+            <p rendition="#et">Bernhardt Prahmann</p>
+            <lb/>
+            <p>Grüße vielmals Alle Bekannte von<lb/>mir, Bruder Wilhelm und Schwägerin<lb/>und alle Bekannte.</p>
+            <lb/>
+            <p>Meine Adresse ist wie die vorige.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

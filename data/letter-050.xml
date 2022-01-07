@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 50: Carl Münchhoff (Offizier), 12.09.1848, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Carl</surname>
+                  <forename>Münchhoff</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 50 von Carl Münchhoff, 12.09.1848.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 50: Carl Münchhoff (Offizier), 12.09.1848, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Carl</surname>
+                        <forename>Münchhoff</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1848-09-12">1848</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="50">
+            <head>
+               <supplied>SB-Nr. 50: Carl Münchhoff (Offizier), <date when="1848-09-12">12.09.1848</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>InspektionsZimmer in der Cavallerie Caserne zu Padua am 12. Septem⸗</p>
+            <lb/>
+            <p>ber 1848. – 9 Uhr Abends</p>
+            <lb/>
+            <p rendition="#et">Liebe Schwester Netti!</p>
+            <lb/>
+            <p rendition="#et">Dein angenehmes Schreiben vom 4. d.M. habe ich <del rendition="#s">vor</del>gestern<lb/>
+               <space dim="horizontal"/>richtig erhalten dessen Innhalt mich sehr freute;<metamark>_</metamark> umsomehr Vergnügen<lb/>machte es mir als es so ganz unerwartet kam.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Wie du aus der Überschrift ersiehst, so befinde ich mich zur Stunde hier in<lb/>der Caserne, da ich von heute Mittgs, bis morgen Mittgs die DivisionsInspektion habe<lb/>und diese 24 St: fortwährend in der Caserne verleben muß;<metamark>_</metamark> Jetzt sollte<lb/>ich zwar zur Ruhe gehen, aber da ich bis in 1½ St: schon die erste Patruille<lb/>fortschicken muß,<metamark>_</metamark> so widme ich jene Zeit bis dahin,<metamark>_</metamark> Dir liebe Schwester<lb/>um dein Schreiben so schleunig als möglich zu beantworten, und damit<lb/>du <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> meine guten Eltern wieder von mir einige Nachricht bekommen.<metamark>_</metamark>
+               <lb/>Vor der Hand nun gleich zu mir: <metamark>_</metamark> Mir geht es vollkommen gut,<metamark>_</metamark>
+               <lb/>bin Gottlob noch ganz gesund,<metamark>_</metamark> was ich gerade zu nicht verschreien mag,<lb/>bin guten Humors <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> freue mich <del rendition="#s">so</del> meines Lebens so gut es geht:<metamark>_</metamark> Mein<lb/>2<hi rendition="#sup #uu">tes</hi> Ich,<metamark>_</metamark> (allhier,) meine Pferde sind ebenfalls vollkommen gesund <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice>
+               <lb/>dienstbar ,<metamark>_</metamark> meine Nettel küsst Dir die Hände,<metamark>_</metamark> ist immer sehr gut<lb/>gelaunt aber doch seinem Herrn <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> Meister immer äußerst folgsam<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>und sehr zugethan, so auch mein Chargepferd,<metamark>_</metamark> der Furioso der<lb/>mich so gut kennt, <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> liebt daß wenn ich ihn frei los lasse, <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice>
+               <lb/>er selbst sich die Freiheit nimmt aus dem Stalle zu gehen sich einzig<lb/>
+               <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> allein nur von mir fangen läßt,<metamark>_</metamark> nicht einmal mein Privatdiner<lb/>der ihn pflegt, wartet, <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> füttert darf ihm in die Nähe kommen wenn<lb/>er Reißaus genommen;<metamark>_</metamark> ich aber rufe ihn beim Nahmen <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> er kommt<lb/>gelaufen wie <del rendition="#s">er</del>es mein Lion that.<metamark>_</metamark> Mein Pakpferd,<metamark>_</metamark> der <hi rendition="#aq">Würstl</hi>
+               <lb/>ist ebenfalls schon derartig drappirt, <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> leistet mir sehr gute Dienste die ich<lb/>selber im reiten, fahren, <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> tragen meiner nur <hi rendition="#aq">sehr geringen</hi> Bagage<lb/>verwenden kann.<metamark>_</metamark> Den <hi rendition="#aq">Malalbergo</hi>; meinen eroberten Gaul hätte ich vergangene<lb/>Woche sehr gut an einen HusarenOff: verkaufen können;<metamark>_</metamark> wir waren schon<lb/>im Preise <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> in allem einig; ich wartete nur mehr auf jene Stunde wo<lb/>er mir das Geld dafür schicken wollte,<metamark>_</metamark> jedoch diese gute Stunde ist noch<lb/>immer nicht erschienen,<metamark>_</metamark> denn ich höre <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> sehe von diesem <unclear reason="illegible" cert="high" resp="#MN">Ex</unclear> Husaren<lb/>nichts mehr.<metamark>_</metamark> Mit diesem Pferde hätte ich den allerbesten Handel gemacht<lb/>den<del rendition="#s">n</del> ich mir gar nicht geträumt hätte: er wollte mir für diesen Gaul<lb/>sage 275 baare Rl geben.<metamark>_</metamark> So ein Käufer wird sich auf selben nicht<lb/>sobald finden <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> ich werde leider genöthiget sein vielleicht um 126 Rl diß<lb/>Pferd loszuschlagen da es mir als 4<hi rendition="#sup #uu">tes</hi> Pferd in jetzigen Zeiten überlästig<lb/>ist.<metamark>_</metamark> Der Roßdiskurs ist nun geendet.<metamark>_</metamark> daher zu etwas anderen.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Wie ich in meinem letzten Briefe schon gesagt, so ist die Stimmung der<lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">finnochner</unclear> gegen die Garnison die schlechteste die man sich denken kann, <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice>
+               <lb/>seit neuerer Zeit erkühnt sich das Volk den Spaß vom vorigen Jahre.<metamark>_</metamark>
+               <lb/>die Off: zu insultieren <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> zu verhöhnen.<metamark>_</metamark> neuerdings, <del rendition="#s">jed</del>was ihnen<lb/>jedoch bis jetzt immer sehr schlecht bekam.<metamark>_</metamark> So z: b: wurde vorgestern<lb/>Abends nicht weit von der Hauptwache ein Off: von uns Obl. Polignac‘<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>
+               <space dim="horizontal"/>von 2 Civilisten <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> einem als Soldadten verkleideten <hi rendition="#aq">Iachin</hi> angefallen<lb/>
+               <space dim="horizontal"/>indem Letztere mit dem Säbel nach <hi rendition="#aq">Polignac</hi> hauen wollte, worauf<lb/>Letztere gleich seinen Pallasch entblöste, der Hieb parirte den Gegner eine<lb/>starke Verwundung am rechten Arme beibrachte, ihn am Stockkragen erfaßte<lb/>
+               <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> mit Hilfe eines anderen Hpt Off: auf die Hptwache schleppte.<metamark>_</metamark> bei wel⸗<lb/>cher sich gleich eine Anzahl Civilisten versammelte, <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> als wir mehrer Off:<lb/>zur Hptwache ins begaben um die näheren Detaills zu vernehmen, fing<lb/>die Masse an zu brummen <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> pfeifen, worauf wir uns umkehrten, die Säbel<lb/>zogen <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> gegen selbe losgingen worauf aber diese feigen Hundt das weite<lb/>Feld suchten.<metamark>_</metamark> Einige die wir erwischt, prügelten wir derbe ab, <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> ließen<lb/>sie dann laufen.<metamark>_</metamark> Gestern Abends hatten einige die Keckheit <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> gingen knapp<lb/>an uns vorüber <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> pfiffen uns <unclear reason="illegible" cert="high" resp="#MN">
+                  <hi rendition="#aq">Herme</hi>
+               </unclear> ins Gesicht, worauf selbe mit einigen<lb/>heftigen Ohrfeigen betheilt wurden, <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> weinend <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> lamentirend abzogen.<metamark>_</metamark> Auf<lb/>unseren Maj: Hpt. Hayor wurde ebenfalls gestern am <hi rendition="#aq">Piazzo die Signori</hi> wo<lb/>wir unser Kaffehaus haben <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> stetts Abends alle Off: allda versammelt<lb/>sind ein Stein von einem Balkon geworfen der ihn gerade am Oberschenkel<lb/>getroffen.<metamark>_</metamark> Was heute geschehen ist o/ noch geschehen wird weiß ich nicht<lb/>Ohne Ohrfeigen o/ sonstige Prügel verlief der Abend gewiß nicht:<metamark>_</metamark> Man<lb/>muß diß Volk hier gut im Zaume <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> Respekt erhalten damit sie sich<lb/>nicht übernehmen <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> die vorjährigen Attaquen gegen Off: nicht erneuern.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Da man endlich im Hptquartiere eingesehen daß <del rendition="#s">es</del> heute o morgen dennoch<lb/>Padua einen Revolutionsversuch machen könnte <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> damit die Off: welche bis<lb/>dato ziemlich weit von ihren Truppen gelegen waren,<metamark>_</metamark> nicht abgeschnitten<lb/>werden können wenn die Garnison allarmirt werde, so erhielten wir den Auftrag<lb/>uns unmittelbar in der Nähe unserer Kaserne zu bequartiere.<metamark>_</metamark> So auch wurde<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>gestern Mittgs die Kanonen aus der Stdt fort <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> in die in unsere Nähe<lb/>befindliche Schanze sammt denen Pulverbarren gebracht,<metamark>_</metamark> 
+               <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> erstere so gestellt<lb/>daß bei dem ersten Befehle allsogleich die Stdt beschossen werden kann<metamark>_</metamark> wozu<lb/>wir jedoch, um denen Paduanern großen Schaden anzurichten viel zu wenig<lb/>Geschütze haben; wir besitzen nur eine Batterie 12 pfünder,<metamark>_</metamark> eine 7 ℔ Haubitz<lb/>2,6 ℔ Kanonen <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> 2 10 ℔ige <hi rendition="#aq">Mörser</hi>;<metamark>_</metamark> jedoch werde diese auch schon ihr mög⸗<lb/>lichstes thun;<metamark>_</metamark> Als Garnison befindet sich hier eine Div. von uns,<metamark>_</metamark> 1<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">te</reg>
+               </choice> 
+               <del rendition="#s">Divso</del>Bata<lb/>
+               <gap reason="illegible"/>:<metamark>_</metamark> 
+               <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> 2 Bataillons <hi rendition="#aq">Croaten</hi> vor denen man hier wie überall in<lb/>Italien, einen so genannten <hi rendition="#aq">Höllenrespekt</hi> hat<metamark>_</metamark>; es ist aber auch eine martia⸗<lb/>lisch äußerst braveTruppe.<metamark>_</metamark>In denen Spitalern haben wir noch immer sehr viele<lb/>Kranke, woran die enormen Strapazen <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> das ungewöhnte Klima die Schuld tragen<lb/>denn die Hitze war heuer hier so groß, daß man sich seit 30-40 Jahren<lb/>auf eine derartige nicht erinnern kann.<metamark>_</metamark> Sonsten gibt es hier <del rendition="#s">nicht</del>
+               <unclear reason="illegible" cert="high" resp="#MN">vieles</unclear>
+               <lb/>von denen man aber gar nichts glauben kann, da diß wällische Gesindel alle<lb/>zu ihren Gunsten vorbereitet.<metamark>_</metamark> so z:b: sagte man gestern hier: <hi rendition="#aq">Wien</hi> sei in Be⸗<lb/>lagerungsstand gesetzt,<metamark>_</metamark> 
+               <hi rendition="#aq">Carlo Alberto</hi> wird den Krieg mit erneuerter Wuth<lb/>fortsetzen;<metamark>_</metamark> der Papst der <unclear reason="illegible" cert="high" resp="#MN">Vallunke</unclear> hätte uns gebethen ihm Hilfe zu<lb/>leisten da der nichts mehr in seinen Lande richten kann etc etc noch<lb/>20000 andere Dinge die dich als Mädchen nicht interressieren können.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Jetzt werde ich meine Patrulle absenden <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> dann mich auf das schlechte<lb/>Kampir zur Ruhe begeben,<metamark>_</metamark> daher liebe Schwester gute <hi rendition="#aq">Nacht</hi>.<metamark>_</metamark> Viele<lb/>Handküsse an meine gute Mutter <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> lieber Vater so auch an meine gute<lb/>Großmutter nebst viele Küsse an alle Geschwister, <gap reason="illegible"/>,<metamark>_</metamark> 
+               <unclear reason="illegible" cert="high" resp="#MN">Stipperpoos</unclear>
+               <lb/>Hp. v. Andern etc. von deinen dich zärtlich liebenden Bruder <hi rendition="#aq #u">Carl Münchhoff</hi> 
+               <hi rendition="#u">Oberst</hi>:<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Meinen Handkuß an Fr. v. <hi rendition="#aq">Arthaker</hi>, Tante <hi rendition="#aq">Müllner</hi> 
+               <choice>
+                  <abbr>u/</abbr>
+                  <expan resp="#CT">und</expan>
+               </choice> viele viele Grüße an <hi rendition="#aq">Marie</hi>.<metamark>_</metamark> frage<lb/>auch letztere ob sie meinen Brief bekommen hat den ich ihr vor einigen Tagen geschrieben.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

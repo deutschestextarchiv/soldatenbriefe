@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 87: Hermann Horn (Offizier), 27.07.1866, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Hermann</surname>
+                  <forename>Horn</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 87 von Hermann Horn, 27.07.1866.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 87: Hermann Horn (Offizier), 27.07.1866, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Hermann</surname>
+                        <forename>Horn</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1866-07-27">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="87">
+            <head>
+               <supplied>SB-Nr. 87: Hermann Horn (Offizier), <date when="1866-07-27">27.07.1866</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Würzburg, den 27. Juli 1866.</p>
+            <lb/>
+            <p rendition="#et">Liebster Vater, liebe Geschwister!</p>
+            <lb/>
+            <p>Eben finde ich ein Paar Minuten lang bei<lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">Pasters</unclear> Zeit, Euch wieder schnell Nachricht von<lb/>mir zu geben. Ich stand am 25. an Teinem<lb/>Namensfeste lieber Papa am <del rendition="#s">Tre</del>Abend im<lb/>Treffen beim Helmstädt u. bin wieder<lb/>glücklich durchgekom̃en. Meine Kompag. war<lb/>die einzige vom ganzen Baõn, die im wirklichen<lb/>Feuer stand u. auch geschossen hat, obwohl das<lb/>Baõn auch genug die Kugeln sausen hörte, die<lb/>glücklich darüber hinwegflogen. Das 2 Baõn<lb/>war mehr im Feuer, hat Todte u. Verwundete.</p>
+            <lb/>
+            <p>Lt. Ziegler (Pfälzercorpsbursch) fiel in den<lb/>Rücken getroffen u. ist in den Händen der<lb/>Feinde, ob todt <del rendition="#s">wi</del>können wir nicht genau<lb/>sagen, jedoch glauben die Soldaten seiner<lb/>Kompagnie daß er leider <del rendition="#s">den F</del>todt sei.</p>
+            <lb/>
+            <p>Gestern fiel ein Treffen bei Roßbruñ vor,<lb/>wobei nur ein Theil unserer Division dabei <lb/>war, ich auch nicht. Die Preußen sind geflohen.<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>Wir haben sie nicht verfolgt. Warum?<lb/>Das wissen wir nicht. Es heißt, Prz.<lb/>Carl hätte höheren Befehl gehabt, sie<lb/>nicht zu verfolgen.</p>
+            <lb/>
+            <p>Wir haben gestern bei Würzburg ein<lb/>Biwouak bezogen u. liegen jetzt noch<lb/>da. Eben fand ich ein wenig Gelegenheit<lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">Pasters</unclear> ein wenig zu besuchen; ich gab<lb/>ihnen ein Telegram̃, es Euch zu<lb/>schicken.</p>
+            <lb/>
+            <p>die Preußen haben heute Vorm.<lb/>Würzburg von weiter Ferne aus<lb/>beschossen, doch wurden ihre Batterien<lb/>bald demontirt, so dass sie schließlich<lb/>wieder „<hi rendition="#u">abschoben</hi>“. Ein Theil von<lb/>der Citadelle, Vorrathshaus soll es<lb/>sein, ist <del rendition="#s">abge</del>ausgebrañt. Festungswerk<lb/>sind nicht zerstört. die Citadelle ist<lb/>sehr hoch gelegen, so daß Alles ringsum<lb/>beherrscht werden kann.</p>
+            <lb/>
+            <p>Hoffentlich kom̃en die Preußen nicht<lb/>nach Würzburg. Wir sehnen uns<lb/>nach Frieden. Wir gewinnen nichts.<lb/>Alles wird zerstört. Es wird noch<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>großen Jam̃er geben, weil die Landleut<lb/>nichts ärndten, da wir die meisten<lb/>Felder zertreten müssen. Mir thut es <lb/>oft wehe, weñ ich durch einen vollen<lb/>Kornacker durchmuß.</p>
+            <lb/>
+            <p>Ich habe schon lange keinen Brief<lb/>mehr von Euch. Was ist es mit <lb/>dem Gelde, habt Ihr es.</p>
+            <lb/>
+            <p>Jetzt lebt wohl, Gott gebe ein<lb/>glückliches Wiedersehen</p>
+            <lb/>
+            <p rendition="#et">Euer<lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">Hermann</hi>
+            </p>
+            <lb/>
+            <p>Große Eile.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

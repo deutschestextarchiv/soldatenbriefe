@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 147: Bernhard Prahmann (Mannschaften), 17.01.1871, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Bernhard</surname>
+                  <forename>Prahmann</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 147 von Bernhard Prahmann, 17.01.1871.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 147: Bernhard Prahmann (Mannschaften), 17.01.1871, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Bernhard</surname>
+                        <forename>Prahmann</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1871-01-17">1871</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="147">
+            <head>
+               <supplied>SB-Nr. 147: Bernhard Prahmann (Mannschaften), <date when="1871-01-17">17.01.1871</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Lagny, Thorigny</hi> den 17/1 71.</p>
+            <lb/>
+            <p rendition="#et">Lieber Fritz!</p>
+            <lb/>
+            <p>Deinen lieben Brief von 11 habe<lb/>ich richtig erhalten, u. habe mir recht ge⸗<lb/>freut das ihr noch alle gesund und munter<lb/>seit. denn das hat mir auch sehr getrauert<lb/>das der Unteroffezier Probst und Hillebrecht<lb/>gestorben sind denn es war auf eine<lb/>furchtbare schlacht gewesen bei Orlögan,<lb/>Sprinz Friedrich Karle habe in der lezen<lb/>zeit hinter Orligan ein große Fest⸗<lb/>ung genommen wo sich 1600 Mann<lb/>gefangen genommen haben und<lb/>haben 60 Kannonen erobert, denn<lb/>das bombardieren dauert bis zum<lb/>23ten vor Paris und sie woll es mit<lb/>Gewalt ein nehmen wier können<lb/>bei Abend dann Blitz von Kannonen<lb/>donner immer fortwähren sehn,<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>u das Schiessen jeht Tag un Nacht<lb/>immer fortwährent und haben jetzt<lb/>fünf Tagen eingenommen bei Paris.</p>
+            <lb/>
+            <p>Lieber Bruder wir haben es hier jetz<lb/>er saure Arbeit bei den verladen<lb/>u haben es nicht so gut wie in der<lb/>Bäcker in Weißenburg denn wir werden<lb/>jetz wohl nicht wieder in der Bäcker⸗<lb/>rei kommen, so wie wir gehört haben<lb/>kommen wir wahrscheinlich fort von<lb/>hier u werden <del rendition="#s">von</del>vor Paris<lb/>hinkommen wenn wir erst weiter<lb/>bestimmung da über haben so schreibe<lb/>ich gleich wieder an Dir zurück</p>
+            <lb/>
+            <p>Wir haben jez auch große hoffnung von<lb/>Paris das es wohl bald Frieden<lb/>werden wird hoffen auch bald<lb/>wieder heim nach nach Deutschland zurück</p>
+            <lb/>
+            <p>Es sind in dieser Zeit auch sehr viel<lb/>verwundet nach Deutschland her⸗<lb/>über gefahren.</p>
+            <lb/>
+            <p>Lieber Fritz wenn es irgent geht<lb/>das Packet wieder angenomen<lb/>so schicke mir noch etwas herüber<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>
+               <space dim="horizontal"/>denn was wir hier kriegen das<lb/>
+               <space dim="horizontal"/>bringt sehr wenig für uns und wenn<lb/>wir uns was kaufen hier das ist sehr<lb/>teuer in Frankreich denn ein<lb/>
+               <del rendition="#s">halbes</del>gut Butter kostet eine halben<lb/>Thaler hier in Frankreich ist es immer<lb/>nicht so kalt gewesen wie bei euch<lb/>Schnee hat hier gar nicht gefallen.<lb/>Ich habe es auch schon erfahren das<lb/>die Braunschweiger jetz in Metzt<lb/>sind so wie ich gehört habe werden<lb/>sie wohl in Metzt bleiben.</p>
+            <lb/>
+            <p>An Bruder August habe ich auch schon<lb/>vor virzehn Tagen ein Brief ge⸗<lb/>schrieben u sollte mir etlich Strüfe<lb/>herüber schicken und laure alle<lb/>Tage auf einen Brief von ihn<lb/>denn ich freue mich sehr wenn<lb/>ich jedes einem Brief von euch<lb/>bekommen.</p>
+            <lb/>
+            <p>Lieber Fritz hast Du denn<lb/>noch nichts von Friedrich Köhen<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>gehört ob der auch noch an Leben<lb/>ist ich habe bis jetz noch keinen<lb/>bekannten getroffen als wie aus<lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">Als</unclear>hausen einer Namens Küster.</p>
+            <lb/>
+            <p>Grüß alle von mir Deine Frau,<lb/>Kinder Wilhelm u Frau, Schmidt u Frau,<lb/>u Frau Tante Liebertin von mir<lb/>denn ich bin bis jetzt noch Gesund<lb/>und muter zu gange.</p>
+            <lb/>
+            <p>Lieber Fritzt Du schriebst mir auch<lb/>warum das ich die 2 Briefe nicht selbst<lb/>geschrieben hätte denn ich hatte<lb/>in der Zeit einen schlimmen Finger<lb/>gehabt und ist jetzt wieder <del rendition="#s">zu</del>
+               <lb/>heil geworden.</p>
+            <lb/>
+            <p>Sei auch besten gegrüßt von<lb/>
+               <space dim="horizontal"/>Deinen Bruder<lb/>
+               <space dim="horizontal"/>Bernhard.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

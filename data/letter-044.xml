@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 44: Friedrich Hoffmann (Offizier), 07.12.1832, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Friedrich</surname>
+                  <forename>Hoffmann</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 44 von Friedrich Hoffmann, 07.12.1832.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 44: Friedrich Hoffmann (Offizier), 07.12.1832, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Friedrich</surname>
+                        <forename>Hoffmann</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1832-12-07">1832</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="44">
+            <head>
+               <supplied>SB-Nr. 44: Friedrich Hoffmann (Offizier), <date when="1832-12-07">07.12.1832</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Lienz</hi> am 7.<hi rendition="#sup">t</hi> xbre 1832.</p>
+            <lb/>
+            <p>Meine geliebte Thekla!</p>
+            <lb/>
+            <p>Ganz gewiß hast du meinen Brief von Innsbruck, eingeschloßen <unclear reason="illegible" cert="high" resp="#MN">von 9<choice>
+                     <orig>“</orig>
+                     <reg resp="#CT">ten</reg>
+                  </choice> Miezy</unclear>
+               <lb/>richtig erhalten, und die für dich sehr tröstliche Nachricht ersehen daß ich<lb/>bis dahin sehr gesund und wohlbehalten gekom̃en bin, ehe ich also meine<lb/>kleine Reisebeschreibung fortsetze, versichere ich dich meine gute Thekla<lb/>daß meine Gesundheit im̃er noch vortrefflich ist und daß ich an keinen<lb/>Theil meines Körpers irgend ein Weh empfinde, sey daher ohne alle Sorge,<lb/>denn der Marsch äußert nicht die geringste Unannehmlichkeit trotz der<lb/>ziemlich strengen Kälte welche im Pusterthale herrscht; doch ich will von<lb/>Innsbruck beginnen, wo ich in meinem letzten Brief abbrach.</p>
+            <lb/>
+            <p>Die <hi rendition="#aq">Visite</hi> bey Hof Enzenberg war glücklich überstanden, als ich zum Essen<lb/>in die Rose mußte, hier war nichts brillant, sondern ein ganz gewöhnliches<lb/>Kosthaus, Abends war Theater wo Vanini paradirte, ein sehr abgeschmachtes<lb/>langweiliges Stück der Frau Birch:Pfeifer, das mich durchaus nicht unterhielt,<lb/>nach diesem kam die Musik des Kegr Baden in die Rose, wo ich aus Gefällig⸗<lb/>keit länger wie gewöhnlich blieb, ich schlich mich jedoch um 10½ Uhr fort, ohne<lb/>Abschied zu nehmen, weil die Herren uns zu begleiten versprachen.<lb/>d. 20. 9bre Morgens halb 8 Uhr zogen wir dann vereint aus und ich kam mit<lb/>der Comp<hi rendition="#sup">e </hi>nach <hi rendition="#aq">Gries</hi> nach <unclear reason="illegible" cert="high" resp="#MN #CT">
+                  <formula notation="TeX">\nicefrac{5}{4}</formula>
+               </unclear> Stde vorwerts Steinach, Hptm. <unclear reason="illegible" cert="high" resp="#MN">
+                  <hi rendition="#aq">Supess</hi>
+               </unclear> und<lb/>Hohenbrück begleiteten uns nach Steinach und wir nahmen Abschied, um so<lb/>ernstlicher als auf dem Schönberg uns Schneegestöber ereilte, welches jedoch<lb/>nach einer halben Stunde wieder aufhörte. Gries ist ein ordentliches <lb/>Dorf am Fuß des Brenners wo wir recht gut wohnten, <hi rendition="#aq">Gobel </hi>war mit<lb/>dabey; am 1. xbre als ich meine Augen aufmachte, sah ich Fußtiefen Schnee<lb/>den es die Nacht über geworfen hatte, und noch hatte das Gestöber<lb/>kein Ende, wir machten daher kurzen Prozeß und dein Mann setzte sich<lb/>an die Spitze ließ schneien und den Wind wehen wie es mochte und<lb/>führte, der Erste, durch sehr tiefen Schnee, ohne Weg die Leute über den<lb/>Berg; nicht ein Einziger blieb zurück und wir hatten die Genugthuung<lb/>einen sehr beschwerlichen Marsch von 5½ Stden mit Ordnung zurückge⸗<lb/>legt zu haben, denn der Hptm. <unclear reason="illegible" cert="high" resp="#MN">
+                  <hi rendition="#aq">Supess</hi>
+               </unclear> &amp; Hohenbrück waren uns, ganz ge⸗<lb/>wiß aus guter Neugierde in einer Postchaise gefolgt, und wunderten<lb/>sich weidlich daß Mann hinter Mann in zwei Fuß tiefem Schnee ohne<lb/>Aufenthalt mit frischem Muth gefolgt waren; erst anderthalb Stden<lb/>später, als wir mit diesen Herrn schon gegessen hatten, <unclear reason="illegible" cert="high" resp="#MN">kam der Stab</unclear>
+               <lb/>nach Sterzing wo wir diese Nacht zubrachten.<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+            </p>
+            <lb/>
+            <p>d. 2<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">ten</reg>
+               </choice> xbre hatte es aufgehört zu schneien, nur war der Weeg noch nicht gebahnt<lb/>deßwegen war es bös zu marschiren, wir hatten die Vorsorge getroffen daß<lb/>den Soldaten die Tornister gefahren würden, und so kamen wir nach 8 stündigem<lb/>Marsch in Unter Winkl dem ersten Ort im Pusterthal wohlbehalten an,<lb/>wir fanden, nemlich 6.<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">te</reg>
+               </choice> d 7.<hi rendition="#sup">te </hi>Comp<hi rendition="#sup">e</hi>, auf der Post eine sehr gute Unterkunft<lb/>und ließen es uns bey einem Glas Eyerpunsch sehr wohl seyn.</p>
+            <lb/>
+            <p>d. 3 xbre kam der Stab nach Brunecken, ich aber nach Percha 1 Stde vor⸗<lb/>werts, den Rasttag brachte ich größtentheils in Brunecken zu wo die <lb/>Peterwardeiner mit uns speisten. </p>
+            <lb/>
+            <p>d. 5. xbre traf es mich mit Gobel und Masselrode nach Foblach einem dorf<lb/>1 Stde vorwerts Niederndorf, wo wir nicht grade zum Besten waren.<lb/>am 6 xbre mußte ich 2 Stde über Sillian hinaus nach Abfaltersbach<lb/>wo wir ein herrliches Wirthshaus trafen, und Heute sitze ich in<lb/>Tristach rechts von der Straße, <unclear reason="illegible" cert="high" resp="#MN #CT">
+                  <formula notation="TeX">\nicefrac{9}{4}</formula>
+               </unclear> Stde vorwerts Lienz bei einem Pfarrer<lb/>welchem ich den morgenden Rasttag sehr gerne schenken würde, allein<lb/>meine geliebte Thekla da ich volle Muße habe dir zu schreiben, indem <lb/>ich Morgen Früh ausruhen kann, so ist mir alles recht und gut.</p>
+            <lb/>
+            <p>Bis dieser Brief zu dir gelangt wird wohl Hptm <hi rendition="#aq">Geupert </hi>dir mündlich<lb/>Nachricht von mir und meinem Wohlbefinden gegeben haben, denn er<lb/>geht Morgen zurück, er hat mir zwar sagen und anbieten lassen<lb/>wenn ich etwas mitzusenden habe, allein es wird zu spät und so muß<lb/>dieser Brief gezwungen den Postlauf durchmachen. <hi rendition="#aq">Geupert</hi> wird<lb/>wohl, um sein Umkehren zu beschönigen unsern Marsch beschwerlicher<lb/>darstellen, allein wirklich und wahr, wir hatten nur einen einzigen<lb/>Tag, nemlich den Marsch über den Brenner, welcher zu den sehr beschwer⸗<lb/>lichen, und den Marsch tags darauf welcher zu den fatiguanten<lb/>gezählt werden darf, seit dieser Zeit herrscht zwar ziemliche Kälte<lb/>aber die Straße ist gut und trocken, und ich kerngesund, die Märsche<lb/>sind nicht sehr groß, denn um 1 Uhr auch wohl noch früher sind wir an <lb/>Ort und Stelle, ohne früher als 7 oder halb acht uhr aufzubrechen.</p>
+            <lb/>
+            <p>Wir haben nun den halben Weeg zurückgelegt und hoffen auf die nemliche<lb/>gute Art auch die andere Hälfte zu überwinden; ich denke es soll uns<lb/>nicht fehlen obschon wir allen Aussagen nach in ein Land kom̃en<lb/>wo die Schweinerey zu Hause ist, dieß soll jedoch nur ein paar Märsche<lb/>dauern, und dann alles wieder besser werden.</p>
+            <lb/>
+            <p>Sehr genau würde ich dir unsere veränderte Marschroute mittheilen, aber<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>auch die bey dem Stab jetzt bekannte ist nicht sicher, denn beinahe jeden<lb/>Tag wird geändert, indem bald die Märsche zu groß, bald die Rasttage<lb/>an zu schlechten Orten sind, dieß allein scheint gewiß, daß wir um zwei<lb/>Tage früher nemlich den 24.<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">ten</reg>
+               </choice> dß zu Triest eintreffen werden, wo ich ganz<lb/>gewiß Briefe von dir meine einzig geliebte Thekla erhalte, auf<lb/>die ich mich im Voraus außerordentlich freue.</p>
+            <lb/>
+            <p>Mein gestricktes Kittele ist Heute gewaschen worden und hängt an dem<lb/>Pfarhofzaun vorn heraus, Hemden ließ ich zu Innsbruck und bey<lb/>Brunecken waschen, ein paar Socken haben verteufelte Löcher bekom̃en<lb/>sonst ist noch alles im besten Zustande.</p>
+            <lb/>
+            <p>Zu Brunecken traf ich den Herrn Hahn welcher sich vielmal empfiehlt, auch<lb/>diesen Aufenthalt wird er in einigen Wochen mit dem zu <gap reason="illegible"/> vertauschen; <lb/>auch fallen mir jetzt die vielen vergessene Empfehlungen ein, von <gap reason="illegible"/>
+               <lb/>
+               <hi rendition="#aq">Helbig</hi>, Hptm <unclear reason="illegible" cert="high" resp="#MN">
+                  <hi rendition="#aq">Supess</hi>
+               </unclear>,<hi rendition="#aq"> Engendorf</hi> &amp; Gemalin pp: sowohl an dich an Antoni<lb/>&amp; den Vater.</p>
+            <lb/>
+            <p>Ich habe in den letzten paar Tagen zu Lindau den <unclear reason="illegible" cert="high" resp="#MN">
+                  <hi rendition="#aq">Meschor</hi>
+               </unclear> den Auftrag ge⸗<lb/>geben den Rosenstock auf Annas Grab mit Stroh einzubinden, laß doch<lb/>nachsehen ob es geschehen ist, wo nicht so ist es wahrscheinlich jetzt noch Zeit.</p>
+            <lb/>
+            <p>die andern Blumen brauchen keine Pflege.</p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Gobel</hi>, <hi rendition="#aq">Laufenstein</hi>, <hi rendition="#aq">Bijot</hi>, kurz alle sind gesund und wohl, was du den<lb/>Ihrigen sagen kannst.</p>
+            <lb/>
+            <p>Wir sind sehr begierig ob <unclear reason="illegible" cert="high" resp="#MN">
+                  <hi rendition="#aq">Mässig</hi>
+               </unclear> anstatt <hi rendition="#aq">Geupert</hi> fort muß; wir alle<lb/>glauben es.</p>
+            <lb/>
+            <p>Meine einzig geliebte Thekla wie sehr gerne wäre ich bey dir, wie oft denke<lb/>ich mich an einsamen Abenden in deine Arme und wie sehr ist mir dieses<lb/>Treiben zuwider; allein ich sehe wohl die Nothwendigkeit ein, und um<lb/>keinen Preis, würde ich auf solche Art zu dir zurückkehren wie G.</p>
+            <lb/>
+            <p>dieser hätte, wenn er ja nicht mehr marschiren konnte, nach Triest<lb/>vorausgehen sollen, dort die Überfahrt mitmachen und dann, wenn<lb/>seine Umstände sich verschlim̃ert hätten, wäre es ihm im̃er frey<lb/>gestanden zu thun was er nicht lassen kann; du wirst ihn verändert<lb/>finden, wir schreiben es dem Heimweh und dem Trinken zu, denn<lb/>zu Lindau, trank er für seinen Schwiegervater bey den Bürgern<lb/>und in den Wirthshäusern.</p>
+            <lb/>
+            <p>Mit meinem Bedienten bin ich noch recht gut zufrieden, und ebenso<lb/>mit den Soldaten, welche, Kleinigkeiten ausgenom̃en sich bis jetzt<lb/>sehr wacker hielten. </p>
+            <lb/>
+            <p>Mit <hi rendition="#aq">Heerwagen &amp; Berüff</hi> lebe ich in gutem Einverständniß, Gobel<lb/>aber schnauzt ihn bey jeder darbietenden Gelegenheit an.<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+            </p>
+            <lb/>
+            <p>Mit den großen gehofften Ersparnißen sieht es windig aus, denn<lb/>in Tyrol ist es sehr theuer, und ich lasse mir nichts abgehen, ich esse so<lb/>gut es seyn kann, trinke meinen Kaffee und Wein; vielleicht wird<lb/>es dort wo man mit Papier bezalt etwas wohlfeiler; meine Baarschaft<lb/>in der Gurt reicht aber hinlänglich bis Triest und sollen noch einige<lb/>Thaler übrig bleiben, dort erhalten wir wieder Geld und zwar wie<lb/>wir hoffen viel, denn man hat der Theurung wegen um eine Zulage<lb/>für uns eingegeben.</p>
+            <lb/>
+            <p>Was wir in den Zeitungen lesen lautet Kriegerisch, darum bin ich<lb/>bis jetzt über unsere <hi rendition="#aq">Expedition</hi> nicht zu ungehalten denn ganz<lb/>gewiß müßte ich dich danach verlassen, ohne die leise Hoffnung<lb/>in mir zu haben dich im Frühjahr zu sehen, oder doch im Herbst<lb/>abgelößt zu werden. Sey stark geliebte Thekla und denke<lb/>daß ich mit unveränderlicher Liebe und Treue dein bin.</p>
+            <lb/>
+            <p>Was macht der Vater und die liebe Antonie umarme sie beyde<lb/>und grüße mir Thomas von Herzen.</p>
+            <lb/>
+            <p>Sind meine Blumen noch am leben, und erhälst du auch einige<lb/>Besuche.</p>
+            <lb/>
+            <p>Der Freundin <hi rendition="#aq">Gobel</hi> alles herzliche und Schöne, wie auch den Kindern<lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">Folié und Apepors</unclear> richte meine freundschaftlichen Grüße aus</p>
+            <lb/>
+            <p>Lebe nun wohl meine theure Thekla, sey wiederholt versichert<lb/>daß ich alles anwenden werde um gesund zu dir zurückzukehren<lb/>und daß es keinen glücklichen Augenblick für mich giebt bis<lb/>ich dich nicht in der Wirklichkeit umarme, was ich jetzt<lb/>leider nur in Gedanken zu thun im Stande bin.</p>
+            <lb/>
+            <p>Adieu liebe liebe Frau ich bleibe unverändert dein<lb/>
+               <space dim="horizontal"/>Hoffmann.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

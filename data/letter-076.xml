@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 76: August W. Gutschke (Mannschaften), 17.05.1866, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>August</surname>
+                  <forename>W. Gutschke</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 76 von August W. Gutschke, 17.05.1866.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 76: August W. Gutschke (Mannschaften), 17.05.1866, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>August</surname>
+                        <forename>W. Gutschke</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1866-05-17">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="76">
+            <head>
+               <supplied>SB-Nr. 76: August W. Gutschke (Mannschaften), <date when="1866-05-17">17.05.1866</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Punitz</hi> den 17/5. 1866</p>
+            <lb/>
+            <p rendition="#et">Lieber Vater <lb/>
+               <space dim="horizontal"/>und Pauliene!</p>
+            <lb/>
+            <p>Da ich nun bereitz schon über ach Tage weg bin, und Dir noch keine<lb/>nachricht habe schreiben könn, will ich jetzt diese Stunde benutzen<lb/>denn wir sind hir in Punitz ein Quartirt und erwarten aller<lb/>augen blik befehl per Bahn, ab zu maschierem.</p>
+            <lb/>
+            <p>Also erstens von dem Marsche von zu Hause aus, sind wir Glücklich<lb/>in <hi rendition="#aq">Crossen</hi> angelang, wo Ernst Schiller noch am abend<lb/>wieder mit zu rück gefahren ist und ich dem andern Morgen<lb/>zu dem Major mich wandte aber nicht angnomen wurde<lb/>sondern gesagt ab warten, es werden noch viel zu Hause<lb/>gehn, aber da his es ganz anders, da langte der 58ste<lb/>Jahrgang noch nicht sondern es mußten noch von dem 57sten<lb/>welche ein rangsirt werden, und mußte also auch mit, da<lb/>ging es nun gleich fort, bis auf das nächste dorf und ein Quartirt<lb/>dem andern Tag, dem Him̃elfartstag haben wir ein Marsch<lb/>von 4 Meilen gemacht nach Nauenburg am Bober, wo sie<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>mich aber haben müßen fahren denn schon in <add place="superlinear">
+                  <metamark/>
+                  <hi rendition="#aq">Crossen</hi>
+               </add> bin ich,<lb/>und Franks Gottlob aus Schwiebus vorgetreten und haben<lb/>
+               <add place="superlinear">
+                  <metamark/>uns</add> Brust krank gemeldet, aber da <add place="superlinear">
+                  <metamark/>war</add> weiter nichts als eintreten,<lb/>und war weiter keine errettung als fort, nun wieder<lb/>weiter von Nauenburg, nach <hi rendition="#aq">Sagan</hi> 3½ Meile aber auch<lb/>wieder gefahren, dort wurden wir ein Quartirt, ein schönes<lb/>Quartir, dann bin ich Nachmitag in dem Herzoglichen<lb/>Schloßgarten gewesen die die schönen Treibhäuser, wo rinnen<lb/>Blumen aller art blühen, und kurz und gut garnicht zu<lb/>beschreiben ist, ich werde euch es nämlich erzählen wenn<lb/>ich wieder zu Euch kome, und in dem Schloße eben so,<lb/>so waß habe ich in meinen leben noch nie gesehen,<lb/>nun von <hi rendition="#aq">Sagan</hi> aus sind wir die Nacht um 2 Uhr mit der<lb/>Bahn nach Spruttau, von dort <hi rendition="#aq">Glogau</hi>, wo wir des Mittags<lb/>an kamen, dort 2 Stunden angehalten, da habe ich aber auch<lb/>Millitär gesehen weiter nichts als Him̃el und Menschen, so gar<lb/>das 2te aufgebot von 6te Regiment war schon ein gekleidet<lb/>von dort ging es nun wieder weiter und zwar mit einem<lb/>Extra Zuge 2 Maschinen und 86 Wagen nach<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>Lissa zu, von dort nach Tzöppin, dan nach Mosslien, und zu<lb/>letzt nach <hi rendition="#aq">Posen</hi>, wo wir Sonabendts an kamen, aber<lb/>so fort 20 Mann noch ab komandirt worden nach Schrim<lb/>
+               <del rendition="#s">also</del>wo ich und Franke aus Schwiebus bei war, also Sontag<lb/>Morgen früh 5 Uhr fuhren wir schon wieder 6 Meilen retur<lb/>nach Tzöppien, und maschirten von <unclear reason="illegible" cert="high" resp="#MN">Tarus</unclear> nach Schrim, wo wir<lb/>schon Mittags ein trafen, wurden so fort geteihlt und kam<lb/>zur 9n <hi rendition="#aq">Comp:</hi> 52te Regiments, auch noch gleich eingekleidet<lb/>da könnt ihr wohl denken was ich vor einen Sontag gefeiert<lb/>habe, Montag vor Mittag Exirt Dienstag früh 6 Uhr auch<lb/>ausgerükt ein Marsch von 4 Meilen Krigs fertig ausgerüstet<lb/>und der Mann noch 60 scharfe Pattron, aber da ging es sehr<lb/>schlecht, und bin selbst schlap geworden, den man ist das <lb/>alles nicht gewoht, nun haben wir zwei märsche gemacht,<lb/>und sind eine Meile entfernt von der Bahn , hir bleiben<lb/>wir liegen auf weitere befehl kan auch <add place="superlinear">
+                  <metamark/>sein</add> daß wir zu Hause<lb/>gehn, neues kann ich weiter nicht schreiben Gesund bin ich<lb/>noch so ziehmlich und gefallen Thut mirs ausserordentlich, gleich<lb/>daß ich alles könte auf Tausend Stücke reißen und brechen<lb/>aber was hilfts ich bin nicht allein es sind welche dabei<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>die noch bedeutendt älter sind und zwei bis drei Kinder haben.<lb/>und bin deshalb noch ganz glüklich dagegen, nun lieber Schwieger<lb/>Vater Grüß ich ihnen alle, <del rendition="#s">vor</del>und Grüßen sie auch alle von mir<lb/>in Muschten und Ritschütz, auch meiner Mutter und Geschwister<lb/>und sagen sie doch meiner Mutter, wenn sie, das Geld von<lb/>dem x: Fuchs: noch nicht hat so soll sie mir die Rechnung<lb/>so fort schiken, das ich es dem Battalion melden kann, <lb/>ich schließe nun hir mit und grüße meiner lieben Pauliene<lb/>noch vielmal, und hoffe daß auch mein schreiben beiguter<lb/>Gesundheit möge antreffen, und verbleibe Euer Euch</p>
+            <lb/>
+            <p rendition="#et">liebender Schwieger Sohn bis in den Todt<lb/>
+               <space dim="horizontal"/>Wozu wir bestim̃t sind da helfe und stärke uns Gott</p>
+            <lb/>
+            <p>meine Adresse ist folgende<space dim="horizontal"/>
+               <hi rendition="#aq">August Wilhelm</hi>
+               <lb/>
+               <space dim="horizontal"/>Feld Postbrif<lb/>Den Gefreiten <hi rendition="#aq">Aug: Wilhelm II</hi>
+               <space dim="horizontal"/>und bitte auch um <lb/>der 9<hi rendition="#sup">tn</hi> 
+               <hi rendition="#aq">Comp</hi>: des 6tn Brandbrg: baldige antwort<lb/>
+               <space dim="horizontal"/>Inft Regiments No 52<lb/>
+               <space dim="horizontal"/>in <hi rendition="#aq">Punitz</hi>
+               <space dim="horizontal"/>Kreis<space dim="horizontal"/>Kröben</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

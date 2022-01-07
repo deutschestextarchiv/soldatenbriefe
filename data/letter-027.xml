@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 27: Ferdinand Metzner (Offizier), 13.10.1812, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Ferdinand</surname>
+                  <forename>Metzner</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 27 von Ferdinand Metzner, 13.10.1812.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 27: Ferdinand Metzner (Offizier), 13.10.1812, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Ferdinand</surname>
+                        <forename>Metzner</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1812-10-13">1812</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="27">
+            <head>
+               <supplied>SB-Nr. 27: Ferdinand Metzner (Offizier), <date when="1812-10-13">13.10.1812</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p rendition="#et">Liebe beste gute Mutter!</p>
+            <lb/>
+            <p>Um meine Achtung Dir zu zeigen schreibe ich alle <lb/>Posttage<supplied resp="#CT">.</supplied> Du musst alle acht Tage von mir Brie⸗<lb/>fe bekom̃en haben, hoffentlich einen vom 9<hi rendition="#sup #uu">ten</hi>
+               <lb/>
+               <hi rendition="#aq">Septe</hi> oder war es ein paar Tage später, kurz aus <lb/>dieser Gegend des Datums.</p>
+            <lb/>
+            <p>Heute ist ein Curier von Cassel gekom̃en und hat <lb/>viele <hi rendition="#aq">Avancements</hi> und <hi rendition="#aq">Orden</hi> mitgebracht, wo⸗<lb/>von nähmlich von den <hi rendition="#aq">Orden</hi> auch Dein Sohn, wel⸗<lb/>cher Dich ausserordentlich liebt, Ferdinand <del rendition="#s">auch</del>
+               <lb/>einen bekom̃en hat, nichts mehr wünschte <lb/>ich als mich mit demselben Dir <hi rendition="#aq">praesentiren</hi> 
+               <lb/>zu köñen, doch ehe ich weiter schreibe, von August <lb/>hast Du wie ich heute Morgen von ihm gehört habe <lb/>noch keinen Brief bekom̃en, ich kann Dir sagen, <lb/>dass er sehr gesund ist, und mit dem <hi rendition="#aq">Regiment</hi> 
+               <lb/>1 Stunde von hier steht, er brachte heute Morgen <lb/>aus <hi rendition="#aq">Moscau</hi> ein<hi rendition="#aq"> Convoi</hi> Mehl von 100 Wagen <lb/>mit einer Bedeckung von 50 Mann hier zu <lb/>uns, in einiger hinsicht entschuldige ich ihm <lb/>dass er nicht geschrieben hat, denn viel zu <lb/>thun hat man, und dann liegt er von der<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>Poststrasse, allein mit der nächsten Post <lb/>bekom̃st Du gewiss einen Brief, ich habe <lb/>es ihm ziemlich eingeprägt. – er ist einige <lb/>Zeit krank gewesen, doch nicht bedeutend <lb/>fünf <hi rendition="#aq">bouteillen</hi> Weins welchen er von <lb/>Obristlieutenant von <hi rendition="#aq">Rauschenplatt</hi> 
+               <lb/>bekom̃en hatte, haben ihm ganz wieder <lb/>auf die Füße geholfen, ich lasse mich <lb/>von Krankheit nichts merken, gottlob <lb/>bin ich sehr wohl.</p>
+            <lb/>
+            <p>Ein Waffenstillstand von 40 Tagen <lb/>soll wirklich zu stande gekom̃en sein <lb/>ich wünsche bald Frieden, damit man <lb/>mal die weite Reise antreten kann <lb/>denn 650 Stunde treñen uns bisjetzt <lb/>noch voneinander, allein in 3 Monath <lb/>legt man die Zurück, wir gehen wahr⸗<lb/>scheindlich auf unsere <hi rendition="#aq">Retour</hi> durch<lb/>
+               <note place="mBottom">Seid nur <lb/>nicht zu <lb/>lustig auf <lb/>der Ernte⸗<lb/>braten, <lb/>damit wenn <lb/>wir mal <lb/>wiederkom̃en <lb/>auch noch ein <lb/>freundliches <lb/>Gesicht bekom⸗<lb/>men, ver⸗<lb/>stehst Du <lb/>mir</note>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>
+               <hi rendition="#aq">Gallicien</hi>, ein schönes Ländchen <lb/>auch das beköm̃t man zu sehen.</p>
+            <lb/>
+            <p>Ich glaube oder hoffe vielmehr, dass <lb/>sich nun niemand in der Familie <lb/>beklagen kann keinen Brief von <lb/>mir bekom̃en zu haben, thut mir nur <lb/>die Liebe und schreibt fleissig, ich will <lb/>es nicht ermangeln lassen. Der Jäger <lb/>
+               <hi rendition="#aq">Werner</hi> welcher uns mal den schönen Braten <lb/>schickte hat die <hi rendition="#aq">Medaille</hi> bekom̃en, ist aber <lb/>an seinen Wunden gestorben, die arme <lb/>Mutter, es war einer meiner besten Jäger. <lb/>Müller ist gefangen, <hi rendition="#aq">Mölscher</hi> lebt und ist <lb/>gesund. <hi rendition="#aq">Ohrdorf</hi> läßt grüßen andere <lb/>kennst Du nicht. viel bekom̃st Du dies⸗<lb/>mal nicht, aber Du weisst doch zum <lb/>wenigsten wie es Deinen Söhnen geht, nur <lb/>im̃er Muth, es wird schon gehen bald sehen wir <lb/>uns. grüße alle von mir. – </p>
+            <lb/>
+            <p>
+               <space dim="horizontal"/>
+               <hi rendition="#u">Dein Sohn Ferdinand</hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Mosaisck</hi> am 13t<lb/>im <hi rendition="#aq">october</hi> 1812.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

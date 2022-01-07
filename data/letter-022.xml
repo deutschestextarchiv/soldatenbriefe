@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 22: Johan Seib (Mannschaften), 16.02.1811, Westmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Johan</surname>
+                  <forename>Seib</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 22 von Johan Seib, 16.02.1811.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 22: Johan Seib (Mannschaften), 16.02.1811, Westmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Johan</surname>
+                        <forename>Seib</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1811-02-16">1811</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="22">
+            <head>
+               <supplied>SB-Nr. 22: Johan Seib (Mannschaften), <date when="1811-02-16">16.02.1811</date>, <choice>
+                     <abbr>WMD</abbr>
+                     <expan>Westmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Muggia in Spanchen den 16. Februar 1811</p>
+            <lb/>
+            <p rendition="#et">Liebste Eltern Und geschwiestern meine kindliche liebe<lb/>welche ich zu ihnen Trage hat mir mein hertz Entzündt um<lb/>Ihnen zu Schreuben daß ich nocht gott sey dank gesund bin<lb/>Und ich hoffe mein schreuben werde sie bey guter gesundheit<lb/>antreffen. liebste Eltern die Zeit als ich von ihnen weg gegangen<lb/>habe ich Schon vieles erfahren durch Franchreich auf der reuse da<lb/>haben wir es recht guth aber als wir an Spanchen kamen da hat es<lb/>Ein end wir liegen Schon vier Monath auf einem blatz drey Stund<lb/>seydwertz der statt vicktoria in grosen geburch am Meer von den<lb/>feind sind wir noch weit entfernt aber in dem geburch da ist noch ein<lb/>starckes korbs welche uns alle Tage atagieren und wir Tag und<lb/>nacht keine ruhe haben in vier Monath seyd wir noch nicht aus der<lb/>munthur gekom̃en wo wir hinkom̃en da werden wir Einqwathirt<lb/>in den klöster und abgebrände hauser das spanische volck ist eine<lb/>wüste nazion Menschen sie seyd uns sehr feind sie lassen kein soldat<lb/>in ihre häuser wen einer sich will brot kaufen so muß er vor der<lb/>Thür stehen wie Ein bettler Unser lebensmitel das ist sehr schleh<lb/>wir haben einmal des Tages zu Essen und nicht foll<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>das ge<add place="superlinear">
+                  <metamark/>s</add>und brod kostet den deuches gelt zehn kreuzer und<lb/>muß froh seyd wen man bekomt liebste Eltern wir müssen<lb/>viel hunger leiden wenn sie könen so schicken sie mir doch etwas<lb/>gelt was sie können es ist alleweil sehr angelegt an mir<lb/>wen wir in keiner bösen gegend so wären so hätte ich sie nicht<lb/>alleweil Uberlastigt mit Einen brief das hätte ich nicht geglau<unclear reason="illegible" cert="high" resp="#MN">bt</unclear>
+               <lb/>daß es mir so geht in der welt doch jetz kan ih es nicht endern ich<lb/>dencke tag und und nacht nach haus wenn es mir guth ging so däte<lb/>ich nicht so viel an sie denken ich hätte ich nun noch vieles zu schreu<lb/>ben es wird nacht nun will ich mein Schreuben schließen leben<lb/>sie wohl Verbleube ihr treuer Sohn Johan Seib</p>
+            <lb/>
+            <p rendition="#et">Ich grüsse meine Eltern geschwiestern und Freunde<lb/>
+               <space dim="horizontal"/>und alle bekante und wünsche daß es ihnen von herzen<lb/>
+               <space dim="horizontal"/>wohl gehet;</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[2]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

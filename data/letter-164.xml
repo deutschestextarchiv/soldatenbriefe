@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 164: Hermann Eichhorn (Mannschaften), 11.05.1871, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Hermann</surname>
+                  <forename>Eichhorn</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 164 von Hermann Eichhorn, 11.05.1871.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 164: Hermann Eichhorn (Mannschaften), 11.05.1871, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Hermann</surname>
+                        <forename>Eichhorn</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1871-05-11">1871</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="164">
+            <head>
+               <supplied>SB-Nr. 164: Hermann Eichhorn (Mannschaften), <date when="1871-05-11">11.05.1871</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Brandenburg d. 11 Mai 71</p>
+            <lb/>
+            <p rendition="#et">Lieber Richard!</p>
+            <lb/>
+            <p>Erst heute kann ich dir das Buch schicken,<lb/>nimm es nicht übel, daß es so lange gedau⸗<lb/>ert hat, und nun lies es mit Muße einmal<lb/>durch, du wirst Dich wundern über die vielen<lb/>fremden Gegenden und Städte welche ich gesehen<lb/>habe, ich hätte wohl Alles noch ein Wenig mehr<lb/>ausschmücken sollen, allein dies hätte wohl<lb/>zu lange aufgehalten. Es sind mir noch viele<lb/>hübsche Scenen passiert, die sich aber mündlich<lb/>weit besser erzählen lassen. Mit meiner Ent⸗<lb/>lassung scheint es noch lange zu dauern, Du <lb/>kannst Dir gewiss vorstellen lieber Richard,<lb/>daß der Aufenthalt in den Lazarethen<lb/>kein angenehmer ist, ich könnte Dir da viel<lb/>schildern von den vielen Unglücklichen die<lb/>der Krieg ruinirt hat, ich habe fast alle mir<lb/>denkbaren Verwundungen gesehen, und wünsche<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>recht von Herzen bald andere heitere Bilder<lb/>zu sehen, aber was wird mir die erste Zeit der<lb/>Freiheit bringen, ich bin durch den Feldzug<lb/>auch arg mitgenommen und muss wieder von vorn<lb/>anfangen, nur fleißiges Arbeiten wird mich<lb/>wieder aufhelfen können, u wie glücklich und<lb/>zufrieden kannst Du lieber Bruder sein, daß<lb/>Du mit dem Militärwerden fertig bist,<lb/>dies ist gar nicht zu schätzen. Ich glaube, wenn<lb/>ich jetzt so zu Dir gekommen wäre, hättest Du<lb/>mich kaum erkannt, Du wirst die Veränderung<lb/>an meinem Bilde finden, nur denke dir den<lb/>Bart nicht so dunkel wie auf demselben, er ist wie<lb/>mein Haar, dunkelblond. Ich will dir nicht verhehlen<lb/>lieber Junge, daß ich so gerne einmal bei dir sein<lb/>möchte, was hätten wir wohl alle gegenseitig<lb/>auszutauschen, aber es ist kaum möglich gewor⸗<lb/>den, ich frage Dich, wie lange denkst Du wohl in<lb/>dem schönen Wien zu bleiben? der l. Onk. Wilhelm<lb/>sagte mir, du hättest noch weitere Reisen vor, bei mir<lb/>wird das Reisen bald aufhören, ich denke von hier noch einmal<lb/>nach Hause und dann wieder ins Geschäft worauf ich mich ordent⸗<lb/>lich freue. Nun sei tausendmal gegrüßt von Deinem kranken</p>
+            <lb/>
+            <p rendition="#et">Bruder <hi rendition="#aq">Hermann</hi>.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[2]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

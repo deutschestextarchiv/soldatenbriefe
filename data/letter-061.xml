@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 61: Franz Duschl (Mannschaften), 16.04.1851, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Franz</surname>
+                  <forename>Duschl</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 61 von Franz Duschl, 16.04.1851.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 61: Franz Duschl (Mannschaften), 16.04.1851, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Franz</surname>
+                        <forename>Duschl</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1851-04-16">1851</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="61">
+            <head>
+               <supplied>SB-Nr. 61: Franz Duschl (Mannschaften), <date when="1851-04-16">16.04.1851</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Tarnopol am 16 <hi rendition="#aq">April</hi> 1851</p>
+            <lb/>
+            <p rendition="#et">Theueste Eltern!</p>
+            <lb/>
+            <p>Wo bin ich jetzt, einst war ich nahe bei Euch wie<lb/>ich Euch von Graz geschrieben habe, und<lb/>jetzt bin ich eine so große Weite entfernt<lb/>es sollen von Tarnopol bis Linz 150 Mai⸗<lb/>len seyn. Den 7 Februar bin ich von<lb/>Graz weg nach Wien; da war ich 2 Tage<lb/>dann bin ich nach Preßburg, da war ich<lb/>auch 2 Tage, dann bin ich nach Ofen dort war<lb/>ich 12 Tage. Dann haben wir mit 200 Mann<lb/>welche zum Regiement transferirt wor⸗<lb/>den sind den Marsch am 22 Februar angefan⸗<lb/>gen, und in 43 Tagen durch viele Anstren⸗<lb/>gung und Mühseligkeiten in Tarnopol <lb/>den 5 <hi rendition="#aq">April </hi>angelangt. Wo auch Euer<lb/>Schreiben den nähmlichen Tag vom 5 April<lb/>nach Tarnopol gekom̃en ist wo ich selbe<lb/>den 6 <hi rendition="#aq">April</hi> mit sehr großer Freu⸗<lb/>de erhalten habe. Dieser Marsch lie⸗<lb/>be Eltern ist nicht zu beschreiben<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>was wir ausstehen haben müßen; In Ungarn haben wir<lb/>Noth gehabt bis auf die Knie, die Vorspansleute<lb/>haben mit Ihre Wägen gar nicht weiter können sie<lb/>sind bereits ganz versunken, die Räder sind ganz<lb/>bis auf den Radhaufen hinein gegangen. Und<lb/>wie wir aus Ugarn gekom̃en sind, da haben wir<lb/>Wasser bis auf den halben Leib bekomen. Liebe<lb/>Eltern gehet zum Vorster Georg der wird Euch<lb/>die Landkarte aufschlagen, und wird finden, wie<lb/>nahe wir an der <unclear reason="illegible" cert="high" resp="#MN">Rußschisen</unclear> Seite stehen, von<lb/>Tarnopol ist es noch 5 oder 6 Stunden hinzu. Von<lb/>Tarnopol bis Linz werden ungefähr 150 Mailen<lb/>sein. Unser Regiement braucht keinen Krieg es<lb/>verlirt so schon eine zimlich große Zahl von<lb/>Manschaft, es sollen die 7 Monathe welche es hier<lb/>in Galiezien liegt bei 700 Mann in Spiethal ver⸗<lb/>lohren haben, alle Tage sieht man Leichen auf den<lb/>Gottesacker tragen, 2 oder 3 Mann in einer großen<lb/>Truchel beisamen. Hier ist schlechtes Leben man<lb/>bekommt sonst gar nichts als wie schlechtes Bier<lb/>und Spiridus Schnaps. In ganz Galizien gibt es<lb/>so viel Juden, daß man bald keinen Chriesten nicht<lb/>mehr sieht; diese handeln und Wandeln in ganz Po⸗<lb/>len ein unaussteliches Volk, hier muß man von<lb/>die Juden leben, die Bauern sind zu Dum<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>der Jud hat viel Geld, und der Bauer sauft gern Schnaps<lb/>auch die Frauenzimer trinken sonst nichts, und wenn sie<lb/>besoven sind überedet der Jud sie leicht, der Bauer<lb/>macht bei den Juden viel Schulden bis das sein<lb/>Vermögen der Jud für sein Schnaps hat Öster⸗<lb/>reich und Steuermark darf froh sein, daß sie von<lb/>die Juden befreit sind: denn sie thun sonst nichts<lb/>als wie die Leute betrügen beschmiren und<lb/>Kinder erzeigen, daß ist ihrer Handwerk. Hier<lb/>in Tarnopel ist das ganze jüdische Weibsgeschlecht<lb/>alles darf ich sagen Hur; so ein niedertrechti⸗<lb/>ges Volk habe ich doch noch nicht gesehen, in Pest <lb/>und Ofen gibt es auch viel Juden, aber es<lb/>ist doch gar kein Vergleich davon. Von Krieg<lb/>weiß man hier eben so wenig, als wie wo anders<lb/>in der Stadt <unclear reason="illegible" cert="high" resp="#MN">Szeclizni</unclear> wird eine starke Ve⸗<lb/>stung gebaut. 38 Schanzgraben werden ge⸗<lb/>macht, es sollte ein Befestigungs Punkt seyn<lb/>für 200,000 Mann. Pulver führt man schon<lb/>sehr viel hier auch andere Lebensmittel<lb/>Osterfeuertage habe ich zimlich gute gehabt<lb/>ich bin gerade bei einen zimlich großen<lb/>Bauer einquatirt gewesen, welcher mich<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>alle 3 Tage zum Essen eingeladen hat, auch zum Früh⸗<lb/>stück und Nachtessen sehr gut ausgefallen ist.<lb/>der Franz Heibl hat mir gar nicht viel neues ge⸗<lb/>schrieben er hat mir einen Gruß von Euch liebe<lb/>Eltern geschrieben und daß er schon bald zwey<lb/>Jahre nicht in den langweiligen Nest war, wie<lb/>Hohenbrun ist. Das es ihm in <add place="superlinear">
+                  <metamark/>der</add> Stadt viel lieber<lb/>ist als wie zu Hause. Sonst liebe Eltern weiß<lb/>ich nicht viel mehr neues zu Schreiben in<lb/>Tarnopel bin ich 12 Tage jetzt kome ich auf<lb/>das Land 14 Stunde von Tarnopel zu einen<lb/>Pfarer welcher ein sehr hibsches Quatier<lb/>hat für uns. Unser Regiement ist ganz<lb/>zerstreiet unter die Dörfer und Märkten<lb/>überall h liegen 1 oder 2 Kompagnien.<lb/>Liebe Eltern ich grüße Euch alle recht herz⸗<lb/>lich, und hoffe daß Euch der liebe Gott so <del rendition="#s">wie</del>
+               <lb/>auch wie mich gesund erhalten möge. verbleibe<lb/>ich Euer</p>
+            <lb/>
+            <p rendition="#et">gehorsamer Sohn<lb/>
+               <space dim="horizontal"/>Franz Duschl.</p>
+            <lb/>
+            <p>Meine Adrese An den Franz Duschl<lb/>der 12 Konpagnie des Infanterie<lb/>Regiement König der Belgier #27 beim Herrn Haußman von<lb/>in Tarnopel in Galizien.<space dim="horizontal"/>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

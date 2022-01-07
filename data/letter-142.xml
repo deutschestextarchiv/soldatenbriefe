@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 142: Franz W. Gorges (Mannschaften), 1870, Ostmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Franz</surname>
+                  <forename>W. Gorges</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 142 von Franz W. Gorges, 1870.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 142: Franz W. Gorges (Mannschaften), 1870, Ostmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Franz</surname>
+                        <forename>W. Gorges</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1870">1870</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="142">
+            <head>
+               <supplied>SB-Nr. 142: Franz W. Gorges (Mannschaften), <date when="1870">1870<note type="editorial">genaues Datum unbekannt</note>
+                  </date>, <choice>
+                     <abbr>OMD</abbr>
+                     <expan>Ostmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Im lager bei Mätz den 28ten 1870.</p>
+            <lb/>
+            <p rendition="#et">Liebe Frau</p>
+            <lb/>
+            <p>Du wirsts nicht übel nehmen das ich dir<lb/>nicht ehr geschrieben habe, ich hätte wohl<lb/>ehr gekonnt aber ich wollte doch erst sehen<lb/>ob ich die Kiste bekome, Da ich sie nun<lb/>am 25ten bekommen habe, so sage <lb/>ich dir meinen grösten Dank für<lb/>die hübsche Wurst wo ich mir so dran<lb/>geflegt habe, und über haubt für die<lb/>andern sachen. Liebe Frau ich hatte dir<lb/>gebeten um eine Brieftafel wenn du<lb/>so freundlig sein willst und es ist<lb/>dir möchlig so schicke sie mir doch so<lb/>bald wie möchlig denn ich kann kein<lb/>Papier laßen es wird immer naß<lb/>und schmutzig. Liebe Frau heute<lb/>am 28ten liegen wir den 86ten Tag<lb/>und Nacht auf freiem Felde was uns<lb/>nicht gut gefallen hat, aber eine<lb/>solche Nacht als wie die vom 26ten auf 27<lb/>haben wir nochnicht verlebt, wir waren<lb/>auf vorposten, da stand ich im Garten<lb/>am Dorfe Saroll da brach der Wind die<lb/>Bäume ab und ein furchtbarer Regen<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>den andern Morgen am 27ten hies es das<lb/>sich Mätz ergeben hätt mit 1070. Tausend<lb/>Mann, 80. Generähle, 600 Oficiere, aber<lb/>ganz genau weis es noch keiner wenn<lb/>es so andem sein solte so schreibe ich<lb/>es dir, das 7. Armeecorps bleibt<lb/>hier liegen zum besatz unsere und<lb/>die übrigen Armeen masiren den<lb/>1ten nach Baries ich werde dir<lb/>ganz genau nachricht schreiben wenn<lb/>es so andem ist, Liebe Caroliene<lb/>ich denke, das es jetzt doch nicht<lb/>mehr so lange dauern soll denn<lb/>dieses haben wir erst mal weg<lb/>und die Franzsosen sehn jetzt<lb/>auch ein das sie unten liegen<lb/>müßen, sie werden jetzt auch<lb/>ganz artig. Liebe Frau so kann ich<lb/>dir weiter nichts schreiben wenn<lb/>dis alles so enden und gewiß sein<lb/>sollte so bekommst du nachricht<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>Liebe Frau herr Fischer erkundigt sich<lb/>wie der Ort heißt wo wir jetzt liegen, zwischen<lb/>Scharrlie und Ollschie ander Mosel<lb/>aber wir werden nach 2 oder drei Tage<lb/>in die Quartiere kommen bis das<lb/>wir abmaschiren nach Baries wenn<lb/>es nicht wieder abbefohlen wirt<lb/>sonstige uneinigkeiten kann ich<lb/>jetz weiter nicht schreiben wenn<lb/>es möchlig ist so bekommst du<lb/>Morgen anderen bescheid</p>
+            <lb/>
+            <p rendition="#et">Gesund bin ich Gott sei Dank<lb/>
+               <space dim="horizontal"/>noch was ich auch winsche<lb/>
+               <space dim="horizontal"/>von dir und meinen Kinde</p>
+            <lb/>
+            <p rendition="#et">Viele Grüsse an alle bekannte<lb/>
+               <space dim="horizontal"/>und schreibe bald was <lb/>
+               <space dim="horizontal"/>mein liebes Kind macht.</p>
+            <lb/>
+            <p rendition="#et">bitte so bald wie möchlig nachricht.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

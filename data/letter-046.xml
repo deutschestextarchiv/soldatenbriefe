@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 46: Friedrich Hoffmann (Offizier), 24.04.1834, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Friedrich</surname>
+                  <forename>Hoffmann</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 46 von Friedrich Hoffmann, 24.04.1834.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 46: Friedrich Hoffmann (Offizier), 24.04.1834, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Friedrich</surname>
+                        <forename>Hoffmann</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1834-04-24">1834</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="46">
+            <head>
+               <supplied>SB-Nr. 46: Friedrich Hoffmann (Offizier), <date when="1834-04-24">24.04.1834</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Triest den 24.<hi rendition="#sup">ten</hi> April 1834</p>
+            <lb/>
+            <p>Meine geliebte gute Thekla.</p>
+            <lb/>
+            <p>Obschon mit Arbeit und Rechnungsgeschichten<lb/>überhäuft, schreibe ich dir dennoch ein paar<lb/>Zeilen, damit du im̃er weißt wie ich mich<lb/>befinde, und was wir machen.</p>
+            <lb/>
+            <p>Unsre <hi rendition="#aq">Quarantaine</hi> geht, meiner Be⸗<lb/>schäftigungen halber; schnell herum, wozu<lb/>die Besuche des ganzen „<unclear reason="illegible" cert="high" resp="#MN">Rittmez</unclear>“erischen<lb/>Hauses sehr viel beitragen, dabey ge⸗<lb/>nieße ich der besten Gesundheit, mein<lb/>Appetit ist vortrefflich, überhaupt bin<lb/>ich freudig und fröhlich, demungeachtet <lb/>wird Dr. <hi rendition="#aq">Foliè</hi> den du freundlichst grüstest<lb/>eine Nachkur mit mir beginnen müßen,<lb/>der dann das Bad die Krone aufsetzen<lb/>wird.</p>
+            <lb/>
+            <p>Deinen lieben Brief habe ich am Montag<lb/>richtig erhalten, und freue mich auf die<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>weitere Nachrichten, denn es scheint mir<lb/>als sey das so lange vermißte Packet<lb/>jetzt in deinen Händen.</p>
+            <lb/>
+            <p>Mit der Mitbringerey wird es schlecht aus⸗<lb/>sehen, denn da wir uns nur einen halben Tag<lb/>zu <hi rendition="#aq">Triest</hi> aufhalten, so wird es beinahe un⸗<lb/>möglich seyn die Einkäufe zu machen, be⸗<lb/>sonders wenn ich bedenke daß schlechtes<lb/>Wetter mir etwas verderben könnte.</p>
+            <lb/>
+            <p>Meine Zeit in Triest wird noch mehr da⸗<lb/>durch beschränkt, daß ich bey <hi rendition="#aq">H Kern</hi>
+               <lb/>zum Mittag essen eingeladen bin, und <lb/>bey <hi rendition="#aq">W Rittmeyer </hi>&amp; <hi rendition="#aq">Weber</hi> einen Besuch<lb/>machen muß.</p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Gobel</hi> ist wohl, allein <hi rendition="#aq">Bijot</hi> ist noch leidend<lb/>was nicht viel zu bedeuten hat, denn das<lb/>Fieber hat ihn verlassen und leidet nur<lb/>an Schwäche.<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+            </p>
+            <lb/>
+            <p>Nun lebe wohl, vor unserm Abmarsch<lb/>erhältst du noch einen Brief; herze und<lb/>drücke Pylades, und umarme Vater und<lb/>Antonie von deinem dich über Alles<lb/>liebenden Hoffmann.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

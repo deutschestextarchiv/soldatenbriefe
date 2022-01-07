@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 141: Friedrich Ludwig (Mannschaften), 23.12.1870, Westmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Friedrich</surname>
+                  <forename>Ludwig</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 141 von Friedrich Ludwig, 23.12.1870.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 141: Friedrich Ludwig (Mannschaften), 23.12.1870, Westmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Friedrich</surname>
+                        <forename>Ludwig</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1870-12-23">1870</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="141">
+            <head>
+               <supplied>SB-Nr. 141: Friedrich Ludwig (Mannschaften), <date when="1870-12-23">23.12.1870</date>, <choice>
+                     <abbr>WMD</abbr>
+                     <expan>Westmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Zevers den 23ten Dezember 1870</p>
+            <lb/>
+            <p rendition="#et">Liebe Eltern und Frau!</p>
+            <lb/>
+            <p>Ohne einen Brief von Euch erhalten<lb/>zu haben, seit dem letzten Geldbrief<lb/>drängt es mich doch wieder einige<lb/>Zeilen zu schreiben, weil ich weiß<lb/>wie sehr Ihr auf Nachricht von mir <lb/>wartet, und weil wier morgen auf<lb/>Vorposten kommen, ich also in vier<lb/>Tagen nicht schreiben kann, auch<lb/>hat sich ein Ereigniß bei uns zu⸗<lb/>getragen, welches ich Euch gerne<lb/>mitheilen möchte. Wier sitzen näm⸗<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>nämlich den 21<hi rendition="#sup">ten</hi> des morgens<lb/>früh beim Kaffe trinken am Tisch<lb/>welcher am Fenster steht, auf ein⸗<lb/>mal kommt eine Granate, und schlägt <lb/>ober dem Fenster ein, und in dem<lb/>selben Moment fliegen uns die<lb/>Glas Scherben um den Kopf, eben<lb/>falls die Kaffe Tassen sammt <lb/>dem Kaffe, so daß keiner den<lb/>andern mehr sah, und ein wahres <lb/>Wunder, daß wier so glücklich<lb/>davon gekommen sind, eine Glas⸗<lb/>scherbe ist mier wieder den Arm <lb/>geflogen, welcher so gleich anschwoll,<lb/>jetzt aber schon wieder gut ist.<lb/>Acht Mann sind von unserm Batt.<lb/>verwundet, außer den Civilisten.<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>Es sind noch einige Häuser da, die<lb/>nicht demolirt sind. Wier Nieder⸗<lb/>kleer sind durch Gottes Hülfe<lb/>noch alle gesund und munter.<lb/>Weiter weiß ich Euch keine Neuig⸗<lb/>keiten zu schreiben, und will jetzt<lb/>schließen, und ich empfele Euch und<lb/>mich, dem Schutze Gottes, der mich<lb/>nun schon so oft und wunderbar <lb/>errettet hat.</p>
+            <lb/>
+            <p>Gruß an meine Schwiegerältern und<lb/>Schwägerin, und alle Freunde und<lb/>Nachbarn. Und in der Hoffnung, daß<lb/>mein Brief Euch bei guter Gesundheit<lb/>antrifft, wie er mich verlassen hat, und<lb/>daß Euch der Herr ein glückliches Neu⸗<lb/>jahrs Fest feiern läßt, Verbleibe ich</p>
+            <lb/>
+            <p rendition="#et">Euer Fritz.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

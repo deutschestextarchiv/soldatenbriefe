@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 16: Marencke (Unteroffizier), 10.10.1796, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname/>
+                  <forename/>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 16 von Marencke, 10.10.1796.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 16: Marencke (Unteroffizier), 10.10.1796, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname/>
+                        <forename/>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1796-10-10">1796</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="16">
+            <head>
+               <supplied>SB-Nr. 16: Marencke<note type="editorial">Vorname unbekannt</note> (Unteroffizier), <date when="1796-10-10">10.10.1796</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <space dim="horizontal"/>
+               <hi rendition="#u">Vielgeliebte Mutter</hi>
+            </p>
+            <lb/>
+            <p>Ich kan nicht unter Laßen an ihne Zu Schreiben Wen<lb/>ihn mein wenige Schreiben bey guter Gesundtheit<lb/>antrieft so soll Es mir von Hertzen lieb seyn was mir<lb/>anbetrieft bin ich noch gesundt Liebe Mutter ich hätte schon<lb/>Lange Wollen Schreiben aber ich habe Im̃er auf gelegen<lb/>heit gewarthtet, aber niemals Welche gehabt so nehme<lb/>ich mich die Freuheit an ihne Zu Schreiben ich muß es auch<lb/>gestehn Weil ich Von ihn gieng das mir der Abschiet so<lb/>Schwer Viel das ich mich Alle augen blieck um sehn mußte<lb/>Weil ich nach Sandlehn dort kam. so habe ich mich zum<lb/>letzten mahl umgesehn Liebe Mutter ich muß ihm<lb/>berichtigen Daß ich im Willens bin Zuheurathen Liebe<lb/>Mutter ich möchte ihm Viellmals Bitten um daßjenige<lb/>Was sie mir vor Sprochen haben den sie Wolten mir ja<lb/>etwas Weiszeug Schiecken den Weil ich Untterofficier, bin<lb/>so thu ich es noth wentieget Brauchen den Weill es hir so<lb/>theuer ist Liebe Mutter sie müßen mir es nicht übell<lb/>nehmen daß ich nich ehr Geschrieben habe den ich habe im̃er<lb/>auf den, <hi rendition="#aq">Hertzogs v. Braunschweig</hi> gewartet Daß ich<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>mit seine Leute Geschrieben hätte Liebe Mutter ich thue<lb/>mich noch mahls bedanken Vor das gute Waß an mir gethan<lb/>haben Den Weisen tug den ich von ihne habe den trage ich<lb/>zum angedenken um den hals Weil wir Weise binden<lb/>tragen Liebe Mutter seyn sie doch so gut und Grüßen<lb/>sie doch den Untterofficier Müller und auch die <hi rendition="#aq">Frau<lb/>Raulens</hi> und alle gute bekante auch den diederich</p>
+            <lb/>
+            <p>Liebe Mutter seyn sie doch so gut und gehen sie bey die<lb/>
+               <hi rendition="#aq">Frau Amtmannen</hi> Wo ich in <hi rendition="#aq">Quartire</hi> gelehgen habe<lb/>und Grüßen sie doch den Bedienten und die Cam̃er<lb/>Junfer die Köchin, Ich thue mich nochmals bedancken</p>
+            <lb/>
+            <p>Vor alles gute Leben sie recht Woll</p>
+            <lb/>
+            <p>Wen sie Schreiben so machen<lb/>sie die auf Schrieft an den Ich Verbleibe ihre auf<lb/>
+               <hi rendition="#aq">Untterofficier Marencke</hi>
+               <space dim="horizontal"/>Richteger <hi rendition="#aq">Sohn</hi> bis in den<lb/>unter der königlichge<space dim="horizontal"/>Tot <hi rendition="#aq">Potsdam</hi> 10<hi rendition="#sup #uu">ten<lb/>Grenadier Garde</hi>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">October 1796<lb/>Patalilon v Reeler</hi>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[2]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

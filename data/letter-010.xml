@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 10: Nikolaus Binn (Unteroffizier), 20.07.1759, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Nikolaus</surname>
+                  <forename>Binn</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 10 von Nikolaus Binn, 20.07.1759.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 10: Nikolaus Binn (Unteroffizier), 20.07.1759, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Nikolaus</surname>
+                        <forename>Binn</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1759-07-20">1759</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="10">
+            <head>
+               <supplied>SB-Nr. 10: Nikolaus Binn (Unteroffizier), <date when="1759-07-20">20.07.1759</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Gott sey mit euch allen nach seinen gefallen. Meine allerliebste Frau und kinder ich habe Euer beides schreiben erhalten und daraus ersehen das ihr euch noch gesund und woll befindet welche mir eine hertzliche freude ist. was mich anbelanget bin ich bis dato auch noch gesund, Gott helfe ferner auf beiden Seiten. meine aller liebste Frau ich berichte dir daß wir anjetzo bei Frankfurt an der Oder stehen auf Dörfer in Kantonirungs Quartier und werden Hoffentlich Erstens mit den Russen eine Potallie lieffern. wir kommen jetzo aus Sachsen und sind beinahe an 40 Meilen marschiert, werden uns hier ein par Tage aus ruhn alsdann werden wir woll unsern Tirranischen Feind entgegen gehn und ihm die Spitze bieten. Er steht anjetzo noch in Pohlen aber nahe an der gräntze. die armen Grentz ein wohner haben schon wieder ihre liebe Noth durch den Tirranischen Feind aufs neue befunden. ihr bischen Armuth was sie sich wieder angeschaft haben und was sie noch versteckt behalten zu dem mal, ist ihnen wieder aufs neue genommen durch die streifende Partien so über die gräntze kommen. ich habe aber die Gedancken wan der liebe Gott uns gnädig ist und gibt uns den Sieg welcher Eintzig und allein von gott komt, so werden sie der maaßen so gepritscht werden das es als dann viel leicht woll das letzte mahl sein wird das sie ser von kommen. meine allerliebste Frau und Kinder und alle die Erkäntnis haben, daß es um euch so woll als uns würde schlecht aussehen wann die pottallie verspielt würde fallet auf eure Knie und bittet den lieben Gott das er uns und euch gnädig und den Sieg gegen unßereTirranischen Feinde gibt. meine Bitte ist diese daß der liebe Gott uns einen sehr Hertzhaften muth gibt unsern Feind anzugreifen. ich befehle mich in die Hand des Herrn in übrigen gehe es wie der liebe Gott will. ich werde den Tirrannen nichts schenken sondern das jenige thun was einem rechtschaffnen Soldaten in Pottallien zu kommt, soll ich drein bleiben so geschehe des Herrn wille. lieber Todt als gefangen oder schwer pleßiert. Gott der Allmächtige wende alles zum besten und sey uns und das liebe Vaterland gnädig. Die jenige Armee nemlich die reichsarmee wo wir bey daher gegen gestanden haben dis Jhar, haben wir schon ziemlich zerstreut viele Todten und gefangnen gemacht, verfolget durchs Bereitische, durchs bambersche und witzborsche bis nürrenberg, ihre magaziens ihr mehl und provigant alles rungniert, auch in bambersche, witzborsche und derselben gegent ein starkes Geld eingetrieben, und so ist es auch in Bömen und Mähren geschehen, erstlich bei Poßberg in Böhmen 3 ansehnliche Mageziens rungeniert und darauf bis nach brach in leipmeritz und bodien eine gantz erstaunde Menge Mageziens rungeniert, welches den Feind so viel schaden thut als wenn er die gröste Potalli verspielt hätte. da wird veracht und nicht betracht was löblich ist, die erstaunde Fässer Mehl musten die Burgerschaft Raußer wältzen auf den Markt entzwey schlagen, waßer heu und stroh darunter streuen und die Husaren mit die Pferde drin rum reiten, was nahe an der Elbe gelegen alles herein geschüttet. Der Schade ist nicht zu beschreiben welcher da geschehen ist, uns zu einem großen Vortel. Meine liebe Frau und Kinder ich verspreche so bald als diese Pottalie vorbey ist und ich das Leben davon bringe werde ich euch weiter Nachricht schreiben. hat es aber der liebe Gott so beschloßen daß ich meinen Geist gegen den Tirranschen Feind muß aufgeben so geschehe Herr dein Wille wie im Himmel also auch auf Erden und ist dieses als dann unser abschieds Brief. befehle unterdeßen euch und mich den allmächtigen Gott, er mach es nach seinem gnädigen Willen machen wie es ihm gefält. unterdeßen freue ich mich über dein letztes schreiben das ich daraus ersehe, das unsre lieben Kinder in Osterburg in die Schule gehen, ob ich gleich an deßen schreiben noch keine große Beßerung gespürt habe, so habe ich doch Hoffnung, das sie doch besser lernen und das sie freylich viel kosten glaub ich. alles woll, ich habe aber deßhalb auch gethan was ich habe thun konnt und werde es, wann mir Gott das Leben noch ferner läßt, werde ich nicht nachlassen und meine Hand nicht sinken laßen. ich hätte dir anjetzo gern wieder etliche Thaler geschickt, ich habe aber einen Cornett bey der Compagni welchen ich 5 Thlr. geborget habe, binn aber gewiß versichert, wann ich und er beym leben bleiben, das ich es allemal kan wieder kriegen. wan du wieder schreibst, so schreibe doch ob sie auch <hi rendition="#aq">Latein</hi> lernen und wie weit sie gekommen. auf die Post schreib aber nicht eher, bis ich nicht noch mal geschrieben, den mann weiß nicht wie lange wir hier seyn.</p>
+            <lb/>
+            <p rendition="#et">atje liebe Frau und Kinder lebt wol<lb/> Copral Binn</p>
+            <lb/>
+            <p>d. 20. juli 1759. <lb/> Zetzau bey Frankfuhrt</p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

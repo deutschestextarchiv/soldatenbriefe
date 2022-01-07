@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 71: Julius Schulze (Mannschaften), 20.04.1865, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Julius</surname>
+                  <forename>Schulze</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 71 von Julius Schulze, 20.04.1865.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 71: Julius Schulze (Mannschaften), 20.04.1865, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Julius</surname>
+                        <forename>Schulze</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1865-04-20">1865</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="71">
+            <head>
+               <supplied>SB-Nr. 71: Julius Schulze (Mannschaften), <date when="1865-04-20">20.04.1865</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Stendal den 20<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">ten</reg>
+               </choice> April 1865</p>
+            <lb/>
+            <p rendition="#et">Lieber Vater!</p>
+            <lb/>
+            <p>Deine beiden Briefe nebst Geldgeschenk habe ich richtig und<lb/>mit vielem Dank erhalten.</p>
+            <lb/>
+            <p>Ueber meine Militairsache kann ich Dir berichten, dass<lb/>ich entschieden nicht bei diesem Regimente verbleibe,<lb/>da gar keine Ausicht zum Avanciren ist, denn Alles<lb/>will bei bleiben, und ehe ich 4-5 Jahren noch als Gefreiter<lb/>herumlaufen soll, dann lieber gar nicht dienen.</p>
+            <lb/>
+            <p>Ich werde noch dise Tage an einen meiner Kameraden<lb/>nach <hi rendition="#aq">Bonn</hi> schreiben, welcher nach Einrücken hierselbst<lb/>von <hi rendition="#aq">Schleswig</hi> dorthin ging und gleich darauf Untffz.<lb/>wurde, dieser gute Mann konnte hier auch nichts recht<lb/>werden, wurde aber doch in <hi rendition="#u">drei Jahren</hi> Gefreiter<lb/>und war so dumm, daß er kaum lesen u. schreiben <lb/>konnte. Dieser ist schon ein Beweis, daß Capitu⸗<lb/>lanten <add place="superlinear">
+                  <metamark/>doch</add> sehr leicht anvanciren und glaube sicher, dass, sollte<lb/>ich hin machen, ich vorläufig dieselbe Carriere machen<lb/>werde; ich habe sehr gute Zeugnisse und bin ziemlich<lb/>2Jahr Schwadrons⸗schreiber gewesen und das spricht mal mit.</p>
+            <lb/>
+            <p>Unter die rt. Artillrie zu gehen, bin ich zu schwach, und<lb/>kann Dir gestehen, dass ich dazu keine Lust habe, weil<lb/>es große Quälerei ist, ich habe die armen Kerls so<lb/>manchmal bedauert beim gr. Manöver.<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+            </p>
+            <lb/>
+            <p>Zur ehrenden Erinnerung an den verg: dänischen Feldzuge<lb/>ist dem Regiment als Auszeichnung für rühmliche Theilnahme<lb/>an demselben das Band der für diesen Feldzug gestifteten<lb/>Kriegsdankunge mit Schwertern verliehen worden.</p>
+            <lb/>
+            <p>Zur Befestigung desselben an der Estandarte fand am 18<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">ten</reg>
+               </choice>
+               <lb/>d.M. statt.</p>
+            <lb/>
+            <p>Um 10 Uhr fand eine große Parade statt, dieselbe hielt,<lb/>da der Oberstlieut Ribber die Feierlichkeiten zur Grundstein⸗<lb/>legung des dänischen Krieges in <hi rendition="#aq">Berlin</hi> beiwohnte, der<lb/>Myr. <hi rendition="#aq">Heuduck</hi> ab.</p>
+            <lb/>
+            <p>Die Ostertage verlebte ich still und einsam, am 1<hi rendition="#sup #uu">t</hi>
+               <lb/>ging ich mit H. Schneiderrim u. Wittstocke nach <hi rendition="#aq">Heinrichsberk</hi>
+               <lb/>ein kleiner Vergnügsort unweit <hi rendition="#aq">Stendal</hi>, von wo wir gegen<lb/>Abend wieder zurückkehrten, am 2<hi rendition="#sup #uu">t</hi> verblieb ich zu Hause<lb/>bis gegen Abend, als ich dann Frau <hi rendition="#aq">Schneiderrim</hi>, welche mich<lb/>einlud hinzukommen, besuchte; H. <hi rendition="#aq">Schneiderrim</hi>, <hi rendition="#aq">Wittstocke</hi>
+               <lb/>überhaupt das ganze Haus war ausgeflogen, nehmlich zum<lb/>großen Wasser nach <hi rendition="#aq">Tangermünde</hi>, dieselben kehrten erst<lb/>spät zurück.</p>
+            <lb/>
+            <p>Heute ist der Preuß: Coma. <hi rendition="#aq">Franseky</hi> hier und besichtigt die<lb/>Pferde.</p>
+            <lb/>
+            <p>Sage doch <hi rendition="#aq">Hermine</hi>, sie möchte mir doch Antwort auf<lb/>meinen <add place="superlinear">
+                  <metamark/>vorigen</add> Brief schreiben.</p>
+            <lb/>
+            <p>Für heute weiß ich nichts mehr. Adieu, Grüß Alle.</p>
+            <lb/>
+            <p rendition="#et">auch sei Du gegrüßt von<lb/>
+               <space dim="horizontal"/>Deinem<lb/>
+               <space dim="horizontal"/>Julius.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[2]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

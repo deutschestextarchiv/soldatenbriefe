@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 54: Franz Duschl (Mannschaften), 29.04.1849, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Franz</surname>
+                  <forename>Duschl</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 54 von Franz Duschl, 29.04.1849.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 54: Franz Duschl (Mannschaften), 29.04.1849, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Franz</surname>
+                        <forename>Duschl</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1849-04-29">1849</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="54">
+            <head>
+               <supplied>SB-Nr. 54: Franz Duschl (Mannschaften), <date when="1849-04-29">29.04.1849</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>vor Kräzt den 29 Apriel 1849.</p>
+            <lb/>
+            <p rendition="#et">Liebste Älltern!</p>
+            <lb/>
+            <p>Nun wiel ich jetzt meine Erfurcht bezeigen gegen Euch liebste<lb/>Älltern, jezt nehme ich mit Freuden die Federn in die Hand<lb/>um Ihnen einen schönen Gruß schicken zu können.</p>
+            <lb/>
+            <p>Liebste Älltern ich <del rendition="#s">daß</del>hofe das Euch mein Schreiben in<lb/>Bester Gesundheit antrefe, Gott sey Dank ich bin ihmer<lb/>Gesund, ich bette täglich zu Gott den Allmächtigen,<lb/>daß er mich und Euch liebste Älltern noch lengere Zeit<lb/>schenken möchte.</p>
+            <lb/>
+            <p>Ich bitte Euch liebste Älltern vergeßet Ihr auch<lb/>auf mich nicht, daß ich den Stand in den ich jetz bin<lb/>glücklich durchmachen könne. Liebste Älltern ich<lb/>grüße Euch noch eimahl, und mache Euch zu wißen,<lb/>daß mein Kamerrad das ist der Schnabl schon ins <lb/>Ungarn haben gehen müßen, der Glück war ihmer<lb/>in Spiethal, er hat in einen Fus ein Geschwür gekom̃en,<lb/>aber es wird schon wieder besser um Ihm.<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+            </p>
+            <lb/>
+            <p>Liebste Älltern wir sind wie wir noch beisam̃en wahren<lb/>auch nicht sicher, wo wir nicht alle Tage vort müßen<lb/>von Kratz, daß wird Euch liebste Alltern schon bekañt<lb/>seyn, daß wir von den Regiment Herzog Baaden<lb/>abgeben worden sind, und zu den Regiment Baron<lb/>Birret eingetheilt worden sind, und zwar zu der 25<lb/>Kumpagni bei den 5 Bathalion, daß heits bei den<lb/>Steyerischen Regiment. in Kräzt</p>
+            <lb/>
+            <p>Liebste Älltern ich <add place="superlinear">
+                  <metamark/>grüße</add> Euch noch einmahl und auch mein Geschwister<lb/>Bruder und Schwester und Freunden und Kameraden<lb/>und auch meine Geliebten Firmgötenleuthe recht herzlich.</p>
+            <lb/>
+            <p>Liebste Älltern das Ectazieren ist zwar nicht hart, aber<lb/>alle Tage 6 oder 7 Stunden Ectazieren, damit wier<lb/>es schnel lehrnen können. Es darf keiner aus der Kaserne<lb/>hinaus gehen, wier müßen ihmer in Bereithschaft stehen <add place="superlinear">
+                  <metamark/>wo wir nicht ins Ung. müßen</add>
+               <lb/>Liebste Älltern ich muß Euch noch einiges Schreiben, daß es mit der<lb/>Kleidung die wier angezogen haben zu Hause nicht viel sey<lb/>wenn es wir verkaufen so bekommen wir einige Baar<lb/>Kreuzer darum, und wenn es wir zu Hause schicketen<lb/>war es schon zu weith.</p>
+            <lb/>
+            <p>Indem ich jetzt mein Schreiben schließe mit einen schönen Gruß<lb/>an Euch liebste Älltern vergeßet nie für mich zu betten bei den<lb/>Allmächtigen der in Himmel ist, und wegen eine Antwort da<lb/>köñt Ihr thun wie Ihr wolth, den ich weiß es nicht wo wier hin müßen<lb/>und wollet mir Eier schreiben nachkom̃en muß er mir, aber kein Geld.</p>
+            <lb/>
+            <p rendition="#et">Ich bin<lb/>
+               <space dim="horizontal"/>und verbleibe<lb/>
+               <space dim="horizontal"/>den 29 Apriel 1849<space dim="horizontal"/>Euer gehorsamer Sohn<lb/>
+               <space dim="horizontal"/>Franz Tuschl</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[2]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

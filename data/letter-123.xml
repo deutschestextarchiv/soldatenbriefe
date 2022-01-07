@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 123: H. Behrens (Mannschaften), 01.10.1870, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>H.</surname>
+                  <forename>Behrens</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 123 von H. Behrens, 01.10.1870.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 123: H. Behrens (Mannschaften), 01.10.1870, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>H.</surname>
+                        <forename>Behrens</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1870-10-01">1870</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="123">
+            <head>
+               <supplied>SB-Nr. 123: H. Behrens (Mannschaften), <date when="1870-10-01">01.10.1870</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Ornes den 1/10 70</p>
+            <lb/>
+            <p rendition="#et">Geliebter Onkel und Tante</p>
+            <lb/>
+            <p rendition="#et">Das paar Strümpfe, die ihr mir geschikt habt<lb/>habe ich am 29 September erhalten, aber<lb/>es war kein Brief dabei, und weiß nicht<lb/>ob Sie mir die Strümpfe schicken, oder<lb/>ob meine Mutter die Strümpfe nach<lb/>Braunschweig hingebracht hat, und Ihr<lb/>Sie müssen herschicken. Ich sage auch<lb/>meinen herzlichsten dank<lb/>Geliebter August wie ich eben in<lb/>begriff war an deinen Vater und Mutter<lb/>zu schreiben, und auch schon ein paar<lb/>Zeilen geschrieben hatte, kömmt unser<lb/>Unteroffiezier von Feldwebel zu Haus<lb/>und brachte mir dieses Packet mit, wo Du<lb/>lieber August mir Cigarren ein schiken<lb/>thust, Du hast es sehr gut gemeint, und<lb/>man sieht auch deinen guten Willen, aber<lb/>lieber August es fehlt uns hier nicht an<lb/>Cigarren, wir sollen Täglich 5 Stück erhalten<lb/>vor ein paar Tagen haben wir 35 Stück auf<lb/>einmal erhalten, wir hatten denselben<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>Tornister voll Cigarren, wir empfangen<lb/>sehr viel Cigarren als Liebesgaben, auch<lb/>Strümpfe Unterjacken Pfeifen <hi rendition="#aq">Con⸗<lb/>jac</hi> und Schnaps, ich habe schon 2 paar Strüm⸗<lb/>pfe und Pfeife, eine Leibbinde und ein<lb/>paar Fußlappen erhalten. Wir haben viel<lb/>kranke bei unserm Regiment, bei unsrer<lb/>Comp. haben wir 67 kranke also der vierte<lb/>theil ist krank.</p>
+            <lb/>
+            <p>Hiermit lieber August muß ich schließen<lb/>den wir müssen ausrücken, wir werden<lb/>verlegt, und haben noch 3 Stunden zu mar⸗<lb/>schieren, was jedoch wohl 5 Stunden<lb/>sein werden.</p>
+            <lb/>
+            <p rendition="#et">Es grüßt<lb/>
+               <space dim="horizontal"/>dein<lb/>
+               <space dim="horizontal"/>dich liebend Freund <hi rendition="#aq">H. Behrens</hi>
+            </p>
+            <lb/>
+            <p rendition="#et">der 10<hi rendition="#sup #uu">ten</hi> Comp. N<hi rendition="#sup #uu">o</hi>ro. 73<lb/>
+               <space dim="horizontal"/>Hannoversch Füs. Reg<lb/>
+               <space dim="horizontal"/>13 Division, 7 Armeecorp</p>
+            <lb/>
+            <p>August ich muß noch bemerken<lb/>das viele schiken laßt nur sein.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[2]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

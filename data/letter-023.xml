@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 23: Philipp Franzen (Mannschaften?), 20.09.1811, Westmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Philipp</surname>
+                  <forename>Franzen</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 23 von Philipp Franzen, 20.09.1811.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 23: Philipp Franzen (Mannschaften?), 20.09.1811, Westmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Philipp</surname>
+                        <forename>Franzen</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1811-09-20">1811</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="23">
+            <head>
+               <supplied>SB-Nr. 23: Philipp Franzen (Mannschaften?), <date when="1811-09-20">20.09.1811</date>, <choice>
+                     <abbr>WMD</abbr>
+                     <expan>Westmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Uttrikt d 20<hi rendition="#sup #uu">ten</hi> Septemb: <hi rendition="#u">1811</hi>
+            </p>
+            <lb/>
+            <p>Meine Lieben Vatter und<lb/>Mutter und Bruder ich Griesen<lb/>euch alle Viel Huntert und Tausent<lb/>mal es hat mich geneigt euch ein<lb/>Par zeilen zu schreiben und Euer<lb/>schreiben von dem 28ten Agust habe<lb/>Ich Richtig erhalten und hab dar<supplied resp="#CT">⸗</supplied>
+               <lb/>aus ersehen das ihr noch alle bei gu⸗<lb/>ter gesontheit sein und Es heist mir<lb/>kriegen den winter kein Penmsiohn<lb/>den Es sein zu viel in unsere Kompe<supplied resp="#CT">⸗</supplied>
+               <lb/>nih die Penmsiohn haben wollen<lb/>sonst hetten mir krigt den Ihr braucht<lb/>kein Ensten zu haben das Ich dieseren<lb/>wie das gesprechg ganhat beu Euch<lb/>und wenn die haut herab geht und<lb/>mir missen alle Tag 10 stund Exzeren<lb/>des Morgens von 6 uhr bis 10 uhr und<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>des Namitags von 1 bis 5 uhr denn<lb/>das gien hart her und auf den 14<hi rendition="#sup #uu">ten</hi>
+               <lb/>Septemb. haben mir in dem <unclear reason="illegible" cert="high" resp="#MN">Rauer</unclear>
+               <lb/>geixzehrt und ich Magd wissen ob<lb/>der <unclear reason="illegible" cert="high" resp="#MN">Rikes Bols</unclear> noch bei dem <unclear reason="illegible" cert="high" resp="#MN">blum</unclear>
+               <lb/>schaft und wie Ist es mit dem <unclear reason="illegible" cert="high" resp="#MN">Barin<lb/>Pieker</unclear> und schikt ihr mir ein Zetel<lb/>In dem brief der <unclear reason="illegible" cert="high" resp="#MN">brauchehs</unclear> geschrieben<lb/>ist das Jahr die <unclear reason="illegible" cert="high" resp="#MN">axt</unclear> nicht bekom̃en<lb/>haben das Ich selbst mist nach hause<lb/>kommen um den <unclear reason="illegible" cert="high" resp="#MN">axt</unclear> zukriegen<lb/>sonst wehr mir alles ver lohr</p>
+            <lb/>
+            <p rendition="#et">Und Ich Griesen<lb/>Euch alle Viel huntert und<lb/>
+               <space dim="horizontal"/>Tausent Mal und alle<lb/>Freind und Freinden sonters<lb/>
+               <space dim="horizontal"/>Das Barbara Tom̃e und sein<lb/>Vatter und Mutter 1811<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+            </p>
+            <lb/>
+            <p>Marianna schrieb<lb/>Ich hab getreimt ihr het ein<lb/>schenes mädgen bekommen –<lb/>und da wer mein Vatter Pat<lb/>
+               <space dim="horizontal"/>
+               <unclear reason="illegible" cert="high" resp="#MN">Gewen</unclear> Ich Bleib Euer<lb/>
+               <space dim="horizontal"/>Getreuer sohn</p>
+            <lb/>
+            <p rendition="#et">Vielb Franssen<lb/>
+               <space dim="horizontal"/>Pillip Franzen</p>
+            <lb/>
+            <p>und schreibt ihr mir unter<lb/>was vir einem Regement das die <lb/>aus der stadt sein die buben unter<lb/>was vir einem Regement das sie sein<lb/>der Peter has und Katole sein bru⸗<lb/>der Johannes katoli hab ich angetrofen<lb/>
+               <space dim="horizontal"/>In der stadt Bisanso<space dim="horizontal"/>1811</p>
+            <lb/>
+            <note place="left">Lieber Bruter ich megd dich gebit han folg Du<lb/>Deinem Vater und Muter das diers nicht geht wie mir</note>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 3: Kaspar Kalberlah (Mannschaften?), 11.11.1756, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Kaspar</surname>
+                  <forename>Kalberlah</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 3 von Kaspar Kalberlah, 11.11.1756.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 3: Kaspar Kalberlah (Mannschaften?), 11.11.1756, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Kaspar</surname>
+                        <forename>Kalberlah</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1756-11-11">1756</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="3">
+            <head>
+               <supplied>SB-Nr. 3: Kaspar Kalberlah (Mannschaften?), <date when="1756-11-11">11.11.1756</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Gott zum Grus. Lieber Vater und Mutter, Brüder und schwester, ich thue euch alle samt freundlich grüsen, und wenn euch dieses Mein wenig schreiben noch bey guter gesundheit antreffen wird, so sol es uns Hertzen Lieb sein. was uns anbelanget sind wir Gott lob noch gesund, und der liebe Gott helfe weiter auf Beiden seiten. Den wir wolten wünschen, das wir bald wieder zu Hause kämen, den wir sind das Leben so müde, als wenn wir es mit Löpfeln gefressen hätten, den wir haben bey den ort Lobesitz eine schwere schlacht gehat mit den östreichern von des Morgens um sieben uhr an bis nach mittag um drey uhr. Hat uns der Liebe Gott geholfen und uns den Sieg beschäret. Was uns anbelanget haben wir nur Einen man verloren von unser Compagnie. Den wir sind schon wieder heraus aus Böhmen und wißen noch nicht wo wir werden noch weiter quartier bekommen, den wir haben den sachsen gar und gans gefangen genommen und unser König schickt sie alle in unser Land und sie Müßen ihm all schweren und vielleicht kommen wir wieder in unser garneson, den wir hoffen, das es soll Friede werden, so Kommen wir diesen winter noch wol wieder zu hause. nun thun wir euch alle samt noch mahl freundlich grüsen und alle unsere gute freunde und gute bekannten, und bittet alle samt, das uns der Liebe Gott den Lieben Frieden bescheret. Nun wißen wir weiter nichts zu schreiben. hier mit Gott befohlen und wir verbleiben eure getreusten söhne bis in den tod. und schreibet uns doch wieder wie es zu stehet, wen siebert wieder sol her auf kommen, den es ist schwäre zeit bey uns.</p>
+            <lb/>
+            <p rendition="#et">d. 11. Novbr. <hi rendition="#aq">Anno </hi>1756. <space dim="horizontal"/> Kaspar Kalberlah.</p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 96: Oscar Sachse (Offizier), 24.08.1866, Ostmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Oscar</surname>
+                  <forename>Sachse</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 96 von Oscar Sachse, 24.08.1866.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 96: Oscar Sachse (Offizier), 24.08.1866, Ostmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Oscar</surname>
+                        <forename>Sachse</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1866-08-24">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="96">
+            <head>
+               <supplied>SB-Nr. 96: Oscar Sachse (Offizier), <date when="1866-08-24">24.08.1866</date>, <choice>
+                     <abbr>OMD</abbr>
+                     <expan>Ostmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>C. Q. Budwitz, d. 24.8.66</p>
+            <lb/>
+            <p rendition="#et">Mein lieber Vater!</p>
+            <lb/>
+            <p>Schon gestern Abend erhielt ich Deinen lieben Brief vom 21sten,<lb/>und danke dir von ganzem Herzen dafür; mich erfreut ja<lb/>jedes Wort, was ich von der Heimat höre, geschweige denn, <lb/>wenn es von Euch, meine theuren Eltern kommt.<lb/>Hier circuliren die widersprechendsten Gerüchte betreffs un⸗<lb/>sers endlichen Rückmarsches aus unseren Cantonnements, <lb/>die wir jetzt inne haben; Einige sprechen von den näch⸗<lb/>sten Tagen, in denen er erfolgen sollen, Andere stellen<lb/>denselben, da erst am 15ten Sept: die vollständige<lb/>Räumung <hi rendition="#aq">Böhmens</hi> u. <hi rendition="#aq">Mähren’s </hi>nach authentischen<lb/>Nachrichten erfolgen soll, noch weiter in Aussicht.<lb/>Nun, wir leiden allerdings keine Noth; die Lage<lb/>unseres Städtchens, <hi rendition="#aq">Budwitz</hi> ist eine äußerst gesunde,<lb/>da wir hier noch keinen Fall von Erkrankung haben;<lb/>die Leute hier, und darunter sehr anständige Fami⸗<lb/>lien, stehen jetzt mit uns auf einem solchen Fuße,<lb/>daß sie uns, das können wir uns selbst sagen, un⸗<lb/>gern werden scheiden sehen; haben sie doch eingesehen,<lb/>daß wir keine Menschenfresser sind, für die wir<lb/>von den fliehenden Oestreichischen Truppen geschildert<lb/>wurden, und daß wir nicht, wie gesagt worden ist,<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>jeden jungen Mann von 15 Jahren einstellten, und jedes<lb/>junge Mädchen von 15 Jahren als Krankenpflegerin <lb/>mitnahmen; ja die Furcht vor uns muß eine schreck⸗<lb/>liche gewesen sein, da uns wiederholt die aufgeklär⸗<lb/>testen Leute beschämt erzählt haben, sie hätten ihre<lb/>Söhne und Töchter von jenem Alter, vorher nach<lb/>
+               <hi rendition="#aq">Wien</hi> geschickt, und jetzt erst wiederkom̃en lassen.</p>
+            <lb/>
+            <p>Wir unternehmen öfter Ausflüge nach den nächsten<lb/>Ortschaften, nach <hi rendition="#aq">Lehronitz</hi> z.B., 1 ½ Stunden entfernt.<lb/>Dies ist ein Schloß, wie man es allenfalls in<lb/>Feenmährchen liest, die ausgesuchteste Kraft herrscht<lb/>darin; es gehörte einem Grafen <hi rendition="#aq">Reichenbach</hi>, dem<lb/>natürlichen Bruder des jetzt regierenden Chürfürst<lb/>von Hessen-Cassel, einem Manne, der vor kurzer<lb/>Zeit von Delirium gestorben ist, nachdem er sich<lb/>kurze Zeit vorher mit einer Schneiderstochter aus<lb/>
+               <hi rendition="#aq">Prag</hi> verheirathet hatte. Das Gut wirft jährlich<lb/>100,000 Gulden ab; und wird jetzt von einem<lb/>Director <hi rendition="#aq">Lehnert</hi>, den wir eben oft besuchen, ver⸗<lb/>waltet. Zu ihm habe ich den Bataillonsstab gelegt.<lb/>Eine Stunde von uns liegt <hi rendition="#aq">Jarmeritz</hi>, wo früher<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>fürstlich <hi rendition="#aq">Kannitz</hi>, sches Besitzthum, dessen pompöses Schloß<lb/>365 Fenster enthält; dort liegt <hi rendition="#aq">Pollard</hi> mit seiner <lb/>Compagnie. Nun liegen wir schon 14 Tage hier, und<lb/>fürchten nur, daß sich die liebenswürdigen Herren, mit<lb/>denen wir jetzt beinahe befreundet sind, wegen<lb/>ihrer übertriebenen Aufmerksamkeit gegen uns<lb/>als oesterreichische Unterthanen compromittiren.<lb/>Ich quartierte, als <hi rendition="#aq">Müller</hi> ankam, zu einem Kauf⸗<lb/>mann, und sollte 3 Tage nachher umquartieren;<lb/>unsere Verpflegung geschieht jetzt aus unseren<lb/>Magazinen, doch mein Wirth erklärte mir, daß<lb/>er sich im höchsten Grade beleidigt fühlen würde,<lb/>wenn ich ihn verließe, oder wo anders äße. So<lb/>bekom̃e ich jetzt ein Mittagsessen, welches mich<lb/>wahrhaftig verwöhnen könnte.</p>
+            <lb/>
+            <p>Trotzdem aber, lieber Vater; sehne ich mich von<lb/>ganzem Herzen zurück. Der vaterländische Boden<lb/>geht Einem doch über Alles; und ich <del rendition="#s">f</del>würde mich <lb/>freuen, wenn ich noch heute den Befehl zum Aus⸗<lb/>rücken erhielte.</p>
+            <lb/>
+            <p>Unsere Compagnie ist sehr zusammengeschmolzen;<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>mit 253 Köpfen rückten wir aus, und haben jetzt<lb/>noch 183; also 70 Mann Verlust an Todten und<lb/>Verwundeten, u. solchen, die ihren Wunden erlegen<lb/>sind. Du schreibst mir, lieber Vater, von einem<lb/>Gefreiten <hi rendition="#aq">Weber</hi>; sollte es nicht ein Sergeant<lb/>
+               <hi rendition="#aq">Weber</hi> sein, von unserer Compagnie, der am 3ten <lb/>Juli einen Schuß durch die rechte Schläfe zum<lb/>linken Auge heraus bekam? Sein Verlust ist<lb/>uns schmerzlich, es war ein tüchtiger Mann.</p>
+            <lb/>
+            <p>Noch eins, schicke mir am nächsten 1.sten keine Zulage,<lb/>wir bekom̃en seit weniger Zeit <hi rendition="#u">3 rl täglich</hi> aus<lb/>dem Aerar <add place="superlinear">
+                  <metamark/>bis zum Friedensschluss</add>, haben also genug; sollte ich später für<lb/>meine abgerissenen Sachen etwas brauchen, so werde<lb/>ich Deine Güte in Anspruch nehmen, lieber Vater.</p>
+            <lb/>
+            <p>Bei uns wird viel davon gesprochen, daß wir nach <hi rendition="#aq">Han⸗<lb/>nover</hi> kom̃en; die Zukunft wird es entscheiden.</p>
+            <lb/>
+            <p>Nun <hi rendition="#aq">à dieu</hi>, grüße die Mutter, Elise, Rudolph,<lb/>Gustav, wenn er endlich Euch seine Adresse angeben <lb/>sollte, Gretchen u. alle Bekannte herzlich von</p>
+            <lb/>
+            <p rendition="#et">Eurem Euch innig liebenden<lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">OSCAR.</hi>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 134: Andreas Keller (Mannschaften), 14.11.1870, Westoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Andreas</surname>
+                  <forename>Keller</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 134 von Andreas Keller, 14.11.1870.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 134: Andreas Keller (Mannschaften), 14.11.1870, Westoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Andreas</surname>
+                        <forename>Keller</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1870-11-14">1870</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="134">
+            <head>
+               <supplied>SB-Nr. 134: Andreas Keller (Mannschaften), <date when="1870-11-14">14.11.1870</date>, <choice>
+                     <abbr>WOD</abbr>
+                     <expan>Westoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Corbeil</hi> den 14<hi rendition="#sup #uu">t</hi> Novb. </p>
+            <lb/>
+            <p>1870.</p>
+            <lb/>
+            <p rendition="#et">Liebe Mutter!</p>
+            <lb/>
+            <p>Ich muß mich Entschuldigen<lb/>das ich Ihnen so lange keine<lb/>Nachricht sante, aber ich habe<lb/>sehr wenig Zeit wir sind im̃er<lb/>im Dienst, auf Wachen, Patrolien,<lb/>Requiriren, Vorposten und Streifen<lb/>auf die Freischaren weil wir<lb/>von diesen Gesindel im̃er bedroht<lb/>werden, u. öfter einzelne Truppen,<lb/>Hauptsächtlich <hi rendition="#aq">Cavalerie</hi> zum Opfer<lb/>eines Räuberischen Ueberfalls<lb/>gefallen sind. Am 2<hi rendition="#sup #uu">ten</hi> Novbr.<lb/>hatten wir unter Komando<lb/>unseres Mayors einen der⸗<lb/>artigen Streifzug 2 <hi rendition="#aq">Compagnien</hi>
+               <lb/>
+               <hi rendition="#aq">Preusen</hi> 2 von unsern Batalion<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>2 Schwaderonen Dragoner und<lb/>6 Württemberger Feldgeschütze.<lb/>Den ersten Tag sahen wir nichts,<lb/>und wurden in Melan Ein⸗<lb/>quattirt, den nächsten Tag kamen<lb/>wir in den großen Wald bei<lb/>
+               <hi rendition="#aq">Fonteneblau</hi>, dort stießen wir auf<lb/>Vorposten, die jedoch davon liefen<lb/>ich kam in eine Holzhütte wo<lb/>sie sich aufhielten dort nahm<lb/>ich einen Brodsak u. eine Kürbis⸗<lb/>flasche mit, <add place="superlinear">
+                  <metamark/>branten die Hütte nieder,</add> dan rükten wir vor<lb/>in Plenklerketten aufgelößt<lb/>wurden aber von den <hi rendition="#aq">Franctie</hi>⸗<lb/>
+               <hi rendition="#aq">reurs</hi> von einem Waldberge<lb/>aus beschoßen, wir Stürmten<lb/>diese Anhöen, nahmen 12 Mann<lb/>Gefangen, u. Rükten im Sturme<lb/>in <hi rendition="#aq">Fonteneblau</hi> ein.<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+            </p>
+            <lb/>
+            <p>Bei <del rendition="#s">M</del>
+               <hi rendition="#aq">Montignie</hi> wurden wir<lb/>nur ½ Zug nachdem wir Futter<lb/>Requirirt haten bei der Nachhut<lb/>angegriffen schlugen sie weit<lb/>zurük erschoßen 12 Mann und<lb/>eroberten eine kleine Doppelte<lb/>Kanone. Jetzt sind wir wider in<lb/>
+               <hi rendition="#aq">Corbeil</hi>.</p>
+            <lb/>
+            <p>Gesund bin ich im̃er wofür<lb/>ich Gott stets Danke, war auch schon<lb/>früher in <hi rendition="#aq">Clermont</hi> als Kanonen<lb/>Wärter komandirt, weil von<lb/>
+               <hi rendition="#aq">Sedan</hi>, sehr viele Verwundete<lb/>kamen, auch Gefangene Franzosen<lb/>kamen nach 1000 dort durch.</p>
+            <lb/>
+            <p>Die gefürchteten <hi rendition="#aq">Franzosen</hi> wurden<lb/>bereits todal auf allen Punkten<lb/>geschlagen, die man bisher überall<lb/>Fürchtete, da kan man sehen<lb/>was Deutschland vermag wenn<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>wenn Es Einig ist; Leider<lb/>kostete dieser Krieg große Opfer,<lb/>vor allen Deutschen, aber sie wurden<lb/>von jeden Deutschen redlich denk⸗<lb/>enden Soldaten auch gerne<lb/>gebracht, nur diese Gemeinsame<lb/>Hand in Hand, wetteifernt, für<lb/>die gute Sache des Vaterlandes<lb/>konten die Weltberümten Fran⸗<lb/>zosen vernichtet werden. </p>
+            <lb/>
+            <p>Die Französische Südarmee, welche<lb/>vor 4 Tagen in der Uebermacht, unser<lb/>I<hi rendition="#sup #u">tes </hi>Armeekorps zurük drängten,<lb/>sind nun bereits von uns und<lb/>den <hi rendition="#aq">Preussen </hi>eingeschloßen.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Gott gebe bald den Frieden, den<lb/>jetzt, sehnt sich jeder nach der Heimath.<lb/>Meine Brüder habe ich auch<lb/>schon getroffen, aber jetzt mehrere<lb/>Wochen nicht mehr. </p>
+            <lb/>
+            <p>Jetzt schließe ich mein Schreiben<lb/>Und Grüße Eich herzlich sowie alle<lb/>Freunde u. Bekante Andreas Keller</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 43: Heinrich F. Normann (Offizier), 21.01.1816, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Heinrich</surname>
+                  <forename>F. Normann</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 43 von Heinrich F. Normann, 21.01.1816.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 43: Heinrich F. Normann (Offizier), 21.01.1816, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Heinrich</surname>
+                        <forename>F. Normann</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1816-01-21">1816</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="43">
+            <head>
+               <supplied>SB-Nr. 43: Heinrich F. Normann (Offizier), <date when="1816-01-21">21.01.1816</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p rendition="#et">Mein theurer Vater,</p>
+            <lb/>
+            <p>Der gute <hi rendition="#aq">Herzog</hi> fand mich gestern Morgen, als er<lb/>die Güte hatte mir Ihren lieben Brief vom 18<hi rendition="#sup">ten</hi> abzuge<lb/>ben in einer eben nicht liebenswürdigen Anordnung<lb/>nur ein Blick auf die in meinem Zim̃er aufgehängten<lb/>Hogarthschen Kupfer aus <hi rendition="#aq">marriage á la mode</hi> hätte<lb/>ihm, mich tröstend und beruhigend, zeigen können, daß<lb/>wenigstens in der Ideenwelt eine noch größere in einem<lb/>Zimer möglich ist.<metamark>_</metamark> Ich war nemlich ganz früh aus dem<lb/>Bette gesprungen, um neue Sichtstempel zu suchen, <add place="superlinear">
+                  <metamark/>um</add> sie<lb/>
+               <del rendition="#s">ich</del>in Form von Listen in das chaotische Dunkel un⸗<lb/>srer neuen Organi- u <hi rendition="#aq">Deorganisation</hi> zu schleudern<lb/>u in Ermanglung von Tischen lagen sämtliche Acten<lb/>auf <del rendition="#s">dem Stuhle</del> 
+               <gap reason="illegible"/> u <del rendition="#s">auf dem</del> Bette umher.</p>
+            <lb/>
+            <p rendition="#et">Uebrigens liebster Vater, mit der <unclear reason="illegible" cert="high" resp="#MN">Stehtheit</unclear> des<lb/>Friedensfestes: <hi rendition="#aq">c’est tout homme </hi>
+               <unclear reason="illegible" cert="high" resp="#MN">
+                  <hi rendition="#aq">assez vous</hi>
+               </unclear>! <lb/>Der Mensch ist nun einmal ein Gewohnheitsthir und<lb/>der Friede ist nun schon seit der Schlacht von <hi rendition="#aq">Montmar<supplied resp="#CT">⸗</supplied>
+                  <lb/>tre</hi> 1810 eine alte Sache. Hätte man damals gleich<lb/>das Friedensfest feiern können; ich wette es wären<lb/>mehr Köpfe u Fenster <hi rendition="#aq">illuminirt</hi> worden. </p>
+            <lb/>
+            <p rendition="#et">Mir brachte es dann aber doch etwas erfreuliches;<lb/>eine Einlaßkarte in den Dom.<metamark>_</metamark> Sehn Sie, die Zeitung<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>zwingt mich dazu; sonst hätte ich warlich nicht eher<lb/>aus der <unclear reason="illegible" cert="high" resp="#MN">Schule</unclear> geplaudert, als bis ich zu Ihnen ge⸗<lb/>kom̃en wäre. Am 17ten Abends erhalte ich eine Einla⸗<lb/>dung der General Ordens Com̃ission mich am 17ten<lb/>Morgens auf dem Schlosse einzufinden. Da mir<lb/>diese Aufgabe für den Verstand eines <unclear reason="illegible" cert="high" resp="#MN">Sukelten</unclear>
+               <lb/>
+               <hi rendition="#aq">Officiers</hi> zu schwer zu lösen schien, so beschlief ich<lb/>mir die Sache und ging den folgenden Morgen zum<lb/>Hauptmann <hi rendition="#aq">Luht</hi>, meinem <hi rendition="#aq">Bat Commandeur</hi>
+               <lb/>und Freunde. „Du hast das Kreuz!, rief er, das ist klar!<lb/>„da kann ich ja aufhören zu schreiben.“ Ohne mir ein<lb/>Wort davon zu sagen, <del rendition="#s">hatte</del>wollte der Gute nemlich im Na⸗<lb/>men sämtlicher <hi rendition="#aq">Officiere</hi> wegen der Schlacht von <hi rendition="#aq">Ligny</hi>
+               <lb/>oder <hi rendition="#aq">Fleurus</hi> für mich um das Kreuz ringen kom̃en.<lb/>Nun war es nicht mehr nötig. Ich ging zum General<lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">
+                  <hi rendition="#aq">Dierecsu</hi>
+               </unclear> und alle Zweifel waren gehoben.</p>
+            <lb/>
+            <p rendition="#et">Ich konnte daher der ganzen Ordensfeierlich<lb/>keit als Gefeierter noch mitbeiwohnen.<metamark>_</metamark> Das <hi rendition="#aq">Te<lb/>deum </hi>erreichte meine Erwartung bei weitem nicht.<lb/>Ich für mein Theil hätte lieber Fritz gehört und mich<lb/>in Ihrem traulichen <hi rendition="#aq">Zirkel</hi> heimlich des wiedererrun⸗<lb/>genen Friedens gefreut u mit Behaglichkeit auf mei<supplied resp="#CT">⸗</supplied>
+               <lb/>ne gesunden Arme u Beine gesehn.</p>
+            <lb/>
+            <p rendition="#et">Sie fragen mich ob der Vorschlag, wegen <lb/>Schicklers nicht meinen Beifall habe. Ja wohl<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>würde er ihn haben, wenn die Sache selbst nur ge⸗<lb/>gründet wäre. An der Börse weiß man aber nichts<lb/>davon. Daß ich mich indeß sehr bemühen werde hier<lb/>eine Stelle zu erhalten, das können Sie, bester<lb/>Vater wohl denken. In Ihrer Nähe u hier wo ich<lb/>so herrliche Menschen zu Freunden habe, wie <unclear reason="illegible" cert="high" resp="#MN">wieder<lb/>sehenden …</unclear> wäre das nicht für mich.</p>
+            <lb/>
+            <p rendition="#et">Ich <del rendition="#s">möchte</del>
+               <add place="superlinear">
+                  <metamark/>wollte durch</add> den Eingang zu meinem Briefe<lb/>zu einer Entschuldigung einleiten, daß ich Ihren lieben<lb/>Brief nicht gleich beantwortete. <hi rendition="#aq">Herzog</hi> sagte mir<lb/>daß er um 11 Uhr fort müßte u ich hatte zur<lb/>Parade so viel zu thun, daß es mir unmöglich war<lb/>nur 2 Zeilen an Sie zu schreiben.</p>
+            <lb/>
+            <p rendition="#et">Gegen Ende dieses Monats wird aber alles <lb/>beendigt seyn u da ich nun einmal im̃er zu Ge⸗<lb/>burtstagen bei Ihnen seyn soll: so kom̃e ich<lb/>zu <add place="superlinear">
+                  <metamark/>dem</add> der lieben Mutter, die ich herzlich zu grüßen<lb/>bitte, ganz gewis nach <hi rendition="#aq">Zehdenick</hi>.</p>
+            <lb/>
+            <p>Herren <hi rendition="#aq">Factor Brauer</hi> und allen <lb/>dortigen Freunden mich empfehlend bin ich</p>
+            <lb/>
+            <p rendition="#et">Ihr<lb/>
+               <hi rendition="#aq">Berlin</hi> den 21ten Jan 16<lb/>
+               <space dim="horizontal"/>Sie innig liebender Sohn<lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#u">H. Normann</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

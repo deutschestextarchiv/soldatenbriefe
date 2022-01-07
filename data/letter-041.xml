@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 41: Abraham Schnelle (Mannschaften), 16.10.1815, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Abraham</surname>
+                  <forename>Schnelle</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 41 von Abraham Schnelle, 16.10.1815.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 41: Abraham Schnelle (Mannschaften), 16.10.1815, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Abraham</surname>
+                        <forename>Schnelle</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1815-10-16">1815</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="41">
+            <head>
+               <supplied>SB-Nr. 41: Abraham Schnelle (Mannschaften), <date when="1815-10-16">16.10.1815</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Ruen</hi> den 16ten <hi rendition="#aq">October</hi> 1815</p>
+            <lb/>
+            <p rendition="#et">Geliebte Eltern und Geschwister</p>
+            <lb/>
+            <p>Euer so liebevolles Schreiben <add place="superlinear">
+                  <metamark/>von 8 <hi rendition="#aq">August</hi>
+               </add> habe ich Heute erhalten, diesen für<lb/>mich sonst so freudvollen Tag, mit inniger Freude erinnerte ich <lb/>mich so mancher frohen Stunde die ich sonst dort genoß, und gedachte<lb/>Euer, wo ihr euch heute freut und <add place="superlinear">
+                  <metamark/>noch mehr</add> freuen würdet wenn wir<lb/>bey Euch wären und Eure Freude theilen könnten, allein was<lb/>kann es helfen, es kann nicht seyn, wir müssen uns beruhigen, vielleicht<lb/>zum andern mal. Eine große Freude war es mir daß ihr Hoffnung<lb/>habt bald Entschädigung zu empfangen. Wir sind aus <hi rendition="#aq">Caen</hi> woher ich<lb/>meinen letzten Brief geschrieben habe am 12 rausmarschirt und am 15ten<lb/>hier in <hi rendition="#aq">Ruen</hi> angekommen, wir werden hier wieder mehrere Tage stehen<lb/>bleiben und so dann wieder marschieren wohin ist noch unbestimmt.<lb/>unsre Tornister werden uns mehrentheils gefahren und wir können<lb/>uns glücklich schätzen, daß wir beym 1ten <hi rendition="#aq">Regiment</hi> gekommen<lb/>sind, wir haben einen sehr würdigen Mann zum <hi rendition="#aq">Commandeur</hi>
+               <lb/>der für uns wie für seine Kinder sorgt, und es würde uns eine <lb/>große Freude seyn, wenn wir so wie es heißt mit unserm<lb/>
+               <hi rendition="#aq">Regiment </hi>in <hi rendition="#aq">Magdeburg</hi> einmarschierten. Noth habe ich auf diesen<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>ganzen Marsch noch nicht gelitten, und es war immer in den schlechtesten<lb/>Gegenden immer noch zum satt essen da. Wir haben hier unsere Hamburger<lb/>Schiffer gesprochen und <unclear reason="illegible" cert="high" resp="#MN">
+                  <hi rendition="#aq">Privo</hi>
+               </unclear> hat einen Brief über <hi rendition="#aq">Hamburg</hi> mit gegeben<lb/>wenn er glücklich in <hi rendition="#aq">Hamburg</hi> ankömmt so kann er schon in 12 tagen in<lb/>
+               <hi rendition="#aq">Magdeburg</hi> ankommen. Daß meine Bekannte noch am Leben sind hatt mich<lb/>sehr gefreut, da ich weiß daß ihr <hi rendition="#aq">Regiment</hi> sehr gelitten hatt. Nun weiß<lb/>ich nicht viel zuschreiben, außer daß hier einige große <gap reason="illegible"/> vorgefallen<lb/>sind und von daher die Hauptstraßen mit Stemmen besetzt hat, in einigen<lb/>Tagen wird sich <add place="superlinear">
+                  <metamark/>hier</add> unsre ganze <hi rendition="#aq">Armmecorps</hi> zusammen ziehen und es hat<lb/>daher nicht viel zu sagen. Das eine paar Sandaletten habe ich ganz und<lb/>gar wegschmeißen müssen und habe mir ein paar Schuh gekauft<lb/>wozu ich kaum Geld genug hatte. <unclear reason="illegible" cert="high" resp="#MN">
+                  <hi rendition="#aq">Privo</hi>
+               </unclear> und alle Bekannte grüßen<lb/>Euch herzlich. Lebt noch wohl der liebe Gott erhalte Euch gesund, vergesst<lb/>nicht zu schreiben Ich verbleibe Euer Euch liebender</p>
+            <lb/>
+            <p rendition="#et">Sohn und Bruder<lb/>
+               <space dim="horizontal"/>Abraham Schnelle</p>
+            <lb/>
+            <p>So wie es jetzt eben heißt werden<lb/>wir nach <hi rendition="#aq">Metz</hi> marschiren</p>
+            <lb/>
+            <note place="left">die Schuh haben 9 Francs gekost</note>
+            <lb/>
+            <fw type="folNum" place="bottom">[2]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

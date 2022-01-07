@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 7: Nikolaus Binn (Unteroffizier), 15.03.1758, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Nikolaus</surname>
+                  <forename>Binn</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 7 von Nikolaus Binn, 15.03.1758.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 7: Nikolaus Binn (Unteroffizier), 15.03.1758, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Nikolaus</surname>
+                        <forename>Binn</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1758-03-15">1758</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="7">
+            <head>
+               <supplied>SB-Nr. 7: Nikolaus Binn (Unteroffizier), <date when="1758-03-15">15.03.1758</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Mit Wünschung alles liebes und gutes allerliebste frau und Kinder benebst die gantze <hi rendition="#aq">vamieli</hi>. Da ich an Jetzo an brügmann seine Frau geschrieben und ihr benachrichtiget das ihr man den 8ten Mertz in Wickendorf gestorben ist und den 9ten beerdigt, habe auch Sogleich an Gossen in grooßen ballerstedt berichtet das sein Sohn den 15. Februari in breßlau gestorben ist, welcher schon wieder gut gewehsen und wieder eingeschlagen und gestorben. noch berichte ich Dir liebe Frau das garlip aus Dülßedau und Siegler aus Maerkern auch noch mießerabel krank liegen und das gantz ohne verstant und wirt auch schwer zugehn das sie wieder werden. doch ist bei gott kein ding unmöglich. Meine liebe Frau ich muß es Dir mit verwunderung schreiben was hir vor Krankheiten unter die mensch seint, in meinen quartir sint 7 Kinder davon haben es 5 überstanden und der bauer, nun liegt noch eins mit die mutter die werden wol schwerlich wieder davon komen. Allerliebste Frau ich wünsche nichts mehr als das ich Dir mit die lieben Kinder und zwars mit meinen schreiben euch allemahl gesund möchte an Treffen. Solches verursachet mir die allergrößeste Freude, ich bin anjetzo Gott sey gedanket davor noch gesunt, meinen bruder aber kan ich noch nicht benachrichtigen wie es um dehn steht, er lieget noch in leipzig, wan du wieder schreibest so schreibe doch op er nicht zu hauße geschrieben hat. soviel habe ich nachricht das seine hant noch nicht wieder gut ist und dazu wieder in eine Krankheit gefallen ist. Meine lieb Frau ich habe dir den 25ten Februari auf die Post 16 Thlr. 16 gr. an gelde geschicket nehmlich eine Friedrichslaudur Eine lühnebursche und eine Kardeline welche 6 Thlr. 16 gr. gilt, hirauf habe ich noch keine antwort op du Solches bekommen, oder nicht. Vermuthlich glaube Ich das die antwort wird unterwegens sein, habe auch mit den bohten aus osterburg noch in Eile ein Zeilchen mit gegeben alwo ich noch um Zeug geschrieben. Da ich aber nun von die hohlfeltsch ein hemde und ein Par strümpfe erhalten also brauch ich nun kein zeug mehr. Soltestu etwa den Bohten schon zeug gegeben haben und er noch da ist So laß es dich wieder zurücke geben und schicke mir nichtz mit. in überjen meine liebe Frau weiß ich an Jetzo nichtz zu schreiben. wir stehen noch hir bey der Blockade vor schweinitz in Wickendorf in Kantonquartir, sint uns aber alle Dage vermuthen das der Koenig die stadt wirt bomb<unclear reason="illegible" cert="high" resp="#MN">ar</unclear>diren weil da noch die östereicher in sint. alle das schwere geschütz bumben und mörßern wirt schon herangeschafft, sobalt als das Ertrich der Frost rauß ist das die schantzen und werke können gemacht werden so geht es gleich druff, op wir nach dießen hir werden ein lager vormiren oder op wir werden wieder nach böhmen gehn weiß der almächtige gott, vor böhmen stehn uns schon alle Har wieder zu berge wer noch welche hat, die helfte aber haben keine mehr, alle durch die schwere Krankheit verlohren alwo ich auch einer von bin. Und da ich von die hohlfeltsche erfahren das der alte stal wieder gefallen so <hi rendition="#aq">Repermandire</hi> ich <hi rendition="#aq">Joachim Nicolausn</hi> worum er mir so was nicht schreibet. liebe Frau wegen des bauens must du noch wol verzihen das man erstlich sihet wie es mit den Kriege wirt aplaufen. Solte ich nicht wieder kommen und es wirt Friede so baue dich da ein hüpsche häußchen hin alwo du dein lebelang kanst zubringen. ich Rekumendir und befehle dir nochmahls unßere lieben Kinder auf das allerschärfste <gap reason="illegible"/> das Ich noch einmahl das vergnügen möchte haben euch noch einmahl wieder zu sehen. Doch nicht mein sondern o her Dein Wille geschehe wie im himel also auch auf erden. Liebe Frau es hat mir gar sehr gedauert das du nicht bey Magdeburg bist bey mir gekomen, alein ich vermuhte nicht zu dehm mahl das wir würden nach schleßien marschiren, hätte ich das gewust, ich hätte dir einen Expressen Boten geschickt. meine Gedanken waren aber immer noch näher zu komen darum ist eß nicht geschehen. so befele Euch Sämptlich <gap reason="illegible"/> lebenslang meine liebe Frau ihr getreuer Man und meine lieben Kinder ihr aufrichtiger vatter. Atje lebet wol. Milau läst seinen lieben vater auch vielmahl grüßen benebst seine gantze vamilie, er ist auch krank gewehsen ist aber wieder gesunt. Wickendorf den 15ten Martii 1758.</p>
+            <lb/>
+            <p rendition="#et">
+               <hi rendition="#aq">Corporal</hi> Binn.</p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

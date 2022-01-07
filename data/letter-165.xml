@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 165: Wilhelm Dittmar (Mannschaften), 19.05.1871, Nordoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Wilhelm</surname>
+                  <forename>Dittmar</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 165 von Wilhelm Dittmar, 19.05.1871.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 165: Wilhelm Dittmar (Mannschaften), 19.05.1871, Nordoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Wilhelm</surname>
+                        <forename>Dittmar</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1871-05-19">1871</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="165">
+            <head>
+               <supplied>SB-Nr. 165: Wilhelm Dittmar (Mannschaften), <date when="1871-05-19">19.05.1871</date>, <choice>
+                     <abbr>NOD</abbr>
+                     <expan>Nordoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Mit Gott. </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">St⸗Simeon</hi>, den 19<hi rendition="#sup #uu">ten</hi> 
+               <hi rendition="#aq">Mai</hi>
+            </p>
+            <lb/>
+            <p rendition="#et">1871.</p>
+            <lb/>
+            <p>Liebe Eltern und Geschwister!</p>
+            <lb/>
+            <p>Meinen Brief vom 6<hi rendition="#sup #uu">ten</hi> d. Mts.<lb/>werdet Ihr erhalten haben.<lb/>Nun nahen sich auch die Pfingst⸗<lb/>feiertage heran und wir sind<lb/>immer noch in den lu<add place="superlinear">
+                  <metamark/>m</add>
+               <del rendition="#s">p</del>pigen<lb/>
+               <hi rendition="#aq">Frankreich</hi>. So viel wie uns<lb/>bekannt ist und uns dem Zeit⸗<lb/>ungen nehmen können, ist<lb/>Hoffnung vorhanden, daß wir<lb/>bald fort kommen sollen; al⸗<lb/>lein die Pfingstfeiertage werden<lb/>wir auf jeden Fall hier zu⸗<lb/>bringen müssen. Die Franzosen<lb/>können zahlen genug, wenn<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>sie nicht bald Ruhe machen.<lb/>Die Wittrung ist hier sehr trocken<lb/>den Mai aus hat es noch nicht<lb/>geregnet und am vergangenen<lb/>Donerstag (zur Himmelfahrt)<lb/>hat es stark die Karthoffel und<lb/>Weinreben erfrohren, nun sprachen<lb/>die Franzosen: „<hi rendition="#aq">Frochai, Turchur</hi>
+               <lb/>
+               <space dim="horizontal"/>immer<lb/>
+               <hi rendition="#aq">Malör</hi>
+               <space dim="horizontal"/>“! Das Korn steht auch in<lb/>Unglück<lb/>der Blüthe.</p>
+            <lb/>
+            <p>Wenn wir auch noch einige Wochen<lb/>hier bleiben wenn wir nur nicht<lb/>wieder vorrücken müssen, dann<lb/>sind wir schon zufrieden; denn<lb/>das Marschieren geht jetzt zu hart,<lb/>es ist zu warm und keine Bier<lb/>hat man auch nicht.<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+            </p>
+            <lb/>
+            <p>Wir haben uns hier ganz gut<lb/>eingerichtet auch die Kinder sind<lb/>jetzt recht vertraulich mit den<lb/>Soldaten; aber die etwas er⸗<lb/>wachsene Mädchen stehen unter<lb/>großer Aufsicht – da gehen<lb/>die Alten immer hinter drein.</p>
+            <lb/>
+            <p>Ich wünsche, daß Ihr die bevor⸗<lb/>stehenden Pfingstfeiertage im<lb/>besten Wohlsein verleben möget<lb/>und Eure Antwort recht bald<lb/>entgegen sehend grüßt Euch</p>
+            <lb/>
+            <p>Alle<del rendition="#s">n</del>
+               <lb/>
+               <space dim="horizontal"/>Euer<lb/>
+               <space dim="horizontal"/>dankbarer Sohn u Bruder<lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">Wilhelm</hi>.</p>
+            <lb/>
+            <p>Ist meine Tande Kunigunde schon nach<lb/>Americka abgereißt??<metamark>_</metamark>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

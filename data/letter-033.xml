@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 33: Eduard Freiherr von Callot (Offizier), 13.08.1813, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Eduard</surname>
+                  <forename>Freiherr von Callot</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 33 von Eduard Freiherr von Callot, 13.08.1813.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 33: Eduard Freiherr von Callot (Offizier), 13.08.1813, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Eduard</surname>
+                        <forename>Freiherr von Callot</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1813-08-13">1813</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="33">
+            <head>
+               <supplied>SB-Nr. 33: Eduard Freiherr von Callot (Offizier), <date when="1813-08-13">13.08.1813</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Wittich</hi> am 13<hi rendition="#sup #uu">ten</hi> August 1813.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p rendition="#et">Geliebte Mutter!</p>
+            <lb/>
+            <p>Ihren letzten nach Starkenbach <hi rendition="#aq">addressirten</hi> Brief vom 26<hi rendition="#sup #uu">ten</hi>
+               <lb/> 
+               <hi rendition="#aq">Julius</hi> habe ich zu Arnau am Tage unseres Abmarsches<lb/>aus dem Riesengebürge richtig erhalten; es freut mich,<lb/>daß Sie recht gesund und vergnügt sind, und meine Be⸗<lb/>sorgnissen, welche ich wegen des 4 monathlichen Aussenbleibens<lb/>Ihrer Antwort auf meine Briefe hatte, und haben mußte,<lb/>wirklich ungegründet waren; was das <hi rendition="#aq">Compliment</hi> an<lb/>Rübezahl betrifft, so habe ich nicht unterlassen, es ihm<lb/>auszurichten, aber er will sich nicht entschliessen, sei⸗<lb/>nen angenehmen Lustgarten auf der weissen Wiese,<lb/>die am Fusse der Schneekup̃e an der preussisch⸗<lb/>schlesischen Gränze liegt, zu verlassen, um die Brau⸗<lb/>pfanne die auf der Sturmhaube steht, zu besuchen;<lb/>überhaupt traut er den Menschen nicht mehr, weil sie<lb/>ihn so oft angeführt haben.</p>
+            <lb/>
+            <p rendition="#et">Ich bitte Sie liebe Mutter wegen Betreibung mei⸗<lb/>nes Geldgeschäftes nicht zu säumen, da ich nothwen⸗<lb/>dig Pfand sam̃t Sattel und Zeug brauche, und auch<lb/>sonst keine ganzen Fetzen am Leibe habe;<metamark>_</metamark> 
+               <metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Was Sie mir wegen <hi rendition="#aq">Souden</hi> schreiben, kann ich nicht<lb/>leicht thuen, da <hi rendition="#aq">Souden</hi> erstens nicht bey uns, sondern<lb/>in einem andern Theile von Böhmen und bey einem<lb/>andern Flügel der Armée ist, und ich dann auch<lb/>durch seine Protection vielleicht vom Battaillon weg⸗<lb/>käme, was ich um keinen Preiß thuen würde, selbst,<lb/>wenn ich dadurch gleich Hauptmañ werden könnte;<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>hier kann ich es auch noch werden, und das gewiß mit<lb/>mehr <hi rendition="#aq">Agrement</hi>!<metamark>_</metamark> 
+               <metamark>_</metamark> Das <hi rendition="#aq">Avancement </hi>geht bey uns<lb/>sehr schnell, so zwar, daß ich nun 9 mehr vor mir<lb/>zu Oberlieutenants habe; am 26<hi rendition="#sup #uu">ten</hi> brachen wir von<lb/>Arnau auf giengen über die höchsten Gebürge über<lb/>Hochstatt, Reichenberg in Märschen von 16 Stunden nach<lb/>Grafenstein, unweit der sächsischen Stadt Zittau wo sich<lb/>10000 Pohlen und 30 <unclear reason="illegible" cert="high" resp="#MN">
+                  <hi rendition="#aq">Canons</hi>
+               </unclear> befinden; sogleich besetz⸗<lb/>ten wir die Piqueten gegen sie; Husaren und<lb/>Jäger stehen hier überall beysam̃en; jetzt befin⸗<lb/>de ich mich in Oberwittich auf Piquet; die Pohlen<lb/>sind sehr stark, desertiren aber auch häufig;<lb/>wir haben nun 20 Schritte an die Gränze;<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>übermorgen um 1 Uhr Mitternachts ist die Aufkün⸗<lb/>digung des Waffenstillstandes vorüber, und dann werden<lb/>wir wahrscheinlich loßbrechen;<metamark>_</metamark> 
+               <metamark>_</metamark> der Feind<lb/>wird sich brav wehren, aber wir wollen ihn schon<lb/>die Flügel stützen.<metamark>_</metamark> 
+               <metamark>_</metamark> Ich küsse Carl recht<lb/>herzlich, und wünsche, daß er mir doch auch ein⸗<lb/>mahl schreiben möge;<metamark>_</metamark> 
+               <metamark>_</metamark> ich danke Ihnen<lb/>recht herzlich für Ihre Besorgniß um mein Wohl;<lb/>wenigstens können sie versichert seyn, daß ich<lb/>im̃er mit Dank und Liebe mich Ihrer eriñere.</p>
+            <lb/>
+            <p>Schreiben Sie mir doch nur recht bald wieder; denn<lb/>es ist mir im̃er eine recht herzliche Freude,<lb/>etwas von Ihnen zu erfahren. Jetzt leben Sie<lb/>recht wohl, ich muß eilen, und bleibe<lb/>
+               <space dim="horizontal"/>Ihr ewig treuer Sie liebender<lb/>
+               <space dim="horizontal"/>Sohn Eduard <hi rendition="#aq">Callot</hi>
+               <lb/>
+               <space dim="horizontal"/>Lieut. im 8<hi rendition="#sup #uu">ten</hi> 
+               <lb/>
+               <space dim="horizontal"/>Jäger<hi rendition="#aq">Battaillon</hi>.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[2]</fw>
+            <p>An alle Bekannte bitte ich Sie meine herzliche Em⸗<lb/>pfehlung auszurichten; besonders an <gap reason="illegible"/>,<lb/>
+               <gap reason="illegible"/>, und Brendel.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Meine <hi rendition="#aq">Addresse</hi> ist folgende:<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">An<lb/>Den des Löbl:</hi> 8<hi rendition="#sup #uu">ten</hi> Feld⸗Jäger⸗<hi rendition="#aq">Battaillons</hi> Herrn Lieut:<lb/>Baron <hi rendition="#aq">Callot</hi> bey der Hauptarmée in Böhmen,<lb/>auf Vorposten in der Gegend von<lb/>
+               <lb/>Die Briefe gehen alle mit<space dim="horizontal"/>
+               <hi rendition="#u">Reichenberg und Einsiedel.</hi>
+               <lb/>der Feldpost.<metamark>_</metamark> nach Böhmen<metamark>_</metamark>
+               <lb/>
+               <space dim="horizontal"/>Burglauer⸗Kreiß.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

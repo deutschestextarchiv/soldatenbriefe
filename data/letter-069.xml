@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 69: Heinrich Kamphausen (Mannschaften), 08.02.1864, Westmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Heinrich</surname>
+                  <forename>Kamphausen</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 69 von Heinrich Kamphausen, 08.02.1864.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 69: Heinrich Kamphausen (Mannschaften), 08.02.1864, Westmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Heinrich</surname>
+                        <forename>Kamphausen</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1864-02-08">1864</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="69">
+            <head>
+               <supplied>SB-Nr. 69: Heinrich Kamphausen (Mannschaften), <date when="1864-02-08">08.02.1864</date>, <choice>
+                     <abbr>WMD</abbr>
+                     <expan>Westmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Wees</hi>, den 8<hi rendition="#sup">ten</hi> 
+               <hi rendition="#aq">Feb</hi>. 1864.</p>
+            <lb/>
+            <p rendition="#et">Liebe Eltern!</p>
+            <lb/>
+            <p rendition="#et">Heute habe ich grade einen Augenblick Zeit, wo<lb/>ich es auch gleich für am nöthigsten halte, euch zu schreiben<lb/>wie es gegangen hat. Ich weiß gewiß, daß Ihr mit<lb/>Schmerzen darnach verlanget, denn Ihr werdet<lb/>auch wol gehört haben von unsern Gefechten. Wenn<lb/>ich euch schreibe wie es uns gegangen hat und was für <lb/>Turen wir gemacht haben, so glaubt Ihr es nicht, es<lb/>war nicht Menschlich mehr. Die Nacht vom 31 auf den<lb/>1. Februar lagen wir auf Vorposten, unser Bataillon<lb/>ist bis heute immer an der Spitze gewesen. Die Nacht lagen<lb/>wir im Quartier auf einem Bauern Gut mit 4200 Mann.<lb/>Des Morgens um 2 Uhr Marschierten wir aus ohne Randevue<lb/>und alles ging es immer. Des Morgens um 9 Uhr fiel ein<lb/>Kardätschuß von den Dänen, dieser eröffnete das Gefecht.<lb/>Es kamen nämlich 3 Kriegsschiffe und feuerten auf uns <lb/>denn es sind viele Seen hier welche Verbindung haben mit<lb/>der Ostsee. Diese Schiffe wurden jedoch von unserer<lb/>Artillerie bald vertrieben.<lb/>
+               <note place="left">Ich wollte gerne dir lieber Bruder Wilhelm<lb/>
+                  <space dim="horizontal"/>auch einen Brief schreiben aber<lb/>
+                  <space dim="horizontal"/>ich kann jetzt nicht.</note>
+               <lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+            </p>
+            <lb/>
+            <p>Die Dänen zogen sich nun immer zurück, wir saßen<lb/>ihnen aber immer auf den Hacken, so daß wir sie<lb/>aus den Dörfern vertreiben mußten. Daß ginge<lb/>so durch bis an den Abend, da blieben wir im Felde<lb/>liegen es waren schon von beiden Seiten einige<lb/>gefallen, des andern Morgens ging wieder los<lb/>noch ehe es hell ward, daß wir ihnen immer fest auf<lb/>den Hacken saßen. Die Dänen hatten sich aber<lb/>bei den Holsteiner Bürger unanständig benommen<lb/>den Bauern die besten Pferde mit Wagen und alle<lb/>mit Zwang abgenommen, uns hatten sie die dicksten<lb/>Bäume und alles was am Wege stand abgehauen<lb/>und in den Weg geschmissen, damit wir nicht so rasch<lb/>folgen sollten. Wir Marschierten diesen Tag grade wie<lb/>den vorigen bis des Morgens um 11 Uhr, da stießen<lb/>wir auf die erste Schanze, dann wichen sie nicht mehr.<lb/>Jetzt bejann aber ein hastiges Granaten Feuer so<lb/>furchtbar, daß es oft ordentliche Salben von den Geschützen<lb/>gab. Die Dänen standen sich nun bedeutent im Vortheil<lb/>denn die lagen hinter der Schanze und wir auf dem<lb/>flachen Felde auf einem Berge. Unser Bataillon<lb/>lag unmittelbat vor der Schanze in einem Thale, so<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>daß die Kugeln von den Dänen uns alle über<lb/>den Kopf weg flogen, einige schlugen auch ins<lb/>Bataillon herein, die meisten aber 5 bis 10 Schritt<lb/>dahinter. Die Patronenwagen von allen Bataillonen<lb/>standen zusammen bei einer Batrie von der Artillerie<lb/>auch hinter dem Berge, da sah man wie Pferde und<lb/>Menschen fielen. Kurz vorher kam aber noch eher ein<lb/>Feldprediger und redete noch einige Worte und dann ging es<lb/>los. Die Dänischen Kugeln sausten uns aber dermaßen<lb/>an den Ohren vorbei, wir glaubten aus diesem Gefechte<lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">nicht mehr</unclear> heraus zu kommen und hatten uns <gap reason="illegible"/>
+               <lb/>
+               <gap reason="illegible"/> alle drin gegeben, anfangs fiel es uns noch<lb/>schwer. Bis 4 Uhr dauerte dies Gefecht, da hatte unsere<lb/>Artillerie keine Mundition mehr und mußten sich<lb/>also auch zurückziehen ohne die Schanze zu nehmen. Nun<lb/>mußte sich unser Batal. auch zurückziehen, da feuerten die Dänen<lb/>was sie nur konnten. Unser Batal. hatte 3 Tote und 3 Verwundete.</p>
+            <lb/>
+            <p>Jetzt sind die Dänen von der andern Seite angegriffen worden<lb/>und haben sich zurückziehen müssen. Jetzt sind wir schon hinter<lb/>
+               <hi rendition="#aq">Flensburg</hi> wo seine Haupt Stellung mit war. Ich könnte euch<lb/>wol 6 Bogen voll schreiben aber ich muß schließen. Die Adresse wißt<lb/>Ihr. <hi rendition="#aq">Schlafen</hi> lebt auch noch. Ich bin Gott sei Dank auch noch mit<lb/>heiler Haut davon gekommen, es hat uns aber nahe gegangen.</p>
+            <lb/>
+            <p>mit freundlichem Gruß euer lieber Sohn Heinrich</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

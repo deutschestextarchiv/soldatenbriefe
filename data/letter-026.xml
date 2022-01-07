@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 26: August Pöhling (Unteroffizier), 28.09.1812, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>August</surname>
+                  <forename>Pöhling</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 26 von August Pöhling, 28.09.1812.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 26: August Pöhling (Unteroffizier), 28.09.1812, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>August</surname>
+                        <forename>Pöhling</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1812-09-28">1812</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="26">
+            <head>
+               <supplied>SB-Nr. 26: August Pöhling (Unteroffizier), <date when="1812-09-28">28.09.1812</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Mosaick</hi> 18 Stunden</p>
+            <lb/>
+            <p rendition="#et">Liebe Schwester!<space dim="horizontal"/>disseit <hi rendition="#aq">Moskau</hi> am 28ten<lb/>
+               <hi rendition="#aq">September</hi> 1812.</p>
+            <lb/>
+            <p>Seit Grodno hast du nun von mir nichts gehört<lb/>und ich denke es ist jetzt wohl mahl Zeit wieder<lb/>zu schreiben, meine Schuld ist es indessen nicht<lb/>deñ wir haben in dieser Zeit manches saure<lb/>Stück Arbeit mit den Russen gehabt<lb/>wo weder Zeit noch Gelegenheit zum schreiben<lb/>war.<space dim="horizontal"/>Bei <hi rendition="#aq">Schmolensko</hi> legten <add place="superlinear">
+                  <metamark/>wir</add> unser Probe⸗<lb/>stück ab, wir verlohren an diesem Tage unser<lb/>
+               <hi rendition="#aq">Commandeur</hi> den Obristlieutenant <hi rendition="#aq">v Hessberg</hi>
+               <lb/>1 <hi rendition="#aq">Lieutenant </hi>und 15 Jäger, von den Russen<lb/>hingegen war der ganze Wehrplaz mit Todten<lb/>und <hi rendition="#aq">blessirten</hi> bedeckt und sie wurden genzlich<lb/>in die Flucht geschlagen, wir verfolgten sie<lb/>beständig bis 3 Stunden von hier wo sie sich<lb/>wieder gesetzt und verschanzt hatten, hier<lb/>kam es nun den 7ten d M zu einer Hauptschlacht<lb/>welche fürchterlich war 700 Kanonen von bei<lb/>den Seiten waren in Thätigkeit, und der<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>Donner dieser Stücke war so fürchterlich das<lb/>der Erdboden zitterte, der Kayser <hi rendition="#aq">Napoleon</hi>
+               <lb/>wohnte selbst dieser Bataille bei, und passirte<lb/>mitten in stärkstem Feuer die ganze <hi rendition="#aq">Linie</hi>.</p>
+            <lb/>
+            <p>die Russen wurden völlig gschlagen und<lb/>die Franzosen verfolgten dieselbe bis <hi rendition="#aq">Mos<supplied resp="#CT">⸗</supplied>
+                  <lb/>kau</hi> u. s. w. wir verlohren viel Menschen<lb/>an diesen Tage 3 <hi rendition="#aq">Capitains</hi> von <hi rendition="#aq">Bataillon</hi>
+               <lb/>wurden <hi rendition="#aq">blessirt</hi> 2 <hi rendition="#aq">Lieutenants</hi> todtgeschossen.</p>
+            <lb/>
+            <p>die Anzahl der Jäger und Unterofficiers<lb/>weiss ich selbst nicht genau, die beiden gebrüder<lb/>
+               <hi rendition="#aq">Luders</hi>, <hi rendition="#aq">Walter von Herzberg</hi> und übrigens<lb/>viele von meinen besten Freunden sind todt<lb/>geschossen. Wir stehen jetzt hier in <hi rendition="#aq">Gar<supplied resp="#CT">⸗</supplied>
+                  <lb/>nison</hi> nebst den <hi rendition="#aq">Garden</hi> unser <hi rendition="#aq">Bataillon</hi>
+               <lb/>welches 700 Mann starck aus <hi rendition="#aq">Cassel</hi> marschirte<lb/>bestehet jetzt noch aus 300 dienstfähigen Men<supplied resp="#CT">⸗</supplied>
+               <lb/>schen. wie es heißt werden wir von hier<lb/>
+               <hi rendition="#aq">retour</hi> gehen und diesen Winter in Grodno<lb/>bleiben und Künftig Frühjahr in das liebe deutsch<supplied resp="#CT">⸗</supplied>
+               <lb/>land zurück Kehren.<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+            </p>
+            <lb/>
+            <p>deinen lieben Brief nebst den Scheine habe ich erhalten<lb/>und dancke recht sehr für das Praesent, auch von<lb/>Ludewig habe ich einen Brief nebst geld erhalten<lb/>aber ich habe <del rendition="#s">ich</del> ihm noch nicht Antworten können<lb/>vorläufig statte ihm doch meinen danck ab.</p>
+            <lb/>
+            <p rendition="#et">Über nichts Kräncke ich mich mehr als<lb/>das unsere gute Mutter nicht wohl ist, ich<lb/>hoffe und wünsche nichts sehnlicher, als das<lb/>du mir in deinen nächsten Briefe bessere<lb/>Nachricht von ihrer völligen Widerherstellung<lb/>mittheilen kanst. Suche sie über mein Schicksal<lb/>
+               <del rendition="#s">nur</del> aufzuheitern, den wir haben jetzt nichts<lb/>mehr zu befürchten.</p>
+            <lb/>
+            <p rendition="#et">Viele Russische Grüsse an <hi rendition="#aq">Demoisell Lorny</hi>
+               <lb/>sämtliche Geschwister und gute Freunde<lb/>welche sich meiner erinnern.</p>
+            <lb/>
+            <p rendition="#et">Auch hatte ich bald vergessen dir zu<lb/>schreiben das ich <hi rendition="#aq">Sergent</hi> geworden bin<lb/>du must dich mit der <hi rendition="#aq">Addresse</hi> hiernach richten<lb/>und statt Oberjäger <hi rendition="#aq">Sergent </hi>setzen.</p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Walkerling</hi> ist noch gesund. der Fourier<lb/>Velingenspor von der <hi rendition="#aq">Chasseur Garde</hi> ist todt<lb/>geschossen. <hi rendition="#aq">Feuerriegel</hi> aus <hi rendition="#aq">Gandersheim</hi> läßt<lb/>seine Aeltern Grüssen. er steht beim 3ten Regiment</p>
+            <lb/>
+            <p rendition="#et">A Pöhling<lb/>
+               <note place="left">mir wurde in der letzten <hi rendition="#aq">Bataille</hi> eine Flintenkugel auf die<lb/>Wade geschossen welche aber schon matt war und ein Stück von<lb/>einer <hi rendition="#aq">Granate</hi> riss mir den Lederbusch ab. sag es aber der Mutter nicht.</note>
+               <lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

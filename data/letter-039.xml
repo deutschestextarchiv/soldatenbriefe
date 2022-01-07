@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 39: Friedrich Binder (Mannschaften), 08.07.1815, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Friedrich</surname>
+                  <forename>Binder</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 39 von Friedrich Binder, 08.07.1815.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 39: Friedrich Binder (Mannschaften), 08.07.1815, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Friedrich</surname>
+                        <forename>Binder</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1815-07-08">1815</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="39">
+            <head>
+               <supplied>SB-Nr. 39: Friedrich Binder (Mannschaften), <date when="1815-07-08">08.07.1815</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p rendition="#et">Paris den 8<hi rendition="#sup">ten</hi> July 1815.</p>
+            <lb/>
+            <p rendition="#et">Vielgeliebte Eltern.</p>
+            <lb/>
+            <p>Nach vielen fast unausstehlichen Märschen, Tag<lb/>und Nacht, und nachdem wir 2 Schlachten und mehrere<lb/>Gefechte mitgemacht und 8 Tage vor Paris gelegen<lb/>haben, sind wir nun glücklich hier in Paris einge⸗<lb/>rückt. Wir haben die Schlacht am 16<hi rendition="#sup">ten</hi> und 18<hi rendition="#sup">ten </hi>mit⸗<lb/>gemacht und dabei 28 Mann an Todten und Blessirten<lb/>von unsern Jägern verloren. Am 28<hi rendition="#sup">ten </hi>
+               <hi rendition="#aq">Juny</hi>, Vor⸗<lb/>mittags ehe wir die Franzosen angriffen, marschirte<lb/>die Berliner reitende Landwehr vor uns vorbei, wobei<lb/>ich meinen Bruder Johann gesprochen habe; er hat<lb/>in der Schlacht am 16<hi rendition="#sup">ten</hi> 2 Pferde unterm Leibe<lb/>verloren und beinah sein Leben dabei eingebüßt;<lb/>er ist aber gesund und glücklich davon gekommen.<lb/>Seit dieser Zeit aber habe ihn noch nicht wieder gesehen,<lb/>denn die reitende Landwehr steht beim 2<hi rendition="#sup">ten</hi> 
+               <hi rendition="#aq">Armee</hi>⸗<lb/>
+               <hi rendition="#aq">Corps</hi> und ich beim 3<hi rendition="#sup">ten</hi>. Neues kann ich Ihnen<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>bisjetzt nicht schreiben, denn es ist 9 Uhr Abend als<lb/>wir ins Quartier kamen und am andern Morgen<lb/>müssen wir wieder weiter. Wir sind nun bereits<lb/>seit 5 Wochen das erstemal in Quartier, mein<lb/>Hemde habe ich schon seit 6 Wochen nicht vom Leibe<lb/>ziehen und waschen lassen, wir sind vor Staub und<lb/>Schmutz kaum mehr zu kennen gewesen, und fast<lb/>ganz abgerissen; auch die Lebensmittel waren knap,<lb/>Brod hatten wir selten, ich habe ein paarmal was ge⸗<lb/>kauft , und mußte für ein Brod so groß wie ein 3gro⸗<lb/>schen Brod, 2 Franken nach preußischem Gelde 12 Gr. Cour.<lb/>bezahlt, Wein und Fleisch haben wir im Ueberfluß.</p>
+            <lb/>
+            <p>Ich muß Ihnen noch berichten, daß wir getheilt<lb/>worden sind, ich stehe jetzt beim 30<hi rendition="#sup #uu">sten</hi> Infanterie<lb/>Regt. Den Gruß von Ihnen durch den Jäger <hi rendition="#aq">Kanow</hi>
+               <lb/>habe ich richtig erhalten. Ich grüße Ihnen nebst<lb/>meinen Bruder Johann viel Tausendmal, einen<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>Gruß an meine Geschwister und alle gute <lb/>Freunde; den Herrn <hi rendition="#aq">Commissarius</hi> nebst Gemahlin<lb/>und Familie. Die Zeit ist zu kurz; sonst hätte<lb/>ich gern mehr geschrieben. Leben Sie alle<lb/>recht wohl, und schreiben Sie mir recht bald<lb/>wieder, wie es Ihnen insgesammt geht, ich bitte<lb/>recht sehr darum. Vielleicht ist der Krieg bald<lb/>zu Ende und dann sehen Sie bald wieder Ihren</p>
+            <lb/>
+            <p rendition="#et">		
+               <space dim="horizontal"/>Sie liebenden Sohn</p>
+            <lb/>
+            <p>		
+               <space dim="horizontal"/>
+               <hi rendition="#aq">Friedrich Binder</hi>
+            </p>
+            <lb/>
+            <p>Meine Addresse ist.</p>
+            <lb/>
+            <p rendition="#et">An den<lb/>freiwilligen Jäger <hi rendition="#aq">Friedrich Binder</hi>
+               <lb/>beim 2<hi rendition="#sup #uu">ten</hi> Bataillon des 30<hi rendition="#sup #uu">ten</hi> Infant. Regts. <lb/>in der 9<hi rendition="#sup #uu">ten</hi> Brigade des 3<hi rendition="#sup #uu">ten</hi> 
+               <hi rendition="#aq">Armee-Corps</hi>.<lb/>unter den Befehlen des General⸗Lieutenant von<lb/>		
+               <hi rendition="#aq">Thielemann </hi>Excellenz.<lb/>				
+               <space dim="horizontal"/>zur <lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">Armee</hi>
+               <lb/> 
+               <hi rendition="#aq #u">Militaria</hi>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

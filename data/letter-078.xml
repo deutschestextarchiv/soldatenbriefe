@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 78: Edmund Freiherr von Schaezler (Unteroffizier), 09.06.1866, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Edmund</surname>
+                  <forename>Freiherr von Schaezler</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 78 von Edmund Freiherr von Schaezler, 09.06.1866.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 78: Edmund Freiherr von Schaezler (Unteroffizier), 09.06.1866, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Edmund</surname>
+                        <forename>Freiherr von Schaezler</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1866-06-09">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="78">
+            <head>
+               <supplied>SB-Nr. 78: Edmund Freiherr von Schaezler (Unteroffizier), <date when="1866-06-09">09.06.1866</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Fuchsstadt</hi> bei <hi rendition="#aq">Hammelburg</hi> 9/6/66.</p>
+            <lb/>
+            <p rendition="#et">Liebe Schwester!</p>
+            <lb/>
+            <p rendition="#et">Da Du von mir einen theilweisen Bericht über unser<lb/>Leben verlangtest, beeile ich mich, Dir zuerst einige Begeben⸗<lb/>heiten mitzutheilen; ersuche Dich aber auch zugleich auf allen⸗<lb/>fallsige unzusam̃enhängende Strophen Rücksicht zu nehmen,<lb/>da ich noch sehr müd bin.</p>
+            <lb/>
+            <p rendition="#et">Vor allem sage ich Dir, daß wir alle, Soldaten u.<lb/>Offiziere sehr deprimirt sind und daß ich Dir nichts<lb/>mittheilen kañ, als lauter Begebenheiten, die uns<lb/>zur Schame gereichen. Der Grund hirzu ist der Eigen⸗<lb/>siñ des General <hi rendition="#aq">Tasch</hi>, weßhalb auch einem jeden von<lb/>uns dessen Absetzung von seinem Posten sehr lieb war.<lb/>
+               <space dim="horizontal"/>Ich theile Dir alle Vorkom̃nisse mit, übrigens bitte <lb/>ich Dich, es nicht weiter zu verbreiten, da es mir allenfalls<lb/>sehr schaden köñte.</p>
+            <lb/>
+            <p rendition="#et">Am 3<hi rendition="#sup #u">ten</hi> dss. kamen wir nach Fulda.</p>
+            <lb/>
+            <p rendition="#et">Am 4<hi rendition="#sup #u">ten</hi> früh 2 Uhr blies es Generalmarsch, <del rendition="#s">ich bemer</del>
+               <lb/>ich wußte, daß wir nur 4 Stunden von den preußischen<lb/>Vorposten entfernt waren, fand die Lage nicht recht<lb/>geheuer und nahm mir von unseren Wagen noch schnell<lb/>einen Mañschaftscuiraß<metamark>_</metamark> da das die meinigen<lb/>auch nicht hatten.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p rendition="#et">Abends zuvor <add place="superlinear">
+                  <metamark/>um 11 Uhr Nachts</add> retirirte Herzog Ludwig mit den Uhlanen<lb/>nach Fulda u. meldete im Hauptquartir er köñte<lb/>sich nicht halten<metamark>_</metamark> es war nämlich unsere Absicht<lb/>
+               <del rendition="#s">S</del>nordwestlich von Fulda mit dem 8<hi rendition="#sup #u">ten</hi> 
+               <gap reason="illegible"/>
+               <lb/>zusam̃enzustoßen<metamark>_</metamark> in Folge hirvon sagte Gl <hi rendition="#aq">Tasch,</hi>
+               <lb/>welcher die 3 Cuiraßier Regimenter kom̃andirt, er werde<lb/>mit uns die preußen zurückdrängen<metamark>_</metamark> ein Unsiñ.<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+            </p>
+            <lb/>
+            <p>er wußte nämlich, durch Herzog Ludwig, daß 5 Poststunden<lb/>von <hi rendition="#aq">Fulda</hi> 
+               <metamark>_</metamark> die ganze Straße dahin in einem ziemlich<lb/>engen Thale und zwischen sehr vielen Wäldern<metamark>_</metamark>
+               <lb/>die Preußen mit Infanterie<metamark>_</metamark> Artillerie und<lb/>einem Zuge Husaren am Rande des Waldes<lb/>sich postirt hatten<metamark>_</metamark> wir marschirten nun ohne alle<lb/>besonderen Vorsichtsmaßregeln und blos mit Cavallerie<lb/>d.h. die drei Cuiraßier Regimenter u. eine streitende <lb/>Batterie unter Hauptmañ <hi rendition="#aq">Massenbach</hi> dorthin <del rendition="#s">f</del>ab, etwa<lb/>1½ Poststunde hinter <hi rendition="#aq">Hünfeld</hi> stieß unsere <hi rendition="#aq">Avantgarde</hi>
+               <lb/>auf den Feind, diesselbe erhielt den Befehl zur Attaque,<lb/>
+               <metamark>_</metamark> ein großer Unsiñ<metamark>_</metamark> Cavallerie auf einem mit In⸗<lb/>fanterie u. Artillerie besetzten Wald attaquiren zu lassen<lb/>kurz die Preußen feuerten sehr gut<metamark>_</metamark> das erste Cuiraßier<lb/>Regiment ward sofort ganz außerm Leim und<lb/>in voller Flucht, wir machten einen staffelförmigen <lb/>Rückzug nach <hi rendition="#aq">Fulda</hi> und wurden noch unter weg<lb/>von den Preußen Hünfeld beschossen u. 4 Soldaten<lb/>des 3<hi rendition="#sup #u">ten</hi> Cuir. Regts blesirt<metamark>_</metamark> wir verloren ein<lb/>Geschütz.<metamark>_</metamark> so ging es fort in einem scharfen Tempo<lb/>nach <hi rendition="#aq">Fulda</hi>
+               <metamark>_</metamark> dasselbst wurden die Allarmkanonen<lb/>gelöst<metamark>_</metamark> es hieß<metamark>_</metamark> es kom̃t preußische Cavallerie, wir<lb/>giengen über <hi rendition="#aq">Fulda</hi> hinaus gegen Bayern<metamark>_</metamark> es stellte<lb/>sich jedoch heraus, daß dieses Gerücht auf einem<lb/>Irrthum beruhte u. wir bezogen in <hi rendition="#aq">Fulda</hi> um ½1 Uhr<lb/>Quartiere.</p>
+            <lb/>
+            <p rendition="#et">Um ½3 Uhr Nachmittags rückten die Preußen gegen<lb/>
+               <hi rendition="#aq">Fulda</hi> an: <del rendition="#s">sie</del>es waren ½ Stunde vor <hi rendition="#aq">Fulda</hi> ihre Vorposten<lb/>
+               <metamark>_</metamark> also Allarm<metamark>_</metamark> Die drei Regimenter waren sehr <lb/>schnell marschbereit, diesselben marschirten neben<lb/>
+               <fw type="folNum" place="bottom">[2]</fw> 
+               <lb/>einander vor <hi rendition="#aq">Fuldas</hi> 
+               <gap reason="illegible"/> Trup̃en<metamark>_</metamark> den Durcheinander<lb/>kañst du dir wohl denken, ich ritt hinten am linken<lb/>Flügel meiner Eskadron u. da wir in den engen<lb/>Straßen nur Mañ für Mañ marschiren koñten,<lb/>muß einer unserer Leute versehen haben, daß<lb/>Schultze in eine andere Straße einbog<metamark>_</metamark> kurz ich<lb/>befand mich etwa 2 Stunden vor Fulda ganz allein<lb/>mit 25 Mañ von meiner Eskadron getreñt auf der<lb/>Straße nach <hi rendition="#aq">Gersfeld</hi>, <del rendition="#s">h</del>im Rücken die Preußen – <lb/>also setzte ich auf eigene Faust meinen Marsch<lb/>ohne Rittmeister u. Eskadron in dieser Richtung fort<lb/>u. kam etwa um 9 Uhr nach <hi rendition="#aq">Gersfeld</hi>, hier war eine<lb/>Confussion über die Einquartierung.</p>
+            <lb/>
+            <p rendition="#et">Auf dem Wege dahin – beständig in einem<lb/>Thale zwischen Bergen u. <gap reason="illegible"/> Waldungen stiegen<lb/>auf der rechten Seite gewiß 80 bis 100 Leuchtkugeln, auf<lb/>der linken, waren auf den Bergen viele Feuer<lb/>angezündet.</p>
+            <lb/>
+            <p rendition="#et">ich ließ meine 25 Mañ unser <gap reason="illegible"/> des <gap reason="illegible"/>
+               <lb/>fortmarschiren, um mich nach der Einrichtung der<lb/>Einquartierung zu erkundigen<metamark>_</metamark> kañ den Vorsteher<lb/>nicht finden<metamark>_</metamark> endlich um zu meinen Leuten wieder<lb/>zu kom̃en, frage ich <gap reason="illegible"/> Pflem̃ern um zu erfahren,<lb/>wohin diesselben einstweilen marschiert sind, finde<lb/>so aber meinen <unclear reason="illegible" cert="high" resp="#MN">Kttstr.</unclear> 
+               <hi rendition="#aq">Schulze</hi> u. erhalte von demselben<lb/>den Befehl, in Bälde mit dervorigen Eskadron <del rendition="#s">einem</del>
+               <lb/>u. ihm selbst den andern nachzufolgen<metamark>_</metamark> es<lb/>dauert eine<metamark>_</metamark> zwei Stunden, da dauert<lb/>es mir endlich zulange ich verlange zu meinem<lb/>Zuge reiten zu dürfen<metamark>_</metamark> da eröffnet mir <unclear reason="illegible" cert="high" resp="#MN">Joseph</unclear>
+               <lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>
+               <hi rendition="#aq">Tadtenbach</hi>
+               <metamark>_</metamark> wir seien in <hi rendition="#aq">Gersfeld </hi>von den Preußen<lb/>eingeschlossen, u. mußten suchen auf irgend welche<lb/>Art in der Nacht nach <hi rendition="#aq">Brückenau</hi> zukom̃en <add place="superlinear">
+                  <metamark/>u. ich köñte nicht fort</add>
+               <lb/>übrigens hätte Sauer den Befehl, weñ es nur irgend⸗<lb/>wie möglich wäre, mit seiner Eskadron u meinem<lb/>Zuge nach <hi rendition="#aq">Hersfeld</hi> hereinzukom̃en.</p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Gersfeld</hi> war von Militär <unclear reason="illegible" cert="high" resp="#MN">volgegrecht</unclear> wie es nur sein<lb/>koñte, es wurde 12 Uhr, wir sind aufgesessen u gegen<lb/>das eine Ende der Stadt geritten, die Artillerie u. deren<lb/>Soldaten Frachten schafften allerhand Gegenstände <lb/>gegen das Thor<metamark>_</metamark> kurz ich dachte, sowie wir ausbrechen,<lb/>giebt es einen Regen von Kugeln<metamark>_</metamark> so kamen wir<lb/>eine Stunde<metamark>_</metamark> 
+               <add place="superlinear">
+                  <metamark/>das unheimliche des Marsches kañst du dir denken<metamark>_</metamark>
+               </add> um 1 Uhr machten wir links um⸗<lb/>kehrt, u. schliechen uns am anderen Ende der Stadt<lb/>hinaus, wir machten ohne weitere Stöhrung den<lb/>Marsch bis 2 Stunden vor Breitenau.</p>
+            <lb/>
+            <p rendition="#et">die ersten 6 Poststunden giengen über starkes<lb/>Geröll u. große Abhänge<metamark>_</metamark> kurz ein sehr schlechter Weg;<lb/>übrigens habe ich beinahe den ganzen Weg geschlafen.</p>
+            <lb/>
+            <p rendition="#et">2 Stunden vor Breitenau heißt es, die Preußen<lb/>beschießen uns, allgemeiner Trubel, ein Fuchss. dienstpferd<lb/>auf welchem ich einen sehr guten Sattel von mir<lb/>liegen hatte, riß aus<metamark>_</metamark> ich sah ihn nicht mehr<lb/>wir kamen durch einen Ort, vor demselben<lb/>
+               <del rendition="#s">machten</del>nahmen wir an einem günstigen Orte eine<lb/>feste Stellung<metamark>_</metamark> ich vorne dran, hätte mich hier<lb/>sehr gerne auf etwas eingelassen, aber leider<lb/>kamen keine Preußen<metamark>_</metamark> endlich zogen<lb/>wir uns zurück nach <hi rendition="#aq">Breitenau</hi>, gaben den Pferden<lb/>
+               <fw type="folNum" place="bottom">[4]</fw>
+               <lb/>etwas Haber u. Wasser u. giengen gleich wieder<lb/>fort auf Vorposten<metamark>_</metamark> von dort aus marschirte</p>
+            <lb/>
+            <p>die schwere Brigade nach <hi rendition="#aq">Hammelburg</hi> u. kamen<lb/>wir nach <hi rendition="#aq">Fuchsstadt</hi>
+               <metamark>_</metamark> mein Regiment bestand<lb/>bei dem Einrücken aus dem Stabe u. etlichen<lb/>20 Mañ meiner Eskadron<metamark>_</metamark> Das erste Regiment<lb/>nicht viel mehr, das dritte beinahe <unclear reason="illegible" cert="high" resp="#MN">100 glatt</unclear>.<lb/>/: wir sind zwei Tage hier u. haben uns wieder bei⸗<lb/>nahe ganz gesam̃elt:/</p>
+            <lb/>
+            <p>Da ich 30 Stund nicht aus dem Sattel gekom̃en,<lb/>u. 3 Nächte hinter einander nicht geschlafen habe,<lb/>aß ich ein paar Eier u. schlief von Abends 6 Uhr<lb/>bis morgens 9 Uhr.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p rendition="#et">
+               <del rendition="#s">Aus</del>Du machst Dir keinen Begriff, von dem<lb/>Durcheinander bei unserem Rückzuge, <unclear reason="illegible" cert="high" resp="#MN">Gardeulahnen</unclear>,<lb/>Uhlanen, Artilleristen, Cuiraßiere kurzum alles<lb/>war durcheinander u. ich kann Dir noch eine<lb/>Maße Lächerlichkeiten erzählen, weñ ich wieder<lb/>zurückkom̃e.<metamark>_</metamark> Uebrigens glaube ich das nicht <lb/>recht, deñ an einen Frieden kañ ich nicht glauben,<lb/>Oesterreich hat eine große Schlacht verloren, auch<lb/>müßen unsere übrigen Truppen geschlagen<lb/>worden sein, da sich gestern Gl. Zoller mit<lb/>seiner Division zurückziehen mußte.</p>
+            <lb/>
+            <p rendition="#et">Schließlich ist es ein für allemal ausgemacht,<lb/>daß wir das Bad für die große Dum̃heit des Gl.<lb/>
+               <hi rendition="#aq">Taschs</hi> aussaufen müßen u. deßhalb sicher bei<lb/>jeder Schlacht die vorkom̃en wird, ich glaube, daß wir<lb/>jetzt für Haus u. Heerd kämpfen, in dickste Gewühl<lb/>
+               <fw type="folNum" place="bottom">[5]</fw>
+               <lb/>geschoben werden, dasselbst als Kanonenfutter<lb/>sehr gut sein werden, dagegen auf Auszeichnung<lb/>u. drgl. im ersten Treffen durchaus nicht denken köñen.</p>
+            <lb/>
+            <p rendition="#et">Endlich theile ich Dir mit, daß mich das erste Pulver⸗<lb/>dampf wohl etwas frappirte, daß ich übrigens jetzt<lb/>bei dieser Sachlage mir daraus nichts mehr machen<lb/>werde, da ich in mir eine ungeheure Wuth gegen<lb/>die Preußen fühle, welche ich früher eigentlich nicht bemerkte.</p>
+            <lb/>
+            <p rendition="#et">Bei uns ist Lt. <hi rendition="#aq">Grafenstein</hi> 
+               <add place="superlinear">
+                  <metamark/>vom 1</add>
+               <hi rendition="#sup #u">ten</hi>
+               <hi rendition="#sup"> Cuisr. Regt.</hi> gefallen, seinem Pferde<lb/>wurden die beiden Hinterfüße weggeschossen,<lb/>u. traf ihn eine Kartetschenkugel in den Unterleib<lb/>u. rechten Schenkel, er war ein sehr netter Mensch,<lb/>übrigens hatte er ein leichtes Ende.</p>
+            <lb/>
+            <p rendition="#et">Zum Schluß rathe ich Dir, Dir wegen Rudolph nicht<lb/>zu viele Sorgen zu machen u. Dir im Voraus zu denken.<lb/>es geht alles seinen Weg so, wie es bestim̃t ist,<lb/>wenigstens halte ich mich an den Herzenspruch:<lb/>
+               <lg>
+                  <l>„Mag kom̃en – was mag, die Stunde läuft</l>
+                  <lb/>
+                  <l>doch durch den stürmischsten <del rendition="#s">N</del>Tag!</l>
+                  <lb/>
+               </lg>
+            </p>
+    
+            <p>
+               <del rendition="#s">Schließlich</del>
+            </p>
+            <lb/>
+            <p rendition="#et">Ob ich Dir noch einmal schreiben kañ, weiß ich nicht,<lb/>übrigens verspreche ich Dir, daß, weñ mich die Preußen<lb/>bekom̃en u. ich es nur irgendwie machen kañ, sie<lb/>mich sicher nicht lebendig bekom̃en.</p>
+            <lb/>
+            <p rendition="#et">Ob unsere Leute sich wirklich gut halten werden weiß<lb/>ich nicht, deñ in Folge der furchtbaren Dum̃heit weñ es<lb/>nicht Absicht war des Gl. <hi rendition="#aq">Tasch</hi> war, haben unsere Pferde<lb/>leider sehr gelitten und <del rendition="#s">haben</del>hat man wirklich<lb/>den Soldaten, das Umkehren u. förmlich davon<lb/>
+               <fw type="folNum" place="bottom">[6]</fw>
+               <lb/>laufen vor dem Feinde, nicht besser lernen köñen,<lb/>als es wirklich geschehen ist.</p>
+            <lb/>
+            <p rendition="#et">Jetzt schließe ich und empfehle Dir noch<lb/>meine Hunde.</p>
+            <lb/>
+            <p rendition="#et">Weñ es dem Papa Spaß macht, so kañst Du ihm<lb/>meine Zeilen mittheilen, übrigens bitte<lb/>ich Dich sonst nicht zu viel drüber zu reden.</p>
+            <lb/>
+            <p rendition="#et">Ich wiederhohle Dir noch, daß ich meinem<lb/>Namen keine Schande machen werde,</p>
+            <lb/>
+            <p>und grüße Dich als<lb/>
+               <space dim="horizontal"/>Dein<lb/>
+               <space dim="horizontal"/>treuer Bruder<lb/>An <del rendition="#s">Dich</del> Frankiert.<space dim="horizontal"/>Edmund.</p>
+            <lb/>
+            <p>
+               <gap reason="illegible"/> sind wir sehr im Zweifel, ob sie für unsere zuträglich<lb/>Sache sind.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[7]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

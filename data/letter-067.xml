@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 67: Heinrich Lippelt (Offizier), 05.03.1864, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Heinrich</surname>
+                  <forename>Lippelt</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 67 von Heinrich Lippelt, 05.03.1864.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 67: Heinrich Lippelt (Offizier), 05.03.1864, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Heinrich</surname>
+                        <forename>Lippelt</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1864-03-05">1864</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="67">
+            <head>
+               <supplied>SB-Nr. 67: Heinrich Lippelt (Offizier), <date when="1864-03-05">05.03.1864</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Memphis Tennesse</hi>, <hi rendition="#aq">March</hi>, 5. 1864.</p>
+            <lb/>
+            <p rendition="#et">Liebe Eltern!</p>
+            <lb/>
+            <p rendition="#et">Mit großer Sehnsucht habe ich auf einen Brief von<lb/>Euch gewartet aber immer vergebens. Es ist mir wirklich<lb/>sehr auffallend in einem ganzen Jahre nicht mehr denn<lb/>einen einzigen Brief zu erhalten, da ich Euch doch alle 2 bis<lb/>3 Monate Nachricht mittheilte. Ich sandte Euch sowie<lb/>
+               <hi rendition="#aq">F</hi>. <hi rendition="#aq">Tagtmeyer</hi> und auch nach <hi rendition="#aq">Schandeln</hi> jeden mein<lb/>Bild! bekamm aber ebenso wenig Nachricht, wie einen<lb/>Glückwunsch zum Weihnachts⸗ und Neujahrsfeste. Aus<lb/>alle diesen schließe ich, dass sehr wenig an mir gelegen<lb/>sein muss, und Ihr könnt es mir nicht übel nehmen, wenn<lb/>auch ich mein Schreiben ganz unterlasse oder höchst selten<lb/>schreibe. Ich hoffe jedenfalls nach Empfang dieses Briefes<lb/>Aufklärung zu erhalten, worin das sparsame Schreiben<lb/>besteht und bekomme ich keine Nachricht so stelle auch<lb/>ich mein Schreiben ganz ein.</p>
+            <lb/>
+            <p>Unser Battallion ist von <hi rendition="#aq">Corinth</hi> nach <hi rendition="#aq">Memphis</hi>
+               <lb/>beordert und wir liegen hier dicht an der Stadt im<lb/>Quartiere das heißt in <hi rendition="#aq">Cette</hi>. Meine Gesundheit<lb/>ist immer ausgezeichnet und dieses wünsche ich ist<lb/>auch der Fall bei Euch.<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+            </p>
+            <lb/>
+            <p>Es wird diesen Sommer sehr heiß zugehen beide<lb/>Armeen rüsten sich ungeheuer für die nächsten Schlachten<lb/>oder Sommerfeldzug. Unser Präsident hat abermals<lb/>500,000 Mann neue Truppen ausgehoben und unsere<lb/>Armee wird ausgezeichnet ausgerüstet. Ich hoffe<lb/>hier jedenfalls 2 bis 3 Monate noch zustehen und bis<lb/>dahin kann ich jedenfalls einen Brief von Euch erhalten.</p>
+            <lb/>
+            <p>Dieses ist vorläufig genug bis ich einen Brief<lb/>von Euch erhalte, dann mehr.</p>
+            <lb/>
+            <p>Ich hoffe und wünsche, dass diese wenigen Zeilen<lb/>Euch bei der besten Gesundheit antreffen bin ich wie<lb/>immer</p>
+            <lb/>
+            <p rendition="#et">Euer<lb/>
+               <space dim="horizontal"/>Euch liebender Sohn<lb/>
+               <hi rendition="#aq">
+                  <space dim="horizontal"/>HLippelt.</hi>
+            </p>
+            <lb/>
+            <p>Meine Addresse<lb/>
+               <hi rendition="#aq">Lieutenant Henry Lippelt<lb/>Comp. 13 1<choice>
+                     <orig>“</orig>
+                     <reg resp="#CT">st</reg>
+                  </choice> Alabam Siege Artillery<lb/>
+                  <space dim="horizontal"/>Fort Pickering<lb/>
+                  <space dim="horizontal"/>Memphis<lb/>
+                  <space dim="horizontal"/>Tennesse.</hi>
+            </p>
+            <lb/>
+            <p>PS. Entschuldigt mein weniges Schreiben, denn ich<lb/>bin verdrießlich nie Antwort zu erhalten.<lb/>
+               <space dim="horizontal"/>
+               <unclear reason="illegible" cert="high" resp="#MN">
+                  <hi rendition="#u">ders</hi>.</unclear>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[2]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

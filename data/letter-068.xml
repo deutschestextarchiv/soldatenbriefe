@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 68: Ludwig L. Lafite (Offizier), 19.05.1864, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Ludwig</surname>
+                  <forename>L. Lafite</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 68 von Ludwig L. Lafite, 19.05.1864.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 68: Ludwig L. Lafite (Offizier), 19.05.1864, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Ludwig</surname>
+                        <forename>L. Lafite</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1864-05-19">1864</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="68">
+            <head>
+               <supplied>SB-Nr. 68: Ludwig L. Lafite (Offizier), <date when="1864-05-19">19.05.1864</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Bredstrup</hi> am 19. <hi rendition="#aq">Mai</hi> 1864.</p>
+            <lb/>
+            <p rendition="#et">Liebe <hi rendition="#aq">Tini</hi>!<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p rendition="#et">Hocherfreut über deinen letzten liebes⸗<lb/>würdigen Briefe, antworte ich, um dir<lb/>zu sagen daß es mir nicht minder<lb/>Vergnügen macht, dir mit dieser<lb/>Kleinigkeit eine so große Freude<lb/>bereitet zu haben.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Der Wert der ganzen Geschichte liegt ja nur<lb/>darin, daß es aus so weiter Entfernung<lb/>komt, und es dich zeitweilig daran<lb/>erinnern soll, unter welchen Verhält⸗<lb/>nissen ich in dem Lande war woher es<lb/>stamt.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Für allerste muß ich dich bitten liebe <hi rendition="#aq">Tini</hi>
+               <lb/>mir jedoch recht bald wieder zu schreiben,<lb/>damit ich zuvörderst weiß wie es dem<lb/>guten <hi rendition="#aq">Papa</hi> und Euch allen geht,<lb/>bis jetzt hast du mir geschrieben, daß<lb/>
+               <hi rendition="#aq">Papa</hi> ein wenig unwohl ist, ich bin<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>aber trotzdem du von einer Unbedeuten⸗<lb/>heit gesprochen hast doch etwas beunruhigt<lb/>und sage <hi rendition="#aq">Papa</hi> daß ich ihn recht sehr bitten<lb/>lasse mir selbst bald ein par Zeilen<lb/>zu schreiben, den dies ist mir dann<lb/>der sichere Beweis daß er sich recht<lb/>wohl befindet.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Gestern war ich in <hi rendition="#aq">Kolding</hi>, ein par<lb/>Meilen von hier, bei unseren Generalen<lb/>in Dienstangelegenheit, und bei dieser<lb/>Gelegenheit sah ich einen <hi rendition="#aq">Dänischen</hi> 
+               <lb/>Offizier, welcher allein ganz gemüthlich<lb/>in der Stadt, wo das ganze Regiment<lb/>
+               <hi rendition="#aq">Hublein</hi> liegt spazieren ging.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Es war nicht leicht möglich ihn anzusprechen<lb/>sonst würde ich sehr gerne mit ihm<lb/>gesprochen haben.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Du hast gar keine Idee wie die<lb/>östereichischen Offiziere hier bei<lb/>den gebildeten u ungebildeten Leuten<lb/>beliebt sind, u die Preussen verhaßt.<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+            </p>
+            <lb/>
+            <p>Alles schwärmt von unsrer Liebens⸗<lb/>würdigkeit u Artigkeit<metamark>_</metamark> besonders<lb/>gegen Damen, und jene beiden Familien<lb/>wo ich <del rendition="#s">alle</del>da alle Tage abwechselnd<lb/>hingehe, haben mir schon oft gesagt<lb/>daß sie sich fürchten wenn einmal der<lb/>Krieg zu Ende ist, daß man sie nicht <lb/>ansehen wird, weil sie mit den Österei⸗<lb/>chern an einem Tische essen, spazieren gehen,<lb/>etc etc.<metamark>_</metamark> Ein kleiner Beweis daß uns sogar<lb/>die Soldaten nicht so böse gesiñt sind<metamark>_</metamark> sei folgen⸗<lb/>der.<metamark>_</metamark> vis a vis von Fredericia liegt bekant⸗<lb/>lich die Insel Fünnern, und daselbst die<lb/>kleine Stadt <hi rendition="#aq">Middelfahrt</hi>, daß Meer<lb/>ist so enge an dieser Stelle daß man sich<lb/>sehr gut sehen u sogar sprechen kann.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>vis a vis von <hi rendition="#aq">Middelfahrt</hi> auf <hi rendition="#aq">Jütland</hi>
+               <lb/>ist der kleine Ort <hi rendition="#aq">Snoghei</hi> der ein<lb/>Tag vom Coronini Infanterie liegt.<metamark>_</metamark>
+               <lb/>Für diesen Tag schickten also die Dänischen<lb/>Offiziere ein Fassl <hi rendition="#aq">Kopenhagner</hi>bier,<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>mit einem Billet wo folgendes darauf<lb/>stand:<metamark>_</metamark> Bier schicken wir den Östereichern<lb/>mit der Bitte den Preussen keinen Tropfen<lb/>davon zu geben.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Na<metamark>_</metamark> was sagst du dazu!<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Wie es scheint dürfte jedoch der Feinde noch<lb/>in sehr weitem Felde stehen, ich glaube<lb/>imer daß es noch fest los gehen wird<lb/>und ob man da wieder so gut überall<lb/>durchkomt ist erst die Frage.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Nun lebe wohl liebe Schwester grüsse<lb/>mir vielmahls <hi rendition="#aq">Papa</hi>
+               <metamark>_</metamark> Arnt, Carl und<lb/>die betreffenden Damen von deinem</p>
+            <lb/>
+            <p rendition="#et">dich aufrichtig lieben Bruder<lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">Louis Lafite</hi>
+               <lb/>
+               <space dim="horizontal"/>Lieutenant<metamark>_</metamark>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

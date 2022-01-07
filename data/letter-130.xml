@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 130: Hermann Witte (Mannschaften), 01.11.1870, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Hermann</surname>
+                  <forename>Witte</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 130 von Hermann Witte, 01.11.1870.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 130: Hermann Witte (Mannschaften), 01.11.1870, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Hermann</surname>
+                        <forename>Witte</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1870-11-01">1870</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="130">
+            <head>
+               <supplied>SB-Nr. 130: Hermann Witte (Mannschaften), <date when="1870-11-01">01.11.1870</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Chartres</hi> 1 Novb 70.</p>
+            <lb/>
+            <p rendition="#et">Liebe Mutter + Geschwister!</p>
+            <lb/>
+            <p rendition="#et">Meinen Brief, worin ich den Empfang<lb/>des Geldes bestätige sowie nachher<lb/>eine Karte werdet Ihr erhalten<lb/>haben, gestern erhielt ich Mariens <lb/>Brief vom 13ten Octbr + soeben<lb/>Mutters Brief v 23sten. Zunächst theile <lb/>ich Dir mit, dass ich das woll. Hemd er⸗<lb/>halten haben, das Kästchen ist wohl<lb/>noch unterwegs. Ich möchte nun noch<lb/>mals bitten mir nicht mehr zu schi⸗<lb/>ken, bedenkt dass ich Alles mitschleppen<lb/>muss + daher sehr incomodirt, außer⸗<lb/>dem habe ich mir <hi rendition="#aq">Chocolate</hi> zu wider<lb/>gegessen + habe noch Vorrath. An<lb/>wollenen Socken fehlt es mir auch<lb/>nicht, ich habe 2 wollene Hemden 2<lb/>Unterhosen + Strümpfe, <add place="superlinear">
+                  <metamark/>
+                  <hi rendition="#u">2 Leibbinden</hi>
+               </add> brauche also<lb/>vorläufig nichts.<metamark>_</metamark> Wir sind nun <lb/>schon über 8 Tage hier, es ist hier<lb/>sehr gemüthlich, nur Alles ziemlich<lb/>theuer. An <hi rendition="#aq">Caffés </hi>+ <hi rendition="#aq">Hotels</hi> fehlt<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>es hier nicht, + glaube ich dass<lb/>hierin die Stadt große Ähnlichkeit mit<lb/>
+               <hi rendition="#aq">Paris</hi> haben muss. Die Stadt zählt<lb/>ca. 20000 E., dabei ist an einem Platze,<lb/>(<hi rendition="#aq">Place du Marceau</hi>) wie bei uns<lb/>der Bankplatz, ein <hi rendition="#aq">Caffe</hi> neben den<lb/>andern + das eine feiner wie das<lb/>andere.<space dim="horizontal"/>Ich habe nun diese, da ich <lb/>hier mit meinen Freunden <hi rendition="#aq">Nolte</hi>
+               <lb/>und <hi rendition="#aq">Schappach</hi> zusammen getroffen<lb/>bin, ziemlich friquentirt, namentlich<lb/>zeichnen sich die franz <hi rendition="#aq">Caffés</hi> durch<lb/>gemüthliche + feine Einrichtung<lb/>aus. Was nun meinen Compagnie⸗<lb/>Chef, sowie die übrigen Vorgesetzten<lb/>anbetrifft, so haben diese<lb/>ihre guten Seiten wie Schattenseiten.<lb/>Nähere Bekannte habe ich in der Compag⸗<lb/>nie nicht mehr dieselben sind theils<lb/>verwundet, theils im Lazareth, ich<lb/>freue mich deshalb immer wenn <lb/>ich mit eben genannten Freunden<lb/>zusammen treffe.<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+            </p>
+            <lb/>
+            <p>Für die freundl Zeilen von<lb/>
+               <hi rendition="#aq">Frl Oelgart + Frl Haase</hi> bitte<lb/>meinen besten Dank zu sagen, sowie<lb/>es meine Zeit erlaubt werde ich<lb/>mich revangiren. Solange wir<lb/>hier sind haben wir die Zeit<lb/>theils mit recognosiren der Dörfer,<lb/>und mit Feldwachen thun hingebracht.<lb/>beide Dienste sind nicht angenehm<lb/>besonders letzte nicht, wo das Wetter<lb/>auch mit in Betracht kommt.</p>
+            <lb/>
+            <p rendition="#et">Doch nun muss ich schließen, grüße<lb/>Alle, Alle, Freunde wie Verwandte<lb/>
+               <space dim="horizontal"/>+ seid auch Ihr<lb/>
+               <space dim="horizontal"/>herzlich gegrüßt</p>
+            <lb/>
+            <p rendition="#et">v. E. <hi rendition="#aq #u">Hermann</hi>
+            </p>
+            <lb/>
+            <p rendition="#et">in Eile!!</p>
+            <lb/>
+            <p>
+               <hi rendition="#u">PS</hi>. Ist H <hi rendition="#aq">Haase</hi> auch da vor <hi rendition="#aq">Paris</hi>?<metamark>_</metamark>
+               <lb/>Weihnachten werden wir wohl hier<lb/>noch zubringen müssen, nun wenn wir <lb/>es immer so haben wie jetzt, so können<lb/>wir es noch aushalten, an Essen fehlt<lb/>es nicht.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

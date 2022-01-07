@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 25: Heinrich Brennecke (Mannschaften), 29.05.1812, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Heinrich</surname>
+                  <forename>Brennecke</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 25 von Heinrich Brennecke, 29.05.1812.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 25: Heinrich Brennecke (Mannschaften), 29.05.1812, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Heinrich</surname>
+                        <forename>Brennecke</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1812-05-29">1812</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="25">
+            <head>
+               <supplied>SB-Nr. 25: Heinrich Brennecke (Mannschaften), <date when="1812-05-29">29.05.1812</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Aschersleben d. 29 May 1812.</p>
+            <lb/>
+            <p rendition="#et">Lieber Vater.</p>
+            <lb/>
+            <p>Mutter und Geschwister. Mein Söhnliches Trachten ist Tag<lb/>und Nacht nach Sie. Wen Sie alle noch Gesundt und Munter<lb/>seyn so soll es mir von Herzen lieb Seyn, ich bin Gotlob noch<lb/>Gesund, einen Brief hätte ich schon längst gerne an Sie<lb/>geschrieben aber es hat mier Schwer gefallen. Jetzt habe <lb/>ich Meinen Wirth gebethen um einen brief zu Schreiben,<lb/>welcher mit Nahmen heißt Bäcker <hi rendition="#aq">Luther</hi>. Wohnhaft No. 125.</p>
+            <lb/>
+            <p>Lieber Vater ich Schreibe jetzt nicht etwa, um von Ihnen einen<lb/>Brief zu haben, da mit bin ich nicht zufrieden, ich<lb/>wünsche blos mit Ihn Mündlich zu sprechen. wen es ja<lb/>Zeit und umstände nicht Erlauben wolten, so könen<lb/>Sie den Fetter derweile im die Würtschaft gehen laßen,<lb/>der wird ihn auch nichts <gap reason="illegible"/>
+               <lb/>
+               <gap reason="illegible"/> und die Mutter wird auch wohl beystand leisten<lb/>dazu, Lieber Vater ich bitte Ihnen nochmals Schlagen Sie mir<lb/>dieses nicht ab, und machen sich auf den Weg so bald es mög⸗<lb/>lich ist, für erst habe ich manches mit Ihnen zu sprechen<lb/>wo ich vorher gar nicht dran gedacht habe, und auch nicht über⸗<lb/>legt habe. Und dieses nicht allein es kann balder fall<lb/>sich zutragen das wier nach Pohlen Marschieren. Ein Troup⸗<lb/>part ist Schon vor einigen Tagen fort gegangen, und wen wieder<lb/>einer fort geht so bin ich Einer von Ersten mit. Denn wier<lb/>seynd jetzt fertig mit Exerzieren zu Pferde und zu Fuße<lb/>also allen vermuthen nach wird es nicht lange dauren,<lb/>alle Noichkeiten die ich wohl Schreiben solte die könen wier uns<lb/>Mündlich Erzählen. Ich Harre jetzt nicht auf Ihren Brief<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>Sondern auf Ihre Gegenwart. Ich bitte jetzt<lb/>inständigst viele Grüße an alle nahe Freunde<lb/>und an alle gute Freunde, zubestellen</p>
+            <lb/>
+            <p>Ich mögte gerne Mündlich mit euch alle Sprechen aber<lb/>es läßt sich nicht thun, wier müßen jetzt alle Tage<lb/>nichts thun wie Arbeiten von früh an bis in die Nacht<lb/>aber ich möcht doch lieber, zuhaus die Schwärste Arbeidt<lb/>thun, Ich verbleibe unterdeßen Ir Getreuer. Sohn.</p>
+            <lb/>
+            <p>Aschersleben den 29t. May 1812<space dim="horizontal"/>
+               <hi rendition="#aq">Henrik Breneke</hi>
+            </p>
+            <lb/>
+            <p rendition="#et">Die <hi rendition="#aq">Adresse</hi> ist zu machen<lb/>
+               <space dim="horizontal"/>a das 8t. <hi rendition="#aq">Cürassier Debot</hi>
+               <lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">der 10t. Comp.</hi>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[2]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

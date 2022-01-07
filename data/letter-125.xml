@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 125: Hermann Ehlers (Unteroffizier), 07.10.1870, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Hermann</surname>
+                  <forename>Ehlers</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 125 von Hermann Ehlers, 07.10.1870.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 125: Hermann Ehlers (Unteroffizier), 07.10.1870, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Hermann</surname>
+                        <forename>Ehlers</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1870-10-07">1870</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="125">
+            <head>
+               <supplied>SB-Nr. 125: Hermann Ehlers (Unteroffizier), <date when="1870-10-07">07.10.1870</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Am 7<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">ten</reg>
+               </choice> 
+               <hi rendition="#aq">October</hi> 70.</p>
+            <lb/>
+            <p rendition="#et">Lieber Vater und Geschwister!</p>
+            <lb/>
+            <p rendition="#et">Deinen Brief vom 3<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">ten</reg>
+               </choice> habe ich schon am<lb/>6<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">ten</reg>
+               </choice> Nachmittags bekom̃en, auch die Strüm⸗<lb/>pfe und Couverts, ich danke Dir viele⸗<lb/>mals, wir können unsere Briefe nur des<lb/>Morgens loswerden, deshalb mußt Du<lb/>Dich einen Tag länger gedulden.</p>
+            <lb/>
+            <p rendition="#et">Daß Dich H. Diefert beim Kartoffeln roden<lb/>geholfen und dazu Urlaub erhalten hat,<lb/>freut mich, ich wünschte, wir wären schon<lb/>wieder zu Hause, wie gerne hätte ich Dich<lb/>behülflich sein wollen. Hier haben wir <lb/>beinahe gar keine Kartoffeln essen <hi rendition="#u">dür</hi>⸗<lb/>
+               <hi rendition="#u">fen</hi>, weil davon den Durchfall mit er⸗<lb/>hielten, ich weiß aber auch nicht, was es<lb/>mit diesen Kartoffeln heißt, denn sie<lb/>sind noch nicht reif, lassen sich immer noch<lb/>schrapen, trotzdem das Kraut schon ganz <lb/>trocken ist. Unser ganzes Regiment bi⸗<lb/>vouacirt jetzt zusam̃en, wir werden in<lb/>der nächsten Zeit wohl noch keine Vor⸗<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <note place="mTop">
+                  <space dim="horizontal"/>(<hi rendition="#u">den Kopp verloren, Alles verlo</hi>
+                  <hi rendition="#uu">ren</hi>)</note>
+               <lb/>
+posten wieder beziehen, da wir sie schon<lb/>6 Wochen ununterbrochen versehen haben.<lb/>Unsere Hütten sind jedoch noch nicht fertig, da<lb/>dieselben ja etwas winterlich aussehen sollen.<lb/>Einige dörfer liegen hier in der Nähe, wovon<lb/>die Einwohner ziemlich Alle da sind. Ein Kom-<lb/>mando nach dem anderen geht aber von hier<lb/>ein und requirirt Alles, was dieselben<lb/>noch in Besitz haben. Kein Halm Stroh, aus-<lb/>gedroschen oder nicht, kein Brett, noch Nagel<lb/>Wagen, Pferde, Kühe bleibt den armen<lb/>Leuten, welche jam̃ernd u. wehklagend um<lb/>einen herum stehen, so geht es jedoch hier in<lb/>allen Ortschaften, wir <hi rendition="#u">müssen</hi> es haben,<lb/>und die Leute <hi rendition="#u">müss</hi>en’s dann auch wohl<lb/>hergeben, dafür ist einmal Krieg. Ihr köñt<lb/>Euch gar keinen Begriff machen von einem<lb/>Dorfe, welches vom Kriege heimgesucht<lb/>wird, wir sind auch alle froh, daß un-<lb/>sere deutschen Ortschaften davon ver-<lb/>schont geblieben sind und daß das Glück<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>unseren Waffen bisher so hold gewesen ist,<lb/>möge es uns nie verlassen.</p>
+            <lb/>
+            <p rendition="#et">Jetzt haben unsere Leute durch Zufall bemerkt,<lb/>daß die Bewohner des Orts das Kartoffelkraut<lb/>abgeschnitten und die Kartoffeln in der Erde<lb/>gelassen haben, um dieselben dann später<lb/>ausroden zu köñen, wenn wir weg sind, <lb/>dies ist ihnen jedoch schlecht bekom̃en, denn<lb/>die Unseren gehen jetzt mit Spaten los,<lb/>wo hingegen sie früher nur im̃er mit dem<lb/>Säbel losgingen und folglich viel stecken<lb/>ließen, so verschonen <add place="superlinear">
+                  <metamark/>sie</add> jetzt nichts mehr,<lb/>sondern gehen im̃er vor Reihe; Mit den<lb/>armen Leuten <add place="superlinear">
+                  <metamark/>der ganzen Umgegend um <hi rendition="#aq">Metz</hi>
+               </add> sieht es den folgenden <lb/>Winter schlecht genug aus, denn woher<lb/>sollen die Leute essen nehmen. die schön-<lb/>sten Pappeln, womit <hi rendition="#aq">Frankreich</hi> so sehr<lb/>gesegnet ist, die schönen Wälder, ja so-<lb/>gar die Obstbäume verschwinden gänzlich<lb/>zu den vielen Feuern und Hüttenbauen.</p>
+            <lb/>
+            <p rendition="#et">Daß <hi rendition="#aq">Strassburg </hi>genom̃en, habe ich schon<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>erfahren, wenn <hi rendition="#aq">Metz</hi> nur erst einmal<lb/>fiele. Es ist bis jetzt noch nie genom̃en,<lb/>weil es zu stark befestigt ist, denn <lb/>es <del rendition="#s">seh</del>istschon das 10<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">te</reg>
+               </choice> Mal, daß <hi rendition="#aq">Metz</hi>
+               <lb/>belagertwird, es ist jedoch noch von kei-<lb/>nem eingenom̃en. Deshalb müssen<lb/>wir auch noch im̃er davor liegen, um <lb/>es durch Hunger und „eisernen Portio⸗<lb/>nen“ zur Capitulation zu zwingen.</p>
+            <lb/>
+            <p rendition="#et">Mit den Verdienstkreuzen ist es<lb/>nur nach Tapferkeit im Felde gegangen,<lb/>nicht nach dem Alter, so hat Sgt.<lb/>
+               <hi rendition="#aq">Grimm</hi> bis jetzt auch noch keins erhalten.</p>
+            <lb/>
+            <p rendition="#et">Einen Feldwebel <hi rendition="#aq">Meyer</hi> bei der<lb/>9<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">ten</reg>
+               </choice> Compag. haben wir nicht.<space dim="horizontal"/>Nach <hi rendition="#aq">Paris</hi>
+               <lb/>kom̃en wir vorläufig noch nicht.</p>
+            <lb/>
+            <p rendition="#et">Es ist dunkel, ich kañ nicht mehr.</p>
+            <lb/>
+            <p>Viele Grüße an Euch Alle<lb/>und Heinrich <hi rendition="#aq">Diefert</hi>.</p>
+            <lb/>
+            <p rendition="#et">von<lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#u">Eurem Hermann.</hi>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

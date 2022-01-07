@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 145: Ernst von Meier (Unteroffizier), 16.01.1871, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Ernst</surname>
+                  <forename>von Meier</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 145 von Ernst von Meier, 16.01.1871.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 145: Ernst von Meier (Unteroffizier), 16.01.1871, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Ernst</surname>
+                        <forename>von Meier</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1871-01-16">1871</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="145">
+            <head>
+               <supplied>SB-Nr. 145: Ernst von Meier (Unteroffizier), <date when="1871-01-16">16.01.1871</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">K. Qu. Franconville</hi>, 16 <hi rendition="#aq">Januar</hi> 1871.</p>
+            <lb/>
+            <p rendition="#et">Vor allen Dingen möchte ich den auf der Korrespondenz⸗<lb/>Karte bereits kurz ausgedrückten Dank für Vaters<lb/>Brief nochmals wiederholen. Diese Zeilen haben mich<lb/>um so mehr erfreut, als wohl kaum noch ein Zweiter,<lb/>der bereits vor 62 Jahren sich mit den Franzosen<lb/>geschlagen hat im Stande sein würde, so ohne alle<lb/>Spuren des Alters zu empfinden und zu schreiben.<lb/>
+               <space dim="horizontal"/>Das Leben hier fängt doch allmälig an etwas <lb/>eintönig zu werden. Immer und ewig dieser Marsch<lb/>auf der <hi rendition="#aq">Repli</hi> im <hi rendition="#aq">Châteas de Marais</hi>, <hi rendition="#aq">resp</hi> auf<lb/>die vor demselben liegende Feldwache N<hi rendition="#sup #uu">o</hi> 4, oder<lb/>in die Allarmquartiere in <hi rendition="#aq">Argenteuil</hi>! Wenn<lb/>wir doch wenigstens nach der Bombardement aus<lb/>einiger Ruhe hätten. Aber diese Klänge hört man<lb/>bis jetzt nur aus weiter Ferne, wenn man<lb/>auch, namentlich des Nachts, recht gut ermessen<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>kann, dass es am Orte der That ein furchtbares Geschieße<lb/>sein muß. Doch erwartet man die Eröffnung des<lb/>Feuers auf <hi rendition="#aq">St. Denis</hi> aus den Vorpostenstellungen<lb/>bei <hi rendition="#aq">Epinay</hi> in der allernächsten Zeit. Im Ganzen<lb/>wäre ich jetzt vollständig einverstanden, wenn <hi rendition="#aq">Paris</hi>
+               <lb/>capituliren wollte, was ich zur Zeit des Falles<lb/>von <hi rendition="#aq">Metz</hi> noch gar nicht wünschte. Die Kälte<lb/>übrigens ist, selbst bei nassem Holz im Kamin, auch<lb/>viel besser zu ertragen, als die Temperatur, welche<lb/>im vorigen <hi rendition="#aq">Februar </hi>in Halle vierzehn Tage<lb/>
+               <gap reason="illegible"/> herrschte.</p>
+            <lb/>
+            <p rendition="#et">
+               <hi rendition="#aq">Anna’s</hi> Brief enthält sehr viel Wissenswerthes;<lb/>die interessanteste Mittheilung aber hat sie sich<lb/>doch entgehn lassen; ich erfuhr neulich erst<lb/>auf dem Wege über Ballenstedt, daß wir<lb/>
+               <hi rendition="#aq">Michaelis</hi> ausziehn wollen. Und was hätte daraus<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>entstehn können, wenn ich etwa im October aus dem Kriege<lb/>heimkehrend statt nach dem Petrithorwalle nach dem<lb/>Langenhofe gegangen wäre und dort einen beliebigen<lb/>Koffer angetroffen hätte! Der Tausch scheint mir<lb/>an sich sehr vortheilhaft.</p>
+            <lb/>
+            <p rendition="#et">Die Sendungen von Tante Minna, nämlich Thee und<lb/>Briefpapier habe ich erhalten, und sage dafür meinen besten<lb/>Dank. Ganz erwünscht würden mir noch einige Cou⸗<lb/>verts sein.</p>
+            <lb/>
+            <p rendition="#et">In der Hoffnung, daß es Euch allen fortwährend<lb/>gut geht, und mit dem Versprechen von <hi rendition="#aq">Paris</hi> aus<lb/>wieder längere Briefe zu schreiben</p>
+            <lb/>
+            <p rendition="#et">Ernst.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

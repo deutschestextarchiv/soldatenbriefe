@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 150: Anton Wagner (Mannschaften), 28.01.1871, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Anton</surname>
+                  <forename>Wagner</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 150 von Anton Wagner, 28.01.1871.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 150: Anton Wagner (Mannschaften), 28.01.1871, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Anton</surname>
+                        <forename>Wagner</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1871-01-28">1871</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="150">
+            <head>
+               <supplied>SB-Nr. 150: Anton Wagner (Mannschaften), <date when="1871-01-28">28.01.1871</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Sant Priexe den 28/1 71.</p>
+            <lb/>
+            <p rendition="#et">Mein liebes Weib!</p>
+            <lb/>
+            <p>Ich muß dier jetzt mittheilen das wier jetzt<lb/>bei Parieß sind und haben sehr einen schlechten <lb/>Marsch gehabt 2 Tage und 2 Nächte sind wir perr<lb/>Bahn gefahren und haben nichts zu Essen bekom̃en<lb/>als wir den Sontag abend ins Quartier kamen<lb/>so fanden wir sonst nichts als leere eingeschla-<lb/>gene Häuser und nichst zu Essen so musten wir<lb/>uns hungrig auf blanke Dieln hinlegen so<lb/>kannst du dier vorstellen daß ein jeden die<lb/>Knochen im Leibe Weh thaten Montagmittag<lb/>mußten wir schon Battrie bauen und hatten<lb/>auch noch nichts zu Essen bekom̃en so musten<lb/>wier schwer arbeiten biß Dienstag früh 8 Uhr<lb/>so waren wir halb todt vor hunger und Mattigkeit<lb/>so bekamen wier etwas Zwiebak und Kaffe dann<lb/>mußten wir wieder Battrie bauen so geht es<lb/>alle Tage und haben noch ziem̃lich 3 Meilen<lb/>zu laufen den wir haben bloß 2 Stunden<lb/>Ruhe die andere Zeit müssen wir arbeiten<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>Liebes Weib du wirst es nicht glauben wen Ich dir<lb/>sage so ist es hir Du kanst dir keine vorstellung<lb/>machen es ist alles so theuer das mañs nicht ein⸗<lb/>kaufen kann, den Ich habe schon über 1 rtl zugesetzt<lb/>Ich wollte Dir gern Geld schicken aber es ist hir sehr ge⸗<lb/>fährlich zum fortschicken für Pauline habe Ich das<lb/>Geldstück schon lange in meiner Brusttasche gestern<lb/>abend habe Ich den Brief erhalten den du mir<lb/>am 15. geschrieben hast, Du schreibst mir das du<lb/>dich sollst vermihten, Liebes Kind so kann Ich Dir<lb/>nicht Uhrtheilen siehe nur wie es am besten ist<lb/>und wie Du am besten durch kom̃st den Ich<lb/>werde nicht vor der Kirmiß zu Hause kom̃en,<lb/>den du must jetzt am besten wissen wie es mit<lb/>dir steht, Du schreibst mir zwar verschiedene Dinge<lb/>damit kanst du mich nicht schrecken solche<lb/>Gedanken kom̃en Mir nicht in sinn,<lb/>Liebes Weib sei so guth und schreibe mir doch baldt<lb/>wieder Antwort und schicke mir etwas Papier<lb/>und Kuwerts mit damit Ich dir wieder schreiben<lb/>kañ den hir ist es sehr theuer so kanst du mir im̃er<lb/>was mitschicken, schreib mir nur jetzt noch recht<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>oft ehe du in den Dienst gehst den darin hast du vieleicht<lb/>nicht so viel zeit das du mir schreiben kanst den<lb/>man weiß nicht wie du zeit hast, jetzt ist es sehr<lb/>schwierig mit den Briefen den man muß lange<lb/>warten ob man einen bekom̃t sie bleiben überall<lb/>sehr lange liegen auch sind jetzt viel Briefe von<lb/>Franzosen weggenom̃en worden vieleicht sind von<lb/>mir auch welche dabei die Ich nicht bekom̃en werde<lb/>Hir um Pariß ist es nicht so kalt wie bei Dezir<lb/>auch sind die Kartoffeln noch auf den Feldern<lb/>Kraut und Rüben ist noch alles in freien<lb/>es ist aber alles ungenießbar, was das schlim̃ste<lb/>ist das es so schlecht zum laufen ist manche haben<lb/>schon die Stiefeln in Drecke steken lassen man<lb/>muß biß an die Knie watten Ich habe mir<lb/>auch ein Rest geholt bei diesen schreklichen<lb/>Wege, meine Stiefeln haten keine Sohlen<lb/>so bin Ich die ganze Woche fort während<lb/>Naß um die Füße so habe Ich ein schrekliches<lb/>Reißen in meinen ganzen Gliedern.<lb/>auch Leibschmerz und Durchfall hab Ich sehr<lb/>viel, wen das noch lange so fortdauert dañ<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>kom̃en von uns sehr wenig zu Hause<lb/>den es wird im̃er schlimer Strapatzen sind<lb/>groß aber was wir bekomen sollen daran<lb/>wird nicht gedacht komt erst das Früjahr<lb/>so werden viele von uns sterben hir kann<lb/>sich ein armer Man nichts anthun<lb/>alles ist sehr theuer Ich hätte mir gern<lb/>einpaar Stiefeln für mein Geld gekauft<lb/>so verlangen sie bloß 10 Thl so viel kañ<lb/>Ich nicht geben und geliefert bekomen wir <lb/>keine, Hosen sind auch so weit, das man<lb/>Sie nicht mehr keñt was für Stoff dazu ist<lb/>Ich muß schließen mit der Hoffnung daß<lb/>dich mein Schreiben bei Gesundheit antreffe<lb/>Grüße Brüder und Schwägern Mutter und Tochter<lb/>Viele herzliche Grüße und Küße an Dich mein<lb/>liebes Weib. Ich verbleibe Dein</p>
+            <lb/>
+            <p>Addrs: An<lb/>Kañonier,<hi rendition="#aq"> A. W.</hi> 15.<hi rendition="#sup #u">te</hi> Comp:<space dim="horizontal"/>Dich treuliebender Mann<lb/>Schls: Festg <hi rendition="#aq">Artillri Rgmt.<lb/>N</hi>
+               <hi rendition="#aq #u">ro</hi>
+               <hi rendition="#aq">. 6</hi>. Belagerungs Chorps<space dim="horizontal"/>
+               <hi rendition="#aq">A. Wagner.</hi>
+               <lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">Paris</hi>.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 99: Heinrich Keßler (Unteroffizier?), 07.06.1866, Westmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Heinrich</surname>
+                  <forename>Keßler</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 99 von Heinrich Keßler, 07.06.1866.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 99: Heinrich Keßler (Unteroffizier?), 07.06.1866, Westmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Heinrich</surname>
+                        <forename>Keßler</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1866-06-07">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="99">
+            <head>
+               <supplied>SB-Nr. 99: Heinrich Keßler (Unteroffizier?), <date when="1866-06-07">07.06.1866</date>, <choice>
+                     <abbr>WMD</abbr>
+                     <expan>Westmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Losswig den 7<hi rendition="#sup #uu">ten</hi> Juni 1866</p>
+            <lb/>
+            <p rendition="#et">
+               <hi rendition="#u">Liebe Frau Schwiegerälter und Vat</hi>er Gebrü</p>
+            <lb/>
+            <p>Da wier nun hier angekommen sind bin ich bereit auch<lb/>von mir Nachricht zu geben. Wie ich euch geschrieben hatte<lb/>von Bendorf am ersten d M fuhren wier von Koblenz<lb/>weg des Abends um acht Uhr. Es ist aber ein weiter Weg des<lb/>Sonntags Morgens um Sieben Uhr waren wier in Halle von<lb/>da machten wier noch eine Stunde bis wier ins Quatier kamen.<lb/>Nun hatten wier noch Montag Dienstag und Mittwoch zu maschiern<lb/>und das waren noch drei starke Marschtage bis hierhin, wier liegen<lb/>hier noch eine viertel Stunde von der Vestung Dorgau ab. Ich kann<lb/>euch auch die haupt Stätte bemerken wo wier her kamen. Wier<lb/>fuhren von Koblenz herunter auf Köln. von Köln nach Düsseldorf<lb/>Oberhausen Essen Gütersloh Preusisch Hamm da waren wier<lb/>des Samstags morgens um sechs Uhr da bekamen wier Kaffe.<lb/>Dann kamen wier auf Bielefeld von da nach Preusisch Minden. <lb/>nun kamen wier durchs Hanöverische auf Wundsdorf und<lb/>Hanover. von da kamen wier nach Braunschweig hier<lb/>kehrten wier im Winkel ab und kamen nach einigen Stunden<lb/>wieder ins preusische da bekamen wier auf dem ersten<lb/>Bahnhofe das Abendsessen den weiß ich auch aber nicht mehr<lb/>zu nenen es waren ½ zwölf Uhr des Abends nur kamen<lb/>wier auf Madeburg und dann auf Halle. Es war uns zwar<lb/>kein bedienter weg den die Eisenbahns Wagen waren allen<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>oben zu und in jedem auch sechs Pferde und drei Mann<lb/>das es zu warm darin war. und überhaupt wären wier lieber<lb/>in unsrer Heimath <del rendition="#s">geschriebe</del>geblieben. Allein die Dienstfertige<lb/>Leute die wier antrafen unterwegs erleichterten uns etwas<lb/>den Marsch. In Wundsdorf was noch ausländisch war und wier<lb/>nicht aussteigen Durften waaren einige Herrn die liesen jedem<lb/>Mann ein Glas Bier in den Wagen reichen was uns sehr bedient<lb/>war. Als wier nach Braunschweig kamen stand der ganze Bahnhof<lb/>voll Braunschweiger Militär die als unser Zug stille stand an<lb/>unsere Wagen traten und mit einem ganz freundschaftlichem<lb/>Willkomm uns empfingen Dazu auch mit Cigarren und dergleich<lb/>spenndirten bis wier fort fuhren. Auch in unserm Quatier bei<lb/>Halle wo <add place="superlinear">
+                  <metamark/>wir</add> des Sonntags lagen wurden wier sehr freundlich<lb/>aufgenommen und bewirthet. Ueberhaupt haben wier auf dem<lb/>Marsche in den drei Tagen sehr gute Quatier gehabt. Es ist übehaupt<lb/>hier eine viel bessere Seckte Menschen als wie um den Rhein herum<lb/>nicht so stolz und hochmüthig. Als wier gestern auf <del rendition="#s">wie</del>dem<lb/>Marsch hierher waren und vor der Stadt Eulenburg Randewo<lb/>machte kam eine Batrie Atilleri an und vorbei wo der<lb/>Eduart von Nisterberg der Bartelosch und der Hornikel von<lb/>Daaden bei waren. Ich begleitete sie zehn bis zwölf Schritte<lb/>Ich fragte sie wo sie hinmachten allein sie wusten es nicht<lb/>kein weiteres unterhalten ging nicht den sie musten im<lb/>Gliede fort machen und ich muste auch an meinen Posten.<lb/>Ich habe unsern Eduart meine Stiefel geschickt der schickte<lb/>mir einen Thaler nach Bendorf und wollte noch gern Antwort<lb/>haben Da es nun der letzte Abend war hatte ich keine Zeit<lb/>zwei Briefe zu schreiben.<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+            </p>
+            <lb/>
+            <p rendition="#et">Ich weiß euch keine Neuigkeiten <add place="superlinear">
+                  <metamark/>zuschreiben</add> aber wenn ich nach Hause<lb/>
+               <space dim="horizontal"/>noch vieles zu erzählen Wenn ihr könnt schreibt<lb/>mir bald Antwort den ich bin auch um euch neugierig und<lb/>dann könnt ihr mir auch dabei bemerken wie die Frucht und<lb/>alles bei euch steht. Die Adresse lautet</p>
+            <lb/>
+            <p rendition="#et">An<lb/>TrFhr Heinrich Keßler bei der ersten Probiant Colonne<lb/>
+               <space dim="horizontal"/>des Rheinische Trengbatailion N8 in Losswig bei Torgau<lb/>
+               <space dim="horizontal"/>Provinz Sachsen<space dim="horizontal"/>Ich will nun mein schreiben schliesen<lb/>
+               <space dim="horizontal"/>In der Hoffnung das euch mein Brief so gesund antrifft<lb/>
+               <space dim="horizontal"/>wie er mich verläst</p>
+            <lb/>
+            <p rendition="#et">So seyd mir alle vielmahl gegrüßt<lb/>
+               <space dim="horizontal"/>und lebet wohl bis zum wiedersehn</p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">
+                  <space dim="horizontal"/>Heinrich Kesler</hi>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 90: Rudolf Potier des Echelles (Offizier), 31.07.1866, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Rudolf</surname>
+                  <forename>Potier des Echelles</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 90 von Rudolf Potier des Echelles, 31.07.1866.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 90: Rudolf Potier des Echelles (Offizier), 31.07.1866, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Rudolf</surname>
+                        <forename>Potier des Echelles</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1866-07-31">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="90">
+            <head>
+               <supplied>SB-Nr. 90: Rudolf Potier des Echelles (Offizier), <date when="1866-07-31">31.07.1866</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Dresden 31. Juli 1866.</p>
+            <lb/>
+            <p rendition="#et">Mein einzig geliebtes, süßestes<lb/>
+               <space dim="horizontal"/>Weiberl!</p>
+            <lb/>
+            <p rendition="#et">Wie die Farbe des Papiers Dir kün⸗<lb/>den soll bin ich voll frohester Hoffnung<lb/>Dich bald wieder zu sehen, welch’ sü⸗<lb/>ßes Gefühl heute bei der Kom⸗<lb/>mandantur bestättigt ward, indem<lb/>mir Oberst <hi rendition="#aq">Gondard</hi> sagte, <hi rendition="#u">unsere<lb/>Auswechslung stünde nahe bevor.</hi> 
+               <metamark>_</metamark>
+               <lb/>Ich versichere Dich, ich lebe wieder<lb/>auf, bin glücklich, recht, recht froh!</p>
+            <lb/>
+            <p rendition="#et">Daß es mit meinen Wunden<lb/>gut geht, siehst Du aus meiner<lb/>Schrift.<metamark>_</metamark> Die Armwunde ist <hi rendition="#u">ganz</hi>
+               <lb/>zu, die Rückenwunde braucht noch<lb/>einige Tage; und daß es mir so<lb/>gut geht ist<metamark>_</metamark> glaube mir Ursache<metamark>_</metamark>
+               <lb/>daß mein Gemüth durch die schöne<lb/>Hoffnung auf Erlösung und Wie⸗<lb/>dersehen, auf endliche, dauernde<lb/>Vereinigung viel ruhiger, freu⸗<lb/>dig erregter ist.<metamark>_</metamark> Glük Auf!<lb/>Mein herziges, liebes, theures Mi⸗<lb/>zerl bald drücke ich Dich an mein<lb/>Herz, bald sehe ich wieder in<lb/>Deine Augen,<metamark>_</metamark> bald fühle ich<lb/>Deine himmlisch⸗süßen Lippen,<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>bald gehören wir ganz einander an,<lb/>sind dann zu friedlich⸗freundlichen<lb/>Zusammenleben vereint;<metamark>_</metamark> bald herze<lb/>und spiele ich mit meinen Kindern,<lb/>bald, bald bin ich ganz glücklich.<metamark>_</metamark> Dieß<lb/>Gefühl und Dein Brieferl, mir vor⸗<lb/>gestern erst zugekom̃en, machen<lb/>mich recht, recht froh!<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p rendition="#et">Oh! lieb’s Herzl den Transport <add place="superlinear">
+                  <metamark/>nach <hi rendition="#aq">Wien</hi>
+               </add> in<lb/>zwei Dosen eingenommen, werde ich<lb/>schon ganz gut vertragen, wenn ich<lb/>nur bald bei Dir bin.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p rendition="#et">Die Brustschmerzen rühren davon<lb/>her, daß die Kugel einen Nerv streif⸗<lb/>te; sie sind ganz ungefährlich, aber<lb/>äußerst schmerzhaft u heftig, und wer⸗<lb/>den sich mit der Zeit, besonders nach<lb/>Gebrauch eines Schwefelbades (: <hi rendition="#aq">Baden</hi>:)<lb/>wieder geben.</p>
+            <lb/>
+            <p rendition="#et">Ach Gott! Daß mein Brief vom<lb/>6. den Salchen noch rekommandirte,<lb/>nicht in Deine Hände kam ist ein<lb/>ungemein leid.<metamark>_</metamark> Ich schrieb darin<lb/>das erstemahl mit eigener Hand, u<lb/>mühsam zu Deinem Nahmensfeste<lb/>recht herzlich, humpelte von Salchen<lb/>u Emilien geleitet in den Garten<lb/>hinab, pflückte dort eigenhändig einige<lb/>Blumen, u freute mich schon Kin⸗<lb/>disch, Dir damit eine kleine Auf⸗<lb/>merksamkeit erwiesen, eine kleine<lb/>Freude gemacht zu haben! Recht,<lb/>recht schade!<metamark>_</metamark>
+               <lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+            </p>
+            <lb/>
+            <p>Nun! so ist doch wenigstens Bimserl’s<lb/>Brief angekom̃en, u möge mein<lb/>Schäzchen sehen, daß ich auch im Schmerz<lb/>warm unserer Familie gedenke.<lb/>Darum erfüllt es mich mit großer<lb/>Freude, daß Othmar wieder gesund<lb/>ist, und bitte ich Dich, ihn wie Adelchen<lb/>vieltausendmahl auf’s zärtlichste zu<lb/>herzen und zu küssen.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p rendition="#et">Für die gesandten 15 Thaler noch⸗<lb/>mahls einen großen, großen Dan⸗<lb/>keskuß!<metamark>_</metamark> Deinen Rath habe ich im<lb/>Voraus schon befolgt, da ich nur<lb/>das nothwendigste<metamark>_</metamark> wie Du ja schon<lb/>aus meinem Einschluß von Salchen<lb/>weißt<metamark>_</metamark> gekauft habe.<metamark>_</metamark> Hinzu kam<lb/>noch ein <add place="superlinear">
+                  <metamark/>Feder</add> Messer,<metamark>_</metamark> eine Kopfbürste<lb/>u Kamm.<metamark>_</metamark> Die Wäsche kostete<lb/>12Th 21gr<metamark>_</metamark> Die Müze 2 Th. 5gr. für<lb/>D: 5Th<metamark>_</metamark> Messer 1Th 4gr. das Andere 23gr.<lb/>in Summe: 21Th.<metamark>_</metamark> 23g. Dann mußte<lb/>ich für Droschken,<metamark>_</metamark> weil ich größere<lb/>Strecken nicht gehen kann<metamark>_</metamark> Trinkgel⸗<lb/>der u s. w. circa 5 Th. ausgeben,<lb/>so daß ich noch beiläufig <hi rendition="#u">8 Thaler</hi> habe. <lb/>Im Hause wo ich bin, brauche ich nichts,<lb/>da ich Alles bekom̃e, u es um so<lb/>leichter annehmen kann, als sie <hi rendition="#u">1.</hi>
+               <lb/>selbst um mich baten,<metamark>_</metamark> 
+               <hi rendition="#u">2.</hi> ich ihnen<lb/>als Einquartierung gelte,<metamark>_</metamark> 
+               <hi rendition="#u">3.</hi> es sehr<lb/>nette liebe Leute sind.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p rendition="#et">Meine Sustentationen <hi rendition="#aq">pro</hi> Juli<lb/>bekam ich auch noch nicht.<metamark>_</metamark> Ich war<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>heute bei Oberst Gondard deßhalb fragen,<lb/>resptv. verlangen.<metamark>_</metamark> Dieser sagte mir, sie<lb/>wüßten noch nicht, wie viel uns für<lb/>Heilungskosten abgezogen werden würde,<lb/>sie hätten sich schon an’s Kriegsministe⸗<lb/>rium (: Berlin:) gewendet, und so wie<lb/>sie die Antwort haben, werde man mir<lb/>meine Gebühr auszahlen.<metamark>_</metamark>
+               <space dim="horizontal"/>Da ich <hi rendition="#u">25</hi> Thal<lb/>zu bekommen habe, so werde ich viel⸗<lb/>leicht 10-12 Th. auf die Hand bekom̃en,<lb/>womit ich<metamark>_</metamark> da die Rückreise auf Staats⸗<lb/>kosten geht,<metamark>_</metamark> bis nach Wien doch auskom⸗<lb/>men dürfte.<metamark>_</metamark> Sollte ich mehr brau⸗<lb/>chen, werde ich Dich gewiß darum<lb/>bitten.<metamark>_</metamark> Ich will aber recht sparen!<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p rendition="#et">An <hi rendition="#aq">Remis</hi> habe ich wegen Bagage<lb/>u <hi rendition="#aq">Purzl</hi> früher geschrieben, aber noch<lb/>keine Antwort erhalten.<metamark>_</metamark> 
+               <hi rendition="#aq">Remis </hi>soll<lb/>wohl sein, meine Bagage in Wien<lb/>deponirt<metamark>_</metamark> so sagte mir Oblieut: <hi rendition="#aq">Aner</hi>.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p rendition="#et">Wenn Du an <hi rendition="#aq">Remis</hi> 
+               <hi rendition="#u">und</hi> ans Regi⸗<lb/>ment schreiben willst, wirst Du gut<lb/>daran, u mir einen Gefallen thun.<lb/>
+               <space dim="horizontal"/>Uebrigens habe ich auch schon beim Regi⸗<lb/>ment in meinem Verwundungs⸗Be⸗<lb/>richt gebeten mein Kistl Dir zuzusen⸗<lb/>den.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p rendition="#et">Nun kann ich aber auch nicht mehr!<lb/>Leb recht wohl, grüße unzählige <add place="superlinear">
+                  <metamark/>mahl</add> herzlichst<lb/>Hannchen, Paulchen, Onkel, Otto, Karl.<del rendition="#s"> U</del>
+               <lb/>Den Bekannten meine Empfehlungen.<lb/>Dich, traute<del rendition="#s">s</del> Mize<hi rendition="#u">maus</hi> küsse ich nebst<lb/>den kleinen tausendmillionenmahl<lb/>aufs zärtlichste u bin stets Dein<lb/>treuer Dich innigstliebender</p>
+            <lb/>
+            <p rendition="#et">Rudolf</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

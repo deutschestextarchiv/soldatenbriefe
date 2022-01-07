@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 100: Heinrich Kamphausen (Mannschaften), 14.06.1866, Westmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Heinrich</surname>
+                  <forename>Kamphausen</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 100 von Heinrich Kamphausen, 14.06.1866.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 100: Heinrich Kamphausen (Mannschaften), 14.06.1866, Westmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Heinrich</surname>
+                        <forename>Kamphausen</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1866-06-14">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="100">
+            <head>
+               <supplied>SB-Nr. 100: Heinrich Kamphausen (Mannschaften), <date when="1866-06-14">14.06.1866</date>, <choice>
+                     <abbr>WMD</abbr>
+                     <expan>Westmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Hartum</hi>, den 14 Juni 1866.</p>
+            <lb/>
+            <p rendition="#et">Liebe Eltern!</p>
+            <lb/>
+            <p rendition="#et">Gestern erhielt ich zu meiner größten<lb/>Freude euren lieben Brief. Es müssen<lb/>sich unsere Briefe gekreuzt haben, denn ich<lb/>hatte Tags vorher meinen Brief an Euch ab⸗<lb/>geschickt. Es war mir sehr lieb als ich<lb/>das Geld nämlich die 5 Thaler erhielt, denn<lb/>in <hi rendition="#aq">Minden</hi>, wo alles so theuer war,<lb/>kostete es uns schmählich viel Geld. Heute<lb/>sind wir nun aus <hi rendition="#aq">Minden</hi> ausgerückt<lb/>und sind nach <hi rendition="#aq">Hartum</hi> gekommen 2 Stunden<lb/>von <hi rendition="#aq">Minden</hi> liegen aber ziemlich <unclear reason="illegible" cert="high" resp="#MN">dick</unclear>
+               <lb/>hier in den Quartieren, und morgen<lb/>kommt noch ein Bataillon hier ins Dorf.<lb/>Die 13 und 53 kommen morgen auch hierher,<lb/>dann ist die ganze Division hier zusammen.<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+            </p>
+            <lb/>
+            <p>Mit der Kriegsgeschichte sieht es jetzt nicht<lb/>mehr zum Besten aus, der Oestreichische<lb/>Gesandte aus Berlin ist abberufen und<lb/>der Krieg ist bereits erklärt wie man hört.<lb/>Wir gehen jetzt einer ernsten Zeit ent⸗<lb/>gegen, wir müssen denken es ist Gottes<lb/>Wille, darum auch muthvoll nur der<lb/>Zukunft entgegen geeilt. Der eine<lb/>muß sich an den andern trösten, und <lb/>wenn es mit uns auch wieder zum<lb/>Treffen kömmt, so stimme ich mit ein<lb/>in den Wahlspruch: mit Gott für König und<lb/>Vaterland. Es läßt sich nichts ändern an<lb/>dieser Geschichte.</p>
+            <lb/>
+            <p>Die Felder sind bei diesem schlechten Boden<lb/>sehr schön und die Gärten prangen auch sehr<lb/>üppig, ich kann mir wohl denken<lb/>daß es bei Euch doch noch besser damit <lb/>aussieht. Ich muß schließen bis auf<lb/>weiteres, ich glaube nicht, daß wir lange<lb/>noch hier bleiben, denn mit jeder Stunde<lb/>haben wir den Befehl zum Ausmarsch<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>zu erwarten. Anton, der bei Dockters<lb/>gewohnt hat, habe ich auch gestern noch ge⸗<lb/>troffen, er steht bei der 8<hi rendition="#sup">ten</hi> Comp.<lb/>Mit freundlichem Gruß an Euch alle<lb/>verbleibe ich Euer geliebter <hi rendition="#aq">Heinrich</hi>
+               <lb/>Schreibt mir auch einmal wo Johann steckt<lb/>und bei welcher Comp. er ist, er wird <lb/>Euch, denke ich, wohl geschrieben haben.</p>
+            <lb/>
+            <lg type="poem">
+               <l>Vertreibet, verjaget, verscheuchet die Sorgen</l>
+               <lb/>
+               <l>Seid fröhlich am Abend u. heiter am Morgen</l>
+               <lb/>
+               <l>Und denket zuweilen mit fröhlichem Blick</l>
+               <lb/>
+               <l>An Euren tapfern Krieger <hi rendition="#aq">Heinrich</hi> zurück</l>
+               <lb/>
+            </lg>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

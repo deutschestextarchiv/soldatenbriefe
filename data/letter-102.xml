@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 102: Carl Standtke (Mannschaften), 14.07.1866, Westmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Carl</surname>
+                  <forename>Standtke</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 102 von Carl Standtke, 14.07.1866.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 102: Carl Standtke (Mannschaften), 14.07.1866, Westmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Carl</surname>
+                        <forename>Standtke</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1866-07-14">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="102">
+            <head>
+               <supplied>SB-Nr. 102: Carl Standtke (Mannschaften), <date when="1866-07-14">14.07.1866</date>, <choice>
+                     <abbr>WMD</abbr>
+                     <expan>Westmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Dalleschitz</hi> d. 14. <hi rendition="#aq">Juli</hi> 1866</p>
+            <lb/>
+            <p rendition="#et">Lieber <hi rendition="#aq">Gustav</hi>.</p>
+            <lb/>
+            <p rendition="#et">Erst heute empfing ich Deinen lieben<lb/>Brief vom 1. 5. mit nochmals v: 5. wofür<lb/>ich Dir bestens danke. Inzwischen wirst Du<lb/>auch jedenfalls meinen Brief vom Anfang<lb/>des Mts: nach dem Gefecht bei <hi rendition="#aq">Königsgretz</hi>
+               <lb/>erhalten haben, der dir den Empfang der<lb/>zuerst Gesandten v: 5 meldet. Mit Geld<lb/>bin ich jetzt genug versehen, jetzt kommen<lb/>wir aber auch wieder in Gegenden, in denen<lb/>wir Geld gebrauchen können. Es wird jetzt<lb/>beinahe nichts mehr requirirt &amp; obgleich<lb/>wir in Feindesland sind, müssen wir<lb/>alles sehr theuer bezahlen. Aus Deinem<lb/>lieben Schreiben ersehe ich, wie Ihr unsere<lb/>Erfolge bei <hi rendition="#aq">München Gretz</hi> gefeiert habt &amp; <lb/>ich bin wirklich neugierig zu hören, welche<lb/>Feierlichkeiten unserem Siege bei <hi rendition="#aq">Königsgretz</hi> &amp;<lb/>Ober <unclear reason="illegible" cert="high" resp="#MN">Prunn</unclear> gefolgt sind. – Wir machen jetzt<lb/>fortwährend bedeutende Märsche <del rendition="#s">u haben heute</del>
+               <lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>die Anfangs die directe Richtung nach <hi rendition="#aq">Wien</hi>
+               <lb/>hatten, uns jetzt aber nach Ollmütz führen<lb/>sollen. Wir sind ungefähr 15 Meilen von<lb/>
+               <hi rendition="#aq">Wien</hi> &amp; hatten bis jetzt dicht vor uns<lb/>feindliche Cavallerie, weshalb auch diese Nacht<lb/>
+               <add place="superlinear">
+                  <metamark/>die Ausgänge</add> des Dorfes mit Wagen verrammelt &amp; die<lb/>Wache in doppelter Stärke aufgezogen ist.<lb/>Seit einigen Tagen ist <hi rendition="#aq">Major Lettkau</hi> krank<lb/>unser Hauptmann ist daher <add place="superlinear">
+                  <metamark/>vorl:</add> Commandeur des<lb/>1. Bat: geworden &amp; wir haben Lieut: <hi rendition="#aq">Krummacher</hi>
+               <lb/>als Compagnieführer erhalten. Derselbe wurde<lb/>in dem Gefecht bei <hi rendition="#aq">Königsgr</hi>: durch einen leichten<lb/>Streifschuß verwundert, der ihn aber keinen<lb/>Augenblick am Dienst hinderte. Er läßt Dich, Deine<lb/>liebe Frau &amp; H: <hi rendition="#aq">Lutter</hi> herzlichst grüßen.<lb/>Vor einigen Tagen ist auch 1 Untffz: &amp; 1 Lieut:<lb/>von unserer Compagnie nach Cöln zum Rekruten⸗<lb/>ausexerciren commandirt worden, ich habe dem⸗<lb/>selben ebenfalls viele Grüße an Euch mitgegeben.<lb/>In unserem Bataillon sind die Avancements<lb/>bis jetzt sehr schlecht voran gegangen; obgleich<lb/>wir bei demselben außer den 4. Compagnieführern<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>von denen auch 2 nur Prem: Lt: sind, nur<lb/>7 Officiere haben, so ist bis jetzt doch noch keiner<lb/>zum Officier von uns ernannt worden, obgleich<lb/>wir viele haben, die bereits früher eine 6<lb/>wöchentliche Dienstleistung absolvirt haben &amp; <add place="superlinear">
+                  <metamark/>auch</add> durch<lb/>ihre civile Stellung zum Officier empfohlen<lb/>sind. Ein Vorschlag kann jetzt nichts nutzen<lb/>&amp; gefragt werden wir auch nicht mehr, was<lb/>wir werden wollen oder nicht.</p>
+            <lb/>
+            <p rendition="#et">Sonst geht es uns noch immer so ziemlich<lb/>nur setzen uns die großen Märsche bedeutend<lb/>zu &amp; die Biwouaks, die namentlich unsere<lb/>Batailion mehr als die beiden anderen trifft,<lb/>
+               <del rendition="#s">machen</del>
+               <add place="superlinear">
+                  <metamark/>bringen</add> unsere Leute auf den Hund. Wir<del rendition="#s">e</del>
+               <lb/>Füseliere sind gegen die Musketiere sehr zurück<lb/>gesetzt, obgleich wir im Gefecht &amp; wo irgend<lb/>etwas los ist, vorgeschickt werden z.B. hatte<lb/>das 1. Bataillon bei dem Gefecht bei <hi rendition="#aq">Königsgr</hi>:<lb/>für den Fall eines Rückzuges ein uns<lb/>im Rücken liegendes Städtchen besetzt &amp; lebte<lb/>wie die Herren, während wir uns den ganzen<lb/>Tag mit hungrigen Magen schlagen mußten.<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+            </p>
+            <lb/>
+            <p>Unser Regimentscommandeur hat jetzt uns<lb/>wieder den Putz anbefohlen, wir sahen<lb/>bis jetzt aus wie die Wilden &amp; es soll<lb/>jetzt wieder stramm geputzt werden,<lb/>weshalb unsere Leute sich immer mehr<lb/>in Friedenshoffnungen einwiegen, obgleich<lb/>ich glaube, daß wir schon in den <lb/>nächsten Tagen wieder ins Gefecht kommen<lb/>werden.</p>
+            <lb/>
+            <p rendition="#et">Die freundl: Grüße des H: <hi rendition="#aq">Lutter Berger<lb/>Angenstein</hi> &amp; <hi rendition="#aq">Steinbring</hi> bestens erwidernd<lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">zeichne</unclear> ich unter den herzlichsten Grüßen<lb/>an Dich &amp; Deine liebe Frau</p>
+            <lb/>
+            <p rendition="#et">Dein Bruder<lb/>
+               <space dim="horizontal"/>Carl.</p>
+            <lb/>
+            <p>N.B. Was macht eigentlich mein<lb/>
+               <space dim="horizontal"/>kleiner <hi rendition="#aq">neven</hi> &amp; Namensvetter,<lb/>
+               <space dim="horizontal"/>ich habe von ihm noch gar nichts<lb/>
+               <space dim="horizontal"/>gehört, hoffe ihn aber ebensowohl<lb/>
+               <space dim="horizontal"/>als Euch andern auch<space dim="horizontal"/>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

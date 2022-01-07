@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 136: Anton Wagner (Mannschaften), 10.12.1870, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Anton</surname>
+                  <forename>Wagner</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 136 von Anton Wagner, 10.12.1870.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 136: Anton Wagner (Mannschaften), 10.12.1870, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Anton</surname>
+                        <forename>Wagner</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1870-12-10">1870</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="136">
+            <head>
+               <supplied>SB-Nr. 136: Anton Wagner (Mannschaften), <date when="1870-12-10">10.12.1870</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Four cet cur den 10/12 70.</p>
+            <lb/>
+            <p rendition="#et">Gott zum Gruß</p>
+            <lb/>
+            <p rendition="#et">Mein inniggeliebtes Weib!</p>
+            <lb/>
+            <p>Zu meiner größten Freude erhielt Ich<lb/>heute früh einen Brief von dier Liebe<lb/>Gustel Du wirst dich zwar nicht freuen<lb/>über das schreiben welches Ich dir sende<lb/>aber Ich fühle mich jetzt kräftig genug<lb/>das Ich wieder aufstehn kann, seit 8 Tagen<lb/>bin Ich sehr krank gewesen wo Ich gar<lb/>nicht auf stehn koñte an Bett ist doch nicht<lb/>zu denken in Frankreich Ich bin Gott sei<lb/>Dank in einem Stall wo viel Stroh da⸗<lb/>rin ist so muß man sich den Schicksal<lb/>überlassen es mag komen wie Gott<lb/>will, liebe Gustel du schreibst das es so<lb/>kalt ist, hier hat es ebenfals viel Schnee<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>und gefrorene Fenster hir ist die schönste<lb/>Schlittenbahn leider kennen die Leute hir<lb/>keine Schlitten hir haben Sie sonst nichst<lb/>als Große 2 Rädrige Karren wo sie 4<lb/>biß 6 Pferde vorspanen eine kleine<lb/>Karre zu 2 Pferde ist schon so viel wie<lb/>bei uns ein GlaßWagen.</p>
+            <lb/>
+            <p>Liebe Gustel du schreibst mir von Lauter<lb/>bach daß du nicht etwa jetzt in der<lb/>Kälte fort gehn und krank wirst<lb/>das wär das letzte findet jetzt<lb/>niemand zu dir so findet dañ auch <lb/>Niemand zu Ihn man soll zwar böses<lb/>mit Guten vielgelten und feinden Goldene<lb/>Brücken bauen laß Sie sein vieleicht<lb/>hilft Gott das man wieder Gesund wird<lb/>und nochmals zu Hause komen<lb/>kañ aber lange<metamark>_</metamark> lange<metamark>_</metamark> wird’s<lb/>noch dauern von Frieden hört man<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>gar nichts, wen nur die Schrekenszeit<lb/>balt ein Ende hätte, Liebe Gustel schreibe<lb/>mir doch ob du den <gap reason="illegible"/> hast könen<lb/>zu Michaeli die Miethe geben und wie<lb/>es wird jetzt zu Weinachten sein<lb/>da Ich so krank bin ist das mein größter<lb/>Kumer das Ich dir kein Geld werde schicken<lb/>könen den man muß Geldbriefe bei<lb/>der Comp: abgeben da sprachen sie zuletzt Er<lb/>ist krank und schikt Geld zu hause indem<lb/>Mittwoch hab Ich ein Wollenes Hemde für 8 Franc<lb/>gekauft so habe Ich wieder müssen biß auf den<lb/>Grund in Geldbeutel sehn. Viele Grüße an<lb/>Brüder und Schwägern Mutter und Tochter</p>
+            <lb/>
+            <p>Es Grüßt und küßt Dich.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p rendition="#et">Dein<lb/>Addresse wie sonst! dich innigliebender<lb/>
+               <space dim="horizontal"/>Mann<lb/>
+               <space dim="horizontal"/>hoffe ein Gesundes<space dim="horizontal"/>
+               <hi rendition="#aq">A. Wagner</hi>
+               <lb/>
+               <space dim="horizontal"/>Wiedersehen</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

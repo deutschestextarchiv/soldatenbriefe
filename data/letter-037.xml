@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 37: August Kubel (Unteroffizier), 22.06.1815, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>August</surname>
+                  <forename>Kubel</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 37 von August Kubel, 22.06.1815.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 37: August Kubel (Unteroffizier), 22.06.1815, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>August</surname>
+                        <forename>Kubel</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1815-06-22">1815</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="37">
+            <head>
+               <supplied>SB-Nr. 37: August Kubel (Unteroffizier), <date when="1815-06-22">22.06.1815</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Laken d 22ten Juny 1815.</p>
+            <lb/>
+            <p rendition="#et">Geliebte Aeltern!</p>
+            <lb/>
+            <p>Es fehlte wenig, dass ich Ihnen nicht mehr hätte schreiben können, aber der Himmel<lb/>hat dies mal noch die todtlichen Wunden von mir abgewehrt. Eine dreitägige Schlacht<lb/>welche mit unbeschreiblicher Wuth geführt wurde, hat uns sehr viel Blut gekostet, aber<lb/>nicht weniger bewiesen, daß die Braunschweiger immer noch gute Soldaten sind.</p>
+            <lb/>
+            <p>Wir brachen den 16<hi rendition="#sup">ten</hi> sehr früh, ohne im geringsten vorbereitet zu sein, aus un<supplied resp="#CT">-</supplied>
+               <lb/>serer Kantonnierung in der Gegend von Brüssel auf, marschierten einem fürchter<lb/>lichen Kanonen donner entgegen, bis nach 7 oder 8 Stunden, der Befehl kam, die Gewehre<lb/>in Stand zu setzen. Dann noch eine Stunde, und wir waren im Feuer. Wir bildeten<lb/>dort die dritte Linie, u verloren nur einzelne Leute, <add place="superlinear">
+                  <metamark/>d.h. Fähnrich <hi rendition="#aq">Diekmann</hi>,</add> als drey uhr die schreckliche Nachricht<lb/>kam, daß der Herzog schwer verwundet, und bald darauf gestorben sei. Außerdem<lb/>waren schon mehrere von unseren Batteillons fast ganz aus gerückt, sehr viele<lb/>Offiziere von allen Garden todt oder verwundet. In dem Augenblicke drangen die<lb/>französischen Kürassire durch ein Dorf gegen uns vor, und in der Erstarrung u<lb/>Wuth würden wir uns heute bis auf den letzten Mann aufreiten lassen, wenn nicht<lb/>eben unsre Artillerie angekommen wäre, und den Feind zurückgeworfen hätte. Verwundet<lb/>rückte die ganze Armee vor, u die Franzosen zogen sich auf einige Stunden hinter das Gefolge<lb/>zurück. Jetzt wurden wenigstens die Verwundeten von unserer Seite zurück geschafft, indeß<lb/>Campirten wir noch die Nacht zwischen unzähligen ganz oder halb todten Kriegern. Die Nacht<lb/>hörten wir von einem der <gap reason="illegible"/> am Reine, daß Napoleon den folgenden Tag nach Brüssel<lb/>vorzudringen, alles aufbieten würde, u seinen Soldaten die Plünderung der Stadt versprochen<lb/>hätte. Wir zogen uns daher <unclear reason="illegible" cert="high" resp="#MN">mal die</unclear> 6 Stunden zurück, in eine sehr gute Position bei<lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">
+                  <hi rendition="#aq">Ternwappe</hi>
+               </unclear> u <hi rendition="#aq">Waterlo</hi>, schlugen in dem schändlichsten Wetter von der Welt unser Biwak daselbst<lb/>auf, u ließen den Feind durch unsre Plünderer <gap reason="illegible"/> bis er dass <gap reason="illegible"/>,<lb/>u alle unsre leichten Truppen nöthig waren, so als <gap reason="illegible"/>. Wir brachen selbst auf, kehrten<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>dann bald ruhig in unser Lager zurück,u ver<unclear reason="illegible" cert="high" resp="#MN">setzte</unclear>n voll Vertrauen auf unser <hi rendition="#aq">Wellington</hi>
+               <lb/>was in <unclear reason="illegible" cert="high" resp="#MN">der nacht des Paris</unclear> zu bekommen <unclear reason="illegible" cert="high" resp="#MN">werden</unclear>, den folgenden Morgen sollte es sich nun<lb/>entscheiden, ob die Klugheit unsers Corps oder die grosse Uebermacht Napoleons<lb/>den Sieg davon tragen sollten. Auf beiden Seiten war alles aufgeboten, was zum glücklichen<lb/>Erfolge beitragen konnte. Napoleon rückte mit ungeheuren Massen, vorzüglich, und<lb/>einer furchtbaren Artillerie an, vom rechten gegen den linken Flügel, u stellte seine<lb/>Batterien gerade in die Front unsers Centrums. Wir hatten einen Theil des Centrums<lb/>des linken Flügels, so dass grade unsre <unclear reason="illegible" cert="high" resp="#MN">zwei</unclear> Front bestraft wurde. Den ganzen<lb/>morgen aber hatten wir nur die dritte Linie, drückten uns in Vertiefungen u litten<lb/>so noch wenig Schaden. Gegen 10 Uhr rückten wir in die 2<hi rendition="#sup #u">te</hi> Linie, wo wir ebenfalls<lb/>noch ziemlich gedeckt standen, aber als wir um Mittag das erste Treffen bildeten,<lb/>gestanden auch unsre ältesten Offiziere, dass sie nie ein solches Kanonenfeuer gesehen<lb/>hätten. Wir, d.h. unsre brauschw. Infanterie rückten in 8 <gap reason="illegible"/> an, unter denen noch<lb/>einzelne Kannonere <gap reason="illegible"/> vertheilt waren, schlugen 4 Angreiffer der franz. rothen <gap reason="illegible"/>
+               <lb/>ab, drangen dann auf die Batterien loß, die uns aber mit einer ungeheuren <gap reason="illegible"/>
+               <lb/>empfing. Früher schon hatte mir ein <gap reason="illegible"/> ans linke Bein geschlagen, doch<lb/>ohne den geringsten Schaden zu thun. Indes jetzt kam ein beschänder u nahm mir den rechten<lb/>Fuß weg, daß er bloß noch an einigen Sehnen fest <gap reason="illegible"/> liegen. Ich ließ mich fort⸗<lb/>tragen, und kam durch einen Kugelregen mit unsäglichen Schmerzen nach Brüssel.<lb/>Ohnmächtig blieb ich auf dem Pflaster liegen, während die Träger sich nach einem Hospitale<lb/>erkundigten. Aber mitleidige Menschen kamen, trugen mich in ein Haus, pflegten u stärkten<lb/>mich die Nacht, konnten aber keinen Artzt auftreiben; den anderen Morgen wurde ich in ein<lb/>engl Hospital gebracht, wo aber eben so wenig Trost war, bis ich mich etwas erhohlte,<lb/>u in unser Hospital hier in <hi rendition="#aq">Laken </hi>transportieren ließ. So war es beinahe 24<lb/>Stunden, als der Doktor <unclear reason="illegible" cert="high" resp="#MN">Kerkels</unclear> zu mir kam, u mich eine Handbreit unter dem Knie<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>amputierte. Eine harte Operation, die ich aber sehr gut überstandt. Es liegen<lb/>hier unsrer 14 in einem schönen Häuschen, haben gute Aufwardtung, geschickte Ärzte; u ich<lb/>hoffe in 6 Wochen, wenn auch nur mit einem Beine, doch stolz auf den Verlust des anderen<lb/>u nicht weniger lebensfroh, als sonst, zu Ihnen zurück zu kehren. Jetzt bitte ich Sie nur mehrmals<lb/>sehr, sich nicht weiter meinetwegen zu ängstigen, denn nach Aussage der Aerzte habe ich<lb/>sehr gesunde Säfte, u es ist nicht die geringste Gefahr mehr vorhanden. Unnütz hoffe ich<lb/>künftig auch nicht zu sein, denn es ist bloß der Soldatenstand, den ich erlassen muss, u mich in<lb/>einem <unclear reason="illegible" cert="high" resp="#MN">Laden</unclear> noch aus zubilden, dazu wird mir der Staat noch Mittel verleihen.</p>
+            <lb/>
+            <p>Mein Major hat mich noch eben besucht, der in Aufträgen nach Br. geht, u diesen Brief <gap reason="illegible"/>
+               <lb/>u mich noch seiner vorzüglichen <gap reason="illegible"/> versicherte.</p>
+            <lb/>
+            <p>Den übrigens glücklichen Erfolg der Schlacht werden Sie schon wissen, daß wir 120 <unclear reason="illegible" cert="high" resp="#MN">Kanonen</unclear>,<lb/>wenigstens 40000 Gefangene, u den Wagen des Kaisers genommen haben, u daß unsre Truppe<lb/>jetzt schon 20 Stunden von hier steht.</p>
+            <lb/>
+            <p>Jetzt werden Sie mir erlauben zu schließen, denn dieser lange Brief in einer höchst unbequemen<lb/>Lage zuschreiben, hat mich doch etwas angegriffen. Leben Sie recht wohl; u <gap reason="illegible"/> an Alle</p>
+            <lb/>
+            <p>im Namen Ihres<lb/>
+               <space dim="horizontal"/>einzig gehorsamen Sohns<lb/>
+               <space dim="horizontal"/>A Kubel</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 18: Friedrich Reinhard (Offizier), 03.08.1798, Westoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Friedrich</surname>
+                  <forename>Reinhard</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 18 von Friedrich Reinhard, 03.08.1798.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 18: Friedrich Reinhard (Offizier), 03.08.1798, Westoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Friedrich</surname>
+                        <forename>Reinhard</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1798-08-03">1798</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="18">
+            <head>
+               <supplied>SB-Nr. 18: Friedrich Reinhard (Offizier), <date when="1798-08-03">03.08.1798</date>, <choice>
+                     <abbr>WOD</abbr>
+                     <expan>Westoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Liebster bester Bruder!</p>
+            <lb/>
+            <p>Glaube mir daß ich deinen Brief erst den 8<hi rendition="#sup #uu">ten</hi> 
+               <hi rendition="#aq">July</hi> in <hi rendition="#aq">Klagen⸗<lb/>furth</hi> erhielt, aber wer kann dafür, daß die Posten so unver⸗<lb/>läßlich sind, genung ich hab ihm, und freute mich recht Herz⸗<lb/>lich über den Innhalt, ich hätte dir auch auf der Stelle ge⸗<lb/>antwortet, wenn nicht eben zur Zeit unsere auflössung <lb/>wär anbefohlen worden; welches ich erst abwarten wolte, nun <lb/>ists vorüber; seid 11<hi rendition="#sup #uu">ten</hi> 
+               <hi rendition="#aq">July</hi> sind wir vom FreyCorps in daß <lb/>6<hi rendition="#sup #uu">te</hi> Hungarische leichte <hi rendition="#aq">Infanterie Bataillon</hi> umgeschmolzen <lb/>und förmlich <hi rendition="#aq">regulirt</hi>, die unansehnlichste und den mist über⸗<lb/>haupt, wo bishero die FreyCorps mit belastet waren, haben wir <lb/>abgegeben, ich bin jezt vollkommen zufrieden, weil sich auch <lb/>Aussichten vor die Zukunft versprechen, dann ewiger Haupt⸗<lb/>mann mag, und kann ich doch nicht bleiben.<space dim="horizontal"/>Dieses also, <lb/>Lieber Bruder ist Ursache, warum ich mit der Antwort <lb/>biß nun verweilte. Wir haben jezt unsere Bestim⸗<lb/>mung, ich liege mit meiner <hi rendition="#aq">Compagnie</hi>; die aus folgen⸗<lb/>dem Stand besteht, /: 1 Hptmann, daß ist meine wenigkeit 1. Ober⸗<lb/>1 Unter<hi rendition="#aq">Lieutenant</hi> 1 Fähnrich 2 Feldwäbl, 10 <hi rendition="#aq">Corporals</hi> 1 Unter⸗<lb/>artz, 3 Spielleute, 4 Fourierschützen, 2 Zim̃erleute, und <lb/>150 gemeine, zusammen 176. Köpf. :/ in <hi rendition="#aq">Pontaffel</hi> am <lb/>
+               <hi rendition="#aq">Venecianischen</hi> pass, lange wird es aber auch nicht mehr<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>hier Dauren, es muß sich jezt Entscheiden, Krieg oder Friede, <lb/>es heist zwar, daß der Friede richtig sey, und in Wienn <lb/>schon in diesem Monat mit einem Prachtvollen Festin <lb/>
+               <hi rendition="#aq">Publicirt</hi> werden solle, vor die Wahrheit /: da es nur <hi rendition="#aq">Parti⸗<lb/>culie</hi> nachrichten sein :/ kann ich jedoch nicht Bürgen. Unsere <lb/>Truppen <hi rendition="#aq">marchiren</hi> aber im̃er vorwärts, so daß sich eine zim̃liche <lb/>Macht am <hi rendition="#aq">Etsch</hi> fluß zusamen zieht, und wir selbst warten <lb/>täglich den Befehl.</p>
+            <lb/>
+            <p>Die ganze k:k: <hi rendition="#aq">armée</hi> erhält jezt eine neue <hi rendition="#aq">Uniformirung</hi> 
+               <lb/>die vor die leichte <hi rendition="#aq">Infanterie</hi> ist bereits bestim̃t, wir bekom̃en <lb/>kurze Hechtengraue Pohlnische Röcke, grüne Leibel, und <lb/>lange Hechtengraue Hosen mit Halbstiefeln, Römische <lb/>Pickelhauben statt denen <hi rendition="#aq">Casquetern</hi>, schwarzlaquirte <lb/>Kuppeln über die Schultern, mit stählernen Säbelgriffen,<lb/>
+               <hi rendition="#aq">Epaulets</hi> von schwarz laquirten Ledern mit goldenen <hi rendition="#aq">Porten</hi>, <lb/>und einem halben Mond, wo die Rossen auf kommen, <lb/>die wir sonst auf den Hüthen Trugen, Gelb und Schwarz <lb/>Seidenen Schärpfen; daß ganze mag gut stehen, aber <lb/>es wird geld kosten.</p>
+            <lb/>
+            <p>Deine Beschreibung über die neue <hi rendition="#aq">Regulirung</hi> im <hi rendition="#aq">Wur⸗<lb/>tenbergischen</hi> hab ich auch aus öffentlichen Blättern <lb/>gelessen, aber nur den Antrag, noch keine Bestät⸗<lb/>tigung, wann einmal alles zu Stande ist, so mache <lb/>mir eine getreue Schilderung davon.<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+            </p>
+            <lb/>
+            <p>Dieser Tagen war ich in <hi rendition="#aq">Udina</hi>, um dem H Forstverwalter <lb/>
+               <hi rendition="#aq">Grüb</hi> seine vom Grafen <hi rendition="#aq">Stravaldo</hi> zu fordern habende Schuld <lb/>zu erheben, des Grafen Landguth ist nicht weit von vorbesagter <lb/>Stadt, aber zu meinem grösten Verdruß erhielt ich – nichts. </p>
+            <lb/>
+            <p>Eben in <hi rendition="#aq">Udina</hi> lief <del rendition="#s">die Nachricht</del> von <hi rendition="#aq">Neapol</hi>, <hi rendition="#aq">Ancona</hi>, <hi rendition="#aq">Messina</hi> 
+               <lb/>und mehreren andern Seehäffen die Nachricht ein, daß <hi rendition="#aq">General</hi> 
+               <lb/>
+               <hi rendition="#aq">Bonaparte</hi> von denen Engländern <hi rendition="#aq">Totaliter</hi> geschlagen wäre, <lb/>sie hätten ihm zwischen <hi rendition="#aq">Malta</hi> und <hi rendition="#aq">Sicilien</hi> nahe bey <hi rendition="#aq">Passaro</hi> 
+               <lb/>zu einem Gefecht gezwungen, hätten ihm 4 <hi rendition="#aq">Linien</hi> Schiffe <lb/>genommen, und 7 in Grund gebohrt, die ganze Flotte <lb/>zerstreut, und keinem Franzosen <hi rendition="#aq">Pardon</hi> gegeben, sondern <lb/>alle über <hi rendition="#aq">Port</hi> geworfen;<space dim="horizontal"/>auch hätten die Engländer <lb/>den ganzen nicht unbeträchtlichen Schatz von <hi rendition="#aq">Malta</hi> ertagt, <lb/>und <hi rendition="#aq">Bonaparte</hi> habe sich mit einigen Fahrzeugen nach <lb/>
+               <hi rendition="#aq">Corfu</hi> geflüchtet.<space dim="horizontal"/>9 Briefe gleich lautend Sagen diß. <lb/>Der Plan deß großen <hi rendition="#aq">Bonaparte</hi> wäre also gescheitert, und <lb/>und seine Reisse durch <hi rendition="#aq">Egipten</hi>, die Vereinigung mit dem <hi rendition="#aq">Tipo Seipo</hi>
+               <lb/>um <hi rendition="#aq">Ostindien</hi> zu Erorbern, vereitelt;<space dim="horizontal"/>aber nur auch eine Unter⸗<lb/>nehmung <hi rendition="#aq">Bonaparte</hi> ähnlich.</p>
+            <lb/>
+            <p>Neuerdings komt so eben der Befehl, daß die <hi rendition="#aq">Italienische</hi> 
+               <lb/>
+               <hi rendition="#aq">Armée </hi>unser Seits mit 50,000 Mann vermehrt werden solle, <lb/>und doch sind wir noch nicht dabey.<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+            </p>
+            <lb/>
+            <p>Ich sage all diese Truppen sind bloß dazu bestim̃t, um die Länder<lb/>
+               <hi rendition="#aq">Brescia</hi>, <hi rendition="#aq">Bergamo</hi>, <hi rendition="#aq">Mantua</hi>, <hi rendition="#aq">Ferara</hi> und daß <hi rendition="#aq">Bolongniesische</hi> 
+               <lb/>zu besezen, welches wie es heist, wann der Friede richtig seye, <lb/>Hauß Oestreich erhalten werde.</p>
+            <lb/>
+            <p>Was mir an der neuen Verfassung im Württenbergischen am <lb/>besten gefalt, ist die vom <hi rendition="#aq">Pitt</hi> erfundene, und nun bey <lb/>euch eingeführte Steuer.</p>
+            <lb/>
+            <p>Daß du viele Oficirs und mehrere die sich Freunde zu mir <add place="superlinear">
+                  <metamark/>nennen</add> 
+               <lb/>angetroffen haben magst, will ich gerne Glauben, ich bin in <lb/>der <hi rendition="#aq">Armée </hi>wie daß falsche Geld bekannt.<space dim="horizontal"/>
+               <hi rendition="#aq">Menzl von</hi> 
+               <lb/>
+               <hi rendition="#aq">Huff</hi> war sonst mein bester Freund und Kamerath, seit <lb/>dem er aber Adjutant beim <hi rendition="#aq">Generale </hi>ist /: und der ich <lb/>doch auch war, und heunte wieder sein kann, wenn ich mir <lb/>nach ihrer Laune <add place="superlinear">
+                  <metamark/>und Dumheit</add> richten möchte :/ und einen über natürlichen <lb/>Stoltz angenommen hat, seit dem <hi rendition="#aq">Correspondiren</hi> und <hi rendition="#aq">Harmoniren</hi> 
+               <lb/>wir nicht mehr zum Besten.</p>
+            <lb/>
+            <p>Küße, Grüße, und Empfehle mich allen Freunden und Freundinen <lb/>aufs beste.</p>
+            <lb/>
+            <p>Lebe wohl, und antworte mir bald, ich umarmme und <lb/>küsse dich in Gedanken vielmal.</p>
+            <lb/>
+            <p rendition="#et">Dein <space dim="horizontal"/> Treuer Bruder<lb/>
+               <hi rendition="#aq">Pontaffel </hi>d: 3<hi rendition="#sup #u">ten</hi> 
+               <hi rendition="#aq">aug</hi> 798. <space dim="horizontal"/> 
+               <hi rendition="#aq">Reinhardt</hi>
+               <lb/>
+               <space dim="horizontal"/>Hptmann<lb/> 
+               <space dim="horizontal"/> d 6<hi rendition="#sup #uu">ten</hi> Leichten Infanterie <hi rendition="#aq">Bataillon</hi>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

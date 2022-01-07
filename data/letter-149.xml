@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 149: Gottfried und Adam Lechner (Mannschaften), 26.01.1871, Nordoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Gottfried</surname>
+                  <forename>und Adam Lechner</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 149 von Gottfried und Adam Lechner, 26.01.1871.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 149: Gottfried und Adam Lechner (Mannschaften), 26.01.1871, Nordoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Gottfried</surname>
+                        <forename>und Adam Lechner</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1871-01-26">1871</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="149">
+            <head>
+               <supplied>SB-Nr. 149: Gottfried und Adam Lechner (Mannschaften), <date when="1871-01-26">26.01.1871</date>, <choice>
+                     <abbr>NOD</abbr>
+                     <expan>Nordoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p rendition="#et">
+               <unclear reason="illegible" cert="high" resp="#MN">Biöber</unclear> den 26<hi rendition="#sup">ten</hi> Januar 1871.</p>
+            <lb/>
+            <p rendition="#et">Liebe Eltern u Geschwistern!</p>
+            <lb/>
+            <p>Mit dem Wunsche das Euch unser Brief<lb/>bei guter Gesundheit antrief wie er<lb/>unß verläßt. Ihr werdet nicht wüssen<lb/>warum Ich so lange nicht geschrieben <lb/>habe. wir sind seid den 9 Januar nicht<lb/>mehr zusamen kom̃en den 24ten Januar<lb/>sind wir wieder das erste mahl zusam̃<lb/>komen, so hab Ich auch nicht schreiben<lb/>wollen sonst hättet Ihr Euch allerlei<lb/>Gedanken machen könen. Die Franzhosen<lb/>haben an 14 wieder einen Ausfall machen<lb/>wollen das 2 Batallion war in erster linie<lb/>u wir in 2 linie sind aber wieder zu⸗<lb/>rück gehaut worden, den 19 haben sie wider<lb/>bei den Preisen einen großen Ausfall<lb/>gemacht, bei den Preisen der verlust <del rendition="#s">Verwu</del>
+               <lb/>Verwunte u Tode 6 bis 8 Huntert Mañ<lb/>bei den Franzhosen 6 bis 7 Thausent<lb/>1 Thausent sind in der Preusischen linien<lb/>
+               <note place="left">am 14 Früh 1 Uhr bis 4 Uhr der Ausfall</note>
+               <lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">gelechen</unclear> 2 Thausent habens <add place="superlinear">
+                  <metamark/>die Preise</add> gefangen<lb/>gemacht, jetzt ist ein Bata Comanter<lb/>von Paris in <del rendition="#s">Versell</del>
+               <add place="superlinear">
+                  <metamark/>Verseilles</add> geweßen, der<lb/>Generall Trucho hat das Commanto<lb/>einen antern übergeben, der werd sich<lb/>warscheinlich gefliegtet haben weill<lb/>er bei Sentan aufs Erhen Wort entlaßen<lb/>worden u ist nach Paris, die Beschiesung<lb/>von Paris ist grausam̃. L. Elt u Gesch.<lb/>keinen Thuwak hat der Adam seid den<lb/>12 nicht mehr erhalten. seid so Freinde<lb/>lich u schickt uns 2 oder 3 Bakätlein<lb/>wo ins Bakät 3 Stük Groschenbäklein<lb/>hinein gehen, diese Bakätlein gehen<lb/>so schnäl wie ein Brief, so sind wir<lb/>Cameraten <del rendition="#s">s</del>noch alle gesund der<lb/>Martin Fragner ist bei der Wägen<lb/>Vorreiter schon 3 Wochen, wir haben<lb/>einen strengen Vorbosten Dinst, und<lb/>sind wider ½ Tag auf Vorposten gewesen<lb/>
+               <space dim="horizontal"/>die Vorposten sind alle verstärkt<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>es kom̃t das ganze Batalion auf Vorposten<lb/>sonst kañ Ich Euch nichts neies schreiben<lb/>Ich schliese mein Schreib näbst vielen<lb/>Tausent Grüßen von allen Kameraten<lb/>
+               <space dim="horizontal"/>u verbleiben Euhre Lieben Söhne</p>
+            <lb/>
+            <p>viele Grüße an<space dim="horizontal"/>
+               <hi rendition="#u">Gottfried Lechner</hi>
+               <lb/>
+               <space dim="horizontal"/>Adam Lechner<lb/>alle Bekante u Verwande u alle die<lb/>uns Grüßen haben laßen u ans<lb/>Kerns Familien <gap reason="illegible"/>
+            </p>
+            <lb/>
+            <p>auch an Leonhard u Margret u Leonhard<lb/>
+               <space dim="horizontal"/>Schurlein</p>
+            <lb/>
+            <p>auch noch viele Grüße von Georg Schaffner<lb/>jetzt wollen die Pariser Andreas Propst<lb/>auch Frieden haben Ernst Weisbeck<lb/>das es um Ihre Köpfe Friedrich Stechlein<lb/>geht unßer Atölerie hat schon weid in die<lb/>Stat hinein geschoßen.<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

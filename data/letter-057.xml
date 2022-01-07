@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 57: Adolf Isendahl (Offizier), 11.06.1849, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Adolf</surname>
+                  <forename>Isendahl</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 57 von Adolf Isendahl, 11.06.1849.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 57: Adolf Isendahl (Offizier), 11.06.1849, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Adolf</surname>
+                        <forename>Isendahl</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1849-06-11">1849</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="57">
+            <head>
+               <supplied>SB-Nr. 57: Adolf Isendahl (Offizier), <date when="1849-06-11">11.06.1849</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq #u">Satrup</hi>
+               <hi rendition="#u"> d. 11</hi>
+               <hi rendition="#sup #u">ten</hi>
+               <hi rendition="#u"> Juny 1849.</hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#u">Montag Nachmittag.</hi>
+            </p>
+            <lb/>
+            <p rendition="#et">Hochgeehrter Herr Major! Mein verehrter lieber Papa!!</p>
+            <lb/>
+            <p>Durch die Briefe, welche ich bisher meiner geliebten <hi rendition="#aq">Louise</hi> geschrieben, habe ich<lb/>zwar nicht direct, wohl aber indirect meine herzlichsten Grüße Ihnen und der<lb/>lieben Mama in die Heimath übersandt, und mir gleich vorgenommen, Sie<lb/>nicht eher mit meinen Zeilen zu belästigen, als bis wir Gelegenheit ge⸗<lb/>habt haben werden, auf dem Ihnen von vorigem Jahre so wohlbekannten<lb/>Terrain eine Feuerprobe zu bestehen. Lange Zeit hatten wir nun schon<lb/>auf einen Kampf mit unsern Feinden geharrt und ihnen auf den stets<lb/>unveränderten Platze gegenüber gestanden, wodurch in jedem unserer<lb/>Leute der Wunsch erwacht war, zu etwas Ernsterem berufen zu werden,<lb/>als dem Bataillon an dessen Spitze Sie verehrter Papa, der noch jetzt<lb/>in der Erinnerung desselben von vorigem Jahre fortlebt, so kühn<lb/>vorangingen, der Befehl ertheilt wurde, abermals in seiner Tour<lb/>die Stallung der Vorposten vorzunehmen. Das Bataillon stand zu der<lb/>Zeit in <hi rendition="#aq">Ulderup</hi> und ich mit der 1stn Compagnie in <hi rendition="#aq">Ulderupfeld</hi>, vonwo<lb/>aus wir um 1 Uhr in der Nacht vom 5<hi rendition="#sup">tn</hi> zum 6<hi rendition="#sup">tn</hi> Juny nach unserm<lb/>so bekannten Bestimungsorte aufbrachen.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Eine kleine Einschaltung muss ich mir hier erlauben, es ist mir nämlich<lb/>zu bekannt, dass Sie ein so reges Interesse an Allem dem nehmen,<lb/>was den hiesigen Krieg und unsere Truppen betrifft, und desshalb<lb/>glaube ich, wird es Sie nicht allzusehr langweilen, Ihnen eine kurze<lb/>Notation von dem Gange des Gefechtes zu überreichen, was unsere theil⸗<lb/>weise so jungen Soldaten mit seltener Ausdauer zu bestehen das<lb/>Glück hatten.<metamark>_</metamark> Um 4 Uhr trafen wir zur Ablösung auf den Düppler<lb/>Schanzen ein und mit uns 1 Bataillon <hi rendition="#aq">Waldeck</hi> und 1 Bataillon <hi rendition="#aq">Nassau</hi>.<lb/>Gegen 8 Uhr fielen in langen Zwischenräumen einzelne Schüsse an der<lb/>Vorpostenkette und traf die Meldung von denselben ein, dass dänische<lb/>Tirailleurs gegen eine Schanze unsers linken Flügels vorgegangen<lb/>und die dort angestallten Arbeiten zurückzutreiben suchten, und auch<lb/>bereits schon 2 Nassauer Soldaten verwundet hätten. Die Dänischen Castell⸗<lb/>jäger, welche zu diesem Zwecke verwandt waren, hatten sich an den Hecken<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>so weit herangeschlichen, dass sie im wirksamsten Schussbereiche etwa 300 bis<lb/>400 Schritt vor den Schanzenarbeitern lagen. Unsere Vorpostenkette war nicht<lb/>stark genug, das dänische Feuer zum Schweigen zu bringen, und so traf<lb/>denn nach einiger Zeit der Vorposten Commandant der Nassauische Oberst<lb/>
+               <hi rendition="#aq">Gerau</hi> bei unserm Bataillon ein, verlangte einige tüchtige Schützen<lb/>um die Dänen zurückzutreiben, die ihm auch durch den Aufruf von Frei⸗<lb/>willigen aus meiner Compagnie sogleich und bereitwillig gestellt<lb/>wurden. Mit 40 Leuten in meiner Compagnie, einer gleichen<lb/>Anzahl Waldecker und einigen Nassauern, die sämmtlich unter mein<lb/>Commando gestellt wurden, ging ich vorwärts und gelang es nach<lb/>einigem Aufenthalte die vorgesandten dänischen Jäger unter<lb/>zwar nicht vielen, doch einigen Verlusten (denn ich habe selbst 3 Mann<lb/>fallen und zurücktragen sehen) zurückzuwerfen. Diese wurden zwar von<lb/>ihrer verstärkten Vorpostenkette und den dahinter stehenden Soutiens<lb/>aufgenommen, doch gelang es uns, nach dem ich noch von zwei Seiten<lb/>von jeder eine halbe Compagnie zum Soutien erhalten hatte auch<lb/>diese zurückzutreiben und bis über die Stellung der dänischen Vor⸗<lb/>postenlinie hinaus vorzudringen. Das Gefecht wurde nun auf unserer <lb/>ganzen Linie aufgenommen, die Dänen auf der ganzen Fronte zurück<lb/>getrieben, und fingen gegen 11 Uhr Mittags auf unsern sämmtlich<lb/>wirksam liegenden Batterien zu spielen an. Ein gleiches Feuer<lb/>wurde nun auch von den feindlichen Batterien und Kanonenbooten<lb/>unterhalten - kurz die ganze Geschichte war im Gange. Etwa<lb/>gegen 12 Uhr entwickelten die Dänen von <hi rendition="#aq">Sonderburg</hi> aus einige<lb/>Colonnen, mit Tirailleurs vor; jedoch war unsere Stellung eine<lb/>so vortheilhafte geworden, dass es ihnen nicht gelang, sich in dem<lb/>Maaße zu entwickeln, <del rendition="#s">dass es ihnen</del> uns zurückzutreiben. Bald <lb/>darauf erschienen sie mit 6 Stück <gap reason="illegible"/>, placirten sie an<lb/>verschiedenen Stellen und fingen ein lebhaftes Feuer aus denselben<lb/>an, wurden aber durch unsere Batterien bald zum Rückzuge<lb/>genöthigt. Auf diese Weise, zwar mit kleineren Unterbrechungen<lb/>wurde das Feuer fortgesetzt, jedoch erhielt ich den speciellsten<lb/>Befehl des Generals <hi rendition="#aq">Ludwig</hi>, der in Abwesenheit des Herzogs<lb/>von Nassau die 1ste Brigade und die Vorposten Truppen, welche<lb/>wenn sie auch wechseln – Avantgarde genannt werden – commandirt<lb/>durchaus nicht weiter vorzugehen, und im Gegentheil das Feuern<lb/>
+               <note place="left">Während des Gefechtes wurden 2 Gehöfte die die Dänen zum Aufenthalte für ihre <lb/>Feldwachen benutzten , das eine in Brand geschossen<lb/>das Andere von unsern Leuten angesteckt und brannten bis auf den Grund nieder. Es <lb/>sah herrlich aus!!!
+    </note>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>
+nach und nach einzustellen und in die Stellung unserer Vorposten zurück⸗<lb/>zugehen. Bei dem errungenen Vortheile war es schwer einem solchen<lb/>Befehle augenblicklich Folge zu leisten, und erst als ein zweiter<lb/>Adjutant bei mir eintraf und denselben Befehl überbrachte, ließ<lb/>ich das Signal zum allmähligen Abzuge geben, und Rottenweise den<lb/>nächsten hinter uns liegenden Knick besetzen. In unserer ur⸗<lb/>sprünglichen Vorposten Aufstellung waren neun Tirailleurs<lb/>entwickelt und aufgestellt, <add place="superlinear">
+                  <metamark/>denn</add> so zog ich die Meinigen nach und<lb/>nach zurück, und nachdem hinter der neuen Linie Alles gesammelt<lb/>worden, hatte ich von meiner Compagnie aus dem Soutine nur<lb/>2 Verwundete, die Waldecker 1 Todten und 3 Verwundete und<lb/>die Nassauer 1 leicht Blessirten. Die Dänen rückten, da sie<lb/>unsern freiwilligen Rückzug bemerkten, sogleich wieder vor<lb/>und ebenfalls in ihre ursprüngliche Vorposten Linie, von denen<lb/>aus ein ununterbrochenes lebhaftes Feuer untermischt mit <lb/>den aus den gegenseitig höher liegenden Batterien unterhalten<lb/>wurde, was bis Abends 8 Uhr währte. Unsere Compagnien<lb/>wurden zu verschiedenen Malen unter einander, sowie die<lb/>Waldecker durch die Nassauer, und wir wieder durch beide<lb/>abgelöst. Gegen 6 Uhr hatte fast kein Mann von uns mehr<lb/>eine Patrone, und wurden nach dem wir compagnieweise ab⸗<lb/>lösten, hinter der Linie Neue vertheilt. Trotz dieses ununter⸗<lb/>brochenen Feuers hatten wir aber nur wenig Verluste, und ist<lb/>für Jemand, der das hiesige Terrain nicht kennt, was durch <lb/>die Knicks und Hecken den Tirailleurs so vortrefflichen Schutz<lb/>gewährt, es unbegreiflich, dass im Ganzen so wenig Todte und<lb/>Verwundete vorkommen. Um 7 Uhr fiel der junge <hi rendition="#aq">Krüger</hi>
+               <lb/>welcher bei meiner Compagnie als Vice Corporal stand von<lb/>einer Flintenkugel in den Unterleib getroffen. Nachdem er in<lb/>das Hospital zu <unclear reason="illegible" cert="high" resp="#MN">
+                  <hi rendition="#aq">Gröfenshus</hi>
+               </unclear> gebracht, hat er am folgenden Morgen<lb/>seinen Geist aufgegeben und wurde am 9ten Morgens mit den<lb/>übrigen Erschossenen 5 Mann ins Gesammt feierlich beerdigt,<lb/>wozu ich mich ebenfalls begeben und dem Leichenzuge sich eine<lb/>verhältnissmäßige Anzahl Leute von allen Abtheilungen der<lb/>hier stehenden Armee eingefunden hatten. Er war ein braver guter<lb/>lieber junger Mann, der sich mir durch seinen Muth während des ganzen<lb/>
+               <note place="left">Die Waldecker und Nassauer haben ins Gesammt 18 Todte und Verwundete gehabt. Den Verlust der Dänen kennen wir noch <lb/>nicht genau; doch ist er um mehre bedeutender als der Unsrige, was von den Schanzen aus bemerkt worden ist.</note>
+               <lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>
+Tages besonders bemerklich gemacht, und dessen Verlust ich sehr innig und<lb/>tief bedauere.</p>
+            <lb/>
+            <p>Neben den 3 Mann, welche in meiner Compagnie außer Gefecht gesetzt<lb/>wurden, verlor die 2te Compagnie 1 Mann todt, die 3te 6 Mann<lb/>leicht und 1 Mann schwer Verwundet; die 4te Compagnie den Leut.<lb/>
+               <hi rendition="#aq">Rittmeyer</hi>, der durch das Stück einer Granate, die einen getroffenen<lb/>auf der Erde liegenden Stein ihm in den Rücken schleuderte, eine<lb/>Contusion erhielt. Er liegt bei dem Herrn <hi rendition="#aq">von Krogh</hi> in <unclear reason="illegible" cert="high" resp="#MN">
+                  <hi rendition="#aq">Gröfenshus</hi>
+               </unclear>
+               <lb/>und ist sein Befinden von der Art, dass er, wenn nicht noch verschlim⸗<lb/>mernde Umstände eintreten binnen 8-14 Tagen wieder bei dem<lb/>Bataillon eintreffen kann. </p>
+            <lb/>
+            <p>Vielleicht ist es Ihnen verehrter Papa nicht uninteressant über<lb/>unsere Batterien die aufgenommene Notiz zu erfahren. (vom rechten Flügel ab.)</p>
+            <lb/>
+            <p>Nro 1 – Strandbatterie mit 4 – 24 Pfündern</p>
+            <lb/>
+            <p>Nro 2 – Batterie „ 2 – 24 Pfündern</p>
+            <lb/>
+            <p>Nro 3 – Batterie „ 2 – 24 Pfündern und 3 – 84 Pfündern</p>
+            <lb/>
+            <p>Nro 4 – Redoute mit Blockhaus mit 2 – 84 Pfündern</p>
+            <lb/>
+            <p>Nro 5 – Batterie zu 4 Mörsern, sind noch nicht angekommen, treffen aber in diesen Tagen ein.</p>
+            <lb/>
+            <p>Nro 6 – Batterie zu 5 – 24 Pfündern (davon fehlen noch 2 Stück)</p>
+            <lb/>
+            <p>Nro 7 – Redoute mit 3 – 24 Pfündern und 3 – 84 Pfündern mit Blockhaus</p>
+            <lb/>
+            <p>Nro 8 – Batterie zu 7 – 24 Pfündern, wird in diesem Augenblick armirt.</p>
+            <lb/>
+            <p>Nro 9 – Kernschanze liegt hinter der Mitte aller Übrigen mit<lb/>
+               <space dim="horizontal"/>Blockhaus und zu 5 – 24 Pfündern, von denen noch 5 Stück fehlen.</p>
+            <lb/>
+            <p>An dem Gefechtstage hat unsere Artillerie, die in Düppelkirche steht<lb/>kräftig mit gewirkt, sie fuhr zwischen der Batterie Nro 1 und 2 auf und<lb/>gelang es ihr dem Feinde, der hier kräftig vorrückte Abbruch zu thun, und<lb/>ihr aufzuhalten. Sämmtliche Bataillons der Division und aus unser<lb/>2<hi rendition="#sup #u">ten</hi> die nicht gerade auf den Schanzen standen, waren 5 Stunden lang<lb/>bei Düppel concentrirt, wurden aber nicht verwandt, da die ent⸗<lb/>wickelten Streitkräfte stark genug waren den Feind vom Vordringen<lb/>abzuhalten, und überhaupt keine Offensiv Bewegung von unserer<lb/>Seite beabsichtigt wurde.</p>
+            <lb/>
+            <p>In der Hoffnung Sie verehrter lieber Papa durch meinen weitläufigen Brief<lb/>nicht gelangweilt zu haben, endige ich ihn indem ich nun viele herzliche Grüße<lb/>an die liebe Mama meine theuere Herzens⸗<hi rendition="#aq">Louise</hi>, <hi rendition="#aq">Gustav</hi>, <hi rendition="#aq">Alwine</hi>, <hi rendition="#aq">Ferdinand</hi>
+               <lb/>und alle Verwandten bitte und nenne mich für immer Ihren Sie hochverehrenden</p>
+            <lb/>
+            <p rendition="#et">
+               <hi rendition="#aq">Isendahl</hi>.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

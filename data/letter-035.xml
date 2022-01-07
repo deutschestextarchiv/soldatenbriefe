@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 35: Eduard Freiherr von Callot (Offizier), 18.07.1814, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Eduard</surname>
+                  <forename>Freiherr von Callot</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 35 von Eduard Freiherr von Callot, 18.07.1814.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 35: Eduard Freiherr von Callot (Offizier), 18.07.1814, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Eduard</surname>
+                        <forename>Freiherr von Callot</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1814-07-18">1814</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="35">
+            <head>
+               <supplied>SB-Nr. 35: Eduard Freiherr von Callot (Offizier), <date when="1814-07-18">18.07.1814</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Piacenza</hi> am 18<hi rendition="#sup #uu">ten</hi> 
+               <hi rendition="#aq">Julius</hi> 
+            </p>
+            <lb/>
+            <p>1814.</p>
+            <lb/>
+            <p rendition="#et">Geliebte theure Mutter!</p>
+            <lb/>
+            <p>Zu Ihrem Nahmenstage wünsche ich<lb/>Ihnen recht herzlich Glück; ich wollte<lb/>nur daß ich mündlich Ihnen diesen<lb/>ungeheuchelten Glückwunsch abstatten<lb/>könnte; es ist ein trauriger Stand<lb/>der Soldatenstand, wo man immer ge⸗<lb/>trennt ist, von allen die man liebt;<lb/>schon lange <hi rendition="#aq">ennuyirt</hi> er mich, und<lb/>ich gestehe, er wird mir schon bald zu<lb/>viel; wie viel glücklicher ist der Pri⸗<lb/>vatmann! im̃er und im̃er von den<lb/>Seinigen entfernt, eine steife Putz⸗<lb/>docke, die für jedes Prinzchen oder<lb/>Generälchen in einen engen Rock<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>schliefen, sich zusammenschnüren, und<lb/>putzen muß; dann noch in Gefahr<lb/>steht, ein ungnädiges Gesicht vor seiner<lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">Hoch…</unclear> zu erhalten; der Tag und <lb/>Nacht jedem der um einen Grad höher<lb/>ist, zu Geboth stehen, sich zu allem,<lb/>was ein and’rer nicht um vieles in der<lb/>Welt thäte, brauchen lassen, und in<lb/>Regen, Wind, Staub, Sommerhitze, Kälte, Hun⸗<lb/>ger, Durst, Noth aller Art aushalten muß,<lb/>als ob es nichts wäre; und das alles um<lb/>ein paar lumpigte Gulden, die ihm kaum<lb/>das Leben fristen, um eine Ehre, von der<lb/>man im̃er spricht, die man aber wenig<lb/>zum Wort kommen läßt;<metamark>_</metamark> 
+               <metamark>_</metamark>o! welch<lb/>ein brillanter Stand! wie göttlich!<lb/>wie schön! <metamark>_</metamark> 
+               <metamark>_</metamark> o! warum köñen<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>nicht alle Menschen glücklich und be⸗<lb/>mittelt seyn? Viel ruhiger lebt sich’s<lb/>auf einem schönen Landschlosse,<metamark>_</metamark>
+               <lb/>
+               <metamark>_</metamark> oder auch nur Landhause,<metamark>_</metamark> mit<lb/>10000 oder 1000 Gulden jährlich;<metamark>_</metamark> 
+               <metamark>_</metamark>
+               <lb/>wer doch so was haben könnte; ich<lb/>wünsche mir nichts, alls ein schönes,<lb/>gutes, reiches Weib,<metamark>_</metamark> Gesundheit, und<lb/>immer im Zirkel der Meinigen, dann <lb/>will ich gerne etliche Hundert Jahre<lb/>leben.<metamark>_</metamark> 
+               <metamark>_</metamark> 
+               <metamark>_</metamark> 
+               <metamark>_</metamark>
+            </p>
+            <lb/>
+            <p rendition="#et">Ich glaube meinen Brief von <hi rendition="#aq">Guastalla</hi>
+               <lb/>werden Sie erhalten haben? <metamark>_</metamark> 
+               <metamark>_</metamark> Sind Sie<lb/>gesund? Wohl auf? Was macht<lb/>mein Karl? Ist auch er gesund?<lb/>Gott gebe euch allen langes Leben,<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>Gesundheit, Glück, und Zufriedenheit!<lb/>Leben Sie wohl, liebe, gute Mutter!<lb/>ein andermahl mehr! Meine Em⸗<lb/>pfehlung an <gap reason="illegible"/> 
+               <hi rendition="#aq">etc Familie</hi>
+               <lb/>an Brendels, <gap reason="illegible"/>, und alle ander‘n;<lb/>auch an die braven <gap reason="illegible"/>.</p>
+            <lb/>
+            <p>Karl meinen herzlichen Kuß; Leben<lb/>Sie wohl; ich bleibe Ihr treuer,<lb/>Sie ewig zärtlich liebender Sohn</p>
+            <lb/>
+            <p rendition="#et">Eduard <hi rendition="#aq">Callot</hi>
+               <lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#u">Oblieut:</hi>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

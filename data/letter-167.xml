@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 167: Dr. Carl F. Pogge (Offizier), 07.08.1871, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Dr.</surname>
+                  <forename>Carl F. Pogge</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 167 von Dr. Carl F. Pogge, 07.08.1871.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 167: Dr. Carl F. Pogge (Offizier), 07.08.1871, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Dr.</surname>
+                        <forename>Carl F. Pogge</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1871-08-07">1871</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="167">
+            <head>
+               <supplied>SB-Nr. 167: Dr. Carl F. Pogge (Offizier), <date when="1871-08-07">07.08.1871</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Sandkrug d. 7.8.71</p>
+            <lb/>
+            <p rendition="#et">Liebe Mutter!</p>
+            <lb/>
+            <p>Für Deine Nachrichten meinen besten Dank; eben-<lb/>so für das Umarbeiten die Bandagen etc. betreffend;<lb/>von denen ich aber beiden keinen Gebrauch machen<lb/>kann.<metamark>_</metamark> Seit Mittwoch befinden wir uns in Glieneke<lb/>(an der Oranienburger Chausseh. 1½ Meilen von <hi rendition="#aq">Berlin</hi>;<lb/>paarmal hatte ich Gelegenheit, das alte Nest zusehen,<lb/>einmal beurlaubt, einmal in Diestangelegenheiten.</p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Paul</hi>, der, wie ich höre heute verladen wird traf<lb/>ich das erste Mal, Herrmann Messenborn gestern<lb/>bis Montag od Mittwoch bleiben wir hier, um<lb/>dann direkt auf den Kriegsschauplatz ge⸗<lb/>sandt zu werden eine <hi rendition="#u">50</hi>stündige Eisenbahnfahrt!!!</p>
+            <lb/>
+            <p>Ich und wir Alle sehnen uns in ordentliche<lb/>Thätigkeit zukommen; trotz der Tagesnachrichten,<lb/>die Manche fürchten lassen, uns bleibe Nichts mehr<lb/>übrig, werden <add place="superlinear">
+                  <metamark/>auch</add> wir, glaube ich, recht bald unser Theil<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>erhalten. Vor vier Tagen sind wir der 4<hi rendition="#sup #u">ten</hi> Division<lb/>zuertheilt.</p>
+            <lb/>
+            <p>Ueber Max und Ernst erhalte ich hoffentlich bald<lb/>von Euch befriedigende Nachrichten. Max Reisen<lb/>haben mich amesiert; wenn ich ihm auch wünsche<lb/>daß er seinen Zweck erreichen möge, halte ich<lb/>es für ihn für ebenso gut, wenn er ruhig<lb/>bei Muttern bleibt.</p>
+            <lb/>
+            <p>Zu deiner Beruhigung theile ich noch mit, daß<lb/>ich meinen hübschen Fuchs endlich abgegeben habe,<lb/>da ich auf dem Marsche gar nichts mit ihm an⸗<lb/>fangen konnte. Mein Schimmel ist ein<lb/>alter Schinder, thut aber, was er soll.</p>
+            <lb/>
+            <p>Freundliche Gruße an Euch</p>
+            <lb/>
+            <p rendition="#et">von deinem gehors Sohn<lb/>
+               <space dim="horizontal"/>Carl Pogge<lb/>
+               <space dim="horizontal"/>Assistenzarzt beim 3ten FldBattaill<lb/>
+               <space dim="horizontal"/>4 Division</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[2]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

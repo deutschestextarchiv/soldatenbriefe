@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 53: Kaspar Moschberger (Mannschaften?), 26.03.1849, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Kaspar</surname>
+                  <forename>Moschberger</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 53 von Kaspar Moschberger, 26.03.1849.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 53: Kaspar Moschberger (Mannschaften?), 26.03.1849, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Kaspar</surname>
+                        <forename>Moschberger</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1849-03-26">1849</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="53">
+            <head>
+               <supplied>SB-Nr. 53: Kaspar Moschberger (Mannschaften?), <date when="1849-03-26">26.03.1849</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>1849</p>
+            <lb/>
+            <p>Nürnberg den 26ten März</p>
+            <lb/>
+            <p>Lieber Bruder</p>
+            <lb/>
+            <p>Ich bin nun gezwungen einige Zeilen an Dir zu schreiben<lb/>und ich hoffe mein bar Zeilen werden werden Euch<lb/>alle in guter Gesundheit und bestes wohlsein andrefen.</p>
+            <lb/>
+            <p>Ich muß nun Euch wied belästigen mit den Brief den ich muß<lb/>zwei Hemter und eine Unterhoßen haben aber nur muß ich<lb/>Euch darauf aufmerksam machen das Ihr mir ja eine<lb/>besserne Unterhosen schiket, aber nur so bald als möglich<lb/>ist den ich brauche es sehr nothwendig, nichts neues kann ich Euch<lb/>nicht schreiben als das das Regement von Ingolstadt und Regensburg<lb/>in Nürnberg durchmarschiert sind nach Schleswigholstein und<lb/>das das Regiment von Pasau auch noch kommt; Schiket mir aber<lb/>auch noch einig Gulden Geld und saumet Euch ja nicht<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>Den wir wissen ja auch nicht wie bald wir fort müßen den<lb/>wenn ja einmahl der Tag bestimt ist dann kann ich nicht<lb/>mehr schreiben den da geht alles auf der Eisenbahn da machen<lb/>Sie gleich Vünzich und 60 Stunden dan ist zu spät. da kommen<lb/>52 Wägen an einand da kommen Mann und Pferd darauf zwei<lb/>Schwebischer Regimenter sind auch schon fort. Ich grüße Euch alle<lb/>mit einand. Dich und die Schwägerin Mutter und Schwester und<lb/>die Schreiner Leute alle beite den Huber Kramer in der Türken<lb/>den Mor Peter am Berg auch hätte ich noch eine Bitt wenn Ihr<lb/>mir nur auch einen Schurtz <add place="superlinear">
+                  <metamark/>schiket</add>. auch Grüst Euch der Kramer<lb/>Hansel vielmahls und herzlich und laßt auch die Huber Leuthe<lb/>herzlich Grüßen und Er sehnt sich zu stark wieder hinein wenn<lb/>Friede wird dann kommt Er alsbald. Ich schließe mein<lb/>schreiben und verbleibe <del rendition="#s">Eu</del>Dein aufrichtiger und dankbarer</p>
+            <lb/>
+            <p rendition="#et">Bruder Kaspar Moschberger.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[2]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

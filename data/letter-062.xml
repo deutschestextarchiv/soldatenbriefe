@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 62: Heinrich Lippelt (Offizier), 28.09.1861, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Heinrich</surname>
+                  <forename>Lippelt</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 62 von Heinrich Lippelt, 28.09.1861.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 62: Heinrich Lippelt (Offizier), 28.09.1861, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Heinrich</surname>
+                        <forename>Lippelt</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1861-09-28">1861</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="62">
+            <head>
+               <supplied>SB-Nr. 62: Heinrich Lippelt (Offizier), <date when="1861-09-28">28.09.1861</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">St. Louis</hi>, d 28<hi rendition="#sup">t</hi> 
+               <hi rendition="#aq">Septb</hi>
+            </p>
+            <lb/>
+            <p>1861.</p>
+            <lb/>
+            <p rendition="#et">Liebe Mutter</p>
+            <lb/>
+            <p>Mit tiefbethrübten Herzen nehme ich die Feder<lb/>zur Hand Deinen lieben Brief zu beantworten. Dass<lb/>ich dieses mal nicht fröhlich sein kann, kannst Du Dir<lb/>leicht denken, denn den darin gemeldeten Tod meines<lb/>theuren mir unvergesslichen Vaters hat mich in tiefe<lb/>Trauer versetzt. Aus meinen Schlachten nach <hi rendition="#aq">St. Louis</hi>
+               <lb/>
+               <add place="superlinear">
+                  <metamark/>gesund</add> zurück gekehrt, freute ich mich herzlich einen Brief von<lb/>Euch beiden zu erwarten, aber wie groß war meine Täusch⸗<lb/>ung nach Empfang desselben, als ich mit frohen freudigen<lb/>Schritten nach <unclear reason="illegible" cert="high" resp="#MN">Aepelrotz</unclear> eilte um den angekommenen<lb/>Brief in Empfang zu nehmen und darin die traurige<lb/>Nachricht erblickte, dass Du meine beste theuerste liebe<lb/>Mutter nur noch allein dort weilest. Meine Verhält⸗<lb/>nisse in die <add place="superlinear">
+                  <metamark/>ich</add> jetzt lebe <del rendition="#s">werden</del>
+               <add place="superlinear">
+                  <metamark/>sind</add> allerdingst sehr gefährlich<lb/>denn ein Kriegshandwerk ist und bleibt ein gefährliches<lb/>Handwerk, aber trotzdem lebte ich froh und zufrieden<lb/>und mit der festen Zuversicht, dass der liebe Gott uns<lb/>drei noch einmal froh und heiter zusammen führen<lb/>würde. Liebe Mutter Du weist selbst, dass ich durchaus<lb/>kein schlechter Mensch zu heißen verdiene, denn ich war<lb/>überall beliebt und habe mich durchaus nicht eines<lb/>
+               <add place="superlinear">
+                  <metamark/>schlechten</add> Verbrechens vorzuhalten, meine Gutheit, Offenheit<lb/>u.s.w. denn andere gesellige Leute haben dazu beige⸗<lb/>tragen, dass ich viel Geld verbraucht habe. Ich habe im⸗<lb/>mer noch die feste Hoffnung, dass wir beide uns wieder⸗<lb/>sehen, und sobald der Krieg vorüber ist, komme ich sicher<lb/>zum Besuch. Meine Absicht ist dann die, mich <add place="superlinear">
+                  <metamark/>dort</add> vielleicht zu ver⸗<lb/>heirathen und dann wieder nach den guten Amerika zurück<lb/>zu kehren zummal da es mir immer besser und besser<lb/>gefällt. Solltest Du liebe Mutter dann Lust haben mit<lb/>zu gehen so würde dass meine größte Freude sein, die ich je<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>erlebt hätte, ich würde alles aufbieten hier Dein Leben so gut<lb/>als es irgend in meinen Kräften standt zu versüßen und<lb/>dass nachzuholen was ich versäumt habe. Was nun das Übrige<lb/>anbetrifft in Betreff der Quatire von Geschirr Hausgeräth<lb/>u so weiter, so halte ich es für’s beste, dass Du Alles<lb/>was nicht zu Deiner Bequemlichkeit und zu Deinen Gebrauch<lb/>nöthig ist verkaufst, denn wozu wolltest Du dass Alles<lb/>aufbewahren, da es nur mehr verderben würde je<lb/>länger es dort unbenutzt lieben bliebe. Ich lasse Dir<lb/>liebe Mutter volle Gewalt, wie Du es gut findest<lb/>soll mir’s auch recht sein, denn ich weiß es ja, dass<lb/>Du es eben so gut mit mir meinst, aber über die vielen<lb/>Sachen mögte ich Dich rathen Quatier zu halten. Lebe daher<lb/>so viel es thunlich ist nach Deiner Gesundheit, strenge<lb/>Dich durchaus nicht mehr so mit der Arbeit an und<lb/>lebe so gut wie möglich ich gönn es Dir von Herzen.<lb/>Solltest Du Alles Alles verzehren so würde ich Dich<lb/>meine liebe Mutter sicherlich nach meinen besten<lb/>Kräften unterstützen Du verdienst es gewiss<lb/>und glaub sicherlich, dass ich gewiss eben so viel an<lb/>Dich denke als Du an mich. Ich bitte Dich dringend<lb/>lebe so gut wie möglich, damit wenn mich der<lb/>liebe Gott glücklich aus den Schlachten und Krieg<lb/>heimführt ich Dich noch recht wohl und gesund wie⸗<lb/>der finden <add place="superlinear">
+                  <metamark/>möge</add>. Viel größer würde die Freude sein, wenn<lb/>mein lieber guter Vater in unserer Mitte dann<lb/>verweilte, aber gute Mutter wir sind in die <lb/>Trauer versetzt und können nichts dagegen machen.</p>
+            <lb/>
+            <p>Tröste Dich mit mir und hoffe auf ein Wiedersehen.</p>
+            <lb/>
+            <p>Dass ich vergangenen Winter kein so glänzendes Leben<lb/>hatte <del rendition="#s">könnt</del>kannst <del rendition="#s">ihr</del>Du wohl denken, denn die Krieges⸗<lb/>unruhen waren schon im vollen Gange an Arbeit<lb/>wenig zu denken, und daher must Du nicht denken<lb/>dass <del rendition="#s">mich</del>
+               <add place="superlinear">
+                  <metamark/>ich</add> noch in den alten Kleider steckte.<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+            </p>
+            <lb/>
+            <p>Ich bin noch in <hi rendition="#aq">St. Louis</hi> und muss die Reckruten exerziren<lb/>weis daher nicht gewiss wann ich wieder auf dem<lb/>Schlachtfelde erscheine. <hi rendition="#aq">St. Louis</hi> ist ganz mit Festungen<lb/>
+               <add place="superlinear">
+                  <metamark/>
+                  <del rendition="#s">umgeben</del>
+               </add>, man nennt es Forts, umgeben und es ist uns<lb/>das heißt unserer Batterie zugesagt den Winter<lb/>hier zu bleiben und die Festungen zu bedienen. Noch<lb/>eins liebe Mutter muss ich Dir mittheilen, im Falle<lb/>dass mich eine Kugel treffen sollte, so bist Du<lb/>berechtigt nach Verlauf von ungefähr 3 Jahren<lb/>100 Dollar und den rückständigen Gehalt auch<lb/>zu beziehen; es bekömmt ein jeder Officier 100<lb/>Dollar oder ungefähr 134 preußische Thaler extra<lb/>nach Beendigung des Krieges; spätestens in 3 Jahren.<lb/>Ich werde daher den Konsul Angelroth und Barth<lb/>von allen in Kenntniss setzen und sollten Briefe<lb/>an mich gesandt werden, so bitte ich dieselben<lb/>an denselben zu adressiren, Du bekom̃st <lb/>dort die beste Nachricht. Unsere Arme ist jetzt <lb/>ungefähr 3 bis 400,000 Mann stark ich gehöre zu der<lb/>Westarme die circa 80,000 Mann stark ist. Es <lb/>wird in diesen Tagen wohl eine Hauptschlacht ge⸗<lb/>schlagen werden, ich glaube nicht, dass ich mit brauche<lb/>indem wir hier noch zu viel mit den exerciren der<lb/>Reckruten beschäfftigt sind, und zugleich das Verspre⸗<lb/>chen haben, den Winter hier zu bleiben. Ich denke<lb/>der Krieg ist auch wohl im nächsten Frühjahr vor⸗<lb/>bei denn es kostet zu viel Geld. Wir sind hier bei <hi rendition="#aq">St.<lb/>Louis</hi> im Lager schlafen in Zelten und sind wohl und<lb/>munter. Ich habe ein kleines Feldbett und schlafe<lb/>wie ein König darauf. Das Fest welches Ihr in Braun⸗<lb/>schweig gefeirt habt, ist gewiss das 1000 jährige Jubile⸗<lb/>um das Bestehen der Stadt Braunschweig ich glaube wohl<lb/>dass dasselbe ein großartiges Fest gewesen ist.<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+            </p>
+            <lb/>
+            <p>Liebe Mutter so eben beim Schreiben dieses Briefes<lb/>bekomme ich Order nach den Forts N<hi rendition="#sup">o</hi> 7 u 8. mit<lb/>der Companie zu maschiren und dort das Lager zu<lb/>beziehen. Dieselben liegen <del rendition="#s">N</del>nördlich dicht bei <hi rendition="#aq">St. Louis</hi>
+               <lb/>und glaube ich, dass wir den Winter dort liegen bleiben.<lb/>Wir <del rendition="#s">lagen</del>liegen jetzt suedlich und werden mor⸗<lb/>genfrüh unser altes Lager verlassen und das neue<lb/>beziehen. Ich schreibe diese Zeilen heute Abend in unseren<lb/>Lager und besorge dieselben Morgenfrüh nach der<lb/>Post damit Du bald Nachricht bekömmst. Grüße<lb/>alle unsere Verwandte, Freunde und Bekannte<lb/>und überhaupt sage den Leuten meinen Dank<lb/>die Dir liebe Mutter hülfreich zur Seite ge⸗<lb/>standen haben und noch stehen. Sollte ich zum<lb/>Besuch kommen, was jedenfalls geschieht, so wer⸗<lb/>de ich meinen mündlichen Dank abstatten,<lb/>denn ich habe die feste Hoffnung, dass ich wohl<lb/>und munter aus dem Kriege heimkehren kann<lb/>und werde. Ich will hier einen Gesangvers für<lb/>uns beide anführen, der passend ist in unserer<lb/>jetzigen Lage derselbe heißt..</p>
+            <lb/>
+            <lg type="poem">
+               <l>Wer nur den lieben Gott läßt walten</l>
+               <lb/>
+               <l>Und hofft auf ihn alle Zeit,</l>
+               <lb/>
+               <l>Den wird er sicherlich erhalten</l>
+               <lb/>
+               <l>Im Kriege und in Traurigkeit u so weiter.</l>
+               <lb/>
+            </lg>
+            <p>Liebe theure beste Mutter sei tausend mal von<lb/>mir gegrüßt und geküßt, trage den harten Verlust<lb/>von meinen lieben besten guten Vater mit Geduld<lb/>und denke, dass wir uns Alle noch einmal Wieder⸗<lb/>sehen. Sollte ich nach den Kriegsplatz abmaschiren<lb/>
+               <add place="superlinear">
+                  <metamark/>müssen</add> so schreibe ich jedenfalls Nachricht. Grüße Meier</p>
+            <lb/>
+            <p>Ich muss schließen, das Papier ist al und die<lb/>Zeit spät Dein<lb/>
+               <space dim="horizontal"/>Dich ewig liebender Sohn<lb/> 
+               <hi rendition="#aq">
+                  <space dim="horizontal"/>Heinrich Lippelt</hi>
+            </p>
+            <lb/>
+            <p>Noch einen Gruß nach Schandelah und an<lb/>Vetter, Onkel und Ta<add place="superlinear">
+                  <metamark/>n</add>tte etc.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

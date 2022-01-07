@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 166: Friedrich A. Marx (Mannschaften), 28.05.1871, Ostmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Friedrich</surname>
+                  <forename>A. Marx</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 166 von Friedrich A. Marx, 28.05.1871.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 166: Friedrich A. Marx (Mannschaften), 28.05.1871, Ostmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Friedrich</surname>
+                        <forename>A. Marx</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1871-05-28">1871</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="166">
+            <head>
+               <supplied>SB-Nr. 166: Friedrich A. Marx (Mannschaften), <date when="1871-05-28">28.05.1871</date>, <choice>
+                     <abbr>OMD</abbr>
+                     <expan>Ostmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">le Pecq</hi>, den 28. <hi rendition="#aq">Mai</hi> 1871</p>
+            <lb/>
+            <p rendition="#et">Liebe Eltern!</p>
+            <lb/>
+            <p>Heute ist der erste Pfingstfeiertag und wir sind<lb/>eben vom Feldgottesdienst zurück welcher auf einer<lb/>Wiese bei <hi rendition="#aq">Chatou</hi> ½ Stunde von hier stattgefunden,<lb/>das Wetter ist trübe, regnerisch und ziemlich kühl.<lb/>Heute gegen Abend wird ein Spaziergang ins Freie<lb/>den ersten Feiertag beschließen und morgen<lb/>wird es nicht viel mehr werden. Es ist hier eine<lb/>ganz prachtvolle Gegend und unser Cantonnement<lb/>besteht fast aus lauter Villa’s und die dazugehörigen<lb/>Gärten, Parks und Anlagen. Im Anlegen von<lb/>Gärten, Parks und Terrassen sind die Franzosen doch<lb/>etwas weiter als wir dort, es kostet selbstverständ⸗<lb/>lich auch vieles Geld. Es giebt hier Gärten, welche<lb/>wirklich prächtig sind und denen z. B. der Schützenhaus⸗<lb/>garten zu <hi rendition="#aq">Leipzig</hi> und noch Andere lange nicht gleich⸗<lb/>kommt. Auf dem jenseitigen Seineufer liegt die<lb/>schöne und volkreiche Stadt <hi rendition="#aq">St. Germain</hi> mit der<lb/>berühmten Terasse, in welche wir aber unglücklicher<lb/>Weise nicht hineindürfen, weil die Seine die Demar⸗<lb/>kationslinie bildet und von uns sowohl wie von<lb/>dem französischen Militair nicht überschritten <lb/>
+               <space dim="horizontal"/>werden<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>werden darf.</p>
+            <lb/>
+            <p>Gestern Abend war ich zum Befehlsempfang beim<lb/>Regiment in <hi rendition="#aq">Montesson</hi> und erhielt auch unter<lb/>Anderem den Befehl, daß das Gardecorps am 2 Juni<lb/>per Eisenbahn in die Heimath befördert werden <lb/>soll, unser Corps (4<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">te</reg>
+               </choice>) besetzt die vom Gardecorps<lb/>innegehabte Stellung, die 14<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">te</reg>
+               </choice> Brigade wozu wir<lb/>gehören, besetzt <hi rendition="#aq">St. Denis</hi> am 1<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">ten</reg>
+               </choice> Juni und die <lb/>dazu gehörigen Forts, <hi rendition="#aq">Couronne De la Briche,<lb/>Double Couronne, Lunette de Stains, de l’Est,</hi>
+               <lb/>und <hi rendition="#aq">Aubervilliers</hi>, wo wir nun eigentlich hinkom̃en,<lb/>ist uns noch unbekannt und wird die betreffende<lb/>Dislocation erst am 31. dss. Mts.erfolgen. Wir werden<lb/>voraussichtlich in dieser Stellung verbleiben bis <hi rendition="#aq">De⸗<lb/>cember</hi>, wie man hört bis die 3. Milliarde gezahlt ist,<lb/>nun das schadet aber nicht, in <hi rendition="#aq">St. Denis</hi> wird uns<lb/>wenigstens die Zeit nicht so lang, es ist daselbst<lb/>ein reges Leben und Treiben, der Handel, überhaupt<lb/>sämmtliche Geschäfte sind im Schwunge, es giebt sehr<lb/>viele schöne und großartige Läden wie ich sie noch<lb/>nie gesehen habe, die Leipziger Waffe ist gegen den <lb/>jetzigen Verkehr in <hi rendition="#aq">St. Denis</hi> nur ein Schatten.</p>
+            <lb/>
+            <p>Von Rückkehr wird jetzt gar nicht mehr gesprochen, außer⸗<lb/>dem, was die Zeitungen schreiben, die steten Täuschungen<lb/>welche in denselben leider zu oft gestanden, lassen<lb/>mich jetzt nur das glauben, was ich aus den Befehlen<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>lese.</p>
+            <lb/>
+            <p>Vor Allem wünsche ich Euch gesunde und vergnügte<lb/>Feiertage und recht hübsches Wetter dazu, denn ohne<lb/>dieses kann man einen Festtag selten so feiern, <lb/>wie er gefeiert werden soll.</p>
+            <lb/>
+            <p>Ich verlebe Pfingsten, wie <del rendition="#s">ich</del>schon alle vorhergehenden<lb/>Feste, es geht so gleichgültig vorüber wie jeder andere<lb/>Tag, die lange Zeit in der man aus den wirklichen<lb/>menschlichen Leben herausist, hat einem schon wirklich<lb/>um den Tackt gebracht, oder vielmehr eine neue Lebens⸗<lb/>weise, in der man sich selbst überlassen ist, beigegeben.</p>
+            <lb/>
+            <p>Geduld ist aber eine Hauptsache, und darüber Kopfschmerzen<lb/>zu machen, würde der größte Unsinn sein, wir leben <lb/>immer in die Welt hinein bis über die Ohren und<lb/>wußten z. B. gestern Abend noch nicht, daß heute<lb/>Pfingsten war, oder vielmehr sein sollte und so<lb/>geht es uns in der Woche auch.</p>
+            <lb/>
+            <p>Hat Gustav noch nichts von sich hören lassen?</p>
+            <lb/>
+            <p>Heute habe ich die ersten Kirschen gegessen.</p>
+            <lb/>
+            <p rendition="#et">Ich verbleibe mit vielen Grüßen</p>
+            <lb/>
+            <p rendition="#et">Euer <lb/>
+               <hi rendition="#aq">
+                  <space dim="horizontal"/>August</hi>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

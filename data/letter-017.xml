@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 17: Friedrich Reinhard (Offizier), 22.11.1796, Westoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Friedrich</surname>
+                  <forename>Reinhard</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 17 von Friedrich Reinhard, 22.11.1796.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 17: Friedrich Reinhard (Offizier), 22.11.1796, Westoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Friedrich</surname>
+                        <forename>Reinhard</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1796-11-22">1796</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="17">
+            <head>
+               <supplied>SB-Nr. 17: Friedrich Reinhard (Offizier), <date when="1796-11-22">22.11.1796</date>, <choice>
+                     <abbr>WOD</abbr>
+                     <expan>Westoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Bester Bruder!</p>
+            <lb/>
+            <p>Wenn du auf dem <hi rendition="#aq">Kaukassus</hi> von <hi rendition="#aq">Féen</hi> bewacht, oder in den <lb/>Schlünden des Feuerspeienden Berges vergraben lägst, so sehn⸗<lb/>te ich dich ausser Stande, nichts von deinen befinden zu sagen. </p>
+            <lb/>
+            <p>da ich aber überzeugt bin, daß du unter natürlich lebenden <lb/>Menschen <hi rendition="#aq">Existirst</hi>, wo es weder an Zeit noch Gelegenheit dir fehlt <lb/>von deinem Befinden nur etwas zu sagen; so wunderts mich <lb/>doch, daß du ähnlich einer Kirchenmauß Stille bist: Oder <lb/>bist du etwa Böße auf mich?<space dim="horizontal"/>das kann sein, ich bin es <lb/>nicht im Geringsten auf dich!<space dim="horizontal"/>Nein Bruder keines wegs <lb/>verkenne ich dein gutes was du an unserer lieben Mutter <lb/>thust; der<metamark>_</metamark> der alles belohnt wird auch dich dafür <lb/>belohnen.</p>
+            <lb/>
+            <p>Ich komme so eben vom Schlachtfeld, oder dem Ort welchen <lb/>die Reichs Truppen verrathen haben, gestern abend <lb/>um ½ 8 Uhr fiengen wir an, die <hi rendition="#aq">Tranchéen</hi> zu eröfnen <lb/>auf unsern rechten Flügel gegen <hi rendition="#aq">Khel</hi>;<space dim="horizontal"/>die Feinde die <lb/>alles vorraus wissen, machten dagegen heunte früh um 6 uhr <lb/>einen Sturm am linken Flügel auf <add place="superlinear">
+                  <metamark/>unsere</add> bereits fertige <lb/>
+               <hi rendition="#aq">Circum Valutions Linie</hi>; wühtend war ihr Angrief, sie <lb/>Schlugen uns gänzlich aus unsern Verschanzungen, <del rendition="#s">aber</del>
+               <lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>nahmen uns 11 <hi rendition="#aq">Cannonen</hi> und eben so viel Pulver Karren, <lb/>und wenig hätte gefehlt wären wir gänzlich geschlagen worden. <lb/>aber 2 Schanzen die stärksten vom Prinz v <hi rendition="#aq">Oranien Commandirt</hi>, <lb/>thaten so langen wiederstand bis sich alles in Schlacht ordnung <lb/>versamelt hatten, Angebohrene Oestreichische Standhafftigkeit <lb/>Prinz <hi rendition="#aq">Carls</hi> und seiner Truppen Heldenmuth, <hi rendition="#aq">avancirten</hi> wieder, <lb/>kurz wir giengen mit dem <hi rendition="#aq">Bajonet</hi> auf den Feind <lb/>loß, schlugen ihm gänzlich zurück, jagten ihm wieder 5 <hi rendition="#aq">Canno⸗<lb/>nen</hi> und alle <hi rendition="#aq">Munitions</hi> Karren ab, und machten gegen <lb/>200 Gefangenen, Todte Franzosen liegen auf dem Schlacht⸗<lb/>feld als wenn sie hin gesäet worden wären; wenigstens <lb/>ist ihr Verlust 2000 Mann, mithin werden sie sich der⸗<lb/>gleichen Unterhaltungen vergehen lassen, wir arbeiten <lb/>wieder fort, und <hi rendition="#aq">Khel</hi> wird doch unser werden.</p>
+            <lb/>
+            <p>Seit 24<hi rendition="#sup #uu">t</hi> 
+               <hi rendition="#aq">July</hi> haben mich S.Maj. zum würklichen Haupt⸗<lb/>mann <hi rendition="#aq">avancirt</hi>, und zwar bey dem Hungarisch <hi rendition="#aq">Gyulayschen</hi> 
+               <lb/>Frey<hi rendition="#aq">Corps</hi>, meine Wünsche sind jezt erfült, aber doch <lb/>hatte ich bereits einen andern Plan, weil ich so lange <lb/>warten muste, da es nun endlich geschehen ist, so bin ich <lb/>vollkommen zufrieden; ich habe wieder einen Ehrenvollen <lb/>auftrag vom E:H <hi rendition="#aq">Carl</hi>, den ich gewiß Pünktlich aus⸗<lb/>führen werde, höchstens kanns mich den Todt kosten<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>ich könnte dir ihm sagen, aber du wirst mirs nicht übel nehmen<lb/>daß ichs erst nach der That erzählen werde.<space dim="horizontal"/>
+               <hi rendition="#aq">Württenber⸗<lb/>ger </hi>Soldaten ist nicht zu Trauen, sie <hi rendition="#aq">Correspondiren</hi> mit<lb/>unsern Feinden.</p>
+            <lb/>
+            <p>Empfehle deinen mitbewohner deines Haußes /: vermuthlich <lb/>wirst du noch im alten Quartier liegen /: mich aufs Schönste.<lb/>Ich küsse dich in Gedanken vielmal, und bleibe unver⸗<lb/>änderlich Dein</p>
+            <lb/>
+            <p rendition="#et">Dich liebender Bruder</p>
+            <lb/>
+            <p>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">Reinhardt</hi>
+            </p>
+            <lb/>
+            <p>Feldlager bey <hi rendition="#aq">Khel</hi> am 22.<hi rendition="#sup #uu">t</hi> 9br<space dim="horizontal"/>Hauptmann u es<lb/>
+               <space dim="horizontal"/>796<space dim="horizontal"/>
+               <hi rendition="#aq">Gyulay</hi>frey<hi rendition="#aq">Corps</hi> Obrst<lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">
+                  <space dim="horizontal"/>Bataillon</hi>
+            </p>
+            <lb/>
+            <p>P:S: Gelegenheitl. in OberEssling, alles Schönes</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

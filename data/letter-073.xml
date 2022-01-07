@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 73: Hubert Schoepffer sen. (Offizier), 09.11.1865, Ostmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Hubert</surname>
+                  <forename>Schoepffer sen.</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 73 von Hubert Schoepffer sen., 09.11.1865.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 73: Hubert Schoepffer sen. (Offizier), 09.11.1865, Ostmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Hubert</surname>
+                        <forename>Schoepffer sen.</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1865-11-09">1865</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="73">
+            <head>
+               <supplied>SB-Nr. 73: Hubert Schoepffer sen. (Offizier), <date when="1865-11-09">09.11.1865</date>, <choice>
+                     <abbr>OMD</abbr>
+                     <expan>Ostmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Berlin</hi> d. 9. Nov. 65.</p>
+            <lb/>
+            <p rendition="#et">Lieber Papa, </p>
+            <lb/>
+            <p>Diesen Brief als Einlage zu den Gewehren,<lb/>nämlich der Büchsflinte u. der <hi rendition="#aq">Tetschinka</hi>
+               <lb/>nebst sämmtlichem Zubehör bis auf die Kugelform<lb/>zur F. die mir auf unerklärliche Weise abhan⸗<lb/>den gekom̃en ist, so daß ich sie trotz allem Kra⸗<lb/>mens noch nicht ausfindig gemacht habe. In Be⸗<lb/>treff der Büchsflinte will ich Dir noch bemerken,<lb/>daß mir eine kleine Schraube außen an der<lb/>Versicherung des Flintenlaufes einmal bei der<lb/>Jagd verloren gegangen ist (in den letzten<lb/>Tagen des <hi rendition="#aq">September’s</hi> in <hi rendition="#aq">Loedderitz</hi> in einem<lb/>Theile des Revieres, wo die Bauern rings he⸗<lb/>rum kürzlich die Jagd <add place="superlinear">
+                  <metamark/>gefochten</add> hatten, und wir an<lb/>mehreren Tagen alles, was Haare und Federn<lb/>hatte bei kleinen Klapper<gap reason="illegible"/> 
+               <gap reason="illegible"/> todtschossen:<lb/>ich einige Hasen, Rebhühner u. A. Rink <add place="superlinear">
+                  <metamark/>u. 1 in Compagnie</add> (mit Kugel)<lb/>Auf Rehböcke u Rothwild habe ich nicht gepürscht da ich<lb/>schon zu früh abreisen mußte.) Uebrigens habe<lb/>ich zur Büchsflinte immer ganz gewöhnliche dünne<lb/>Parchentpflaster genom̃en, da in den seidenen<lb/>
+               <note place="left">Als Emballage schicke ich meine alten Betten bezüge und einen überflüssigen<lb/>Rock mit<metamark>_</metamark> und einige <add place="superlinear">
+                     <metamark/>fast</add> unbrauchbare Hemden mit, die durch einen neuen<lb/>Kragen vielleicht wieder zu restauriren wären.</note>
+               <lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>der Talg nicht so gut haftete, und sie deßhalb auch<lb/>nicht besonders leicht heruntergingen; da ich<lb/>nach 20-25 Schuß die Büchsel immer aus gewa⸗<lb/>schen habe, so konnte ich die Kugel mit Parchent⸗<lb/>pflaster immer ganz bequem mit dem Lade⸗<lb/>stocke herunterstoßen. Uebrigens habe ich<lb/>gefunden, daß ich bei 80 – 100 Schritt den Spiegel<lb/>(N<hi rendition="#sup #uu">o</hi>. 12 oder 11 u 12) kaum aufsitzen lassen durfte<lb/>wenn der Schuß nicht etwas hoch sitzen sollte, na⸗<lb/>mentlich aus freier Hand, wo ich zuletzt sehr<lb/>gut u. regelmäßig so schoß, wenn ich ca 2 un⸗<lb/>ter den Spiegel hielt. Dies kann indeß auch<lb/>an dem besseren Pulver liegen, daß ich<lb/>hier hatte, denn ich mußte auch bei der<lb/>kleinen Büchse etwas abbrechen von den 2 ½ Ohr.</p>
+            <lb/>
+            <p>Die Patronenmaschine paßt nicht zum <lb/>Flintenrohre, übrigens hat man auch bei<lb/>der Büchsflinte Kartuschten nicht so nöthig,<lb/>da man im Walde ja nicht so rasch zu laden<lb/>braucht u. das Rohr ungeheuer scharf schießt<lb/>u. gut zusam̃enhält. Ich habe bei den oben<lb/>erwähnten Treibjagden mit grobem Gersen⸗<lb/>
+               <space dim="horizontal"/>schrote<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>N<hi rendition="#sup #uu">o</hi> III 3 einzelne Hühner ohne eine<lb/>zu fehlen, auf ungeheure Distanzen herun⸗<lb/>tergeholt, wobei freilich das eine nur 1<lb/>Korn mitten durch die Brust zu haben schien.<lb/>Die anderen jedoch mehre auf 50 – 60 Schritt</p>
+            <lb/>
+            <p>Uebrigens habe ich in der letzten Zeit nach <hi rendition="#aq">Theuer⸗<lb/>kauf’s</hi> Regel, ganz anders geladen, nämlich<lb/>sehrviel Pulver u. sehr wenig Schrot u. die<lb/>ziemlich dicht schließenden Propfen nur lose aufgesetzt<lb/>nämlich nach meinem Gradmaß bei der Doppel⸗<lb/>flinte 15 Grd Pulver u. ca 8 – 10 Grd Schrot<lb/>N<hi rendition="#sup #uu">o</hi>. 9 auf Hühner, das dann bis auf 50 <add place="superlinear">
+                  <metamark/>– 60</add> Schritt<lb/>das noch sehr gut deckt u. auch der größeren<lb/>Pulvermenge wegen noch sehrgut durchschlägt<supplied resp="#CT">.</supplied>
+               <lb/>
+               <hi rendition="#aq">Theuerkauf</hi> u. ich machten <add place="superlinear">
+                  <metamark/>auf diese Art</add> bei den letzten<lb/>Hühnerjagden in <hi rendition="#aq">Aken</hi>, wobei ich bis auf 97<lb/>Hühner gekom̃en bin, immer die erstaunlich⸗<lb/>sten Schüsse, ich einmal mehrere Hühner bis<lb/>auf 70 u 80 Schritt mit den feinen Schroten<lb/>und eine Bekassine noch weiter.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Wenn du mit der Büchsflinte auf diese<lb/>Art u. mit N<hi rendition="#sup #uu">o</hi>. 3 od. 4 geladen hast, muß<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>meiner Meinung nach noch auf 50 – 60 Schritt<lb/>fast jeder Hase oder Fuchs stürzen u ein Reh <lb/>im Nothfall (wenn man nicht mit der Kugel<lb/>schießen kann) gleichfalls. Ich habe der Büchs⸗<lb/>flinte, trotzdem sie etwas schwer ist auf Wald⸗<lb/>jagden immer sehr gern geführt, da sie auch<lb/>sehr gut liegt u. ich immer sehr rasch fertig<lb/>wurde.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Wegen der notariellen Verhandlung<lb/>sagte mir <hi rendition="#aq">H. Hühne</hi>, daß die von dir ge⸗<lb/>machten Vorschläge genügend sein würden,<lb/>soviel er davon wüßte, Graf <hi rendition="#aq">Dohna</hi> wird<lb/>wohl weiter keine Umstände machen, die<lb/>Hauptsache ist, daß ich bald notirt werde,<lb/>etwa fehlende Nachweise unwichtiger Art<lb/>können ja im̃er noch nachgeschickt werden<lb/>
+               <space dim="horizontal"/>Auf der Universität habe ich noch nicht<lb/>belegt, da ich mir die betreffenden <add place="superlinear">
+                  <metamark/>Kunden</add> erst Alle<lb/>ein Paarmal anhören wollte, um sicher<lb/>zu sein, daß mir ihre Vorlesungen den<lb/>Winter interressanten Stoff genug bieten<lb/>würden, um ihnen meine knappe Zeit zu<lb/>
+               <space dim="horizontal"/>widmen<lb/>
+               <fw type="folNum" place="bottom">[4]</fw>
+               <lb/>und bin denn auch zu der Einsicht gekom̃en,<lb/>daß ich neben den 4 Stunden Nationalökonomie<lb/>nur 3 – 4 wochentl 1stündige <hi rendition="#aq">Publika</hi> besuchen<lb/>will; die mir gerade für die allgemeine<lb/>Bildung am anregendsten von denen mir<lb/>passenden scheinen; es sind dies 1 Stunde<lb/>bei <hi rendition="#aq #u">Dührnig</hi> über den <hi rendition="#aq">amerikanischen </hi>
+               <lb/>Nationalökonomen <hi rendition="#aq">Carey</hi> u 1 Stunde bei<lb/>demselben über die Grenzen der Philosophie<lb/>u. Dichtung mit besond. Rücksicht auf <hi rendition="#aq">Schopen</hi>⸗<lb/>
+               <hi rendition="#aq">hauer</hi> u <hi rendition="#aq">Byron</hi>
+               <metamark>_</metamark> diese beiden schon da⸗<lb/>rum, weil mir Dührnig bis jetzt am besten<lb/>gefallen<metamark>_</metamark> er ist von seiner Sache so durch⸗<lb/>drungen, wie keiner der andern Herren,<lb/>bei denen ich bis jetzt gewesen bin und läßt<lb/>sich nie auf weitschweifige, den Vortrag nur<lb/>undeutlich machende Wortklaubereien <hi rendition="#aq">etc</hi>.<lb/>ein, sondern bringt Alles allgemein verständlich<lb/>mit schlagender Logik vor. Dann möchte ich<lb/>nur bei <hi rendition="#aq #u">Gruppe</hi> über <hi rendition="#aq">griechische</hi> Philosophie u<lb/>bei <hi rendition="#aq #u">Werder</hi>, der erst Ende des Monats beginnt, über<lb/>dramatische Kunst hören, da beides sehr bildende<lb/>u. anengende Themata sind und mich auch nicht von<lb/>
+               <space dim="horizontal"/>meinen<lb/>
+               <fw type="folNum" place="bottom">[5]</fw>
+               <lb/>andern Beschäftigungen abziehen, liest<lb/>man hin u. wieder etwas Höheres, so kann<lb/>man immer im Zusam̃enhange u klaren<lb/>Verfolgung der Vorlesung bleiben.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p rendition="#et">Unsere militairische Ausbildung schreitet<lb/>allmählich weiter; langsam zwar<metamark>_</metamark> aber<lb/>sicher <add place="superlinear">
+                  <metamark/>vor</add>
+               <metamark>_</metamark> eine Abwechselung hatten wir eines⸗<lb/>Tages, als wir Freiwilligen mit zu einer<lb/>Felddienstübung com̃andirt wurden, um<lb/>einen Begriff von Tiralliren, Angriffen<lb/>versteckten Märschen, Marschordnung <hi rendition="#aq">etc</hi>.<lb/>zu bekom̃en. Wir marschirten auf <hi rendition="#aq">Tegel</hi>
+               <lb/>zu in eine hüglige u bewaldete Gegend;<lb/>die Brodbeutel mit kräftigem Frühstück<lb/>u. der gehörig gefüllten Schnaps⸗buddel verse⸗<lb/>hen, die bei allen schon vor dem Nachhause⸗<lb/>marschiren geleert war. Uebrigens konnten <lb/>wir uns dabei ziemlich gehen lassen,<metamark>_</metamark> schon<lb/>in der Vorstadt durfte geraucht und ohne<lb/>Tritt marschirt werden<metamark>_</metamark> vor der Stadt konn⸗<lb/>te Gesungen und erzählt werden ohne sich<lb/>an die Offiziere zu kehren<metamark>_</metamark> allerdings sehr<lb/>harmlose Vergünstigungen, die jedoch bei<lb/>
+               <fw type="folNum" place="bottom">[6]</fw>
+               <lb/>uns Allen doch schon eine sehr muntere<lb/>Stimmung hervorriefen, da wir bis jetzt <lb/>täglich nur die steife Disciplin kennen<lb/>gelernt hatten.<metamark>_</metamark> Ende voriger Woche<lb/>wurden wir Rekruten übrigens auch<lb/>sämmtlich geimpft und erhielten die je⸗<lb/>nigen, bei denen die Pocken gekom̃en<lb/>sind, von gestern ab bis auf Weiteres<lb/>dienstfrei<metamark>_</metamark> auch ich gehöre zu den Glück⸗<lb/>lichen, da meine Blattern schon nach 2 Tagen<lb/>so groß, wie Schrotkörner N<hi rendition="#sup #uu">o</hi> 4 waren.<lb/>Zerstreuenden Vergnügungen bin ich bis<lb/>jetzt noch gar nicht wieder nachgegangen,<lb/>dagegen habe ich mir mit <hi rendition="#aq">Feschke</hi> zusam̃en <lb/>ein Piano bis Weihnachten gemiethet, um<lb/>die mir hier noch gebotene Gelegenheit zu<lb/>benutzen, wenigstens die leichteren, ausdrucks⸗<lb/>vollen classischen Sachen etwas <add place="superlinear">
+                  <metamark/>spielen zu</add> können,<lb/>mehr jedoch um meinen Musiksinn mehr<lb/>auszubilden, was ich dann schließlich, da<lb/>von Tausenden doch nicht einer wahrer<lb/>Virtuose wird, für das höhere halte;<lb/>ich habe auf <hi rendition="#aq">Tobe’s </hi>
+               <add place="superlinear">
+                  <metamark/>des Bauführer’s</add> Rath, der sehr fertig spielt<lb/>
+               <fw type="folNum" place="bottom">[7]</fw>
+               <lb/>leichte <hi rendition="#aq">Schuhmanns</hi>’sche Sachen geborgt, die<lb/>mir auch Onkel <hi rendition="#aq">Bodog </hi>empfahl, die gerade<lb/>keine eminente Fingerfertigkeit erfordern<lb/>aber sehr im Vortrag u. Anschlag bilden und<lb/>prächtiges Melodien u Harmonien reichthum<lb/>haben. Ferner hat er mir, namentlich <add place="superlinear">
+                  <metamark/>auch</add> zur<lb/>Ausbildung der Fingerfertigkeit, ein Heft <hi rendition="#aq">Bach</hi>⸗<lb/>scher Sachen geborgt, der sein Lieblingscomponist<lb/>ist, als der tiefsinnigste u objektiveste; <hi rendition="#aq">Beet</hi>⸗<lb/>
+               <hi rendition="#aq">hoven</hi> ist ihm wegen seiner oft krankhaften<lb/>Richtung nicht objektiv genug u. <hi rendition="#aq">Mozart</hi> vertritt<lb/>nur ein Lebenselement, wenn auch dieses<lb/>in nie zu erreichender Meisterschaft.<metamark>_</metamark> Aber<lb/>Bach ist sehr schwer zugänglich, <del rendition="#s">spricht</del>sprach<lb/>mich auch im Anfange nicht besonders an und<lb/>doch wird schon blos des reinen <add place="superlinear">
+                  <metamark/>allgem.</add> Kunstwerthes<lb/>wegen seine <hi rendition="#aq">Matthaeus</hi>-passion für das höchste<lb/>gehalten, was außer der <hi rendition="#aq">Trilogie Agamemnon</hi>
+               <lb/>von <hi rendition="#aq">Aeschylos</hi>: als großartigstes Produkt<lb/>des menschlichen Geistes hervorgegangen ist.<lb/>wofür mir <hi rendition="#aq">Tobe</hi> verschiedene Beläge der be⸗<lb/>rühmten kritischen Werken zeigte.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Doch wozu alle die salbadernde Schreiberei<lb/>da sich doch im Kurzem alles viel besser</p>
+            <lb/>
+            <note place="left">
+               <p>mündlich abthun läßt, ich habe immer mehr Lust ausführlich zu schrei⸗<lb/>ben, wenn ich <add place="superlinear">
+                     <metamark/>noch</add> eine lange Trenung vor mir habe;<metamark>_</metamark> unter den jetzigen Verhält⸗<lb/>nissen kom̃t man nur zu abgerissenen Einzelheiten.<metamark>_</metamark> Mit den herzlichsten Grüßen</p>
+               <lb/>
+               <p rendition="#et">Euer <hi rendition="#aq">Hubert</hi>
+               </p>
+            </note>
+            <lb/>
+            <fw type="folNum" place="bottom">[8]</fw> 
+         </div>
+      </body>
+   </text>
+</TEI>

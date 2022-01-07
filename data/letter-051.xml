@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 51: Wilhelm von Tegetthoff (Offizier), 14.01.1849, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Wilhelm</surname>
+                  <forename>von Tegetthoff</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 51 von Wilhelm von Tegetthoff, 14.01.1849.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 51: Wilhelm von Tegetthoff (Offizier), 14.01.1849, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Wilhelm</surname>
+                        <forename>von Tegetthoff</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1849-01-14">1849</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="51">
+            <head>
+               <supplied>SB-Nr. 51: Wilhelm von Tegetthoff (Offizier), <date when="1849-01-14">14.01.1849</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Triest den 14<hi rendition="#sup #uu">ten</hi> Jänner 1849.</p>
+            <lb/>
+            <p rendition="#et">Theuerste Mutter</p>
+            <lb/>
+            <p rendition="#et">Vergib mir, wenn ich dir so spät deinen<lb/>letzten theuren Brief beantworte, doch<lb/>ich hatte jetzt so viel zu thun, daß ich<lb/>nicht dazu kommen konnte.</p>
+            <lb/>
+            <p rendition="#et">Zum verflossenen Beginne des<lb/>neuen Jahres wünsche ich dir<lb/>Alles erdenkliche Gute, Gott erhal⸗<lb/>te dich stets gesund und zufrie⸗<lb/>den und wolle die Stunde des Wie⸗<lb/>dersehens nicht ferne sein<lb/>lassen. Jetzt sind schon mehr<lb/>als 8. lange Jahre verflossen, seit<lb/>ich von dir Abschied nehmen mußte<lb/>und noch immer sehe ich keine<lb/>Möglichkeit vor mir, bald<lb/>auf Urlaub kommen zu <lb/>können, denn bei der Marine<lb/>sind jetzt so wenig Officiere<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>daß, wenn welche auf den Schiffen<lb/>erkranken, man keine hat<lb/>um sie zu ersetzen.</p>
+            <lb/>
+            <p>Daß Admiral <hi rendition="#aq">Martini </hi>wahrschein⸗<lb/>lich bald von der Marine weg⸗<lb/>kommt wirst Du vielleicht schon<lb/>vernommen haben, es stand<lb/>auch gestern im „<hi rendition="#aq">Lloyd</hi>“ auf eine<lb/>für ganz und gar nicht schmei⸗<lb/>chelhafte Art. Man spricht,<lb/>wir sollen einen Ausländer,<metamark>_</metamark>
+               <lb/>einen Engländer oder Holländer<metamark>_</metamark>
+               <lb/>bekommen, auf jeden Fall<lb/>gehört auf diesen Platz ein<lb/>tüchtiger Seemann, besonders<lb/>in den jetzigen Augenblicken, wo<lb/>das Corps beinahe aufgelöst war<lb/>und schnelle Herstellung dessel⸗<lb/>ben von großer Wichtigkeit<lb/>sein kann.</p>
+            <lb/>
+            <p>Daß Albrecht Lust zur Marine<lb/>hat, hat mich sehr gefreut,<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>ich hoffe er wird sie behalten,<lb/>wie es scheint, werden für eini⸗<lb/>ge Zeit, günstige Aussichten<lb/>bei diesen Corps sein, und<lb/>es würde mir sehr angenehm<lb/>sein, wenn ich in einem Corps<lb/>mit ihm dienen könnte.</p>
+            <lb/>
+            <p rendition="#et">Der Winter ist hier sehr rauh.<lb/>Schnee haben wir bisher sehr we⸗<lb/>nig gehabt u doch plagen uns<lb/>immer die <hi rendition="#aq">Bora</hi>-Winde, sie<lb/>sind oft so stark daß es<lb/>alle Anstrengung braucht, um<lb/>gen den Wind gehen zu können.</p>
+            <lb/>
+            <p>Wie gehtes denn der verehrten<lb/>Großmutter? Waren Onkel<lb/>Josef, und Tante <hi rendition="#aq">Wallburg</hi> in<lb/>Gratz?</p>
+            <lb/>
+            <p>Wie gerne würde ich auch diese<lb/>Reise machen!</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+            <p>Leb’ dann wohl, beste<metamark>_</metamark> theuer⸗<lb/>ste Mutter, ich küsse dir<lb/>im Geiste, vielmals die<lb/>Hände und verbleibe</p>
+            <lb/>
+            <p rendition="#et">Dein<lb/>
+               <space dim="horizontal"/>dankbarer Sohn<lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">Wilhelm</hi>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

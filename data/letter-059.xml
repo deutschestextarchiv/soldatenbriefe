@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 59: Carl Wicke (Mannschaften), 22.06.1849, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Carl</surname>
+                  <forename>Wicke</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 59 von Carl Wicke, 22.06.1849.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 59: Carl Wicke (Mannschaften), 22.06.1849, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Carl</surname>
+                        <forename>Wicke</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1849-06-22">1849</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="59">
+            <head>
+               <supplied>SB-Nr. 59: Carl Wicke (Mannschaften), <date when="1849-06-22">22.06.1849</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Stavgaard</hi> den 2<hi rendition="#uu">2</hi>
+               <hi rendition="#sup">ten</hi> Juni 1849</p>
+            <lb/>
+            <p>Liebe Schwester!</p>
+            <lb/>
+            <p>So eben erhielte ich deinen mir so lieben Brief welchen ich<lb/>schon erwartet hatte, und sehe daraus das du noch und alle<lb/>recht wohl sind welches mich recht Freut, auch ich bin noch recht<lb/>Gesund und Munter, Liebe Schwester du wirst doch wohl über<lb/>diese eben angeführte Geschichte gelesen haben, jetzt kanst du dich<lb/>dieses Bildes dich deutlicher erklären wie da hergeht wo Krieg ist<lb/>da wo an den Hause die par Buchstaben stehen das sind die Dänen<lb/>und die andren das sind die Holsteiner das ist den Tag ein<lb/>sehr heißer Kampf gewesen, schade das solches hir nicht passiert<lb/>hir ist es angenemer Posten stehen den hir herscht die größte<lb/>eintracht, zwischen uns und den Dänen, den es war an 2<hi rendition="#uu">0</hi>
+               <hi rendition="#sup">ten</hi>
+               <lb/>d. M. da waren wir auf Feldwache da sind viele von uns nach<lb/>den Dänen zum Besuch hin gewesen und mit ihnen Rum<lb/>und Schnaps zusammen trinken <del rendition="#s">T</del>taten<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>und wen sie zurück kamen so hatten sie sich ziemlich<lb/>Gütlich gethan als ich das erfahren that, so ging ich und<lb/>noch merere mit gefülten Flaschen auch dahin, und ich kan<lb/>es mit Warheit schreiben das die Leute sehr Freundlich waren<lb/>aber doch eine gewisse Angst vor uns Schwarzen hatten aber<lb/>welche Freude wen sie aus unseren Flaschen tranken und<lb/>wen wir wieder weggingen dan Schwenkten sie ihre<lb/>Mützen oder Schacko und Jubelten, den es wird hir auch jetzt<lb/>sehr stark von Frieden gesprochen, und bei ihnen dergleich<lb/>darum waren sie so erfreut wen sie von uns einen<lb/>sprechen konten sonst ist hir nichts neues als das alle<lb/>Holzminder noch Gesund und Munter wir haben recht<lb/>gelacht über die Dummen Gerüchte die dort bei euch herum<lb/>laufen. Ich gehe morgen zum Heiligen Abendmale heinrich Kechl<lb/>F Boht auch<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+            </p>
+            <lb/>
+            <p>Liebe Schwester ich habe eine Bitte an dich, wilst Du so gut sein<lb/>und schicke mir doch 1 ℔ Taback den dieser ist theuer und schlecht <unclear reason="illegible" cert="high" resp="#MN">aber</unclear>
+               <lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">nim</unclear> ihn Bock und grüße sie von mich. Liebe Schwester was macht<lb/>den Carl Dauer hatt er schon einen kleinen Ableger oder nicht<lb/>und was macht Schwager Theodor ist den mein <unclear reason="illegible" cert="high" resp="#MN">Gustfetter</unclear>
+               <lb/>Munter auch Mutter und alle. Liebe Schwester das Porto ist frei<lb/>wen Du mir den Taback schicken wilst, es werden wohl 4-6<lb/>℔ frei sein, und auch schicke ich dich meine Adresse so wie<lb/>richtig ist. Viele herzliche Grüße an alle Freunde und<lb/>Freundinnen Verwanten Bekanten u. v.m. hirmit<lb/>schließt dein Bruder der dich recht liebt und viel von dich hält<lb/>
+               <space dim="horizontal"/>Carl Wicke</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

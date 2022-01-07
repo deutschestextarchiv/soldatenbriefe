@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 24: Stephan Wahlen (Mannschaften), 17.07.1811, Westmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Stephan</surname>
+                  <forename>Wahlen</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 24 von Stephan Wahlen, 17.07.1811.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 24: Stephan Wahlen (Mannschaften), 17.07.1811, Westmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Stephan</surname>
+                        <forename>Wahlen</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1811-07-17">1811</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="24">
+            <head>
+               <supplied>SB-Nr. 24: Stephan Wahlen (Mannschaften), <date when="1811-07-17">17.07.1811</date>, <choice>
+                     <abbr>WMD</abbr>
+                     <expan>Westmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Calais</hi> den 17<hi rendition="#sup #uu">en</hi> 
+               <hi rendition="#aq">Jullie</hi> 
+               <hi rendition="#u">1811</hi>
+            </p>
+            <lb/>
+            <p rendition="#et">Liebste Eltern Schwester und Bruder,</p>
+            <lb/>
+            <p>Ich grüße euch alle vielmahl, ich hoffe ich werde mit meinem Schreiben<lb/>bey guter Gesundheit antreffen, was mich anbelang bin ich noch<lb/>gesund, ich muß euch zuwissen thuen, das ich euch den 1<hi rendition="#sup #uu">en</hi> 
+               <hi rendition="#aq">Junie</hi>
+               <lb/>zwey Briefe ihneinander geschrieben habe, und von keinem Antwort<lb/>darauf bekommen, den ihn 13 Tage kan doch ein brief hin und <lb/>her lauffen, den es ist nicht weiter als 110 stunden, und jetz<lb/>muß ich euch noch einmahl schreiben, um Antword zu erhalten,<lb/>ich kann euch nicht viel neuigkeiten schreiben, als das es bey<lb/>uns Soldaten sehr schlägt gehet, den schleg zuessen bekommen<lb/>mir, morgens um 10 Uhr, bekomme mir was Zube und ein wenig<lb/>stinkig Fleisch, vereck Fleisch wo bisweillen die Madern in<lb/>lauffen, und Nachtmitags um 5 Uhr, was Grundbierren, und<lb/>den Tag ein halb Kamisbrod nemlich 1½ ℔, und so lange als mir<lb/>in die Kasarne seyn, hab ich noch nichts mehr bekommen als<lb/>13 stbr, und die Remme und schnalle an unsere Säcke und<lb/>Kamasche habe mir alle bezahlen müßen, und da kan unmöglich<lb/>
+               <add place="superlinear">
+                  <metamark/>eine</add> von leben, und alles was man brauch, ist noch einmahl so <lb/>Theuer als bey uns, wenn man für 3 stbr brod da kauft,<lb/>das ist nicht mehr als bey uns für 1½ stbr, das Bier kostet die<lb/>Maaß 10 und 12 stbr. der Wein die Maaß 60 und 80 stbr, und da darf<lb/>man nich mehr antenken, als Regenwasser müße mir trinken,<lb/>die Fische sind am am Wohlfeilstn, und es sinde da, die seyn so groß<lb/>als ein Stückfässige Bodem, und ganz blat, und der kostet eine<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>25 bis 30 stbr, und ihre drey könne 8 Tage davon essen, und die<lb/>Leute fangen alle Tage ein oft 20 bis 30 Schieffge foll und die<lb/>schieken sie durch ganz Frankreich.</p>
+            <lb/>
+            <p>Den Tag müssen mir 6 stunden <hi rendition="#aq">exicihren</hi>, und alle 3 Tage auf<lb/>die Nacht langs das Wehr, und da fang man lauß genug<lb/>das Soldaten Leben ist mir so verleyd, das ich mich selber<lb/>leyd anthuen könnte, und ich bleibe gewiss kein 4 Jahr dabey,<lb/>dan muß ich Todt sein, oder in einem andern Land, oder zu<lb/>Haus wieder, dan es kommt keine davon bis er krum<lb/>und lahm zerschossen ist, und mir werden nich lang<lb/>mehr in <hi rendition="#aq">Calais</hi> mehr bleiben, so werde wir fleichts nach<lb/>
+               <hi rendition="#aq">Bollo</hi> maschieren in den Kampf, oder nach Russeland und<lb/>jehen die <hi rendition="#aq">Breussen, </hi>und das ist mihr recht, das ich entweder<lb/>vom leben kommen, oder wieder mit eine Blesurre nach<lb/>Hauße, und mein <add place="superlinear">
+                  <metamark/>Geld</add> ist alle auf und kein stbr habe ich<lb/>unnütz ausgegeben, den auf die Reise hat man durch ganz<lb/>Frankreich von den Leute nichts bekommen, nicht einmahl<lb/>eine Erdeppel in die Suppe, und drum hätte ich gern<lb/>was Geld geschiekt nach euhre beliebe, damit ich was auf<lb/>die Reisse habe, es könnte fleichst das letzte sein.<lb/>Und schreibet mir nur gleich zurück und saumet keine<lb/>Tag dabey dan mir sind nich sicher mehr, das mir da bleibe<lb/>werde, und schreibet mir auch was neuigkeiten,<lb/>und auch was von unserm zuch, oft das Reserffe bald<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>hinweg muß, und benennt mir sie mit dem Nahmen, und<lb/>wie hoch es in die Nummer kommt.</p>
+            <lb/>
+            <p>Ich grüße euch vielmahl und grüßet mir alle verwande<lb/>und bekannte – und alle Kundschaffte und am erste<lb/>die Kendrichts und den Bittersleutte und auch der Karppe</p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Christian</hi>
+            </p>
+            <lb/>
+            <p rendition="#et">Ich verbleibe euhre gethreue Sohn<lb/>Machet mir den Brief auf dem<space dim="horizontal"/>
+               <hi rendition="#aq">Stephan Wahlen</hi>
+               <lb/>Posthaus frey das kostet 5 stbr<lb/>Sonst kostet er mich 40 stbr.</p>
+            <lb/>
+            <p rendition="#et">dieses ist meine <hi rendition="#aq">Adresse</hi>
+               <lb/>	
+               <space dim="horizontal"/>Á<lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">Monsieur Monsieur<lb/>
+                  <space dim="horizontal"/>Stephan Wahlen Soldat<lb/>
+                  <space dim="horizontal"/>an 36</hi>
+               <hi rendition="#aq #sup">e</hi>
+               <hi rendition="#aq"> Regiment de</hi>
+               <lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">Ligue aú 4</hi>
+               <hi rendition="#aq #sup">e </hi>
+               <hi rendition="#aq">Bataillon<lb/>
+                  <space dim="horizontal"/>dans la quatrieme Compagnie</hi>
+               <lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">Dephoi á Callais</hi>
+            </p>
+            <lb/>
+            <note place="mBottom">Ich haben was in meinem<lb/>Sinne, das werde ich <lb/>euch <del rendition="#s">die</del>
+               <add place="superlinear">
+                  <metamark/>im</add> nächste Brif schreibe</note>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+            <p>wen ihr die <hi rendition="#aq">adresse </hi>nicht schreiben<lb/>könnet so lasset sie schreiben<lb/>der <hi rendition="#aq">Frozosch</hi> verstehet<lb/>
+ihnvermehret euch wo ich die<lb/>Brief aufschreiben, nehmlich<lb/>an den Ostellr oder <hi rendition="#aq">Comisser</hi>
+               <lb/>dan kostet er euch keine<lb/>Danstbort und schreibet mir<lb/>den ihre <hi rendition="#aq">Adresse</hi>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

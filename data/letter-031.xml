@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 31: Johann H. T. von Strombeck (Offizier), 10.05.1813, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Johann</surname>
+                  <forename>H. T. von Strombeck</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 31 von Johann H. T. von Strombeck, 10.05.1813.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 31: Johann H. T. von Strombeck (Offizier), 10.05.1813, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Johann</surname>
+                        <forename>H. T. von Strombeck</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1813-05-10">1813</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="31">
+            <head>
+               <supplied>SB-Nr. 31: Johann H. T. von Strombeck (Offizier), <date when="1813-05-10">10.05.1813</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Nimwegen d: 10t. Mai 13.</p>
+            <lb/>
+            <p>Meine geliebte Lisette!</p>
+            <lb/>
+            <p>Heute morgen 10 Uhr bin ich mit meinen Battal. hir in Nimwegen gesund und begnügt<lb/>angerückt, morgen haben wir hir Rasttag und bin daher heute frey von allen Dienst, nun<lb/>wolte ich gleich die Zeit benuzen um mit Dir meine geliebte Frau etwas zu<lb/>plaudern.</p>
+            <lb/>
+            <p>Von meinem Marsch kan ich Dir nicht viel erzählen, Du bist ja selbst schon<lb/>viel auf Reisen gewesen, und weist daher wie es in der Welt aussiehet, die<lb/>Gegenden wo wir durchgekom̃en sind, vorzüglich von Louisbovy bis hir ist<lb/>über alle Begriffe schön, ein Bus Schloß verdrängt das andere, die ganze<lb/>Choose ist mit 4 doppelten Reihen Birken Bäumen eingefast, wo wieder die Prächtigste<lb/>Gärten hinter sind, heute morgen bat mich ein Kaufman der ein Bus Schloß<lb/>zwischen Arnheim und Nimwegen hatte zum Frühstück, von dieser Elegance kann<lb/>man sich keinen Begrif machen, das habe ich mich fest vorgenom̃en, das wen ich zurück kom̃e<lb/>dein Gartn eben so soll eingerichtet werden, wen ich nur denselben eben so breit machen<lb/>könte wie er hoch ist.</p>
+            <lb/>
+            <p rendition="#et">Heute als den 12t Mai bin ich erst in Stande diesen Brief zu Vollenden<lb/>den in Nimwegen wo ich glaubte recht Zeit zu haben wurde ich alle Augenblick gestört,<lb/>und den rückligen Resttag, hatte das Visiten geben und machen kein Ende, den<lb/>bis den Nachmitag halb 3 Uhr war mein Rücken nicht grade geworden, und von<lb/>3 Uhr an, hatten wir das Glück für die dortige Generalite die Revue bis 7 Uhr<lb/>zu passiren, es wurden uns sehr große Compl. gemacht, indes wir hatten solche <unclear reason="illegible" cert="high" resp="#MN">gewünschet</unclear>.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[1]</fw>
+            <p>So Fürstlich wie ich in Nimwegen geweckt bin aus meinem tiefen Schlaf bin ich noch<lb/>nie aufgeweckt, den es war ohngefähr halb 3 Uhr morgens so sagte eine<lb/>Stim̃e bei meinem Bette guten morgen Gl: Obrist Wachtmeister, wen ich<lb/>die Augen aufschlug war es unser Herzog, er war sehr aus<unclear reason="illegible" cert="high" resp="#MN">gewirrt</unclear> setzte sich<lb/>bei mein Bette, und fragte über mancherley, was ich zu seiner Zufriedenheit<lb/>beantworten konnte, und nun muste ich in seiner Gegewart aufstehen, und mit<lb/>zum Obrist Leut: <hi rendition="#aq">v. Specht</hi> gehen, den er wegen <unclear reason="illegible" cert="high" resp="#MN">
+                  <hi rendition="#aq">Train</hi>
+               </unclear> Pferde etwas sagen<lb/>wolte, da ging es aber so wie bey mir, und nun muste ich mit nach dem<lb/>Wirtshause gehen wo er abgestiegen war, Kaffe mit Trinken, und um 7 Uhr fuhr<lb/>er weiter nach Antwerpen.</p>
+            <lb/>
+            <p>Heute liege ich mit meinen Batallion, in <hi rendition="#aq">Vessem</hi> 7 Meilen von Antwerpen<lb/>morgen kom̃ ich nach <hi rendition="#aq">Tournhout</hi> und über morgen nach <hi rendition="#aq">Antwerpen</hi>, wo wir<lb/>Revue von den Herzog von <hi rendition="#aq">Wellington</hi> passiren werden, es heist von<lb/>dem Augenblick an wo wir unter Englischem <hi rendition="#aq">Commando</hi> kom̃en werden wir auch<lb/>Englische Gage bekom̃en, das wäre ein kleiner Unterschied, den ich würde<lb/>auf die Berechnung des Major <hi rendition="#aq">v Wolfradt</hi> täglich 3 <gap reason="illegible"/> bekom̃, das sind<lb/>18 <gap reason="illegible"/> unser Geld, ich glaube damit könte man wohl aus kom̃en, und doch sehr<lb/>anständig leben.</p>
+            <lb/>
+            <p>Vom Kriege sagt man hir viel wiedersprechendes, der eine läst den König von<lb/>Rom unter der Vormundschaft des <gap reason="illegible"/> Krieges von <gap reason="illegible"/> den Thron besteigen,<lb/>andere behaupten die Alioten würden sich nicht in die Französische Angelegenheit<lb/>mischen, sondern nur einen <unclear reason="illegible" cert="high" resp="#MN">Condor</unclear> ziehen, so viel ist autentisch, das der<lb/>Franzische Kaiser zu Lille ist, die Avant Garde zu Sournay, die Englische<lb/>Armeé steht zu Brüssel die Avant Garde zu Grammont, und täglich Vor⸗<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+Posten Gefechte Vorfallen, und die Französische Armeé eine große Desertion,<lb/>so das manchen Tag nach Brüssel und Antwerpen 200 Französihe Unterleute mit<lb/>Gewehr und Waffen ankom̃en, dieses ist für uns eine gute Vorbedeutung.</p>
+            <lb/>
+            <p>Nun meine beste Frau wie befindest Du Dich mit den Kinderen hoffentlich alle<lb/>wohl, was macht meine Dicker Junge, spricht er wohl von mir? Du glaubst nicht<lb/>was ich vor eine Sehnsucht habe Euch alle, wohl nur einen Augenblick zu sehen<lb/>es geht <gap reason="illegible"/> nicht eine Stunde hir wo ich nicht an Dich meine beste Lisette<lb/>und die Kinder denke, ich habe eine Ahnung die mir sagt ich werde nicht lange<lb/>ausbleiben.</p>
+            <lb/>
+            <p>Wie befinden sich die Elteren, machen Sie dieses Jahr wieder eine Reise, beste<lb/>liebe tausend Compl. an Vater Mutter und <gap reason="illegible"/>, und Sie mögte<lb/>doch bald mahl schreiben, es wäre im̃er solch ein glücklicher Augenblick wen<lb/>ich einen Brief bekäm̃e, den wen ich lange keinen Brief habe bin ich so<lb/>beklom̃en.</p>
+            <lb/>
+            <p>Engelbecht und Deine Schwester grüße viel tausendmahl von mir, und bitte<lb/>Otto daß er mahl an mich schreibt, solte er keine Zeit haben, so sage Hannichen<lb/>ich ließe recht herzlich bitten an mich zu schreiben, ich würde mich sehr glücklich<lb/>fühlen wen Hannichen mahl an mich schreibe, Sie hat es mir schon mehrmahl<lb/>versprochen aber nie Wort gehalten, solte Sie dieses mahl erneut nicht Wort halten<lb/>so würde Sie meine ganze Ungnade auf sich laden, so sehr wie Du<lb/>liebe Lisette auch weist das Sie bey mir in Gnade steht. Dici.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+            <p>Grüße die Kinder in meinem Nahmen. Gräme Dich nicht so viel und<lb/>schone Deine Gesundheit, sey fest überzeugt das Dich stets recht<lb/>
+               <space dim="horizontal"/>herzlich lieben wird<lb/>
+               <space dim="horizontal"/>Dein<lb/>
+               <space dim="horizontal"/>H. v. Strombeck</p>
+            <lb/>
+            <p>Viele tausend Empfehlung an die gute Mutter und <hi rendition="#aq">Theodor</hi> hätte ich<lb/>noch nicht gesehn aber gehört das er wohl ist, und soll Vorgestern<lb/>Nimwegen sehr große Cerialien geschnitten haben.</p>
+            <lb/>
+            <p>Dem H. <hi rendition="#aq">v. Nordenfels</hi> nebst Frau <hi rendition="#aq">v. Borck</hi> empfiehl mich gehorsamst<lb/>und ich ließ den H. <hi rendition="#aq">v. Nordenfels</hi> nun die <gap reason="illegible"/> sein Freund festhält</p>
+            <lb/>
+            <p>Frau v. Ohten, Dimoisell Koden, und alle meine <hi rendition="#u">guten Freundinn</hi> bitte<lb/>ich mir zu empfehlen.</p>
+            <lb/>
+            <p rendition="#et">Nochmahl lebe wohl meine beste beste Herzens Lisette.</p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Vessem</hi> d: 12<hi rendition="#sup">t</hi> Mai 1813.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

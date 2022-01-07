@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 137: Ernst von Meier (Unteroffizier), 18.12.1870, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Ernst</surname>
+                  <forename>von Meier</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 137 von Ernst von Meier, 18.12.1870.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 137: Ernst von Meier (Unteroffizier), 18.12.1870, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Ernst</surname>
+                        <forename>von Meier</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1870-12-18">1870</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="137">
+            <head>
+               <supplied>SB-Nr. 137: Ernst von Meier (Unteroffizier), <date when="1870-12-18">18.12.1870</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">K. Qu. Argenteuil</hi>, den 18 <hi rendition="#aq">Dec.</hi> 1870.</p>
+            <lb/>
+            <p rendition="#et">Liebe Mutter!</p>
+            <lb/>
+            <p rendition="#et">Ich muß mich nur einmal an Dich persönlich wenden, da<lb/>ich glaube annehmen zu müßen, daß Du Dich weit über<lb/>Gebühr ängstigst. Diese Situation sieht wirklich sehr<lb/>viel gefährlicher aus, als sie in Wahrheit ist. Es soll<lb/>zwar in der ganzen Kriegsgeschichte noch nicht dagewesen<lb/>sein, daß die Kantonnements-Quartiere der Belagerungs-<lb/>Armee (nicht bloß die Feldwachen) im vollen Bereich des<lb/>feindlichen Geschützes liegen, und <del rendition="#s">h</del>wir sind wirklich<lb/>einmal um die Mitte October an einem einzigen Nach-<lb/>mittage mit 25J Granaten beworfen so groß dass die <lb/>Soldaten diselben mit vollem Rechte Zuckerhut nennen.<lb/>Das Resultat dieser ganzen Anstrengungen seit bald<lb/>einem Vierteljahre sind aber <unclear reason="illegible" cert="high" resp="#MN">Artiglich</unclear> einige lädirte Gebäude<lb/>und ein todter <unclear reason="illegible" cert="high" resp="#MN">Train</unclear> Soldat. Der Eindruck auf das<lb/>Nervensystem ist aber ein höchst unbedeutender; ich<lb/>für mein Theil wenigstens höre sehr viel lieber Granaten<lb/>als Chass<unclear reason="illegible" cert="high" resp="#MN">eyots</unclear>. Was nun diese betrifft, so ist man<lb/>in <hi rendition="#aq">Argenteuil</hi> selbst vor diesen völlig sicher, da alle<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>Straßen , die nach der <hi rendition="#aq">Seine</hi> führen, vollständig verbar<lb/>ricadirt sind. Die Feldwachen waren ursprünglich nicht<lb/>ganz ohne Gefahr, man stand wirklich ziemlich auf dem<lb/>Präsentir-Teller. Jetzt sind auf der ganzen Länge<lb/>unserer Vorposten<metamark>_</metamark>Stellung s.g. Schützengräben ange-<lb/>legt, in denen man zwar etwas unbequem aber genau<lb/>so sicher spatzieren gehen kann, wie etwa in der<lb/>K<unclear reason="illegible" cert="high" resp="#MN">offen</unclear> – oder sonstigen <gap reason="illegible"/>, oder man müsste<lb/>es unglaublich dumm anfangen.</p>
+            <lb/>
+            <p rendition="#et">Meine Gesundheit ist ganz vorzüglich, selbst<lb/>der Katarrh, den bei dem raschen Wetterwechsel<lb/>alle Welt hatte, war bei mir ein sehr kurzer unschuldiger<lb/>Schnupfen. Ich esse und trinke viel besser als <lb/>gewöhnlich. Wir geben förmliche <hi rendition="#aq">Diners</hi>, haben<lb/>Mittwoch den <hi rendition="#aq">Dr. Rauer </hi>mit einigen werten Herrn<lb/>aus <unclear reason="illegible" cert="high" resp="#MN">Canbenne</unclear> Freitag den Arzt, heute zum <lb/>Frühstück den <hi rendition="#aq">Prof. Volkmann</hi> mit zwei <gap reason="illegible"/>
+               <lb/>vom General-Command gehabt. Und all diese<lb/>glänzende Repräsentation kostet sehr wenig. Der<lb/>
+               <hi rendition="#aq">Major </hi>hat ein Faß sauren Kohl bekommen<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>von einer Vortrefflichkeit wie selten, dazu eine Sorte Pöckelfleisch<lb/>aus den Magazinen, wie man sie in Wirthshäusern nie bekommt,<lb/>gar nicht salzig, noch beinah frisch. Ich meinerseits sage dess-<lb/>halb noch immer: wenn es den Herrn <hi rendition="#aq">Parisern</hi> nicht unangenehm<lb/>wird, wir können es noch in infinitem aushalten. Sollte es<lb/>übrigens noch zu Gefechten kommen, so zeigt doch das Beispiel<lb/>des Vaters, dass mann da auch nicht gleich todt geschossen wird.<lb/>Also nur Ruhe und Kaltblütigkeit.</p>
+            <lb/>
+            <p rendition="#et">Für die Weihnachtssendung habe ich schon gedankt. Dein<lb/>Brief vom 9<hi rendition="#sup #uu">ten</hi> Anna’s vom 11<hi rendition="#sup #uu">ten</hi>, Tante Minnas vom<lb/>13<hi rendition="#sup #uu">ten</hi> sind an mich gelangt, letztere gestern Abend auf<lb/>den <hi rendition="#aq">Chateau Le Marais</hi> gleichzeitig mit einem von<lb/>
+               <hi rendition="#aq">Droop</hi>, der mir „als Liebesgabe für unsere braven Truppen<lb/>im Felde“ eine Berliner Zeitung abonniert hat, die unter<lb/>gedruckter Adresse an mich geschickt wird.</p>
+            <lb/>
+            <p rendition="#et">An Tante Minna bitte ich mitzutheilen, daß ein Photo-<lb/>graph leider nicht am Orte ist, – soviel ein solcher auch ver-<lb/>dienen würde. Von den 15,000 Einwohnern <hi rendition="#aq">Argenteuils</hi> sind<lb/>überhaupt kaum 1000 hier, lauter Kaoten. Die Adresse<lb/>des Pariser Photographen werde ich mir aber merken. Das<lb/>Briefpapier sei ebenso erwünscht gewesen, als Couverts <lb/>es sein würden. Eine sehr gute Idee feine waschlederne <lb/>Handschuhe. Wenn du meine Ernennung zum <hi rendition="#aq">Vicefeldwebel</hi>
+               <lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>bewohnst, so muß ich mein Äußeres demgemäß einrichten.<lb/>Ich habe mir bereits neues Roth und neue Tressen (aus<lb/>Deutschland verschrieben) an den Waffenrock setzen lassen,<lb/>den ich seit dem 24 Juli nur hin und wieder des Nachts<lb/>ausgezogen habe. Nach dieser Restauration bin ich aber<lb/>nun die eleganteste Erscheinung im ganzen Regimente,<lb/>jeder hält den ganzen Waffenrock für völlig neu. Als<lb/>Ärmelfütter ist schwere Seide verwandt, offenbar von<lb/>einem <unclear reason="illegible" cert="high" resp="#MN">Opfer</unclear> oder dergleichen.</p>
+            <lb/>
+            <p rendition="#et">Beste Grüße besonders auch nach Walkenried,<lb/>
+               <space dim="horizontal"/>und beste Wünsche für Euer Aller Wohlergehen</p>
+            <lb/>
+            <p rendition="#et">Dein<lb/>
+               <space dim="horizontal"/>Ernst.<lb/>
+               <fw type="folNum" place="bottom">[4]</fw>
+               <lb/>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

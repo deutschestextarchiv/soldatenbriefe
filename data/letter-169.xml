@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 169: Michael Eimgartner (Mannschaften?), 1871, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Michael</surname>
+                  <forename>Eimgartner</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 169 von Michael Eimgartner, 1871.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 169: Michael Eimgartner (Mannschaften?), 1871, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Michael</surname>
+                        <forename>Eimgartner</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1871">1871</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="169">
+            <head>
+               <supplied>SB-Nr. 169: Michael Eimgartner (Mannschaften?), <date when="1871">1871<note type="editorial">genaues Datum unbekannt</note>
+                  </date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p rendition="#et">Liebste Eltern!</p>
+            <lb/>
+            <p>Ich habe euch nicht vergesen ich denge alle<lb/>Thage an euch. Ob ir noch lebt und wie es bei<lb/>euch zuget. Liebste Eltern! In der ersten<lb/>zeit haben wir drei Wochen maschiren misen,<lb/>darnach haben wir kein <del rendition="#s">ba</del>Pabir haben köñen<lb/>vileicht habt ihr glaubt ich bin schon <del rendition="#s">Thot</del>erschosen weil<lb/>ich nicht geschriben habe oder so <del rendition="#s">erschosen</del>gestorben.<lb/>Nein ich lebe noch, aber 20 Thage bin ich schon<lb/>ihm St Sbital. Liebste Eltern! In Frangreich<lb/>ist eine ungesunde lag für uns, ein schlechtes<lb/>Wasser kein Bir den Wein <del rendition="#s">S</del>waren wir<lb/>nicht gewond, weil wir auf den Marsch waren<lb/>haben wir gleich zwei Thage kein Brot bekom̃en<lb/>blos ein wenig Fleisch. <del rendition="#s">daher komt jezt di</del> und<lb/>das Regenweter dazu. daher komt jezt die<del rendition="#s">Kran</del>
+               <lb/>Krangheit alle Thage werden gewis 100 Mann<lb/>ins Sbital gefirt. Ich war schon drei Stunden<lb/>auser Paris ich kañ jezt nicht schreiben wie<lb/>es jezt ged dort haben si drei Forwerger<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>gehabt, jezt habe gehört gehen inen die Lems⸗<lb/>mitel aus dan misens die Stadt ibergeben. <lb/>Gott lob und dang ich bin in keiñe Schlacht<lb/>zugekomen wir sint imer hinder nachmar⸗<lb/>schirt. Wo alles zu grundgerichtet ist <add place="superlinear">
+                  <metamark/>ist es</add> kein Mensch<lb/>im keiñen Hause mer vilweniger edwas anderes.<lb/>Im Paris könte ich <gap reason="illegible"/> komen sein aber da<lb/>hat mich der liebe Gott under die Fissen geschlagen.<lb/>Ich bin jezt schon 21 Thage im Sbital. Aber<lb/>ich hofe ich kome bald ins Baiern, dan<lb/>erzele ich euch alles wie es zugegangen<lb/>ist jezt beschlise ich mein schreiben, und grise<lb/>euch alle im ganzen Hause</p>
+            <lb/>
+            <p rendition="#et">eier<lb/>
+               <space dim="horizontal"/>geliebter Sonn<lb/>
+               <space dim="horizontal"/>Michael Eimgartner.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[2]</fw>
+            <p>Dieser Brief ist verwechselt wurden,<lb/>Als ich in Versailes schwer krank<lb/>danieder lag, da bad ich einen Kam̃eraden<lb/>an meinen Eltern zu schreiben, er verweßelte<lb/>aber die Adreße, und dadurch kam dieser<lb/>Brief meinen Eltern in die Hände.<lb/>Meine Eltern wusten gar nicht was<lb/>das sein solde.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 45: Friedrich Hoffmann (Offizier), 17.06.1833, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Friedrich</surname>
+                  <forename>Hoffmann</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 45 von Friedrich Hoffmann, 17.06.1833.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 45: Friedrich Hoffmann (Offizier), 17.06.1833, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Friedrich</surname>
+                        <forename>Hoffmann</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1833-06-17">1833</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="45">
+            <head>
+               <supplied>SB-Nr. 45: Friedrich Hoffmann (Offizier), <date when="1833-06-17">17.06.1833</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Zeitun</hi> d. 17. <hi rendition="#aq">Juni</hi> 1833.</p>
+            <lb/>
+            <p>Du kannst dir nicht denken meine geliebte Thekla wie sehr<lb/>mich das feige Benehmen des Hptm <hi rendition="#aq">Prentini </hi>empört hat, dieser<lb/>steigt aus Furcht vom Dampfboot und nim̃t alle Briefe und<lb/>Papiere mit; dieß die Ursache, daß so lange Zeit vergieng<lb/>bis unsre Briefe nach Haus kamen; dein letzter Brief<lb/>in der Angst um mich, geschrieben hat mich noch mehr gegen<lb/>ihn empört, und ich bin nur froh daß ich weiß, jetzt da ich<lb/>dieses schreibe muß längst deine Angst und Sorge vorbey<lb/>seyn; ich freue mich im Voraus auf den nächsten Brief,<lb/>denn er wird den Jubel enthalten daß du auf einmal<lb/>5-6 erhalten hast; eine kleine Lehre meine gute Thekla<lb/>mußt du doch daraus nehmen, nemlich die, auch bey un⸗<lb/>günstigen Verhältnissen nicht an das Schlim̃ste sondern<lb/>an das Bessere zu denken, und dadurch an Vertrauen <lb/>und Seelenruhe zu gewinnen; ich bin dir nicht verloren<lb/>sondern kom̃e, da die Gerüchte des Heimmarsches sich er⸗<lb/>halten im Winter zu dir, vielleicht noch früher, wenn ich<lb/>von Triest aus Urlaub erhalte.</p>
+            <lb/>
+            <p>Unsere Handel wegen den Briefen wirst du genehmigt<lb/>haben; deßhalb habe ich 120f eingeliefert, welche du aus⸗<lb/>bezalt bekom̃en wirst.</p>
+            <lb/>
+            <p>Dieser Brief wird sehr kurz werden denn <hi rendition="#aq">Oblieut Straty</hi>
+               <lb/>Schwager des <hi rendition="#aq">H Kern</hi> in <hi rendition="#aq">Triest</hi> ist mit <hi rendition="#aq">Obst Schmalz</hi>
+               <lb/>hier, reißt morgen nach Patras und will diesen Brief<lb/>besorgen, ich muß mich daher eilen denn die Zeit drängt<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>daß ich so lange aussetzte ohne dir zu schreiben, war meine<lb/>Entfernung von hier Ursache; erst mußte ich nach Patraschik<lb/>dann an die türkische Grenze 22 Stunden von hier, gegen<lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">Tasil Bus</unclear>, der uns aber nicht in den Wurf gekom̃en<lb/>ist. Ich bin durch das Wasser welches in dem Gebirge<lb/>von der ersten Güte ist noch gesünder geworden und<lb/>es fehlt mir nichts als deine Gegenwart.</p>
+            <lb/>
+            <p>Gebirge habe ich erklettert, und Weege gemacht, man<lb/>glaubt es nicht, wenn man nicht selbst in diesem Land<lb/>gewesen ist, und eine Hitze daß wir ärger wie Braten<lb/>geschwitzt haben.</p>
+            <lb/>
+            <p>Nun da ich zurück bin ist <hi rendition="#aq">Obstlieut</hi> ausgezogen und<lb/>hat mich wieder als Wächter dagelassen, daß ich ihm<lb/>Stadt und Festung hüte.</p>
+            <lb/>
+            <p>Alles ist wohl hier, wir leiden nicht vom <hi rendition="#aq">Clima</hi>, <hi rendition="#aq">Gobel</hi>
+               <lb/>ist nach <hi rendition="#aq">Mistra</hi> gegen die Mamotten gezogen, so hat<lb/>jeder von uns seinen Theil Beschwerden.</p>
+            <lb/>
+            <p>Wie geht es denn dir meine geliebte Thekla, bist du<lb/>wohl, hast du nicht Unbequemlichkeit von deiner ausge⸗<lb/>standenen Angst; o wie freue ich mich wieder bey dir<lb/>zu seyn, ich gehe nicht mehr fort, sondern bleibe im̃er<lb/>nur bey dir.</p>
+            <lb/>
+            <p>Nun muß bald ein Brief ankom̃en, ich freue mich außer⸗<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+ordentlich, und auf unsre Reise auch, darüber ich dir<lb/>noch öfter und ausführlicher schreiben werde; nur jetzt<lb/>drängt mich der <hi rendition="#aq">Straty</hi> mit seinem verfluchten einpacken.</p>
+            <lb/>
+            <p>Das Geld von <hi rendition="#aq">Ruepprecht </hi>das ich zu viel bezalte<lb/>hat er dir zurückgegeben, du hast also 180 f von mir<lb/>bekom̃en, das gehört alles dein, denn meinem Balg<lb/>werde ich schon etwas schicken für die Sparkasse.</p>
+            <lb/>
+            <p>Nim̃ mir die Antoinette beym Kopf und küsse<lb/>sie herzlich, ich werde ihr mit der Sonntags⸗<lb/>laune manchen Spaß machen.</p>
+            <lb/>
+            <p>Für den Vater habe ich eine Bernsteinspitze<lb/>aus der ich zwar jetzt rauche, allein sie<lb/>soll ihm gefallen, denn sie trägt die Spuren<lb/>ihrer Aechtheit an sich.</p>
+            <lb/>
+            <p>Sey nun zufrieden mit den wenigen Zeilen, du weißt<lb/>ich schreibe so oft ich kann.</p>
+            <lb/>
+            <p>Ich umarme dich in Gedancken tausendmal, und ver⸗<lb/>sichere dich daß ich durchaus gesund und wohl bin.</p>
+            <lb/>
+            <p>Lebe wohl meine herzlich geliebte Frau, und freue<lb/>dich auf unser Wiedersehen, bis dahin bin ich<lb/>unverändert</p>
+            <lb/>
+            <p rendition="#et">dein<lb/>
+               <space dim="horizontal"/>treuer Hoffmann.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

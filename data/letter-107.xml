@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 107: Albert Böhme (Mannschaften), 07.09.1868, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Albert</surname>
+                  <forename>Böhme</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 107 von Albert Böhme, 07.09.1868.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 107: Albert Böhme (Mannschaften), 07.09.1868, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Albert</surname>
+                        <forename>Böhme</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1868-09-07">1868</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="107">
+            <head>
+               <supplied>SB-Nr. 107: Albert Böhme (Mannschaften), <date when="1868-09-07">07.09.1868</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Luttrum den 7ten <hi rendition="#aq">Septenb</hi> 1868.</p>
+            <lb/>
+            <p>Geliebte Friedericke!</p>
+            <lb/>
+            <p>Mit munteren Herzen schreibe ich dir einen<lb/>Brieff bist du auch noch munter? was ich wünschen<lb/>würde das du noch resolut bist wie ich alle Tage<lb/>sein muß du mußt mir das nicht übel<lb/>nehmen das ich mit Bleifeder schreibe das<lb/>Schreibzeug war in gebrauch Liebe Friederike<lb/>hast du den Brief von Gebhart Schatzmann<lb/>nicht bekommen? den entschuldige ich<lb/>dier mein 2tes Cwartier war in Badeken-<lb/>stedt wo ich ein Tag krank war aber<lb/>jetzt wieder mobiel wir müßen<lb/>immer Berg auf und ab manöberiren<lb/>das wier immer bis auf die Haut<lb/>durchnäst sind am Sonntag morgen<lb/>5 Uhr zogdas ganze Regierment<lb/>ins Biewak wo wier unter freiem<lb/>Himmel geschlafen haben meine Gedanken<lb/>sind oft an dich Liebe Friederike<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>und Montag morgen haben uns<lb/>herrum geschlagen nach diesen<lb/>Nächte hier morgen früh 4 Uhr müssen<lb/>wieder fort nach <hi rendition="#aq">Stöhrig</hi> 5 Stunden<lb/>weges ohne das manöberieren<lb/>ich habe hier schon viel gesehen<lb/>und viel mitgemacht an den 3 diesen<lb/>Monats als wier durch <unclear reason="illegible" cert="high" resp="#MN">Karnstedt</unclear>
+               <lb/>mit marsch marsch machten musten<lb/>wier Laden und beim vorschlagen<lb/>passierte mier das mich die Patrone<lb/>entzündete beim reinstecken und mier<lb/>alles in die Augen kahm ich war<lb/>betäubt und fiel wieder ich ward<lb/>aber bald wieder besser der Feind<lb/>hatte mich also gefangen ich<lb/>entsprang wieder zu meiner<lb/>Abtheilung <del rendition="#s">hier</del>und solchen<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>
+               <space dim="horizontal"/>vorfälle sind viel vorgefallen<lb/>Liebe Friedericke wen ich wieder<lb/>nach Braunschweig komme dann<lb/>will ich auch noch viel erzählen<lb/>sonst müste ich noch lange schreiben<lb/>ich bin heute auf wache und habe<lb/>nicht viel zeit übrig.</p>
+            <lb/>
+            <p rendition="#et">Lebe wohl bis aufs<lb/>
+               <space dim="horizontal"/>
+               <add place="superlinear">
+                  <metamark/>baldiege</add> Wiedersehen und<lb/>
+               <space dim="horizontal"/>sei gegrüßt von deinem<lb/>
+               <space dim="horizontal"/>aufrichtigen</p>
+            <lb/>
+            <p rendition="#et">Albert<space dim="horizontal"/>grüße<lb/>
+               <space dim="horizontal"/>Vater Mutter u Tante<lb/>
+               <space dim="horizontal"/>und Geschwister</p>
+            <lb/>
+            <p>Ich wünsche das Ihr noch von der Artallerie ist<lb/>alle munter und gesund ein Hornist auch gestorben<lb/>seid Ich bin heute und beerdigt <metamark>_</metamark>
+               <lb/>nicht ganz<lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">korekt</unclear>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

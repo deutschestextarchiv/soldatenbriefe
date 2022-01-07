@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 92: Anton Herz (Mannschaften), 03.08.1866, Westoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Anton</surname>
+                  <forename>Herz</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 92 von Anton Herz, 03.08.1866.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 92: Anton Herz (Mannschaften), 03.08.1866, Westoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Anton</surname>
+                        <forename>Herz</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1866-08-03">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="92">
+            <head>
+               <supplied>SB-Nr. 92: Anton Herz (Mannschaften), <date when="1866-08-03">03.08.1866</date>, <choice>
+                     <abbr>WOD</abbr>
+                     <expan>Westoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Schernau ein Dorf den 3<hi rendition="#sup">ten</hi> August 1866</p>
+            <lb/>
+            <p rendition="#et">Liebste <add place="superlinear">
+                  <metamark/>Eltern</add> u. Geschwiestern!</p>
+            <lb/>
+            <p>Mit Freunden ergreife ich die Feder um euch einige<lb/>Zeilen zuschreiben, den Brief den ihr den 22<hi rendition="#sup">ten</hi> July<lb/>geschreiben habt, den habe ich mit bester Gesundheit erhalten<lb/>Gottlob sey Dank, Dießmal habe ich nicht mehr gedacht das ich<lb/>mit den Leben davon komm, den an 5 und 26igsten<lb/>sind wir im Feuner gestanden ohne etwas zu tringen von<lb/>
+               <del rendition="#s">se</del>essen war gar keine Rede, und wir sind ganz Glüklich<lb/>davon gekomen unser ganzes Regiment, aber Infanterie<lb/>hatt es viel gekostet. Das weitere könne ihr in der Zeitung<lb/>leßen noch besser als ich schreiben kann, jetzt soll Waffen⸗<lb/>stillstand sein 20ig Tagen, ob es Grund hatt das weiß ich nicht,<lb/>wir sind jetzt einsweil standqautier in Schernau ich habe ein gutes<lb/>Qautier ich beim bei einen Schullehrer einqautier einen schönen<lb/>gruß von der ganzen Familie als unbekame sie haben mich recht<lb/>gerne, sie sagen wenn wir nur keine Preußen bekomen die<lb/>Bayern haben wir gerne es <add place="superlinear">
+                  <metamark/>kann</add> noch gehen wie es will, Und Wasser⸗<lb/>manns Joseph habe ich auch getrofen und der Sebastian<lb/>Ziegerer das mich sehr Freunde, aber ich habe nicht lange mit ihnen<lb/>Reden kennen, den Joseph habe ich in Lager getrofen in<lb/>Roßbrunn u. den Sebastian bei Würzburg, das naere will<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>ich euch erzählen, wenn ich einmal sollte zu Hause komen, ihr könnts<lb/>euch einbilden wie es im Kriege zugeh, ich wills euch gar nicht schreiben<lb/>von den verwundetten, u. von <add place="superlinear">
+                  <metamark/>den</add> Marter To<del rendition="#s">g</del>d die sie nemen müßen<lb/>ich will wenn es Gottswill ist nichts davon Leiden Lieber ganz<lb/>oder gar nicht. Die Münchener haben 21.000 Gulden zusamen geleg<lb/>für das Bayersche Militär um Bier Brod u Käs Cigaren u. Kaffe, aber<lb/>das hatt nicht weit gelangt, uns wäre das Geld Lieber geweßen.<lb/>Liebe Eltern u. Geschiestern , jetzt kennet ich wohl ein Geld Brauchen<lb/>Die Montur verreiß jetzt mit gewalt, schickt mir so <add place="superlinear">
+                  <metamark/>bald</add> wie möglich<lb/>ihr wüßt schon wie es mir schicken müß es ist Gleich was für<lb/>ein Geld, vielleicht ich beim noch in Schernau, den schreibe<lb/>mir auch ob ihr das Kufer schon haben schicken lassen, von<lb/>Wetter in München, die Montur geh schonst zu Grunde ich habe<lb/>den Schlüßel bei mir, er kann das Kufer nicht aufmachen<lb/>Die Uhr hatt er auch, jetzt schließe ich mein schreiben mit<lb/>vielen grüßen an euch alle auf ein wieder sehen<lb/>einen gruß an Magnus Zweik u an alle ich verbleibe<lb/>Kameraden <gap reason="illegible"/> und alles im ganzes Haus euer</p>
+            <lb/>
+            <p rendition="#et">Die adreß ist zu machen:<space dim="horizontal"/>aufrichiger<lb/>
+               <space dim="horizontal"/>an Anton Herz Kanonier<space dim="horizontal"/>Sohn Anton<lb/>
+               <space dim="horizontal"/>beim 3<hi rendition="#sup">ten </hi>Reitenden Artillerie Herz<lb/>
+               <space dim="horizontal"/>
+               <del rendition="#s">Arll R</del> Regiment 1<hi rendition="#sup">te</hi> Batterie<lb/>
+               <space dim="horizontal"/>Feldpost<space dim="horizontal"/>einen schönen gruß an Häbel<lb/>theile den Brief Magnus u. Frau Besonnders aber an das<lb/>Zwick auch zu u. seine Geschiestern Mütterle ich habe sie auch noch nicht<lb/>
+               <space dim="horizontal"/>vergeßen</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[2]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 32: Ferdinand Freiherr von Csollich (Offizier), 06.07.1813, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Ferdinand</surname>
+                  <forename>Freiherr von Csollich</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 32 von Ferdinand Freiherr von Csollich, 06.07.1813.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 32: Ferdinand Freiherr von Csollich (Offizier), 06.07.1813, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Ferdinand</surname>
+                        <forename>Freiherr von Csollich</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1813-07-06">1813</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="32">
+            <head>
+               <supplied>SB-Nr. 32: Ferdinand Freiherr von Csollich (Offizier), <date when="1813-07-06">06.07.1813</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Losch </hi>bei <hi rendition="#aq">Duchs‘</hi> 6<hi rendition="#sup #uu">t</hi> 7<hi rendition="#sup #uu">ber</hi> 1813.</p>
+            <lb/>
+            <p>Liebe Luise theueres Weib!</p>
+            <lb/>
+            <p rendition="#et">Deine beide Zuschriften von 20<hi rendition="#sup #uu">t</hi> u 21<hi rendition="#sup #uu">t</hi> d.M. er⸗<lb/>hielt gestern gerade als wir uns in Marsch<lb/>sezten, heute dachte ich dir recht viel zu schreiben<lb/>indessen haben wir schon Befehl um 10 Uhr zu<lb/>marschiren über <hi rendition="#aq">Töplitz</hi> nach <hi rendition="#aq">Aussig</hi>
+               <metamark>_</metamark> in so<lb/>einer Gelegenheit giebt es Verschiedenes zu<lb/>thun, deshalb vergieb wenn ich dir nicht so<lb/>wie du es wünscht schreiben kann. Vor<lb/>allen andern sage du meinen Nici den ich<lb/>für alle die mir zugedachten Küsse mit<lb/>väterlicher Zertlichkeit umarme und an das<lb/>Herz drücke, daß er den Vatern unrecht<lb/>gethan habe, da der Vater jedesmal wo Ge⸗<lb/>legenheit und hinzu Zeit war, der Mutter<lb/>geschrieben hat, wo aber Tag und Nacht mar⸗<lb/>schirt wurde, keine Post auf viele Meilen<lb/>zu <unclear reason="illegible" cert="high" resp="#MN">träfen</unclear> war, alle Ortschaften von Ein⸗<lb/>wohnern verlassen waren, da war es auch<lb/>unmöglich Nachrichten zu geben, wenn das<lb/>Bedürfniß noch so groß auch von mir<lb/>gefühlt wurde; Meine Liebe, du kannst dir<lb/>die Lage nicht vorstellen, wie es einem ist<lb/>wenn man auf sein liebstes auf dieser Welt<lb/>nur denken, aber selben keine Nachricht geben<lb/>kann, noch von diesen etwas hören zu<lb/>können<metamark>_</metamark> deine Lage ist noch härter, da dir<lb/>verschiedene Gefahren in die ich kom̃en kann<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>noch schräcklichere Bilder darstellen, es<lb/>hielft uns nichts kein Nachdenken, wir können<lb/>nur auf die Vorsehung rechnen, und das<lb/>bessere erwarten.</p>
+            <lb/>
+            <p>Was mit meinen Bruder Ferdinand ge⸗<lb/>schen ist weis ich noch zur Stunde nicht,<lb/>sein ganzes Regiment ist am 27<hi rendition="#sup #uu">t</hi> gefangen<lb/>worden, dieses traurige Loos hat 1 Rgmt<lb/>getrofen da kein Gewehr wegen zu grossem<lb/>Regengusse loßgieng, und die feindliche<lb/>
+               <hi rendition="#aq">Cavallerie</hi> Gelegenheit fand unsere Infanterie<lb/>umzuringen und gefangen zu machen.</p>
+            <lb/>
+            <p>Bruder Albert ist so eben zu mir gekom̃en<lb/>er läßt dich küssen nicht minder sich allen<lb/>Angehörigen empfehlen.</p>
+            <lb/>
+            <p>Ueber unsere allgemeine Lage<lb/>kann ich dir nicht viel mittheilen, als<lb/>daß der Krieg einen unglücklichen Anfang<lb/>genom̃en hat, so wie die zwey Vorher⸗<lb/>gehenden, solang wir den Feind nicht<lb/>begegnen wissen wir uns nicht zu messigen<lb/>in unseren Schritten, sobald wir aber diesen<lb/>begegnen wissen wir nichts mehr was wir<lb/>thun sollen, deshalb wird der Krieg<lb/>von langer Dauer seyn<metamark>_</metamark>, wenn er nur<lb/>nicht bis in deine Nähe komt, vorwärts<lb/>werden wir in diesem Feldzug schwerlich<lb/>kom̃en, wenn uns andere den Weg nicht<lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">bannen</unclear>, Russen auf keinen Fall nicht, das<lb/>sind elende Praler, sie können nur paradiren<lb/>oder durch unser ordentliche Rückzüge durch<lb/>Elemente den Feind überwinden.<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+            </p>
+            <lb/>
+            <p>Von Thatsachen könnte ich viel schreiben,<lb/>hiezu habe ich keine Zeit<metamark>_</metamark> die Allianz<lb/>mit diesen Hotentoten wird uns theuer<lb/>zu stehen kom̃en.</p>
+            <lb/>
+            <p rendition="#et">Alles was du mir von meinem lieben<lb/>Nici schriebst ist ganz so wie ich es wünsche<lb/>immerfort zu vernehmen, bei deiner<lb/>Verwendung stets um ihm zu seyn, werden<lb/>seine Gefühle so geleitet, daß du in der<lb/>Folge ihm leicht zu allen Guten leiten<lb/>wirst können, und du wirst nie dürfen<lb/>auf strenge Behandlung denken. Ich<lb/>muß schliessen, ich küsse dich und mein<lb/>Nici unaussprechlich vielmahl, so wie<lb/>die Eltern und übrigen Geschwister<lb/>und verbleibe auf im̃er dein aufrichtiger<lb/>
+               <space dim="horizontal"/>
+               <unclear reason="illegible" cert="high" resp="#MN">mmc</unclear>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

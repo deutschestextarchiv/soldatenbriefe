@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 56: Kelterborn (Mannschaften), 06.06.1849, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname/>
+                  <forename/>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 56 von Kelterborn, 06.06.1849.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 56: Kelterborn (Mannschaften), 06.06.1849, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname/>
+                        <forename/>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1849-06-06">1849</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="56">
+            <head>
+               <supplied>SB-Nr. 56: Kelterborn<note type="editorial">Vorname unbekannt</note> (Mannschaften), <date when="1849-06-06">06.06.1849</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>B‘bütel den 6<hi rendition="#sup #uu">ten</hi> Juni</p>
+            <lb/>
+            <p rendition="#et">Liebe Frau und Tochter</p>
+            <lb/>
+            <p>Euren Lieben Brief von 23<hi rendition="#sup #uu">ten</hi> May habe ich richtig Erhalten und den<lb/>Pfinsten Kuchgen auch den ihr mier geschieckt habt ich habe den Kuchen<lb/>grade den dritten Tag erhalten und habe mich so gefreut das ich vor<lb/>Freuden an zu Weinen Fing das ich doch von euren Pfinsten Kuchgen<lb/>auch was zu essen hatte und daraus auch Ersehe das ihr gewies<lb/>diese Pfinsten an mich gedacht habt Liebe und Theure Frau du hast<lb/>doch gewies auch an die vergange Pfinsten gedacht die wier als<lb/>Brautleute mit einander Erlehbt haben ich <unclear reason="illegible" cert="high" resp="#MN">aber</unclear> habe auch daran<lb/>gedacht wier können Jetz auch sagen verg<unclear reason="illegible" cert="high" resp="#MN">angene</unclear> Zeiten kommen<lb/>niemals wieder doch Liebe Frau Tröste dich mit mier ich<lb/>habe nur ein wehniges vergnügen geha<unclear reason="illegible" cert="high" resp="#MN">bt</unclear> du gewies mit unser<lb/>Tochter. Doch eins noch wier wollen aber hoffen das es in die zukunft<lb/>mal besser wirt es kan doch mein Lehben nicht immer so bleiben<lb/>sonst möchte der Teufel das Lehben haben Liebe Frau und Tochter<lb/>viele neukeiten kan ich euch nicht schreiben als das ich und meine<lb/>Landsleute diese Pfiesten bei einander gewesen sind. der eine hat<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>sich über den andern gefreut das wier noch alle so weit am Lehben waren<lb/>und auch noch gesund <add place="superlinear">
+                  <metamark/>sind</add> 
+               <unclear reason="illegible" cert="high" resp="#MN">Frantz</unclear> august von den <gap reason="illegible"/> ist auch bei uns gewesen<lb/>er liegt nur <del rendition="#s">etwa</del> stunden von uns und er ist auch wieder gesund<lb/>und munter Liebe Frau ich habe dier in meinem vergangen Briefe<lb/>geschrieben das ich dier noch mehr geld schieken wolte als die drei<lb/>Taler es hat aber noch nicht gepast den ich mus das so einrichten<lb/>das ich es frei nach dier kriege sonst must du viel da vür bezahlen<lb/>das geht doch nicht ich werde dier unter <gap reason="illegible"/> eine grose Freude machgen<lb/>wen ich es erst nur habe, Liebe und Teure Frau Liebe und Teure Tochter<lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">Dories</unclear> Liebe Tochter deinen geburtstage habe ich mit unsern König<lb/>Ernst von Hannover seinen geburtstage gefeiert und das eines teil<lb/>
+               <gap reason="illegible"/> und das anders Teil auch recht vergnügt wier haben aus unsern<lb/>König seinem Geburtstage Bier und Brod Tabak und zigarn gekriegt<lb/>und haben ihn hoch leben lassen und mein bester Freund <unclear reason="illegible" cert="high" resp="#MN">Jude</unclear>
+               <lb/>hat den Brief gelesen den du mier geschrieben hat und hat gesen<lb/>das meiner Lieben Tochter ihre geburtstag auch war und da<lb/>haben meine Kameraden sie auch hochlebenlassen das hat mier<lb/>aber auch gefreut ich habe mier auch nicht Lumpen lassen ich habe<lb/>auch Drei Taler zu besten geben und da haben wier ihre<lb/>gesundheit vorgetrunken und ich will wünschen das ihr noch<lb/>Beide munter und gesund seit Liebe Frau ich will schliesen und ich will<lb/>wünschen das du mier bald wieder schreibst grüse alle gute Bekante<lb/>meine Mutter Bruder Weitemeier Justus Uhlandorp und seinen Bruder<lb/>und meinen Paten seine ganze Familiye</p>
+            <lb/>
+            <p rendition="#et">Lehbet <unclear reason="illegible" cert="high" resp="#MN">ihr</unclear> wohl<lb/>
+               <gap reason="illegible"/> ich <unclear reason="illegible" cert="high" resp="#MN">hatte schon</unclear> diesen Brief vertig geschrieben da Bekam ich<lb/>den zweiten Brief von dier und aus deinem Briefe gesehen das du das geld<lb/>von göttingen abgeholt hattes welches mier Freut ich schieke dier mit nächsten<lb/>noch mehr ich hätte dier, diesen Brief schon Lengt geschieckt aber wier<lb/>mußten Stünlich ausrücken den der Dähne machte einen angrif<lb/>auf den Schanzen und wolte unsere Truppen zu Rückschlagen<lb/>was er aber nicht konte wier musten über all ausrücken<lb/>und nach den Schanzen da gins aber Böse her weil die Schwarzen<lb/>Jäger vor kamen da Liesen sie aber alle vort es sind von<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>unsern Trupen nur in ganzen 30 Man geblieben aber viele verwundet<lb/>der Dehne hat aber an 300 Man verlohren den die Dehnen musten über<lb/>die Brücke von Sonderberg da haben unsere Kanonen immer auf die<lb/>Brücke gehalten Da sind sie aber gestürzt jetzt ist wieder alles<lb/>ruhig</p>
+            <lb/>
+            <p rendition="#et">Lehbe wohl und schreibe mier bald wieder</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

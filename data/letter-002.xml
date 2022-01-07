@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 2: Christian Arnholtz (Mannschaften?), 21.09.1756, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Christian</surname>
+                  <forename>Arnholtz</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 2 von Christian Arnholtz, 21.09.1756.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 2: Christian Arnholtz (Mannschaften?), 21.09.1756, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Christian</surname>
+                        <forename>Arnholtz</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1756-09-21">1756</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="2">
+            <head>
+               <supplied>SB-Nr. 2: Christian Arnholtz (Mannschaften?), <date when="1756-09-21">21.09.1756</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Gott zum Gruß.</p>
+            <lb/>
+            <p>Mein lieber bruder ich kan nicht unter laßen an dich zu schreiben und wen dich mein wehnig Schreiben nebst unßer Vatter und Mutter und alle gutte Freinde noch gesund an treffen Mach so sol es mir lieb sein den waß mich an betrifft so bin ich noch gesund. Mein lieber bruder es ist auch Christoph Stendell und Asmus Gerk und Hans Kamiethe und Joachim Gille aus Grieben und Peter Schultz und Erdman Kamieth und Heinrich Schultz aus Geinnitz, auch unsern Johan Jochim Kamiethen und Just Schultz der bombardier aus unsern dorf, diese alle zusammen laßen ihre gantze Freindt von Hertzen viel mal grüßen und wen sie noch alle zusammen gesund sind sol es ihn alle zusammen von Herzen lieb sein, den waß ihn an betrifft so sind sie noch alle zusammen gesund. nun mein lieber bruder du most so gut sein und bestellen dieses alles an diejenigen so in diesem brief benennet sindt und wen ihr wiederschreibet, so schreibet wieder alle zusammen in einen brief und bringet den brief nach Gardelegen bei den Messer Schmidt Rinken wohnhaftig in den <gap reason="illegible"/> Der gehet Gott weiß nach unser Lager. nun mein lieber bruder, ich wolte dir wol mehr Schreiben aber wir wissen jetzo selber noch nicht waß daraus werden wirt den wir sind durch Saxen Landt durchmarchiret bis in Behmen. anjetzo Stehen wir im Lager bei der Stadt Außig genant aber wir haben kein recht bestendiges Lager wir stehen manges mahl etliche Tage Still im Lager dan geht es wieder weitter wo es aber entlich wird ablauffen daß wissen wir selber noch nicht. nun mein lieber bruder erkundiget euch bey den Meßer Schmidt in Gardelegen wen er wieder weg gehet und schreibet uns doch wieder eine antwordt waß ihr machet und Gerk der wolte gern wissen ob sein Bruder seine Heuraht währ vor sich gegangen oder nicht. nun wir wissen vor dieses Mahl weitter nichts zu schreiben als das wir noch bis dato frisch und gesund sindt. Der liebe Gott helfe uns weiter, den wir haben einen schwähren Marsch gehat in daß Gebirge daß wir unßer Leben sindt manges mahl satt gewen. hiemit schließen wir und befehlen euch Gott.</p>
+            <lb/>
+            <p>Außig den 21ten September 1756.</p>
+            <lb/>
+            <p rendition="#et">Christian Arnholtz</p>
+            <lb/>
+            <p>Adresse: Dießer Brief gelanget an meinen Bruder Christophel Arnholtz in Zetlingen und abzugeben bey den Post Ex<gap reason="illegible"/> in Gardelegen</p>
+            <lb/>
+            <p rendition="#et">Franco bis Gardelegen</p>
+            <lb/>
+            <p>
+               <space dim="horizontal"/>
+               <hi rendition="#u">Zetlingen.</hi>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 140: Ludwig Westner (Mannschaften), 20.12.1870, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Ludwig</surname>
+                  <forename>Westner</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 140 von Ludwig Westner, 20.12.1870.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 140: Ludwig Westner (Mannschaften), 20.12.1870, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Ludwig</surname>
+                        <forename>Westner</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1870-12-20">1870</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="140">
+            <head>
+               <supplied>SB-Nr. 140: Ludwig Westner (Mannschaften), <date when="1870-12-20">20.12.1870</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Orleans den <del rendition="#s">21<hi rendition="#sup #uu">ten</hi>
+               </del>20<hi rendition="#sup #uu">ten</hi> Dez. 1870.</p>
+            <lb/>
+            <p rendition="#et">Liebste Mutter!</p>
+            <lb/>
+            <p>Das Geld habe ich richtig erhalten welches<lb/>mir geschickt haben; u. den Brief den der<lb/>Emanuel geschrieben hat. Das erste Treffen<lb/>hatten wir in Culerie von Mittag bis<lb/>Abens im Feuer der Feind in schönsten Po⸗<lb/>sition wir waren 24 bis 25 Tausend Mañ<lb/>der <add place="superlinear">
+                  <metamark/>Feind</add> von 90 bis 1,00000 Tausend Mann. der Arterlie<lb/>Kampf war fürchterlich Granaten werffen<lb/>Sie auf uns man wußte nicht worein<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>u. woaus. Unsere Seite mittelmässig<lb/>Verluste der Rückzug ruhig mußten die<lb/>ganze Nacht u. den andern Tag Marschieren<lb/>u. wurden endlich bei sehr schlechten Wetter<lb/>auf die Nacht Einquatirt. Die Franzosen<lb/>kamen bei der Nacht nach Orleans wieder.<lb/>Das war am 9<hi rendition="#sup #uu">ten</hi> November. Wir marschierten<lb/>14 Tage dan am 1<hi rendition="#sup #uu">ten</hi> 2<hi rendition="#sup #uu">ten</hi> dritten Dez. u. am<lb/>4<hi rendition="#sup #uu">ten</hi> Eroberten wir u. die Preusen Orle⸗<lb/>ans wieder. Bei Orleans eine halbe Stunde<lb/>hatten wir einen Rasttag dan ging es<lb/>wieder weiter u. kamen außer Orleans<lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">neben den Bayern</unclear> dem Wasser wieder<lb/>8 Tage ins Treffen Schlachten wie Sedan<lb/>u. Wörth. Endlich wurden wir abgelöst,<lb/>von wenig Manschaft. Der Wörle<lb/>Joseph ist ins Spital Zurückgefahren, ich<lb/>war bei ihm vor Orleans 2 Stunden. Wie<lb/>ich gehört habe soll der Andereas Müller<lb/>was aber ich von mir nicht selbst sage;<lb/>Gestorben sein <hi rendition="#u">soll</hi>. Ich bin jetzt in Orleans<lb/>auf Eisenbahn Dienst, u. mein Bruder<lb/>außerhalb Orleans auf Vorposten. Den <lb/>Xaver Reißer weiß ich nicht, ich habe<lb/>
+               <space dim="horizontal"/>gehört<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>daß er nach Hause gefahren sein soll.<lb/>Den Brief will ich noch länger behalten<lb/>vielleicht ist er Zurückgefahren u. holt<lb/>wieder Munition vielleicht kom̃ ich<lb/>nochmal zu ihm. Weñ man nur einen<lb/>Schnupftabak bekom̃en köñte aber keinen.<lb/>Ich habe es im Briefe gelesen das man<lb/>auf der Post keinen annim̃t. Schreiben<lb/>Sie mir bald, sobald als möglich, ob der<lb/>Bernhardt nicht heraus gegangen ist.<lb/>Und wie <add place="superlinear">
+                  <metamark/>es</add> sonst zugeht von Hauswesen.<lb/>Jetzt haben wir es recht schön aber wir<lb/>wissen es nicht wie lange es dauern<lb/>wird, müssen wir ins Feuer wieder oder<lb/>bleiben wir in Orleans od. kom̃en wir<lb/>zurück, nach Elsaß od. Lothringen. Der<lb/>Emanuel darf frohe sein daß er nicht draußen <lb/>ist, wie er es verlangt. Und der Stephan<lb/>Lüger ist glücklich gewesen daß er er⸗<lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">trumen</unclear> ist, sonst hätte er wen er ge⸗<lb/>sund gewesen wäre, wenigstens 15 Treffen<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>mitgemacht. <del rendition="#s">hätte.</del> Grüßt mir den Richard<lb/>u. schreibt mir wie es ihm geht. Ob der<lb/>Schreiner <gap reason="illegible"/> nicht einrücken hat müssen<lb/>u. der Wörle Anton die Arterlerie hat<lb/>viel Manschaft Eingebüßt. Seit dem 1<hi rendition="#sup #uu">ten</hi>
+               <lb/>Dezember haben wir u. die Preusen 62 <lb/>Kanonen u. eine Kugelspritze Erobert.<lb/>Orleans ist eine schöne u. reiche Stadt, aber<lb/>jetzt wird sie Arm. Bei der erste Er⸗<lb/>oberung mußte sie 2 Millionen bei<lb/>der 2<hi rendition="#sup #uu">ten</hi> noch mehr, u. noch <gap reason="illegible"/> acht⸗<lb/>hunderttausend Frances wegen eines Mord⸗<lb/>versuches eines Unterthanen Sr. Maye⸗<lb/>stät des Königs von Preusen <add place="superlinear">
+                  <metamark/>bezahlen</add>. Es sind<lb/>sehr noble Kaufläden prachtvoll, u. der<lb/>Wunderschöne Dom. Alle Tage kom̃en ge⸗<lb/>fangene Franzosen nach Orleans u. doch werden<lb/>sie nicht weniger. In der Hoffnung Euch<lb/>dieser Brief im Wohlergehen antreffen, ver⸗<lb/>bleibe ich unter vielen Grüßen wie ich Euch<lb/>sonst Gegrüßt habe<del rendition="#s"> ihr</del>
+            </p>
+            <lb/>
+            <p rendition="#et">Ihr Dankbarer<lb/>diesen Brief habe ich auf Ludwig Westner<lb/>den Boden geschrieben</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

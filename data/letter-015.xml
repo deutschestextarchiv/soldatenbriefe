@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 15: C. Klein (Unteroffizier), 12.12.1794, Westmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>C.</surname>
+                  <forename>Klein</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 15 von C. Klein, 12.12.1794.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 15: C. Klein (Unteroffizier), 12.12.1794, Westmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>C.</surname>
+                        <forename>Klein</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1794-12-12">1794</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="15">
+            <head>
+               <supplied>SB-Nr. 15: C. Klein (Unteroffizier), <date when="1794-12-12">12.12.1794</date>, <choice>
+                     <abbr>WMD</abbr>
+                     <expan>Westmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p rendition="#et">Lieber Vatter</p>
+            <lb/>
+            <p>Ihren Brief nebst den zwey Hemden habe richtig erhalten aus dem Brief habe ersehen daß Sie sich noch wohl befinden welches mich vom ganzen Herzen erfreuet und wünsche ferner dauerhafte und beständige Gesundheit, Sie schreiben mir aber wegen dem Memoriat wolten Sie die beste Gelegenheit beobachten, ich fürchte aber es geht mir noch wie einigen von uns deren Decrete kamen wo sie schon in französischer Gefangenschaft waren. Ich glaubte fest wenn Sie ein ordentliches Memoriat machen liessen bey einem klugen Mann, und von Herrn Forstrath ein Attestat darbey daß Sie Hülfe nötig hätten, und ich diente nun schon seit Errichtung des hochlöblichen Jäger Corps als Oberjäger unter selbigen, so glaube ich allemahl es muß gehen, von Darmstadt kommt denn das Memoriat an unsren Herrn Major selbiger muß darüber berichten, denn alle Memoriaten welche die Jäger angehen kommen von Darmstadt hirher.</p>
+            <lb/>
+            <p>Überlegen Sie es nun wohl. bdenken Sie die Lage in der wir uns gegenwärtig befinden und als dann urtheilen Sie, ich will Ihnen nicht vorschreiben. Ich hoffe Sie werden für mein bestes Sorgen, denn ich wüste nicht wodurch ich mich Ihrer Väterlichen Liebe solte unwürdig gemacht haben, Ich denke vielmehr Sie werden erwegen daß meine Gegenwärtige Lage, die Folge eines kindlichen Gehorsams ist, glauben Sie aber nicht bester Vater daß ich Ihnen deshalb Vorwürfe machen wolte o nein das dürfen Sie von mir nicht denken; Ich trage lieber mein Schicksaal mit Gedult und erwarte eine frohe Zukunft. Gerne wolte ich Ihnen mehr schreiben aber ich habe keine Zeit leben Sie recht wohl grüßen Sie meine liebe Mutter, Geschwister und alle im ganzen Haus, und sonst alle Bekannte, Wenn der Bote wieder kommt so schicken Sie mir noch Hemden. Ich bin bis jenseit des Grabes </p>
+            <lb/>
+            <p>Ihr gehorsamer Sohn </p>
+            <lb/>
+            <p>C. Klein</p>
+            <lb/>
+            <p>Hochkeppel d. 12. December 1794.</p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 20: Johann B. Zuckerschwedt (Mannschaften), 25.03.1809, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Johann</surname>
+                  <forename>B. Zuckerschwedt</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 20 von Johann B. Zuckerschwedt, 25.03.1809.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 20: Johann B. Zuckerschwedt (Mannschaften), 25.03.1809, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Johann</surname>
+                        <forename>B. Zuckerschwedt</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1809-03-25">1809</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="20">
+            <head>
+               <supplied>SB-Nr. 20: Johann B. Zuckerschwedt (Mannschaften), <date when="1809-03-25">25.03.1809</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p rendition="#et">im Hauptquartire. Metz d. 25ten Merz 1809.</p>
+            <lb/>
+            <p rendition="#et">Geliebte Eltern!</p>
+            <lb/>
+            <p>Seit meiner Ankunft hirselbst, welches den 9<hi rendition="#sup #uu">ten</hi> dieses war, habe ich<lb/>stündlich auf einen Brief von Ihnen gehofft, aber vergebens,<lb/>u ich <add place="superlinear">
+                  <metamark/>war</add> schon recht besorgt, daß was hauptsächliches dort vorgefallen<lb/>seyn mußte, warum ich noch keine Nachricht erhielt; wenn ich nicht<lb/>gestern unvermuthet einen kleinen Brief von Ludewig Zuckerschwerdt.<lb/>bey D.... erhielt, worin mich er seyn, und Ihr allerseitiges Wohl⸗<lb/>seyn versicherte, welches mir recht wieder aufgemuntert hat.</p>
+            <lb/>
+            <p rendition="#et">Ich bin noch immer in einer rechten Verlegenheit, wegen<lb/>Geld, hoffe aber ehe dieser Brief dort ankömmt, werde ich doch<lb/>einige Unterstützung von Ihnen erhalten haben; doch will ich das<lb/>Gewißeste, vors Ungewißeste nehmen, und mich umsehen ob ich<lb/>nicht bey diesem oder jenem <hi rendition="#aq">Banquier</hi> einen Wechsell von<lb/>einigen hundert francs auf <hi rendition="#u">Ihnen geliebter Vater</hi> abgeben kann,<lb/>denn die lange Reise hat meine <hi rendition="#aq">Casse</hi> ganz geräumt, und ich<lb/>muß mich jetzt mit meinem <hi rendition="#aq">Tractamente</hi> behelfen: Ehe ich mich<lb/>zu einem <hi rendition="#aq">Banquier</hi> wende, will ich erst mit unserm Obrist<lb/>mahl sprechen, ob es nicht angeht, daß der <hi rendition="#aq">Quartier </hi>
+               <add place="superlinear">
+                  <metamark/>
+                  <hi rendition="#aq">Maitre Mons: le Lieut: Neutraush.</hi>,</add> einen<lb/>Wechsell von mir annimmt, daß er demselben an einem<lb/>dortigem Hause schickt, u wenn er dann die Nachricht erhällt,<lb/>daß er bezahlt ist, er mir ihm auszahlt; denn wir sind keine Stunde<lb/>sicher, daß wir nicht, wieder von hier wegmüßen. dieses scheint mir<lb/>das sicherste Mittel zu seyn, denn die Briefe werden stets dem <hi rendition="#aq">Regimente</hi>
+               <lb/>nachgeschickt, und vorzüglich die, welche am <hi rendition="#aq">Regiments Bureau<lb/>addressirt</hi> sind, kommen am ersten und sichersten an.</p>
+            <lb/>
+            <p rendition="#et">
+               <hi rendition="#aq">Metz</hi> ist eine starke Festung, <add place="superlinear">
+                  <metamark/>worin 40000 Mann in Casernen bleiben,</add> größer wie Braunschweig,<lb/>und die größeste Stadt, die ich bisher gesehen haben. Es besteht aus<lb/>lauter, alten massiven Häusern, <del rendition="#s">mit ganz flachen u kleinen Dächern</del>
+               <lb/>
+               <del rendition="#s">von 4 u 5 Ettagen,</del> die <hi rendition="#aq">Frond</hi> vom Hause ist etwas höher als das Ende<lb/>vom Dache, und man bemerkt nicht wie die Dachkämme ange⸗<lb/>bracht sind. Man findet hier in Frankreich nichts als <hi rendition="#aq">Camine</hi> statt den<lb/>Oefen, dieses ist eine besondere Mode, denn die meiste Hitze geht<lb/>in Schornstein, und es kommt einem wenig davon zu Nutze. Die<lb/>Stelle dient zugleich zu einer Küche, denn im <hi rendition="#aq">Camine</hi> kochen sie, und<lb/>wer was zu verkaufen hat, dient sie ihm als eine Gast⸗<lb/>schenke. Die Straßen sind hier sehr eng und unrein, und Haupt⸗<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+    Straßen sind hier gar nicht. Das Bier kostet hier die <gap reason="illegible"/>
+               <lb/>6<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">tel</reg>
+               </choice> sous und der Wein auch so viel. Das Brodt ist nicht vom besten, und<lb/>hat lange den Geschmack nicht, als wie dort, es ist nichts anders als<lb/>weißes zu haben. Unser <hi rendition="#aq">Camis</hi> besteht aus Klei, mit wenigem<lb/>Mehle vermischt. Aepfel sind hier um diese Zeit uns noch ziemlich wohl⸗<lb/>feil; was aber die Zwiebeln wohlfeil sind ist erstaunlich, für <lb/>6 Sous bekommt man nach dortigem Maße wohl ½ Vierfaß, und<lb/>daß zum theil solche große, daß einer an einer genug hat; sie<lb/>werden hier zum Brodte, und des Morgens zum Frühstücke ge⸗<lb/>gessen; man mag hier essen was man will, des Mittags,<lb/>so sind <add place="superlinear">
+                  <metamark/>die</add> Zwiebeln, die man am ersten dazwischen gewahr wird.</p>
+            <lb/>
+            <p rendition="#et">Schweine werden viele geschlachtet und das Fleisch kostet<lb/>das Pfund nur 10 Sous. Die Art und Weise, wie sie dieselben hier<lb/>schlachten, ist nicht die appetitlichste. Sie werfen es nehmlich auf<lb/>freyer Straße um, schneiden den Hals ab, lassen das Blut<lb/>weglaufen, bennen dann die Haare mit Stroh ab, putzen <lb/>es etwas ab, zerschneiden, u hauen es in Stücken, und verkau⸗<lb/>fen es dann nachher so; mit einem Schweine werden sie in<lb/>Zeit von einer Stunde fertig. Die Wäsche ist hier sehr theuer, dahin⸗<lb/>gegen aber die Schuhmacher arbeit ziemlich erträglich. Gold und<lb/>Silber fabriken sind genug da, wie auch mehrere andere.<lb/>Bey der Stadt fließt die Mosel vorbey, am Fuße der Weinberge,<lb/>u von diesem Flusse hat der Wein seinen Nahmen. <hi rendition="#aq #u">Moselerwein</hi>
+               <lb/>Es giebt hier einen satten fruchtbaren Boden, die Landleute<lb/>wissen ihm aber nicht so gut als bey uns zu bearbeiten; sie<lb/>pflügen mit 6 zum theil 8 Pferden. Winterfelder giebt es <del rendition="#s">hier</del>
+               <lb/>gar nicht. die Witterung ist <del rendition="#s">hier</del> schon recht hübsch warm. die Bäume<lb/>blühen schon seit 6 tagen.</p>
+            <lb/>
+            <p>der <hi rendition="#aq">Capitain Otpecht</hi> hat seinen Abschied, u ist <hi rendition="#aq">Comdt</hi> zu <hi rendition="#aq">Paterporn</hi> erhalten.<lb/> 
+               <hi rendition="#aq">Lieutenant Bake</hi> hat um seinen Abschied angehalten, und ihne auch erhalten.<lb/>und ist d. 21t. dieses nach seiner Frau zurück gereißt.</p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Sergt. Gent.</hi> ist Wagenmeister beym Regimente geworden. Jede Compa.<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>erhällt einen Bagage Wagen, u bey jeden sind 3 Packknechte<lb/>
+               <add place="superlinear">
+                  <metamark/>angestellt</add>, u über die Wagen u Leute hat <hi rendition="#aq">Gent</hi> zu <hi rendition="#aq">command</hi>irn.<lb/>Bey jedem Battl. sind 3 <hi rendition="#aq">Marketenderinnen</hi> angestellt, und es<lb/>erhällt jede eine <hi rendition="#aq">Medaille</hi> um Hals und ein Schild auf dem<lb/>linken Arme, und werden wohl vom <hi rendition="#aq">Regimente</hi> ei⸗<lb/>gene Kleidung erhalten.</p>
+            <lb/>
+            <p>Wie steht es mit der Handlung, hat sich die noch nicht verbessert?<lb/>Werden <hi rendition="#aq">Kastendy </hi>K. noch wohnen bleiben? grüßen sie<lb/>dieselben vielmahls von mir, wie auch von Grnd. <hi rendition="#aq">Behn</hi>.</p>
+            <lb/>
+            <p>Haben sie Nachrichten von <hi rendition="#aq">Becks</hi>, <hi rendition="#aq">Trillitzsch</hi>, und über⸗<lb/>haupt von allen auswärtigen Freunden und Ver⸗<lb/>wandten, ob die sich noch wohl befinden? Bruder <hi rendition="#aq">Studiosus<lb/>Theodor </hi>ist gewiß zum Ferien da. Er wird es mich nicht<lb/>verdenken, daß ich nicht öfters ihm geschrieben habe, denn<lb/>die Zeit hat mir stets gefehlt; doch aber hoffe ich, wieder mich<lb/>deshalb nicht vergessen; und einen kleinen Brief mit in den<lb/>Ihrigen einlegen. Ich wünsche Ihnen ein fröhliches OsterFest;<lb/>vielleicht ist um die Zeit unser Regiment wieder auf die<lb/>Beine. die <hi rendition="#aq">Organisation</hi> des <hi rendition="#aq">Avantements</hi> im Regimente<lb/>ist <del rendition="#s">hat</del> bis jetzt noch nicht vollzogen; wird aber wohl nächster Tages<lb/>geschehen. Übrigens weis ich Ihnen nichts besonders zu schreiben<lb/>als unsern Marsch.</p>
+            <lb/>
+            <p>
+               <space dim="horizontal"/>
+               <hi rendition="#u">von </hi>
+               <hi rendition="#aq #u">Cassel </hi>
+               <hi rendition="#u">nach </hi>
+               <hi rendition="#aq #u">Metz</hi>
+            </p>
+            <lb/>
+            <p>d. 15t. <hi rendition="#aq">Febr</hi>
+               <space dim="horizontal"/>marschirten wir aus <hi rendition="#aq">Cassel</hi> nach <hi rendition="#aq">Fritzlar</hi>
+               <lb/>
+               <space dim="horizontal"/>eine kleine Stadt.</p>
+            <lb/>
+            <p>d 16.<space dim="horizontal"/>„<space dim="horizontal"/>nach <hi rendition="#aq">Josbach</hi> ein großes Dorf</p>
+            <lb/>
+            <p>d 17<space dim="horizontal"/>„<space dim="horizontal"/>nach <hi rendition="#aq">Marburg</hi> eine Berg Stadt, von da haben<lb/>
+               <space dim="horizontal"/>Sie ein Schreiben von mir erhalten.</p>
+            <lb/>
+            <p>d 18.<space dim="horizontal"/>„<space dim="horizontal"/>durch <hi rendition="#aq">Giessen</hi>, eine Universität wie <hi rendition="#aq">Marburg</hi>
+               <lb/>
+               <space dim="horizontal"/>nach großen <hi rendition="#aq">Linden</hi> ein Marktflecken.</p>
+            <lb/>
+            <p>d 19.<space dim="horizontal"/>„<space dim="horizontal"/>nach <hi rendition="#aq">Friedberg</hi> eine Festung</p>
+            <lb/>
+            <p>d 20<space dim="horizontal"/>„<space dim="horizontal"/>nach <hi rendition="#aq">Frankfurth a/m</hi> eine hübsche Stadt so groß<lb/>
+               <space dim="horizontal"/>wie <hi rendition="#aq">Braunschweig</hi>
+               <lb/>
+               <note place="left">was macht Heinrich mit seinem Halsschaden, ist er völlig <hi rendition="#aq">courirt</hi>?</note>
+               <lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+            </p>
+            <lb/>
+            <p>d 21.t. <hi rendition="#aq">Febr</hi> bin <add place="superlinear">
+                  <metamark/>ich</add> auf den <hi rendition="#aq">Main</hi> nach <hi rendition="#aq">Mainz</hi> auf dem Marktschiffe<lb/>
+               <space dim="horizontal"/>gefahren, u <add place="superlinear">
+                  <metamark/>über</add> die Rhein Brücke, welche auf 60⸗70<lb/>
+               <space dim="horizontal"/>Schiffen gebauet ist, gegangen. <hi rendition="#aq">Mainz </hi>ist eine starke<lb/>
+               <space dim="horizontal"/>Festung; besteht aus alten <hi rendition="#aq">massiven</hi> Häusern.<lb/>
+               <space dim="horizontal"/>Daselbst hatten wir einen Ruhetag.</p>
+            <lb/>
+            <p>d 22t --- Ruhetag.</p>
+            <lb/>
+            <p>d 23<space dim="horizontal"/>---<space dim="horizontal"/>nach <hi rendition="#aq">Oppenheim</hi> eine Bergstadt, diesem Tag sind<lb/>
+               <space dim="horizontal"/>wir stets am Ufer des Rheins gegangen, und es ist<lb/>
+               <space dim="horizontal"/>mich nicht entgangen, zu sehen, daß der <hi rendition="#aq">Rhein</hi> u<lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">Main</hi> an einem Orte zusammen in einem<lb/>
+               <space dim="horizontal"/>Bette fließen, sich aber nicht mit einander ver⸗<lb/>
+               <space dim="horizontal"/>einigen, das Wasser des <hi rendition="#aq">Rheins</hi> ist nehmlich<lb/>
+               <space dim="horizontal"/>grün, u das des <hi rendition="#aq">Mains</hi> gelb; und man kann <lb/>
+               <space dim="horizontal"/>das von weiten genau sehen.</p>
+            <lb/>
+            <p>d 24<space dim="horizontal"/>---<space dim="horizontal"/>nach <hi rendition="#aq">Worms</hi> eine mittelmäßige aber freundliche<lb/>
+               <space dim="horizontal"/>Stadt; die Landstraße geht wohl 3 Stunden immer<lb/>
+               <space dim="horizontal"/>durch eine Allée von alten Wallnußbäumen</p>
+            <lb/>
+            <p>d 25‘<space dim="horizontal"/>---<space dim="horizontal"/>durch <hi rendition="#aq">Frankenthal </hi>eine kleine Stadt nach <hi rendition="#aq">Okers</hi>
+               <lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">heim</hi> desgleichen.</p>
+            <lb/>
+            <p>d 26‘<space dim="horizontal"/>---<space dim="horizontal"/>nach <hi rendition="#aq">Speyer</hi> eine unbedeutende Festung, dahingegen<lb/>
+               <space dim="horizontal"/>aber</p>
+            <lb/>
+            <p>d 27t<space dim="horizontal"/>---<space dim="horizontal"/>nach <hi rendition="#aq">Landau</hi> eine kleine Festung, die fast noch stärker ist<lb/>
+               <space dim="horizontal"/>wie <hi rendition="#aq">Mainz</hi>.</p>
+            <lb/>
+            <p>d 1t <hi rendition="#aq">Merz</hi>
+               <space dim="horizontal"/>hatten wir Ruhetag zu <hi rendition="#aq">Achenheim</hi> ein Dorf.</p>
+            <lb/>
+            <p>d 2<space dim="horizontal"/>---<space dim="horizontal"/>nach <hi rendition="#aq">Weissenburg</hi> eine Festung.</p>
+            <lb/>
+            <p>d 3<space dim="horizontal"/>---<space dim="horizontal"/>nach <hi rendition="#aq">Haguenau</hi> eine kleine Stadt</p>
+            <lb/>
+            <p>d 4<space dim="horizontal"/>---<space dim="horizontal"/>nach <hi rendition="#aq">Tapern </hi>eine Bergstadt.</p>
+            <lb/>
+            <p>d 5<space dim="horizontal"/>---<space dim="horizontal"/>nach <hi rendition="#aq">Sarburg</hi> durch <hi rendition="#aq">Falzburg</hi> beide Festungen.<lb/>
+               <fw type="folNum" place="bottom">[4]</fw>
+            </p>
+            <lb/>
+            <p>d 6t. Merz<space dim="horizontal"/>hatten wir Ruhetag zu <hi rendition="#aq">Nitterwitter</hi>
+            </p>
+            <lb/>
+            <p>d 7.<space dim="horizontal"/>---<space dim="horizontal"/>
+            </p>
+            <lb/>
+            <p>d 8<space dim="horizontal"/>---<space dim="horizontal"/>nach <hi rendition="#aq">Chateaup salain </hi>eine schon auf Französische Manier<lb/>
+               <space dim="horizontal"/>hübsch gebaute kleine Stadt, mit einem berühmten<lb/>
+               <space dim="horizontal"/>Salzwerke, welches nur aus einer <hi rendition="#aq">Quelle</hi> besteht, und<lb/>
+               <space dim="horizontal"/>durch welcher nicht mehr als 30 Pfannen <del rendition="#s">steh</del>stets<lb/>
+               <space dim="horizontal"/>in Arbeit gesetztwerden. Die Sohle läuft nicht<lb/>
+               <space dim="horizontal"/>erst, wie die meisten durch Grandier Werke,<lb/>
+               <space dim="horizontal"/>sondern, sowie sie aus der Jade kömmt ist sie<lb/>
+               <space dim="horizontal"/>schon gut u starkt genug zum Kochen: Ein Salzwerk<lb/>
+               <space dim="horizontal"/>heißt auf französisch <add place="superlinear">
+                  <metamark/>uno</add> Salain, und ein Schloß <hi rendition="#aq">un Cha</hi>⸗<lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">teaup</hi>; also auf deutsch übersetzt. <hi rendition="#u">Salzschloß</hi>.</p>
+            <lb/>
+            <p>d 9. nach.</p>
+            <lb/>
+            <p>d 10<space dim="horizontal"/>nach <hi rendition="#aq">Metz</hi>.</p>
+            <lb/>
+            <p>Einliegenden Brief an <hi rendition="#aq">Ludw. Zuckerschwerdt</hi> haben Sie<lb/>die Güte abzugeben.</p>
+            <lb/>
+            <p rendition="#et">Grüßen sie alle Freunde u Verwandt bestens <lb/>
+               <space dim="horizontal"/>von mir. (Liebe Schwestern u Brüder, sey viel⸗<lb/>
+               <space dim="horizontal"/>mahls von mir gegrüßt, Lebt recht wohl und <lb/>
+               <space dim="horizontal"/>zufrieden, gedenket meiner, und legt einige <del rendition="#s">kleine</del>
+               <lb/>
+               <space dim="horizontal"/>Zeilen <del rendition="#s">Brief</del> mit in der Antwort. auf diesem Brief, die<lb/>
+               <space dim="horizontal"/>nicht zu lange ausbleiben muß.) Liebe Aeltern<lb/>
+               <space dim="horizontal"/>leben sie beyderseits recht wohl u zufrieden. Dieses<lb/>
+               <space dim="horizontal"/>ist der herzlichste Wunsch Ihres</p>
+            <lb/>
+            <p rendition="#et">aufrichtig liebenden Sohns<lb/>
+               <hi rendition="#aq">J. B. Zuckerschwerdt</hi>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[5]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

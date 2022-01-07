@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 153: Paul Petri (Mannschaften), 09.02.1871, Ostmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Paul</surname>
+                  <forename>Petri</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 153 von Paul Petri, 09.02.1871.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 153: Paul Petri (Mannschaften), 09.02.1871, Ostmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Paul</surname>
+                        <forename>Petri</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1871-02-09">1871</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="153">
+            <head>
+               <supplied>SB-Nr. 153: Paul Petri (Mannschaften), <date when="1871-02-09">09.02.1871</date>, <choice>
+                     <abbr>OMD</abbr>
+                     <expan>Ostmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Bron</hi>, d. 9. Febr. 71</p>
+            <lb/>
+            <p rendition="#et">Lieber Papa!</p>
+            <lb/>
+            <p>Heute erhielt ich deinen lieben Brief vom <lb/>4. t., aus dem ich die frohe Nachricht von der <lb/>Packetbeförderung erseh. Dies ist ja um so er⸗<lb/>freulicher, als Alles jetzt furchtbar theuer wird. <lb/>Nur ein Beispiel: das ℔ Butter, das noch vor <lb/>2-3 Wochen 2fr (16 ngr) kostete, kostet jetzt <lb/>(u. zwar in <hi rendition="#aq">Lagny</hi>) 1rl. 10 ngr! Von Butter⸗<lb/>essen ist also keine Rede.</p>
+            <lb/>
+            <p rendition="#et">Wo Ihr Schnee habt, regnet es bei uns fast <lb/>den ganzen Tag, so daß ein furchtbarer Mo⸗<lb/>rast die Straße bedeckt. Es ist das Eurige April⸗<lb/>wetter, nur mit der Ausnahme, daß die Wit⸗<lb/>terung warm ist u. kein Schnee mit Regen <lb/>vermischt ist.</p>
+            <lb/>
+            <p rendition="#et">Was den Einzug in Paris anbetrifft, so <lb/>wollten wir gern darauf verzichten, wenn <lb/>wir nur nach recht baldigen Abschluß des <lb/>Friedens heimfahren könnten. Sollten wir<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>aber dennoch „als Schlußdekoration“, wie <lb/>du sagst durch Paris marschiren können ohne <lb/>besondern Aufenthalt, nur dann wären wir<lb/>es auch zufrieden, wir hätten da wenigstens <lb/>auch das Nest, vor dem wir nun über 5 Mo⸗<lb/>nate liegen, zu sehen bekommen. Der 18. <lb/>Febr. wird uns über alles Auskunft <lb/>geben. Gespannt sind wir gar sehr, was <lb/>werden wird, Krieg oder Frieden. Dem <lb/>
+               <hi rendition="#aq">Gambetta</hi> werden wir schon noch <hi rendition="#aq">mores</hi> leh⸗<lb/>ren, u. über kurz od. lang wird er dem <lb/>Vorspiele <hi rendition="#aq">Troehn‘s </hi>folgen. </p>
+            <lb/>
+            <p rendition="#et">
+               <hi rendition="#aq">Norack</hi> u. <hi rendition="#aq">Waldelau</hi> sind gesund und <lb/>munter. <hi rendition="#aq">Götz</hi> ist heute nach <hi rendition="#aq">Lagny</hi> in‘s La⸗<lb/>zareth gekommen u. wird jedenfalls in <lb/>aller nächster Zeit nach Sachsen <lb/>transportirt werden. Der Arzt sagte mir, <lb/>G. könnte leicht das Nervenfieber bekom⸗<lb/>men. Das Beste wäre allerdings, wenn er <lb/>sofort Privatpflege bekäme, ehe das Uebel <lb/>sich vollends ausbildete. Diese Krankheit ist <lb/>gerade kein gutes <hi rendition="#aq">Entrée</hi> in G.‘s Mili⸗<lb/>tärleben. Ich wünsche ihm baldige Besserung. <lb/>Was wird seine Mutter sagen?</p>
+            <lb/>
+            <p rendition="#et">Was macht <hi rendition="#aq">Marie</hi>? Ich hoffe, daß ihre <lb/>Gesundheit wieder völlig hergestellt ist.</p>
+            <lb/>
+            <p rendition="#et">Der <hi rendition="#aq">Regierungsrath Barth</hi> ist ein <lb/>Onkel <hi rendition="#aq">Stadler‘s</hi>, meines letzten Mittel⸗<lb/>
+               <note place="left">Bitte um <lb/>Entschuldi⸗<lb/>gung!</note>
+               <lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+gesellen in Grimme.</p>
+            <lb/>
+            <p rendition="#et">Nächsten Sonnabend wird nun auch <hi rendition="#aq">Löser </hi>
+               <lb/>in die Heimat gehen u. zwar zum Ersatz⸗<lb/>bataillon nach <hi rendition="#aq">Dresden</hi>; ich habe ihm an Euch <lb/>viele Grüße aufgetragen. Er kann doch in <lb/>
+               <hi rendition="#aq">Dresden</hi> sich mehr als hier pflegen, wenn er <lb/>auch hier <add place="superlinear">
+                  <metamark/>gar</add> keinen anstrengenden Dienst <lb/>hat. Die Compagnie wird ihn sehr ungern <lb/>vermissen, da er außerordentlich beliebt <lb/>war.</p>
+            <lb/>
+            <p rendition="#et">Gestern waren wir noch auf dem <hi rendition="#aq">Fort</hi> 
+               <lb/>
+               <hi rendition="#aq">Nogent</hi>. Früh ½ 9 Uhr brachen wir, 11 Mann <lb/>(3 Unteroff., 6 Gefreite u. 2 Soldaten) stark,<lb/>von <hi rendition="#aq">Bron</hi> auf u., nachdem wir <hi rendition="#aq">Chelles</hi>, <hi rendition="#aq">Ville</hi> 
+               <lb/>
+               <hi rendition="#aq">Evrart</hi>, <hi rendition="#aq">Neully</hi> passirt hatten, kamen wir <lb/>gegen ½ 12 Uhr auf dem Fort an, das die <lb/>Würtemberger u. preußische Artillerie be⸗<lb/>setzt halten. Den Tag über war das Wet⸗<lb/>ter trübe und regnerisch, so lange wir uns aber <lb/>auf dem Fort selbst aufhielten, machte sich <lb/>der Himmel hell, u. wir hatten eine pracht⸗<lb/>volle Aussicht. Romantisch lag vor uns <lb/>Fort, Schloß u. Stadt <hi rendition="#aq">Vincennes</hi> zur Linken, <lb/>gerade vor uns das Dorf <hi rendition="#aq">Fontenai</hi> und <lb/>im Hintergrunde 1 Std. von letzterem Dorfe <lb/>Paris, die stolze Hauptstadt. Ganz deutlich <lb/>erkennen wir die Thürme von <hi rendition="#aq">Notre Dame</hi>,<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>doch unzählige Essen verbreiteten über der Rie⸗<lb/>senstadt gewaltigen Dampf, so dass das Uebrige <lb/>der Stadt in düsterem Nebel lag. Rechts <lb/>vor uns lagen das <hi rendition="#aq">Fort Rosny</hi> mit seinen <lb/>völlig zerschossenen Kasernen u. der große <lb/>
+               <hi rendition="#aq">Mont Avron</hi>, der uns früher so viel zu schaffen <lb/>gemacht hat. Das Fort selbst soll eines der stärk⸗<lb/>sten sein, u. fürwahr, wenn wir hätten diese <lb/>gewaltigen Festungswerke erstürmen sollen, <lb/>wir Alle hätten uns an den steinernen Wäl⸗<lb/>len die Köpfe eingerannt. Die Geschütze ste⸗<lb/>hen ringsum, auch nach Paris zu, u. es sind <lb/>da vom 4 ℔ bis zum 75 ℔ (Marinegeschütz) <lb/>vertreten. Die Kasernen sind total zerschos⸗<lb/>sen, so dass nur wenige Stuben im Par⸗<lb/>terre zu bewohnen sind. Die Umwallungen <lb/>haben weniger gelitten, da sie ungeheuer <lb/>fest u. mit Sandsäcken umgeben sind. Es <lb/>ist sehr interessant, sich dies im Frieden an⸗<lb/>sehen zu können. Nach einem mehrstündigem <lb/>Aufenthalte in <hi rendition="#aq">Fontenai</hi>, wo noch Alles bei <lb/>den Einwohnern zu haben war, traten wir <lb/>wieder bei vollem Regen unsern Rückmarsch <lb/>an. Gegen 8 Uhr waren wir in <hi rendition="#aq">Bron</hi>.</p>
+            <lb/>
+            <p rendition="#et">Und nun noch herzliche Grüße an Ma⸗<lb/>ma, <hi rendition="#aq">Georg</hi> u. <hi rendition="#aq">Marie</hi>.</p>
+            <lb/>
+            <p>Unter herzlichem Gruß Dein <lb/>
+               <space dim="horizontal"/>folgsamer Sohn <lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">
+                  <space dim="horizontal"/>Paul</hi>
+            </p>
+            <lb/>
+            <p>Entschuldige nur die größeren <lb/>schwarzen Punkte. Im Fasse <lb/>war zu viel Tinte.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

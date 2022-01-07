@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 104: Dr. Carl F. Pogge (Offizier), 1866, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Dr.</surname>
+                  <forename>Carl F. Pogge</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 104 von Dr. Carl F. Pogge, 1866.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 104: Dr. Carl F. Pogge (Offizier), 1866, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Dr.</surname>
+                        <forename>Carl F. Pogge</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1866">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="104">
+            <head>
+               <supplied>SB-Nr. 104: Dr. Carl F. Pogge (Offizier), <date when="1866">1866<note type="editorial">genaues Datum unbekannt</note>
+                  </date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p rendition="#et">Meine lieben Eltern</p>
+            <lb/>
+            <p>Gestern Mittag bin ich wohlerhalten nach siebentägigem <lb/>Marsche (mit einem Ruhetage) an dem Orte unserer<lb/>Bestimmung angelangt und habe jetzt, wie es heißt<lb/>ca drei Wochen, das Vergnügen in diesem elenden<lb/>canadischen dorfe, wo nicht der vierte Theil der<lb/>Menschen deutsch spricht, zu residiren. Die ver⸗<lb/>flossenen acht Tage sind mir ziemlich rasch bei<lb/>dem wechselnden Leben vergangen und nach der <lb/>kleinen Probe, die ich gestern und heute von <unclear reason="illegible" cert="high" resp="#MN">den</unclear>
+               <lb/>in den Standquartieren bekommen habe, würde<lb/>ich <unclear reason="illegible" cert="high" resp="#MN">de</unclear>m ersteren unstreitig den Vorzug geben. Unsere<lb/>Reise ging über <hi rendition="#aq">Wittenberg, Jüterbock, Lübben,<lb/>Lübbenau, Vetschau,</hi> aber immer hatten wir das<lb/>Glück in diesen Städten zu übernachten. Trotzdem<lb/>waren unsere Quartiere nicht schlecht und wenn es<lb/>auch manchmal nur eine Streu gab, so hatte ich doch<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>immer meine Stube für mich allein. Die Gastfreundschaft<lb/>meiner Miethe kann ich nicht genug loben, jeder that<lb/>was in seinen Kräften stand, um mir den Aufenhalt<lb/>in ihren Schlössern, Häusern oder Hütten so angenehm<lb/>als möglich zu machen und wenn auch zuweilen der<lb/>Erfolg ihrer Absicht nicht entsprach, so ist doch der gute<lb/>Wille anzuerkennen. Zweimal kam ich unverhofft<lb/>zu einem sehr guten diner (Essen und Trinken spielt <lb/>jetzt wirklich eine Hauptrolle) einmal in <hi rendition="#aq">Markendorf</hi>
+               <lb/>beim Gutsbesitzer Hoffmann, hernach in Schloß <hi rendition="#aq">Kasel</hi>, <lb/>einer dem Grafen zu <hi rendition="#aq">Solms</hi> gehörigen Besitzung, <lb/>zwei Gelegenheiten, die der Hauptmann S. und ich nicht<lb/>unbenutzt vorübergehn ließen. Mit meinen beiden<lb/>Officieren H.S und Lt. <hi rendition="#aq">Reusche(r)</hi>
+               <add place="superlinear">
+                  <metamark/>?</add> stehe ich übrigens <lb/>auf den besten Füßen, so daß ich, wenn es so bleibt,<lb/>in diesem Punkte wenigstens, zufrieden sein wer⸗<lb/>de.<metamark>_</metamark> Wie ich es hier in W. aushalten werde,<lb/>weiß ich vorläufig noch nicht. Meine Wohnung<lb/>ist ganz miserabel, ein kleines niedriges Gemach<lb/>in einer Lehmhütte, aber theilweise noch als Kar⸗<lb/>toffellager und Rumpelkammer benutzt <lb/>wird, mit schmutzigen Wenden, von denen theil⸗<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+weise der Kalk gefallen ist, mit Ziegelsteinen<lb/>gepflastert. Die einzigen Meubles sind ein scheußlicher<lb/>roher Tisch, u Stuhl, eine ungefüge Bettstelle mit<lb/>Stroh gefüllt usw. Fleisch giebt es im Dorfe nicht,<lb/>so daß ich gestern und heute von Butterbrod, Kar⸗<lb/>toffeln und Milch leben mußte. Morgen beginnt<lb/>die Verpflegung vom <unclear reason="illegible" cert="high" resp="#MN">Ampt</unclear>, da die Sachen aber<lb/>roh geliefert werden, muß ich auch noch das Kochen<lb/>lernen, wenn nicht etwa mein Bursche, ein<lb/>im Ganzen brauchbarer Mensch dies seltene<lb/>Talent besitzt. <hi rendition="#aq">Cottbus</hi> liegt leider über zwei<lb/>Stunden von hier entfernt, so daß ich wohl <lb/>schwerlich täglich werde dorthin kommen<lb/>können. Mein einziger Trost sind noch die<lb/>benachbarten Collegen, von denen ich einen<lb/>
+               <hi rendition="#aq">Dr. Voss</hi> von <hi rendition="#aq">Berlin</hi> kenne; der andre ist <lb/>Dr. <hi rendition="#aq">Lunow</hi> (heißt nicht der <unclear reason="illegible" cert="high" resp="#MN">Gradner</unclear>᾽sche Schwie⸗<lb/>gersohn so?)</p>
+            <lb/>
+            <p>Nun verschiedene Bitten: Recht ausführliche<lb/>Nachrichten von Euch und über die Brüder,<lb/>wenn Ihr es nicht etwa vorzieht, mir drei<lb/>Briefe direkt zuschicken. An Mutter das<lb/>ergebenste Gesuch um <hi rendition="#u">vier Handtücher</hi>, an<lb/>Vater eine sehr dringende Bitte um viele<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>Cigarren (<hi rendition="#aq">Britannia</hi>?) und um zwei Pfund<lb/>guten Taback für mich. Sollte noch Platz in<lb/>der Kiste sein bitte ich noch um zwei kleine<lb/>Flaschen guten Kornbrantweins, Euer <unclear reason="illegible" cert="high" resp="#MN">riecht</unclear>
+               <lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">süßh</unclear> wie ihn die Onkels auf dem Lande<lb/>haben.</p>
+            <lb/>
+            <p>Unter den freundlichsten Grüßen an Euch und<lb/>
+               <hi rendition="#aq">Max</hi> sage ich Euchfürheute Lebewohl</p>
+            <lb/>
+            <p>		Euer gehorsamer Sohn<lb/>		Carl Pogge</p>
+            <lb/>
+            <p rendition="#et">. . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
+            <lb/>
+            <p>Paquete gehen, glaube ich,	<hi rendition="#aq">Wilkersdorff</hi>
+               <lb/>leider nicht mit d. Feldpost	bei <hi rendition="#aq">Cotbus</hi>
+               <lb/>sperre</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

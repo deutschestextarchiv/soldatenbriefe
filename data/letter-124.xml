@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 124: Michael Kundinger (Mannschaften), 04.10.1870, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Michael</surname>
+                  <forename>Kundinger</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 124 von Michael Kundinger, 04.10.1870.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 124: Michael Kundinger (Mannschaften), 04.10.1870, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Michael</surname>
+                        <forename>Kundinger</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1870-10-04">1870</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="124">
+            <head>
+               <supplied>SB-Nr. 124: Michael Kundinger (Mannschaften), <date when="1870-10-04">04.10.1870</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Verieres</hi>, den 4<hi rendition="#sup #u">ten</hi> Oktober 1870.</p>
+            <lb/>
+            <p rendition="#et">Lieber Schwager und Schwester!</p>
+            <lb/>
+            <p rendition="#et">Was mich anbelangt, bin ich Gott sei Dank noch recht<lb/>gesund, und hoffe, daß euch mein Brief auch gesund antrifft<lb/>Neuigkeiten kann ich Euch sonst nichts schreiben, daß das<lb/>Feuern bei Paris immer fort dauert, und wir uns noch<lb/>immer auf denselben Platz hinter Paris befinden<lb/>wo es seid einigen Tagen vieles Blut kostete jetzt<lb/>aber kommen erst die schweren Festungsgeschütze<lb/>von Preußen und Bayern nach, und dann muß es<lb/>sich doch bald <del rendition="#s">s</del>entscheiden. Beim Bogendörfer und<lb/>Stechhöfer bin ich schon lange nicht mehr gekommen.</p>
+            <lb/>
+            <cb type="start"/>
+            <lg type="poem">
+               <l>Wir sind wie es die Pflicht gebeut</l>
+               <lb/>
+               <l>Stets immer fest zum Kampf bereut</l>
+               <lb/>
+               <l>Wir stehen All in Gottes Hand</l>
+               <lb/>
+               <l>Und streiten gern fürs Vaterland</l>
+               <lb/>
+               <l>Wir trachten nicht nach Raub und Gold</l>
+               <lb/>
+               <l>Und sind vergnügt mit unserm Sold</l>
+               <lb/>
+               <l>Es wird der liebe Gott uns geben</l>
+               <lb/>
+               <l>das wir einander wieder sehen.</l>
+               <lb/>
+            </lg>
+            <cb/>
+            <p>Ich schließe mein Schreiben<lb/>
+    mit vielen Grüßen, auch viele<lb/>
+    Grüße an Herrn Dörrer in<lb/>
+    Ansbach. Ich verbleibe<lb/>
+    Euer dankbarer<lb/>
+    Bruder und Schwager<lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">Kundinger Michael.</hi>
+               <lb/>
+            </p>
+            <lb/>
+            <cb type="end"/>
+            <fw type="folNum" place="bottom">[1]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

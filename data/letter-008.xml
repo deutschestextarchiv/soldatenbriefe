@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 8: Heinrich Krafft (Mannschaften?), 08.05.1758, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Heinrich</surname>
+                  <forename>Krafft</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 8 von Heinrich Krafft, 08.05.1758.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 8: Heinrich Krafft (Mannschaften?), 08.05.1758, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Heinrich</surname>
+                        <forename>Krafft</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1758-05-08">1758</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="8">
+            <head>
+               <supplied>SB-Nr. 8: Heinrich Krafft (Mannschaften?), <date when="1758-05-08">08.05.1758</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p rendition="#et">Gott Zum Gruß Hertz viel gelieb<supplied resp="#CT">-</supplied>
+               <lb/>
+               <space dim="horizontal"/>ter Schatz.</p>
+            <lb/>
+            <p>Wen dich dieses mein wenige Schrei<supplied resp="#CT">-</supplied>
+               <lb/>ben, noch bey guter gesundheit antrifft<lb/>soll es mir von Hertzen lieb seyn, was<lb/>mich an belanget, bin ich Gott sey Dank<lb/>auch noch gesund. Hertz viel geliebtes<lb/>Kind ich hätte schon eher an dich geschrie<supplied resp="#CT">-</supplied>
+               <lb/>ben, aber ich habe nicht gewust, ob Du<lb/>noch da währest oder nicht, weill ich<lb/>aber nun erfahren habe, daß du noch<lb/>alda bey die leute bist, so habe mir<lb/>die freyheit genom̃en, diese wenige<lb/>Zeilen an dich zu Schreiben, um<lb/>zu erfahren, ob du noch gesund bist<lb/>und, ob sonst was neues da vor gegangen<lb/>ich wolte dir woll nachricht Schreiben<lb/>von deine Brüder, der eine daß weiß<lb/>ich woll, der ist jetzt zu hause<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>und der andere, ist von uns ab, und<lb/>bey unser erstes Battallion gegeben<lb/>ich habe Kürtzlich nicht mit ihm gesprochen<lb/>weiß also nicht, was er macht, er würde<lb/>doch woll Kürtzlich geschrieben haben<lb/>Hertz liebster Schatz ich will mir ein<lb/>wenig Andwort hierauf wieder aus<lb/>bitten, der bothe der diesen brieff<lb/>bringet, kan sie die Andwort wieder<lb/>mit zu rück geben, ich Brauche jetzt<lb/>Geld, wen sie es übrig hat, will<lb/>bitten, mir etwas herauf Zu Schicken<lb/>den ich habe es groß nöhtig. ich werde<lb/>selbes mit vielen Danck erckennen<lb/>wir liegen jetzt eine Stunde von<lb/>
+               <hi rendition="#aq">Münster</hi> in die Qantonir Quartir<lb/>es ist hier alles sehr theuer, wir<lb/>haben hier schon bewachen gelegen<lb/>wie lange, daß es noch wehren wird<lb/>daß weiß kein Mensch von uns<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>es wird gesprochen, daß jetzt am<lb/>frieden gearbeitet wurde, Gott<lb/>gebe daß es mag bald friede werden<lb/>sonst mögte es noch eine Elende Zeit<lb/>werden in der Welt, ich weiß vor<lb/>jetzt nichts mehr zu Schreiben, ich<lb/>Empfehle dich in den Schutz des aller<lb/>Höchsten, und bleibe biß in den dodt<lb/>dein getreuer Schatz.</p>
+            <lb/>
+            <p rendition="#et">Heinrich Andreas Krafft.</p>
+            <lb/>
+            <p>Walbeck d 8 May 1758.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

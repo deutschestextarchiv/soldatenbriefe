@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 12: E. P. von Anderten (Offizier?), 30.09.1762, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>E.</surname>
+                  <forename>P. von Anderten</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 12 von E. P. von Anderten, 30.09.1762.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 12: E. P. von Anderten (Offizier?), 30.09.1762, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>E.</surname>
+                        <forename>P. von Anderten</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1762-09-30">1762</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="12">
+            <head>
+               <supplied>SB-Nr. 12: E. P. von Anderten (Offizier?), <date when="1762-09-30">30.09.1762</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Gemünden d 30ten Sept </p>
+            <lb/>
+            <p>1762.</p>
+            <lb/>
+            <p rendition="#et">Hochgeehrteste Frau Groß⸗Mama und Mama!</p>
+            <lb/>
+            <p>Wo soll ich Worte zu dem betrübten Anfang dieses jammervollen<lb/>Schreibens finden? Wolte Gott, daß ich niemals genöthigt worden,<lb/>Ihnen einen Brief zu schreiben, der zu ihrem Troste gereichen <lb/>soll, und der Ihnen doch unzählige Thränen auspreßen wird!</p>
+            <lb/>
+            <p>Gönnen Sie diesen Thränen einige Augenblicke, sie sind<lb/>gerecht, und ich würde mit Ihnen weinen und klagen, wenn<lb/>ich bey Ihnen sein könte, so wie ich solches jetzt in meiner Ein-<lb/>samkeit thue. Allein setzen Sie diesen Thränen ein Ziel,<lb/>und dencken Sie, daß es der Herr sey, der Ihnen dieses schwere<lb/>Kreutz zugeschickt hat. Laßen Sie uns nicht gegen den Höchsten<lb/>durch unsre unmäßige Traurigkeit versündigen, noch we-<lb/>niger gegen Ihn murren, laßen Sie uns viel mehr die<lb/>Güte preisen, die er auch bei diesem uns betroffenen<lb/>Unglücke uns erzeiget hat. Die Blessur des mir zur<lb/>Herrlichkeit erhöhten Ludgen war freilich schwer, wir<lb/>hatten jedoch bis ans Ende die größeste Hoffnung zu seiner<lb/>WiederGenesung. Er hatte keine seiner Gliedmaßen ver-<lb/>lohren, welches uns das ihn betroffene Unglück nur noch<lb/>unerträglicher gemacht haben würde. Er empfand<lb/>fast nicht den geringsten Schmertzen an seinen beiden<lb/>Wunden, so wenig der Seite als der Hand, so daß er die<lb/>lezte beständig gebraucht hat, so viel Ihm der starke<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>Geschwülst derselben zulaßen wolte, und auf der Seite konnte<lb/>er auch liegen. Wäre man genöthigt gewesen Ihm Arme<lb/>oder Beine abzunehmen, man hätte Ihn lange Zeit mit<lb/>den größesten Schmertzen von der Welt sich martern und<lb/>doch endlich daran sterben sehen, würde nicht dieses uns<lb/>dreifach gerühret haben? Anjetzo aber hat er in den 6<lb/>Tagen seiner Kranckheit keine weitern Schmertzen<lb/>empfunden, als daß Ihm die Brust zu eng war, und dieje-<lb/>nigen so ihm das starke Fieber verursachte.</p>
+            <lb/>
+            <p>Ich habe Ihnen in meinem letzten Schreiben gemeldet,<lb/>daß er sich beßerte, hirmit continuirte es, ja er<lb/>befand sich des folgenden betrübten Tages d. 27ten, deßen<lb/>trauriges Andenken nimmermehr aus meinem Ge-<lb/>dächtniße kommen wird, noch beßer. Er war den gantzen<lb/>Tag munter, hatte Ruhe, meine Brust ist heute viel<lb/>beßer sagte er noch gegen Abend zu mir. Ich schöpfte<lb/>die größeste Hoffnung, allein wie vergeblich ist<lb/>nicht das Hoffen der Menschen? Er starb gegen 6<lb/>Uhr Abends, da er noch einen Augenblick zuvor<lb/>gesagt hatte: ich will ein wenig schlafen, so ist er<lb/>auch ohne das geringste Ach oder Weh zur Ewig-<lb/>keit eingegangen, ohne von der abscheulichen Qual<lb/>des Todes, welche viele empfinden, das geringste zu erfahren.<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+            </p>
+            <lb/>
+            <p>Gott hat Ihm Zeit gegeben, sich zu dem Eingange in sein<lb/>Reich zu bereiten, und sich mit Ihm zu versöhnen, welches<lb/>er auch, als ein rechter Christ noch des nemlichen Abends<lb/>da er verwundet worden gethan hat. Er ergab<lb/>sich sofort in den Willen des Höchsten ohne das geringste<lb/>Klagen oder Murren, ja er trug mir auf, Sie zu<lb/>bitten ein gleiches zu thun, und sich, selbst um der<lb/>zu ihm gehegten Liebe willen, aus gar zu großer<lb/>Traurigkeit über seinen Zustand nicht selber an<lb/>Ihrer Gesundheit Schaden zu thun. Geben Sie doch<lb/>dieser seiner lezten Bitte Gehör, ich füge meines<lb/>hinzu. Gott weiß es, und keinem Menschen<lb/>kan ich es sagen, wie nahe mir es gegangen ist,<lb/>einen Bruder, den ich jederzeit mit so vieler Zärtlich-<lb/>keit geliebet habe, so gantz unverhofft, da ich die<lb/>größeste Hoffnung zu seiner Genesung hatte,<lb/>in meinen Armen sterben zu sehen. Dieses<lb/>Unglück hat mich gantz betäubet und unempfindlich<lb/>gemacht. Allein was habe ich mit meinen Thränen,<lb/>mit meinem Wehklagen ausgerichtet. Alles dieses<lb/>ist nicht vermögend, Ihm das Leben wiederzugeben.</p>
+            <lb/>
+            <p>Es ist mir also nichts übrig blieben, als dieses von<lb/>dem Herrn uns auferlegte schwere Leiden mit<lb/>christlicher Gedult zu ertragen. Thun Sie doch um der<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>der Liebe willen zu uns übrigen das nemliche, und opfern<lb/>Sie doch nicht durch die stete Traurigkeit, womit jedoch dem<lb/>in Gott ruhenden nichts gedient ist, Ihre uns so werthe<lb/>Gesundheiten auf, sondern erhalten solche zu unserm Besten.<lb/>Es bleibt noch ein Trost zu ihrer Beruhigung übrig. Er ist bey<lb/>mir und fast in meinen Armen gestorben. Sie können Sich<lb/>also beruhigen, daß nichts was zur Herstellung seiner Gesundheit<lb/>zu seiner Wartung und Pflege gereichen können, eine Mi-<lb/>nute verabsäumet, und dass er nicht ver<hi rendition="#aq">neglig</hi>iret oder<lb/>verwahrlohset worden sondern daß sein Ziel da gewesen sey.</p>
+            <lb/>
+            <p>Würde es Ihnen nicht doppelt schmerzhafft sein, wenn der-<lb/>selbe noch bei seiner Blessure das Unglück gehabt hätte,<lb/>in die Hände der Feinde zu gerathen, von Ihnen maltrai-<lb/>tirt oder wohl gar, wie der ObrLieut. Reichen todtgeschlagen<lb/>zu werden? Würde dieses Sie nicht beständig nagen,<lb/>wenn Sie keine gewiße Nachricht von der Art seines<lb/>Todes, ob er nicht aus Verwahrlosung oder Versäumung<lb/>seinen Geist aufgeben müßen, einziehen könten? Würden<lb/>Sie Sich Ihn nicht beständig in den Händen unsrer Feinde<lb/>und sich allerhand Drangsale welche Ihm diese noch viel-<lb/>leicht in den lezten Augenblicken seines Lebens ange-<lb/>than hätten, vorgestellt haben. Allein so kam er zu<lb/>mir, die Freude bey mir zu sein, stärkte Ihn den ersten<lb/>Tag. Er beruhigte sich, wenn ich bei Ihm war, und in die-<lb/>ser Ruhe und Freude über seine Beßerung ist er seelig<lb/>in dem Herrn entschlaffen. Stillen Sie also Ihre Thränen,<lb/>ich bitte nochmals, und erfreuen Sie mich durch die baldige<lb/>Nachricht hirvon. Es ist niemand der solche, obgleich Sie nichts als<lb/>schmerzhafftes enthalten <add place="superlinear">
+                  <metamark/>wird</add> mit größerer Ungedult erwartet als</p>
+            <lb/>
+            <p rendition="#et">Dero <space dim="horizontal"/> Gehorsamster Sohn E P Anderten.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

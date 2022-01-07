@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 105: Carl Holldorf (Unteroffizier), 22.02.1867, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Carl</surname>
+                  <forename>Holldorf</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 105 von Carl Holldorf, 22.02.1867.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 105: Carl Holldorf (Unteroffizier), 22.02.1867, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Carl</surname>
+                        <forename>Holldorf</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1867-02-22">1867</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="105">
+            <head>
+               <supplied>SB-Nr. 105: Carl Holldorf (Unteroffizier), <date when="1867-02-22">22.02.1867</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Frankfurt</hi> den 22 2/67.</p>
+            <lb/>
+            <p rendition="#et">Liebe Wiehlemiene</p>
+            <lb/>
+            <p>Mit Freudigen Herzen ergreif<lb/>ich die Feder an dier zu schreiben<lb/>und dier benachrichtige das ich<lb/>deinen so lieben Brief erhalten<lb/>habe und es hat mier viel Freude<lb/>gemacht Liebe Wihlemiene du schreibt<lb/>meiner ich soll dier <add place="superlinear">
+                  <metamark/>doch</add> schreiben wie <del rendition="#s">s</del>
+               <lb/>ich die Aben verbringe das wiel<lb/>ich dier gleich schreiben die verbring<lb/>ich ganz gut den ich bin alle Aben<lb/>zu Hause und liegt auf Bett und<lb/>erhalte mier mit die Leute oder <lb/>denck du was anderes das glaubt<lb/>
+               <add place="superlinear">
+                  <metamark/>du</add> nicht den wenn du hier wärst dan<lb/>währe das nicht den hier ist keine<lb/>für mich Liebe Wihlemiene habe nur<lb/>keine bange vüer mich den ich<lb/>halte was ich dier gesagt habe den<lb/>du weis doch wie ich bin ich Liebe<lb/>dich von ganzen Herzen und<lb/>ich bleibt dier Treu bis im Todt<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+            </p>
+            <lb/>
+            <p>Liebe Wihlemiene weiter<lb/>weis ich dier nicht neues<lb/>zu schreiben gesund bin ich<lb/>noch was ich auch von dier<lb/>hoffe und hoffe das dich mein<lb/>schreiben bei guter gesundt<lb/>heit antreffen möge Liebe<lb/>Wihlemiene schreibt mier balte<lb/>wieder den würt sich wohl<lb/>was neuen zugetragen<lb/>haben hiermit mus ich<lb/>schließen den meine Lampe<lb/>wiel nicht mehr brennen und<lb/>es ist schohn 11 Uhr grüße<lb/>alle Freunde und bekante<lb/>von mier und auch deine<lb/>Schwester von mier<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+            </p>
+            <lb/>
+            <p>hier mit mus ich schließen<lb/>vergeb mich und schreibt mier<lb/>ich häte schohn er geschriebe aber<lb/>ich konte nich er den wier haben<lb/>jetz viel Dientz. weiter weis<lb/>ich nich zu schreiben</p>
+            <lb/>
+            <p rendition="#et">Ich verbleibe dein dich<lb/>
+               <space dim="horizontal"/>Lieben und Treuer<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">
+                  <space dim="horizontal"/>Karl<lb/>
+                  <space dim="horizontal"/>Holldorf</hi>
+               <lb/>
+               <space dim="horizontal"/>Unteroffzr.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

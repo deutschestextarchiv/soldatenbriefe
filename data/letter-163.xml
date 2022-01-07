@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 163: Heinrich Fourné (Mannschaften), 10.05.1871, Nordoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Heinrich</surname>
+                  <forename>Fourné</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 163 von Heinrich Fourné, 10.05.1871.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 163: Heinrich Fourné (Mannschaften), 10.05.1871, Nordoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Heinrich</surname>
+                        <forename>Fourné</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1871-05-10">1871</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="163">
+            <head>
+               <supplied>SB-Nr. 163: Heinrich Fourné (Mannschaften), <date when="1871-05-10">10.05.1871</date>, <choice>
+                     <abbr>NOD</abbr>
+                     <expan>Nordoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Jouarre</hi> den 10<hi rendition="#sup #uu">ten</hi> Mai 1871.</p>
+            <lb/>
+            <p rendition="#et">Liebe Eltern u. Geschwister!</p>
+            <lb/>
+            <p>Gestern erhielt 2 Packeten mit Seife, Socken<lb/>u einen Kamm welches ich sehr nothwendig<lb/>brauch<add place="superlinear">
+                  <metamark/>t</add>e. Gestern mußte ich mir wieder 1<lb/>Thr von Herrn Ring geben lassen welches<lb/>mich wieder sehr frappirt hat denn das thue<lb/>ich nicht gerne, wenn ihr mir nur <add place="superlinear">
+                  <metamark/>mit</add> Gottes Hül⸗<lb/>fe einige Gulden schicken könntet ich weiß<lb/>daß es Euch <add place="superlinear">
+                  <metamark/>wohl</add> hart ankommt u. thut mir auch<lb/>sehr leid aber ihr glaubt mir auch nicht genug<lb/>wie weh es thut wenn man Hunger leiden muß.<lb/>Vielleicht wenn <del rendition="#s">es</del>unsre Verw..d.. ihre Beisteu⸗<lb/>er dazu thäten wenn ihr es ihnen erzählt.</p>
+            <lb/>
+            <p>Gesund bin ich noch, nur zu gesund, und gefallen<lb/>thät es mir hier besser als in Erlangen.</p>
+            <lb/>
+            <p>Viele Grüße an die Großmutter, an Fami⸗<lb/>lie Keller, an Onkel Wurm, u. an die<lb/>Tante in Nürnberg an Frau u H. Rector<lb/>
+               <del rendition="#s">u. </del>die Gesellen u. Freunde</p>
+            <lb/>
+            <p rendition="#et">Es grüßt Euch<lb/>
+               <space dim="horizontal"/>Euer Sohn<lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">Heinrich.</hi>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[1]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

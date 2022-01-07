@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 146: Carl Holldorf (Unteroffizier), 17.01.1871, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Carl</surname>
+                  <forename>Holldorf</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 146 von Carl Holldorf, 17.01.1871.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 146: Carl Holldorf (Unteroffizier), 17.01.1871, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Carl</surname>
+                        <forename>Holldorf</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1871-01-17">1871</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="146">
+            <head>
+               <supplied>SB-Nr. 146: Carl Holldorf (Unteroffizier), <date when="1871-01-17">17.01.1871</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Lemom den 17 Januar</p>
+            <lb/>
+            <p>
+               <hi rendition="#u">1871</hi>
+            </p>
+            <lb/>
+            <p>Liebe Wihlemine</p>
+            <lb/>
+            <p>Mit Freudigen Herzen ergreif ich<lb/>die Feder an dier zu Schreiben und<lb/>dier zu benachtrichtigen das ich deinen<lb/>Lieben Brief erhalten habe mit die<lb/>Schöhne Karte wo ich mich sehr<lb/>gefreut habe. Liebe Miene von den<lb/>3 Januar habe wier eine Traurige<lb/>Zeit durch gemacht den wier sind von<lb/>Orleans vorgemacht und sollten in<lb/>Würdem in Quartier kommen dan<lb/>kommen wier ins gefecht und die<lb/>ganze Zeit bis zum 14 Januar<lb/>alle Tage und des Nacht draußen<lb/>gelegen in den Schnee und Regen<lb/>ach das wahr eine Traurige Zeit<lb/>Liebe Miene jetz liegen wir in Lemom<lb/>und wissen jetz nicht wo hin. Weiter<lb/>neues weiß ich nicht zu schreiben<lb/>gesundt bin ich noch und hoffe das<lb/>mein schreiben bei gutter gesundheit<lb/>antreffen möge<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>und schreibt mier doch ob du<lb/>das Bild von Orleanz bekommen<lb/>hast. Hier mit muß ich schließen<lb/>gesund bin ich noch was auch das<lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">Beste</unclear> ist. Liebe Miene du schreibt<lb/>mier ich solte mier abnämen lassen<lb/>wenn ich Geld habe Geld habe ich noch<lb/>18 Tahler das fehlt mier nicht. aber<lb/>die Zeit erlaubt man nicht und<lb/>der Leute Dienst hier nicht und<lb/>es geht auch nicht den weil man<lb/>nunmahl hier ist und da wenn<lb/>ich kann zu kommen dann will<lb/>ich dier die Freude machen wens<lb/>irgendgeht Liebe Miene lange württ<lb/>nicht mehr Dauern mit den Krigt<lb/>den wier habe jetz wieder viel gefange<lb/>gemacht hier mit mus ich schließen<lb/>sei so gut und schreibt mier<lb/>balde wieder. Ich verbleibe dein<lb/>dich Liebe<space dim="horizontal"/>
+               <hi rendition="#aq">Karl Holldorf</hi>
+               <lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+            </p>
+            <lb/>
+            <p>Liebe Miene grüße Vatter<lb/>Mutter von mier und Fritz<lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">Hacke</unclear> und seine Frau.<lb/>Wihlem Hacke und seine Frau<lb/>und alle guthe Freunde und<lb/>bekanten. auch Otto. und meine<lb/>liebe Mutter und Bruder auch Emil von<lb/>Schehl. von mier und saget ihr das Fritz<lb/>Kirchner in Lazareth liegt in Orleans<lb/>ich habe lange Zeit nicht gesehn<lb/>Liebe Miene hier mit muß<lb/>ich schließen den meine Leute<lb/>haben das Mittag Essen Fertig<lb/>und ich mus Essen und weist <lb/>du? was sie gekocht haben? Fleisch<lb/>und Nudell</p>
+            <lb/>
+            <p rendition="#et">
+               <hi rendition="#aq">Karl<lb/>
+                  <space dim="horizontal"/>Holldorf</hi>
+               <lb/>
+               <space dim="horizontal"/>Untf.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

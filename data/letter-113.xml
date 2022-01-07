@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 113: Carl H. Gellern (Offizier), 05.08.1870, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Carl</surname>
+                  <forename>H. Gellern</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 113 von Carl H. Gellern, 05.08.1870.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 113: Carl H. Gellern (Offizier), 05.08.1870, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Carl</surname>
+                        <forename>H. Gellern</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1870-08-05">1870</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="113">
+            <head>
+               <supplied>SB-Nr. 113: Carl H. Gellern (Offizier), <date when="1870-08-05">05.08.1870</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p rendition="#et">
+               <hi rendition="#aq">Zerf</hi>, 5 <hi rendition="#aq">August</hi> 1870</p>
+            <lb/>
+            <p rendition="#et">2 Stunden von <hi rendition="#aq">Saarburg</hi>.</p>
+            <lb/>
+            <p>Mein lieber Vater!</p>
+            <lb/>
+            <p>Gestern Morgen empfing ich deinen Brief vom<lb/>31 Juli. Mit welcher Freude ich die Zeilen<lb/>von deiner Hand empfing, kann ich dir<lb/>nicht sagen. Jedes Lebenszeichen von euch<lb/>ist mir bei der Vereinsamung, in der ich<lb/>mich, trotz der wirklich kameradschaftlichen Weise<lb/>wie ich zur Compagnie u. Bataillon stehe, mit<lb/>meinem Herzen befinde, eine große Freude.</p>
+            <lb/>
+            <p rendition="#et">Seit meinem Briefe vom 25. den dir<lb/>Sophie mitgetheilt haben wird, haben wir<lb/>nur 2 ganz kleine Tagemärsche gemacht<lb/>über <hi rendition="#aq">Saarburg</hi> nach hier. </p>
+            <lb/>
+            <p rendition="#et">Das Bataillon scheint mir ziemlich isolirt<lb/>hier zu stehen, wie es heißt, sind wir<lb/>bis auf Weiteres zur Deckung von<lb/>Artillerie u. Munitionscolonnen bestimmt,<lb/>ein Auftrag der unter Umständen unangenehm<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>werden kann. Bis jetzt sind wir noch nirgends<lb/>engagiert gewesen, möglich ist es ja aber leicht,<lb/>daß wir in den ersten Tagen vor den<lb/>Feind kommen.</p>
+            <lb/>
+            <p rendition="#et">Heute hat die ganze Division Ruhe, mein<lb/>Quatier ist ziemlich gut, doch sind wir<lb/>nach den drei kleinen Märschen der vorhergehenden<lb/>Tage ungeduldig hier liegen zu müssen.</p>
+            <lb/>
+            <p rendition="#et">Gerüchte schwirren auch hier von Mund<lb/>zu Mund. So erzählt eben ein kranker<lb/>40<hi rendition="#sup">er</hi>, daß vorgestern also am 2t Saarbrücken<lb/>angegriffen aber nicht genommen sei.<lb/>Wir 300 Todte u. Verwundete, Franzosen<lb/>nach Aussage eines Gefangenen 2000? Ich<lb/>glaube jetzt von allem, was bei anderen<lb/>Truppentheilen passirt sein soll, gar nichts <lb/>mehr. Die Ente ist zwar ein sehr<lb/>angenehmer Vogel, doch ist eine gebratene<lb/>mir unter allen Umständen lieber.</p>
+            <lb/>
+            <p rendition="#et">Daß Hermine nach <hi rendition="#aq">Vlotho</hi> gehen will,<lb/>ist mir eine große Beruhigung. Sophie<lb/>wird an ihr einen großen Halt haben<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>
+               <add place="superlinear">
+                  <metamark/>und</add> danke ich ihr wohl für diesen Liebesdienst.<lb/>Meinetwegen seid ruhig; ich ertrage die<lb/>Strapazen zwar mit großer Anstrengung, aber<lb/>es geht doch. Gerüchten über Gefechte schenkt<lb/>nicht eher glauben, als bis sie sich authentisch<lb/>bestätigen. Sollte das Bataillon engagirt<lb/>werden, so gebe ich euch sofort Nachricht.</p>
+            <lb/>
+            <p rendition="#et">Sollte euch wirklich mal 8 Tage nach einem<lb/>Gefechte noch keine Nachricht da sein, so<lb/>habt ihr euch auch noch nicht zu ängstigen,<lb/>da ja bekanntlich gerade nach einem<lb/>Gefechte Briefe sehr schlecht an die<lb/>Feldpost zu befördern sind, wenn der Truppen⸗<lb/>theil nicht zufällig ganz in der Nähe<lb/>steht.</p>
+            <lb/>
+            <p rendition="#et">Leb wohl, lieber Vater, grüße Sophie<lb/>u. die Schwestern u. die Vlothoer<lb/>Angehörigen herzlichst. </p>
+            <lb/>
+            <p rendition="#et">Wenn ich nur ab u. zu was von euch<lb/>u. namentlich die Kinder sehen könnte!</p>
+            <lb/>
+            <p rendition="#et">Dein braver Sohn<lb/>
+               <space dim="horizontal"/>H. Gellern.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

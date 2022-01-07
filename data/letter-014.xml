@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 14: H. U. Cleve (Offizier), 11.03.1777, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>H.</surname>
+                  <forename>U. Cleve</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 14 von H. U. Cleve, 11.03.1777.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 14: H. U. Cleve (Offizier), 11.03.1777, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>H.</surname>
+                        <forename>U. Cleve</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1777-03-11">1777</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="14">
+            <head>
+               <supplied>SB-Nr. 14: H. U. Cleve (Offizier), <date when="1777-03-11">11.03.1777</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>St Anne d 11<hi rendition="#sup">te</hi> März 1777.</p>
+            <lb/>
+            <p rendition="#et">Mein Herr Bruder Hartwig Cleve.</p>
+            <lb/>
+            <p>Nun habe ich Dein, aus 1 1/16 Quartbogen bestehendes Schreiben <lb/>vor mir liegen. Du bist doch noch immer der wahre deutsche <lb/>Plinius, ob ich gleich wünschte, dass Du in Ansehung meiner (so<lb/>lange ich wenigstens noch in <hi rendition="#aq">America</hi> bin) <hi rendition="#aq">Marcus Tullius Cicero</hi>
+               <lb/>werden möchtest. Gleich vom Anfange muss ich gleich einen kleinen <lb/>Handel mit Dir ausmachen. <hi rendition="#u">Sonst werden Dir die Märsche, wo<lb/>ihr Eure Habseligkeiten selbst schleppen müsst, sehr beschwerlich werden</hi>
+               <lb/>
+               <gap reason="illegible"/> 7.8. Ich danke für Deine Ovidische Begeisterung<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>in welcher Du Deinen getreuen Schwager, Vetter u Bruder in <hi rendition="#aq">canadisch</hi>
+               <lb/>Packpferd oder Maulesel <hi rendition="#aq">metamorphosiren</hi> willst. Es fehlet nichts,<lb/>als dass Du noch eine Ode in der Melodie: <hi rendition="#u">Es ging einmal ein<lb/>Wandersmann</hi> „ mir zur Erbauung mitgeschickt hättest. Höre in<lb/>deinem, weißsagendem Tone ja auf zu schreiben u erwarte nicht, dass<lb/>ich Dir im Jeremias⸗Tone antworten sollte. Meine besten Habselig⸗<lb/>keiten trage ich in der Tasche, aber meine Bagage fährt auf Kaleschen,<lb/>
+               <hi rendition="#aq">Charrettes, Carioles, Truines, Bateaux, Canots </hi>oder <hi rendition="#aq">Barques</hi>.</p>
+            <lb/>
+            <p>Komm, wir wollen auf die Jagd gehen.</p>
+            <lb/>
+            <p>In der Nähe der Paroisen schießt man nichts von Erheblichkeit. Die<lb/>Habitans haben in der Nähe der Habitationen alle wilden Thiere<lb/>ausgerottet. Ein Jagd⸗Liebhaber findet daher in Canada wenig Freude,<lb/>wenn er nicht samt nach Manier der Wilden dort Jagdwerk treiben will.<lb/>Was man in den Paroisen findet sind Hasen. Diese sind klein, jäm⸗<lb/>merlich u weiß von Haaren. Ihre Löffel sind kleiner wie die der<lb/>unseren, u ihr Fleisch hat nicht den Wildgeschmack. Ihre Lebensart ist<lb/>traurig. Sie laufen nicht in die Felder, sondern liegen unter einem<lb/>Baum oder Busche u halten sich in sehr kleinen Revieren vor einigen<lb/>100 Schritten auf, in welchen sie gleichsam wie bezaubert sind. Man<lb/>verwendet an sie keinen Schuss Pulver, sondern fängt sie in gewalti⸗<lb/>ger Menge in Schlingen. Man kauft das <hi rendition="#aq">couple</hi> für 5-6 <hi rendition="#aq">Pence</hi>. Zur<lb/>Noth legt man ein halbes Dutzend dieser gebratenen Schäcker auf eine<lb/>Schüssel voll sauren Kohl. Das zweite Wild, welches man in den <lb/>
+               <hi rendition="#aq">Paroisen </hi>schießen kann, sind die sogenannten Perdrix. Ganz unrecht<lb/>nennt man sie also, denn sie haben wenig Ähnliches mit unsern Feldhühnern.</p>
+            <lb/>
+            <p>Es sind ihrer eigentlich 3 Sorten, von welchen die eine unsern Haselhühnern<lb/>sehr gleicht, die zweite sehr viel Fasanartiges an sich hat und die dritte an<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>an Größe zwar einem Rebhuhn gleicht, aber mit sehr langem Halse<lb/>versehen ist. Sie sitzen zu 20-30 auf einem Baume u zwar so still,<lb/>dass man zehnmal unter diesen Bäumen durchgeht, ohne sie zu entdecken.</p>
+            <lb/>
+            <p>Hat man einen Hund bei sich, so pflegt solcher unter einem solchen Baume<lb/>zu stehen. Alle Perdrix strecken den Hals nach dem Hunde herunter u<lb/>sehen ihn an. Der Jäger schießt den obersten Vogel herunter u alle andern<lb/>bleiben ruhig sitzen u meditiren über den Hund. Man nimmt abermals<lb/>den obersten Vogel u schießt auf die Art ein Stück nach dem andern <lb/>herunter. Die noch lebendigen Vögel lassen sich in ihren philosophischen<lb/>Betrachtungen über den dummen Hund nicht stören u finden nach<lb/>einander einen unerwarteten Tod. Schießt man von unten in den<lb/>Baum, so macht das Gerassel des Hagels u der Dampf des Pulvers<lb/>Alles aufsetzig, u der ganze Trupp fliegt weg u setzt sich in einen andern<lb/>nahgelegenen Baum. Diese Vögel schmecken ziemlich gut un haben ein<lb/>sehr weißes u zartes Fleisch. Man kauft das <hi rendition="#aq">couple</hi> zu 6 <hi rendition="#aq">Pence</hi> u<lb/>sie sind in größestem Ueberflusse vorhanden. Kleine rothe Eichhörnchen<lb/>sind in Menge in den Paroisen. Weil sie nur halb so groß wie bei uns<lb/>sind, so lässt man die <hi rendition="#aq">Närrchen</hi> leben. Weiße, rothe u schwarze Füchse<lb/>trifft man auf 2-3 <hi rendition="#aq">Lieues</hi> von den <hi rendition="#aq">Habitationen</hi> an, u selten wagen<lb/>sie sich zum Walde hinaus. Sie sind <del rendition="#s">s</del> nicht so schelmisch wie die im<lb/>Lehrwalde. Land⸗ u Wasser⸗ <hi rendition="#aq">Castore</hi>, von denen letzteren um 50 <hi rendition="#aq">pro Cent</hi>
+               <lb/>besser wie ersteren sind, findet man 3-5 <hi rendition="#aq">Lieues</hi> von den <hi rendition="#aq">Habitationen</hi>. Ein<lb/>recht schwarzes Winter <hi rendition="#aq">Castor</hi> Fell gilt unter Brüdern jetzt 1 ½ <lb/>Guineè. 12 dieser Felle gehören wenigstens zu einem guten Pelze.</p>
+            <lb/>
+            <p>Man isst ihr Fleisch u besonders ihren Schwanz. Letzterer ist aber wider⸗<lb/>natürlich fett. Ottern giebt es noch genug, u man trägt viele <hi rendition="#aq">Casquen</hi>
+               <lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>von ihren Fellen. Marder giebt es nur tief in den Wildnissen.</p>
+            <lb/>
+            <p>Unsere europäischen sind wo nicht besser, doch eben so gut und zugleich<lb/>viel wohlfeiler. Der schwarze Marder ist rar u ein Damen⸗Pelz,<lb/>der schön sein soll, kommt ohne Ueberzug leicht auf 12 Guineen zu<lb/>stehen. <hi rendition="#aq">Muscus</hi>⸗Katzen findet man in den Flüssen genug. Ihr<lb/>Pelzwerk ist beliebt. Wölfe giebt es nur in den Wäldern nach<lb/>Neu⸗Schottland zu. Sie sind schlechter wie bei uns, auch kleiner<lb/>u ihr Pelzwerk wird wenig geachtet. Wilde Katzen giebt es genug<lb/>in den Wäldern, u die Wilden brauchen gewöhnlich ihr Fell zu den<lb/>Beuteln, in welche sie ihre Messer stecken, u welche sie vor der Brust<lb/>stecken haben. Schwarze u weiße Bären giebt es vorzüglich an der<lb/>Nordseite gegen das Land der <hi rendition="#aq">Esquimaux</hi> zu. Es giebt keinen<lb/>bemittelten <hi rendition="#aq">Habitans</hi>, der nicht ein paar Bärenfelle haben sollte,<lb/>um solche in seiner <hi rendition="#aq">Calesche</hi> oder <hi rendition="#aq">Cariole</hi> auszubreiten. Man<lb/>isst dort Fleisch der jungen Bären auf den Tafeln der Vornehmen.<lb/>Iltisse u Wiesel findet man häufig genug, aber nicht in den <hi rendition="#aq">Ha⸗<lb/>bitationen</hi>. See⸗Wölfe schlägt man am Ausflusse des <hi rendition="#aq">St Lau⸗<lb/>rent</hi> Flusses in Menge todt. Man kocht Thran daraus u beschlägt<lb/>Koffer mit ihrem Felle, auch macht man Winterschuhe davon.</p>
+            <lb/>
+            <p>Wilde canadische, oder Büffel Ochsen, die einen Höcker mit langen<lb/>krausen Haaren auf dem Rücken haben, giebt es oberhalb<lb/>Montreal, u seitwärts nach dem Lande der 5 Nationen zu<lb/>in großer Menge, dieses ist die <hi rendition="#aq">principal</hi>ste Jagd der Wilden.<lb/>Sie wissen die Felle vortrefflich zuzubereiten, u man findet<lb/>keinen Canadier, der nicht einige Stücke haben sollte. Man deckt<lb/>
+               <fw type="folNum" place="bottom">[4]</fw>
+               <lb/>sich damit in den Cariolen zu u man kann auch darauf schlafen, oder<lb/>sich im Bette damit bedecken. Ein gutes Fell kostet jetzt 6-8<lb/>
+               <hi rendition="#aq">Piaster</hi> oder 10 <gap reason="illegible"/> 16 ggl. Die zweite Hauptjagd der Wilden ist<lb/>die der <hi rendition="#aq">Orignale</hi>. Ein <hi rendition="#aq">Orignal</hi> oder <hi rendition="#aq">Orinal</hi> oder <hi rendition="#aq">Orignaux</hi>
+               <lb/>ist ein Thier, das beinahe so groß wie ein Cameel ist, Hirsch<lb/>Beine, Rehfüße, einen cameelartigen Hals u Höcker, ge⸗<lb/>waltige lange Ohren, Geweihe wie ein Palm⸗Hirsch u einen<lb/>Kuhleib hat. Man kann sie jung zu Hausthieren aufziehen.</p>
+            <lb/>
+            <p>Ihr Fleisch wird stark gegessen u ihr Fell giebt ein vortrefflich Leder.<lb/>Caribaus sind andere Arten von Thieren, die von einem Reh u<lb/>Ochsen viel an sich haben. Ich habe noch keines gesehen. Es soll ihrer<lb/>viele in unsrer Nachbarschaft geben. Rehe u Gemsen giebt es <lb/>nur nach <hi rendition="#aq">New-York</hi> zu. Ein Reh ist eine große Seltenheit in<lb/>
+               <hi rendition="#aq">Canada</hi>. Was <hi rendition="#aq">Sauterol</hi>, <hi rendition="#aq">Vison</hi> oder <hi rendition="#aq">Minx</hi> für ein Thier ist,<lb/>kann ich noch nicht erfahren. Ich trage eine<del rendition="#s">n</del> 
+               <hi rendition="#aq">Casque</hi> von diesen<lb/>Thierfellen, die mir fertig 7 ½ Piaster gekostet hat. Die <hi rendition="#aq">Cana⸗<lb/>dier</hi> sind in der Naturlehre wahre Dummbärte, u es ist eine<lb/>üble Sache, dass Niemand ein Natur⸗Lexikon mitgenommen<lb/>hat, denn an Bücher, Bibliotheken etc. stehet in Canada nicht zu geden⸗<lb/>ken. <hi rendition="#aq">Carajous</hi> halten sich nur an der Nordseite des Flusses auf, u zwar<lb/>gegen die Herren <hi rendition="#aq">Esquimaux</hi> zu. Sie sind eine Art von großen,<lb/>wilden Katzen, mit einem sehr langen Schwanze, womit sie sich<lb/>an den Baumästen festhalten. Sie lauern auf die unten her gehenden<lb/>Thiere, fallen solche an den Hals u beißen solchen die große Puls⸗<lb/>ader ab. Auf die Art zwingen sie große Thiere. Hirsche, wilde<lb/>Schweine u Kaninchen <hi rendition="#aq">cessant</hi>.</p>
+            <lb/>
+            <p>Aus allen diesen ziehe ich nur noch ein wichtiges <hi rendition="#aq">Corollarium</hi> u das ist<lb/>
+               <fw type="folNum" place="bottom">[5]</fw>
+               <lb/>dieses, dass der, welcher große Lust zu einer reellen Jagd hat, sich durchaus<lb/>zu einer oder der andern wilden Nation begeben muss, mit solcher nach der<lb/>Sitte der Wilden leben, essen, schlafen, marschiren, schwimmen u 4-500<lb/>Lieues o mehr in den Wildnissen umher streifen muss. Es ist unglaublich<lb/>welche Jagdzüge die Wilden durch Wälder über Berge, Flüsse, Seen u<lb/>Moräste machen, u welche Mittel sie wissen, alle Schwierigkeiten zu<lb/>überwinden. Sie gehen 50-60 deutsche Meilen in die Wildnisse,<lb/>schlagen daselbst Hütten auf, lassen in solchen einige Menschen zurück,<lb/>u die übrigen gehen in alle nur möglichen Theile der Welt zu 2 u<lb/>3 herein, jagen u schießen was ihnen vorkommt, u <hi rendition="#aq">assembliren</hi> sich nachts<lb/>bis 5 Wochen wieder bei ihren aufgeschlagenen Zelten u wissen so gut<lb/>wieder dahin zu finden, als wenn sehr richtige Wege dahin gingen. Der<lb/>Wilde kann überhaupt auf viele 100 <hi rendition="#aq">Lieues</hi> durch Wildnisse u alle natür⸗<lb/>lichen Hindernisse eine gerade Linie gehen, u auf dem sich vorgenommen⸗<lb/>nen Platze seine Reise endigen. An den Bäumen, an den Blättern, <lb/>an den Flüssen u andern natürlichen Dingen wissen sie solche Merk⸗<lb/>male zu finden, nach welchen sie sich aber so genau u richtig zu richten<lb/>wissen, wie wir nach unsern <hi rendition="#aq">Compassen</hi> oder <hi rendition="#aq">Boussolen</hi>. Sie machen<lb/>natürliche Schlüsse in Gegenden, die sie noch niemals betreten haben,<lb/>u sagen 2 Tage vorher: da u da kommt ein Fluss aus der u der<lb/>Gegend, er muss sich aber da u dorthin wenden, u ihre Angabe trifft<lb/>ein. Es ist dieses ein feiner Instinct bei ihnen, der ihnen blos die<lb/>Natur beigelegt hat, u sich wenig auf gründliches Nachdenken oder reife<lb/>Erfahrung gründet. Wenn sie im Stande sind, wie sie dann solches gewiss<lb/>können aus den Fußtapsen der Menschen zu wissen, von welcher Nation<lb/>diese Tapsen eingedrückt werden, wenn sie im Dunkeln diesen Fuß⸗<lb/>tapsen durch Busch und Braak nachgehen, u ihre Nase nur allein zum Steuer⸗<lb/>Ruder machen, wenn sie mit ihrer Nase eben so gut wie unsere Jagd⸗<lb/>
+               <fw type="folNum" place="bottom">[6]</fw>
+u Hühner⸗Hunde wittern können, so stehet der Verstand eines in den <lb/>besten Grundsätzen erzogenen Menschen still u kann die feinen<lb/>thierischen Empfindungen nicht begreifen, mit welchen Gott Menschen,<lb/>die wi<del rendition="#s">e</del>r Wilde <del rendition="#s">leben</del>nennen, begabt hat. Hier muss ich abbrechen, weil<lb/>ich in ein Capitel komme, was ich noch nicht ganz ausstudiert habe, doch<lb/>den Wilden in die Klasse des unvernünftigsten Viehes u zugleich<lb/>in die Klasse des edelsten Menschen setzt. Zu beiden haben sie<lb/>ein ihnen angeborenes Recht, u man verabscheut heute einen<lb/>Menschen, den man morgen in Ansehung seines Herzens u<lb/>wahren Adels der Seele bewundern muss. Selbst durch ihre Tänze<lb/>wissen sie sich in einen Enthusiasmun zu versetzen, dass man sie<lb/>wechselseitig als eingefleischte Teufel oder als Menschen von der<lb/>ersten Klasse betrachten muss. Unter und mit diesen Menschen gehen<lb/>so wohl viele Canadier wie Engländer auf die Jagd, oder besser gesagt,<lb/>leben mit solchen verschiedene Jahre auf wilde Manier. Trieb<lb/>die Gegenden kennen zu lernen, Trieb zur Jagd, zum Pelzhandel u<lb/>zum <hi rendition="#aq">Commerc</hi> mit den Wilden, <hi rendition="#aq">Pensiones</hi> die diesen <hi rendition="#aq">Avanturiers</hi>
+               <lb/>niemalen <del rendition="#s">E</del>entstehen, wenn sie sich bei einer oder der andern Völ⸗<lb/>kerschaft beliebt machen, u manchmalen zu wesentlichen Geschäften<lb/>des Gouverneurs gebraucht werden können, <hi rendition="#aq">recroutiert</hi> man Jahr<lb/>zu Jahr diese Abentheurer. Der <hi rendition="#aq">Capt. Carlton</hi> vom 31.<hi rendition="#sup">sten</hi> Engl<lb/>Regiment u erster <hi rendition="#aq">Aide de Camp</hi> bei seinem Onkel, dem General<lb/>u Gouverneur hat verschiedene Jahre auf diese <hi rendition="#aq">Façon</hi> mit u unter<lb/>den Wilden gelebt. Sein ganzer Leib hat die wilden Helden⸗<lb/>Proben ausgehalten, u ist mit wilden Figuren geziert, die er<lb/>hat eingraben oder einbrennen lassen. Er hat sogar eine <hi rendition="#aq">Sauvagesse</hi>
+               <lb/>zur Frau gehabt, u versichert noch diese Stunde, dass die Zeit seines Lebens<lb/>
+               <fw type="folNum" place="bottom">[7]</fw>
+               <lb/>bei den Wilden in Ansehung seiner, mit einer natürlichen Glückseligkeit<lb/>verbunden gewesen wäre, die er manchmalen oft vermisst hätte. Man<lb/>kann sich keinen feineren, <hi rendition="#aq">douc</hi>ern, freundschaftlicheren, artigeren<lb/>u dabei ungezwungeneren Mann vorstellen u dessen Leibes⸗<lb/>Konstitution, als welche schwächlich u zärtlich zu sein scheint. Er commandirt<lb/>noch die Wilden, welche <hi rendition="#aq">Avant⸗Guarde</hi> bei unsrer Armee<lb/>machen müssen, u er ist unter den Wilden höchst beliebt. Seine <lb/>jetzige Gemahlin ist eine solche schöne Dame, eine Mylady u die<lb/>Schwester des Generals <hi rendition="#aq">Carleton</hi>. <gap reason="illegible"/>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[8]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

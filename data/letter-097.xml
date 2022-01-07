@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 97: Josef von Larisch und Nimsdorf (Offizier), 04.09.1866, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Josef</surname>
+                  <forename>von Larisch und Nimsdorf</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 97 von Josef von Larisch und Nimsdorf, 04.09.1866.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 97: Josef von Larisch und Nimsdorf (Offizier), 04.09.1866, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Josef</surname>
+                        <forename>von Larisch und Nimsdorf</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1866-09-04">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="97">
+            <head>
+               <supplied>SB-Nr. 97: Josef von Larisch und Nimsdorf (Offizier), <date when="1866-09-04">04.09.1866</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Schwechat</hi> den 4. Septbr 1866.</p>
+            <lb/>
+            <p>Theuerster Vater!</p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Louisens</hi> Unruhe ist mir unbegreif⸗<lb/>lich da ich doch kaum eine längere<lb/>als 4 tägige Pause im Briefschreiben<lb/>eintreten ließ; den von <hi rendition="#aq">Louise</hi> aus<lb/>
+               <hi rendition="#aq">Krakau </hi>erhaltenen <add place="superlinear">
+                  <metamark/>Brief</add> beantwortete ich<lb/>denselben Tag sie ersuchend, mir recht<lb/>fleißig zu schreiben, ohne gerade<lb/>strikte zu fordern daß ich <hi rendition="#u">jeden</hi> Brief<lb/>beantworte da ich gegenwärtig als Re⸗<lb/>gimentsCommandant manchen Tag früh<lb/>und Nachmittags voll auf zu thun ha⸗<lb/>be<metamark>_</metamark> Daß <hi rendition="#aq">Louise</hi>, wie sie mir im letz⸗<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+ten Briefe versprach dißmal nicht<lb/>schrieb, gibt mir Veranlassung zur<lb/>Besorgniß als ob sie krank sei, nur<lb/>Ihre freundliche Versicherung „Alle<lb/>sind gesund“ beruhigt mich einiger<lb/>Maßen.<metamark>_</metamark> Über unsere künftige<lb/>Bestim̃ung weiß ich noch nichts;<lb/>man spricht, das Regiment soll nach<lb/>Temerin oder Peterwardein kom̃en<metamark>_</metamark>
+               <lb/>Glauben Sie ja nicht theuerster Vater<lb/>daß die Geheimthuerei bei uns jetzt<lb/>aufgehört hat, man gefällt sich darin<lb/>und nim̃t keine Rücksicht auf<lb/>andere denen das frühere erfahren<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>z.B. eines Garnisonswechsels von Vor⸗<lb/>theil sein kann.<metamark>_</metamark> Wegen Franz wer⸗<lb/>de ich gleich Erkundigungen ein⸗<lb/>ziehen und dem <hi rendition="#aq">Julius</hi> erneuert<lb/>Ihren Auftrag, Franz nach <hi rendition="#aq">Krakau</hi> zu<lb/>schicken, zusenden. Am vorigen Sonta⸗<lb/>ge traf ich in <hi rendition="#aq">Wien</hi> den guten Fritz<lb/>am Graben, wir fuhren dann zusam⸗<lb/>men zu Josefs, fanden Alles wohl<lb/>aßen und tranken, und fuhren am<lb/>Abend unter Regen <del rendition="#s">mit</del>auf der Pferde⸗<lb/>bahn wieder zurück.<metamark>_</metamark> Bevor wir<lb/>unsere Winter Dislocation beziehen<lb/>werden, sollen wir früher nach <hi rendition="#aq">Eisen</hi>⸗<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <hi rendition="#aq">stadt </hi>und Umgebung kom̃en; die<lb/>Vorbereitungen hirzu sind getroffen,<lb/>die Ausführung jedoch noch nicht<lb/>verfügt. Ich und meine Thiere<lb/>erfreuen uns der beßten Gesund⸗<lb/>heit, daß wird hoffentlich <hi rendition="#aq">Louise</hi> be⸗<lb/>ruhigen<metamark>_</metamark> Außer dem Mitgetheil⸗<lb/>ten kann ich über die nächste<lb/>Zukunft nichts sagen. In dem ich mich<lb/>Ihrer und der guten Mutter beßtens<lb/>empfehle bitte ich meinem lieben theu⸗<lb/>ren Weibe das <hi rendition="#uu">herzlichste</hi> von<lb/>mir zu berichten und meine lieben<lb/>Patzer herzlich zu grüßen. desgleichen<lb/>Anton u Carl sam̃t Gattin<metamark>_</metamark> Mit Hochachtung</p>
+            <lb/>
+            <p rendition="#et">Ihr<space dim="horizontal"/>dankbarster Sohn<lb/>
+               <space dim="horizontal"/>Josef</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

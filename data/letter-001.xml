@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 1: Nikolaus Binn (Unteroffizier), 19.06.1745, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Nikolaus</surname>
+                  <forename>Binn</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 1 von Nikolaus Binn, 19.06.1745.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 1: Nikolaus Binn (Unteroffizier), 19.06.1745, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Nikolaus</surname>
+                        <forename>Binn</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1745-06-19">1745</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="1">
+            <head>
+               <supplied>SB-Nr. 1: Nikolaus Binn (Unteroffizier), <date when="1745-06-19">19.06.1745</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Gott zum gruß. Mit Wünschung ales Libes und Gutes.</p>
+            <lb/>
+            <p>Hertz Liebe Frau, wen ich Dir mit meinen wenigen schreiben noch möchte bey guter Gesundheit andreffen so sol es mir von hertzen lib sein benebst auch Meine Liben Eltern und schwiger Eltern, auch meine Libe schwester und Bruder auch schwegers und ale gute freunde. waß mich an betrifft so bin ich Gott sey gedankt dafür noch frisch und gesundt. hertzlibe frau ich berichte dich auch daß wir d. 4. Juni eine Patali geliefert haben mit di östereicher und der Libe Gott hat uns wieder den sig gegeben und haben recht wider fiktorsirt und haben auf unser seite nicht mer verloren als 4 daußend Man, auff di östereicher seite mit Bleßirte, Gefangne und Totte 20 Taußend Man. Unßer Erobrung von si haben wir gekrigt 70 fahnen 5 standarten und 5 Paar Pauken und unser regiment haben wir 12 Totte und Etliche 30 Bleßirten. der schlacht Blatz war zwischen strigau und frideberg in schleßien wir haben aber jetzo unßern marsch alwider in bömen und grade hinter si her. wen si werden noch mal stehen, werden wir noch eine patali lifern, wir haben si aber diß mal so wider in di furcht gebracht, ich glaube nicht daß si <unclear reason="illegible" cert="high" resp="#MN">uns</unclear> mein Lebs Tage widerstehen werden. si seind auf ihrer seite hundert und 20 Tausent Man geweßen und auf unßer seite nur 80 Taußend. Da kont ihr leichte denken waß daß vor eine Pali geweßen ist. Zu ale standaren und pauken und fahn noch etliche 70 Kanun. ich mache himit den schluß und befele ale in den schutz des aler höchsten und verbleibe dein getreuer Man biß in den Tott.</p>
+            <lb/>
+            <p>Hertz Libe frau ich bericht dir auch daß ich deinen an mir geschribnen brif von 1. Mey hab ich wol erhalten und hab auch darauß erfaren daß ihr noch alle gesund seid und ist mir ser lib geweßen. ich wolte noch gern viel mer schreiben aber die zeit will nicht leiden und daß libe weter wil es nicht zu laßen, eß hat hir schon 12 Tage aneins geregnet und den 19. dißes Monats Juni hat es so ser geregnet daß man nicht anders meint alß daß man hete mit samsten ferde wegschwimen. es ist uf flagen felde daß waßer gekomen uf 2 Ele hoch da könt ihr leicht erdenken waß daß hir vor Lagers geben und es regnet noch alle dage und uf der Eile in der nacht hab ich dißes noch geschriben. ich bericht auch daß Milau noch gesund ist und lest seine libe Muter und ale seingen vilmals grüßen und er ist noch frisch und gesund. Es lest auch Krauße seine frau und schwigereltern vilmals grüßen und er ist noch gesund. schultze und sein schwester<unclear reason="illegible" cert="high" resp="#MN">m</unclear>an laßen ihre Eltern auch grüßen und si seind noch ale beide gesund. Jogen Olrich und Haferland laßen ihre Eltern auch grüßen und si sind noch gesund. Mein feder Erman schmit lest seine Muter und schwestern auch vilmals grüßen und er ist noch gesund. Mein feder Bin auß ungeburg ist auch noch gesund und der aus Werben auch. eß ist auch Jürgen schultzen sein sohn noch gesund benebst auch Jagno auß Grebnitz und Herms aus Erxleben. ale gute freunde und nachbaren die ich nur gedenken kan die sint noch gesund. hirmit mache ich den schluß und befele euch ale in den schutz des alerhöchsten und verbleibe Lebenslang Meine libe frau ihr getreuer Man. gesch<unclear reason="illegible" cert="high" resp="#MN">r</unclear>iben in Lager 2 Meilen von Königgretz</p>
+            <lb/>
+            <p rendition="#et">d. 19. Juni 1745</p>
+            <lb/>
+            <p rendition="#et2">Nicolaus Bin.</p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

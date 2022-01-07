@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 79: Friedrich Ludwig (Mannschaften), 16.06.1866, Westmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Friedrich</surname>
+                  <forename>Ludwig</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 79 von Friedrich Ludwig, 16.06.1866.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 79: Friedrich Ludwig (Mannschaften), 16.06.1866, Westmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Friedrich</surname>
+                        <forename>Ludwig</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1866-06-16">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="79">
+            <head>
+               <supplied>SB-Nr. 79: Friedrich Ludwig (Mannschaften), <date when="1866-06-16">16.06.1866</date>, <choice>
+                     <abbr>WMD</abbr>
+                     <expan>Westmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p rendition="#et">Riesa den 16. Junie 1866.</p>
+            <lb/>
+            <p rendition="#et">Liebe Eltern!</p>
+            <lb/>
+            <p rendition="#et">Dieser Brief den ich an Euch schreibe ist<lb/>der erste aus Feindes Land, nämlich aus dem<lb/>Königreich Sachsen. Wier sind nämlich am 15. Junie<lb/>Abends 10 Uhr über die Elbe gegangen, und die <lb/>ganze Nacht marschiert bis nach Riesa an der<lb/>Elbe. In Riesa ist ein Eisenbahn-Station<lb/>der Zweigbahn die von Berlin nach Dresden geht.<lb/>wo aber jetzt schon aller Verkehr abgebrochen ist,<lb/>denn als wier hin kamen hatten die Sachsen schon<lb/>die Schienen abgebrochen, und die Brücke über die<lb/>Elbe in Brandt gestekt. Riesa ist ein schönes<lb/>Städtchen, und die Leute sind ganz gastfreundlich<lb/>da, trotz dem daß sie Feinde im Quartier haben.<lb/>Das ganze 8te Armeecorps liegt dort beisammen<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>
+               <space dim="horizontal"/>mit noch vielen andern Truppen und Ihr<lb/>
+               <space dim="horizontal"/>könnt Euch denken, wie ich mich verwundert<lb/>habe, über die Masse Menschen. Ich habe auch <lb/>schon den Friedrich Vogt, Höhn, Marx und Veth<lb/>getroffen, welche immer bei uns herum liegen.</p>
+            <lb/>
+            <p>Ich kann Euch nichts Neues sagen über die<lb/>Geschichte, denn wier werden selbst immer ge⸗<lb/>täuscht, denn wenn sie sagen zu uns ihr kommt <lb/>dahin, so kom̃en wier auf einen ganz andern<lb/>Ort, und so führen sie uns vor den Feind, ohne <lb/>daß wir was davon wissen. Die Sachsen ziehen<lb/>sich mit den Oestreicher zusammen, und es wird<lb/>in den nächsten Tagen wahrscheinlich zum Gefecht <lb/>kommen. Es gehen immer Briefe mit der Post zu uns<lb/>und Ihr könnt mir noch ein Hemd schicken, denn eins<lb/>fängt schon an zu zerreißen. Ihr könnt Euch denken<lb/>was für Strapazen wir schon gemacht, und noch zu machen<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>haben, doch der gute und getreue Gott der mich<lb/>bis dahin erhalten, der wird auch ferner mein Schutz<lb/>und Beistand sein in aller Noth und Gefahr, und<lb/>sollt es sein Wille sein, Euch nicht hier mer zu<lb/>sehen, doch dereinst dort droben, wo kein Krieg<lb/>mehr sein wird noch Leid noch Geschrei, ein fröhliches<lb/>Wiedersehen zu verleihen. Wenn ich nicht mehr nach <lb/>Hause kom̃en sollte, dann machts Euch gut und<lb/>verlebt die paar Jahre die Ihr noch zu leben<lb/>habt in Frieden und Eintracht, und tröstet Euch<lb/>über mich denn Ihr seid nicht die Einzigen denen<lb/>es so geht, nehmt Euch eins von den Kindern<lb/>meines Vetters ins Haus, und seht es für mich an.</p>
+            <lb/>
+            <p>
+               <del rendition="#s">Dieses</del>Bei diesem Schreiben fallen mir <lb/>die Thränen aus den Augen, und bei Euch wird<lb/>daß noch mehr der Fall sein, doch nur immer<lb/>frohen Muthes wier sehen uns ja wieder in jener<lb/>Welt. Ihr habt Alles genug, und könnt Euch Euer<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>
+               <space dim="horizontal"/>armes Leben noch versüßen, wenn Ihr Euch<lb/>
+               <space dim="horizontal"/>allzusehr abgrämt und abhärmt. Ich will <lb/>jetzt schließen im wahren Gott Vertrauen und im<lb/>Vertrauen auf den, der für uns gestorben und aufer⸗<lb/>standen ist. 
+    <lg type="poem">
+                  <l>Wenn ich einmal soll scheiden,</l>
+                  <lb/>
+                  <l>So scheide nicht von mir,</l>
+                  <lb/>
+                  <l>Wenn ich denn Todt soll leiden</l>
+                  <lb/>
+                  <l>So tritt du dann herfür.</l>
+                  <lb/>
+                  <l>Wenn mir am allerbängsten</l>
+                  <lb/>
+                  <l>Wird um dem Herz mir sein</l>
+                  <lb/>
+                  <l>So reiß mich aus den Aengsten</l>
+                  <lb/>
+                  <l>Kraft deiner Angst und Pein.</l>
+                  <lb/>
+               </lg>
+            </p>
+            <lb/>
+            <p>Grüßt mir alle Verwandte und Freunde, und <lb/>behaltet im Andenken!</p>
+            <lb/>
+            <p rendition="#et">Euren <lb/>
+               <space dim="horizontal"/>Fritz.</p>
+            <lb/>
+            <p rendition="#et">Adresse</p>
+            <lb/>
+            <p>An den Jäger Ludwig bei der 4ten Comp. Rh. Jäbtl<lb/>No 8 in der Advangarde des 8ten Armeecorps 16. Division<lb/>zugestellt. Feldpostbrief</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

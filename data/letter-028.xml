@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 28: Stephan Wahlen (Mannschaften), 01.01.1812, Westmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Stephan</surname>
+                  <forename>Wahlen</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 28 von Stephan Wahlen, 01.01.1812.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 28: Stephan Wahlen (Mannschaften), 01.01.1812, Westmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Stephan</surname>
+                        <forename>Wahlen</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1812-01-01">1812</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="28">
+            <head>
+               <supplied>SB-Nr. 28: Stephan Wahlen (Mannschaften), <date when="1812-01-01">01.01.1812</date>, <choice>
+                     <abbr>WMD</abbr>
+                     <expan>Westmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Boulogne</hi> den 1<hi rendition="#sup #uu">n</hi> 
+               <hi rendition="#aq">Jenner</hi> 
+               <hi rendition="#u">1812</hi>
+            </p>
+            <lb/>
+            <p rendition="#et">Vielgeliebte Eltern</p>
+            <lb/>
+            <p>Den 10<hi rendition="#sup #uu">n</hi> 
+               <hi rendition="#aq">Dezember</hi> habe ich euher Schreibn erhalten, und<lb/>darinne ersehen das die Bestemutter gestorben sey,<lb/>darüber weis ich euch weiter nichts zu Schreiben,<lb/>
+               <add place="superlinear">
+                  <metamark/>als</add> mit demjenige was mir da zuerben habe,<lb/>das müsset ihr am beste wissen, was <del rendition="#s">a</del> ihr damit<lb/>zuthuen habet, und machet nicht das es so gehet,<lb/>als wie der Ohm stephan gestorben ist. Denn<lb/>dasjenige was ich da vieleichs <add place="superlinear">
+                  <metamark/>zu</add> bekomme habe,<lb/>
+               <add place="superlinear">
+                  <metamark/>habe</add> ich in diesem betrübte Leben sehr nöhtig, wenn<lb/>ich das vor und nach bekomme. Und von dem<lb/>jenige, was mir zu Hauße habe, da bekomme ich<lb/>mein Lebe lang so nichts von, den ich weis <del rendition="#s">weis</del>
+               <lb/>das ich mein Lebelang nicht mehr nach Hauße<lb/>kommen, und nun machet es, nach euherem<lb/>gut denken.</p>
+            <lb/>
+            <p>Ihr verlanget von mir einmahl zu schreiben,<lb/>das ihr euch an mich trösten könnet, so kan<lb/>ich euch nicht<del rendition="#s">s</del> schreiben, so lange mir auf diese<lb/>betrübte Blaze liegen, bis mihr einmahl, ins<lb/>Teuschland zuligen komme, den bey uns ist<lb/>alles zu theuer das Kamißbrod kostet bey uns<lb/>jetz 9 und 10 stbr und es ist nicht mehr als 3 ℔.<lb/>und den muß man noch eine stunde weit lauffen<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>um es zu kauffen. Neuigkeite kan <add place="superlinear">
+                  <metamark/>ich</add> euch nich viel<lb/>schreibe, als binne euhrem Schreibe habe wir 15 Tage<lb/>zu <hi rendition="#aq">Challais</hi> auf unserm <hi rendition="#aq">Dipo</hi> gelegen, und da<lb/>die Nächte zu thuen, und da habe sie uns, einem<lb/>jeder ein bar hölzene Klomppe ge<del rendition="#s">b</del>geben, das uns <lb/>die Füße nich verkalte sollte, und da haben sie<lb/>uns wieter in uns Lager gegagt, und da ist<lb/>es jetz so kalt, das man sich fast nicht erhalten<lb/>kan, tag und nacht bekommt man keine warme<lb/>Fuß da, und wenn man da kein Geld hätte das man<lb/>in ein Hauß könnte gehen und ein Glaß Brande⸗<lb/>-wein zu trinke, das man sich was warme<lb/>könnte, müste man verkalte da, denn es ist<lb/>eine große Källte an dem Waffen, und die<lb/>Hütte wo mir in ligen, ist es noch lange nicht so<lb/>warm als auf unßere Holzlöffe zu Hauße.</p>
+            <lb/>
+            <p>Wie mir zu <hi rendition="#aq">Kallais</hi> gelegen habe, hatte mir es<lb/>zimmerlich gut, da bekamme mir zimmerlich<lb/>zuessen, und hatte auch wieder Bette, denn da war<lb/>alles nicht so theuer als in unserm Lager,<lb/>die frische Heringe warn grade im gange da,<lb/>18, 19, und 20 bekam man für eine stüber, und die<lb/>Franzosse habe da 3 engelische Kaufmanschieffe<lb/>gefangen genohmen eins mit Wein, und eins mit<lb/>Weize und eins <add place="superlinear">
+                  <metamark/>mit</add> 600 <gap reason="illegible"/> oder ¾ öhmige Fäßge<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>Butter und Speck. weiter weis ich euch nichts zu<lb/>schreiben, als machet das mit der Bestemutter<lb/>ihre Sache, <del rendition="#s">mit</del> wie es am beste ist, wenn sie viel⸗<lb/>leichs noch Geld hat, so könnet ihr mir was schiecken,<lb/>das Geld was ihr mir geschieckt habet das ist so bald<lb/>alle weg, den ich habe mir alt was davon angeschaft<lb/>und verkalte und verhungere, kann ich auch nicht.<lb/>von keinem Feyertage wird man da was gewar,<lb/>von keinem Allheillige, und von keine Christfeytage,<lb/>das ist eine tag wie der ande. Hirmit schlisse ich mein<lb/>Schreibe, und schreibe mir auch witter zurück wie<lb/>es mit der Bestmutter ihre Sache mache wollet.<lb/>und auch was neuigkeite dabey.</p>
+            <lb/>
+            <p rendition="#et">Ich grüße euch vielmahl Vatter und<lb/>
+               <space dim="horizontal"/>Mutter Schwester und Bruder verwande<lb/>
+               <space dim="horizontal"/>und bekante. und wünsche euch alle<lb/>
+               <space dim="horizontal"/>ein Glückselliges neuJahre und eine<lb/>
+               <space dim="horizontal"/>gute Gesund<unclear reason="illegible" cert="high" resp="#MN">heit</unclear> dabey.</p>
+            <lb/>
+            <note place="left">meine <hi rendition="#aq">Adresse</hi> ist noch wie in dem<lb/>letzte Brieffe.<space dim="horizontal"/>
+               <hi rendition="#aq">Stephan Wahlen</hi>
+            </note>
+            <fw type="folNum" place="bottom">[3]</fw>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

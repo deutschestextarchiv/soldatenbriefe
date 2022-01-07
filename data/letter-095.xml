@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 95: Ludwig Stoeger (Offizier), 21.08.1866, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Ludwig</surname>
+                  <forename>Stoeger</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 95 von Ludwig Stoeger, 21.08.1866.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 95: Ludwig Stoeger (Offizier), 21.08.1866, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Ludwig</surname>
+                        <forename>Stoeger</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1866-08-21">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="95">
+            <head>
+               <supplied>SB-Nr. 95: Ludwig Stoeger (Offizier), <date when="1866-08-21">21.08.1866</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Feldkirchen</hi> den 21 Augst</p>
+            <lb/>
+            <p>1866</p>
+            <lb/>
+            <p rendition="#et">Lieber Bruder!</p>
+            <lb/>
+            <p rendition="#et">Soeben erhielt ich Deinen lieben Brief u. beeile mich Dich<lb/>sogleich von meinem Aufenthalt in Kentniß zu setzen. Seit meinem<lb/>letzten Schreiben haben wir große Märsche gemacht u. zwar mar⸗<lb/>schierten wir von <hi rendition="#aq">Rimpar</hi> nach <hi rendition="#aq">Retzbach </hi>von wo aus wir<lb/>Nachts ½ 12 Uhr zur Besetzung des Mains in verschiedene<lb/>Ortschaften am Main verlegt wurden u. wir nach Veitshöheim<lb/>kamen. den Main mittelst Vedetten besetzten, während<lb/>über dem Main trüben die Preußen am Ufer ganz gemüth⸗<lb/>lich ihre Posten auf u. ab spazieren ließen. Am Abend<lb/>desselben Tages spielte uns die preußische Regiments⸗<lb/>Musik die bayrische National⸗Hyme u. sonst mehr Stück<lb/>vor, was wir andern Tag erwiederten, wobei die<lb/>preußischen Offizier herüberkamen u. sich mit uns<lb/>unterhielten. Gleich nach der Begrüßung fragten sie<lb/>nach der bay. Artillerie ob kein H. Offizier da wäre, denn<lb/>diese habe ihnen den meisten Schaden beigefügt, aber auch<lb/>die Infanterie lobten sie sehr u. wünschten nur, daß Bayern<lb/>sich mit Preußen vereinigen würde, denn dann können<lb/>sie die ganze Welt bezwingen. Sie gestanden uns offen, <lb/>daß sie bei Roßbrunn 5000 Tode u. Verwundete gehabt<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>haben u., daß das 36 Linien LuftRgt. welches am rechten<lb/>Flügel u. daher unserm Regiment gegenüber gestanden<lb/>hatte, 23 Offizier u. <hi rendition="#u">600</hi> Tode u. Verwundete allein gehabt<lb/>habe. säm̃tliche Truppen waren Rheinländer während<lb/>unser Regiment 6 todte 3 verwundete Offizier u. circa <hi rendition="#u">160</hi>
+               <lb/>- <hi rendition="#u">200</hi> Tode u. Verwundete hat. Resultate des Podewills<lb/>Gewehrs. u. die des Zündnadelgewehr lassen sich hier<lb/>ersehen. Bei dem Gavallerie.Attak ging es furchtbar zu<lb/>die Kürassiere mit ihren weißen Mänteln kamen daher<lb/>wie die Metzger ganz mit Blut bespritzt u. waren so<lb/>wüthend, daß man sich hätte fürchten können, denn <del rendition="#s">mit</del>
+               <lb/>den Säbel hoch haltend ritten sie am General vorbei u. jedem<lb/>sah man seine Wuth auf dem Gesichte. Ganze Regimenter wurden<lb/>zernichtet, denn die Preußen ritten, die Spitze des Säbels<lb/>vorwärts haltend, auf die Kürassier ein, die Spitze prallte am<lb/>Küraß ab u. der Bayer war im Vortheil. Nun meine Reise<lb/>Route. Von <hi rendition="#aq">Veitshöheim </hi>ging es nach Arnstein, Marbach<lb/>Esleben, Astheim, Abtswind, Marktbibart, Dornheim<lb/>Neustadt a/A. Kirchfrombach <add place="superlinear">
+                  <metamark/>über Ansbach</add> Leidendorf Dürrmungenau<lb/>Mä<del rendition="#s">r</del>benberg, Heideck Weißenburg, Eichstädt, Buchenhüll,<lb/>Ingolstadt, Feldkirchen heute in diesem Nest Rasttag wo<lb/>morgen, weiß ich nicht. Ich erfreue mich der beßten Gesundheit<lb/>u. kann es bereits nicht erwarten bis ich zu Euch kommen kann.<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+            </p>
+            <lb/>
+            <p>O wie lieb wäre es mir wenn wir nach Regensburg<lb/>in Garnison kämen, dann würden wir das schönste Leben mit<lb/>einander führen, nun vielleicht ist es möglich gehört habe ich<lb/>öfters davon. In 14 Tagen ja vielleicht übermorgen wird<lb/>es entschieden sein sollten wir hin kom̃en schreibe ich sogleich<lb/>Indem ich Deine liebe Luise vielmals grüßen u küßen<lb/>lasse verbleibe ich Dein</p>
+            <lb/>
+            <p rendition="#et">Dich liebender<lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">Ludwig Stoeger</hi>
+            </p>
+            <lb/>
+            <p rendition="#et">Lieut<lb/>
+               <space dim="horizontal"/>IV <hi rendition="#aq">Schutz.</hi> eingerückte<lb/>
+               <space dim="horizontal"/>beim 3 Barus</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

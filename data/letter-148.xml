@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 148: Bernard Geißler (Mannschaften), 20.01.1871, Nordoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Bernard</surname>
+                  <forename>Geißler</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 148 von Bernard Geißler, 20.01.1871.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 148: Bernard Geißler (Mannschaften), 20.01.1871, Nordoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Bernard</surname>
+                        <forename>Geißler</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1871-01-20">1871</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="148">
+            <head>
+               <supplied>SB-Nr. 148: Bernard Geißler (Mannschaften), <date when="1871-01-20">20.01.1871</date>, <choice>
+                     <abbr>NOD</abbr>
+                     <expan>Nordoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Nürnberg den 20<hi rendition="#sup #uu">ten</hi> Januar 1871.</p>
+            <lb/>
+            <p rendition="#et">Liebe Eltern und Geschwister!</p>
+            <lb/>
+            <p>Ihr werdet wohl den Brief vom 18<hi rendition="#sup #uu">ten</hi> erhalten<lb/>haben, und werdet daraus ersehen haben<lb/>daß ich wieder seit 2 Wochen im Spitale<lb/>bin; es geht mir jetzt, Gott sei Dank,<lb/>alle Tage besser wieder, und ich werde<lb/>vieleicht in 5 oder 6 Tagen wieder hienaus<lb/>kommen können. Es kann auch sein,<lb/>wenn ich den H. Doktor bitten würde,<lb/>daß ich wieder einige Wochen nach Hause<lb/>gehen dürfte, ich weiß nicht was ich thun<lb/>soll. 14 Tag halber mag ich nicht mehr<lb/>hienunter. Es könnte vieleicht sein, daß ich<lb/>4 Wochen auch erhielte; ich weiß es alt nicht<lb/>Unterstützung bekomme ich freilig keine mehr,<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>Ich bekäme blos die Eisenbahnfahrtaxe.<lb/>Es kann auch sein, daß mir der Doktor erst<lb/>keinen U<del rendition="#s">l</del>rlaub gibt. Soeben ist mir<lb/>eingefallen daß heute bei Euch Feiertag ist.<lb/>Wenn Ihr schreiben wollt, so schreibt mir<lb/>was Ihr denkt daß ich thun soll. Es kom̃en<lb/>alleweil sehr viele vom Feld zurück.<lb/>Gestern ist einer in unser Zimmer gekom̃en<lb/>von Albertshofen, der hat von den furcht⸗<lb/>baren Bombardement von Paris das<lb/>Gehör verlohren. Die welche zurückkom̃en,<lb/>sagen, es währe furchtbar, der Erdboden<lb/>wanket und zittert, doch bis alleweil<lb/>hätte die Infantrie noch keinen Angriff<lb/>machen müssen.<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+            </p>
+            <lb/>
+            <p>Es müssen jetzt sehr viele Ersatzleute 2<hi rendition="#sup #uu">ter</hi>
+               <lb/>Klasse einrücken von manchen Bezirkskomando.<lb/>200 Mann sind auf einmahl gekommen vom<lb/>Jahrgang 45. Schreibt mir also so bald<lb/>es sein kann. Ich will mein Schreiben schließen<lb/>und es grüßt Euch Alle herzlich Euer dankbarer<lb/>Sohn und Bruder</p>
+            <lb/>
+            <p rendition="#et">Bernard.</p>
+            <lb/>
+            <p rendition="#et">Adrese</p>
+            <lb/>
+            <p rendition="#et">An<lb/>den Landwehrman B.G. bei der 4<hi rendition="#sup #uu">ten</hi>
+               <lb/>Ersatzkompagnie deß 14<hi rendition="#sup #uu">ten</hi> Infa<add place="superlinear">
+                  <metamark/>n</add>trie<lb/>Regiments in Nürnberg gegenwärdig im Spital<lb/>
+               <space dim="horizontal"/>St. Johannes.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

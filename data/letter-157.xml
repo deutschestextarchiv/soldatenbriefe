@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 157: Hugo Schuerer (Mannschaften), 04.03.1871, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Hugo</surname>
+                  <forename>Schuerer</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 157 von Hugo Schuerer, 04.03.1871.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 157: Hugo Schuerer (Mannschaften), 04.03.1871, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Hugo</surname>
+                        <forename>Schuerer</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1871-03-04">1871</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="157">
+            <head>
+               <supplied>SB-Nr. 157: Hugo Schuerer (Mannschaften), <date when="1871-03-04">04.03.1871</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Arnouville</hi> d. 4/3 71.</p>
+            <lb/>
+            <p rendition="#et">Meine lieben Eltern!</p>
+            <lb/>
+            <p rendition="#et">Vorallen Dingen bringe ich Euch<lb/>Beiden zu Eurem Geburtstag meinen<lb/>Herzlichsten und besten Glückwunsch.<lb/>Möge Euch der liebe Gott denselben<lb/>noch recht oft erleben lassen. Ich bedaure<lb/>nur daß ich noch nicht bei Euch sein<lb/>kann, um persönlich meine Glückwünsche<lb/>bringen zu können. Gestern Abend<lb/>sind wir von <hi rendition="#aq">Paris</hi> zurückgekehrt, wo<lb/>wir Parade vor unserem Kaiser<lb/>hatten, die Beschreibung davon werde<lb/>ich Euch bei meiner Rückkehr geben.</p>
+            <lb/>
+            <p rendition="#et">Wie es heißt sollen wir übermorgen<lb/>den Rückmarsch antreten, ich wünschte<lb/>sehnlichst es wäre wahr.</p>
+            <lb/>
+            <p rendition="#et">Was macht denn das Wetter<lb/>bei Euch? Hier ist es schon seit dem<lb/>Februar so herrlich, wie wir es<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>in <hi rendition="#aq">Berlin</hi> im Mai u Juni nicht<lb/>schöner haben.</p>
+            <lb/>
+            <p rendition="#et">Für jezt habe ich 1 Packet<lb/>bekom̃en und laure täglich<lb/>auf die andern.</p>
+            <lb/>
+            <p rendition="#et">Eduard hat mir heut noch 21 Sgr<lb/>geschickt. Ich habe noch einige Schulden<lb/>liebe Eltern, werde aber mit der<lb/>Regulierung derselben bis in <hi rendition="#aq">Berlin</hi>
+               <lb/>warten.</p>
+            <lb/>
+            <p rendition="#et">Etwas schwach bin ich noch,<lb/>namentlich hat mich der gestrige<lb/>Marsch sehr angestrengt.</p>
+            <lb/>
+            <p rendition="#et">Am 2<hi rendition="#sup #uu">ten</hi> marschirten wir nämlich<lb/>2 ½ Meile bis <hi rendition="#aq">Paris</hi> in großer<lb/>Hitze, schliefen des Nachts auf der<lb/>bloßen Diele, den andern Morgen<lb/>½ 8 Uhr stand bereits wieder die<lb/>Compagnie mit dem Affen auf<lb/>dem Buckel, marschirten 1 Stunde<lb/>weit zum Paradeplatz, kamen<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>um 2 Uhr zurück, hatten 1 Stunde<lb/>Ruhe u marschirten dann 2 ½<lb/>Meilen wieder nach Hause.<lb/>Wie Ihr Euch also vorstellen <lb/>könnt, ein sehr mühselige Tag.<lb/>Schreibt mir doch, wie es in<lb/>Berlin steht mit dem Sieg u.<lb/>was man dort sagt, wann <lb/>derselbe stattfinden soll.</p>
+            <lb/>
+            <p rendition="#et">Ich schließe, meine lieben Eltern,<lb/>mit der Bitte um baldige<lb/>Antwort u mit dem Wunsche<lb/>um vergnügte Feier Eures<lb/>Geburtstages.</p>
+            <lb/>
+            <p>Herzlichen Gruß an Euch u alle<lb/>Bekannte</p>
+            <lb/>
+            <p>von Eurem Euch liebenden Sohn<lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">Hugo</hi>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

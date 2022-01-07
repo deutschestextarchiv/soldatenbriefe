@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 94: Bernard Geißler (Mannschaften), 16.08.1866, Nordoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Bernard</surname>
+                  <forename>Geißler</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 94 von Bernard Geißler, 16.08.1866.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 94: Bernard Geißler (Mannschaften), 16.08.1866, Nordoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Bernard</surname>
+                        <forename>Geißler</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1866-08-16">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="94">
+            <head>
+               <supplied>SB-Nr. 94: Bernard Geißler (Mannschaften), <date when="1866-08-16">16.08.1866</date>, <choice>
+                     <abbr>NOD</abbr>
+                     <expan>Nordoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Altendrüdingen den 16<hi rendition="#sup #uu">ten</hi> August 1866.</p>
+            <lb/>
+            <p rendition="#et">Liebste Eltern!</p>
+            <lb/>
+            <p>Es ist nun schon einige Zeit daß ich zu Hauße<lb/>war, und es ist jetzt schon lange auch, daß wir<lb/>von Buchbrunn fort gemüßt haben. Wir sind<lb/>jetzt dieße ganze Zeit in dem Mittelfranken<lb/>herrum gezogen und sind jetzt 7 Stunden über<lb/>Ansbach rechts seidwärz gegen der Würtenberg⸗<lb/>ischen Grenze zu und morgen müssen wir wieder<lb/>weiter. Heute, als am 16<hi rendition="#sup #uu">ten</hi> haben wir sämt⸗<lb/>liche Truppen große Proprätätsparate gehabt<lb/>so wurde unter anderm vom General auch die<lb/>Munition vißietiert und alles wird jetzt wieder<lb/>hergerichtet als wenn es bald wieder<lb/>los gehen würde wir sind jetzt schon 5 Tage<lb/>mit verpflegung einquartiert alle Tage bei<lb/>andern Leuten und in andern Ortschaften. Schreibt<lb/>mir nur so bald als möglich wie es zu Hause<lb/>alle weil zu geht ob Ihr noch Soldaten habt<lb/>oder wie es drunten aussieht auch schickt mir<lb/>gleich wenn Ihr könnt, ein frisches Hemd, denn<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>ich habe nur noch ein gutes und kann mir<lb/>auch keines kaufen da wir in keine Stadt kommen<lb/>und hier auf dem Lande überall nichts haben kann<lb/>wenn mañ auch Geld hat; thut es nur gleich<lb/>in Papier einwickeln und auf die Winter⸗<lb/>haußer Bahn fort schicken da wir alleweil<lb/>im̃er in der Nähe der Bahn sind und schreibt<lb/>die Adreße nur so drauf wie der ganzen<lb/>Zeit auf den Briefen. Ich bin Gott sei Dank<lb/>alleweil wieder gesund es wahr mir aber 5 bis<lb/>6 Tage gar nicht wohl denn ich habe mich<lb/>verkäldet gehabt und die Märsche welche<lb/>wir machen mußten sind mir sehr schwer<lb/>gefallen ich bin die Zeit aber jedesmahl<lb/>bei guten Leuden einquartiert geweßen<lb/>und habe mir jedes mahl gleich eine heiße<lb/>Suppe machen lassen und habe mich recht<lb/>warm gehalten biß es mir wieder besser<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>geworden ist. Vom nach Hause kommen<lb/>wird wohl lange Zeit keine Rede sein<lb/>wenn sich die Fürsten nicht vereinigen werden<lb/>unser Vaterland wird ald dießmahl böß<lb/>heimgesucht nicht durch unsere Schuld sondern<lb/>wir haben uns Tapfer genug gewehrt<lb/>aber die Anführung! Ich grüße euch alle<lb/>herzlich und wünsche euch Gesundheit eben<lb/>so allen Freunden und Bekañten und<lb/>Kameraden, ich aber verbleibe euer</p>
+            <lb/>
+            <p rendition="#et">dankbarer Sohn und Bruder<lb/>
+               <space dim="horizontal"/>Bernard.</p>
+            <lb/>
+            <p rendition="#et">Adreße.<lb/>An den Soldat B. G. beim 9<hi rendition="#sup #uu">ten</hi> Infanterie<lb/>Regiement III. Schützen. 4 Armeediffision<lb/>8<hi rendition="#sup">te</hi> Brikade.<lb/>
+               <space dim="horizontal"/>Feldpriefpost.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+            <p rendition="#et">Soeben kommen wir vom Verleß<lb/>
+               <space dim="horizontal"/>und da ist uns bekannt gemacht worden<lb/>daß morgen als am 17<hi rendition="#sup #uu">ten</hi> und am 18<hi rendition="#sup #uu">ten</hi>
+               <lb/>wenigstens 15 Stunden marschiert werden<lb/>müssen. Wenn Ihr könnt schickt mir auch<lb/>ein Handtuch denn ich habe meines zu Fußlumpen<lb/>genommen. Der Marsch geht gegen München zu.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

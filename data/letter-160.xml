@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 160: Ludwig Köhler (Mannschaften), 22.04.1871, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Ludwig</surname>
+                  <forename>Köhler</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 160 von Ludwig Köhler, 22.04.1871.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 160: Ludwig Köhler (Mannschaften), 22.04.1871, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Ludwig</surname>
+                        <forename>Köhler</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1871-04-22">1871</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="160">
+            <head>
+               <supplied>SB-Nr. 160: Ludwig Köhler (Mannschaften), <date when="1871-04-22">22.04.1871</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Connsens 22 April 1871</p>
+            <lb/>
+            <p rendition="#et">Liebe Schwester. Deinen Brif</p>
+            <lb/>
+            <p>habe ich am Weissen Sontagen richtich erhalten<lb/>und habe daraus gesehen das ihr alle gesund und<lb/>Munter seid was ich gottseidank auch bin den Nur<lb/>die gesundheit und die Reise nach haus ists<lb/>wo man sich schon lange lange mit beschäftigt<lb/>ich habe nie geglaubt so lange in Frankreich<lb/>zu sein aber wer kan in die Ferne sehn<lb/>ich dachte doch wenichstens auf Osteren zu Haus<lb/>zu sein aber das ist nicht wahr geworden<lb/>wenn wir jetzt blos auf Pfingsten<lb/>zu Haus sind ich will gern zu Frieden sein<lb/>Bruder Christel hat mir gestern<lb/>geschriben er wäre seid 20. April auf der<lb/>Bahn nach Hannover von wo er entlassen<lb/>würde und schreibt er wolte vor meine<lb/>Sohn mit sorgen was mir recht angenehm<lb/>ist den ich kan zu <gap reason="illegible"/> zu Haus sein<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>
+               <space dim="horizontal"/>und muss mich im der sache finden ich verlase<lb/>mich ganz auf Euch</p>
+            <lb/>
+            <p>hirmit will Ich schlissen in der Hofnung<lb/>das wir uns Bald mündlich <choice>
+                  <orig>prechen</orig>
+                  <reg resp="#CT">sprechen</reg>
+               </choice>
+            </p>
+            <lb/>
+            <p>Viele Grüse an Dich und alle bekanten<lb/>ich bleibe Dein Dich Lieben Bruder</p>
+            <lb/>
+            <p rendition="#et">Ludwig Köhler<lb/>
+               <space dim="horizontal"/>grüse Frau Kallmeier</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[2]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

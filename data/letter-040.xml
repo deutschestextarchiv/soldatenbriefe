@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 40: Ernst C. Schacht (Unteroffizier), 25.08.1815, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Ernst</surname>
+                  <forename>C. Schacht</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 40 von Ernst C. Schacht, 25.08.1815.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 40: Ernst C. Schacht (Unteroffizier), 25.08.1815, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Ernst</surname>
+                        <forename>C. Schacht</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1815-08-25">1815</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="40">
+            <head>
+               <supplied>SB-Nr. 40: Ernst C. Schacht (Unteroffizier), <date when="1815-08-25">25.08.1815</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p rendition="#et">Meine Lieben alle daselbst!</p>
+            <lb/>
+            <p>Ich kann nicht unter lassen, mal wieder an Euch zu <lb/>schreiben, nur leset diesen Brief mit Aufmerksamkeit, <lb/>denn zu beschreiben ist es alles jetzt unmöglich, aber nur in <lb/>der Kürze und den Haupt⸗grund. So war es Freitag morgen <lb/>den 16. Juni 4 Uhr, da ging die Lärm⸗Trommel zum ausrücken, <lb/>vor Halle ein klein Städtchen, versammelte sich das Bataillon und <lb/>dann so weiter. Um 11 Uhr hörten wir das Kanonen geschoß, so <lb/>war die Rede, die Brabender exerzierten dort, die General-Ordre <lb/>lautete, wir sollten uns nach Waterloo verfügen, aber allmählich <lb/>bis um 2 Uhr erlangten wir da hin, so sahen wir 3 Regimenter <lb/>auf die Chausee eiligst vorwärts Marschiren, das Kanonen⸗<lb/>geschoß wurde nun heftiger<metamark>_</metamark> : nun wurde uns zu erkennen <lb/>gegeben, der Angriff zur Schlacht ist da! Der Angrif zur Schlacht ist da! </p>
+            <lb/>
+            <p>O welch ein Gedanke; Gedanke über Gedanke; Seufzer über Seufzer <lb/>wurden zu Gott empor geschickt, jeder verlor den Muth aber <lb/>alles half nichts, nur frischen Muth genommen. In <hi rendition="#aq">Waterloo </hi>
+               <lb/>verharreten wir bis um halb 6 Uhr, und so kamen schon die <lb/>40 Tausend Holländer zurück mit vielen verwundete, mit <lb/>den worten, es wäre nichts auszurichten, die Franzosen wären <lb/>zu stark, um halb 6 Uhr thahten wir mit dem Liede: Ein freies <lb/>leben führen wir us.w. hin ein zur Schlacht Marschieren; und <lb/>das Kanonen geschoß so fürchterlich ging auf den Wege vor uns <lb/>immer näher, abends um halb 10 Uhr begegnete uns schon <lb/>die Leiche des Herzogs von Braunschweig. vor einen Flecken <lb/>Niwel blieben wir auf einen grünen Anger des nachts <lb/>liegen. Den anderen morgen den 17. um 2 Uhr weckten uns <lb/>die Kanonen wieder. Um 5 Uhr ging der Marsch durch dieß Städtchen <lb/>und so dann noch eine halbe Stunde, bis gen Quatrebas ein <lb/>einzelner Bachthof wo der Feindlich Angriff war<metamark>_</metamark> : mann<lb/>glaubte jetzt ist unser Leben bald ja so bald geendigt<metamark>_</metamark>.</p>
+            <lb/>
+            <p>Um 11 Uhr kehrten wir den Rücken, u returierten allmälig <lb/>3 Stunde, bis vor <hi rendition="#aq">Waterloo</hi> ein Dorf nun geschwind, 180 Kanonen <lb/>mußten erst zur Stelle sein. Abends 7 Uhr: So krachten die <lb/>Feuer Schlünde des sämmtlichen Feldes (umrings 3 Meile<metamark>_</metamark>) <lb/>und auf einmal war alles vor bey: Sehr stark fing es an <lb/>zu Regen, und so die ganze Nacht. Die Nacht vergesse ich in <lb/>meinen Leben nicht<metamark>_</metamark>. Den andern Sonntag morgen als <lb/>den 18. war nichts zu thun. bey hellem aufgedecktem Himmel <lb/>bemühete sich ein jeder Speise zu erlangen, und so war es daß der<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>Magen so bald, so bald gespeiset werden Solte. aber vergebens. <lb/>alle Speise war Feuer und zur Seite gestellt, gerade 11 Uhr, brach das <lb/>Kanonen geschoß auf ein mal so fürchterlich, ja so fürchterlich, eins <lb/>gegen das andere los, als wenn alles zerschmettert werden sollte. <lb/>500 große Feuer Schlünde Pochten und kämpften zugegen; und das <lb/>geschoß der kleinen Gewehre ging auch so fürchterlich, das Rufen <lb/>und weheklagen der verwundeten und Plesirten war so jämmerlich <lb/>an diesem Tag, welches meine Feder nicht ausdrücken kann. <lb/>Der französische linke Flügel grif an auf unsern rechten Flügel, <lb/>wo die Engländer standen. wir standen auf einem kleinen Berge <lb/>in der Länge. So konnte man alles wahrnehmen und sehen, 8 Mann <lb/>stark im Coree, so 3 Stundenlang bis 2 Uhr. In der Zeit flogen uns ganz <lb/>nahe über den Kopf mehr als 80 große Kugeln, endlich schlugen einige <lb/>nidriger und trafen, machten Verwundete und mehre zur Leiche. <lb/>In dem sahen wir die Grausamkeit hin und her, in der großen Metzgerei, <lb/>ich zittere meine Feder ist zu schwach dieses jammervolle Elend <lb/>zu beschreiben, und so fort so fort, von 2 bis 7 Uhr (laut) jämmerlich <lb/>endlich bis abends 9 Uhr, wurde das Jubel gerufene, Hurra! Hurra! <lb/>Sieg- Sieg, der Sieg ist unser, Gott sey gelobt, aber das Feld war <lb/>nur zum Todten Acker geweihet, Todte über Todte! Tausende über <lb/>Tausende, hatten ihr Leben eingebüßt nur für Recht und Vaterland. <lb/>Dieß alles zu sehen, stand der Gedanke still, mit seufzen ja mit <lb/>seufzen<metamark>_</metamark> Ich mit dem Gebet: Führe mich o Herr und leite u.<lb/>s.w. So habe ich in den Dreijen tagen welche so so schrecklich waren<lb/>so viel an Euch gedacht, und alle die meinigen mir vor die Augen <lb/>gestellt, in der Hoffnung um ein künftiges wieder sehen<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Gott! wird geben, daß dieses in Erfüllung kommt, so will ich <lb/>Euch alles aufs deutlichste weiter besser erzählen, bey dieser Er⸗<lb/>zählung soll der Mund mal recht flattern, die Zunge recht fliegen, <lb/>die Hände recht schwenken, die Adern recht schlagen, das Herz <lb/>recht empfinden, und weiter fragen und antworten, in <lb/>Gedanken recht besinnen, und alles recht erzählen, und wohl <lb/>erinnern, welches uns allen eine große Freude sein wird<metamark>_</metamark> 
+               <lb/>Ich möchte wünschen, daß ich nur Euch diese Erzählung bald ja so <lb/>bald vorschnattern könnte, nur jetzt geht es nicht, ich bin zu <lb/>weit entfernt. N.B. Wir liegen hir im Lager zu felde nahe <lb/>vor die Hauptstadt Paris und sind von Brüssel noch 62 Stunde <lb/>weiter; 14 Tage haben wir der Sonne Aufgang bis untergang <lb/>marschiret und da bey fast nicht zu Essen noch zu Trinken, <lb/>und bey nacht unter freiem Himmel zu liegen? gestern <lb/>sind wir auf 8 Tage ins Quartir gekommen in eine Stadt nahmens <lb/>Sankt Denis eine stunde von Paris ab<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>ich will nicht mehr gedenken an die vergangene erbärmliche <lb/>Zeit; und anfangen von meinen guten Quartire, hir trinkt <lb/>man Franz-Wein; jetzt will ich mal trinken meine und <lb/>Eure Gesundheit <hi rendition="#aq #u">Vivat hoch</hi> wir wollen Leben<metamark>_</metamark>. mit diesen <lb/>freundlichen Anblick empfehle ich mich Euch, unter gottes gnädigen <lb/>Beystand, und in diesen verse schließe ich: Bleibe fromm und halte dich <lb/>recht u:s:w: sich so aufrecht halten zu dem Vater der mir mein <lb/>Leben gegeben hat, der wirds mir auch wohl ferner erhalten, <lb/>benebst Euch allen, nun, (alle neuigkeiten des Krieges) täglich <lb/>kommen noch Preussen an marschiert, so auch noch Engländer<metamark>_</metamark>. </p>
+            <lb/>
+            <p>ein grausames Krieges Heer ist jetzt hir, und so wird in Frankreich <lb/>herein marschieret, so wurde der König Ludewig der 18<hi rendition="#sup #uu">te</hi> mit her⸗<lb/>ein gebracht. Wo Napoelon sich auf hält mag Gott wissen? wie lange <lb/>wir hir noch bleiben weis auch noch keiner, den 24. July hatten <lb/>wir eine große <hi rendition="#aq #u">Revue</hi> wo der Kaiser von Frankreich, der Kaiser von <lb/>Rusland, der König von Preussen, der König von Frankreich, unser Herzog<lb/> Wellington, kurz so viele Prinzen und Generäle als über 200 an <lb/>den tage erschienen, der Parade Marsch war am Königlichen Schloße in <lb/>Paris: sehet so wurde die Irdischen Majestät in diesen tage zu gegen, <lb/>180 Tausend machten diesen Parade Marsch, ich erstaune mich auf einen <lb/>Haufen über dieses große Heer; von morgens 5 Uhr bis abends 5 Uhr <lb/>war alles unter Waffen, aber hir 1, da 2, dort 3, und so mehr lagen <lb/>Sie und waren kränklich, von den tage an war ich 3 wochen sehr krank. </p>
+            <lb/>
+            <p>Gottlob jetzt bin ich wieder gut her gestellt, übrigens wird alle tage <lb/>exerziert; nahe von unserem Lager; wir kriegen geliefert, Brodt, Fleisch, <lb/>Holz, täglich etwas Wein, aber an Vorspeise fehlt es immer, man <lb/>weis es nicht anders es muß gehen. Liebe Mutter! ich hatte in <lb/>meinen jüngeren jahren, es nie geglaubt daß wer Vater oder <lb/>Mutter entfernt ist, wie es den gehet, wie es mir nun auch gehet, <lb/>allein ich bin ja nicht Schuld dran, es gilt für Recht und Vaterland,<lb/>nach der weisesten Ordnung, endlich bitte ich, bewaret diesen <lb/>Brief auf, bis ich ihn bey Euch mal wieder finde, wenn ich zu Hause <lb/>komme, In der Erwartung, und künftige Erfüllung Grüße ich <lb/>Euch alle, ja alle viel Tausend mal, auch Fremde die daran Antheil <lb/>nahmen, bin ich daher Euer aller: Sohn, Bruder, Schwager, <lb/>ergebenster und entfernster so jetzt, wie zu vor<metamark>_</metamark> 
+               <hi rendition="#u">amen</hi>. </p>
+            <lb/>
+            <p>Im Lager von <hi rendition="#aq">Paris</hi> den 25<hi rendition="#sup #uu">ten</hi> August 1815.<lb/>
+               <space dim="horizontal"/>Ernst Christian <hi rendition="#aq">Schacht </hi>
+               <lb/>
+               <space dim="horizontal"/>Hautboiste</p>
+            <lb/>
+            <p>schreibt bald mal wieder<lb/>meine Adresse wisst ihr ja.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 70: Gustav Keppler (Mannschaften), 30.09.1864, Westoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Gustav</surname>
+                  <forename>Keppler</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 70 von Gustav Keppler, 30.09.1864.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 70: Gustav Keppler (Mannschaften), 30.09.1864, Westoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Gustav</surname>
+                        <forename>Keppler</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1864-09-30">1864</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="70">
+            <head>
+               <supplied>SB-Nr. 70: Gustav Keppler (Mannschaften), <date when="1864-09-30">30.09.1864</date>, <choice>
+                     <abbr>WOD</abbr>
+                     <expan>Westoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Betenrouge</hi> d. 30. September 1864.</p>
+            <lb/>
+            <p>Liebe Eltern u. Brüder!</p>
+            <lb/>
+            <p>Ich weiß nicht ob Ihr meinen vorigen Brief, den ich durch unseren <hi rendition="#aq">Suttler</hi>, was so viel ist als bei Euch Marketendner, zusendete, erhalten habt, denn ich sah ihn nicht mehr, wir wurden 8 Meilen von hier, wo wir dieselbige Zeit waren, in einem Fort in derselbigen Nacht von den Rebelln angegriffen, wo unser Regiment, da es mit einer erstaunlichen Geschwindigkeit gieng fast gänzlich vernichtet wurde. unser ganz Regiment besteht jetzt vielleicht noch aus 100 Mann.</p>
+            <lb/>
+            <p>Ich verlor in selbiger Nach all mein Geld, da wir gerade den Tag zuvor aus bezahlt wurden. Ich glaubte nicht, daß ich selbige Nacht mehr gerettet wurde denn wir waren gänzlich eingeschloßen, mein Pferd war todt, ich nahm deshalb unser Lieutenants Pferd, welchr sich beim ersten Geschrei durch den Wald davon gemacht hatte, ich hatte nichts an, als Hosen, Hemd u. Stiefel. keinen Hut u. nichts als einen Säbel u zwei Pistolen, welche waren in dem Pistolen halter am Sattel, wir mußten uns mit dem Sabel in der Faust durchhauen 15. Mann von meiner Companie retteten sich so mit mir wir hatten hart zu kämpfen bis wir durch waren, von den 15. waren 8. verwundet einer starb nach ein paar Stunden der hatte 10. Schüsse davon waren 5. Schrott 5. Kugeln die andern sind so ziemlich wieder hergestellt. </p>
+            <lb/>
+            <p>Ich hatte mir in selbiger Nacht eine sehr schlimme Verkältung zugezogen, was mich seither an das Bett feßellte. Ich bekam das sogenannte Schwamm Fieber Ich hatte imer furchtbare Hitze war dabei zum anfühlen eiskalt war geschwollen so dick daß ich mich nicht bewegen konnte ich wurde in unser Regiments Hospital gebracht wo mir einen deutschen Doktors gehülfen hatte, der sich ziemlich meiner annahm, u. jetzt befinde ich mich wieder so ziemlich besser. Der Doktor versicherte mich den ersten Urlaub so den er zu vergeben habe nach <hi rendition="#aq">N. York</hi>. soll ich erhalten, deshalb seit so gut u schreibt mir so bald als Ihr könnt viel schreiben kann ich Euch dießmal noch nicht, da ich noch zu lahme u. schwere Finger habe. Deshalb will ich schließen nun. Heinzelmann will ich auch schreiben wenn ich mich etwas besser befinde er schrieb mir gestern er ist in Virginien mit seinem Regiment, ich verlor dessen Brief mit Euerem Brief u. meinem Geld. Er schrieb mir von Otto Grüße. Auf diesem Platze wo wir wirklich sind, ist sehr schlimes Wasser, so daß ich schon 100 mal wünschte für ein gut Glas von euerm Wasser würde ich gern 1. Dlr bezahlen, denn was die Rebells hier nicht vernichten, die es toll genug treiben, das verrichtet das Wasser, du kannst jeden Tag 100te von Soldaten rund hier begraben sehen wo vielleicht 50. geschossen, die andere so gestorben sind. Für Geld kannst du hier fast gar nichts haben, da fast alles geschlossen ist, u. die Leute geflüchtet.</p>
+            <lb/>
+            <p>Sollte ich je nach N. York kommen so werde ich Euch <hi rendition="#u">mehr!</hi> u. <hi rendition="#u">Näheres</hi> schreiben. </p>
+            <lb/>
+            <p>Nun lebt wohl es grüßt Euch innigst Euer</p>
+            <lb/>
+            <p>Euch innigst liebender Sohn Gustav</p>
+            <lb/>
+            <p>Keppler</p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

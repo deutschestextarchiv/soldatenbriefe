@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 112: Hans Kretzschmer (Offizier), 16.07.1870, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Hans</surname>
+                  <forename>Kretzschmer</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 112 von Hans Kretzschmer, 16.07.1870.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 112: Hans Kretzschmer (Offizier), 16.07.1870, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Hans</surname>
+                        <forename>Kretzschmer</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1870-07-16">1870</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="112">
+            <head>
+               <supplied>SB-Nr. 112: Hans Kretzschmer (Offizier), <date when="1870-07-16">16.07.1870</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Glogau den 16<hi rendition="#sup #uu">ten</hi> Juli 70.</p>
+            <lb/>
+            <p rendition="#et">Meine Lieben!</p>
+            <lb/>
+            <p>Eure Briefe vom 3.9. u. 15. <unclear reason="illegible" cert="high" resp="#MN">ejusd.</unclear>
+               <lb/>erhalten! Ich zögerte mit der<lb/>Antwort, um mittheilen zu können,<lb/>wozu Angesichts der Ereignisse ich<lb/>designiert werde: Nämlich zum<lb/>Führer einer mobilen Kompagnie<lb/>mit den Competenzen eines Haupt-<lb/>mannes. Mir ist also zu gratu-<lb/>lieren!</p>
+            <lb/>
+            <p rendition="#et">Was Georgs Zuschrift anbelangt,<lb/>so bezieht sich seine Forderung<lb/>weniger auf seine Person, als<lb/>auf die <unclear reason="illegible" cert="high" resp="#MN">Ajeästirung</unclear> seines Pferds,<lb/>welches ihm gestellt wird, während<lb/>er erstere aus den Mobilmachungs-<lb/>geldern bestreiten soll. Wenn<lb/>er nun schreibt, die reichten nicht,<lb/>so hat der Junge nicht ganz Unrecht,<lb/>dagegen würde ein einmaliger<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>
+               <space dim="horizontal"/>Zuschuss von 30 Thalern nach den<lb/>von mir eingegangenen Erkundigungen<lb/>zuverlässig und ausreichend sein.</p>
+            <lb/>
+            <p rendition="#et">Im Übrigen gebraucht man im<lb/>Felde verhältnismäßig wenig<lb/>Geld u. erhält davon mehr, als<lb/>man nöthig hat.</p>
+            <lb/>
+            <p rendition="#et">Anbei erfolgt gewünschter<lb/>Schein.</p>
+            <lb/>
+            <p rendition="#et">Seit gestern ist meine Familie<lb/>gesund wieder hier eingetroffen und<lb/>zwar noch zur Guten Stunde!</p>
+            <lb/>
+            <p rendition="#et">17. July 70.</p>
+            <lb/>
+            <p rendition="#et">Heute ist der 2<hi rendition="#sup #uu">te</hi> Mobilmachungs-<lb/>tag, 11 Tage hat die Mobilmachung.</p>
+            <lb/>
+            <p rendition="#et">Über die Eintheilung der Armee<lb/>
+               <hi rendition="#aq">in specie</hi> über unsere <add place="superlinear">
+                  <metamark/>Marschordre u.</add> Marschrichtung<lb/>ist zur Stunde noch nichts verlautet.</p>
+            <lb/>
+            <p rendition="#et">Bis dahin erhaltet Ihr noch<lb/>Nachricht. Ich habe viel zu thun.<lb/>Daher die Kürze. Wir Alle sehen<lb/>u gehen dem Kampfe mit Zuver-<lb/>sicht entgangen, und die Enkel<lb/>unseres seligen Haudegens von <hi rendition="#aq">anno</hi>
+               <lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>13. 14. u. 15, Deine 3 Söhne, die Du<lb/>mit freudigem Muth hinausziehen<lb/>sehen mögest, für Preußens u.<lb/>Deutschlands Ehre<metamark>_</metamark> diese drei<lb/>werden dem alten Großvater,<lb/>wenn anders ihm ein Blick<lb/>in diese Welt vergönnt ist, das<lb/>Herz in Liebe hüpfen machen.</p>
+            <lb/>
+            <p rendition="#et">Ich sage nicht Adieu, aber <lb/>herzlichst u. innigst grüßt dich,<lb/>Euch Alle</p>
+            <lb/>
+            <p rendition="#et">Euer Hans.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

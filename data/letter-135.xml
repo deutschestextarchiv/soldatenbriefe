@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 135: Hermann Schweinhagen (Mannschaften), 09.12.1870, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Hermann</surname>
+                  <forename>Schweinhagen</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 135 von Hermann Schweinhagen, 09.12.1870.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 135: Hermann Schweinhagen (Mannschaften), 09.12.1870, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Hermann</surname>
+                        <forename>Schweinhagen</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1870-12-09">1870</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="135">
+            <head>
+               <supplied>SB-Nr. 135: Hermann Schweinhagen (Mannschaften), <date when="1870-12-09">09.12.1870</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Orleans den <del rendition="#s">10</del>
+               <hi rendition="#sup">9</hi>ten Decemb 70.</p>
+            <lb/>
+            <p rendition="#et">Mein lieber Bruder.</p>
+            <lb/>
+            <p>Jeder Brief den ich dir schreibe sollte ein<lb/>Musterbild sein, denn ein Jeder sollte<lb/>Alles das ausdrücken, was solcher Liebe<lb/>und Aufopferung die wahren Worte<lb/>geben kann. Mir ist es nicht möglich,<lb/>desshalb bitte ich dich mit diesen wenigen<lb/>ungeschickten Worten zufrieden zu sein<lb/>und zu danken, dass mein Herz mehr<lb/>und Größeres fühlt, es aber nicht im<lb/>Stande ist, <del rendition="#s">es</del> wiederzugeben. Leider sind<lb/>die Briefe fast sämtlich abhanden ge⸗<lb/>kommen wie ich jetzt sehe und ich mache<lb/>mir recht, recht viel Vorwürfe darüber,<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>dir nicht täglich Nachricht gegeben zu haben.<lb/>aber wie Du aus der großen Distanz zwischen<lb/>Chaoumont und Orleans entnehmen kannst,<lb/>sind unsere Märsche stets so stark gewesen<lb/>dass wir mit den Hühnern aufgestanden <lb/>und mit den Hühnern in unser Nacht⸗<lb/>quartier eingerückt sind. Außerdem war<lb/>unsere Rückzugslinie vollkommen ab⸗<lb/>geschnitten und jetzt gehen unsre Briefe <lb/>über Paris. Wir sind von Chaoumont,<lb/>von dem ich den Empfang von 6rl Dir an⸗<lb/>zeigte; sowie des Paqetes nach Chattillon<lb/>marschiert, in welcher Stadt die Landwehr No 16<lb/>so schändlich abgeschlachtet war, haben<lb/>hier Revanche genommen sind über<lb/>
+               <hi rendition="#aq">Baignes, Tonnerre, St Florintin, Joigny<lb/>Crépag. Courtenay. Nemans. <del rendition="#s">St Blie</del> Broumeilles. <lb/> Antanay, Faury. St Lyé, St Fleury.</hi>
+               <lb/>und Orleans marschiert. Lieber Bruder<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>ich bitte Dich jetzt aber inständigst mir Nichts<lb/>mehr zu schicken, da Ihr mich mit Allem<lb/>so reichlich versehen habt. Gern möchte ich<lb/>Dir jetzo mehr schreiben, aber wir sind<lb/>alle in Aufregung da der Kommandeur<lb/>schon wieder den ganzen Tag anhält und<lb/>aber die Corps-Artillerie, zu der wir<lb/>gehören allarmirt ist, obgleich der<lb/>großen Verluste wegen unser Armee⸗<lb/>Corps in Kaserne gekommen ist. Ich<lb/>habe in <hi rendition="#aq">Broumeilles</hi> 6rl und 5 Franken<lb/>bekommen und heute wieder 8rl; sei<lb/>tausendmal dafür gedankt. Herzliche<lb/>Grüße und Wünsche für Dich und Deine<lb/>Lieben von</p>
+            <lb/>
+            <p rendition="#et">Deinem <lb/>
+               <space dim="horizontal"/>treuen dankbarn<lb/>
+               <space dim="horizontal"/>Bruder</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

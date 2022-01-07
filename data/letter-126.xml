@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 126: Johann F. Henninger (Mannschaften), 14.10.1870, Nordoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Johann</surname>
+                  <forename>F. Henninger</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 126 von Johann F. Henninger, 14.10.1870.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 126: Johann F. Henninger (Mannschaften), 14.10.1870, Nordoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Johann</surname>
+                        <forename>F. Henninger</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1870-10-14">1870</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="126">
+            <head>
+               <supplied>SB-Nr. 126: Johann F. Henninger (Mannschaften), <date when="1870-10-14">14.10.1870</date>, <choice>
+                     <abbr>NOD</abbr>
+                     <expan>Nordoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p rendition="#et">Orlean den 14. Oktober 1870.</p>
+            <lb/>
+            <p rendition="#et">Liebe Eltern u. Geschwiesterte!</p>
+            <lb/>
+            <p>Ich kan es nicht unterlasen euch die<lb/>Nachricht zu schreiben die wier anderer<lb/>Zeit gehabt hatten. nähmlig wier haben<lb/>den 12. ds Mts ein sehr großes Treffen gehabt<lb/>es ist zwar den 11. schon angegangen aber<lb/>am ersten Tag sind wier zu spät gekom̃en<lb/>Liebe Eltern u Geschwiesterte! Ich habe eine Karten<lb/>vor einigen Tagen schon fort geschickt aber es ist<lb/>die Zeit noch da einen Brief zu schreiben.<lb/>Ich wünsche mirs nicht mehr ein solges<lb/>Trauriges Unkliek mit zu machen um<lb/>11 Uhr Mitags gings an u. dauerte bis<lb/>Abens 9. Uhr u wens nicht Nacht worden<lb/>währe es noch nicht gar worden, den wier<lb/>haben eine Stadt erobert die über eine Stund<lb/>lang ist. ich dachte nicht mehr das ich euch ein<lb/>Brief schreiben kan, <del rendition="#s">das</del>den die Kuges sind rechts<lb/>u. lings von uns vorbei als wens es schneiet<lb/>den zwei Tage dar<add place="superlinear">
+                  <metamark/>n</add>ach habens die Tode noch nicht<lb/>alle weg schaffen köñen so <unclear reason="illegible" cert="high" resp="#MN">lag</unclear> alles voll<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>Wens nur Gotteswille währ das doch balt ein<lb/>ende währe Liebe Eltern! einen Brief schreibt<lb/>ihr mir wider das ich weis ob ihr mein<lb/>schreiben bekom̃en habt. macht eich<lb/>die Sorge nicht zu groß den verlaßt<lb/>euch nur <del rendition="#s">d</del>auf Gott der kan u. wirds<lb/>schon machen wie es an besten ist. Weideres<lb/>kan ich euch nicht mehr schreiben den es dauerte<lb/>mir sonst zu lang u. währet die Zeit zu kurz.</p>
+            <lb/>
+            <p>Ich schliese mein schreiben unter vielen<lb/>
+               <space dim="horizontal"/>herzligen Grüssen verbleibe Ich:</p>
+            <lb/>
+            <p rendition="#et">euer Aufrichter Sohn u. Bruder<lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">Friedrick Henninger</hi>.</p>
+            <lb/>
+            <p rendition="#et">Grüßt mir alle Nachbahrn Georg Krauß<lb/>
+               <space dim="horizontal"/>Hern Birner u. Verwande</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[2]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

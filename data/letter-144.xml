@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 144: Hans Kretzschmer (Offizier), 04.01.1871, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Hans</surname>
+                  <forename>Kretzschmer</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 144 von Hans Kretzschmer, 04.01.1871.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 144: Hans Kretzschmer (Offizier), 04.01.1871, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Hans</surname>
+                        <forename>Kretzschmer</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1871-01-04">1871</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="144">
+            <head>
+               <supplied>SB-Nr. 144: Hans Kretzschmer (Offizier), <date when="1871-01-04">04.01.1871</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p rendition="#et">Specialreserve in <hi rendition="#aq">Ville d’Avray</hi> 4. Januar</p>
+            <lb/>
+            <p>1871. Beim Thee!</p>
+            <lb/>
+            <p rendition="#et">Liebe, gute Mutter!</p>
+            <lb/>
+            <p>Helenens Brief, vom 28. December v. J., <lb/>der mir Deinen Unfall berichtete, hat<lb/>meine Bombardementslaune bedeutend<lb/>herabgestimmt, trotz des zuversichtlichen<lb/>
+               <hi rendition="#aq">postscriptums</hi> von Papa, auf welches ich,<lb/>da Papa selten im rosenfarbigen Licht<lb/>zu sehen pflegt, großes Gewicht lege.<lb/>Ich wünsche und hoffe von ganzem Herzen,<lb/>daß der guten Nacht vom 28. zum 29. <lb/>
+               <hi rendition="#aq">December</hi> zeither immer bessere ge-<lb/>folgt sein mögen u. folgen werden,<lb/>und Deine ebenso fleißige, wie ge-<lb/>schickte Hand, mein Mutschchen, recht <lb/>bald wieder zur alten Gewohnheit zurück-<lb/>
+               <space dim="horizontal"/>kehrt.<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+            </p>
+            <lb/>
+            <p>Ich sprach Eingangs von meiner Bom-<lb/>bardementslaune. Der Thelegraph hat<lb/>zwar längst diese Zeilen überholt,<lb/>und ehe sie bis zu Dir gelangen, sind<lb/>wir hier vor Paris hoffentlich bei der<lb/>äußersten Wendung der Dinge angelangt.<lb/>Gestern (Nachmittag) <add place="superlinear">
+                  <metamark/>Abend</add> von 6 Uhr an wurden<lb/>also endlich die Belagerungsbatterien<lb/>armirt u. waren gegen Mitternacht <lb/>demarkirt. Im Park <hi rendition="#aq">St. Cloud</hi> steht<lb/>Batterie N<hi rendition="#sup #uu">o</hi> 1. (Linke Flügelbatterien<lb/>von 7 Zwölfpfündern). Merkwürdiger<lb/>Weise nummeriren die Batterien vom<lb/>linken Flügel an. N<hi rendition="#sup #uu">o</hi> 1 ist die einzige<lb/>innerhalb unseres Vorpostenwagens, ein<lb/>kolossaler Bau in Kalksteinfelsen, und<lb/>für mich von ganz speciellem Interesse,<lb/>da ich mit meiner Kompagnie den ersten<lb/>Rasen für sie gestochen und herbei ge-<lb/>schafft habe. Das Demarkiren, d.h.<lb/>das Freilegen des Schiessfeldes, war,<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>sozusagen, die letzte Keile. Unsere<lb/>Pionire wurden dabei trotz der Dunkel-<lb/>heit der vergangenen Nacht lebhaft<lb/>beschossen, doch blieb bis zum letzten<lb/>Augenblick die Batterie den Franzosen<lb/>ein Geheimnis, u. sie werden sicherlich<lb/>ebenso überrascht werden, wie auf dem<lb/>
+               <hi rendition="#aq">Mont Avron</hi>. Heute früh sollte auf<lb/>der ganzen Linie das Bombardement<lb/>beginnen, allein ein dichter Nebel<lb/>lagerte auf den Forts und über der<lb/>Capitale, sodass Contraordre eintraf.<lb/>Gegenwärtig (¾ 8 Uhr Abends) ist ein<del rendition="#s">e</del>
+               <lb/>klarer Himmel, und so erhoffen<lb/>wir denn auf morgen mit Bom-<lb/>bardementslaune das ersehnte Conzert.<lb/>Obgleich der Dienst der Infanterie<lb/>ein bedeutend verschärfter sein wird<lb/>in Folge permanenter Gefechtsbereit-<lb/>schaft, so bedauere ich doch sehr, daß<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>ich morgen nach <hi rendition="#aq">Versailles</hi> muß.<lb/>Eigentlich sollten wir heute schon dahin,<lb/>kamen aber für einen Tag noch <lb/>in Specialreserve, nachdem früh 6 Uhr<lb/>bei schneidendem Frost mein Bataillon<lb/>durch die 47<hi rendition="#sup #uu">er</hi> in <hi rendition="#aq">St. Cloud </hi>abge-<lb/>löst worden. Die letzten 2 Tage<lb/>hatte ich mit meiner Compagnie auf<lb/>„<hi rendition="#aq">Lulu</hi>’s Spielplatz“ ein Baracken-<lb/>lager bezogen. Besonders die<lb/>Offiziersbarracke ist reizend einge-<lb/>richtet; kaiserliche Stoffe u.s.w.<lb/>haben ihr fast orientalische Pracht<lb/>verliehen. Dagegen war mein<lb/>Dasein in der Stellung vorher und<lb/>zwar 6 Tage lang wenig beneidens-<lb/>werth, trotzdem mein Kellerloch<lb/>märchenhaft ausgestattet war.<lb/>Aber die Feldwache <add place="superlinear">
+                  <metamark/>selbst</add> gehört zu den<lb/>exponirtesten in <hi rendition="#aq">St. Cloud</hi>, weil am<lb/>
+               <fw type="folNum" place="bottom">[4]</fw>
+               <lb/>weitesten, gegen die <hi rendition="#aq">Seine</hi> vorge-<lb/>schoben. Daher wurde auch meiner<lb/>Kompagnie das Matratzencommando<lb/>zu Theil; die Kaserne in Stadt <lb/>
+               <hi rendition="#aq">St. Cloud</hi> gehörte zu meinem Bereich.</p>
+            <lb/>
+            <p rendition="#et">Gegenwärtig schießt <hi rendition="#aq">Valerien</hi>
+               <lb/>ziemlich lebhaft, ebenso Gewehr-<lb/>feuer an der Seine; hat aber<lb/>nichts zu sagen. Daß in diesem<lb/>Augenblick in Paris viel getrom̃elt<lb/>u. geblasen wird, kann ich zeitweise<lb/>
+               <del rendition="#s">bis</del>
+               <add place="superlinear">
+                  <metamark/>selbst</add> in meiner Stube hören.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p rendition="#et">Für den übersandten Taback<lb/>den besten Dank. Ich habe sofort ein<lb/>Pfeifchen davon geraucht u. mir ex-<lb/>press die Stiefel dazu ausgezogen.<lb/>Vielleicht kannst Du ermessen,<lb/>welch‘ Genuss darin lag, nachdem<lb/>man 8 Tage <add place="superlinear">
+                  <metamark/>u. Nächte</add> lang gestiefelt u. ge-<lb/>spornt „Liebescigarren“ geraucht hat.<lb/>
+               <fw type="folNum" place="bottom">[5]</fw>
+            </p>
+            <lb/>
+            <p>Was die schwarzen, wollenen gestrickten<lb/>Handschuhe anbelangt, so bescheinige<lb/>ich hiermit, daß ich mindestens darauf<lb/>ginzere, denn ich habe nur waschle-<lb/>derne, u. war drauf u. dran, mir <lb/>wärmere in <hi rendition="#aq">Versailles</hi> morgen zu<lb/>kaufen, was nunmehro unterbleiben<lb/>wird. <hi rendition="#aq">Johanna</hi>’s Gruß habe ich <lb/>erhalten, aber noch nicht erwiedert.<lb/>Besorge es in deiner Antwort, doppelt<lb/>reißt nicht. Frl. <hi rendition="#aq">Solmbert</hi> hat<lb/>mich übrigens <hi rendition="#aq">Johanna</hi> gegenüber<lb/>in Verdacht gehabt. Letztere soll<lb/>beim Anblick meines Conterfeis<lb/>in <hi rendition="#aq">Hagnau</hi> freudig überrascht worden<lb/>sein. Jugenderinnerungen!<lb/>Aber nicht häßliche!<metamark>_</metamark> Donnerwetter,<lb/>ich denke, ich schreibe an Helene, da<lb/>ihr Brief neben diesem liegt. Na,<lb/>er ist ja für Alle bestimmt.<lb/>
+               <fw type="folNum" place="bottom">[6]</fw>
+            </p>
+            <lb/>
+            <p>Zum Schluss, gute Besserung, liebes Mutschchen! Sage Helene vielen Dank für<lb/>ihren ausführlichen Brief, grüß den Vater u. sei innig geküsst von Deinem Ältesten!</p>
+            <lb/>
+            <note type="editorial">Seite 3 und 4 oben umgekehrt.</note>
+         </div>
+      </body>
+   </text>
+</TEI>

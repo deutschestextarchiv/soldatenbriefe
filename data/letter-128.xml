@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 128: Adalbert von Barby (Offizier), 22.10.1870, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Adalbert</surname>
+                  <forename>von Barby</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 128 von Adalbert von Barby, 22.10.1870.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 128: Adalbert von Barby (Offizier), 22.10.1870, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Adalbert</surname>
+                        <forename>von Barby</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1870-10-22">1870</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="128">
+            <head>
+               <supplied>SB-Nr. 128: Adalbert von Barby (Offizier), <date when="1870-10-22">22.10.1870</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <space dim="horizontal"/>
+               <hi rendition="#aq #u">Les Clayes</hi>
+               <hi rendition="#u"> den 22</hi>
+               <hi rendition="#sup #uu">sten</hi> 
+               <hi rendition="#aq #u">October</hi>
+               <hi rendition="#u"> 1870</hi>
+            </p>
+            <lb/>
+            <p rendition="#et">
+               <hi rendition="#u">2½ Meile westlich von </hi>
+               <hi rendition="#aq #u">Paris</hi>.</p>
+            <lb/>
+            <p rendition="#et">Meine theure liebe Mutter!</p>
+            <lb/>
+            <p>Heute an dem Geburtstage meiner theuren un⸗<lb/>vergeßlichen Engels⸗<hi rendition="#aq">Luise</hi> will ich Dir einige<lb/>Worte treuer Eriñerung und herzlichster Dankbarkeit<lb/>zurufen<metamark>_</metamark> Was Du ihr u mir im Leben als<lb/>treueste Mutter gewesen, werde ich Dir bis zu meinem<lb/>Ende nicht vergessen<metamark>_</metamark> Deine Rückkehr von <unclear reason="illegible" cert="high" resp="#MN">
+                  <hi rendition="#aq">Cottbus</hi>
+               </unclear>
+               <lb/>zum Begräbnis der theuren Hülle meiner <hi rendition="#aq">Luise</hi>
+               <lb/>war eine That der wärmsten Mutterliebe. Sie<lb/>bleibt meinem Herzen unvergeßlich<metamark>_</metamark> Welch ein<lb/>Tag der Freude war der 22<hi rendition="#sup #uu">ste</hi> sonst für mich!<lb/>Jetzt habe ich nur eine tiefe Wehmuth für all‘ das<lb/>begrabene Glück!<metamark>_</metamark> Weñ ich heut vor 4 Jahren be⸗<lb/>denke, welch‘ ein Tag der Seligkeit war er für mich.<lb/>Wie viel äußere u innere Stürme sind schon<lb/>seitdem über mir dahingegangen<metamark>_</metamark> Daß sie mich<lb/>nicht gestürzt haben ist Gottes Wunder u seine<lb/>
+               <space dim="horizontal"/>Gnade allein<metamark>_</metamark>
+               <lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+            </p>
+            <lb/>
+            <p>Ich sehe u suche seine Hülfe besonders in dem Gebet meiner<lb/>
+               <hi rendition="#aq">Luise</hi> an Gottes⸗Thron u unsere lieben Kinder hier auf<lb/>Erden.<metamark>_</metamark> Meine Gedanken sind heute bei Euch u an dem<lb/>stillen Grabeshügel, den Ihr mit frischen Kränzen geschmückt<lb/>habt.<metamark>_</metamark> 
+               <hi rendition="#aq">Luischen</hi> hat keine Noth u Angst mehr, die uns auf<lb/>dieser armseligen Erde rings umgiebt<metamark>_</metamark> Sie ist eingegangen<lb/>in die Wohnungen des <hi rendition="#u">ewigen Friedens</hi> 
+               <metamark>_</metamark> Sieh in diesen<lb/>Zeilen, meine liebe Mutter, meine Dankbarkeit für <lb/>Deine Mutterliebe, die Du uns Beiden in unserer<lb/>glücklichen Ehe so reichlich erwiesen hast<metamark>_</metamark> Gott wird es<lb/>Dir sicherlich u reichlich lohnen<metamark>_</metamark> Ich verlebe diesen Tag<lb/>hier mitten in Feindesland dennoch still u ruhig und<lb/>keiner meiner Umgebungen ahnt, welch‘ eine tiefe<lb/>Wehmuth mich heut gerade bewegt.<metamark>_</metamark> Doch warum es<lb/>ihnen sagen. Die Welt hat für solch einen Kum̃er<lb/>doch kein Verständniß.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Der Brief vom Vater vom 12<hi rendition="#sup #uu">ten</hi> d Mts. u von <hi rendition="#aq">Angelica</hi> vom<lb/>15<hi rendition="#sup #uu">ten</hi> d. Mts habe ich gestern Abend richtig erhalten u danke<lb/>Beiden herzlich dafür<metamark>_</metamark> Ich freue mich, daß es Euch<lb/>Allen wohl ergeht<metamark>_</metamark> Wie hübsch war es doch, daß<lb/>mein Geschenk für Euch, die Nachricht an meinem<lb/>eisernen Kreuz, gerade zum 8<hi rendition="#sup #uu">ten</hi> d. Mts Abends in<lb/>
+               <hi rendition="#aq">Coburg</hi> ankam<metamark>_</metamark> Welch‘ eine Freude muß es Euch<lb/>gemacht haben, daß Eure 3 Söhne mit diesem<lb/>Kriegs⸗Orden geschmückt sind.<metamark>_</metamark> Laßt uns den Blick zu<lb/>Gott in Dankbarkeit nicht vergessen<metamark>_</metamark> Wie viele<lb/>Familien hat dieser Krieg doch in tiefes Leid versetzt.</p>
+            <lb/>
+            <p>Möge uns Gott auch in Gnaden auch ein glückliches<lb/>Wiedersehen schenken. Es gehört noch manche Durchhülfe<lb/>
+               <space dim="horizontal"/>dazu<metamark>_</metamark>
+               <fw type="folNum" place="bottom">[2]</fw>
+            </p>
+            <lb/>
+            <p>Mit der Rückkehr meiner Kinder nach <hi rendition="#aq">Hannover</hi> konnte ich<lb/>nicht länger warten. Sie sind zu groß schon, um so lange<lb/>ohne jeden Untericht zu sein<metamark>_</metamark> Habt Dank, daß Ihr sie<lb/>so lange bei Euch freundlich aufgenom̃en. Bei ihrem Müßig-<lb/>gange werden sie Euch vielleicht manche Unruhr gemacht<lb/>haben, doch sie sind aber auch gewiß Eure Freude gewesen<metamark>_</metamark>
+               <lb/>Möge mir Gott noch lange Leben u Kraft schenken, sie im<lb/>Leben auch noch zu versorgen<metamark>_</metamark> Wie tief mir diese Bitte<lb/>gegen Gott noch auf dem Herzen liegt, das kann ich nicht<lb/>in Worten aussprechen.<metamark>_</metamark> Neues giebt es sonst hier nichts.<lb/>Ihr köñt Alles besser u schneller aus den Zeitungen ersehen<lb/>als ich es Euch beschreiben kann.<metamark>_</metamark> Gestern Nachmittag haben<lb/>die Franzosen versucht nach <hi rendition="#aq">Marly</hi> von <hi rendition="#aq">Fort Valerien</hi>
+               <lb/>mit 12 Bataillonen u Artillerie einen Ausfall zu machen,<lb/>sind aber zurückgeschlagen worden.<metamark>_</metamark> Der König u der<lb/>Kronprinz sind zugegen gewesen u ganz <hi rendition="#aq">Versailles</hi> ist<lb/>allarmirt gewesen<metamark>_</metamark> Morgen will ich diesen Brief wieder<lb/>zu <hi rendition="#aq">Allwyn</hi> bringen, der ihn durch den <hi rendition="#aq">Courier</hi> nach<lb/>
+               <hi rendition="#aq">Berlin</hi> schickt.<metamark>_</metamark> Er wird also noch vor der Abreise<lb/>meiner Kinder nach <hi rendition="#aq">Coburg</hi> kom̃en , die wohl erst<lb/>am 18<hi rendition="#sup #uu">ten</hi> November nach <hi rendition="#aq">Hannover</hi> reisen<metamark>_</metamark> Du kannst<lb/>ihnen dañ mein Gruß noch sagen<metamark>_</metamark> Soeben erhalte<lb/>ich den Befehl mit meiner Brigade u einer Batterie<lb/>ein Streifzug nach <hi rendition="#aq">Dreux</hi> gegen <hi rendition="#aq">Franc⸗Tireurs</hi> zu<lb/>machen.<metamark>_</metamark> Ich werde wohl 3-4 Tage abwesend sein u<lb/>dañ nach hier hoffentlich wieder zurückkehren, da ich hier<lb/>ein recht gutes Quartir habe, nam̃entlich weñ es<lb/>nachher kälter werden sollte<metamark>_</metamark> Sonst haben wir bis jetzt<lb/>sehr schönes u mildes Wetter.<metamark>_</metamark> Das Klima ist überhaupt<lb/>viel milder als bei uns<metamark>_</metamark> Ich wollte ich könte Euch<lb/>
+               <space dim="horizontal"/>davon etwas schicken<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>da Ihr fast in jedem Briefe über Kälte u unfreundliches<lb/>Wetter klagt<metamark>_</metamark> Sage <hi rendition="#aq">Angelica</hi> sie möchte mir doch einige<lb/>wollene Strümpfe schicken, deñ es werden jetzt Pakete<lb/>an uns befördert<metamark>_</metamark> Sie soll <del rendition="#s">es</del>nur darauf noch schreiben<lb/>„Quizirungs⸗Gegenstände“<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Danke <hi rendition="#aq">Helene</hi>, <hi rendition="#aq">Martha</hi> u mein kleiner <hi rendition="#aq">Wilhelm</hi>
+               <lb/>für ihre niedlichen Briefe<metamark>_</metamark> 
+               <hi rendition="#aq">Marschall </hi>hat sich sehr über<lb/>den Brief von <hi rendition="#aq">Götz</hi> gefreut<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Ich würde gern noch mehr mit Dir plaudern, meine<lb/>liebe Mutter, aber ich habe noch die Befehle zum mor⸗<lb/>genden Abmarsch zu expediren<metamark>_</metamark> Möchte ich nur zu<lb/>diesem Streifzuge gutes Wetter haben<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p>Grüße Vater u <hi rendition="#aq">Angelica</hi> herzlich von mir u küsse<lb/>meine Herzens⸗Kinder</p>
+            <lb/>
+            <p>Gott sei mit Euch wie mit mir.<metamark>_</metamark> In ein<lb/>Paar Tagen denke ich wieder zurück zu sein u mich<lb/>dañ wieder guter Nachrichten von Euch zu erfreuen.</p>
+            <lb/>
+            <p>Gott befohlen!</p>
+            <lb/>
+            <p rendition="#et">Dein<lb/>
+               <space dim="horizontal"/>treuer Sohn </p>
+            <lb/>
+            <p rendition="#et">
+               <hi rendition="#aq">Adalbert</hi>.</p>
+            <lb/>
+            <note place="left">Grüße auch die gute <hi rendition="#aq">Elise</hi>. Ich danke<lb/>
+               <space dim="horizontal"/>für ihren Gruß</note>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

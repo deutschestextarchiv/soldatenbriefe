@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 152: Max Brohm (Mannschaften), 07.02.1871, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Max</surname>
+                  <forename>Brohm</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 152 von Max Brohm, 07.02.1871.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 152: Max Brohm (Mannschaften), 07.02.1871, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Max</surname>
+                        <forename>Brohm</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1871-02-07">1871</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="152">
+            <head>
+               <supplied>SB-Nr. 152: Max Brohm (Mannschaften), <date when="1871-02-07">07.02.1871</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Lemans</hi> den 7<hi rendition="#sup #uu">te</hi> 
+               <hi rendition="#aq">Feb</hi>. 1871.</p>
+            <lb/>
+            <p rendition="#et">Geliebte Eltern!</p>
+            <lb/>
+            <p>Das Paket mit Thee und etwas Zucker<lb/>habe ich gestern richtig erhalten aber<lb/>was mir sehr Leid that keinen Brief<lb/>dabei.</p>
+            <lb/>
+            <p rendition="#et">Wir liegen jetzt seit 2 Tagen hier<lb/>wieder in <hi rendition="#aq">Lemans</hi> um die Zeit<lb/>des Waffenstillstandes hierselbst<lb/>zuzubringen. Ich wollte, wir könnten<lb/>gleich nach Ablauf des Waffen⸗<lb/>stillstandes sofort von <hi rendition="#aq">Lemans</hi> aus<lb/>mit der Bahn nach Deutschland beför⸗<lb/>dert werden.</p>
+            <lb/>
+            <p rendition="#et">Mit der Verpflegung ist diesmal<lb/>sehr traurig, bedeutend schlechter<lb/>wie das erste Mal. Wir haben nichts<lb/>von den Einwohnern zu verlangen<lb/>und sind daher nur aufs Kaufen<lb/>angewiesen, was bei den theuren<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>Preisen sehr ins Geld läuft. Wie ich<lb/>heute gehört habe, sollen wir vom 10<hi rendition="#sup #uu">te</hi>
+               <lb/>
+               <hi rendition="#aq">Feb</hi>. täglich der Mann 2 Frc: bekom̃en<lb/>was uns sehr erwünscht wäre.</p>
+            <lb/>
+            <p rendition="#et">Am 28<hi rendition="#sup #uu">ten</hi> 
+               <hi rendition="#aq">Jan</hi>. erfuhren wir in <hi rendition="#aq">Brulon</hi>
+               <lb/>die freudige Nachricht von der <hi rendition="#aq">Capi</hi>⸗<lb/>
+               <hi rendition="#aq">tulation</hi> von <hi rendition="#aq">Paris</hi> und dem 3 wöchent⸗<lb/>lichen Waffenstillstand. Wir dachten<lb/>während dieser Zeit hier in <hi rendition="#aq">Brulon</hi>
+               <lb/>liegen zu bleiben, aber vergeblich,<lb/>und mußten zu unseren großen<lb/>Ärger nach <hi rendition="#aq">Lemans</hi> marschiren.</p>
+            <lb/>
+            <p rendition="#et">Der Tag der <hi rendition="#aq">Capitulation</hi> von <hi rendition="#aq">Paris</hi>
+               <lb/>wurde von unseren Feldwebel auf<lb/>folgende Weise gefeiert. Derselbe<lb/>lud nämlich die ganzen Unteroffizire<lb/>und Gefreiten seiner <hi rendition="#aq">Comp.</hi> in<lb/>einem Gasthofe ein, um bei einem<lb/>Glase Wein die Bedeutung dieses<lb/>Tages zu feiern. Es wurden ver-<lb/>schieden Toaste auf einen baldigen<lb/>Friedensschluss ausgebracht, wozu der<lb/>unsere Regiments<gap reason="illegible"/> 
+               <unclear reason="illegible" cert="high" resp="#MN">stellte</unclear>
+               <supplied resp="#CT">.</supplied>
+               <lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Prinz Frid. Carl</hi> ist heute von hier nach<lb/>
+               <hi rendition="#aq">Paris</hi> zu seinem Maj. dem Kayser von<lb/>Deutschland gereist. Heute hatte unser<lb/>Bataillon Gottesdienst, es war ein<lb/>wahrer Genuss nach langer <add place="superlinear">
+                  <metamark/>Zeit</add> dieses<lb/>mal eine deutsche Predigt zu hörn<lb/>Das Wetter ist seit 8 Tagen hier wunder-<lb/>schön, wir haben täglich 10% Wärme<lb/>und kann man es sich nicht besser<lb/>wünschen, das einzige ist nur, dass <lb/>die Wege zu schmutzig sind.</p>
+            <lb/>
+            <p rendition="#et">Unser <hi rendition="#aq">Batallions-Commandeur<lb/>Major v. Hülletten </hi>ist auch er-<lb/>krankt, wie man sagt an den <lb/>schwarzen Pocken, ich glaube der<lb/>Gram über den Tod seines Bruders<lb/>hat viel dazu beigetragen.<lb/>Derselbe fiel nämlich am 11<hi rendition="#sup #uu">te</hi> 
+               <hi rendition="#aq">Jan</hi>.<lb/>und wurde an demselben Abende<lb/>zum Hauptmann ernannt.</p>
+            <lb/>
+            <p rendition="#et">Morgen fangen wir an zu exerciren<lb/>und fängt jetzt der stram̃e Dienst<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>wieder an, gerade wie in Garnison.</p>
+            <lb/>
+            <p>Liebe Eltern gesund bin ja Gott sei<lb/>Dank, was ich auch von Euch hoffe.<lb/>Wollte doch der liebe Gott geben,<lb/>dass nun endlich der Friede ein-<lb/>kehren möge.</p>
+            <lb/>
+            <p rendition="#et">Gustav <hi rendition="#aq">Herms</hi> habe ich lange nicht<lb/>gesprochen, da unser Bataillon von<lb/>unserem Regiment nur allein<lb/>hier in <hi rendition="#aq">Lemans</hi> liegt.</p>
+            <lb/>
+            <p rendition="#et">Liebe Eltern ich schließe, Grüßt<lb/>Großmutter, Onkel, Tante und<lb/>Geschwister, und in der Hoffnung<lb/>uns nun bald gesund wieder<lb/>zu sehen verbleibe ich unter<lb/>vielen Grüßen an Euch in<lb/>Liebe Euer Sohn<lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">Max</hi>!</p>
+            <lb/>
+            <p>Bitte gelegentl. <lb/>um einige<lb/>Cigarren und etwas<lb/>Geld.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

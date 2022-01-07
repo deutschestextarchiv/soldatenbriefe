@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 103: Samuel Löwenherz (Mannschaften), 19.07.1866, Westmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Samuel</surname>
+                  <forename>Löwenherz</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 103 von Samuel Löwenherz, 19.07.1866.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 103: Samuel Löwenherz (Mannschaften), 19.07.1866, Westmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Samuel</surname>
+                        <forename>Löwenherz</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1866-07-19">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="103">
+            <head>
+               <supplied>SB-Nr. 103: Samuel Löwenherz (Mannschaften), <date when="1866-07-19">19.07.1866</date>, <choice>
+                     <abbr>WMD</abbr>
+                     <expan>Westmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Wülfersdorf </hi>den 19. <hi rendition="#aq">July </hi>1866</p>
+            <lb/>
+            <p rendition="#et">Liebe <hi rendition="#aq">Tante</hi> &amp; <hi rendition="#aq">Familie</hi>!</p>
+            <lb/>
+            <p>Jedenfalls theure Tante wirst Du meiner<lb/>zürnen, daß ich dir bis heute noch nicht<lb/>einmal geschrieben hätte. Jedoch wirst Du<lb/>
+               <del rendition="#s">meiner</del>entschuldigen, denn jedenfalls wird<lb/>Dir bekannt sein, daß wir sehr oft wegen<lb/>Mangel an Zeit, sowie die angestrengten Märsche<lb/>es uns sehr oft unmöglich machte.</p>
+            <lb/>
+            <p>Heute sind wir nur noch sechs Stunden von der<lb/>großen Keiserstadt entfernt, &amp; werden die<lb/>nächsten Tage entscheiden ob wir in Wien einrücken<lb/>oder nicht. Sachsen, Böhmen, Mähren &amp; ein Theil<lb/>von Oestreich haben wir siegreich durchzogen<lb/>&amp; stehen heute unsre Truppen mit großer Macht<lb/>&amp; wohlgemuth so nahe vor Wien &amp; pflegen<lb/>seit vorgestern ganz gemüthlich der Ruhe<lb/>&amp; zur Erholung der ausgestandenen Strapatzen.</p>
+            <lb/>
+            <p>Ja l. Tante <hi rendition="#aq">circa</hi> 7 Wochen im̃er unter freiem<lb/>Him̃el zu <hi rendition="#aq">campieren </hi>im Tage sehr angestreng⸗<lb/>te Märsche &amp; Nachts bei im̃er regnerischem<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>Wetter auf bloßer Erde meistens zu schlafen<lb/>daß bringt die Leute herunter &amp; ists daher<lb/>nicht zu wundern, wenn viele Leute er⸗<lb/>kranken, aber trotzdem wundern sich die<lb/>Oestreicher über unsre kräftige Leute, indem<lb/>ihre Truppen besonders jetzt in geschlagenem<lb/>Zustande, in sehr schlechter Verfassung wären.</p>
+            <lb/>
+            <p>Bis hierhin haben wir glänzende Siege erfochten<lb/>&amp; hat die eine Schlacht bei Königsgrätz den Feind<lb/>wie die Wiener Zeitung selbst meldet, ihn 80000<lb/>Mann gekostet nebst 150 Geschützen, welche auch<lb/>den Kaiser bewogen hat um Frieden einzukom̃en<lb/>welcher doch jedenfalls in Wien erst gewährt<lb/>werden wird.</p>
+            <lb/>
+            <p>Mit den detailirten Nachrichten halte<lb/>mir vor Euch solche s.G.W. balde per⸗<lb/>sönlich mitzutheilen &amp; wollen wir<lb/>hoffen daß solches nicht mehr sehr lange<lb/>dauern möge. Bis jetzt freue mich<lb/>auf den Einzug in Wien.</p>
+            <lb/>
+            <p>Wie geht’s denn Dir noch l. Tante &amp;<lb/>den lieben kleinen hoffentlich<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>wirst Du mir <del rendition="#s">darüber</del>bald mit den besten⸗<lb/>Nachrichten darüber versehen, &amp; kann Dir<lb/>meinerseits in betreff der Gesundheit<lb/>mit dem besten Befinden aufwarten.</p>
+            <lb/>
+            <p>Leopold ist seit dem 16. dMts. wegen einem<lb/>angeschwollenen Fuße im Lazareth, hat<lb/>jedoch weiter nichts zu bedeuten.</p>
+            <lb/>
+            <p>Also für heute bitte mit diesen wenigen<lb/>Zeilen vorlieb zu nehmen, &amp; werde Dir<lb/>wenn sich die Gelegenheit macht, einmal<lb/>die Erlebnisse meiner ganzen Tour<lb/>mitzutheilen.</p>
+            <lb/>
+            <p>In der Voraussetzung daß Euch mein<lb/>Schreiben eben so wohl trifft wie es<lb/>mich verläßt bitte die herzlichsten Grüße<lb/>&amp; Küsse zu genehmigen Eures</p>
+            <lb/>
+            <p>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">Samuel Löwenherz</hi>
+            </p>
+            <lb/>
+            <p>bitte um einen baldigen Brief </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Adresse:</hi>
+            </p>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Musketier Löwenherz</hi>
+               <lb/>Ordonanz beim Regimentsstab<lb/>des 3. Rh. Inft. Regt. N<hi rendition="#sup #uu">o</hi> 29<lb/>8. Armee Corps<lb/>16. Inft.division<space dim="horizontal"/>
+               <hi rendition="#aq #u">Feldpostbrief</hi>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

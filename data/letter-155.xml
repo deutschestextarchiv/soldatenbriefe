@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 155: Ludwig Stoeger (Offizier), 14.02.1871, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Ludwig</surname>
+                  <forename>Stoeger</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 155 von Ludwig Stoeger, 14.02.1871.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 155: Ludwig Stoeger (Offizier), 14.02.1871, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Ludwig</surname>
+                        <forename>Stoeger</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1871-02-14">1871</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="155">
+            <head>
+               <supplied>SB-Nr. 155: Ludwig Stoeger (Offizier), <date when="1871-02-14">14.02.1871</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Chatillon</hi> d. 14/II 71</p>
+            <lb/>
+            <p rendition="#et">Lieber guter Herrmann!</p>
+            <lb/>
+            <p>Gestern erhielt ich Deinen lieben Brief<lb/>u. war höchst erstaunt dass du seit 7<lb/>Januar keine Nachricht von mir erhieltest<lb/>da ich während dieser Zeit einen Brief<lb/>u. eine Correspondenzkarte an Dich abschickte.<lb/>Es scheint mit der Unterbrechung der Bahn<lb/>bei <hi rendition="#aq">Toul </hi>oder sonst ein Hinderniß müssen<lb/>sie verloren gegangen sein. Sei vollkommen<lb/>beruhigt ich erfreue mich der beßten Gesund⸗<lb/>heit habe noch keine Stunde während des<lb/>Ausmarsches gehabt an welcher ich über Un⸗<lb/>wohlsein klagen mußte. Seit 27 Januar<lb/>bin ich vom Armeearzt aus als Adjutant<lb/>im Bataillon bestätigt u. habe mir vor⸗<lb/>gestern mein zweites Pferd gekauft, mit<lb/>welchem Kaufe ich sehr zufrieden bin.<lb/>Wir leben hier wie in der Garnison<lb/>alle Tage wird fleißig exerziert u. nach<lb/>10 Tagen kommen wir immer als<lb/>Besetzung ins Forts Vanves, das<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>von unserer Seite furchtbar verschossen<lb/>wurde. In diesem Forts befindet sich auch<lb/>ein Observatorium von wo aus über Paris<lb/>prachtvoll besehen kann. Alle Tage reite<lb/>ich in die Demarkationslinie u finde dort<lb/>oft die köstlichste Unterhaltung da immer<lb/>an der Barriere eine Masse hungrige<lb/>Franzosen stehen <unclear reason="illegible" cert="high" resp="#MN">hatte u. einen</unclear> die mit<lb/>einer waren Gier das ihnen geschenkte<lb/>Brod verzehren. Viele kommen <unclear reason="illegible" cert="high" resp="#MN">schon</unclear> nach<lb/>
+               <hi rendition="#aq">Chatillon</hi> u. suchen ihre demolirten Häuser<lb/>auf u. fühlen sich ganz glücklich wenn sie<lb/>auf der Strasse einen <gap reason="illegible"/> Hammelskopf<lb/>finden. Die Aussage Melkes an dem<lb/>Bombardements „Die Pariser <del rendition="#s">müsten</del>werden noch<lb/>auf den Knien bitten“ hat sich bestätigt<lb/>denn sie kommen alle u. wollen unser Brod.</p>
+            <lb/>
+            <p>Lieber Herrmann ich glaube Ende April<lb/>wieder in Bayreuth zu sein u dann kann<lb/>ich zu Euch um Euch meine Erfahrungen<lb/>u. Erlebnisse zu erzählen, denn zum<lb/>Schreiben habe ich wenig Zeit. Demnächst<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>marschieren wir in Paris ein wo ich<lb/>Euch dann einige Kleinigkeiten zur<lb/>Erinnerung an diesen Krieg <del rendition="#s">ge</del>kaufen<lb/>werde Nun lebe wohl grüße mir<lb/>Deine Louise wie Julius u. Theodor<lb/>sogleich u. herzlich geküßt von</p>
+            <lb/>
+            <p rendition="#et">Deinem<lb/>
+               <space dim="horizontal"/>Dich liebenden Ludwig.</p>
+            <lb/>
+            <p>An alle Bekannte<lb/>herzliche Grüße</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 154: Ernst Reich (Offizier), 14.02.1871, Ostmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Ernst</surname>
+                  <forename>Reich</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 154 von Ernst Reich, 14.02.1871.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 154: Ernst Reich (Offizier), 14.02.1871, Ostmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Ernst</surname>
+                        <forename>Reich</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1871-02-14">1871</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="154">
+            <head>
+               <supplied>SB-Nr. 154: Ernst Reich (Offizier), <date when="1871-02-14">14.02.1871</date>, <choice>
+                     <abbr>OMD</abbr>
+                     <expan>Ostmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p rendition="#et">Mein lieber Onkel!</p>
+            <lb/>
+            <p rendition="#et">Herzliche Glückwünsche zu Deinem bevor⸗<lb/>stehenden Geburtstag rufe ich Dir auch dieses<lb/>Jahr wie immer zu. Mit dem Wunsche, daß<lb/>Du in voller Gesundheit und Zufriedenheit <lb/>auch dieses Jahr verleben mögest vereinigt<lb/>sich noch der uns allen gemeinsame<lb/>Wunsch, daß ein ruhmreicher Friede nun<lb/>endlich diesem Kriege ein Ende machen<lb/>möge. Sind die Franzosen wahnsinnig ge⸗<lb/>nug, wie es beinahe den Anschein hat, auch<lb/>jetzt noch auf dem keinen Stein und<lb/>keinen Fußbreit “Land“ zu bestehen, so<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>
+               <space dim="horizontal"/>wird, fürchte ich, der Krieg sehr grausam <lb/>werden. Wenn man wenigstens die<lb/>Gespräche unsrer Mecklenburger be⸗<lb/>lauscht, so geben die sich oft genug das<lb/>Versprechen, Pardon nicht mehr zuzu⸗<lb/>gestehen. Man muß nun diese Leu⸗<lb/>te am 2<hi rendition="#sup #uu">ten</hi> und 7<hi rendition="#sup #uu">ten</hi> December<lb/>im Handgemenge gesehen haben, um<lb/>zu wissen, daß dann mancher Fran⸗<lb/>zose für seinen Schädel fürchten kann.<lb/>Wo unsere Leute hinhauen, da wächst<lb/>kein Gras mehr. Wir wollen jedoch vor⸗<lb/>läufig noch das beste hoffen. Wir thun es<lb/>alle und<metamark>_</metamark> bereiten uns vor. Die Com⸗<lb/>pagnieen, bis auf 80 Mann theilweise<lb/>herabgesunken, werden wieder womög⸗<lb/>lich auf Kriegsstärke gebracht (250 M.),<lb/>Waffen ausgebessert und in Standge⸗<lb/>setzt, Kleidungsstücke erneuert: kurz<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>man befolgt in allen Stücken das <hi rendition="#aq">para bel-<lb/>lum, si vis pacem</hi>. Daß ich dabei als inter⸗<lb/>mistischer Compagnieführer genug zu thun<lb/>habe, wirst Du Dir denken können. In⸗<lb/>dessen bleibt doch noch Zeit genug, die schöne<lb/>Stadt Rouen mit ihren herrlichen Kirchen<lb/>und allen Bauwerken einigermaßen<lb/>kennen zu lernen. Wir sind nämlich<lb/>aus <hi rendition="#aq">Petit </hi>
+               <unclear reason="illegible" cert="high" resp="#MN">
+                  <hi rendition="#aq">Ehrart</hi>
+               </unclear>, von wo ich an dich schrieb<lb/>nach <hi rendition="#aq">Yvetot</hi> vorgerückt (oder sendete ich aus<lb/>dieser Stadt meinen Brief?), dann<lb/>nach Rouen zurückgegangen und wer⸗<lb/>den morgen noch weiter nach Süden in<lb/>
+               <hi rendition="#aq">Louviers</hi> Cantonnements beziehen,<lb/>um wahrscheinlich dort das weitere zu er⸗<lb/>warten. Sollte es noch einmal losgehen,<lb/>so wird die 17<hi rendition="#sup #uu">te</hi> Division vermuthlich die<lb/>Aufgabe haben, zwischen Prinz Friedrich Karl,<lb/>der wol auf Herbourg losgehen wird, und o.d.<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">Höben, amther gegen Fardherte</unclear>, comman⸗<lb/>dirt, die Verbindung aufrecht zu erhalten.</p>
+            <lb/>
+            <p>Vorgestern habe ich Eure Packete erhal⸗<lb/>ten (theilweise aus dem November).<lb/>Für alles spreche ich Dir meinen besten<lb/>Dank aus. Namentlich die ganz gut<lb/>passenden Stiefeln kommen mir<lb/>sehr recht. Auch Wollensachen trage ich<lb/>noch, obgleich es hier bereits Frühling zu<lb/>werden beginnt. Bei Euch soll es<lb/>noch recht kalt sein. Auch sonst habe<lb/>ich von allen Packete erhalten, so daß ich kaum<lb/>weiß, wo ich auf dem morgen stattfinden⸗<lb/>den Marsch damit hinsoll. Liegen bleibt<lb/>jedenfalls nichts.<metamark>_</metamark> Bedürfnisse habe ich<lb/>nicht, danke Dir also vielmal für Deine gütigen<lb/>Anerbietungen, namentlich brauche ich kein Geld,<lb/>an dem man im Kriege als Officier keinen<lb/>Mangel hat.<metamark>_</metamark> Mit vielen Grüßen an Tan⸗<lb/>te und Geißlers bleibe ich</p>
+            <lb/>
+            <p rendition="#et">Dein<lb/>
+               <space dim="horizontal"/>Dir immer dankbarer<lb/>
+               <space dim="horizontal"/>Neffe<lb/>Rouen 14/2 71. E. Reich.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

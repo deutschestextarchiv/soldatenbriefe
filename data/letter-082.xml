@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 82: Wilhelm Graff (Mannschaften), 24.06.1866, Ostmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Wilhelm</surname>
+                  <forename>Graff</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 82 von Wilhelm Graff, 24.06.1866.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 82: Wilhelm Graff (Mannschaften), 24.06.1866, Ostmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Wilhelm</surname>
+                        <forename>Graff</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1866-06-24">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="82">
+            <head>
+               <supplied>SB-Nr. 82: Wilhelm Graff (Mannschaften), <date when="1866-06-24">24.06.1866</date>, <choice>
+                     <abbr>OMD</abbr>
+                     <expan>Ostmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Tornow den 24/6 66</p>
+            <lb/>
+            <p rendition="#et">Liebe Mutter und Geschwister</p>
+            <lb/>
+            <p>Mit Freuden ergrif ich die Feder um<lb/>Euch nachricht zu geben wo wier unserin<lb/>Marsch zu Geschlagen haben den wier liegen<lb/>nähmlich zwißen Stralau und Lukau in der<lb/>Gägend. Aber es ist uns Schon wieder bekant<lb/>Gemacht das wier uns jeden Tag und Stunde<lb/>bereit halten sollen um noch näher an die<lb/>Sächsche Grenze zu rücken. was aus dieser<lb/>Geschichte werden soll das wird uns nicht bekant<lb/>gemacht. den bis auf diese zeit sind die Truppen<lb/>noch im̃er in bewegung nach der Grenze zu rüken<lb/>den das könt ihr Euch denken das da kein Dorf<lb/>verschont bleibt ohne einer Schwachen Einquarti⸗<lb/>rung den ich liege in Tornow auf der <unclear reason="illegible" cert="high" resp="#MN">Dom im um</unclear>
+               <lb/>wo wier nun gegen 60 Mann liegen da könt<lb/>ihr euch denken das wier wie die Häringe Einge⸗<lb/>gäselt liegen. Von die Füngst Feiertage kañ<lb/>
+               <del rendition="#s">kr</del>ich freilich nicht viel Freude erzählen den wir<lb/>hatten Sonnabend in Forste Ruhetag dan aber<lb/>den ersten und zweiten und dritten Feiertag<lb/>feierten wier auf den marsch in der Wensche<lb/>Gegend keine Noth haben wier leider nicht<lb/>gehabt. am Essen und Trinken fählt es nie<supplied resp="#CT">.</supplied>
+               <lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+            </p>
+            <lb/>
+            <p>Ich muß schließen mit meinem Schreiben<lb/>und Bewarten das Ihr mir bald möchtet<lb/>Nachricht geben wie es sonst noch zu geht in<lb/>meiner Heimad und ob welche von den letzt<lb/>Eingezogenen Landwähr Mañern rethur gekom̃en<lb/>sind von den ich in <unclear reason="illegible" cert="high" resp="#MN">Crossen</unclear> abschied genom̃en hab<lb/>Hätte sich je ein Bluthvergißen erhäben<lb/>so <gap reason="illegible"/> ihr es schoñ näher erfahren. wier<lb/>wollen es zwar nicht hoffen. den wier werden<lb/>es dem überlaßen der über unß waltet.</p>
+            <lb/>
+            <p>Ich bin Gott sei dank bis auf diese zeit noch<lb/>Gesund und munter.</p>
+            <lb/>
+            <p>Es Grüßet im dem sich Zeigend Euer<lb/>Liebender Sohn und Bruder W Graff.</p>
+            <lb/>
+            <p>Grüßet alle <add place="superlinear">
+                  <metamark/>meine</add> Freunde und Kameraden.</p>
+            <lb/>
+            <p rendition="#et">An<lb/>
+               <space dim="horizontal"/>den Grenadier Wilhelm Graff<lb/>
+               <space dim="horizontal"/>der 7. Comp 2<hi rendition="#sup #u">te</hi> Brãdb Grd Regt N 12</p>
+            <lb/>
+            <p rendition="#et">Soldatenbrief<space dim="horizontal"/>zu<lb/>
+               <space dim="horizontal"/>Eigengelegenheit<lb/>
+               <space dim="horizontal"/>des Empfängers<space dim="horizontal"/>
+               <hi rendition="#aq">Zinnitz</hi>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[2]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

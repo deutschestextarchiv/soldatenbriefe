@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 159: Hermann Schweinhagen (Mannschaften), 04.04.1871, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Hermann</surname>
+                  <forename>Schweinhagen</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 159 von Hermann Schweinhagen, 04.04.1871.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 159: Hermann Schweinhagen (Mannschaften), 04.04.1871, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Hermann</surname>
+                        <forename>Schweinhagen</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1871-04-04">1871</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="159">
+            <head>
+               <supplied>SB-Nr. 159: Hermann Schweinhagen (Mannschaften), <date when="1871-04-04">04.04.1871</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Ville sous la Ferté </hi>den 4ten April 71</p>
+            <lb/>
+            <p rendition="#et">Lieber Bruder und Schwägerinn</p>
+            <lb/>
+            <p>Vielleicht entsinnst Du Dich noch, Deiner Worte, als während des Waffen⸗<lb/>stillstandes, über die Friedensbedingungen unterhandelt wurden: „Viel<lb/>besser den Krieg fortsetzen als einen faulen Frieden erlangen.“<lb/>Wie wahr hast Du damals gesprochen und wie oft habe ich Dir Recht<lb/>gegeben; wir haben jetzt Frieden und kommen nicht zu Hause;<lb/>wir haben Kriegsentschädigung dictirt und bekommen Nichts. Wie<lb/>freute sich Alles, wie enthusiastisch wurden wir Quartier macher<lb/>begrüßt, als wir das erste Quartier rückwärts machen sollten; wie<lb/>zählte ein Jeder die Meilen, welche wir der Heimath näher gerückt<lb/>waren und wie traurig sollte es enden, wie lange können wir<lb/>hier jetzt liegen und warten, bis es den Herrn Franzosen gefällt<lb/>die ersten zwei Milliarden zu bezahlen. denn unter den jetzigen<lb/>Verhältnissen in Paris und Algier ist es kaum abzusehen, wie und<lb/>wann es für Frankreich möglich ist, <hi rendition="#u">eine</hi> Million viel weniger<lb/>2 Milliarden aufzubringen. Die schönste Zeit wird verstreichen.<lb/>der Sommer rückt heran und wird verstreichen ehe ein Mann von<lb/>uns den heimathlichen Boden betreten wird, oder an den Festen, die<lb/>bereitet werden, Theil nehmen kann. Weh, recht weh hat es mir<lb/>gethan lesen zu müssen, dass Otto Schweinfeger 20 Maurer zum<lb/>Bau der Zuckerfabrik Dettum sucht und es dem lieben Vater nicht<lb/>möglich war, diese Arbeit zu übernehmen. An die Kreidefabrik zu<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>denken, ist mir fast nicht möglich, da mir dadurch nur meine so schon<lb/>langsam vergehenden Stunden zu Ewigkeiten heranwachsen würden.<lb/>Am frohesten bin ich, wenn ich commandirt bin und keine Zeit habe<lb/>viel und gründlich darüber nachzudenken. Unser jetziges Quartier ist<lb/>uns als Cantonnement zugewiesen und liegt 3½ Stunde von <hi rendition="#aq">Bar sur<lb/>Aube</hi> und 8 Stunden von Chaumont, 10 Stunden von Chattillon; ein ziemlich<lb/>großes Dorf, so dass wir nur höchstens 2 Mann zusammenliegen; unsere<lb/>Wirthin ist gut und der Sohn, ein früherer Mobilgardist von Paris<lb/>ganz vernünftig; aber verlangen können wir Nichts und sind auf<lb/>Kochen und Zubereiten selbst angewiesen, worin wir schon eine ziemliche<lb/>Vertigkeit erlangt haben, wir können braten, kochen, Eierkuchen backen;<lb/>Alles, was wir nöthig haben. Lieber Bruder, wenn irgend eine Ordre kommen<lb/>sollte zum Abgeben der Landwehr und Reserve, so benachrichtige mich<lb/>davon; denn hier wird das Abenteuerlichste Zeug geschwatzt; die Landwehr<lb/>soll bis 18t. 4 entlassen werden, die Unterstützungen der Landwehr⸗<lb/>frauen soll auf hören etc etc; es wird aber sowohl an dem Einen<lb/>als Anderen nichts Wahres beruhen. Lieber Bruder, ich habe schon<lb/>lange keine Nachricht von Dir erhalten und bitte Dich, doch ein Paar<lb/>Worte mir zukommen zu lassen mit dem aufrichtigsten Wunsche,<lb/>dass Du und Deine liebe Familie sich beim besten Wohlsein befinden<lb/>möge. Tausend Grüße von</p>
+            <lb/>
+            <p rendition="#et">Deinem<lb/>
+               <space dim="horizontal"/>Bruder.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[2]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

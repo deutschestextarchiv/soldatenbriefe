@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 151: Werner Brückmann (Unteroffizier), 28.01.1871, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Werner</surname>
+                  <forename>Brückmann</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 151 von Werner Brückmann, 28.01.1871.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 151: Werner Brückmann (Unteroffizier), 28.01.1871, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Werner</surname>
+                        <forename>Brückmann</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1871-01-28">1871</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="151">
+            <head>
+               <supplied>SB-Nr. 151: Werner Brückmann (Unteroffizier), <date when="1871-01-28">28.01.1871</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Le Mans 28 Jan 1871.</p>
+            <lb/>
+            <p rendition="#et">Meine lieben Verwandten!</p>
+            <lb/>
+            <p rendition="#et">Im Besitz Eurer letzten Briefe<lb/>hoffe ich mein letztes Lebenszeichen von<lb/>hier in Euren Händen. Der Inhalt Eurer<lb/>Briefe hat mich sehr gefreut, indem ich<lb/>daraus ersehe dass Ihr mit mir zufrie⸗<lb/>den seit; für die zahlreich bewiesenen Glück⸗<lb/>wünsche meinen besten Dank.<lb/>
+               <space dim="horizontal"/>Ihr müsst nun nicht denken, dass<lb/>wir uns während dieser ganzen<lb/>Zeit hier in Mans müssig umher<lb/>getrieben haben, oh nein, Ruhe giebt<lb/>es für das X<hi rendition="#sup">te</hi> Corps nicht. Am 17<hi rendition="#sup">ten</hi>
+               <lb/>rückten wir schon dem Feinde nach<lb/>und verfolgten denselben bis Laval,<lb/>unterwegs hatten wir zahlreiche <lb/>kleinere Gefechte, wobei unter anderm<lb/>auch Adj. Winter verwundet wurde.</p>
+            <lb/>
+            <p rendition="#et">Der Feind<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>Der Feind war indess vollständig<lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">vacante</unclear>, überhaupt so etwas <add place="superlinear">
+                  <metamark/>von</add> davon⸗<lb/>laufen habe ich noch nie gesehen,<lb/>die Chaussee glatt, dass kein Mensch noch<lb/>Pferd stehen konnte und so lagen<lb/>nun auf einer Strecke von 10 Meilen<lb/>links und rechts todte Franzosen<lb/>gestürtzte Pferde, Rindvieh, zerbrochene<lb/>Wagen, Waffen, Kleidungsstücke, Ka⸗<lb/>nister und alles was den Franzosen<lb/>sonst noch beim Laufen lästig sein<lb/>konnte. Wir nahmen den Franzosen<lb/>ausser einigen tausend Gefangenen<lb/>noch viele Proviantwagen ab. So<lb/>gings nun auf allen Strassen<lb/>auf welchen sich der Feind ab⸗<lb/>gezogen hatte. </p>
+            <lb/>
+            <p rendition="#et">Am schrecklichsten war bei unserm<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>Rückmarsche der Anblick der sich<lb/>jetzt noch auf der Strasse aufhaltenden<lb/>Pferde. es waren dieser wohl hundert<lb/>
+               <add place="superlinear">
+                  <metamark/>welche</add> theils vor Hunger sterbend, theils<lb/>vor Hunger uns anzufallen drohten;<lb/>andere, welche noch stehen konnten<lb/>mussten sich hüten zu fallen, denn<lb/>geschah dieses, nimmer erstanden sie<lb/>auf.</p>
+            <lb/>
+            <p rendition="#et">So sind wir nun vorgestern hier<lb/>wieder angekommen, haben einige<lb/>Tage Ruhe und wer weiss dann wohin.<lb/>Übrigens wurde uns gestern durch<lb/>Armee⸗Ordre bekannt gemacht, dass mit<lb/>
+               <hi rendition="#aq">Paris</hi> unterhandelt würde und hat<lb/>vielleicht P. wenn Ihr diese Zeilen<lb/>empfanget bereits capitulirt.<lb/>Trifft dieses zu, dann wird der<lb/>
+               <space dim="horizontal"/>Schwindel<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>
+               <space dim="horizontal"/>Schwindel wohl beendet sein und<lb/>ist doch aber Hoffnung auf ein Wieder⸗<lb/>sehn in diesem Leben vorhanden,<lb/>und dieses Wiedersehn wird auch ge⸗<lb/>wiss ein schönes sein, wenn man<lb/>so häufig daran gezweifelt hat.<lb/>Nun meine Lieben nehmt mit<lb/>diesem heute fürlieb, indem ich<lb/>auch Andern noch eine Lebensan⸗<lb/>zeige zugehen lassen muss. Später<lb/>beabsichtige ich einige <gap reason="illegible"/>
+               <lb/>zu besuchen, die den Parisern gleich<lb/>kommen sollen; es ist aber nur der<lb/>Wissenschaft halber.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p rendition="#et">Ich bin nun unter vielen<lb/>herzlichen Grüssen</p>
+            <lb/>
+            <p rendition="#et">stets<lb/>
+               <space dim="horizontal"/>der Eure<lb/>
+               <space dim="horizontal"/>Werner</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

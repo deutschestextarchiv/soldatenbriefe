@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 110: Albert Böhme (Mannschaften), 23.08.1869, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Albert</surname>
+                  <forename>Böhme</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 110 von Albert Böhme, 23.08.1869.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 110: Albert Böhme (Mannschaften), 23.08.1869, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Albert</surname>
+                        <forename>Böhme</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1869-08-23">1869</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="110">
+            <head>
+               <supplied>SB-Nr. 110: Albert Böhme (Mannschaften), <date when="1869-08-23">23.08.1869</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Oker den 23ten August 1869.</p>
+            <lb/>
+            <p rendition="#et">Liebe Friedericke!</p>
+            <lb/>
+            <p>Mit freuden ergreife ich die Feder<lb/>Dier zu schreiben wie es Mier geht<lb/>Bis jetzt bin ich noch munter und Gesund<lb/>Und wünsches Dier, deineren sowohl<lb/>Vater Mutter Tante u Geschwister auch,<lb/>Liebe Friederike ich sage Dier meinen Innigsten<lb/>Dank für das was Du gethan hast für mich<metamark>_</metamark>
+               <lb/>Und auch für die Begleitung die ihr alle bewiesen <add place="superlinear">
+                  <metamark/>habt</add>
+               <lb/>Bis vor Meverode, vonda nach Antoinettenruh<lb/>ward gefrühstükt, wo Mier die hälfte Wurst<lb/>und Brodt gut geschmeckt hat, dann durch Wolfenbüttel,<lb/>Neindorf, in Kissebrück beim Bahnarbeiter Pabst<lb/>Quartiert <add place="superlinear">
+                  <metamark/>(2 Manns)</add>, 12 Uhr Mittagsessen 3 Uhr Kaffee<lb/>Hier ist die Hedwigsburg ein schöner Park große<lb/>Teiche 1 Laube circa 300 Schritt lang. 5 ½ Uhr<lb/>Appel in Drellanzug 6 ½ UhrAbendessen<lb/>7 ½ Uhr Concert an der Allee des Ritterguts so ward<lb/>der Tag geendet mit einigen Schoppen 10 Uhr Zapfenstreich<lb/>
+               <space dim="horizontal"/>dann ins Bett.<metamark>_</metamark>
+               <lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+            </p>
+            <lb/>
+            <p>den 21/8 Morgens 7 Uhr Abmarsch nach Oker, gingen<lb/>wir durch Dorstadt, Heiningen, Burgdorf<lb/>Schladen, da gefrühstückt. da habe ich den Rest von<lb/>der Wurst auch noch verzehrt, Liebe Tante sie hat gut<lb/>geschmeckt und zugleich auch den letzten Knustbrodt<lb/>von Dier Liebe Mutter. seid nochmals bedankt für das.<lb/>9 ¾ Uhr kamen 4 Comp. Preußische Truppen durch.<lb/>dann weiter nach Längmede, Wiedelade,<lb/>Finnburg, Waldingerode 3 Uhr trafen wier in<lb/>Oker an. Ich kamm da ins Quartier auch 2 Mann<lb/>beim Führmann Friederich Becker Goslarstraße <add place="superlinear">
+                  <metamark/>N 14</add>.<lb/>wir hatten 7 Stunde im ganzen Marschiert den Tag.<lb/>6 Uhr war Appel in Drellanzug und Mantel in<lb/>ober Oker bei der Kirche ½ Stunde von meinem<lb/>Quartier. denn Abend war ich sehr Müde u matt.<lb/>Sonntag Ruhetag Vormittags 11 Uhr Appell<metamark>_</metamark>
+               <lb/>da bekahmen wir Uhrlaub nach Goslar um<lb/>uns das da Anzusehen ich habe Mier <add place="superlinear">
+                  <metamark/>
+                  <unclear reason="illegible" cert="high" resp="#MN">1Reg im Preuß. Einheit</unclear>
+               </add> recht amme⸗<lb/>siert am Abend 7 ½ Uhr alles wieder nach Oker.<lb/>Es kostete uns hin u zurück 3 gr man schonte die Füße<lb/>Montag 7 ½ Uhr Abmarsch zum Briegade Exerzieren<lb/>bis 12 Uhr der Commandour der Briegade ist<lb/>der Generahl Mayor von Behren. Abend 7 Uhr Appel<lb/>mit Schuhzeug antreten das übrige kommt später.</p>
+            <lb/>
+            <p>Wier haben hier ein Platz zum Exerzieren und<lb/>
+               <unclear reason="illegible" cert="high" resp="#MN">Tirallgiren</unclear> mindestens 1 ½ Stunde weit das ist<lb/>Steinfeld Heidefeld u Stoppelfeld. Hier in Oker<lb/>sind 5 Schwefelfabricken und 3 <unclear reason="illegible" cert="high" resp="#MN">Fertigols</unclear> hütten<lb/>zwischen den Bergen dann kan man den<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>Dampf Stunden weit sehen der Berg dicht an<lb/>meinen Quartier ist der Sutenberg mit einem<lb/>alterthümlichen Wachtthurm der Hanenberg<lb/>Mahnberg da sind Studentenklippen Kabergsklippen<lb/>Ziegenklippen hier lebt man schwischen lauter<lb/>Bergen im Thal, dan der Rammelsberg 1 Stunde<lb/>von Goslar <del rendition="#s">ha</del>da haben die Bergleute schon<lb/>so tief und weit gearbeitet unter der Stadt<lb/>das wen in der Stadt was rassel oder klopft sie es<lb/>im Bergwerk hören können sie holen 20 Klaffter<lb/>tief die Gold und Edelsteine herrauss.</p>
+            <lb/>
+            <p rendition="#et">Liebe Friedericke für dies mahl will ich<lb/>hiermit schließen in der Hoffnung das Dich<lb/>
+               <hi rendition="#u">mein Brief bei</hi> guter gesundheit antrifft</p>
+            <lb/>
+            <p>Was man nennt<lb/>Im Okerthale bin ich Verbleibe Ich dein für immer<lb/>noch nicht gewesen treuliebender bis in den Todt<lb/>nächstes mahl bei der<lb/>Harzreise die wir machen<space dim="horizontal"/>
+               <hi rendition="#aq">Albert Böhme</hi>
+               <lb/>
+               <space dim="horizontal"/>Friedericke</p>
+            <lb/>
+            <p>Liebe Friederike sei gegrüßt u<metamark>_</metamark>
+               <lb/>und bleib mir treu bis in den todt.<lb/>und bleib recht Munter bis auf Wiedersehn</p>
+            <lb/>
+            <p>Grüße Vater Mutter Tante u Geschwister<lb/>
+               <space dim="horizontal"/>und Bekannte von Mier</p>
+            <lb/>
+            <p>Im nächsten Brief bekömmst du eine ansicht<lb/>
+               <space dim="horizontal"/>von Goslar.<lb/>
+               <space dim="horizontal"/>Dein <lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">
+                  <space dim="horizontal"/>Albert.</hi>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[3]</fw>
+            <p>Liebe Friedericke wen Du kannst<lb/>schreib mir wie es dier geht.</p>
+            <lb/>
+            <p>Die Adresse ist Friederich Becker<lb/>An den Goslarstraße N 14.<lb/>Führmann.<space dim="horizontal"/>in <hi rendition="#aq">Oker</hi>
+               <lb/>F. <hi rendition="#aq #u">Becker</hi>
+               <space dim="horizontal"/>abzugeben an Soldat <hi rendition="#aq">A Böhme</hi>
+               <lb/>
+               <space dim="horizontal"/>1 Comp <hi rendition="#u">der HB</hi> I R. N92.</p>
+            <lb/>
+            <p>Es ist jetzt schon<lb/>5 ½ Uhr ich muß bald<lb/>
+               <space dim="horizontal"/>zu Appel<lb/>
+               <space dim="horizontal"/>und neuichkeiten<space dim="horizontal"/>¾ Stunde zu laufen<lb/>
+               <space dim="horizontal"/>hören<space dim="horizontal"/>nach dem Posthause <lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#aq">A Böhme</hi>
+               <space dim="horizontal"/>mit marsch marsch.</p>
+            <lb/>
+            <p rendition="#et">Mein Bruder Theodor<lb/>
+               <space dim="horizontal"/>traff ich am Sonntag<lb/>
+               <space dim="horizontal"/>in Goslar. ich habe ihn nicht<lb/>in weiter gesehn.<lb/>
+               <lb/>Oker<lb/>
+               <lb/>
+               <space dim="horizontal"/>ließ den Brief nicht entzwei<lb/>
+               <space dim="horizontal"/>er ist sehr langstiehlig in eile<lb/>
+               <space dim="horizontal"/>geschrieben<metamark>_</metamark>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[4]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

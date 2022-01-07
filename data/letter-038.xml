@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 38: Johann P. W. Schütte (Unteroffizier), 02.07.1815, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Johann</surname>
+                  <forename>P. W. Schütte</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 38 von Johann P. W. Schütte, 02.07.1815.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 38: Johann P. W. Schütte (Unteroffizier), 02.07.1815, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Johann</surname>
+                        <forename>P. W. Schütte</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1815-07-02">1815</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="38">
+            <head>
+               <supplied>SB-Nr. 38: Johann P. W. Schütte (Unteroffizier), <date when="1815-07-02">02.07.1815</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p rendition="#et">Theuerste Aeltern!</p>
+            <lb/>
+            <p>Jetzt ist es doch wohl endlich einmal Zeit auch von mir hören<lb/>zu lassen daß ich noch lebe. Ja, wunderlich hat es mir überhaupt<lb/>bis jetzt gegangen jedoch den Muth nicht sinken zu lassen ist glaube<lb/>ich das beste um nicht zu erligen. Fünf bis 6 Tage in Regen u<lb/>dann wieder in Sonnenschein unter dem Donner der Kanonen zu biwoi<supplied resp="#CT">⸗</supplied>
+               <lb/>quiren, oft nur trocken Brod u Speichel, nicht einmal ein Trunk<lb/>ordentliches Wasser oder ein trockenes Lager zu haben ist das Schicksal<lb/>eines Soldaten der im Felde ist. Wenn man einen Schnaps u ein<lb/>Stück Brod aus verlassenen, die Kanonenkugeln ruinirten Häusern<lb/>erwischte, oder wohl gar ein Huhn, was seine Hütte wieder suchte,<lb/>so war man ein Glücklicher Mensch; Wie oft war nicht mein größter<lb/>Wunsch nur eine Tasse Kaffee u eine Pfeife Taback zu haben? </p>
+            <lb/>
+            <p>Ich begreife es noch nicht wie mein erbärmlicher, schwacher Körper <lb/>dies alles aus gehalten hat. Hungern habe ich aushalten müssen, daß <lb/>mir die Schwarte auf dem Leibe berstete, wenn ich ein Huhn einer <lb/>weinenden Frau abgejagt hatte, u vielleicht nun bald gar in ein <lb/>Topfe hatte, so ging die verdamte Granate piß, piß, <lb/>sütt bei eim in die Erde u man war froh, mit heiler Haut <lb/>davon gekommen zu sein. Jedoch ich will die Leier von vorne <lb/>anfangen: wir lagen wie bewußt zu <hi rendition="#aq">Asche</hi> 2 Stunde auf diesseits <lb/>Brüssels in <hi rendition="#aq">Cantonnements</hi>, wo ich noch einige Briefe von Euch erhielt, <lb/>u den letzten, worin Jette mich bat, nur die Hose nicht voll zu machen<lb/>wenn es losgehen würde. Nun das ist auch wirklich nicht geschehen. </p>
+            <lb/>
+            <p>Nun <add place="superlinear">
+                  <metamark/>in</add> dser Nacht auf d 16ten dses Monaths erhielt die Artillerie <lb/>Ordre um 2 Uhr Morgens im Hauptquartiere zu Lacken zu seyn. <lb/>Jedoch war dies nicht möglich, weil unsere Leute oft 2-3 Stunde vom <lb/>Dorfe entfernt lagen u nicht so geschwind zusammen kommen konnten. <lb/>Um 8 Uhr des Morgends marschieren wir aus <hi rendition="#aq">Asche</hi> ab, nach Lackens <lb/>Der Herzog mit den übrigen <hi rendition="#aq">Corps</hi> war schon weg. Wir marschierten <lb/>daher durch Brüssel nach <hi rendition="#aq">Waterloh</hi> zu, wo wir ohngefähr um 2 Uhr Nach⸗<lb/>mittags ankamen, Nun hörten wir schon das Gebrülle der Kanonen u<lb/>mein Herz lachte mich im Leibe, vielleicht auch ein Par Franzosen <lb/>von der Welt helfen zu können. Wir waren kaum noch eine Stunde weg<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>marschiert als uns schon ein Adjutant vom Herzoge entgegen kam m der Ordre, so<lb/>schnell als möglich zum <hi rendition="#aq">Corps</hi> zu kom. Nun ging es im vollen Trabe bis zum Schlacht⸗<lb/>felde bei <hi rendition="#aq">Quatre bras</hi>. Es kamen uns nun schon Blessirte, der eine ein Tuch <lb/>um d Kopfe u vom Blute unkentlich, der andre m d Arme im Tuche, us.w. ent <lb/>gegen. Vor Bagage, Blessirten, und alle dergleichen sogar Regimentern die <lb/>im Rückzuge waren, konnten wir oft nicht durch komen. Bis eine <hi rendition="#aq">Avantgarde</hi> gebil<lb/>det war, die alles zur Seite jagen mußte. Auch ich hatte eine solche Wuthauf <lb/>dem Leibe, alles das Ungemach was die Franzosen über uns verbreitet hatten, rächen <lb/>zu können daß ich nicht mehr hinten an bleiben konnte, sondern imer mit vor ritt. Ich weiß <lb/>nicht wo ich die Courage her kriegte. Vorzüglich froh war ich, als ich ein Holländischen Husaren<lb/>der retirirte die Pistolen abjagen konnte, nun war kein Hund mehr des Lebens <lb/>sicher; wer nicht aus dem Wege ging wurde übergefahren u so ging die Pastete immer zu. </p>
+            <lb/>
+            <p>Noch ein Paar Stunde ehe wir auf das Schlachtfeld kamen, fand ich Wilhelmen seinen Jungen<lb/>an der <hi rendition="#aq">Chausée </hi>liegen, der ganz ohnmächtig geworden war, sodenn die Infanterie hatte seit <lb/>12 Uhr des Nachts marschiert ohne mal zu ruhen u ohne zu essen oder zu trinken u es<lb/>war noch oben drein den Tag eine canibalische Hitze. Ich suchte ihn wiede zu sich <lb/>selbst zu bringen u setzte mein Wanderstab weiter fort. Bald lag da einer der <lb/>weinte, der andre lief, warf auch wohl Tornister u alles weg, um schneller fort-<lb/>kom zu könen, der dritte hatte ein auf d Puckel u trug ihn weg, dann lag wieder <lb/>einer u war tod, ein andrer nahm dsm alles wieder ab, u so wechselte das Schau⸗ <lb/>spiel immer ab. Nun gegen 4 Uhr Nachmittags kamen wir zu <hi rendition="#aq">Quatre bras</hi> an <lb/>wo wir Position auf einer kleinen Anhöhe nahmen. Nun ging es an ein Cannoniren <lb/>das ich glaubte der Himmel wolte einfallen. Ich mußte nachher <del rendition="#s">f</del> über mich lachen, daß <lb/>ich imer mit d Kopfe zur Seite beugte wenn eine Granate, die man gleich an d <lb/>Pfeifen kenen kann an meinen Ohren <del rendition="#s">heraus</del>vorbeiging. Ich blieb solange <lb/>zwischen d Batterie, bis mir der Major sagte, ich möchte doch in eim von d<lb/>nahe stehenden Häusern meine Werkstätte aufschlagen wo er die Blessirten hin <lb/>bringen lassen würde. Da traf ich dann <hi rendition="#aq">Vorlop</hi>, <hi rendition="#aq">Krüger</hi>, <hi rendition="#aq">Schmidt</hi> u <hi rendition="#aq">Meineken</hi> schon<lb/>in voller Arbeit, indem sie schon um 2 Uhr Nachmittags angekommen waren. <lb/>Nun ging es an ein Matscheln, so daß man zuletzt wie ein Schinderknecht aussah. Gegen <lb/>Abend gehe ich wieder zur Batterie, welche sich über die <hi rendition="#aq">Chaussée</hi> nach <hi rendition="#aq">Maubeuge </hi>
+               <lb/>links getzogen hatte. Unterwegs traf ich dan da einen todt in sein Blute <lb/>ligen, da ein Pferd, da wieder ein Arm, oder Bein oder Kopf usw. Noch passierte <lb/>mir ein verdamter Streich, ich reite in ein Landwege, Trab, ganz sorglos, auf <lb/>eimal kömt eine Granate, schlägt neben mir in <del rendition="#s">eine alte</del> die Büsche u Zäune <lb/>daß mir die Zweige, Staken u der Dreck um die Ohren flog. Jetzt fing ich <lb/>mein Pferd an zu boritgen, das es die Freude kriegte, jagte über Zäune <lb/>Graben, Todte, Pferde u alles was mir in d Weg kam weg, bis ich die <lb/>Batterie wieder hatte. Sie hielt in ein Rockenfelde, u hatte <add place="superlinear">
+                  <metamark/>nur</add> einige Todte, <lb/>die gleich auf der Stelle geblieben waren, u an die 7-12 Pferde verlohren.<lb/>Der Kannonen donner dauerte bis das man nicht mehr sehen konnte, u gewehrte <lb/>mir ein schönes Schauspiel an dem Abend. Die Nacht wurde in einem herlichen Rocken<supplied resp="#CT">⸗</supplied>
+               <lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>felde biwoiquirt. Mit Anbruch des Morgends gieng die Büchse von Neuem <lb/>los, bis gegen Mittag rund wo eben nichts erhebliches vorfiel. Um dse Zeit kam <lb/>mein Bursche wieder zu mir, der bei d Bagage zurückgeblieben war. Er hatte sich <lb/>ein Pferd Beute gemacht. Ich hatte eine ungemeine Freude, als ich ihn wieder <lb/>sah. Um 10 Uhr ohngefähr zogen wir uns zurück beinahe 6 Stunde. Den <lb/>Nachmittag war es sehr schlechtes Wetter indem es fast die ganze Nacht <lb/>hindurch regnete. </p>
+            <lb/>
+            <p>Ich habe vergessen Euch noch das wichtigste zu schreiben: nämlich um 4 <lb/>Uhr des Nachmittags am 16t wurde unser Herzog von einer Kugel die ihm <lb/>durch die eine Hand und durch den Leib ging getödtet. Er soll sich vor Wuth <lb/>nicht haben bergen können. Er war immer mit voran. Nun weiter: <lb/>den 17 ließen uns nun die Franzosen in Ruhe bis gegen Mittag am 18 wo <lb/>dañ ein fürchterliches Blutbad von neuem begann, welches bis gegen Abend <lb/>dauerte. Fürchterlich wurde von beiden Seiten gefochten, und die Franzosen <lb/>standen wie die Löwen. In Bäumen, in Hecken, Büsche u Gräben lagen ihre ver⸗<lb/>damten Tirailleurs, welche großen Schaden anstifteten. Als wir ohngefähr <lb/>2 Stunden im Feuer gewesen waren, wurde <hi rendition="#u">der brave Lieutenant </hi>
+               <hi rendition="#aq #u">Dieterichs</hi> 
+               <lb/>d eine Granate, die hinter ihm in die Erde schlug, platze u ihm von <lb/>hinten d den Rücken fuhr, getödtet. Noch imer schwebt mir der brave Bursche <lb/>vor den Augen. Officiere haben wir nicht weiter verlohren, aber wohl viele <lb/>Leute und Pferde. Unser <hi rendition="#aq">Corps</hi> ist überhaupt schrecklich mitgenom̃en, kaum ist <lb/>noch die Hälfte davon da. Es hat sich sehr brav gehalten, überhaupt hatten <lb/>die Leute alle eine höllische Wuth auf dem Leibe. Wo sie einen Franzosen <lb/>abknappen konnten, da thaten sie es. Davon ist folgendes Beispiel welches <lb/>ich <del rendition="#s">S</del> mit beiwohnte Zeuge. Den Nachmittag um 4 Uhr wurden einige <lb/>100 Gefangene Franzosen eingebracht, einer davon sucht bei einer schicklichen Gelegen<supplied resp="#CT">⸗</supplied>
+               <lb/>heit zu entwischen. Ein Husar jägt hinter ihm durch, schießt ihn mit <del rendition="#s">einer</del>der Pistole<lb/>durch den Kopf, die andern laufen hinzu u jeder pinkt auf ihn los, sogar solche <lb/>noch die schon blessirt waren nahm ein Knüppel oder was sie kriegen konnten u hauen <lb/>so lage, bis kein Stück mehr an dem andern hängt. Von einigen Battaillons sind <lb/>kaum noch ein Paar <hi rendition="#aq">Compagnien</hi> übrig. Die Uhlanen sind fast in die Wurst. Indem sie siben mal auf ein <hi rendition="#aq">Quarré</hi> hurra machten. Eben so geht es mit den Husaren. <lb/>Ich hätte es nie geglaubt daß die Braunschweiger sich so tapfer gehalten hätten, be⸗<lb/>sonders da es erst ein neu organisirtes <hi rendition="#aq">Corps</hi> war. Der 18te kostete vorzüglich <lb/>viel Menschen sowohl der ein als der andern Parthei. Ja es wahr<lb/>beinahe als wenn der Himel über ein einfallen wollte. Mehrere Dörfer <lb/>in der Nähe wurden in den Klump geschossen. Das Schlachtfeld war ungeheuer mit <lb/>Leichen bedeckt, man konnte kaum vor Todte durchkommen, <del rendition="#s">Vorz</del>besonders <lb/>lagen sie haufenweise wo ein <hi rendition="#aq">Quarré</hi> gestanden hatte. Gegen Abend zogen sich <lb/>die Franzosen in völliger Niederlage zurücke. Es wurden sehr viele Gefangene <lb/>gemacht unter denen mehrere Generäle und der Teufel weiß alle was war. <lb/>Viele Generäle sollen auch getödtet sein. In <hi rendition="#aq">Maubeuge</hi> setzten sie sich <lb/>erst wieder. Es fehlte wahrhaftig nicht viel das es uns nicht so ging wie ihnen,<lb/>wenn nicht die Preußen mit zu Hülfe kamen. </p>
+            <lb/>
+            <p>Es <del rendition="#s">fehlte</del>kann sich doch niemand einen Begriff von einer Schlacht <add place="superlinear">
+                  <metamark/>u ein Schlachtfelde</add> machen <lb/>wer nicht selbst mit gewesen ist. Es ist ein gräßlicher Anblick, die schönen, blü⸗<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+henden Felder verwüstet, mit Leichen haufenweise bedeckt zu sehen. Die Dörfer <lb/>
+               <add place="superlinear">
+                  <metamark/>waren</add> leer, öde, halb in Asche verwandelt u von Einwohnern entblößt. Diese irrten trostlos <lb/>in Hölzern u Wäldern umher, doch danke ich nur Gott daß die Sache eine so schöne Wen⸗<lb/>dung genommen hat. </p>
+            <lb/>
+            <p>Unsere Artillerie mußte den folgenden Tag bis Brüssel zurück gehen um daselbst ihre Sachen <lb/>ausbessern zu lassen, denn sie war schrecklich mitgenomen. An der einen Kanone war <lb/>dies an der andern jenes entzwei. Weil ich nun aber nichts bei der Batterie <lb/>zu thun hatte, so ritt ich täglich nach Laak um da mit die Blessirten zu besorgen, <lb/>indem daselbst unser Feldhospital etablirt war. Das traf ich auch schon <hi rendition="#aq">Mei<supplied resp="#CT">⸗</supplied>
+                  <lb/>neken</hi>, der alle seine Bagage verlohren hat, ich gab ich noch eins von meinen <lb/>Hemden. Ferner den Uhlan Brinkmann, der ein Schuß durchs Knie erhalten <lb/>hatte u. ihm daher das Bein abgenomen werden mußte, und den der bei Oehlgs diente, <lb/>der aber nur eine leichte Blessur hat, u so noch mehrere. Als ich ohngefähr 4 Tage mit <lb/>geholfen hatte, bekam ich Ordre, nach <hi rendition="#aq">Antwerpen</hi> zurückzugehen, wo sich noch <lb/>eins von unsern Hospitälern befand, indem in <hi rendition="#aq">Laaken</hi> nicht alle Blessirten bleiben <lb/>konnten. Ich traf dasselbe in <hi rendition="#aq #u">Merxem</hi> ¼ Stunde von <hi rendition="#aq">Antwerpen</hi>. Hier habe <lb/>ich dann 1 Hospital unter meiner <hi rendition="#aq">Inspection</hi> erhalten, indem die Blessirten in <lb/>3 <hi rendition="#aq">Castelen</hi> liegen. In dem meinigen befinden sich Wilhelm <hi rendition="#u">Reitel</hi>, der aber jetzt <lb/>schon wieder zur Armeé abgegangen ist u nur eine Quetschung erhalten hatte, dann des <lb/>
+               <hi rendition="#aq">Leinewebers Schumanns</hi> 
+               <add place="superlinear">
+                  <metamark/>Sohn</add> an Martinis Graben wohnhaft auch nur leicht blessirt, ferner <lb/>Hühne, Sohn von d Schumacher, der im Neuen Dorfe wohnte, welcher gestern am<lb/>Brande gestorben ist, dann aus dem Neuendorfe noch einige deren Namen ich nicht gleich <lb/>weiß, aber alle nur leicht blessirt; dann aus <hi rendition="#aq">Hillebrechtshausen</hi>, schwer blessirt, aus <lb/>
+               <hi rendition="#aq">Opperhausen</hi> u mehreren Dörfern an der Leine, aus <hi rendition="#aq">Bentgerode</hi>. Ich habe <lb/>noch 3 <hi rendition="#aq">Chirurgen</hi> unter mich, u wir 4 haben 150 Blessirte zu besorgen <lb/>der Director mit 5 Gehülfen hat ohngefähr in d seinigen 180, u <hi rendition="#aq">Schnelle</hi> 
+               <add place="superlinear">
+                  <metamark/>mit 1 Gehülfen</add> ohngefähr <lb/>120 letztere sind aber nur leicht blessirte, indem wir, wenn <del rendition="#s">sie</del>
+               <add place="superlinear">
+                  <metamark/>die Blessirten</add> bald geheilt <lb/>sind, sie in Schnelle sein Hospital <del rendition="#s">schr</del>zur völligen Vernarbung schicken. Ich <lb/>habe schon mehre Beine u Arme abgenom u fast täglich fällt etwas vor. <lb/>Schrecklich viel zu thun hat man, das kann ich Euch versichern u wäre dies nicht d<lb/>Fall, so würde ich auch schon einmal früher geschrieben haben. 1 habe ich trepa<supplied resp="#CT">⸗</supplied>
+               <lb/>nirt welcher aber nach 4 Tagen starb. 4 Knochenstücke nahm ich ihm aus d Hirne<lb/>u als ich ihn secirte fand ich noch eins ganz tief im Gehirne stecken, woran er auch <lb/>gestorben war. <metamark>_</metamark> Die Einwohner von <hi rendition="#aq">Antwerpen</hi> nehmen sich unserer <lb/>Blessirten sehr an, sie schicken täglich Wein, Hemden, Charpie, Früchte, Lebens-<lb/>mittel, überhaupt alles was sich nur einer denken kann. Als hier das Hospital <lb/>ankam, mußten die armen Teufels bloß auf Stroh, ohne Decke u alles liegen. <lb/>Jetzt aber hat jeder Blessirte durch die Güte der <hi rendition="#aq">Antwerpner</hi> eine Matratze <lb/>von Stroh, 2 Bettlaken, u 2 Decken, eine <del rendition="#s">woll</del>weiße wollene u eine rothe, <lb/>überhaupt jetzt ist es eine Freude dies so anzusehen. Vorzüglich 1 Famielie, die <lb/>
+               <hi rendition="#aq">Van Hauersche</hi>, nimt sich unserer besonders an, sie schickt uns beständig Wein, <lb/>Gemüse, Butter, Zitronen, Wäsche, <hi rendition="#aq">Charpie</hi>, Medicamente u dgl. mehr. <lb/>Man giebt ihr nur 1 Register was man verlangt, u den andern Tag hat man es. </p>
+            <lb/>
+            <p>Ja was wollten wir anfangen wenn wir nicht so unterstützt würden.<lb/>
+               <fw type="folNum" place="bottom">[4]</fw>
+               <lb/>Gestern war ich nach Antwerpen geritten um mir etwas Nöthiges einzukaufen.<lb/>Daselbst ging auch nach d Hafen um die Schiffer zu besehen, u gerade wurden <lb/>französische Gefangene nach England eingeschift. Sie wurden höllisch zusammen⸗<lb/>gepackt u sahen mörderlich aus. Es waren zwischendurch Kerle mit greißen Haaren drun-<lb/>ter, von seinen alten Garden u soweiter. Mancher hat doch noch die Courage zu <lb/>rufen <hi rendition="#aq">Vive Napoleon</hi>. Aber dem lehren sie dann auch ungeheuer <hi rendition="#aq">Mores</hi>. <metamark>_</metamark> 
+               <lb/>Man sagt <hi rendition="#aq">Napoleon</hi> habe die <hi rendition="#aq">Armée</hi> verlassen u seie nach <hi rendition="#aq">Paris</hi> gegangen, wo <lb/>er aber seiner Regierung entsetzt sein soll u so mehreres. Wo jetzt unsere <lb/>Armee steht weiß ich nicht, aber sie soll sehr vorgedrungen sein. </p>
+            <lb/>
+            <p>Nun werde ich schließen, weil ich sehe daß der Brief lang genug ist, u ich nun <lb/>auch erst einen solchen erwarten werde. Solltet ihr schreiben so addressirt den Brief <lb/>auf d Feldpost an <hi rendition="#aq">Pockels</hi> welcher wissen wird wo ich bin, wenn ich ja nicht mehr<lb/>hier sein sollte. Ich hoffe daß Iehr doch alle gesund seid, u sollte ich <lb/>nach <hi rendition="#aq">Paris</hi> kommen, so bekömt Jette den versprochenen Schaal. Grüßt alle <lb/>Bekannte, lebt recht wohl und vergeßt nicht</p>
+            <lb/>
+            <p rendition="#et">Merxem d 2<hi rendition="#sup #uu">te</hi> July 1815</p>
+            <lb/>
+            <p>A Propos: Napoleons Bagage haben die Preußen Ew.<lb/>gekriegt, sei Wagen habe ich gesehen als er Gehorsamer Sohn W. Schütte.<lb/>nach Berlin gebracht werden sollte. </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[5]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

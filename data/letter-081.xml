@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 81: Julius Schulze (Mannschaften), 20.06.1866, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Julius</surname>
+                  <forename>Schulze</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 81 von Julius Schulze, 20.06.1866.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 81: Julius Schulze (Mannschaften), 20.06.1866, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Julius</surname>
+                        <forename>Schulze</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1866-06-20">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="81">
+            <head>
+               <supplied>SB-Nr. 81: Julius Schulze (Mannschaften), <date when="1866-06-20">20.06.1866</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Wülfel</hi> bei <hi rendition="#aq">Hannover</hi> d. 20. Juni 66</p>
+            <lb/>
+            <p rendition="#et">Lieber Vater!</p>
+            <lb/>
+            <p>Endlich finde ich Gelegenheit und Zeit mal wieder zu schreiben;<lb/>vom <hi rendition="#aq">Brinjahr</hi> aus, wirst Du wohl meinen mit Blei⸗<lb/>stift geschriebenen Brief, erhalten haben. Von da ab, gings<lb/>bis jetzt jeden Tag Kopf über Kopf unter, es wurde nicht <add place="superlinear">
+                  <metamark/>allein</add>
+               <lb/>am Tage marschirt, sondern es wurden auch Nachtmärsche<lb/>vorgenommen und 2 mal haben wir schon bivouaquiren müssen.<lb/>Hierüber will ich Dir Näheres mittheilen. Den 8<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">ten</reg>
+               </choice>
+               <lb/>Marsch nach <hi rendition="#aq">Hohenaspe</hi> (b Umekorn) d. 9<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">ten</reg>
+               </choice> nach <hi rendition="#aq">Lauentrog</hi>
+               <lb/>10<hi rendition="#sup #uu">t</hi> Reise. Am 11<hi rendition="#sup #uu">ten</hi> früh gings mit Vorsichtsmaßregeln<lb/>wo ich dann wieder Führer der Spitze war, gegen <hi rendition="#aq">Pinneberg</hi>
+               <lb/>vor, vor <hi rendition="#aq">Pinneberg</hi> erfuhr ich dann, daß sich hinter der<lb/>Stadt die Östreicher aufhielten und mehrere Feldwachen<lb/>sich dort befinden, dieses ließ ich an dem General <hi rendition="#aq">v Fliess</hi>
+               <lb/>melden und erhielt den Befehl zu halten. Es wurden dann<lb/>Seitenpatroullien uns gesandt und ich marschirte durch die<lb/>Stadt mit meinen Leuten. Als wir dicht an dem entge⸗<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+gengesetzten Thore der Stadt kamen, kam auch zufällig eine östreich⸗<lb/>sche Patroulle von 4 Mann, ich marschirte stracks drauf los<lb/>und sie kam auch auf uns los, als wir dicht genug <add place="superlinear">
+                  <metamark/>heran</add> waren,<lb/>kam unsere rechte Seitenpatroulle, die <add place="superlinear">
+                  <metamark/>Östreicher</add> warfen dann sogleich<lb/>die Pferde um und sprangten im Carriére los, wir hinter her<lb/>das Steinpflaster zitterte förmlich unter uns, die Bewohner<lb/>rissen die Fenster auf und Alles zeigte ängstliche Trauer.<lb/>Ungefähr ¼ Stunde hinter der Stadt erhielt der Östreicher<lb/>Verstärkung und er stellte sich auf der Chaussee auf, wir eilten<lb/>auf 200 Schritt ungefähr heran und kerten dann um<lb/>zurück zu unserm Truppentheil, welches inzwischen das Biwuak<lb/>bezogen hatte und dicht vor <hi rendition="#aq">Pinneberg</hi> lag. Dieses war Nach⸗<lb/>mittags 2 Uhr. Um 5 Uhr Abends erhielt der Leutenant<lb/>den Befehl das Terrain hinter <hi rendition="#aq">Pinneberg</hi> zu reorganisiren<lb/>gleich darauf hiess es der 3 u 4 Zug aufsitzen und fort gings<lb/>durch <hi rendition="#aq">Pinneberg</hi> nach dem Dorf Röhle (¼ Stunde v. Pinneberg)<lb/>wo die feindlichen Feldwachen sich befinden sollen. Da ich<lb/>den Weg schon mit gemacht habe, so war ich wieder vorn<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>und richtig, wir waren keine ¼ Stunde marschirt, da stießen<lb/>wir auf Östreicher (Dragoner). Ich ritt heran an den Einen<lb/>und befahl sich zurückzuziehen, der meinte dann, seine Kama⸗<lb/>raden sind noch nicht fertig, sie kämen aber gleich, inzwischen<lb/>kam auch der Lieutenant und fragte, ob sie geladen hätten,<lb/>und <del rendition="#s">ob</del>
+               <add place="superlinear">
+                  <metamark/>was</add> sie für einen Auftrag hätten, da sagten sie, sie dürften<lb/>bei strengster Strafe nicht laden, noch weniger schiessen und<lb/>sollten sich, wenn unsere Zahl stärker wäre, wie die ihrige sofort <lb/>zurückziehen. Dieses thaten sie dann nachher auch und wir ver⸗<lb/>folgten sie dann 1 Stunde <add place="superlinear">
+                  <metamark/>nachher</add>, als wir schon zurückmachten,<lb/>kamen noch 2 Dragoner welche dicht an uns vorbei attakirten<lb/>und hinter den Flüchtlingen hinter her machten.</p>
+            <lb/>
+            <p>Unser Befehl war derselbe, wie der von den Ostreichern,<lb/>sobald wir schiessen, ist der Krieg da und <add place="superlinear">
+                  <metamark/>es</add> geht nicht allein<lb/>hier oben sondern auch unten los.</p>
+            <lb/>
+            <p>Am 12<hi rendition="#sup">te</hi> früh kam der General v. <hi rendition="#aq">Fliess</hi> auf unseren<lb/>Biwouaksplatz und freute sich recht wieder er sagte, Dragoner<lb/>weil ihr Euch gestern so dreist gestellt habt, kommt Ihr<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>heute mit mir nach <hi rendition="#aq">Altona</hi> in die Quartire, da sollt Ihr gut<lb/>verpflegt werden, uns gings gestern, weiss Gott besser als ich<lb/>gedacht habe. Gleich drauf rückten wir ab und kamen dann <lb/>zu Mittag in die Quartire zu <hi rendition="#aq">Altona</hi>, wo wir gut verpflegt<lb/>wurden. Den Abend ging ich mit unseren Unteroffz.<lb/>nach <hi rendition="#aq">Hamburg</hi> zum Alsterbassin und kehrten um 10 Uhr<lb/>zurück.<space dim="horizontal"/>
+            </p>
+            <lb/>
+            <p>Den 13<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">ten</reg>
+               </choice> gings nach <hi rendition="#aq">Ohe</hi> (Gut)</p>
+            <lb/>
+            <p rendition="#et">„<space dim="horizontal"/>15.<space dim="horizontal"/>„<space dim="horizontal"/>„<space dim="horizontal"/>
+               <hi rendition="#aq">Rahlstädt</hi>, wo wir Abends, 11 Uhr durch<lb/>und durch naß anlangten. Den 16<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">ten</reg>
+               </choice> früh 3 Uhr wieder<lb/>fort nach <hi rendition="#aq">Hamburg</hi>, wo wir dann um 6 Uhr anlangten</p>
+            <lb/>
+            <p>dann gings zur Überfahrt die <hi rendition="#aq">Grasbroge</hi> und wurden zu<lb/>Mittag übergesetzt, von da aus jangs nach <hi rendition="#aq">Harburg</hi>,<lb/>da lagen wir wieder 2 Stunden ohne die declaration zu<lb/>haben, endlich kam ein Adjutant und brachte diese. Abends<lb/>7 Uhr trafen wir dann in die Quartire Klein u. Groß<lb/>
+               <hi rendition="#aq">Moor</hi> ein.<space dim="horizontal"/>Den 17<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">ten</reg>
+               </choice> Nachmittags 3 Uhr gings<lb/>wieder fort und bezogen Nachts 1 Uhr biwoaque<lb/>Leutenants <hi rendition="#aq">Steckdorp</hi> bei Winsen (Nass durch und durch)<fw type="folNum" place="bottom">[4]</fw>
+            </p>
+            <lb/>
+            <p>Den 18<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">ten</reg>
+               </choice> früh Marsch nach <hi rendition="#aq">Lüneburg</hi>, woselbst die 1 Esc.<lb/>in der Kaserne, und wir auf der Domaine ein⸗<lb/>quartirt wurden. In der Kaserne hatten die Hannove⸗<lb/>raner 16 Pferde stehen lassen, die die 1<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">te</reg>
+               </choice> Esc. in Be⸗<lb/>schlag nahm, außerdem lag da eine Garnitur neuer<lb/>Paradesachen, denn hatten die Husaren ihre Sachen in der<lb/>Eile <add place="superlinear">
+                  <metamark/>nicht</add> zu Hause schicken können, und deßhalb wurden<lb/>die Schränke erbrochen und Alles Brauchbare mitge⸗<lb/>nommen, wer z.B. schlechte Stiefel hatte, der konnte<lb/>sie durch neue ersetzen, so auch die Hemden u. s. w. <lb/>Am 19<choice>
+                  <orig>“</orig>
+                  <reg resp="#CT">ten</reg>
+               </choice> per Eisenbahn nach der Hauptstadt <hi rendition="#aq">Hannover</hi>,<lb/>in die Quartire zu <hi rendition="#aq">Wilfel</hi> 1 Meile von Hannover.</p>
+            <lb/>
+            <p>Ich liege hier mit 7 Mann bei einem großen Bauern<lb/>und haben es sehr gut hier.</p>
+            <lb/>
+            <p>Auch sind die Leute im ganzen Lande sehr freundlich<lb/>und zuvorkommend und die meisten sind<lb/>
+               <space dim="horizontal"/>preußisch gesonnen.<lb/>
+               <fw type="folNum" place="bottom">[5]</fw>
+            </p>
+            <lb/>
+            <p>Wie gehts denn zu Hause, Alles gesund, ich hoffe<lb/>es doch, wenn du schreibst, so schreibe mir<lb/>nach <hi rendition="#aq">Hannover</hi>, der Brief kommt <unclear reason="illegible" cert="high" resp="#MN">da an</unclear>.</p>
+            <lb/>
+            <p>Grüss Alles auch sei Du gegrüßt von<lb/>
+               <space dim="horizontal"/>Deinem<lb/>
+               <space dim="horizontal"/>Julius.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[6]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

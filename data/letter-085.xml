@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 85: Edmund Lehmann (Mannschaften), 15.07.1866, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Edmund</surname>
+                  <forename>Lehmann</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 85 von Edmund Lehmann, 15.07.1866.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 85: Edmund Lehmann (Mannschaften), 15.07.1866, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Edmund</surname>
+                        <forename>Lehmann</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1866-07-15">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="85">
+            <head>
+               <supplied>SB-Nr. 85: Edmund Lehmann (Mannschaften), <date when="1866-07-15">15.07.1866</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Eisenach den 1 Juli 15/66</p>
+            <lb/>
+            <p rendition="#et">Liebe Mutter</p>
+            <lb/>
+            <p>Ich muß dir benachtrigen das ich noch gesund<lb/>und munter bin kein wunder were es grade nicht<lb/>was wir jetzt müßen aushalten alle Tage 10 Stunden<lb/>marschiren und den kein ordentliches Quwartier 40 Mann<lb/>und noch mer bei einem Bauer auch manchmal gar kein<lb/>Quwatir in ein Be<add place="superlinear">
+                  <metamark/>e</add>tt habe ich 14 Tage nicht geschlafen<lb/>von Wetzlach sind wir ausgerückt und sind nach Hessen<lb/>marschirt Hessen ist doch unser Feind wir ladeten unsere<lb/>Gehwehre <add place="superlinear">
+                  <metamark/>eine</add> 1 vürtel Stunde vor der Grenze wir dachten<lb/>Nemlich die Hessen wären schon da aber wir zogen<lb/>über der Grenze durch ganz Hessen es ließ sich keiner<lb/>sehen nur in einer Stadt nahmen unsere Awanggarde 70<lb/>Mann gefangen <del rendition="#s">d</del>sie leisteten gar keinen wieder Stand<lb/>der General hatt sie lassen die Waffen abnehmen und hatt<lb/>sie alle zu Hause geschickt also so haben wir Hessen gekricht<lb/>Nach her hieß es die Hannowäraner rücken vor es war<lb/>des Abendes um 10 Uhr da schlug es Generalmarsch und wir<lb/>mußten ausrücken wir marschirten die ganze Nacht<lb/>durch Morges standen <add place="superlinear">
+                  <metamark/>wir</add> am Ziele die Gehwere wurden<lb/>geladen so standen wir ungefähr 4 Stunden es war nicht weit<lb/>von Eisenach da hieß es entladen und kehrt machen wir<lb/>Marschirten ungefähr 5 Stunden dar kahmen zwei Bauern<lb/>angeritten und brachten die Meldung die Hannowäraner<lb/>
+               <space dim="horizontal"/>sind da und plünder und<lb/>
+               <space dim="horizontal"/>brennen<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>wir konnten aber nicht wieder umkehren den wir waren<lb/>alle zu ermüdet so lagen wir ein Tag da um auszuruhen<lb/>Den andern Tag ging es aber wieder zurück es waren<lb/>unsere an Waffe 20 Tausend Mann die Hannowäraner<lb/>waren nicht so stark wir hatten nur den Vortheil ein Hehr<lb/>rückte von vornheran das andere von hinten so waren sie<lb/>eingeschlossen und bekahmen von beiden Seiten Feuer sie<lb/>blieben aber nicht lange aus da streckten sie die Waffen<lb/>das 11 Regiment hatt am meißten ertragen wir waren das<lb/>3 Regiment von Eisenach aus und kammen gar nicht<lb/>ran da ergaben sie sich schon wo es jetzt wird hingehen<lb/>weis ich nicht wir liegen in die Dörfer bei Eisenach wahrscheinlich<lb/>nach Baiern Liebe Mutter ich habe dir doch wegen<lb/>paar Groschen Geld geschrieben aber ich habe jetzt noch keins<lb/>bekommen schreib mir ob das Paket angekommen ist<supplied resp="#CT">.</supplied>
+            </p>
+            <lb/>
+            <p rendition="#et">Grüße alle von mir</p>
+            <lb/>
+            <p rendition="#et">Es grüßt dich dein treuer Sohn<lb/>
+               <space dim="horizontal"/>Edmund<space dim="horizontal"/>schreib recht bald<lb/>
+               <space dim="horizontal"/>wieder</p>
+            <lb/>
+            <p rendition="#et">An den Geften E Lehmann<lb/>Adresse ist Cantonnements Quwatire zu Zeit<lb/>
+               <space dim="horizontal"/>bei Eisenach 3 Compan 3 Batt<lb/>
+               <space dim="horizontal"/>N 30</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[2]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

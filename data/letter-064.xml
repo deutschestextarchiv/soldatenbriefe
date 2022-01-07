@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 64: Oscar Sachse (Offizier), 08.01.1864, Ostmitteldeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Oscar</surname>
+                  <forename>Sachse</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 64 von Oscar Sachse, 08.01.1864.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 64: Oscar Sachse (Offizier), 08.01.1864, Ostmitteldeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Oscar</surname>
+                        <forename>Sachse</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1864-01-08">1864</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="64">
+            <head>
+               <supplied>SB-Nr. 64: Oscar Sachse (Offizier), <date when="1864-01-08">08.01.1864</date>, <choice>
+                     <abbr>OMD</abbr>
+                     <expan>Ostmitteldeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Heppens</hi>, d. 8/1 64.</p>
+            <lb/>
+            <p rendition="#et">Mein lieber Vater!</p>
+            <lb/>
+            <p>Ihr könnt Euch nicht denken mit welcher Freude ich Euren Brief nebst sehr erwünschter<lb/>Beilage begrüßte, denn einmal fürchtete ich, da unsere Postverbindung doch nicht die<lb/>beste zu sein scheint, Ihr hättet den meinigen gar nicht empfangen, anderenseits<lb/>erwartete ich sehnlichst Nachricht von Euch und dem lieben Halle.</p>
+            <lb/>
+            <p>Vor Allem muß ich mit einer Entschuldigung beginnen: Was dachtet Ihr von mir,<lb/>als in meinem vorigen Schreiben auch nicht ein Wort von einem Glückwunsche zum<lb/>neuen Jahre war; ich hoffe, Ihr werdet diese meine Saumseligkeit nicht über aus⸗<lb/>deuten: ich hatte mir nämlich vorgenom̃en, vorher noch zu schreiben, aber wartete erst<lb/>die Nachricht von Euch ab, die ich erst am 4/1 erhielt; gedacht habe ich viel an dem<lb/>Abende an Euch, wie Ihr auch gewiß ziemlich still den letzten Abend im Jahre ver⸗<lb/>leben würdet, und <add place="superlinear">
+                  <metamark/>habe</add> aus tiefsten Herzen Euch meine innigsten Glückwünsche im<lb/>Stillen dargebracht.</p>
+            <lb/>
+            <p>Wir haben uns nun so ziemlich in unsere Verhältnisse eingelebt, und ich kann<lb/>Euch nochmals die Versicherung geben, daß nicht der zehnte Theil von den unsinnigen<lb/>Gerüchten, die über uns circuliren, wahr ist. In Quedlinburg zumal erzählt man<lb/>sich die haarsträubendsten Geschichten, und haben <add place="superlinear">
+                  <metamark/>daher</add> den sonst nicht so <lb/>großmüthigen Magistrat<lb/>bewogen, eine monathliche Unterstützung unseren Leuten anzubieten; vorläufig soll<del rendition="#s">en</del>
+               <lb/>er einen Bremer Kaufmann beauftragt haben, für 80-100rl <gap reason="illegible"/> hierherzuschicken.<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+            </p>
+            <lb/>
+            <p>Ebenso <del rendition="#s">ste</del>hat sich in Magdeburg ein Comité gebildet, für uns zu sammeln. Die<lb/>Leute allerdings sind ziemlich schlimm daran; die Baracken sind natürlich etwas<lb/>feucht, und die Menage nicht ganz so gut als in der Garnison; doch kann man<lb/>hierbei so recht den guten Geist in ihnen sehen: ihre Stimmung ist immer dieselbe<lb/>geblieben keine Spur von Mißmuth, und das Bewusstsein, einmal dem monoto⸗<lb/>nen Leben in der Garnison entrissen zu sein, und die ernstere Seite des Soldaten⸗<lb/>lebens auch einmal kennen zu lernen, überwindet leicht diese kleinen Uebelstände.</p>
+            <lb/>
+            <p>Schon das Wetter, das wir seit gestern haben, trägt dazu bei: als wir einrückten,<lb/>wechselte Sturm und kältender Regen, jetzt haben wir das schönste Wetter, und<lb/>die Kälte, die Ihr in der letzten Zeit gehabt haben sollt, wird durch die Seeluft ganz<lb/>bedeutend gemildert. Die Tage vergehen hier sehr rasch: von 9-11 Uhr habe ich ge⸗<lb/>wöhnlich Dienst, um ½ 2 Uhr essen wir, und der Nachmittag wird nach dem 1½ stün⸗<lb/>digen Dienste benutzt, unsere nächste Umgebung kennen zu lernen. Der Strand<lb/>hat natürlich das meiste Anziehende für uns, zumal da die vollständig gemauerte<lb/>Böschung, die bei der Fluth unter Wasser gesetzt wird, den angenehmsten Weg bietet.</p>
+            <lb/>
+            <p>Jetzt ist die Jahde ziemlich zugefroren, und das gegenüber liegende Land mit der<lb/>Stadt <hi rendition="#aq">Eckwarden</hi> zeichnet sich scharf von dem Gewirr übereinander geschichteter<lb/>Eisschollen ab. Alle diese Neuigkeiten haben einen großen Reiz für mich, und ich<lb/>gehe öfter um 4 Uhr zur Fluthzeit an das Meer, wo das wachsende Wasser<lb/>die Eisdecke krachend vom Lande löst, und die Schollen sich dadurch mit unheimlichen<lb/>Geräusch über einander schieben. Kommt ein scharfer Wind dazu, so können, wie es<lb/>schon öfter in früheren Jahren geschehen, die Eismassen selbst über den 25‘ hohen Dam̃<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>geschoben werden. Unser sonstiges Leben hat sich wenig verändert; das Essen wird<lb/>trotz des hohen Preises immer schlechter, und alle Bedürfnisse sind enorm theuer,<lb/>da wir über 4 Meilen von der nächsten größeren Stadt entfernt sind. Wasser ist wie<lb/>ich schon erzählt, ungenießbar, und sieht wie verdünnte Tinte aus, ein Umstand, der<lb/>Jemanden, der schon dazu inclinirt, zum vollendetsten Säufer machen könnte; ich<lb/>für meine Person werde nie das Maaß überschreiten. Zu was dieses Laster führt,<lb/>können wir deutlich an den Hunderten von Civil-Hafenarbeitern sehen, die bis vor⸗<lb/>gestern trotz Kälte, Wind und Regen Tag und Nacht arbeiten mussten: kommt<lb/>das Frühjahr, so geht ein großer Theil von ihnen in Folge der vielen Spirituosen,<lb/>die sie wegen der Witterung trinken müssen, am Delirium zu Grunde.<lb/>Am Montag vor 8 Tagen waren wir, um uns ein hübsches, und dabei wenig kostspieliges<lb/>Weihnachtsvergnügen zu bereiten, unserer 7 in <hi rendition="#aq">Varel</hi> zu Balle, der so glänzend<lb/>ausfiel, als nur möglich: Unsere Aufnahme war brillant, die Gesellschaft sehr<lb/>zahlreich, und aus der <hi rendition="#aq">haute voleé</hi> von <hi rendition="#aq">Varel</hi> und Umgegend bestehend, der Ton war<lb/>sehr harmlos und nett, der Saal über alle Erwartung groß und schön, und das<lb/>Abendessen, welches unsere liebenswürdigen Wirthe uns gaben, ausgesucht fein.<lb/>Man scheint es uns überhaupt hoch aufgenommen zu haben, daß wir gekom̃en waren,<lb/>wenigstens erzählte das <hi rendition="#aq">Vareler</hi> Kreisblatt Tags darauf mit großer Genugthuung,<lb/>daß so und so viel preußische Officiere zum Balle gekommen wären.<lb/>Der Dienstbetrieb ist jetzt sehr streng, da wir laut Cabinetsordre in den Kriegszu⸗<lb/>stand erklärt sind; Felddienstübungen, um die Gegend kennen zu lernen und<lb/>Wachtdienst treten in den Vordergrund. Vor einem Besuche der Dänen sind<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>wir jetzt, so lange die Jahde gefroren ist, vollkom̃en sicher, falls es zum Ausbruche des<lb/>Krieges kom̃en sollte; übrigens hält man bei uns eine friedliche Lösung der Frage<lb/>für nicht wahrscheinlich. Unsere Batterieen, 3 an der Zahl, wachsen im̃er mehr, und<lb/>19 Geschütze schweren Calibers von Bremen angekom̃en, sind schon ausgeschifft.<metamark>_</metamark>.</p>
+            <lb/>
+            <p>Du fragtest außerdem, lieber Vater, wie es mit meiner Kasse stünde, und wirst Du<lb/>es wohl am liebsten sehen, wenn ich Dir offen Auskunft ertheile. Ich habe vor unseren<lb/>Ausrücken so Manches bezahlen müssen: Schuhmacher mit einer ziemlich bedeutenden<lb/>Rechnung, Schneider, Apotheker, dem ich habe 8 rl bezahlen müssen, Miethe für vorigen<lb/>und diesen Monat, Knobbe’s Rechnung, Ausgaben für Hemden und Unterbeinkleider<lb/>im Betrage von 10 rl, <add place="superlinear">
+                  <metamark/>vierteilg. Klaviermiethe zu 6 rl</add>, andere kleine Kosten für Wäscherei, Leihbibliothek us.w. mussten<lb/>bezahlt werden, so daß ich jetzt allerdings Deine Güte in Anspruch nehmen muß.<lb/>Selbst der Marsch ist ziemlich theuer, liegt man im Gasthofe, so hat man nur Logis<lb/>frei, liegt man in einem Privatquartier, so muß man ein Trinkgeld geben,<lb/>es ist ferner unverantwortlich, daß man uns, die wir es jedenfalls von Allen am schlech⸗<lb/>testen haben, mit 8 rl Commandozulage abspeist, während die mobilen Truppen,<lb/>die längst dies nicht brauchen, womöglich Equipirungs⸗ und Mobilmachungsgelder<lb/>erhalten. Uns wird somit gleich 10 rl für den bloßen Tisch, 5 rl Kleiderkasse, 7 rl Ser⸗<lb/>vis, den der Wirth gleich bekom̃t, und die kleineren Kosten abgezogen. Beim<lb/>besten Willen kann man also längst nicht so auskom̃en, wie in der Garnison.</p>
+            <lb/>
+            <p>Ich habe Dir dieses alles so geschrieben, da ein hinter dem Berge halten doch nichts nützen<lb/>würde, und ich hoffe, Du wirst mir nicht ein leichtsinniges Vergeuden des Geldes vorwerfen.<lb/>
+               <note place="left">
+                  <p>Nun, lieber Vater, lebe wohl, grüße die Mutter, der ich nochmals vielmals für die Kiste danke, Elisen, Gustav<lb/>und Rudolph herzlich von mir, auch meine Bekannten. sei versichert, daß Ihr bald wieder Nachricht erhaltet,<lb/>und beurtheile, ich bitte Dich nochmals, betreffs des letzten Punktes nicht falsch</p>
+                  <lb/>
+                  <p rendition="#et">Deinen treuen Sohn OSCAR.</p>
+               </note>
+               <lb/>
+               <fw type="folNum" place="bottom">[4]</fw>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

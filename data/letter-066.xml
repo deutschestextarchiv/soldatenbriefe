@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 66: Rudolf Potier des Echelles (Offizier), 23.02.1864, Ostoberdeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Rudolf</surname>
+                  <forename>Potier des Echelles</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 66 von Rudolf Potier des Echelles, 23.02.1864.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 66: Rudolf Potier des Echelles (Offizier), 23.02.1864, Ostoberdeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Rudolf</surname>
+                        <forename>Potier des Echelles</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1864-02-23">1864</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="66">
+            <head>
+               <supplied>SB-Nr. 66: Rudolf Potier des Echelles (Offizier), <date when="1864-02-23">23.02.1864</date>, <choice>
+                     <abbr>OOD</abbr>
+                     <expan>Ostoberdeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Annerup</hi> a.d. jütischen Grenze am 23. Fe⸗</p>
+            <lb/>
+            <p>bruar 1864</p>
+            <lb/>
+            <p rendition="#et">Mein liebstes, theuerstes</p>
+            <lb/>
+            <p rendition="#et">bestes Weibel!</p>
+            <lb/>
+            <p rendition="#et">Seit vier Tagen sizen wir hier in<lb/>einer Weise zusammengepfercht, daß man<lb/>sich kaum rühren kann, und doch muß<lb/>mein Mizerl nicht böse sein, daß ich erst<lb/>heute schreibe, aber erstens wartete ich<lb/>immer auf ein Brieferl von Dir, was<lb/>ich gleich beantworten könnte, und <metamark>_</metamark> weil<lb/>ich mich durch zwei Tage recht unwohl<lb/>fühlte, und erst heute wieder ein bischen<lb/>beisammen bin.<metamark>_</metamark> So lieb und ersehnt<lb/>mir ein Briefchen von Dir wäre, so un⸗<lb/>endlich erfreut es mich hätte, so werde ich<lb/>mich doch vielleicht ein wenig gedulden <add place="superlinear">
+                  <metamark/>müssen</add>, <lb/>vielleicht bringt eben der Offizier von der<lb/>Post mir Nachricht von Dir.<metamark>_</metamark> Es ist halt<lb/>eine schlimme Sache mit der Feldpost, denn<lb/>erstens geht nur alle zweiten Tag ein<lb/>Offizier auf die Post, und dann ist der<lb/>Umstand, daß ich jezt außer Verband<lb/>des Regiments bin, auch viel Ursache,<lb/>daß ich die Briefe wohl etwas später<lb/>erhalten werde.<metamark>_</metamark> Wenn also auch<lb/>mein<del rendition="#s">en</del> Wunsch, mein sehnsüchtiger<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>Wunsch nach einem Nachricht von Dir für<lb/>heute ungestillt bleiben muß, so weiß <lb/>ich, daß mein Herzensweiberl fleißig<lb/>an mich denkt, und auch gewiß meinem<lb/>Bimserl vom fernen Papachen erzählt.<metamark>_</metamark>
+               <lb/>Dich aber Herzerl will ich nicht <add place="superlinear">
+                  <metamark/>länger</add> ohne<lb/>Nachricht lassen, denn sind es doch schon<lb/>fünf Tage her, daß ich ein Briefchen<lb/>absandte, und weiß ich, daß Dir mei⸗<lb/>ne Zeilen immer Vergnügen machen.<lb/>Auch an Onkel habe ich heute zu schrei⸗<lb/>ben mir vorgenommen, denn schon<lb/>ein bischen lange ist es her, seit ich<lb/>ihm das leztemahl schrieb. </p>
+            <lb/>
+            <p rendition="#et">Ueber mein Unwohlsein liebstes<lb/>Weiberl, darfst Du Dich ganz und <lb/>gar nicht beunruhigen.<metamark>_</metamark> Ich muß et⸗<lb/>was verdorbenes Fleisch gegessen haben<lb/>vielleicht <add place="superlinear">
+                  <metamark/>kam</add> eine Verkühlung auch dazu,<lb/>ich habe denselben Zustand wie vori⸗<lb/>ges Jahr nach dem Feuer in Preß⸗<lb/>burg, nur ist es dießmahl schlimmer<lb/>gewesen, weil mir die zärtliche,<lb/>liebevolle Pflege meines holden Weiberls<lb/>fehlte.<metamark>_</metamark> Ja! nicht einmal niederle⸗<lb/>gen konnte ich mich, und selbst in<lb/>der Nacht konnte ich keine Ruhe<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>finden, da wir nichts als trockenes Stroh<lb/>haben, <hi rendition="#aq">Römisch’s</hi> Tornister als Kissen u<lb/>meinen Mantel zum zudecken.<metamark>_</metamark> In<lb/>einem Zimmer kaum so groß wie<lb/>Dein Zimmerchen sind wir unser fünf<lb/>Offiziere untergebracht und liegen wir<lb/>wie Häringe in einer Tonne.<metamark>_</metamark> Es darf<lb/>Dich daher auch nicht wundern, wenn mein<lb/>Brief etwas konfus werden sollte, denn<lb/>in dem Specktackel seine Gedanken bei⸗<lb/>sammen zu haben, ist Kunst.<metamark>_</metamark> Der Haupt⸗<lb/>mann debattirt mit dem Feuerwerker,<lb/>der Oberlieut u ein Lieut spielen Pi⸗<lb/>ket und schlagen dabei mit den Karten<lb/>auf den Tisch, politisiren nebstbei, <metamark>_</metamark> der<lb/>2. Lieut schimpft seinen Burschen aus;<metamark>_</metamark>
+               <lb/>draußen treiben 4 Schuster, 2 Sattler,<lb/>4 Schneider und 6 Burschen nebst einem<lb/>Trompeter ihr Unwesen,<metamark>_</metamark> Du kannst<lb/>nun vorstellen, wie angenehm es wir<lb/>hier haben.</p>
+            <lb/>
+            <p rendition="#et">Drum sehne ich mich, und alle an⸗<lb/>dern mit mir, uns schon sehr nach ei⸗<lb/>ner Entscheidung.<metamark>_</metamark> Entweder in Gottes<lb/>Nahmen vorwärts, oder endlich in wei⸗<lb/>tere Kantonnements, denn die jezige<lb/>Bequartirung ist höchst eklig.<metamark>_</metamark>
+               <lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+            </p>
+            <lb/>
+            <p>Am 19. marschirte die Batterie, vereint<lb/>mit der ganzen Brigade hieher, und<lb/>wurde mit dem zweiten Baon. von<lb/>
+               <hi rendition="#aq">Ramming</hi> hier einquartirt.<metamark>_</metamark> Wären<lb/>wir allein, wir könnten es sehr be⸗<lb/>quem u sehr gut haben, aber so müs⸗<lb/>sen wir uns ungemein zusammen⸗<lb/>pressen.<metamark>_</metamark> Wir sind in einem Bauern⸗<lb/>hofe, der gewiß schöner ist, als manches<lb/>Herrschaftsgut in Östreich.<metamark>_</metamark> Ueberhaupt <lb/>ist hier die Gegend sehr schön und <lb/>fruchtbar, und müssen auch die Be⸗<lb/>wohner, alle schon streng dänisch sehr<lb/>wohlhabend sein.<metamark>_</metamark> Unser Hausherr hat<lb/>allein 56 Kühe im Stalle stehen, und<lb/>ist noch nicht der reichsten einer.<lb/>
+               <space dim="horizontal"/>Komisch für uns, aber sehr praktisch<lb/>sind die Hundshütten, <del rendition="#s">die an</del>die im⸗<lb/>mer in der Mitte des Hofes stehen,<lb/>eingerichtet.<metamark>_</metamark> Es sieht nähmlich aus wie<lb/>
+               <space dim="horizontal"/>ein Taubenschlag ist<lb/>
+               <space dim="horizontal"/>roth bemahlen, etwas<lb/>
+               <space dim="horizontal"/>erhöht, und dreht sich<lb/>
+               <space dim="horizontal"/>
+               <figure/>
+               <space dim="horizontal"/>um einen Pflock,<lb/>
+               <space dim="horizontal"/>so daß der Hund<lb/>
+               <space dim="horizontal"/>nach allen Richtungen<lb/>
+               <space dim="horizontal"/>hin sich bewegen kann.<lb/>
+               <fw type="folNum" place="bottom">[4]</fw>
+            </p>
+            <lb/>
+            <p>Die Häuser sind alle hoch, luftig und<lb/>von Rohbau ausgeführt, so wie die Franz⸗<lb/>Josef⸗Kaserne, was sich sehr gut macht.</p>
+            <lb/>
+            <p rendition="#et">Hier stehen wir hart an der jü⸗<lb/>tischen Grenze, keine Stunde weit da⸗<lb/>von, und haben wir auch einen ziem⸗<lb/>lich anstrengenden Vorpostens und Patrou⸗<lb/>lendienst, von dem ich aber glücklicher⸗<lb/>weise verschont bin.<metamark>_</metamark> Doch habe ich sonst<lb/>sehr viel zu thun, da mir die 10 Pfer⸗<lb/>de viel Schererei machen.<metamark>_</metamark> Ueberhaupt<lb/>werde ich trachten sehr bald wieder zur<lb/>Kompagnie einzurücken.<metamark>_</metamark> Mein Batte⸗<lb/>rie⸗Kommandant ist ein alter Herr<lb/>aus der alten Artillerie⸗Schule, und hat<lb/>allerlei Eigenheiten, die zwar nicht schlimm<lb/>aber doch unbequem sind.<metamark>_</metamark> So müs⸗<lb/>sen wir nun alle Abende Whist spie⸗<lb/>len.<metamark>_</metamark> Ich möchte oft schon um 8 mich nie⸗<lb/>derlegen, aber was will man machen,<lb/>wo ich in demselben Zimmer wohnen<lb/>muß, wie alle.<metamark>_</metamark> Da heißt es: “mit<lb/>den Wölfen heulen“ sonst kom̃en<lb/>allerlei Negerleien heraus, die einen<lb/>dann erst recht plagen.<metamark>_</metamark> Weil der<lb/>Hptm. nicht vor ½11-11 einschlafen kann,<lb/>so kommt nicht eher als um diese<lb/>
+               <fw type="folNum" place="bottom">[5]</fw>
+               <lb/>Zeit das Stroh herein, trozdem mir oft <lb/>schon die Augen zufallen u ich einen<lb/>Pluzer übern andern mache.<metamark>_</metamark> In der<lb/>früh, wenn’s noch graut, so fängt der<lb/>Alte seinen Reinigungsprozeß an, nähm⸗<lb/>lich von innen heraus, mit Husten, Pru⸗<lb/>sten, Schnauben und Spucken, was <lb/>für uns andere eine sehr angenehme<lb/>Unterhaltung ist.<metamark>_</metamark> Kurz ich bin hier<lb/>nicht sehr zufrieden, und wünsche sehn⸗<lb/>lichst eine Entscheidung.</p>
+            <lb/>
+            <p rendition="#et">Dazu kommt noch ein Wetter, daß<lb/>es einem schauert, wenn nur daran<lb/>denkt.<metamark>_</metamark> Jezt begreife ich vollkom̃en<lb/>Sibirien’s Schrecken, und das Entsezliche<lb/>des Feldzugs 1812, denn so ein Wetter<lb/>könnt Ihr <hi rendition="#aq">Euch</hi> in Wien kaum<lb/>vorstellen.<metamark>_</metamark> Schneestürme in schönster<lb/>Größe plagen uns bitter seit mehre⸗<lb/>ren Tagen, und trozdem ganze Torf⸗<lb/>lager im Ofen verschwinden ist es<lb/>noch immer kalt in den Zimmern.<lb/>Jezt denkt <hi rendition="#aq">Euch</hi> erst die Lage der<lb/>Soldaten, die in Scheunen, Schoppen,<lb/>Dachböden untergebracht sind, wo der<lb/>Wind prächtig überall durchpfeifen kann.<lb/>
+               <space dim="horizontal"/>Daß wir da nicht mehr Kranke haben<lb/>
+               <fw type="folNum" place="bottom">[6]</fw>
+               <lb/>ist wirklich zum Staunen.<metamark>_</metamark> Glücklicherweise<lb/>ist die Verpflegung eine ganz ausgezeich⸗<lb/>nete, und kann der Soldat wahrlich über<lb/>keinen Mangel klagen, da Alles genug<lb/>u gut ist.</p>
+            <lb/>
+            <p rendition="#et">Nur mit dem Puzen und dem<lb/>Waschen der Wäsche geht es schwer, u<lb/>blieb mir endlich nichts übrig als<metamark>_</metamark> da<lb/>sämmtliche Wäsche eingeschmuzt war,<lb/>sie durch <metamark>_</metamark> 
+               <hi rendition="#aq">Römisch</hi> waschen zu lassen.<lb/>Freilich konnte da von Auskochen, 3<lb/>mahl durchwaschen, schwemmen, bläuen,<lb/>rollen die Rede <add place="superlinear">
+                  <metamark/>nicht</add> sein,<metamark>_</metamark> sondern heißes<lb/>Wasser u Seife,<metamark>_</metamark> dann Schneiders⸗<lb/>Bügeleisen, zusammengelegt u ins<lb/>Kistchen gepackt.<metamark>_</metamark> Ja! Ja! als Soldat<lb/>lernt man Alles, auch kochen, waschen<lb/>u nähen.</p>
+            <lb/>
+            <p rendition="#et">Meinen Kriegspurzl habe ich auch<lb/>wieder bekom̃en.<metamark>_</metamark> Er hielt sich beim<lb/>Kolonnenmagazin auf, und erhielt ich ihn<lb/>gestern wieder, wo das Thierchen sich<lb/>wie toll geberdete.<metamark>_</metamark> Er sendet seine<lb/>großen Kriegsschlecker nach allen Sei⸗<lb/>ten.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p rendition="#et">Hptm. <hi rendition="#aq">Hoffmann</hi> hat müssen quit⸗<lb/>tiren u <hi rendition="#aq">Forster</hi> wird jezt Hauptmann,<lb/>
+               <fw type="folNum" place="bottom">[7]</fw>
+               <lb/>u ich der <hi rendition="#u">5<del rendition="#s">4</del>
+               </hi>
+               <hi rendition="#sup #u">te</hi>. Ich bin froh, daß ich in<lb/>Ordnung mit dem Quartiere bin!!<metamark>_</metamark> Dein<lb/>Freund <hi rendition="#aq">Schopf</hi> ist Oblt. geworden.<metamark>_</metamark>
+            </p>
+            <lb/>
+            <p rendition="#et">Mit Hptm. <hi rendition="#aq">Schwingenschlögl</hi> kam ich<lb/>einmal zusammen, und fragte ihn nach<lb/>Nachrichten von seiner Familie, worauf<lb/>er mir ganz mißmuthig u traurig zur<lb/>Antwort gab: “Ach! sehr schlechte! <del rendition="#s">And</del>Ein<lb/>andersmahl mehr!“<metamark>_</metamark> Nun, da ich nicht<lb/>gerne einen wunden Fleck berühre,<lb/>so sprach ich weiter nichts mehr, er sagte<lb/>auch nichts mehr, u so kann ich auch Dir<lb/>nichts Genaues mittheilen.</p>
+            <lb/>
+            <p rendition="#et">Nun, mein süß Liebchen bitte<lb/>ich Dich noch, unser Bimserl vieltausend⸗<lb/>mahl recht zärtlichst zu küssen, und lieb<lb/>Hannchen, Attol, Pauline u Karl vielmahls,<lb/>bestens u herzlichst zu grüßen,<metamark>_</metamark> Dich<lb/>aber, theuerstes, geliebtestes Weibchen<lb/>drückt innigst an sein Herz, umarmt<lb/>u küßt Dich zärtlichst u glühenst</p>
+            <lb/>
+            <p rendition="#et">Dein<lb/>
+               <space dim="horizontal"/>Dich innigstliebender<lb/>
+               <space dim="horizontal"/>immer treue<lb/>
+               <space dim="horizontal"/>
+               <hi rendition="#u">Rudolf</hi>
+            </p>
+            <lb/>
+            <fw type="folNum" place="bottom">[8]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

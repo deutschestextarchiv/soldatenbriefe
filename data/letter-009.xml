@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 9: Kaspar Kalberlah (Mannschaften?), 26.09.1758, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Kaspar</surname>
+                  <forename>Kalberlah</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 9 von Kaspar Kalberlah, 26.09.1758.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 9: Kaspar Kalberlah (Mannschaften?), 26.09.1758, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Kaspar</surname>
+                        <forename>Kalberlah</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1758-09-26">1758</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="9">
+            <head>
+               <supplied>SB-Nr. 9: Kaspar Kalberlah (Mannschaften?), <date when="1758-09-26">26.09.1758</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Gott zum Gruß. Lieber Vater und Mutter Brüder und schwester, schwager und schwägerin, euer schreiben habe ich erhalten und daraus ersehen, das ihr noch alle gesund seyd, was mich anbelanget Bin ich Gott Lob auch noch gesund und der Bruder auch. Lieber Bruder du hast mir geschrieben das der König hätte den rossen geschlagen, das haben wir gleich den zweiten Tag erfahren wie sie da gewirtschaftet haben, das sie haben die Leute so gepeinigt, haben sie die Hände abgehauen, die Frauens Leute ins streu gebunden und verbrant, die jungen Kinder haben sie gar gefressen, Städte und Dörfer alles angestochen und abgebrant. Für solche Feinde betet Tag und Nacht das sie der Liebe Gott nicht läst so Mächtig werden das sie uns überwältigen, sonst wolte es uns und euch schlecht gehen. Lieber Bruder ich thue euch zu wißen, daß der König ist wieder mit der arme uns zum suckurs gekommen, aber er stehet auf der eine seyt der Elwe und wir auf der andern seit, aber das wir dises jar werden was zu thun Kriegen das wißen wir nicht, den sie wollten uns nicht angreiffen und der König Kan sie nicht angreiffen, aber wen er den geringsten vorteil Kan treffen so gehet es doch Los. den Königs arme und der österreicher können sich ein ander ins Lager rumsehen und attakiren sich ein ander Tag und nacht. nun ich befehle mich und euch in den schutz des allerhöchsten, verbleibe eur getreuer Sohn bis in den Tod. </p>
+            <lb/>
+            <p>auch noch einen Schönen grus von mir und auch vom bruder an Vater und Mutter, Brüder und schwester, schwager und schwägerin und an alle gute Freunde und Bekanten. </p>
+            <lb/>
+            <p>auch Einen schönen gruß an den Herrn Pastor und an den Herrn Kanter und Frau Kantern und befehle sie in den Schutz Gottes. auch einen gruß an <gap reason="illegible"/> und an seine Frau und Kinder, das er auch noch gesund ist auch an Vater und Mutter und an seinen Sohn Heinrichen und an alle gute Freunde und Bekanten.</p>
+            <lb/>
+            <p rendition="#et">im Lager zwischen Dräfen und Birna<lb/> d. 26. Sept. Anno 1758.</p>
+            <lb/>
+            <p rendition="#et2">Kaspar Kalberlah.</p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

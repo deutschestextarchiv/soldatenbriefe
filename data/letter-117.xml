@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 117: Max Brohm (Mannschaften), 20.08.1870, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Max</surname>
+                  <forename>Brohm</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 117 von Max Brohm, 20.08.1870.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 117: Max Brohm (Mannschaften), 20.08.1870, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Max</surname>
+                        <forename>Brohm</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1870-08-20">1870</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="117">
+            <head>
+               <supplied>SB-Nr. 117: Max Brohm (Mannschaften), <date when="1870-08-20">20.08.1870</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Pont á Mouscon d. 20<hi rendition="#sup #uu">te</hi> Aug. 1870.</p>
+            <lb/>
+            <p rendition="#et">Geliebte Eltern!</p>
+            <lb/>
+            <p>In Eile will ich Euch mittheilen, wie es<lb/>mir im Allgemeinen geht und es<lb/>hier aussieht. In der Schlacht bei <hi rendition="#aq">Gorze</hi>
+               <lb/>am 16<hi rendition="#sup #uu">te</hi> A. hat unser Regiment sehr<lb/>viel Verluste erlitten, wie überhaupt<lb/>alle Regimenter. Der Kugelregen<lb/>war furchtbar, nach Aussage der ältern<lb/>mit Königsgratz ja nicht zu vergleichen.</p>
+            <lb/>
+            <p rendition="#et">Von unserer Comp lebt der Haupt.<lb/>die ander Offiziere verwundet und<lb/>todt.<space dim="horizontal"/>Zwei <hi rendition="#aq">Majore</hi> todt, darunter<lb/>
+               <hi rendition="#aq">v. Sollin</hi>. Im Gefecht waren wir<lb/>engagirt von 9 Uhr M. – 5 Uhr Nach.<lb/>Ich bin glücklich durchgekom̃en auf<lb/>2 Schüssen, von denen der eine mein<lb/>linken Rockärmel zerriss die andre<lb/>mein Hochgeschirr durchbohrte Wir<lb/>standen gegen große Übermacht<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>wichen aber nicht zurück, bis un<unclear reason="illegible" cert="high" resp="#MN">s</unclear>
+               <lb/>gegen Abend der Kronprinz un<unclear reason="illegible" cert="high" resp="#MN">terstützte</unclear>
+               <lb/>und die Franzosen zurückgedräng<unclear reason="illegible" cert="high" resp="#MN">t</unclear>
+               <lb/>wurden, eine Entscheidung bis j<unclear reason="illegible" cert="high" resp="#MN">etzt</unclear>
+               <lb/>noch nicht herbei geführt. Am <unclear reason="illegible" cert="high" resp="#MN">Morgen</unclear>
+               <lb/>ging es vom neuen los da <unclear reason="illegible" cert="high" resp="#MN">die</unclear>
+               <lb/>Garde, 1<hi rendition="#sup #uu">te</hi> u 2<hi rendition="#sup #uu">te</hi> 
+               <hi rendition="#aq">Armée Corps</hi>
+               <lb/>angerückt war. Wir standen<lb/>an dem Tage in Reserve die<lb/>Franzosen wurden zurück geschl<unclear reason="illegible" cert="high" resp="#MN">agen</unclear>
+               <lb/>u. ihnen viele Gefangene <unclear reason="illegible" cert="high" resp="#MN">abge-</unclear>
+               <lb/>nom̃en. Ich wurde zu einem <unclear reason="illegible" cert="high" resp="#MN">Ra-</unclear>
+               <lb/>port nach hier bestim̃t von <unclear reason="illegible" cert="high" resp="#MN">20</unclear>
+               <lb/>Mann, wo ich mich jetzt noch befi<unclear reason="illegible" cert="high" resp="#MN">nde</unclear>.</p>
+            <lb/>
+            <p rendition="#et">Wo unser Regiment steht weiß<lb/>ich vorläufig nicht. den Tag über<lb/>sieht man weiter nichts als Wa<unclear reason="illegible" cert="high" resp="#MN">gen</unclear>
+               <lb/>voll Verwundeter, was mir erst<lb/>schrecklich vorkam, jetzt aber sch<unclear reason="illegible" cert="high" resp="#MN">ier</unclear>
+               <lb/>gleichgültig ist. Geld braucht ihr <unclear reason="illegible" cert="high" resp="#MN">nicht</unclear>
+               <lb/>zu schicken, da ich noch etwas habe. <unclear reason="illegible" cert="high" resp="#MN">Das</unclear>
+               <lb/>doppelte hier nicht zu verwerthen <unclear reason="illegible" cert="high" resp="#MN">möglich.</unclear>
+               <lb/>Gesund bin ich, was ich auch von Euch<lb/>hoffe, ich wollte die Geschichte wäre<lb/>beendigt.</p>
+            <lb/>
+            <p rendition="#et">Es grüßt Euch Alle<lb/>
+               <space dim="horizontal"/>Euer<space dim="horizontal"/>Max.</p>
+            <lb/>
+            <p>in der Hoffnung auf ein baldig u gesundes<lb/>
+               <space dim="horizontal"/>Wiedersehen.</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[2]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

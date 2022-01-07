@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 5: Joachim D. und Ertman Kamiet (Mannschaften?), 01.03.1757, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Joachim</surname>
+                  <forename>D. und Ertman Kamiet</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 5 von Joachim D. und Ertman Kamiet, 01.03.1757.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 5: Joachim D. und Ertman Kamiet (Mannschaften?), 01.03.1757, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Joachim</surname>
+                        <forename>D. und Ertman Kamiet</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1757-03-01">1757</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="5">
+            <head>
+               <supplied>SB-Nr. 5: Joachim D. und Ertman Kamiet (Mannschaften?), <date when="1757-03-01">01.03.1757</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>Gott zum Gruß und Jesum zum trost.</p>
+            <lb/>
+            <p>Mein hertz viel geliepte Vatter und mutter, bruder und schwester. Eiren Brief vom 20 December habe ich richtig erhalten und daraus Ersehen das ihr noch alle frisch und gesund seit weil ich mich darüber sehr erfreiet habe. was mich an belanget Bin ich gott Lob auch noch frisch und gesundt und habe auch daraus ersehen das ihr gerne wißen möchtet wo es um mich stände. weil ich aber nicht Eher habe schreiben wollen biß das mein bruder Joachim Diederich nicht ist Bey mir gewesen weil er aber als den 25. Feb. ist frisch und gesundt Bey mir gekommen so schreiben wir euch nun wieder und Bitten euch ihr möcht euch doch um unsern wegen gar nicht kränken weil Es doch nicht anders sein kan weil doch so manches frommes Blut da zu sein mus und der Liebe gott auch durch hilft und auch mich hatt bis dato geholfen. weil ihr auch gerne wissen wolt ob ich kein mangel habe erlitten weil ich euch nicht tröstliches kan schreiben als das mich das Mindeste noch nicht gefehlet hat und wir hoffen das es uns auch noch nicht fehlen wirdt. </p>
+            <lb/>
+            <p>Mein Bruder Joachim Diederich ist sehr wemüdlich gewesen weil er zum ersten mahl ist bey mir gekommen weil ich ihm damit getröstet habe das uns der liebe Gott hat ein Mahl geholfen er wirdt uns auch ferner helfen das wir noch ein mahl gesundt werden zu euch kommen. geschieht es aber nicht so getröst euch deßen das wir uns ins Ewig werden wiedersehen. </p>
+            <lb/>
+            <p>Ich grüße auch mein liber Vatter und Mutter Bruder und schwester und all meine gutte Freunde und bekandten und ich weis euch auf dis mahl nicht mehres zu schreiben als 1 schfl rocken 5 thlr. weil aber Man 3 Metz daran fehlet das Ein schfl. nicht so groß ist als bey euch 2 schfl. Und wir verbleiben Euer getreieste söhne biß in den Tott</p>
+            <lb/>
+            <p rendition="#et">d. 1. März <hi rendition="#aq">Anno</hi> 1757.</p>
+            <lb/>
+            <p rendition="#et2">Joachim Diederich<lb/> und Ertman Kamiet<lb/> in Döbeln.</p>
+            <lb/>
+            <p>Adresse <space dim="horizontal"/> Dieser Brief gelanget an unsern Vatter Hans Camieten <lb/> Geinitz.</p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 158: Hermann Witte (Mannschaften), 14.03.1871, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Hermann</surname>
+                  <forename>Witte</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 158 von Hermann Witte, 14.03.1871.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 158: Hermann Witte (Mannschaften), 14.03.1871, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Hermann</surname>
+                        <forename>Witte</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1871-03-14">1871</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="158">
+            <head>
+               <supplied>SB-Nr. 158: Hermann Witte (Mannschaften), <date when="1871-03-14">14.03.1871</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Gagny</hi> 14 März 71.</p>
+            <lb/>
+            <p rendition="#et">Liebe Mutter!</p>
+            <lb/>
+            <p>Ihr werdet den Brief, welchen ich<lb/>nach Empfang Mariens Brief vom 5ten<lb/>geschrieben, bereits erhalten haben.</p>
+            <lb/>
+            <p rendition="#et">Wir marschierten also am 12ten<lb/>morgens 7 Uhr aus Versailles, kamen<lb/>durch die Ruinen von <hi rendition="#aq">St Cloud</hi>,<lb/>passierten dann Courbevoie woselbst<lb/>wir die Nacht in einer Caserne<lb/>ohne Stroh logirten, am 13ten mar⸗<lb/>schirten wir durch<hi rendition="#aq"> Asnieres</hi>, <hi rendition="#aq">Gennevilliers</hi>,<lb/>
+               <hi rendition="#aq">St Denis</hi> + waren um 3 Uhr in<lb/>
+               <hi rendition="#aq">Gagny</hi>, wurden einquartiert in<lb/>menschenleere Häuser <hi rendition="#aq">Rue de Rain</hi>
+               <unclear reason="illegible" cert="high" resp="#MN">g</unclear>
+               <lb/>+ haben heute den 14 Ruhetag.<lb/>
+               <hi rendition="#aq">Gagny</hi>, welches s. Zeit von den<lb/>Sachsen mit Sturm genom̃en, war<lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>schon vorher von seinen Einwohnern<lb/>welche die Preussen für Unmenschen<lb/>hielten, gänzlich verlassen und<lb/>sind deshalb die Häuser hier, welche<lb/>von franz Militair besetzt<lb/>waren, fast alle demuliert +<lb/>von Granaten zerschossen. Jetzt<lb/>kom̃en die Einwohner nach<lb/>+ nach von <hi rendition="#aq">Paris</hi> wieder zu <unclear reason="illegible" cert="high" resp="#MN">gereist,</unclear>
+               <lb/>fast Alle geben noch Zeugniß<lb/>dass Sie unter dem franz. Mil.<lb/>waren, den wenn sie nicht noch<lb/>die ganzen Uniformen an haben<lb/>so tragen sie wenigstens noch<lb/>Mütze oder Hose vom Militair.<lb/>Auch diese kl Stadt giebt nur<lb/>ein trauriges Bild von dem, was<lb/>ein Krieg mit sich bringt.<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+            </p>
+            <lb/>
+            <p>Auf den ganzen Wege von Versailles<lb/>bis hier, wo wir an verschiedenen<lb/>Forts vorbeikamen, fand man<lb/>Alles demuliert + zerschossen<lb/>außer <hi rendition="#aq">St Denis</hi>, welches noch ziemlich<lb/>erhalten ist. heute war ich auf<lb/>den <hi rendition="#aq">Mont Avron</hi>, woselbst sich die<lb/>Franzosen auch verschanzt hatten<lb/>der <hi rendition="#aq">Mont Avron</hi> ist gleich unserm Nussberge<lb/>d. ja bedeutend größer + höher gelegen.<lb/>Du glaubst nicht, wie da die Franzosen<lb/>gehaust haben, die schönsten Alleen<lb/>+ Waldungen haben sie der Erde gleich<lb/>gemacht, die reizensten <hi rendition="#aq">Villen</hi>
+               <lb/>welche<del rendition="#s">n</del> sich auf d. <hi rendition="#aq">Mont Avron </hi>befinden<lb/>
+               <del rendition="#s">sich</del>sind durch unsere Granaten<lb/>zerschossen, man braucht kaum 5<lb/>Schritt zu gehen + findet der Granat⸗<lb/>splitter genügend, man kann<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>kaum sagen in welchen Wegen<lb/>die Granatsplitter daliegen + wie<lb/>sehr die Häuser zerschossen sind,<lb/>durch 1 Granate findet man viele<lb/>Häuser in Trüm̃ern.</p>
+            <lb/>
+            <p rendition="#et">Doch nu liebe Mutter wie<lb/>lange es dauern wird, ehe ich nach<lb/>Hause kom̃e, weiß ich nicht; wie<lb/>es heißt bleiben wir noch einige<lb/>Tage hier. Wir haben also <hi rendition="#aq">Paris</hi>
+               <lb/>von allen Seiten gesehen.<metamark>_</metamark>
+               <lb/>Soeben erhalte ich Carl Mattes<lb/>Brief, nach dem ich selbigen<lb/>gelesen, ist es mir nicht möglich<lb/>mehr zu schreiben, derselbe hat<lb/>mich so ins Lachen gebracht<lb/>dass ich Leibschmerzen bekom̃en<lb/>habe, <gap reason="illegible"/> 
+            </p>
+            <lb/>
+            <p>
+               <fw type="folNum" place="bottom">[4]</fw>
+               <lb/>
+            </p>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

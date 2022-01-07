@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 118: Ludwig Köhler (Mannschaften), 28.08.1870, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Ludwig</surname>
+                  <forename>Köhler</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 118 von Ludwig Köhler, 28.08.1870.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 118: Ludwig Köhler (Mannschaften), 28.08.1870, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Ludwig</surname>
+                        <forename>Köhler</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1870-08-28">1870</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="118">
+            <head>
+               <supplied>SB-Nr. 118: Ludwig Köhler (Mannschaften), <date when="1870-08-28">28.08.1870</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p rendition="#et">Ludwig Köhler<space dim="horizontal"/>28 August 1870</p>
+            <lb/>
+            <p>Liebe Schwester ich ergreife Dich zu benachrichtgen wie es mit mir steht und geht</p>
+            <lb/>
+            <p>Liebe Schwester wir haben bis jetz in ganzen keine noht gelitten wir haben Fleisch<lb/>und Kartofflen das ist unser Haupt lebens unterhalt Brot und andere Sachen<lb/>kennen wir fast gar nicht mehr wenn man sich auch was Kaufen wolte man kann<lb/>vor Geld nichts kriegen wir haben den 25ten uns ein drei ℔ Brot gekauft für 20 Sgr<lb/>mit Bethen haben wir es gekrigt. Da kann man sagen da ist wirklich Krig<lb/>Du weist Liebe Schwester wo man Meilen weit keinen Menschen zu sehen<lb/>krieg als Militär alle Leute haben ihre heimat verlassen und sind fortgemacht<lb/>wenn man mal eine Familie trif so sind Sie arm haben sie hunger und man<lb/>kann Keinen verstehen es ist wirklich Traurich da zu sein es ist jetzt acht Tage<lb/>Regenicht und kalt wir schlafen drausen unter freien Himmel wo man fast<lb/>nicht schlafen kan vor <unclear reason="illegible" cert="high" resp="#MN">feucht</unclear> und Näse aber wir müssen immer den anderen<lb/>aufmuntern und das Herz nicht schwer machen sonst ginge es garnicht<lb/>wir sind unserer 8 Landsleute und Leben miteinander in Fride der eine ermuntert<lb/>den anderen und freuen uns schon auf die Reise nach Haus was bis jetz noch ungewis<lb/>ist womehr es <add place="superlinear">
+                  <metamark/>ist</add> freilich für uns alles sehr gut ausgefallen <add place="superlinear">
+                  <metamark/>da</add> ich bis jetz zwei Schlachten<lb/>mit gemacht den 16ten 18ten haten wir das Glück Beide Schlachten zu gewinnen<lb/>kann es doch noch bis Mai kann dauren bis wie zu Hause kommen ich hoffe auch<lb/>dann Liebe Schwester alle bei guter gesundheit anzutreffen was ich von mir auch<lb/>hoffe Liebe Schwester Du kanst Dir denken wenn ich die armen Menschen dort<lb/>
+               <del rendition="#s">sehe das</del>aus wanderen sehe das ihre Frauen und Kinder bei sich haben dann<lb/>solte einem das Herz Brechen Vor Schmerz man kann die Leute nicht verdenken<lb/>denn es sind ganze Dörfer zerstört und nider geschossen. Dankt den Lieben Gott<lb/>das der Krig nicht in Deutschland ist sonst würdet ihr auch sagen unsere<lb/>Väter haben ganz recht ich sehe wie es bei uns zu geht jeder Mensch will und<lb/>
+               <del rendition="#s">und</del>mus Leben denk dir wenn ein Dorf wie Fümmelse blos 40 Tausend<lb/>14 Tage hätte was die alles vernichten thäten und alles verzehren was da<lb/>ist das eine Hungersnoth gar nicht weit sein kann hirmit mus ich schlisen</p>
+            <lb/>
+            <p>es grüst Dich dein stets Liebender Bruder Ludwig Köhler</p>
+            <lb/>
+            <p rendition="#et">Grüse alle die mich kenen</p>
+            <lb/>
+            <fw type="folNum" place="bottom">[1]</fw>
+         </div>
+      </body>
+   </text>
+</TEI>

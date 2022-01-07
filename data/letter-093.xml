@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">[SB-Nr. 93: Friedrich Grundmann (Offizier?), 04.08.1866, Norddeutsch]</title>
+            <author>
+               <persName>
+                  <surname>Friedrich</surname>
+                  <forename>Grundmann</forename>
+               </persName>
+            </author>
+            <respStmt>
+               <persName>
+                  <surname>Thomas</surname>
+                  <forename>Christian</forename>
+               </persName>
+               <persName>
+                  <surname>Wiegand</surname>
+                  <forename>Frank</forename>
+               </persName>
+               <persName ref="http://d-nb.info/gnd/1204665788">
+                  <surname>Hug</surname>
+                  <forename>Marius</forename>
+               </persName>
+               <orgName ref="https://www.bbaw.de">BBAW</orgName>
+               <resp>
+                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName ref="https://d-nb.info/gnd/115605771X">
+                  <surname>Neumann</surname>
+                  <forename>Marko</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Vollständige digitalisierte Ausgabe.</edition>
+         </editionStmt>
+         <extent/>
+         <publicationStmt>
+            <publisher xml:id="DTACorpusPublisher">
+               <orgName>Deutsches Textarchiv</orgName>
+               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+               <email>dta@bbaw.de</email>
+               <address>
+                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+               </address>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">2022-01-07T13:55:45Z</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="MAN">Soldatenbrief Nr. 93 von Friedrich Grundmann, 04.08.1866.</bibl>
+            <biblFull>
+               <titleStmt>
+                  <title level="m" type="main">[SB-Nr. 93: Friedrich Grundmann (Offizier?), 04.08.1866, Norddeutsch]</title>
+                  <author>
+                     <persName>
+                        <surname>Friedrich</surname>
+                        <forename>Grundmann</forename>
+                     </persName>
+                  </author>
+               </titleStmt>
+               <editionStmt>
+                  <edition/>
+               </editionStmt>
+               <publicationStmt>
+                  <publisher/>
+                  <date when="1866-08-04">1866</date>
+               </publicationStmt>
+            </biblFull>
+            <msDesc>
+               <msIdentifier/>
+               <physDesc/>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="deu">(Früh-)Neuhochdeutsch</language>
+         </langUsage>
+         <textClass>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" n="93">
+            <head>
+               <supplied>SB-Nr. 93: Friedrich Grundmann (Offizier?), <date when="1866-08-04">04.08.1866</date>, <choice>
+                     <abbr>ND</abbr>
+                     <expan>Norddeutsch</expan>
+                  </choice>
+               </supplied>
+            </head>
+            <lb/>
+            <p>
+               <hi rendition="#aq">Friedrichsort </hi>den 4<hi rendition="#sup">ten</hi> August 1866.</p>
+            <lb/>
+            <p rendition="#et">Meine Ehrenwertheste Familie!</p>
+            <lb/>
+            <p>Nachdem ich lange vergeblich auf einen <lb/>Brief von Euch verharrete; Und meine<lb/>beiden Briefe welche ich aus <hi rendition="#aq">Bayern</hi>
+               <lb/>an Euch meine Lieben adressierte, mir<lb/>keine Antwort herbeigeholt haben, so er⸗<lb/>greife ich nochmals die Feder, um Euch<lb/>meine theuern: Indem Ihr sehr viel<lb/>von mir haltet, nochmal zu schreiben;<lb/>Um Euch meine Erlebnisse und Ver⸗<lb/>hältnisse darzustellen. Es war am 18<hi rendition="#sup #uu">ten</hi>
+               <lb/>Juni als wir hier Ordre bekamen<lb/>nach <hi rendition="#aq">Hannover</hi> zu rücken, undzwar<lb/>Nachts 2 Uhr gings mit der Bahn <del rendition="#s">nach</del>
+               <add place="superlinear">
+                  <metamark/>von</add> Hier<lb/>nach <hi rendition="#aq">Altona</hi> von dort durch <hi rendition="#aq">Hamburg</hi>,<lb/>über <hi rendition="#aq">Wittenberge</hi> nach <hi rendition="#aq">Magdeburg</hi>, wo<lb/>wir am 19<hi rendition="#sup #u">ten</hi> Morgens 5 Uhr eintrafen. <lb/>Hier bekamen wir Munition, hatten<lb/>nur Eine Stunde Aufenthalt, und ich war<lb/>nicht im Stande meinen kranken Eltern<lb/>zu besuchen, insbesondere meine liebe<lb/>jetzt dahingeschiedene Mutter, welche ich<lb/>doch gern noch einmal gesehen, oder ge⸗<lb/>sprochen hätte; Es ist schrecklich, ich darf<lb/>nicht daran denken, und muss mein<lb/>mit Gott trösten: Denn was Gott thut<lb/>
+               <note place="left">grüßt bei mir alles zu Hause, ich lauerte auf einen Brief.</note>
+               <lb/>
+               <fw type="folNum" place="bottom">[1]</fw>
+               <lb/>das ist wohlgethan. Von <hi rendition="#aq">Magdeburg</hi> gings<lb/>nach <hi rendition="#aq">Braunschweig</hi>, dann nach<lb/>
+               <hi rendition="#aq">Hannover</hi>. Es würde zu lang alles<lb/>zu schreiben indem ich es Euch, so<lb/>Gott will bald mündlich erzählen kann.<lb/>Wir wurden hier, da wir nur ein kleines<lb/>
+               <hi rendition="#aq">Comañdo</hi> von 1 Offz. 2 Utffz. und 25 Mann<lb/>waren, bei der Avantgarde attachiert<lb/>zum wegräumen von hindernissen<lb/>wo solche in den Weg traten. So durch⸗<lb/>kreuzten wir ganz <hi rendition="#aq">Hannover</hi>, wo sich<lb/>nach einigen Gefechten die <hi rendition="#aq">Hannoveraner</hi>
+               <lb/>endlich in Langensalza, welches preußisches<lb/>Gebiet ist, und Sie dort hingeflüchtet waren<lb/>ergaben. Dies hättet Ihr sollen mit an⸗<lb/>sehen. Eine Armee von 24000 Mann<lb/>sämliche Waffen und alles, alles abzugeben,<lb/>es war toller als wen <hi rendition="#aq">Magdeburg</hi>
+               <lb/>die Reserve abgeht. Von hier gings<lb/>nach <hi rendition="#aq">Bayern</hi>, nach einigen Kreuzügen<lb/>kam es am 9 Juli bei Hausen bei der<lb/>Stadt <hi rendition="#aq">Kissingen</hi> zur Schlacht. Wir<lb/>hatten von Morgens 5 bis Mittags 1½ Uhr<lb/>marschiert und stiessen dann auf den<lb/>Feind, es war furchtbar, wir kamen<lb/>den Chausee aus deren Walde, die<lb/>Granaten begrüssten uns in feifen⸗<lb/>dem Tone, hier war eine Ebene<lb/>dazwischen ein 4 Ruthen breiter<lb/>
+               <fw type="folNum" place="bottom">[2]</fw>
+               <lb/>Canal über welchen 2 Brücken führten. </p>
+            <lb/>
+            <p rendition="#et">Eine hatten die <hi rendition="#aq">Bayern</hi> gesprengt<lb/>
+               <space dim="horizontal"/>die Andere Verbarrikadiert was halfs<lb/>
+               <space dim="horizontal"/>wir mussten mit den Infanterie<lb/>
+               <space dim="horizontal"/>Pioniren vorne weg, es war ein<lb/>entsetzlicher Kugelregen aber unter Hurah<lb/>Ruf wälzten und warfen wir Wagen,<lb/>Eggen, Pflüge, <hi rendition="#aq">Bäume</hi> woraus die Bari⸗<lb/>kade bestandt, in den Abgrund des Wassers<lb/>die Brücke war frei, die Infanterie konnte<lb/>herüber und der Feind wurde zerworfen.</p>
+            <lb/>
+            <p>Am 26 Juli kam es besser, wir waren<lb/>Tags vorher dem 36 Regiment attachiert<lb/>welches am 26 die Avantgarde hatte.<lb/>Wir hatten vom 25 bis zum 26 Biwouack<lb/>rückten um 3 Uhr aus denselben, und<lb/>nach 1½ Stunde also ½5 Uhr Morgens kamen<lb/>wir bei Oettingen ein Gefecht, hier<lb/>hatten wir freilich nichts zu thun, mußten<lb/>aber mit vor zur Bedeckung der Fahne<lb/>des 2 Bataillons, kaum im Dorfe an⸗<lb/>gelangt, schossen die <hi rendition="#aq">Bayern</hi> dassselbe <lb/>mit Feuerkugeln im Brand, wir<lb/>mussten im Laufschritt links und<lb/>rechts heraus, das Gefecht begann.</p>
+            <lb/>
+            <p>Jenseits dem Dorfe war ein großer<lb/>Waldsaum, selbiger war von <hi rendition="#aq">Bayern</hi>
+               <lb/>besetzt, das <hi rendition="#aq">Regt</hi>. 36 hatte die rechte, 59,<lb/>die linke Flanke, Grad in der Mitte,<lb/>es dauerte nicht lange so viel uns<lb/>ein Kamerad, der Pionier Ebert<lb/>
+               <fw type="folNum" place="bottom">[3]</fw>
+               <lb/>von der Seite weg, er bekam einen<lb/>Schuss im Unterleib in der<lb/>linken Seite und stü<add place="superlinear">
+                  <metamark/>r</add>tzte zu<lb/>Boden, dies war ein Anblick. Der<lb/>General (Freihold) befahl die Anhöhen<lb/>auf welchen die <hi rendition="#aq">Bayern</hi> standen zu<lb/>stürmen, es begann: Die 36 drängte<lb/>mit Gewalt vorwärts, der Feind<lb/>aber stand, jetzt gings mit Hurrah,<lb/>der Feind wurde geworfen, ich sehe<lb/>3 Mann vom 36. mit Bajonettstiche<lb/>es war ein furchtbarer Kampf, es war<lb/>bereits 11 Uhr Mittags, das Gefecht zog<lb/>sich 1½ Meile lang. Auf dem Schlachtfeld<lb/>mussten wir uns <add place="superlinear">
+                  <metamark/>versammeln</add> ich traf<lb/>Fritz Käsebier, wir schüttelten uns<lb/>die Hände lobten Gott gut davon<lb/>gekom̃en zu sein. Wir kamen<lb/>dann von 27 b. 30 Juli im Biwouack,<lb/>dort wurde ich verwundet durch<lb/>den Brief von meinem Bruder Carl<lb/>wo ich den Tod meiner theuren<lb/>geliebten Mutter ersah, meinen<lb/>Schreck und Schmerz bin ich nicht<lb/>im Stande zu schildern denn<lb/>mein kindlich liebendes Herz um<lb/>meiner geliebten stets so sorgsamen<lb/>Mutter ist verwundet welches nur <lb/>mit Gottes Hülfe wieder zuheilen kann.</p>
+            <lb/>
+            <note place="left">
+               <p>Lebt alle Herzlich wohl<lb/>bleib alle gesund aufs wiedersehen, herzlichen Gruß an Euch alle<lb/>Bitte um Antwort</p>
+            </note>
+            <fw type="folNum" place="bottom">[4]</fw>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>
