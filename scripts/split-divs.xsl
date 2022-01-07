@@ -35,10 +35,10 @@
         <author>
           <persName>
             <surname>
-              <xsl:value-of select="substring-before($author_full, ' ')"/>
+              <xsl:value-of select="substring-after($author_full, ' ')"/>
             </surname>
             <forename>
-              <xsl:value-of select="substring-after($author_full, ' ')"/>
+              <xsl:value-of select="substring-before($author_full, ' ')"/>
             </forename>
           </persName>
         </author>
@@ -112,10 +112,10 @@
             <author>
               <persName>
                 <surname>
-                  <xsl:value-of select="substring-before($author_full, ' ')"/>
+                  <xsl:value-of select="substring-after($author_full, ' ')"/>
                 </surname>
                 <forename>
-                  <xsl:value-of select="substring-after($author_full, ' ')"/>
+                  <xsl:value-of select="substring-before($author_full, ' ')"/>
                 </forename>
               </persName>
             </author>
