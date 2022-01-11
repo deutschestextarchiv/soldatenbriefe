@@ -8,8 +8,9 @@
             <title type="main">[SB-Nr. 31: Johann H. T. von Strombeck (Offizier), 10.05.1813, Norddeutsch]</title>
             <author>
                <persName>
-                  <surname>H. T. von Strombeck</surname>
-                  <forename>Johann</forename>
+                  <surname>Strombeck</surname>
+                  <nameLink>von</nameLink>
+                  <forename>Johann H. T.</forename>
                </persName>
             </author>
             <respStmt>
@@ -69,8 +70,9 @@
                   <title level="m" type="main">[SB-Nr. 31: Johann H. T. von Strombeck (Offizier), 10.05.1813, Norddeutsch]</title>
                   <author>
                      <persName>
-                        <surname>H. T. von Strombeck</surname>
-                        <forename>Johann</forename>
+                        <surname>Strombeck</surname>
+                        <nameLink>von</nameLink>
+                        <forename>Johann H. T.</forename>
                      </persName>
                   </author>
                </titleStmt>

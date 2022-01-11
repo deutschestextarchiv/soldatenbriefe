@@ -8,8 +8,9 @@
             <title type="main">[SB-Nr. 12: E. P. von Anderten (Offizier?), 30.09.1762, Norddeutsch]</title>
             <author>
                <persName>
-                  <surname>P. von Anderten</surname>
-                  <forename>E.</forename>
+                  <surname>Anderten</surname>
+                  <nameLink>von</nameLink>
+                  <forename>E. P.</forename>
                </persName>
             </author>
             <respStmt>
@@ -69,8 +70,9 @@
                   <title level="m" type="main">[SB-Nr. 12: E. P. von Anderten (Offizier?), 30.09.1762, Norddeutsch]</title>
                   <author>
                      <persName>
-                        <surname>P. von Anderten</surname>
-                        <forename>E.</forename>
+                        <surname>Anderten</surname>
+                        <nameLink>von</nameLink>
+                        <forename>E. P.</forename>
                      </persName>
                   </author>
                </titleStmt>

@@ -8,8 +8,9 @@
             <title type="main">[SB-Nr. 167: Dr. Carl F. Pogge (Offizier), 07.08.1871, Norddeutsch]</title>
             <author>
                <persName>
-                  <surname>Carl F. Pogge</surname>
-                  <forename>Dr.</forename>
+                  <surname>Pogge</surname>
+                  <forename>Carl F.</forename>
+                  <roleName>Dr.</roleName>
                </persName>
             </author>
             <respStmt>
@@ -69,8 +70,9 @@
                   <title level="m" type="main">[SB-Nr. 167: Dr. Carl F. Pogge (Offizier), 07.08.1871, Norddeutsch]</title>
                   <author>
                      <persName>
-                        <surname>Carl F. Pogge</surname>
-                        <forename>Dr.</forename>
+                        <surname>Pogge</surname>
+                        <forename>Carl F.</forename>
+                        <roleName>Dr.</roleName>
                      </persName>
                   </author>
                </titleStmt>

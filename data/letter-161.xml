@@ -8,7 +8,8 @@
             <title type="main">[SB-Nr. 161: Adalbert von Barby (Offizier), 30.04.1871, Norddeutsch]</title>
             <author>
                <persName>
-                  <surname>von Barby</surname>
+                  <surname>Barby</surname>
+                  <nameLink>von</nameLink>
                   <forename>Adalbert</forename>
                </persName>
             </author>
@@ -69,7 +70,8 @@
                   <title level="m" type="main">[SB-Nr. 161: Adalbert von Barby (Offizier), 30.04.1871, Norddeutsch]</title>
                   <author>
                      <persName>
-                        <surname>von Barby</surname>
+                        <surname>Barby</surname>
+                        <nameLink>von</nameLink>
                         <forename>Adalbert</forename>
                      </persName>
                   </author>

@@ -8,8 +8,12 @@
             <title type="main">[SB-Nr. 149: Gottfried und Adam Lechner (Mannschaften), 26.01.1871, Nordoberdeutsch]</title>
             <author>
                <persName>
-                  <surname>und Adam Lechner</surname>
+                  <surname>Lechner</surname>
                   <forename>Gottfried</forename>
+               </persName>
+               <persName>
+                  <surname>Lechner</surname>
+                  <forename>Adam</forename>
                </persName>
             </author>
             <respStmt>
@@ -69,8 +73,12 @@
                   <title level="m" type="main">[SB-Nr. 149: Gottfried und Adam Lechner (Mannschaften), 26.01.1871, Nordoberdeutsch]</title>
                   <author>
                      <persName>
-                        <surname>und Adam Lechner</surname>
+                        <surname>Lechner</surname>
                         <forename>Gottfried</forename>
+                     </persName>
+                     <persName>
+                        <surname>Lechner</surname>
+                        <forename>Adam</forename>
                      </persName>
                   </author>
                </titleStmt>

@@ -8,8 +8,12 @@
             <title type="main">[SB-Nr. 5: Joachim D. und Ertman Kamiet (Mannschaften?), 01.03.1757, Norddeutsch]</title>
             <author>
                <persName>
-                  <surname>D. und Ertman Kamiet</surname>
-                  <forename>Joachim</forename>
+                  <surname>Kamiet</surname>
+                  <forename>Joachim D.</forename>
+               </persName>
+               <persName>
+                  <surname>Kamiet</surname>
+                  <forename>Ertman</forename>
                </persName>
             </author>
             <respStmt>
@@ -68,11 +72,15 @@
                <titleStmt>
                   <title level="m" type="main">[SB-Nr. 5: Joachim D. und Ertman Kamiet (Mannschaften?), 01.03.1757, Norddeutsch]</title>
                   <author>
-                     <persName>
-                        <surname>D. und Ertman Kamiet</surname>
-                        <forename>Joachim</forename>
-                     </persName>
-                  </author>
+               <persName>
+                  <surname>Kamiet</surname>
+                  <forename>Joachim D.</forename>
+               </persName>
+               <persName>
+                  <surname>Kamiet</surname>
+                  <forename>Ertman</forename>
+               </persName>
+              </author>
                </titleStmt>
                <editionStmt>
                   <edition/>

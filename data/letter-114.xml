@@ -8,7 +8,8 @@
             <title type="main">[SB-Nr. 114: Hugo von Winterfeld (Offizier), 15.08.1870, Norddeutsch]</title>
             <author>
                <persName>
-                  <surname>von Winterfeld</surname>
+                  <surname>Winterfeld</surname>
+                  <nameLink>von</nameLink>
                   <forename>Hugo</forename>
                </persName>
             </author>
@@ -69,7 +70,8 @@
                   <title level="m" type="main">[SB-Nr. 114: Hugo von Winterfeld (Offizier), 15.08.1870, Norddeutsch]</title>
                   <author>
                      <persName>
-                        <surname>von Winterfeld</surname>
+                        <surname>Winterfeld</surname>
+                        <nameLink>von</nameLink>
                         <forename>Hugo</forename>
                      </persName>
                   </author>

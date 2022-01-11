@@ -8,7 +8,8 @@
             <title type="main">[SB-Nr. 51: Wilhelm von Tegetthoff (Offizier), 14.01.1849, Ostoberdeutsch]</title>
             <author>
                <persName>
-                  <surname>von Tegetthoff</surname>
+                  <surname>Tegetthoff</surname>
+                  <nameLink>von</nameLink>
                   <forename>Wilhelm</forename>
                </persName>
             </author>
@@ -69,7 +70,8 @@
                   <title level="m" type="main">[SB-Nr. 51: Wilhelm von Tegetthoff (Offizier), 14.01.1849, Ostoberdeutsch]</title>
                   <author>
                      <persName>
-                        <surname>von Tegetthoff</surname>
+                        <surname>Tegetthoff</surname>
+                        <nameLink>von</nameLink>
                         <forename>Wilhelm</forename>
                      </persName>
                   </author>

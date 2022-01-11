@@ -2,140 +2,131 @@
 <?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title type="main">[SB-Nr. 116: Dr. Carl F. Pogge (Offizier), 17.08.1870, Norddeutsch]</title>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">[SB-Nr. 116: Dr. Carl F. Pogge (Offizier), 17.08.1870, Norddeutsch]</title>
+        <author>
+          <persName>
+            <surname>Pogge</surname>
+            <forename>Carl F.</forename>
+            <roleName>Dr.</roleName>
+          </persName>
+        </author>
+        <respStmt>
+          <persName>
+            <surname>Thomas</surname>
+            <forename>Christian</forename>
+          </persName>
+          <persName>
+            <surname>Wiegand</surname>
+            <forename>Frank</forename>
+          </persName>
+          <persName ref="http://d-nb.info/gnd/1204665788">
+            <surname>Hug</surname>
+            <forename>Marius</forename>
+          </persName>
+          <orgName ref="https://www.bbaw.de">BBAW</orgName>
+          <resp>
+            <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <persName ref="https://d-nb.info/gnd/115605771X">
+            <surname>Neumann</surname>
+            <forename>Marko</forename>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Vollständige digitalisierte Ausgabe.</edition>
+      </editionStmt>
+      <extent/>
+      <publicationStmt>
+        <publisher xml:id="DTACorpusPublisher">
+          <orgName>Deutsches Textarchiv</orgName>
+          <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
+          <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+          <email>dta@bbaw.de</email>
+          <address>
+            <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+          </address>
+        </publisher>
+        <pubPlace>Berlin</pubPlace>
+        <date type="publication">2022-01-07T15:32:25Z</date>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
+            <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="MAN">Soldatenbrief Nr. 116 von Dr. Carl F. Pogge, 17.08.1870.</bibl>
+        <biblFull>
+          <titleStmt>
+            <title level="m" type="main">[SB-Nr. 116: Dr. Carl F. Pogge (Offizier), 17.08.1870, Norddeutsch]</title>
             <author>
-               <persName>
-                  <surname>Carl F. Pogge</surname>
-                  <forename>Dr.</forename>
-               </persName>
+              <persName>
+                <surname>Pogge</surname>
+                <forename>Carl F.</forename>
+                <roleName>Dr.</roleName>
+              </persName>
             </author>
-            <respStmt>
-               <persName>
-                  <surname>Thomas</surname>
-                  <forename>Christian</forename>
-               </persName>
-               <persName>
-                  <surname>Wiegand</surname>
-                  <forename>Frank</forename>
-               </persName>
-               <persName ref="http://d-nb.info/gnd/1204665788">
-                  <surname>Hug</surname>
-                  <forename>Marius</forename>
-               </persName>
-               <orgName ref="https://www.bbaw.de">BBAW</orgName>
-               <resp>
-                  <note type="remarkResponsibility">Text+: Konversion und Kuration der Textsammlung. Langfristige Bereitstellung der DTA-Ausgabe.</note>
-               </resp>
-            </respStmt>
-            <respStmt>
-               <persName ref="https://d-nb.info/gnd/115605771X">
-                  <surname>Neumann</surname>
-                  <forename>Marko</forename>
-               </persName>
-               <resp>
-                  <note type="remarkResponsibility">Transkription von 170 „Soldatenbriefen“ aus den Jahren 1745 bis 1872. Die Briefe entstammen Editionen, Digitalisierungsprojekten, vor allem aber eigener Archivarbeit von Stralsund bis München und Wien. Als Dissertation auch veröffentlicht im Universitätsverlag Winter, siehe <ref target="https://www.winter-verlag.de/de/detail/978-3-8253-4642-3/Neumann_Soldatenbriefe/">Marko Neumann: Soldatenbriefe des 18. und 19. Jahrhunderts, 2019</ref>.</note>
-               </resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition>Vollständige digitalisierte Ausgabe.</edition>
-         </editionStmt>
-         <extent/>
-         <publicationStmt>
-            <publisher xml:id="DTACorpusPublisher">
-               <orgName>Deutsches Textarchiv</orgName>
-               <orgName role="hostingInstitution" xml:lang="eng">Berlin-Brandenburg Academy of Sciences and Humanities (BBAW)</orgName>
-               <orgName role="hostingInstitution" xml:lang="deu">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
-               <email>dta@bbaw.de</email>
-               <address>
-                  <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
-               </address>
-            </publisher>
-            <pubPlace>Berlin</pubPlace>
-            <date type="publication">2022-01-07T15:32:25Z</date>
-            <availability>
-               <licence target="http://creativecommons.org/licenses/by-sa/4.0/deed.de">
-                  <p>Namensnennung – Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-SA 4.0)</p>
-               </licence>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl type="MAN">Soldatenbrief Nr. 116 von Dr. Carl F. Pogge, 17.08.1870.</bibl>
-            <biblFull>
-               <titleStmt>
-                  <title level="m" type="main">[SB-Nr. 116: Dr. Carl F. Pogge (Offizier), 17.08.1870, Norddeutsch]</title>
-                  <author>
-                     <persName>
-                        <surname>Carl F. Pogge</surname>
-                        <forename>Dr.</forename>
-                     </persName>
-                  </author>
-               </titleStmt>
-               <editionStmt>
-                  <edition/>
-               </editionStmt>
-               <publicationStmt>
-                  <publisher/>
-                  <date when="1870-08-17">1870</date>
-               </publicationStmt>
-            </biblFull>
-            <msDesc>
-               <msIdentifier/>
-               <physDesc/>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
-         <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="deu">(Früh-)Neuhochdeutsch</language>
-         </langUsage>
-         <textClass>
-            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
-            <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
-         </textClass>
-      </profileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div type="letter" n="116">
-            <head>
-               <supplied>SB-Nr. 116: Dr. Carl F. Pogge (Offizier), <date when="1870-08-17">17.08.1870</date>, <choice>
-                     <abbr>ND</abbr>
-                     <expan>Norddeutsch</expan>
-                  </choice>
+          </titleStmt>
+          <editionStmt>
+            <edition/>
+          </editionStmt>
+          <publicationStmt>
+            <publisher/>
+            <date when="1870-08-17">1870</date>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier/>
+          <physDesc/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>Dieses Werk wurde unter Berücksichtigung der <ref target="https://www.deutschestextarchiv.de/doku/richtlinien">DTA-Transkriptionsrichtlinien</ref> erstellt.</p>
+      <p>Der Text ist kodiert nach <ref target="https://www.deutschestextarchiv.de/doku/basisformat">DTA-Basisformat (DTABf)</ref>.</p>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="deu">(Früh-)Neuhochdeutsch</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1main">Gebrauchsliteratur</classCode>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds1sub">Brief</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter" n="116">
+        <head>
+          <supplied>SB-Nr. 116: Dr. Carl F. Pogge (Offizier), <date when="1870-08-17">17.08.1870</date>, <choice><abbr>ND</abbr><expan>Norddeutsch</expan></choice>
                </supplied>
-            </head>
-            <lb/>
-            <p>Jezainville 17.<gap reason="illegible"/>. 70.</p>
-            <lb/>
-            <p rendition="#et">Liebe Eltern!</p>
-            <lb/>
-            <p>Nach viertägigem Biwuak finden wir uns endlich<lb/>wieder einmal unter Dach und Fach; ich benutze<lb/>daher sogleich die Gelegenheit, Euch etwas ausführlicher<lb/>über unsere Irrfahrten zu berichten, als ich <lb/>es auf den beiden Correspondenzbriefen im<lb/>Stande war.</p>
-            <lb/>
-            <p>Vor unserer dreitägigen Eisenbahnfahrt schrieb ich<lb/>Euch bereits <add place="superlinear">
-                  <metamark/>(Gefangene <gap reason="illegible"/> auf jeder Station),</add> am Freitag langten wir mit<lb/>Verlust dreier Kranken<del rendition="#s">träger</del>
-               <add place="superlinear">
-                  <metamark/>wärter</add> unseres Lazareths<lb/>(einer wurde in Jalta übergefahren und <add place="superlinear">
-                  <metamark/>ist</add> 
+        </head>
+        <lb/>
+        <p>Jezainville 17.<gap reason="illegible"/>. 70.</p>
+        <lb/>
+        <p rendition="#et">Liebe Eltern!</p>
+        <lb/>
+        <p>Nach viertägigem Biwuak finden wir uns endlich<lb/>wieder einmal unter Dach und Fach; ich benutze<lb/>daher sogleich die Gelegenheit, Euch etwas ausführlicher<lb/>über unsere Irrfahrten zu berichten, als ich <lb/>es auf den beiden Correspondenzbriefen im<lb/>Stande war.</p>
+        <lb/>
+        <p>Vor unserer dreitägigen Eisenbahnfahrt schrieb ich<lb/>Euch bereits <add place="superlinear"><metamark/>(Gefangene <gap reason="illegible"/> auf jeder Station),</add> am Freitag langten wir mit<lb/>Verlust dreier Kranken<del rendition="#s">träger</del>
+               <add place="superlinear"><metamark/>wärter</add> unseres Lazareths<lb/>(einer wurde in Jalta übergefahren und <add place="superlinear"><metamark/>ist</add> 
                <unclear reason="illegible" cert="high" resp="#MN">leider</unclear>
-               <lb/>gestorben; zwei andere auf irgendwelche Station<lb/>vergessen) in Homburg in der Pfalz an, <add place="superlinear">
-                  <metamark/>und</add> marschirten<lb/>dann <hi rendition="#u">sofort </hi>noch einige Meilen weiter nach <hi rendition="#aq">Neu</hi>⸗<lb/>
-               <unclear reason="illegible" cert="high" resp="#MN">
-                  <hi rendition="#aq">Kirel</hi>
-               </unclear>. Von dort ging es am andern Tage <del rendition="#s">sofort</del>
+               <lb/>gestorben; zwei andere auf irgendwelche Station<lb/>vergessen) in Homburg in der Pfalz an, <add place="superlinear"><metamark/>und</add> marschirten<lb/>dann <hi rendition="#u">sofort </hi>noch einige Meilen weiter nach <hi rendition="#aq">Neu</hi>⸗<lb/>
+               <unclear reason="illegible" cert="high" resp="#MN"><hi rendition="#aq">Kirel</hi></unclear>. Von dort ging es am andern Tage <del rendition="#s">sofort</del>
                <lb/>weiter über <hi rendition="#aq">Saarbrücken</hi> ins Biwack bei <hi rendition="#aq">Forbach</hi>
                <lb/>(bei der <hi rendition="#aq">Verrerie Sophie</hi>). <hi rendition="#aq">Saarbr.</hi> soll nach den Be⸗<lb/>
                <fw type="folNum" place="bottom">[1]</fw>
-richten der Zeitungen von den Franzosen arg beschossen<lb/>sein; ich seh davon keine Spuren; hinter S. auf dem<lb/>Schlachtfelde bei <unclear reason="illegible" cert="high" resp="#MN">
-                  <hi rendition="#aq">Spickoren</hi>
-               </unclear> sah es dagegen <unclear reason="illegible" cert="high" resp="#MN">toll</unclear> genug<lb/>
+richten der Zeitungen von den Franzosen arg beschossen<lb/>sein; ich seh davon keine Spuren; hinter S. auf dem<lb/>Schlachtfelde bei <unclear reason="illegible" cert="high" resp="#MN"><hi rendition="#aq">Spickoren</hi></unclear> sah es dagegen <unclear reason="illegible" cert="high" resp="#MN">toll</unclear> genug<lb/>
                <gap reason="illegible"/>, wie sie die Höhen genom⸗<lb/>men haben können, scheint fast unbegreiflich.<lb/>Das Biwuakleben, welches meine Herrn Colle⸗<lb/>gen nur aus den Memoiren kannten, war<lb/>für mich nichts Neues mehr. Meine Erfahrun⸗<lb/>gen von 1866 kamen uns einigermaßen zu Gute<lb/>besonders in Bezug auf die Küche; nach einem<lb/>verunglückten Versuch des Stabsarztes übernahm<lb/>ich das Department allein und legte große<lb/>Ehre damit ein. Die Lieferungen bestanden<lb/>nur in Speck, Reis und Brod, die Felder lieferten <lb/>uns dagegen Kartoffeln, grüne Bohnen, Wurzeln<lb/>Kohlrabi u dgl. im Ueberfluß, Rothwein wurde<lb/>izw requirirt so daß wir in keiner hinsicht<lb/>klagen konnten. Meine Collegen werden<lb/>wohl anders darüber berichten, sie schimpften<lb/>entsetzlich. Als sie die letzte Nacht in unserer<lb/>Bauernhütte ohne Stroh auf bloßer Erde schlafen<lb/>mußten, glaubten sie vergehen zu müssen.<lb/>
                <fw type="folNum" place="bottom">[2]</fw>
                <lb/>Kartoffelschälen, Rübenschrepen usw war ihnen<lb/>anfangs sehr dispectirlich, endlich sahen sie <lb/>aber die Nothwendigkeit ein und fügten sich,<lb/>wenn auch <unclear reason="illegible" cert="high" resp="#MN">zaudernd</unclear> in ihr Schicksal; meine<lb/>Laune konnten sie bisjetzt noch nicht<lb/>verderben. Die sogenannten Strapazen, welche<lb/>wir auszuhalten haben, rühren mich nicht,<lb/>die ganze Art und Weise des Zusammen⸗<lb/>lebens ist aber so entsetzlich, daß ich für die<lb/>Zukunft wirklich einige Besorgniß hege.<lb/>
@@ -147,8 +138,7 @@ richten der Zeitungen von den Franzosen arg beschossen<lb/>sein; ich seh davon k
                <lb/>
                <del rendition="#s">legten was zu thun.</del> Unsere Aufgabe ist es nicht<lb/>unmittelbar während der Schlacht Dienste zu leisten;<lb/>sondern nach derselben ein stehendes Lazareth<lb/>zu errichten; höchstens können wir Assistenzärzte<lb/>zu den Verbandplätzen abcom̃andirt werden.<lb/>Wir hatten große Lust, freiwillig dorthin zu gehn;<lb/>aber wohin? wo waren die Verbandplätze;<lb/>mitlerweile war es finster geworden, also<lb/>die Auffindung noch erschwert. Nach längerem Zaudern<lb/>entschlossen wir uns endlich in die Nähe des nächsten<lb/>Dorfes <unclear reason="illegible" cert="high" resp="#MN">Begrarike</unclear> zu rücken. Dort blieben wir den<lb/>Rest der Nacht eingespannt, ohne Mäntel, da unsere<lb/>Bagage bei <hi rendition="#aq">Pont á Mousson</hi> 
                <del rendition="#s">geblieben</del>
-               <add place="superlinear">
-                  <metamark/>zurückgelassen</add>. Erst nach<lb/>
+               <add place="superlinear"><metamark/>zurückgelassen</add>. Erst nach<lb/>
                <fw type="folNum" place="bottom">[4]</fw>
                <lb/>Mitternacht hörte das Schießen auf. Bei Tagesanbruch<lb/>
                <del rendition="#s">rückten</del>marschirten wir sogleich weiter, mußten<lb/>aber schon bei <unclear reason="illegible" cert="high" resp="#MN">St Haberscheberg</unclear> ¼ Meile hinter <unclear reason="illegible" cert="high" resp="#MN">Grerellette</unclear>
@@ -156,12 +146,12 @@ richten der Zeitungen von den Franzosen arg beschossen<lb/>sein; ich seh davon k
                <hi rendition="#aq">Paul</hi>, der ganz munter war und unseren aus<lb/>gehungerten Seelen mit einer <unclear reason="illegible" cert="high" resp="#MN">Flase Cognac</unclear>
                <lb/>
                <gap reason="illegible"/> beschenkte.</p>
-            <lb/>
-            <p>Seit dem 21 sind wir endlich in Tätigkeit; meine<lb/>beiden Corr.karten von hier werdet Ihr erhalten<lb/>haben. Anfangs arbeiteten ich und Fr. Lavkorns Gatte<lb/>in einem Hause mit 78 nicht schwer verwundeten<lb/>Franzosen zusam̃en; nachdem wir endlich Ordnung<lb/>hereingebracht und den Schweinestall aufgeräumt<lb/>trat ein älterer Assistenzarzt Dr. Grünert an<lb/>meine Stelle, meine Wuth könnt Ihr Euch den-<lb/>ken; ich wurde der anderen Station dem Stabs<lb/>arzt beigegeben, der mir höchst unangenehm<lb/>war. Jetzt bin ich mit meinem Schicksal durchaus<lb/>ausgesöhnt; ich habe denselben Dr. Marquardt als einen<lb/>tüchtigen und eifrigen Arzt kennen gelernt, mit<lb/>dem zusammen zu schaffen eine Freude ist, während<lb/>der Dr. Grünert, den ich für einen etwas ungehobelten<lb/>aber sonst guten Kerl hielt, sich als einen roher, interesse⸗<lb/>loser, ungeschickter und unwissender Patron entlarvt<lb/>
+        <lb/>
+        <p>Seit dem 21 sind wir endlich in Tätigkeit; meine<lb/>beiden Corr.karten von hier werdet Ihr erhalten<lb/>haben. Anfangs arbeiteten ich und Fr. Lavkorns Gatte<lb/>in einem Hause mit 78 nicht schwer verwundeten<lb/>Franzosen zusam̃en; nachdem wir endlich Ordnung<lb/>hereingebracht und den Schweinestall aufgeräumt<lb/>trat ein älterer Assistenzarzt Dr. Grünert an<lb/>meine Stelle, meine Wuth könnt Ihr Euch den-<lb/>ken; ich wurde der anderen Station dem Stabs<lb/>arzt beigegeben, der mir höchst unangenehm<lb/>war. Jetzt bin ich mit meinem Schicksal durchaus<lb/>ausgesöhnt; ich habe denselben Dr. Marquardt als einen<lb/>tüchtigen und eifrigen Arzt kennen gelernt, mit<lb/>dem zusammen zu schaffen eine Freude ist, während<lb/>der Dr. Grünert, den ich für einen etwas ungehobelten<lb/>aber sonst guten Kerl hielt, sich als einen roher, interesse⸗<lb/>loser, ungeschickter und unwissender Patron entlarvt<lb/>
                <fw type="folNum" place="bottom">[5]</fw>
                <lb/>hat; der 3te Assistenzarzt Barke ist ein guter Kerl<lb/>dessen mehrtägiges Unwohlsein ich wohl bedaure.</p>
-            <lb/>
-            <p>Die letzte aber erste Person unser Gefechtsstabsarzt<lb/>Dr. <hi rendition="#aq">Schädemann</hi> ist sehr eifrig, hat sich aber durch<lb/>sein herrisches egoistisches Wesen bis jetz keine<lb/>große Liebe und Achtung erwerben können.<lb/>Er hat die leicht u. anderen Kranken als eigene<lb/>Station übernommen, während wir vier andren<lb/>Ärzte zu je zwei eine Station Verwundete haben.<lb/>
+        <lb/>
+        <p>Die letzte aber erste Person unser Gefechtsstabsarzt<lb/>Dr. <hi rendition="#aq">Schädemann</hi> ist sehr eifrig, hat sich aber durch<lb/>sein herrisches egoistisches Wesen bis jetz keine<lb/>große Liebe und Achtung erwerben können.<lb/>Er hat die leicht u. anderen Kranken als eigene<lb/>Station übernommen, während wir vier andren<lb/>Ärzte zu je zwei eine Station Verwundete haben.<lb/>
                <hi rendition="#aq">Sch</hi> u <hi rendition="#aq">M</hi>. operiren fast ganz allein; G. hat eine, ich zwei<lb/>Operationen gemacht (Oberschenkelamputationen<lb/>
                <gap reason="illegible"/> u 3 Septs; ich habe aber bei <hi rendition="#u">allen</hi> Operationen<lb/>assistirt, da L. chloroformirt u G nicht zu gebrauchen<lb/>ist. Morgens verbinden, keine kleine Arbeit,<lb/>Nachmittag Operationen, Abends Krankenjournale<lb/>führen, wir haben wirklich tüchtig geschafft; jetzt<lb/>seit einigen Tagen, da das Lazareth aufgelöst werden<lb/>soll und wir alle nur irgend transportablen<lb/>Kranken weggeschafft, ist etwas weniger zuthun, <lb/>ich beschäftige mich dafür mit Präparateanfertigen<lb/>mit dem <gap reason="illegible"/> bin ich zweimal zusehender gewesen,<lb/>ca. 1½ St. und einmal ½ St Spazieren gegangen,<lb/>sonst habe ich das Dorf nicht verlassen. Unseres<lb/>ganzes Lazarethpersonal ist eigentlich <hi rendition="#u">meisterhaft</hi>
                <lb/>zu nennen, die Lazarethgehülfen und Wärter,<lb/>alle zeigen Eifer und sind auch manche recht<lb/>
@@ -169,23 +159,20 @@ richten der Zeitungen von den Franzosen arg beschossen<lb/>sein; ich seh davon k
                <lb/>tüchtig. Gestern Abend in unserem Casino, wo<lb/>wir Mittags und Abends zusam̃enkommen,<lb/>der Lazarethküche der ersten Häuser (wir haben <lb/>übrigens 8 Häuser) sprechen die Leute, es sei ein<lb/>Vergnügen zu arbeiten, wenn sie sähen, daß<lb/>ihre Vorgesetzten ihnen mit gutem Beispiel<lb/>vorangingen und schilderten <del rendition="#s">unser</del>uns das<lb/>Treiben eines der beiden Lazarethe das 9te,<lb/>welches fortan abgerückt in sehr trüben<lb/>Farben (wir hatten nicht Zeit <del rendition="#s">auf so</del>und Gele⸗<lb/>genheit dies zusehn). Ärzte und Lazarethgehülfen<lb/>sollen vielfach betrunken in der Straße umher⸗<lb/>getaumelt sein, die Decken in Schmutz ohne<lb/>
                <unclear reason="illegible" cert="high" resp="#MN">festen</unclear> 
                <gap reason="illegible"/>. Alle Sendungen wurden nemlich <lb/>von ihnen am Eingang des Dorfes abgefangen<lb/>so daß sich sogar die Trinkfesten förmlich in<lb/>Rothwein gebadet haben sollen; während wir<lb/>Ärzte seit ca 8 Tagen keinen Wein gesehn,<lb/>sondern zu unserer guten aber einfachen Kran⸗<lb/>kenkost nur schlechten Schnaps getrunken haben<lb/>und unsere Kranken zwei Tage anstatt des<lb/>Rothweins nur <del rendition="#s">sch</del>leichten Mosel erhielten <del rendition="#s">haben</del>.</p>
-            <lb/>
-            <p>Für Eure lieben Briefe und Gratulationen<lb/>meinen besten Dank; besonders erfreute<lb/>mich die Nachricht von Carl W <gap reason="illegible"/>.<lb/>
+        <lb/>
+        <p>Für Eure lieben Briefe und Gratulationen<lb/>meinen besten Dank; besonders erfreute<lb/>mich die Nachricht von Carl W <gap reason="illegible"/>.<lb/>
                <fw type="folNum" place="bottom">[7]</fw>
             </p>
-            <lb/>
-            <p>
-               <hi rendition="#u">Versucht doch alles Mögliche</hi> mir meine Uniform<lb/>zu senden, vielleicht kennt Ihr den Com̃andant<lb/>der Ersatzmannschaften der Jäger in Gr;<lb/>wenn Ihr den Rock (mit einigen feinen<lb/>Cigarren in den Taschen vielleicht!) einpackt,<lb/>dann unter der Adresse An <add place="superlinear">
-                  <metamark/>das</add> 3 FldLzrth II Btl.<lb/>ohne meinen Namen mit der Bezeichnung<lb/>„Bekleidungsgegenstände“ verseht und<lb/>das Paquet mit dem Dienstsiegel des<lb/>betreffenden Herr Hauptmann oder drgl<lb/>versehen laßt, wäre die Sache gewiß zu machen. <lb/>Gestern erfuhren wir <hi rendition="#aq">Napoleons</hi> Gefangenschaft,<lb/>heute hieß es <hi rendition="#aq">Stepaine</hi> sei ebenfalls gefangen<lb/>und <hi rendition="#aq">Metz</hi> übergeben, die letzte Nachricht<lb/>bedarf wohl noch der Bestetigung; geschossen<lb/>haben sie heute Morgen wieder tüchtig. Hoffent-<lb/>lich hat die Menschenschlächterei bald ein Ende,<lb/>wenn wir auch wohl nicht hoffen dürfen, bald<lb/>in die Heimath zu kom̃en; der Anblick der<lb/>Schlachtfelder vom 16ten und 18ten war schauder-<lb/>erregend und in den Lazarethen ist trotz aller<lb/>Pflege der Jam̃er groß, so daß <add place="superlinear">
-                  <metamark/>auch</add> die kriegslustigste<lb/>Seele von <hi rendition="#u">diesem</hi> Kriege genug haben kann.</p>
-            <lb/>
-            <p>Freundliche Grüße an Euch, sowie an den schweigsa-<lb/>men Man!</p>
-            <lb/>
-            <p>Liebe Mutter! herzlichen Glückwunsch zu deinem Geburtstage<lb/>
+        <lb/>
+        <p><hi rendition="#u">Versucht doch alles Mögliche</hi> mir meine Uniform<lb/>zu senden, vielleicht kennt Ihr den Com̃andant<lb/>der Ersatzmannschaften der Jäger in Gr;<lb/>wenn Ihr den Rock (mit einigen feinen<lb/>Cigarren in den Taschen vielleicht!) einpackt,<lb/>dann unter der Adresse An <add place="superlinear"><metamark/>das</add> 3 FldLzrth II Btl.<lb/>ohne meinen Namen mit der Bezeichnung<lb/>„Bekleidungsgegenstände“ verseht und<lb/>das Paquet mit dem Dienstsiegel des<lb/>betreffenden Herr Hauptmann oder drgl<lb/>versehen laßt, wäre die Sache gewiß zu machen. <lb/>Gestern erfuhren wir <hi rendition="#aq">Napoleons</hi> Gefangenschaft,<lb/>heute hieß es <hi rendition="#aq">Stepaine</hi> sei ebenfalls gefangen<lb/>und <hi rendition="#aq">Metz</hi> übergeben, die letzte Nachricht<lb/>bedarf wohl noch der Bestetigung; geschossen<lb/>haben sie heute Morgen wieder tüchtig. Hoffent-<lb/>lich hat die Menschenschlächterei bald ein Ende,<lb/>wenn wir auch wohl nicht hoffen dürfen, bald<lb/>in die Heimath zu kom̃en; der Anblick der<lb/>Schlachtfelder vom 16ten und 18ten war schauder-<lb/>erregend und in den Lazarethen ist trotz aller<lb/>Pflege der Jam̃er groß, so daß <add place="superlinear"><metamark/>auch</add> die kriegslustigste<lb/>Seele von <hi rendition="#u">diesem</hi> Kriege genug haben kann.</p>
+        <lb/>
+        <p>Freundliche Grüße an Euch, sowie an den schweigsa-<lb/>men Man!</p>
+        <lb/>
+        <p>Liebe Mutter! herzlichen Glückwunsch zu deinem Geburtstage<lb/>
                <space dim="horizontal"/>Carl.</p>
-            <lb/>
-            <fw type="folNum" place="bottom">[8]</fw>
-         </div>
-      </body>
-   </text>
+        <lb/>
+        <fw type="folNum" place="bottom">[8]</fw>
+      </div>
+    </body>
+  </text>
 </TEI>

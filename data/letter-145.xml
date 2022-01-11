@@ -8,7 +8,8 @@
             <title type="main">[SB-Nr. 145: Ernst von Meier (Unteroffizier), 16.01.1871, Norddeutsch]</title>
             <author>
                <persName>
-                  <surname>von Meier</surname>
+                  <surname>Meier</surname>
+                  <nameLink>von</nameLink>
                   <forename>Ernst</forename>
                </persName>
             </author>
@@ -69,7 +70,8 @@
                   <title level="m" type="main">[SB-Nr. 145: Ernst von Meier (Unteroffizier), 16.01.1871, Norddeutsch]</title>
                   <author>
                      <persName>
-                        <surname>von Meier</surname>
+                        <surname>Meier</surname>
+                        <nameLink>von</nameLink>
                         <forename>Ernst</forename>
                      </persName>
                   </author>
