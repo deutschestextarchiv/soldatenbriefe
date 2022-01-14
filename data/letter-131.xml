@@ -5,7 +5,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">[SB-Nr. 131: Johann Schramm (Unteroffizier), 09.11.1970, Ostoberdeutsch]</title>
+            <title type="main">[SB-Nr. 131: Johann Schramm (Unteroffizier), 09.11.1870, Ostoberdeutsch]</title>
             <author>
                <persName>
                   <surname>Schramm</surname>
@@ -63,10 +63,10 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="MAN">Soldatenbrief Nr. 131 von Johann Schramm, 09.11.1970.</bibl>
+            <bibl type="MAN">Soldatenbrief Nr. 131 von Johann Schramm, 09.11.1870.</bibl>
             <biblFull>
                <titleStmt>
-                  <title level="m" type="main">[SB-Nr. 131: Johann Schramm (Unteroffizier), 09.11.1970, Ostoberdeutsch]</title>
+                  <title level="m" type="main">[SB-Nr. 131: Johann Schramm (Unteroffizier), 09.11.1870, Ostoberdeutsch]</title>
                   <author>
                      <persName>
                         <surname>Schramm</surname>
@@ -79,7 +79,7 @@
                </editionStmt>
                <publicationStmt>
                   <publisher/>
-                  <date when="1970-11-09">1970</date>
+                  <date when="1870-11-09">1870</date>
                </publicationStmt>
             </biblFull>
             <msDesc>
@@ -106,7 +106,7 @@
       <body>
          <div type="letter" n="131">
             <head>
-               <supplied>SB-Nr. 131: Johann Schramm (Unteroffizier), <date when="1970-11-09">09.11.1970</date>, <choice>
+               <supplied>SB-Nr. 131: Johann Schramm (Unteroffizier), <date when="1870-11-09">09.11.1870</date>, <choice>
                      <abbr>OOD</abbr>
                      <expan>Ostoberdeutsch</expan>
                   </choice>
