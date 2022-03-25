@@ -1,0 +1,91 @@
+title:
+  name: Soldatenbriefe des 18. und 19. Jahrhunderts
+  shortname: Soldatenbriefe
+  corpusname: soldatenbriefe
+genre:
+  main: Gebrauchsliteratur
+  sub: Brief
+description:
+  deu: >- 
+    Das Korpus „Soldatenbriefe“ umfasst 170 Briefe von
+    Offizieren, Unteroffizieren und einfachen Soldaten,
+    adressiert an die Familien in der Heimat. Die Briefe
+    wurden im Zeitraum von 1745 bis 1872 auf Deutsch verfasst;
+    ein deutlicher Schwerpunkt liegt auf Briefen aus den
+    Koalitions- und Befreiungskriegen (1792−1815), dem
+    Deutschen Krieg (1866) und dem Deutsch-Französischen Krieg
+    (1870/71). Stimmen die Schreibanlässe auch weitgehend
+    überein, so ist die Schreiberfahrung der drei
+    Dienstgradgruppen (Offizier, Unteroffizier, Mannschaften
+    bzw. einfacher Soldat) doch sehr verschieden. Das
+    Korpus bietet somit die Möglichkeit, die ganze Breite
+    historischer Alltagsschriftlichkeit an einer einzelnen
+    Briefsorte in den Blick zu nehmen.
+
+    Das Korpus ist im Rahmen einer sprachhistorischen Untersuchung
+    (Neumann 2019) entstanden und wird dort eingehend beschrieben 
+    (vgl. S. 59−67). Die handschriftlichen Brieforiginale stammen aus
+    unterschiedlichen Archiven des gesamten deutschsprachigen Raums.
+    Die Texte wurden buchstabengetreu transkribiert (vgl. S. 72−75).",
+            
+  eng: >-
+    The corpus "Soldiers' Letters" comprises 170
+    letters from officers, non-commissioned officers and
+    ordinary soldiers, addressed to their families back home.
+    The letters were written in German in the period from 1745
+    to 1872; there is a clear focus on letters from the
+    Coalition and Liberation Wars (1792-1815), the German War
+    (1866) and the Franco-Prussian War (1870/71). Although the
+    reasons for writing are largely the same, the writing
+    experience of the three rank groups (officer,
+    non-commissioned officer, enlisted men and common
+    soldier) is very different. The corpus thus offers the
+    possibility of examining the entire breadth of
+    historical everyday writing on the basis of a single
+    type of letter.
+
+    The corpus was created as part of a linguistic-historical study
+    (Neumann 2019) and is described in detail there (cf. pp. 59-67). The
+    handwritten letter originals come from various archives throughout
+    the German-speaking world. The texts were transcribed true to the
+    letter (cf. pp. 72-75).
+format:
+  data:
+    - TEI/DTABf
+    - TCF
+  metadata:
+    - TEI/DTABf
+    - CMDI
+    - DC
+  schema: https://www.deutschestextarchiv.de/basisformat_ms.rng
+keywords:
+  - Briefe
+  - Soldaten
+  - 18.–19. Jh.
+  - Alltagsschriftlichkeit
+  - Text+
+links:
+  LandingPage: https://zwei.dwds.de/d/korpora/soldatenbriefe
+  SearchPage: https://kaskade.dwds.de/dstar/soldatenbriefe/
+  Repository: https://github.com/deutschestextarchiv/soldatenbriefe
+  Text+: https://www.text-plus.org/en/research-data/user-story-508/
+size:
+  objects: 170
+  sentences: 3319
+  tokens: 96023
+association:
+  funding: ""
+  organization: BBAW
+  infrastructure: DWDS/DTA
+  metacorpus: Historische Texte
+licence: CC BY-SA 4.0
+project: 
+  cname: Dr. Marko Neumann
+  cemail: Marko.Neumann@germanistik.uni-giessen.de
+  creationstart:
+  creationend:
+timecoverage: "1745–1872"
+language: (Früh-)Neuhochdeutsch
+facsimile: false
+transcription: buchstabengetreu
+annotationlevel: ""
