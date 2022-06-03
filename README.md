@@ -13,7 +13,7 @@ the entire breadth of historical everyday writing on the basis of a
 single type of letter.
 
 The corpus “Soldatenbriefe des 18. und 19. Jahrhunderts” has been
-curated and published in the context of text+.
+curated and published in the context of [Text+](https://www.text-plus.org/).
 
 ## Content
 
