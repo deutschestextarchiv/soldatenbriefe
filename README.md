@@ -1,6 +1,6 @@
 # Corpus Soldatenbriefe (1745–1872)
 
-The corpus "Soldiers' Letters" comprises 170 letters from officers,
+The corpus “Soldiers' Letters” comprises 170 letters from officers,
 non-commissioned officers and ordinary soldiers, addressed to their
 families back home. While all letters are written in German in the
 period from 1745 to 1872, there is a clear focus on letters from the
@@ -19,9 +19,9 @@ curated and published in the context of [Text+](https://www.text-plus.org/).
 
 The repository contains different directories:
 
-- attic `[contains the original data]`
-- data `[contains the cureted data as single letters]`
-- scripts `[contains metadata-files as well as scripts being used during curation]`
+- [`attic`](attic): contains the original data
+- [`data`](data): contains the cureted data as single letters
+- [`scripts`](scripts): contains metadata-files as well as scripts being used during curation
 
 The workflow is documented in detail here:
 https://github.com/deutschestextarchiv/soldatenbriefe/wiki.
