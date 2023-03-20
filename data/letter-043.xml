@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main">[SB-Nr. 43: Heinrich F. Normann (Offizier), 21.01.1816, Norddeutsch]</title>
             <author>
-               <persName>
+               <persName role="Offizier">
                   <surname>Normann</surname>
                   <forename>Heinrich F.</forename>
                </persName>
@@ -68,7 +66,7 @@
                <titleStmt>
                   <title level="m" type="main">[SB-Nr. 43: Heinrich F. Normann (Offizier), 21.01.1816, Norddeutsch]</title>
                   <author>
-                     <persName>
+                     <persName role="Offizier">
                         <surname>Normann</surname>
                         <forename>Heinrich F.</forename>
                      </persName>

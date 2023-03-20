@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main">[SB-Nr. 155: Ludwig Stoeger (Offizier), 14.02.1871, Ostoberdeutsch]</title>
             <author>
-               <persName>
+               <persName role="Offizier">
                   <surname>Stoeger</surname>
                   <forename>Ludwig</forename>
                </persName>
@@ -68,7 +66,7 @@
                <titleStmt>
                   <title level="m" type="main">[SB-Nr. 155: Ludwig Stoeger (Offizier), 14.02.1871, Ostoberdeutsch]</title>
                   <author>
-                     <persName>
+                     <persName role="Offizier">
                         <surname>Stoeger</surname>
                         <forename>Ludwig</forename>
                      </persName>

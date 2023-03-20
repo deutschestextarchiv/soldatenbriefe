@@ -1,19 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main">[SB-Nr. 149: Gottfried und Adam Lechner (Mannschaften), 26.01.1871, Nordoberdeutsch]</title>
             <author>
-               <persName>
+               <persName role="Mannschaften">
                   <surname>Lechner</surname>
                   <forename>Gottfried</forename>
                </persName>
             </author>
             <author>
-               <persName>
+               <persName role="Mannschaften">
                   <surname>Lechner</surname>
                   <forename>Adam</forename>
                </persName>
@@ -74,11 +72,11 @@
                <titleStmt>
                   <title level="m" type="main">[SB-Nr. 149: Gottfried und Adam Lechner (Mannschaften), 26.01.1871, Nordoberdeutsch]</title>
                   <author>
-                     <persName>
+                     <persName role="Mannschaften">
                         <surname>Lechner</surname>
                         <forename>Gottfried</forename>
                      </persName>
-                     <persName>
+                     <persName role="Mannschaften">
                         <surname>Lechner</surname>
                         <forename>Adam</forename>
                      </persName>

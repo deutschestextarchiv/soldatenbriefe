@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main">[SB-Nr. 66: Rudolf Potier des Echelles (Offizier), 23.02.1864, Ostoberdeutsch]</title>
             <author>
-               <persName>
+               <persName role="Offizier">
                   <surname>Potier des Echelles</surname>
                   <forename>Rudolf</forename>
                </persName>
@@ -68,7 +66,7 @@
                <titleStmt>
                   <title level="m" type="main">[SB-Nr. 66: Rudolf Potier des Echelles (Offizier), 23.02.1864, Ostoberdeutsch]</title>
                   <author>
-                     <persName>
+                     <persName role="Offizier">
                         <surname>Potier des Echelles</surname>
                         <forename>Rudolf</forename>
                      </persName>

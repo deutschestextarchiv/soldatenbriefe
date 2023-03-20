@@ -1,13 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main">[SB-Nr. 161: Adalbert von Barby (Offizier), 30.04.1871, Norddeutsch]</title>
             <author>
-               <persName>
+               <persName role="Offizier">
                   <surname>Barby</surname>
                   <nameLink>von</nameLink>
                   <forename>Adalbert</forename>
@@ -69,7 +67,7 @@
                <titleStmt>
                   <title level="m" type="main">[SB-Nr. 161: Adalbert von Barby (Offizier), 30.04.1871, Norddeutsch]</title>
                   <author>
-                     <persName>
+                     <persName role="Offizier">
                         <surname>Barby</surname>
                         <nameLink>von</nameLink>
                         <forename>Adalbert</forename>

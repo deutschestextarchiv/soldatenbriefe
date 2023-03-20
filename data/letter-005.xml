@@ -1,19 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0"?>
+<?xml-model href="https://www.deutschestextarchiv.de/basisformat_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://www.deutschestextarchiv.de/basisformat.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
             <title type="main">[SB-Nr. 5: Joachim D. und Ertman Kamiet (Mannschaften?), 01.03.1757, Norddeutsch]</title>
             <author>
-               <persName>
+               <persName role="Mannschaften" cert="low">
                   <surname>Kamiet</surname>
                   <forename>Joachim D.</forename>
                </persName>
             </author>
             <author>
-               <persName>
+               <persName role="Mannschaften" cert="low">
                   <surname>Kamiet</surname>
                   <forename>Ertman</forename>
                </persName>
@@ -74,11 +72,11 @@
                <titleStmt>
                   <title level="m" type="main">[SB-Nr. 5: Joachim D. und Ertman Kamiet (Mannschaften?), 01.03.1757, Norddeutsch]</title>
                   <author>
-               <persName>
+               <persName role="Mannschaften" cert="low">
                   <surname>Kamiet</surname>
                   <forename>Joachim D.</forename>
                </persName>
-               <persName>
+               <persName role="Mannschaften" cert="low">
                   <surname>Kamiet</surname>
                   <forename>Ertman</forename>
                </persName>
