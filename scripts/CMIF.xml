@@ -1,0 +1,1908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- Generated from table of letters with csv2cmi 2.1.0 as webservice at https://cmif.saw-leipzig.de-->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:id="title-ab83-0fb1-3c7ade6189">Soldatenbriefe des 18. und 19.
+                    Jahrhunderts</title>
+                <editor>Marthe Küster</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                <idno type="url"
+                    >https://cmif.saw-leipzig.de/api/2022-09-20T09:12:02.374__Soldatenbriefe(3)/xml</idno>
+                <date when="2022-09-20T09:12:02.926151"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC-BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="hybrid" xml:id="fa81f0d5-83c1-49b2-a528-471d1bbad9fc">Neumann, Marko.
+                    Soldatenbriefe des 18. und 19. Jahrhunderts: Untersuchungen zu Syntax und
+                    Textstruktur in der Alltagsschriftlichkeit unterschiedlicher militärischer
+                    Dienstgrade. Germanistische Bibliothek, Band 68. Heidelberg: Universitätsverlag
+                    Winter, 2019.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="1"
+                xml:id="letter-dcb1-7bd5-a48fbc962e">
+                <correspAction xml:id="sender-32d9-25b0-b159cd0426" type="sent">
+                    <persName ref="UUID-XY">Nikolaus Binn</persName>
+                    <placeName ref="http://www.geonames.org/3069310">Königgretz</placeName>
+                    <date when="1745-06-19">19.06.1745</date>
+                </correspAction>
+                <correspAction xml:id="addressee-26b4-bcf1-549830c16d" type="received">
+                    <persName ref="UUID-XY">Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="2"
+                xml:id="letter-34b8-ce89-4ae85c6b07">
+                <correspAction xml:id="sender-ac38-0cab-451ba270c3" type="sent">
+                    <persName ref="UUID-XY">Christian Arnholtz</persName>
+                    <placeName ref="http://www.geonames.org/2953927">Außig</placeName>
+                    <date when="1756-09-21">21.09.1756</date>
+                </correspAction>
+                <correspAction xml:id="addressee-31e2-8531-5a3be9d102" type="received">
+                    <persName ref="UUID-XY">Bruder</persName>
+                    <placeName>Zetlingen</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="3"
+                xml:id="letter-9386-3d62-acb89e14f5">
+                <correspAction xml:id="sender-7b0a-4d7a-56fac48ed3" type="sent">
+                    <persName ref="UUID-XY">Kaspar Kalberlah</persName>
+                    <date when="1756-11-11">11.11.1756</date>
+                </correspAction>
+                <correspAction xml:id="addressee-3ed7-528e-6ca0b8f3e2" type="received">
+                    <persName ref="UUID-XY">Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="4"
+                xml:id="letter-b7d4-4a6b-0e2769c435">
+                <correspAction xml:id="sender-94bd-4fe7-f1d5b8c09e" type="sent">
+                    <persName ref="UUID-XY">Joachim D. Kamiet</persName>
+                    <date when="1757-02-08">08.02.1757</date>
+                </correspAction>
+                <correspAction xml:id="addressee-af34-4986-267c0d8453" type="received">
+                    <persName ref="UUID-XY">Eltern und Geschwister</persName>
+                    <placeName ref="http://www.geonames.org/3213377">Geinitz</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="5"
+                xml:id="letter-dc6e-0d39-576084dcf3">
+                <correspAction xml:id="sender-5cab-4e9a-3ca41edb98" type="sent">
+                    <persName ref="UUID-XY">Joachim D. Kamiet</persName>
+                    <placeName ref="http://www.geonames.org/2936658">Döbeln</placeName>
+                    <date when="1757-03-01">01.03.1757</date>
+                </correspAction>
+                <correspAction xml:id="addressee-8f16-75c2-dfc8642b37" type="received">
+                    <persName ref="UUID-XY">Eltern und Geschwister</persName>
+                    <placeName ref="http://www.geonames.org/3213377">Geinitz</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="6"
+                xml:id="letter-49b8-79d3-dae7f53c84">
+                <correspAction xml:id="sender-025f-d4b3-fa13892c5e" type="sent">
+                    <persName ref="UUID-XY">? Seiler</persName>
+                    <placeName ref="http://www.geonames.org/2937238">Diesdorf bei
+                        Eckersberg</placeName>
+                    <date when="1757-11-08">08.11.1757</date>
+                </correspAction>
+                <correspAction xml:id="addressee-e97c-09ef-93d42cb57e" type="received">
+                    <persName ref="UUID-XY">Mutter</persName>
+                    <placeName ref="http://www.geonames.org/2836108">Schrepkow</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="7"
+                xml:id="letter-6492-0cb2-9a26c301fe">
+                <correspAction xml:id="sender-30e1-1bc8-f4be52870a" type="sent">
+                    <persName ref="UUID-XY">Nikolaus Binn</persName>
+                    <placeName ref="http://www.geonames.org/2809769">Wickendorf</placeName>
+                    <date when="1758-03-15">15.03.1758</date>
+                </correspAction>
+                <correspAction xml:id="addressee-36d9-751c-39ea0278c4" type="received">
+                    <persName ref="UUID-XY">Ehefrau, Kinder und Familie</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="8"
+                xml:id="letter-859c-1b98-54709e3cba">
+                <correspAction xml:id="sender-6fed-e8a2-b6f7c95e24" type="sent">
+                    <persName ref="UUID-XY">Heinrich Krafft</persName>
+                    <placeName ref="http://www.geonames.org/2815255">Walbeck</placeName>
+                    <date when="1758-05-08">08.05.1758</date>
+                </correspAction>
+                <correspAction xml:id="addressee-9d5c-fe05-489b573f21" type="received">
+                    <persName ref="UUID-XY">Partnerin</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="9"
+                xml:id="letter-ea29-e02b-3549b02dc1">
+                <correspAction xml:id="sender-a13c-40d2-d9e752bfa6" type="sent">
+                    <persName ref="UUID-XY">Kaspar Kalberlah</persName>
+                    <placeName>zwischen Dräfen und Birna</placeName>
+                    <date when="1758-09-26">26.09.1758</date>
+                </correspAction>
+                <correspAction xml:id="addressee-7f23-06cd-6ebfd320c8" type="received">
+                    <persName ref="UUID-XY">Eltern, Geschwister und Familie</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="10"
+                xml:id="letter-7e43-e29b-a0498bc761">
+                <correspAction xml:id="sender-e906-ae8d-28fd0b43a7" type="sent">
+                    <persName ref="UUID-XY">Nikolaus Binn</persName>
+                    <placeName>Zetzau bei Frankfuhrt</placeName>
+                    <date when="1759-07-20">20.07.1759</date>
+                </correspAction>
+                <correspAction xml:id="addressee-c2af-15b3-b4e6190adc" type="received">
+                    <persName ref="UUID-XY">Ehefrau und Kinder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="11"
+                xml:id="letter-139b-ca13-3ab089c176">
+                <correspAction xml:id="sender-a0ed-d58a-cb2849d5ea" type="sent">
+                    <persName ref="a450d944-70e4-4541-923f-f7b2d6d31540">Johann C. Riemann</persName>
+                    <placeName ref="http://www.geonames.org/2852154">Prätzschendorff</placeName>
+                    <date when="1762-06-16">16.06.1762</date>
+                </correspAction>
+                <correspAction xml:id="addressee-16e4-47c9-b1a8c5469e" type="received">
+                    <persName ref="UUID-XY">Familie und Freunde</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="12"
+                xml:id="letter-b2f9-5489-b523f8941d">
+                <correspAction xml:id="sender-1bfe-de7b-9d2bca05e6" type="sent">
+                    <persName ref="UUID-XY">E. P. von Anderten</persName>
+                    <placeName ref="http://www.geonames.org/2921379">Gemünden</placeName>
+                    <date when="1762-09-30">30.09.1762</date>
+                </correspAction>
+                <correspAction xml:id="addressee-eb63-31c2-e163bfa85d" type="received">
+                    <persName ref="UUID-XY">Mutter und Großmutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="13"
+                xml:id="letter-4d36-5b8a-b2174a9680">
+                <correspAction xml:id="sender-f3a5-054c-49c10de2ba" type="sent">
+                    <persName ref="UUID-XY">Joachim N. Binn</persName>
+                    <placeName>Bünnefeldt</placeName>
+                    <date when="1776-04-13">13.04.1776</date>
+                </correspAction>
+                <correspAction xml:id="addressee-5426-e312-d82b634f7a" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                    <placeName ref="http://www.geonames.org/2852872">Polkau</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="14"
+                xml:id="letter-6a79-8efd-db08c4e695">
+                <correspAction xml:id="sender-e93b-df48-964cdae850" type="sent">
+                    <persName ref="UUID-XY">H. U. Cleve</persName>
+                    <placeName ref="http://www.geonames.org/3042289">St. Anne</placeName>
+                    <date when="1777-03-11">11.03.1777</date>
+                </correspAction>
+                <correspAction xml:id="addressee-71c8-ea92-15efc4978d" type="received">
+                    <persName ref="UUID-XY">Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="15"
+                xml:id="letter-cda1-d35c-e602b14a98">
+                <correspAction xml:id="sender-de82-3fba-91c063da24" type="sent">
+                    <persName ref="aa4314e9-ab35-43da-8d86-3af946260433">C. Klein</persName>
+                    <placeName ref="http://www.geonames.org/2900993">Hochkeppel</placeName>
+                    <date when="1794-12-12">12.12.1794</date>
+                </correspAction>
+                <correspAction xml:id="addressee-284b-c596-50e436c8b9" type="received">
+                    <persName ref="UUID-XY">Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="16"
+                xml:id="letter-45c1-3f7c-19ecf5b240">
+                <correspAction xml:id="sender-91cd-d2b6-d05be1698f" type="sent">
+                    <persName ref="a38efb04-8e81-4588-b8eb-f0333287166b">? Marencke</persName>
+                    <placeName ref="http://www.geonames.org/2852458">Potsdam</placeName>
+                    <date when="1796-10-10">10.10.1796</date>
+                </correspAction>
+                <correspAction xml:id="addressee-f6ac-815a-964cf7a152" type="received">
+                    <persName ref="UUID-XY">Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="17"
+                xml:id="letter-49f1-2df0-ac38620e41">
+                <correspAction xml:id="sender-5f02-e6a1-475e0139a6" type="sent">
+                    <persName ref="UUID-XY">Friedrich Reinhard</persName>
+                    <placeName ref="http://www.geonames.org/2906676">Khel</placeName>
+                    <date when="1796-11-22">22.11.1796</date>
+                </correspAction>
+                <correspAction xml:id="addressee-4e38-6f3a-6914a23c8b" type="received">
+                    <persName ref="UUID-XY">Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="18"
+                xml:id="letter-52bc-41ba-7f83a05d41">
+                <correspAction xml:id="sender-42bc-7b19-a8dc4fb032" type="sent">
+                    <persName ref="UUID-XY">Friedrich Reinhard</persName>
+                    <placeName>Pontaffel</placeName>
+                    <date when="1798-08-03">03.08.1798</date>
+                </correspAction>
+                <correspAction xml:id="addressee-916f-e5b1-0da5316b49" type="received">
+                    <persName ref="UUID-XY">Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="19"
+                xml:id="letter-6cde-d7b9-69eca8b2f0">
+                <correspAction xml:id="sender-62db-93e6-b8f14597c0" type="sent">
+                    <persName ref="UUID-XY">? Beddies</persName>
+                    <date when="1807-04-04">04.04.1807</date>
+                </correspAction>
+                <correspAction xml:id="addressee-ce40-41e6-32ced7a9bf" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="20"
+                xml:id="letter-9eb7-a24b-6825a73bf9">
+                <correspAction xml:id="sender-ab2c-bf3d-fc6be1a325" type="sent">
+                    <persName ref="UUID-XY">Johann B. Zuckerschwedt</persName>
+                    <placeName ref="http://www.geonames.org/2994160">Metz</placeName>
+                    <date when="1809-03-25">25.03.1809</date>
+                </correspAction>
+                <correspAction xml:id="addressee-3efd-685b-481f9d5623" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="21"
+                xml:id="letter-4d17-c89b-c836251a04">
+                <correspAction xml:id="sender-f26e-0edf-e20953147b" type="sent">
+                    <persName ref="https://d-nb.info/gnd/133716775">Eduard Freiherr von
+                        Callot</persName>
+                    <date when="1809-09-30">30.09.1809</date>
+                </correspAction>
+                <correspAction xml:id="addressee-f049-3de5-c38b240f7a" type="received">
+                    <persName ref="UUID-XY">Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="22"
+                xml:id="letter-843d-a318-7d2b9310ac">
+                <correspAction xml:id="sender-031c-e450-6f73089adc" type="sent">
+                    <persName ref="UUID-XY">Johan Seib</persName>
+                    <placeName ref="http://www.geonames.org/3172483">Muggia</placeName>
+                    <date when="1811-02-16">16.02.1811</date>
+                </correspAction>
+                <correspAction xml:id="addressee-4519-7a62-40975b6afe" type="received">
+                    <persName ref="UUID-XY">Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="23"
+                xml:id="letter-fc83-9a47-428b61cd5a">
+                <correspAction xml:id="sender-fb91-243d-dc7164fe35" type="sent">
+                    <persName ref="UUID-XY">Philipp Franzen</persName>
+                    <placeName ref="http://www.geonames.org/2745912">Uttrikt</placeName>
+                    <date when="1811-09-20">20.09.1811</date>
+                </correspAction>
+                <correspAction xml:id="addressee-ce16-3ba7-f5b81a4702" type="received">
+                    <persName ref="UUID-XY">Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="24"
+                xml:id="letter-0729-9f01-7ad6cb3e92">
+                <correspAction xml:id="sender-1e35-ce84-bd98015ca6" type="sent">
+                    <persName ref="UUID-XY">Stephan Wahlen</persName>
+                    <placeName ref="http://www.geonames.org/3029162">Calais</placeName>
+                    <date when="1811-07-17">17.07.1811</date>
+                </correspAction>
+                <correspAction xml:id="addressee-de6f-1bf6-f076c2a419" type="received">
+                    <persName ref="UUID-XY">Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="25"
+                xml:id="letter-b27d-f08c-781d4bc603">
+                <correspAction xml:id="sender-1a69-963e-1f5032ae6c" type="sent">
+                    <persName ref="UUID-XY">Heinrich Brennecke</persName>
+                    <placeName ref="http://www.geonames.org/2955168">Aschersleben</placeName>
+                    <date when="1812-05-29">29.05.1812</date>
+                </correspAction>
+                <correspAction xml:id="addressee-ab7c-f165-d03715acf6" type="received">
+                    <persName ref="UUID-XY">Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="26"
+                xml:id="letter-1df2-4a8f-adbc430f87">
+                <correspAction xml:id="sender-ba62-12e4-18b634dfac" type="sent">
+                    <persName ref="UUID-XY">August Pöhling</persName>
+                    <placeName ref="http://www.geonames.org/524901">Mosaick bei Moskau</placeName>
+                    <date when="1812-09-28">28.09.1812</date>
+                </correspAction>
+                <correspAction xml:id="addressee-98a2-6e4b-fb43d289ec" type="received">
+                    <persName ref="UUID-XY">Schwester</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="27"
+                xml:id="letter-87b2-ecf1-643cd8b2f9">
+                <correspAction xml:id="sender-a6e0-b950-92bfa3ce18" type="sent">
+                    <persName ref="UUID-XY">Ferdinand Metzner</persName>
+                    <placeName ref="http://www.geonames.org/524901">Mosaick bei Moskau</placeName>
+                    <date when="1812-10-13">13.10.1812</date>
+                </correspAction>
+                <correspAction xml:id="addressee-b071-8d16-ef0b71348a" type="received">
+                    <persName ref="UUID-XY">Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="28"
+                xml:id="letter-fc0d-57c6-afe64bc328">
+                <correspAction xml:id="sender-861b-f0be-0b3e9874a5" type="sent">
+                    <persName ref="UUID-XY">Stephan Wahlen</persName>
+                    <placeName ref="http://www.geonames.org/3031137">Boulogne</placeName>
+                    <date when="1812-01-01">01.01.1812</date>
+                </correspAction>
+                <correspAction xml:id="addressee-7e42-e45f-ba61c8fd27" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="29"
+                xml:id="letter-e9b4-4da0-470fa2c1bd">
+                <correspAction xml:id="sender-7192-d04c-726cb94d35" type="sent">
+                    <persName ref="UUID-XY">Wilhelm Nosten</persName>
+                    <placeName ref="http://www.geonames.org/2826287">Stralsund</placeName>
+                    <date when="1812-04-14">14.04.1812</date>
+                </correspAction>
+                <correspAction xml:id="addressee-3805-c7a2-c0f34752a6" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="30"
+                xml:id="letter-043d-8f75-b4e381d695">
+                <correspAction xml:id="sender-d976-ab08-a7b2e3869f" type="sent">
+                    <persName ref="UUID-XY">Heinrich Brennecke</persName>
+                    <placeName>Ziegenhain</placeName>
+                    <date when="1813-02-01">01.02.1813</date>
+                </correspAction>
+                <correspAction xml:id="addressee-cf01-5e2b-4e8f9ca2d0" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="31"
+                xml:id="letter-a045-8713-4b7a852369">
+                <correspAction xml:id="sender-e15c-2d65-8cae7956b0" type="sent">
+                    <persName ref="UUID-XY">Johann H. T. von Strombeck</persName>
+                    <placeName ref="http://www.geonames.org/2750053">Nimwegen</placeName>
+                    <date when="1813-05-10">10.05.1813</date>
+                </correspAction>
+                <correspAction xml:id="addressee-47e6-186c-90ca73f5e8" type="received">
+                    <persName ref="UUID-XY">Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="32"
+                xml:id="letter-76ef-80bd-dc905e8734">
+                <correspAction xml:id="sender-c3a9-8695-1340ba27ed" type="sent">
+                    <persName ref="a71b9bb8-ad84-43f2-8a5f-cec1210e7be7">Ferdinand Freiherr von Csollich</persName>
+                    <placeName ref="http://www.geonames.org/3071748">Losch bei Duchs</placeName>
+                    <date when="1813-07-06">06.07.1813</date>
+                </correspAction>
+                <correspAction xml:id="addressee-8ad4-e86b-142bd5e096" type="received">
+                    <persName ref="UUID-XY">Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="33"
+                xml:id="letter-f2e1-7028-dca7f236b0">
+                <correspAction xml:id="sender-e9f1-b6fd-02f9c8e417" type="sent">
+                    <persName ref="https://d-nb.info/gnd/133716775">Eduard Freiherr von
+                        Callot</persName>
+                    <placeName>Wittich</placeName>
+                    <date when="1813-08-13">13.08.1813</date>
+                </correspAction>
+                <correspAction xml:id="addressee-0c79-8154-de3257ac01" type="received">
+                    <persName ref="UUID-XY">Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="34"
+                xml:id="letter-729a-3e86-70f84db29a">
+                <correspAction xml:id="sender-9280-830e-3b5821e04a" type="sent">
+                    <persName ref="UUID-XY">Friedrich Binder</persName>
+                    <placeName ref="http://www.geonames.org/2894394">Jüterbog</placeName>
+                    <date when="1813-09-07">07.09.1813</date>
+                </correspAction>
+                <correspAction xml:id="addressee-ea4d-95d6-f27c38a45d" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="35"
+                xml:id="letter-1d86-b3e1-83b091c54a">
+                <correspAction xml:id="sender-902b-1c39-73ab28fd5e" type="sent">
+                    <persName ref="https://d-nb.info/gnd/133716775">Eduard Freiherr von
+                        Callot</persName>
+                    <placeName ref="http://www.geonames.org/3171058">Piacenza</placeName>
+                    <date when="1814-07-18">18.07.1814</date>
+                </correspAction>
+                <correspAction xml:id="addressee-9ae0-d18e-280df4ae65" type="received">
+                    <persName ref="UUID-XY">Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="36"
+                xml:id="letter-3549-6910-1be594a8cd">
+                <correspAction xml:id="sender-13c7-475d-e9201a46b8" type="sent">
+                    <persName ref="UUID-XY">Johann H. Baake</persName>
+                    <placeName ref="http://www.geonames.org/2806914">Wolfenbüttel</placeName>
+                    <date when="1815-02-28">28.02.1815</date>
+                </correspAction>
+                <correspAction xml:id="addressee-0eb5-4c97-abc8765391" type="received">
+                    <persName ref="UUID-XY">Partnerin</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="37"
+                xml:id="letter-a21d-dec3-c10e82d365">
+                <correspAction xml:id="sender-64f2-9ea4-38abf7d1e9" type="sent">
+                    <persName ref="UUID-XY">August Kubel</persName>
+                    <placeName ref="http://www.geonames.org/2793656">Laken</placeName>
+                    <date when="1815-06-22">22.06.1815</date>
+                </correspAction>
+                <correspAction xml:id="addressee-1bd6-92c0-f85d3aeb96" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="38"
+                xml:id="letter-5c90-1370-4af5cb9713">
+                <correspAction xml:id="sender-c816-eb02-f3974acde0" type="sent">
+                    <persName ref="UUID-XY">Johann P. W. Schütte</persName>
+                    <placeName ref="http://www.geonames.org/2791301">Merxem</placeName>
+                    <date when="1815-07-02">02.07.1815</date>
+                </correspAction>
+                <correspAction xml:id="addressee-70f5-4317-f6198372d5" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="39"
+                xml:id="letter-37a2-f568-4c8d32e1f0">
+                <correspAction xml:id="sender-04fb-c70b-abc38f2497" type="sent">
+                    <persName ref="UUID-XY">Friedrich Binder</persName>
+                    <placeName ref="http://www.geonames.org/2988507">Paris</placeName>
+                    <date when="1815-07-08">08.07.1815</date>
+                </correspAction>
+                <correspAction xml:id="addressee-78a2-e062-865c92bf4a" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="40"
+                xml:id="letter-b360-bd94-78ca0e36fb">
+                <correspAction xml:id="sender-ac73-10a6-b5ed03724a" type="sent">
+                    <persName ref="UUID-XY">Ernst C. Schacht</persName>
+                    <placeName ref="http://www.geonames.org/2988507">Paris</placeName>
+                    <date when="1815-08-25">25.08.1815</date>
+                </correspAction>
+                <correspAction xml:id="addressee-ce27-c465-a891d4b75f" type="received">
+                    <persName ref="UUID-XY">Familie</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="41"
+                xml:id="letter-c62f-8519-dbaf1e6809">
+                <correspAction xml:id="sender-6c2a-3520-3f8cad274b" type="sent">
+                    <persName ref="UUID-XY">Abraham Schnelle</persName>
+                    <placeName ref="http://www.geonames.org/727547">Ruen</placeName>
+                    <date when="1815-10-16">16.10.1815</date>
+                </correspAction>
+                <correspAction xml:id="addressee-8741-ce72-f4ae520b19" type="received">
+                    <persName ref="UUID-XY">Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="42"
+                xml:id="letter-ebc7-89b5-4d97fc805e">
+                <correspAction xml:id="sender-b069-28fb-3542fd1b90" type="sent">
+                    <persName ref="UUID-XY">Peter Osterwind</persName>
+                    <placeName ref="http://www.geonames.org/3025466">Scherburg</placeName>
+                    <date when="1815-06-10">10.06.1815</date>
+                </correspAction>
+                <correspAction xml:id="addressee-f208-5290-be60a7fc3d" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="43"
+                xml:id="letter-19c4-cfd7-0a941deb6f">
+                <correspAction xml:id="sender-0539-8f6e-be85916d42" type="sent">
+                    <persName ref="UUID-XY">Heinrich F. Normann</persName>
+                    <placeName ref="http://www.geonames.org/2950159">Berlin</placeName>
+                    <date when="1816-01-21">21.01.1816</date>
+                </correspAction>
+                <correspAction xml:id="addressee-ed21-41bc-0385a6fdc2" type="received">
+                    <persName ref="UUID-XY">Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="44"
+                xml:id="letter-fa5b-a2c0-a95c81d24f">
+                <correspAction xml:id="sender-0c18-ba25-a7b06ec59f" type="sent">
+                    <persName ref="UUID-XY">Friedrich Hoffmann</persName>
+                    <placeName ref="http://www.geonames.org/2772505">Lienz</placeName>
+                    <date when="1832-12-07">07.12.1832</date>
+                </correspAction>
+                <correspAction xml:id="addressee-78c2-6fd9-f725b14930" type="received">
+                    <persName ref="UUID-XY">Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="45"
+                xml:id="letter-34a9-9a10-baf0729135">
+                <correspAction xml:id="sender-15e3-edf3-a8e9d1cf7b" type="sent">
+                    <persName ref="UUID-XY">Friedrich Hoffmann</persName>
+                    <placeName>Zeitun</placeName>
+                    <date when="1833-06-17">17.06.1833</date>
+                </correspAction>
+                <correspAction xml:id="addressee-d8ef-891a-fe8d1c0374" type="received">
+                    <persName ref="UUID-XY">Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="46"
+                xml:id="letter-6804-453c-5389bde1a0">
+                <correspAction xml:id="sender-172b-6ea4-d263fc5078" type="sent">
+                    <persName ref="UUID-XY">Friedrich Hoffmann</persName>
+                    <placeName ref="http://www.geonames.org/3165185">Triest</placeName>
+                    <date when="1834-04-24">24.04.1834</date>
+                </correspAction>
+                <correspAction xml:id="addressee-c2d4-379e-352eda4b1c" type="received">
+                    <persName ref="UUID-XY">Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="47"
+                xml:id="letter-a389-75ab-0a2b8fc953">
+                <correspAction xml:id="sender-f614-03ea-a4920fdb57" type="sent">
+                    <persName ref="a8db59fc-4767-4d7d-9e7e-f8ac2bba3937">Carl Münchhoff</persName>
+                    <placeName ref="http://www.geonames.org/3046446">Pesth</placeName>
+                    <date when="1848-05-29">29.05.1848</date>
+                </correspAction>
+                <correspAction xml:id="addressee-0257-6532-6235e7d984" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="48"
+                xml:id="letter-0ae9-720e-f52e4c8a76">
+                <correspAction xml:id="sender-ed46-854b-0f2e58d719" type="sent">
+                    <persName ref="UUID-XY">Josef Wolfinger</persName>
+                    <placeName ref="http://www.geonames.org/2766824">Saltzburg</placeName>
+                    <date when="1848-07-20">20.07.1848</date>
+                </correspAction>
+                <correspAction xml:id="addressee-8d4e-f15c-bf15720694" type="received">
+                    <persName ref="UUID-XY">Mutter und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="49"
+                xml:id="letter-1382-a529-9f43a807b1">
+                <correspAction xml:id="sender-402e-cb93-45bcad7f2e" type="sent">
+                    <persName ref="UUID-XY">Carl Wicke</persName>
+                    <placeName ref="http://www.geonames.org/2614734">Riesjarup</placeName>
+                    <date when="1848-08-18">18.08.1848</date>
+                </correspAction>
+                <correspAction xml:id="addressee-3feb-3edf-6a90cdf275" type="received">
+                    <persName ref="UUID-XY">Schwester</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="50"
+                xml:id="letter-65d8-7b96-4bf35e8192">
+                <correspAction xml:id="sender-360f-1ebf-754628d1fa" type="sent">
+                    <persName ref="a8db59fc-4767-4d7d-9e7e-f8ac2bba3937">Carl Münchhoff</persName>
+                    <placeName ref="http://www.geonames.org/3171728">Padua</placeName>
+                    <date when="1848-09-12">12.09.1848</date>
+                </correspAction>
+                <correspAction xml:id="addressee-bace-763a-310752ebcf" type="received">
+                    <persName ref="UUID-XY">Schwester</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="51"
+                xml:id="letter-37e2-e095-82d5ea90f3">
+                <correspAction xml:id="sender-2f48-b4fc-d134ca89b7" type="sent">
+                    <persName ref="https://d-nb.info/gnd/118756389">Wilhelm von
+                        Tegetthoff</persName>
+                    <placeName ref="http://www.geonames.org/3165185">Triest</placeName>
+                    <date when="1849-01-14">14.01.1849</date>
+                </correspAction>
+                <correspAction xml:id="addressee-a1bc-2964-acd0374e18" type="received">
+                    <persName ref="UUID-XY">Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="52"
+                xml:id="letter-5b27-fa50-d61e870c45">
+                <correspAction xml:id="sender-c19d-f16b-59a13bde48" type="sent">
+                    <persName ref="UUID-XY">Johann A. Löw</persName>
+                    <placeName ref="http://www.geonames.org/3165201">Treviso</placeName>
+                    <date when="1849-02-14">14.02.1849</date>
+                </correspAction>
+                <correspAction xml:id="addressee-d195-7a58-8917a63dbc" type="received">
+                    <persName ref="UUID-XY">Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="53"
+                xml:id="letter-0e9b-d9f4-052e41897c">
+                <correspAction xml:id="sender-ab49-4796-dcf6485217" type="sent">
+                    <persName ref="a1f708dc-694c-4dfa-a305-ed6fd078a4ef">Kaspar Moschberger</persName>
+                    <placeName ref="http://www.geonames.org/2861650">Nürnberg</placeName>
+                    <date when="1849-03-26">26.03.1849</date>
+                </correspAction>
+                <correspAction xml:id="addressee-25b3-4a72-0f8354c6be" type="received">
+                    <persName ref="UUID-XY">Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="54"
+                xml:id="letter-fbe7-ef51-d012e54cab">
+                <correspAction xml:id="sender-f0ed-0961-d657ce831a" type="sent">
+                    <persName ref="UUID-XY">Franz Duschl</persName>
+                    <placeName ref="http://www.geonames.org/3069310">Kräzt</placeName>
+                    <date when="1849-04-29">29.04.1849</date>
+                </correspAction>
+                <correspAction xml:id="addressee-38ed-b51e-058da3fb94" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="55"
+                xml:id="letter-c73d-6c0e-9a04f578b2">
+                <correspAction xml:id="sender-d504-6358-bef59162d4" type="sent">
+                    <persName ref="UUID-XY">Julius Rothgiesser</persName>
+                    <placeName ref="http://www.geonames.org/2622854">Düppel</placeName>
+                    <date when="1849-05-11">11.05.1849</date>
+                </correspAction>
+                <correspAction xml:id="addressee-0948-5137-1c48a0db97" type="received">
+                    <persName ref="UUID-XY">Schwester</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="56"
+                xml:id="letter-9b1f-308a-7e462ad35f">
+                <correspAction xml:id="sender-bc86-f9a2-1807ad2ec4" type="sent">
+                    <persName ref="UUID-XY">? Kelterborn</persName>
+                    <placeName ref="http://www.geonames.org/2943049">B‘bütel</placeName>
+                    <date when="1849-06-06">06.06.1849</date>
+                </correspAction>
+                <correspAction xml:id="addressee-2bfd-f4d0-9fbc27d034" type="received">
+                    <persName ref="UUID-XY">Ehefrau und Tochter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="57"
+                xml:id="letter-f518-9a30-a97653bc1e">
+                <correspAction xml:id="sender-f7d3-3a09-9478b03dfc" type="sent">
+                    <persName ref="UUID-XY">Adolf Isendahl</persName>
+                    <placeName ref="http://www.geonames.org/2841320">Satrup</placeName>
+                    <date when="1849-06-11">11.06.1849</date>
+                </correspAction>
+                <correspAction xml:id="addressee-c864-92b7-c6de8b7023" type="received">
+                    <persName ref="UUID-XY">Schwiegervater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="58"
+                xml:id="letter-79d8-20d1-b3ed8f6a75">
+                <correspAction xml:id="sender-09c1-08c6-ba2f7086ed" type="sent">
+                    <persName ref="UUID-XY">Franz Wedecke</persName>
+                    <placeName>Stavegard</placeName>
+                    <date when="1849-06-17">17.06.1849</date>
+                </correspAction>
+                <correspAction xml:id="addressee-c37d-a423-e0274fc5a9" type="received">
+                    <persName ref="UUID-XY">Onkel</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="59"
+                xml:id="letter-1257-9e5f-5913e6c72a">
+                <correspAction xml:id="sender-9274-4a1c-82173cd90e" type="sent">
+                    <persName ref="UUID-XY">Carl Wicke</persName>
+                    <placeName>Stavgaard</placeName>
+                    <date when="1849-06-22">22.06.1849</date>
+                </correspAction>
+                <correspAction xml:id="addressee-1ab6-e0c3-64e25780ad" type="received">
+                    <persName ref="UUID-XY">Schwester</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="60"
+                xml:id="letter-956e-f6d2-2095c67f84">
+                <correspAction xml:id="sender-ef8a-80a7-c12e05467d" type="sent">
+                    <persName ref="UUID-XY">Franz Duschl</persName>
+                    <placeName ref="http://www.geonames.org/2778067">Gratz</placeName>
+                    <date when="1850-06-05">05.06.1850</date>
+                </correspAction>
+                <correspAction xml:id="addressee-9ca5-5146-7e634fd0a8" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="61"
+                xml:id="letter-8eba-2d6e-da4fe5b39c">
+                <correspAction xml:id="sender-853c-4f06-f463a8c7e5" type="sent">
+                    <persName ref="UUID-XY">Franz Duschl</persName>
+                    <placeName ref="http://www.geonames.org/11695400">Tarnopol</placeName>
+                    <date when="1851-04-16">16.04.1851</date>
+                </correspAction>
+                <correspAction xml:id="addressee-a90c-0c8d-ab8e37c54d" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="62"
+                xml:id="letter-2517-f729-3ceba8740d">
+                <correspAction xml:id="sender-e2db-4098-2901ba5d47" type="sent">
+                    <persName ref="a2c2f0e8-69b9-459f-b201-51c64074e091">Heinrich Lippelt</persName>
+                    <placeName ref="http://www.geonames.org/2978742">St. Louis</placeName>
+                    <date when="1861-09-28">28.09.1861</date>
+                </correspAction>
+                <correspAction xml:id="addressee-5a68-65f0-bc6dfe4937" type="received">
+                    <persName ref="UUID-XY">Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="63"
+                xml:id="letter-f605-739c-70d2f91b45">
+                <correspAction xml:id="sender-fe6b-749c-37f41dc59a" type="sent">
+                    <persName ref="UUID-XY">Julius Schulze</persName>
+                    <placeName ref="http://www.geonames.org/2827479">Stendal</placeName>
+                    <date when="1863-10-05">05.10.1863</date>
+                </correspAction>
+                <correspAction xml:id="addressee-fe32-58d6-1970a2fd68" type="received">
+                    <persName ref="UUID-XY">Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="64"
+                xml:id="letter-26da-ad9b-5619a20fe3">
+                <correspAction xml:id="sender-819e-cedf-74b61de25f" type="sent">
+                    <persName ref="UUID-XY">Oscar Sachse</persName>
+                    <placeName ref="http://www.geonames.org/10630497">Heppens</placeName>
+                    <date when="1864-01-08">08.01.1864</date>
+                </correspAction>
+                <correspAction xml:id="addressee-9f6e-4b16-2b09ac1fe5" type="received">
+                    <persName ref="UUID-XY">Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="65"
+                xml:id="letter-6d75-e81c-289be5d16c">
+                <correspAction xml:id="sender-ae48-e180-ba1df5279e" type="sent">
+                    <persName ref="UUID-XY">Julius Schulze</persName>
+                    <placeName ref="http://www.geonames.org/3085450">Stolpe</placeName>
+                    <date when="1864-01-26">26.01.1864</date>
+                </correspAction>
+                <correspAction xml:id="addressee-d2a6-4da2-e3052b8946" type="received">
+                    <persName ref="UUID-XY">Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="66"
+                xml:id="letter-35d2-21e7-e2149b7cad">
+                <correspAction xml:id="sender-619e-f752-5f3a902781" type="sent">
+                    <persName ref="https://d-nb.info/gnd/130130265">Rudolf Potier des
+                        Echelles</persName>
+                    <placeName ref="http://www.geonames.org/2624681">Annerup</placeName>
+                    <date when="1864-02-23">23.02.1864</date>
+                </correspAction>
+                <correspAction xml:id="addressee-f8ed-1b04-06adb9f375" type="received">
+                    <persName ref="UUID-XY">Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="67"
+                xml:id="letter-8e26-3027-7f582ae03c">
+                <correspAction xml:id="sender-f49e-1afd-0fa5623ebd" type="sent">
+                    <persName ref="a2c2f0e8-69b9-459f-b201-51c64074e091">Heinrich Lippelt</persName>
+                    <placeName ref="http://www.geonames.org/4641239">Memphis Tennesse</placeName>
+                    <date when="1864-03-05">05.03.1864</date>
+                </correspAction>
+                <correspAction xml:id="addressee-9258-3987-9db57043ca" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="68"
+                xml:id="letter-6a13-87a2-2c7d3ba5e9">
+                <correspAction xml:id="sender-32fe-6fda-738e540d1b" type="sent">
+                    <persName ref="UUID-XY">Ludwig L. Lafite</persName>
+                    <placeName ref="http://www.geonames.org/2623516">Bredstrup</placeName>
+                    <date when="1864-05-19">19.05.1864</date>
+                </correspAction>
+                <correspAction xml:id="addressee-34e0-96fc-02dba95e13" type="received">
+                    <persName ref="UUID-XY">Schwester</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="69"
+                xml:id="letter-fac2-7acd-2a380c9efb">
+                <correspAction xml:id="sender-d763-ca23-a0926b71e4" type="sent">
+                    <persName ref="UUID-XY">Heinrich Kamphausen</persName>
+                    <placeName ref="http://www.geonames.org/2813427">Wees</placeName>
+                    <date when="1864-02-08">08.02.1864</date>
+                </correspAction>
+                <correspAction xml:id="addressee-72c3-927a-602fce198d" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="70"
+                xml:id="letter-a0d3-1570-12f0de58c7">
+                <correspAction xml:id="sender-6c12-8c9d-9c1650b8f3" type="sent">
+                    <persName ref="UUID-XY">Gustav Keppler</persName>
+                    <placeName ref="http://www.geonames.org/4315588">Betenrouge</placeName>
+                    <date when="1864-09-30">30.09.1864</date>
+                </correspAction>
+                <correspAction xml:id="addressee-5c1e-d1fa-1b98f73a05" type="received">
+                    <persName ref="UUID-XY">Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="71"
+                xml:id="letter-d197-bc7f-1f25d87ea6">
+                <correspAction xml:id="sender-a5b6-a261-12953f7b0e" type="sent">
+                    <persName ref="UUID-XY">Julius Schulze</persName>
+                    <placeName ref="http://www.geonames.org/2827479">Stendal</placeName>
+                    <date when="1865-04-20">20.04.1865</date>
+                </correspAction>
+                <correspAction xml:id="addressee-b6de-572a-3906c1825f" type="received">
+                    <persName ref="UUID-XY">Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="72"
+                xml:id="letter-a92b-45d9-06afed82bc">
+                <correspAction xml:id="sender-a896-a956-5e04bf2d3c" type="sent">
+                    <persName ref="https://d-nb.info/gnd/1019375140">Ferdinand Manussi</persName>
+                    <placeName ref="http://www.geonames.org/3531730">Campeche</placeName>
+                    <date when="1865-04-29">29.04.1865</date>
+                </correspAction>
+                <correspAction xml:id="addressee-3e72-8b5f-07a812e3d4" type="received">
+                    <persName ref="UUID-XY">Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="73"
+                xml:id="letter-6453-865c-2fe8ab4d03">
+                <correspAction xml:id="sender-6b57-81b0-1768fb43a0" type="sent">
+                    <persName ref="UUID-XY">Hubert sen. Schoepffer</persName>
+                    <placeName ref="http://www.geonames.org/2950159">Berlin</placeName>
+                    <date when="1865-11-09">09.11.1865</date>
+                </correspAction>
+                <correspAction xml:id="addressee-f907-bea0-0f937cb6e2" type="received">
+                    <persName ref="UUID-XY">Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="74"
+                xml:id="letter-1427-016c-d65830caf7">
+                <correspAction xml:id="sender-6859-bc4d-f526ced743" type="sent">
+                    <persName ref="UUID-XY">Karl Linpökh</persName>
+                    <date when="1866-03-17">17.03.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-ed12-430f-ead091532f" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="75"
+                xml:id="letter-1c96-54bf-413520c9af">
+                <correspAction xml:id="sender-b860-d3fa-5e31a2bc7d" type="sent">
+                    <persName ref="UUID-XY">Josef von Larisch und Nimsdorf</persName>
+                    <placeName ref="http://www.geonames.org/3071579">Loschitz</placeName>
+                    <date when="1866-05-16">16.05.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-acd7-07bc-97a2ec34b1" type="received">
+                    <persName ref="UUID-XY">Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="76"
+                xml:id="letter-79d4-5f3c-210fa548de">
+                <correspAction xml:id="sender-b2e4-ef68-526af8793b" type="sent">
+                    <persName ref="a883e343-b44f-4d9e-931f-af349179296a">August W. Gutschke</persName>
+                    <placeName ref="http://www.geonames.org/2768249">Punitz</placeName>
+                    <date when="1866-05-17">17.05.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-396b-d46b-2c18d76a94" type="received">
+                    <persName ref="UUID-XY">Schwiegervater und Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="77"
+                xml:id="letter-a05c-9753-db8720a15f">
+                <correspAction xml:id="sender-0dc5-b14e-d9fa650c1e" type="sent">
+                    <persName ref="UUID-XY">Albert Henschke</persName>
+                    <placeName ref="http://www.geonames.org/11696175">Schwentroschin</placeName>
+                    <date when="1866-05-19">19.05.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-0d52-0e2b-bf9158a0d2" type="received">
+                    <persName ref="UUID-XY">Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="78"
+                xml:id="letter-9ba5-63d4-ef579d1ac4">
+                <correspAction xml:id="sender-47a0-8091-f50e7db9c1" type="sent">
+                    <persName ref="UUID-XY">Edmund Freiherr von Schaezler</persName>
+                    <placeName ref="http://www.geonames.org/2923900">Fuchsstadt</placeName>
+                    <date when="1866-06-09">09.06.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-c6a7-50ca-48c36a0d7b" type="received">
+                    <persName ref="UUID-XY">Schwester</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="79"
+                xml:id="letter-4d07-8975-48cf7a3d59">
+                <correspAction xml:id="sender-0e9d-934d-de65b39f10" type="sent">
+                    <persName ref="UUID-XY">Friedrich Ludwig</persName>
+                    <placeName ref="http://www.geonames.org/2846939">Riesa</placeName>
+                    <date when="1866-06-16">16.06.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-b241-67ec-c83e5f1db4" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="80"
+                xml:id="letter-85ba-415d-18f3470be5">
+                <correspAction xml:id="sender-2058-7c21-714580febc" type="sent">
+                    <persName ref="UUID-XY">Hubert sen. Schoepffer</persName>
+                    <placeName ref="http://www.geonames.org/3102459">Brieg</placeName>
+                    <date when="1866-06-16">16.06.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-38da-3f06-cd2e84a7f9" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="81"
+                xml:id="letter-9385-05f4-1b349c2d08">
+                <correspAction xml:id="sender-268c-0671-48fb27d1e0" type="sent">
+                    <persName ref="UUID-XY">Julius Schulze</persName>
+                    <placeName ref="http://www.geonames.org/2805948">Wülfel bei Hannover</placeName>
+                    <date when="1866-06-20">20.06.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-928d-1e07-b2604d7f9c" type="received">
+                    <persName ref="UUID-XY">Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="82"
+                xml:id="letter-e45f-dbe4-6f593a80e1">
+                <correspAction xml:id="sender-0d9e-4032-743e9ac2b5" type="sent">
+                    <persName ref="UUID-XY">Wilhelm Graff</persName>
+                    <placeName ref="http://www.geonames.org/2821771">Tornow</placeName>
+                    <date when="1866-06-24">24.06.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-542f-c623-21b75609f3" type="received">
+                    <persName ref="UUID-XY">Mutter und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="83"
+                xml:id="letter-a469-864c-b68d29e5fc">
+                <correspAction xml:id="sender-d4e6-f145-958fb1620d" type="sent">
+                    <persName ref="UUID-XY">Wilhelm Werk</persName>
+                    <placeName ref="http://www.geonames.org/2761369/">Josephstadt</placeName>
+                    <date when="1866-07-01">01.07.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-2a17-7938-20b479dcef" type="received">
+                    <persName ref="UUID-XY">Mutter und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="84"
+                xml:id="letter-0f86-5a46-4982d6bfa7">
+                <correspAction xml:id="sender-70d1-a56f-56b9d10374" type="sent">
+                    <persName ref="UUID-XY">Franz Kaufhold</persName>
+                    <placeName ref="http://www.geonames.org/3067696">Prag</placeName>
+                    <date when="1866-07-10">10.07.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-d864-9b3c-1da92b7465" type="received">
+                    <persName ref="UUID-XY">Schwiegereltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="85"
+                xml:id="letter-c49a-341a-6d4ac92f51">
+                <correspAction xml:id="sender-cd84-c6a2-e83c1597f6" type="sent">
+                    <persName ref="a0071387-59da-495d-bdac-c97cc39645a8">Edmund Lehmann</persName>
+                    <placeName ref="http://www.geonames.org/2931574">Eisenach</placeName>
+                    <date when="1866-07-15">15.07.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-db82-e980-d675e14f9a" type="received">
+                    <persName ref="UUID-XY">Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="86"
+                xml:id="letter-1bd5-ec29-a2ef03bc4d">
+                <correspAction xml:id="sender-69ca-a08e-b5a9861df2" type="sent">
+                    <persName ref="UUID-XY">Wilhelm Radermacher</persName>
+                    <date when="1866-07-21">21.07.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-b598-815b-283e7409d5" type="received">
+                    <persName ref="UUID-XY">Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="87"
+                xml:id="letter-fd43-74b9-9a0157468b">
+                <correspAction xml:id="sender-7bd5-f54b-f79368adbc" type="sent">
+                    <persName ref="UUID-XY">Hermann Horn</persName>
+                    <placeName ref="http://www.geonames.org/2805615">Würzburg</placeName>
+                    <date when="1866-07-27">27.07.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-834f-f719-04673829cd" type="received">
+                    <persName ref="UUID-XY">Vater und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="88"
+                xml:id="letter-e3f5-aec3-608f279543">
+                <correspAction xml:id="sender-b105-e240-1749ed25c0" type="sent">
+                    <persName ref="UUID-XY">Bartholomäus Werkmeister</persName>
+                    <placeName ref="http://www.geonames.org/2805615">Würzburg</placeName>
+                    <date when="1866-07-29">29.07.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-0783-34ea-96f3edc427" type="received">
+                    <persName ref="UUID-XY">Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="89"
+                xml:id="letter-e186-601f-a6ce29bf50">
+                <correspAction xml:id="sender-6507-7b16-c34a16250d" type="sent">
+                    <persName ref="a006abc7-d6dd-4930-b85f-bf73613d901e">Carl Tettschlag</persName>
+                    <placeName ref="http://www.geonames.org/2951400">Beierdorf</placeName>
+                    <date when="1866-07-30">30.07.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-8e9f-e943-73c601a289" type="received">
+                    <persName ref="UUID-XY">Ehefrau und Schwager</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="90"
+                xml:id="letter-fcb1-f57e-dabf821576">
+                <correspAction xml:id="sender-c609-3fca-1076ec3d94" type="sent">
+                    <persName ref="https://d-nb.info/gnd/130130265">Rudolf Potier des
+                        Echelles</persName>
+                    <placeName ref="http://www.geonames.org/2935022">Dresden</placeName>
+                    <date when="1866-07-31">31.07.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-91b7-ab45-5e8cdf90b4" type="received">
+                    <persName ref="UUID-XY">Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="91"
+                xml:id="letter-2573-345b-ab9730ef41">
+                <correspAction xml:id="sender-ca24-96ae-e58c216a79" type="sent">
+                    <persName ref="UUID-XY">Carl H. Gellern</persName>
+                    <placeName ref="http://www.geonames.org/2805615">Würzburg</placeName>
+                    <date when="1866-08-02">02.08.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-67a2-8f7c-dcf34e0a68" type="received">
+                    <persName ref="UUID-XY">Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="92"
+                xml:id="letter-e915-dfc5-90f5be861d">
+                <correspAction xml:id="sender-7108-6ef7-79af46ec01" type="sent">
+                    <persName ref="UUID-XY">Anton Herz</persName>
+                    <placeName ref="http://www.geonames.org/2839666">Schernau</placeName>
+                    <date when="1866-08-03">03.08.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-c359-608d-705ae9c2b4" type="received">
+                    <persName ref="UUID-XY">Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="93"
+                xml:id="letter-d91f-612f-e9c7d36f12">
+                <correspAction xml:id="sender-9ef7-b3fa-9d5b01a843" type="sent">
+                    <persName ref="a1f14a35-de91-45d1-933f-88f1791014a9">Friedrich Grundmann</persName>
+                    <placeName ref="http://www.geonames.org/2924491">Friedrichsort</placeName>
+                    <date when="1866-08-04">04.08.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-12cb-0c15-c9de4fa283" type="received">
+                    <persName ref="UUID-XY">Familie</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="94"
+                xml:id="letter-2758-f9ab-215c94bf76">
+                <correspAction xml:id="sender-ace4-b02d-395ec1f4d6" type="sent">
+                    <persName ref="UUID-XY">Bernard Geißler</persName>
+                    <placeName ref="http://www.geonames.org/2813700">Altendrüdingen</placeName>
+                    <date when="1866-08-16">16.08.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-9fca-6bd8-418a0e5df6" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="95"
+                xml:id="letter-db53-ecad-0c8ea542d7">
+                <correspAction xml:id="sender-7803-3c78-f138529c4e" type="sent">
+                    <persName ref="UUID-XY">Ludwig Stoeger</persName>
+                    <placeName ref="http://www.geonames.org/2927339">Feldkirchen</placeName>
+                    <date when="1866-08-21">21.08.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-62f9-04b2-c9e12a4570" type="received">
+                    <persName ref="UUID-XY">Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="96"
+                xml:id="letter-07da-e9a5-8ed25a7631">
+                <correspAction xml:id="sender-b942-5d4f-cf2a3e61d5" type="sent">
+                    <persName ref="UUID-XY">Oscar Sachse</persName>
+                    <placeName ref="http://www.geonames.org/3070323">Budwitz</placeName>
+                    <date when="1866-08-24">24.08.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-3fd4-ecda-18d3096ab5" type="received">
+                    <persName ref="UUID-XY">Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="97"
+                xml:id="letter-a0d6-ef2b-c216a5bd0f">
+                <correspAction xml:id="sender-c2b3-a81e-fe2036ad94" type="sent">
+                    <persName ref="UUID-XY">Josef von Larisch und Nimsdorf</persName>
+                    <placeName ref="http://www.geonames.org/2765388">Schwechat</placeName>
+                    <date when="1866-09-04">04.09.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-2c9f-3904-05e7cbf1a6" type="received">
+                    <persName ref="UUID-XY">Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="98"
+                xml:id="letter-e637-fab5-2f5c469ba3">
+                <correspAction xml:id="sender-9207-567f-31f9cd4e86" type="sent">
+                    <persName ref="UUID-XY">Albert Böhme</persName>
+                    <placeName ref="http://www.geonames.org/2945024">Braunschweig</placeName>
+                    <date when="1866-11-09">09.11.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-b81a-1653-2dbc31f9a0" type="received">
+                    <persName ref="UUID-XY">Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="99"
+                xml:id="letter-6c14-93e8-47dfbc2e8a">
+                <correspAction xml:id="sender-26e3-d13e-b29eca1856" type="sent">
+                    <persName ref="UUID-XY">Heinrich Keßler</persName>
+                    <placeName ref="http://www.geonames.org/2875786">Losswig</placeName>
+                    <date when="1866-06-07">07.06.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-38fa-1425-cea475f019" type="received">
+                    <persName ref="UUID-XY">Familie</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="100"
+                xml:id="letter-5908-1f47-c53f078a94">
+                <correspAction xml:id="sender-eca2-d05b-0c41978b25" type="sent">
+                    <persName ref="UUID-XY">Heinrich Kamphausen</persName>
+                    <placeName ref="http://www.geonames.org/2909998">Hartum</placeName>
+                    <date when="1866-06-14">14.06.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-4c26-f6c3-bafe85c60d" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="101"
+                xml:id="letter-7b28-e8cd-7e6af13908">
+                <correspAction xml:id="sender-9758-9c16-bf49d8e06a" type="sent">
+                    <persName ref="UUID-XY">Gottfried Schüller</persName>
+                    <placeName ref="http://www.geonames.org/2901989">Erda</placeName>
+                    <date when="1866-06-15">15.06.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-df23-516b-5d62b78ae1" type="received">
+                    <persName ref="UUID-XY">Partnerin</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="102"
+                xml:id="letter-b32a-ae16-0a7e4632b9">
+                <correspAction xml:id="sender-408c-3e2b-4cdabe5093" type="sent">
+                    <persName ref="UUID-XY">Carl Standtke</persName>
+                    <placeName ref="http://www.geonames.org/3077299">Dalleschitz</placeName>
+                    <date when="1866-07-14">14.07.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-7fd5-08dc-84fd2169a0" type="received">
+                    <persName ref="UUID-XY">Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="103"
+                xml:id="letter-c28b-c1a9-97af3d2b84">
+                <correspAction xml:id="sender-f751-f241-fad6b8c425" type="sent">
+                    <persName ref="a5cb30bb-7f26-4189-95bf-d44369a52ae5">Samuel Löwenherz</persName>
+                    <placeName ref="http://www.geonames.org/2805931">Wülfersdorf</placeName>
+                    <date when="1866-07-19">19.07.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-468c-78ea-03c15a4dbf" type="received">
+                    <persName ref="UUID-XY">Tante und Familie</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="104"
+                xml:id="letter-92ae-98e2-c2a530b798">
+                <correspAction xml:id="sender-b859-847f-db7f634e02" type="sent">
+                    <persName ref="https://d-nb.info/gnd/131564714">Dr. Carl F. Pogge</persName>
+                    <placeName ref="http://www.geonames.org/2939811">Cottbus</placeName>
+                    <date when="1866">??.??.1866</date>
+                </correspAction>
+                <correspAction xml:id="addressee-a539-64ec-642fea7d0c" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="105"
+                xml:id="letter-60ad-8d16-c07158b9de">
+                <correspAction xml:id="sender-386a-3f54-d1c6275849" type="sent">
+                    <persName ref="UUID-XY">Carl Holldorf</persName>
+                    <placeName ref="http://www.geonames.org/2925533">Frankfurt</placeName>
+                    <date when="1867-02-22">22.02.1867</date>
+                </correspAction>
+                <correspAction xml:id="addressee-582e-f4b1-2c387ed5fa" type="received">
+                    <persName ref="UUID-XY">Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="106"
+                xml:id="letter-f647-e296-214567cfeb">
+                <correspAction xml:id="sender-a3f7-9b71-ab291c7546" type="sent">
+                    <persName ref="UUID-XY">Bernard Geißler</persName>
+                    <placeName ref="http://www.geonames.org/2943561">Brüchs</placeName>
+                    <date when="1867-07-21">21.07.1867</date>
+                </correspAction>
+                <correspAction xml:id="addressee-c69e-69eb-0e167dfc58" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="107"
+                xml:id="letter-d98e-0692-69270bf518">
+                <correspAction xml:id="sender-50d2-57d9-17af05b6c3" type="sent">
+                    <persName ref="UUID-XY">Albert Böhme</persName>
+                    <placeName ref="http://www.geonames.org/2874782">Luttrum</placeName>
+                    <date when="1868-09-07">07.09.1868</date>
+                </correspAction>
+                <correspAction xml:id="addressee-b81d-e8d4-54ef0817ab" type="received">
+                    <persName ref="UUID-XY">Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="108"
+                xml:id="letter-e2df-48fb-b14c079d68">
+                <correspAction xml:id="sender-c150-c9bd-3675a01c4e" type="sent">
+                    <persName ref="UUID-XY">Max Brohm</persName>
+                    <placeName ref="http://www.geonames.org/2864276">Neuruppin</placeName>
+                    <date when="1869-03-11">11.03.1869</date>
+                </correspAction>
+                <correspAction xml:id="addressee-87fc-b34e-d76952ce03" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="109"
+                xml:id="letter-d021-24f5-3c762b94a8">
+                <correspAction xml:id="sender-01ef-32ae-bfd80976c3" type="sent">
+                    <persName ref="UUID-XY">Karl Linpökh</persName>
+                    <date when="1869-05-01">01.05.1869</date>
+                </correspAction>
+                <correspAction xml:id="addressee-6ab0-9bd5-d06c8f953b" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="110"
+                xml:id="letter-72f5-5f3d-fc309e864a">
+                <correspAction xml:id="sender-17bd-7ce9-157389ab24" type="sent">
+                    <persName ref="UUID-XY">Albert Böhme</persName>
+                    <placeName ref="http://www.geonames.org/2857521">Oker</placeName>
+                    <date when="1869-08-23">23.08.1869</date>
+                </correspAction>
+                <correspAction xml:id="addressee-d89e-18b3-d78405fb3c" type="received">
+                    <persName ref="UUID-XY">Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="111"
+                xml:id="letter-96f3-216a-1b05a2edc3">
+                <correspAction xml:id="sender-4fa9-ab34-a96d15c73e" type="sent">
+                    <persName ref="UUID-XY">Ernst Reich</persName>
+                    <placeName ref="http://www.geonames.org/2874131">Malchin</placeName>
+                    <date when="1870-07-01">01.07.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-c034-d306-4d6f918eb2" type="received">
+                    <persName ref="UUID-XY">Onkel</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="112"
+                xml:id="letter-1c80-f173-e5c28fb193">
+                <correspAction xml:id="sender-3b67-1bfc-bd63e2480c" type="sent">
+                    <persName ref="UUID-XY">Hans Kretzschmer</persName>
+                    <placeName ref="http://www.geonames.org/3099213">Glogau</placeName>
+                    <date when="1870-07-16">16.07.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-4820-9142-0f6b5c4193" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="113"
+                xml:id="letter-52d9-d906-f19db35462">
+                <correspAction xml:id="sender-9ca4-ed9f-8b3d1ef9c0" type="sent">
+                    <persName ref="UUID-XY">Carl H. Gellern</persName>
+                    <placeName ref="http://www.geonames.org/2766824">Salzburg</placeName>
+                    <date when="1870-08-05">05.08.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-e780-7582-b5fc3a70e4" type="received">
+                    <persName ref="UUID-XY">Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="114"
+                xml:id="letter-5943-b9c1-201f3eb46c">
+                <correspAction xml:id="sender-50e4-4021-6e0752cdf8" type="sent">
+                    <persName ref="https://d-nb.info/gnd/1031649379">Hugo von Winterfeld</persName>
+                    <placeName ref="http://www.geonames.org/3013407">Herny</placeName>
+                    <date when="1870-08-15">15.08.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-3240-5a4e-5e6cb4970a" type="received">
+                    <persName ref="UUID-XY">Schwager</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="115"
+                xml:id="letter-d093-58d9-750dafe19c">
+                <correspAction xml:id="sender-eaf5-df62-0f932158b7" type="sent">
+                    <persName ref="UUID-XY">Richard Sichler</persName>
+                    <placeName ref="http://www.geonames.org/3021626">Delme</placeName>
+                    <date when="1870-08-15">15.08.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-2a46-c1df-68f4a01c2e" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="116"
+                xml:id="letter-e53c-19f0-c803ea254b">
+                <correspAction xml:id="sender-4a86-f73d-e28f350ac6" type="sent">
+                    <persName ref="https://d-nb.info/gnd/131564714">Dr. Carl F. Pogge</persName>
+                    <placeName ref="http://www.geonames.org/3012336">Jezainville</placeName>
+                    <date when="1870-08-17">17.08.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-e529-9fb4-b7d6508f1e" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="117"
+                xml:id="letter-b93a-c1b4-891a53c702">
+                <correspAction xml:id="sender-a92d-408f-09da67f84e" type="sent">
+                    <persName ref="UUID-XY">Max Brohm</persName>
+                    <placeName ref="http://www.geonames.org/2986306">Pont á Mouscon</placeName>
+                    <date when="1870-08-20">20.08.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-b547-583f-237fa60198" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="118"
+                xml:id="letter-a816-2618-f618e0b2dc">
+                <correspAction xml:id="sender-3109-6d19-916e8cabfd" type="sent">
+                    <persName ref="UUID-XY">Ludwig Köhler</persName>
+                    <date when="1870-08-28">28.08.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-5bda-9c4e-afdc263475" type="received">
+                    <persName ref="UUID-XY">Schwester</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="119"
+                xml:id="letter-7b8f-018c-d7e82bf5c9">
+                <correspAction xml:id="sender-6308-dc56-5e236a71dc" type="sent">
+                    <persName ref="UUID-XY">Simon Marx</persName>
+                    <placeName ref="http://www.geonames.org/2990999">Nanzig</placeName>
+                    <date when="1870-08-29">29.08.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-e196-c247-3c24fb9ae5" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="120"
+                xml:id="letter-3e09-853e-f5d6a13097">
+                <correspAction xml:id="sender-a65d-3d69-367184c9fe" type="sent">
+                    <persName ref="UUID-XY">Hermann Eichhorn</persName>
+                    <placeName ref="http://www.geonames.org/7303020">Wittenberg</placeName>
+                    <date when="1870-09-12">12.09.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-2057-01b7-2b819cadf4" type="received">
+                    <persName ref="UUID-XY">Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="121"
+                xml:id="letter-06c5-b905-e7964013f5">
+                <correspAction xml:id="sender-462c-97c0-e07a52964b" type="sent">
+                    <persName ref="a9676866-0d25-465f-b8f6-6ac4490e4cd7">Carl Brauer</persName>
+                    <placeName ref="http://www.geonames.org/2902873">Höckelheim</placeName>
+                    <date when="1870-09-13">13.09.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-f485-e56a-94e283c1af" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="122"
+                xml:id="letter-61e2-7f8e-c3e4f8a516">
+                <correspAction xml:id="sender-d307-be57-b6083e5df4" type="sent">
+                    <persName ref="UUID-XY">Heinrich Fourné</persName>
+                    <placeName ref="http://www.geonames.org/2981686">St. Antoine</placeName>
+                    <date when="1870-09-25">25.09.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-903a-6cda-796138b042" type="received">
+                    <persName ref="UUID-XY">Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="123"
+                xml:id="letter-f9d3-04ca-d1506ce9b7">
+                <correspAction xml:id="sender-d5fe-b98e-62fdea9c81" type="sent">
+                    <persName ref="UUID-XY">H. Behrens</persName>
+                    <placeName ref="http://www.geonames.org/6619421">Ornes</placeName>
+                    <date when="1870-10-01">01.10.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-db7e-b76d-d49c76301f" type="received">
+                    <persName ref="UUID-XY">Onkel und Tante</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="124"
+                xml:id="letter-38fc-7185-60eb7cf2ad">
+                <correspAction xml:id="sender-9ba6-c3da-0cd294ae57" type="sent">
+                    <persName ref="UUID-XY">Michael Kundinger</persName>
+                    <placeName ref="http://www.geonames.org/12070481">Verieres</placeName>
+                    <date when="1870-10-04">04.10.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-4671-b482-e69b305a2c" type="received">
+                    <persName ref="UUID-XY">Schwester und Schwager</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="125"
+                xml:id="letter-18b9-5f97-86c9037eb5">
+                <correspAction xml:id="sender-a041-352c-01436975ea" type="sent">
+                    <persName ref="UUID-XY">Hermann Ehlers</persName>
+                    <placeName ref="http://www.geonames.org/2994160">Metz</placeName>
+                    <date when="1870-10-07">07.10.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-5c94-96ac-d5f6e37124" type="received">
+                    <persName ref="UUID-XY">Vater und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="126"
+                xml:id="letter-6509-8901-1640dfc785">
+                <correspAction xml:id="sender-ae69-438b-2d350f64eb" type="sent">
+                    <persName ref="UUID-XY">Johann F. Henninger</persName>
+                    <placeName ref="http://www.geonames.org/2989317">Orlean</placeName>
+                    <date when="1870-10-14">14.10.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-5439-253c-c5d139a024" type="received">
+                    <persName ref="UUID-XY">Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="127"
+                xml:id="letter-2df0-7e42-8f25b6349e">
+                <correspAction xml:id="sender-b389-f6b7-e5a61c3f42" type="sent">
+                    <persName ref="UUID-XY">Carl Holldorf</persName>
+                    <placeName ref="http://www.geonames.org/2885679+">Konstanz</placeName>
+                    <date when="1870-10-20">20.10.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-fea1-34a9-4af853d60b" type="received">
+                    <persName ref="UUID-XY">Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="128"
+                xml:id="letter-1032-79f2-6f18d97e04">
+                <correspAction xml:id="sender-d5fc-13d6-36f8d2e471" type="sent">
+                    <persName ref="https://d-nb.info/gnd/117563218">Adalbert von Barby</persName>
+                    <placeName ref="http://www.geonames.org/3001402">Les Clayes</placeName>
+                    <date when="1870-10-22">22.10.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-95a3-b15e-a26c87e139" type="received">
+                    <persName ref="UUID-XY">Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="129"
+                xml:id="letter-63da-6582-c4b8ae02d9">
+                <correspAction xml:id="sender-58a6-c7a3-91a36bf278" type="sent">
+                    <persName ref="UUID-XY">Jakob Marx</persName>
+                    <placeName ref="http://www.geonames.org/2989317">Orleans</placeName>
+                    <date when="1870-10-30">30.10.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-56a7-a24f-c418670e9f" type="received">
+                    <persName ref="UUID-XY">Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="130"
+                xml:id="letter-d0f4-dc72-7c638d51be">
+                <correspAction xml:id="sender-e41a-9d6c-5fc87134e6" type="sent">
+                    <persName ref="UUID-XY">Hermann Witte</persName>
+                    <placeName ref="http://www.geonames.org/3026467">Chartres</placeName>
+                    <date when="1870-11-01">01.11.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-58d0-69be-30d8f6ba5c" type="received">
+                    <persName ref="UUID-XY">Mutter und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="131"
+                xml:id="letter-78e0-4d30-4d893bac56">
+                <correspAction xml:id="sender-2dea-bce2-ab32196dfe" type="sent">
+                    <persName ref="UUID-XY">Johann Schramm</persName>
+                    <placeName ref="http://www.geonames.org/2867714">München</placeName>
+                    <date when="1870-11-09">09.11.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-856f-b04f-c2eb9d53f6" type="received">
+                    <persName ref="UUID-XY">Eltern und Patenonkel</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="132"
+                xml:id="letter-918e-4ec1-d21ba9476f">
+                <correspAction xml:id="sender-9871-c0b1-06f9d3e45a" type="sent">
+                    <persName ref="UUID-XY">August Winterholler</persName>
+                    <placeName>Mandes</placeName>
+                    <date when="1870-11-13">13.11.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-7b91-e24d-6175fb90dc" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="133"
+                xml:id="letter-bac0-af9b-68d32e7b15">
+                <correspAction xml:id="sender-6720-4872-dfe107682c" type="sent">
+                    <persName ref="UUID-XY">Joachim Paul</persName>
+                    <placeName>Montes</placeName>
+                    <date when="1870-11-13">13.11.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-bd24-2d07-e6093ca127" type="received">
+                    <persName ref="UUID-XY">Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="134"
+                xml:id="letter-c829-3821-049bc1d7e6">
+                <correspAction xml:id="sender-0f49-6e58-a80714df5b" type="sent">
+                    <persName ref="UUID-XY">Andreas Keller</persName>
+                    <placeName ref="http://www.geonames.org/3023766">Corbeil</placeName>
+                    <date when="1870-11-14">14.11.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-c4b2-3f52-86ca742b13" type="received">
+                    <persName ref="UUID-XY">Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="135"
+                xml:id="letter-b92c-c021-69f7ed3c15">
+                <correspAction xml:id="sender-7e62-7a61-ab8f74c956" type="sent">
+                    <persName ref="UUID-XY">Hermann Schweinhagen</persName>
+                    <placeName ref="http://www.geonames.org/2989317">Orleans</placeName>
+                    <date when="1870-12-09">09.12.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-e2bc-e5a0-ce6402713a" type="received">
+                    <persName ref="UUID-XY">Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="136"
+                xml:id="letter-6e71-ef0b-985ca23fb4">
+                <correspAction xml:id="sender-2fc0-8309-a0786cfde3" type="sent">
+                    <persName ref="UUID-XY">Anton Wagner</persName>
+                    <placeName>Four cet cur</placeName>
+                    <date when="1870-12-10">10.12.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-0435-6c90-8dc45f79b3" type="received">
+                    <persName ref="UUID-XY">Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="137"
+                xml:id="letter-732d-82ed-526e0a3f1c">
+                <correspAction xml:id="sender-735d-287e-34e2a796db" type="sent">
+                    <persName ref="UUID-XY">Ernst von Meier</persName>
+                    <placeName ref="http://www.geonames.org/3037044">Argenteuil</placeName>
+                    <date when="1870-12-18">18.12.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-a30c-8c2a-70581f642a" type="received">
+                    <persName ref="UUID-XY">Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="138"
+                xml:id="letter-30f7-4b13-0871fc5b26">
+                <correspAction xml:id="sender-d314-f1db-142eb7c859" type="sent">
+                    <persName ref="UUID-XY">Bernhard Prahmann</persName>
+                    <placeName ref="http://www.geonames.org/2793656">Langny-Thorigny</placeName>
+                    <date when="1870-12-19">19.12.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-d0fb-7e98-7e6829dcbf" type="received">
+                    <persName ref="UUID-XY">Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="139"
+                xml:id="letter-6053-19be-03a24761f5">
+                <correspAction xml:id="sender-30fc-92df-574bec8f63" type="sent">
+                    <persName ref="UUID-XY">Karl Linpökh</persName>
+                    <date when="1870-12-20">20.12.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-e6ca-02f8-346af9bc05" type="received">
+                    <persName ref="UUID-XY">Schwestern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="140"
+                xml:id="letter-1b45-9dca-ea1f30c65b">
+                <correspAction xml:id="sender-e16d-986d-a74b398d56" type="sent">
+                    <persName ref="UUID-XY">Ludwig Westner</persName>
+                    <placeName ref="http://www.geonames.org/2989317">Orleans</placeName>
+                    <date when="1870-12-20">20.12.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-e73f-7f3e-3846c1fd79" type="received">
+                    <persName ref="UUID-XY">Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="141"
+                xml:id="letter-d4e0-1498-f3046a2d78">
+                <correspAction xml:id="sender-9e26-c9ab-aceb4f896d" type="sent">
+                    <persName ref="UUID-XY">Friedrich Ludwig</persName>
+                    <placeName>Zevers</placeName>
+                    <date when="1870-12-23">23.12.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-15bc-b862-b82a45103e" type="received">
+                    <persName ref="UUID-XY">Eltern und Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="142"
+                xml:id="letter-9745-4671-5037ca9e1f">
+                <correspAction xml:id="sender-31f0-c429-523d6f140c" type="sent">
+                    <persName ref="UUID-XY">Franz W. Gorges</persName>
+                    <placeName>Mätz</placeName>
+                    <date when="1870">28.??.1870</date>
+                </correspAction>
+                <correspAction xml:id="addressee-3ef7-9832-fd36c5e8a2" type="received">
+                    <persName ref="UUID-XY">Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="143"
+                xml:id="letter-8549-34c9-0b1c753d8a">
+                <correspAction xml:id="sender-0b35-a451-74af2d0b8e" type="sent">
+                    <persName ref="aa1bf535-be79-4d60-9318-003f5fc77a9c">Ulrich Enderl</persName>
+                    <placeName ref="http://www.geonames.org/2992309">Montlery</placeName>
+                    <date when="1871-01-01">01.01.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-4a91-2804-f634bde017" type="received">
+                    <persName ref="UUID-XY">Familie</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="144"
+                xml:id="letter-b521-6eac-f62743a08d">
+                <correspAction xml:id="sender-4d18-3d89-f4b6728da3" type="sent">
+                    <persName ref="UUID-XY">Hans Kretzschmer</persName>
+                    <placeName ref="http://www.geonames.org/933925">Ville d’Avray</placeName>
+                    <date when="1871-01-04">04.01.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-0732-1986-17a0b265d9" type="received">
+                    <persName ref="UUID-XY">Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="145"
+                xml:id="letter-76c1-cfa8-40da5f1e92">
+                <correspAction xml:id="sender-86c7-2b86-e4c189f273" type="sent">
+                    <persName ref="UUID-XY">Ernst von Meier</persName>
+                    <placeName ref="http://www.geonames.org/3017341">Franconville</placeName>
+                    <date when="1871-01-16">16.01.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-427f-aefd-48c07b69df" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="146"
+                xml:id="letter-4670-94eb-07a32415db">
+                <correspAction xml:id="sender-93e4-de7a-6981acf37e" type="sent">
+                    <persName ref="UUID-XY">Carl Holldorf</persName>
+                    <placeName>Lemom</placeName>
+                    <date when="1871-01-17">17.01.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-01ec-decb-4b9c1823ad" type="received">
+                    <persName ref="UUID-XY">Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="147"
+                xml:id="letter-a0f5-6f59-75924d180b">
+                <correspAction xml:id="sender-2a7b-2ce7-ec9247fa51" type="sent">
+                    <persName ref="UUID-XY">Bernhard Prahmann</persName>
+                    <placeName ref="http://www.geonames.org/3009070">Lagny</placeName>
+                    <date when="1871-01-17">17.01.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-0b91-f4e8-ef67b31492" type="received">
+                    <persName ref="UUID-XY">Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="148"
+                xml:id="letter-83f9-f3c0-956efb7ad3">
+                <correspAction xml:id="sender-b619-c025-2db0a3fc95" type="sent">
+                    <persName ref="UUID-XY">Bernard Geißler</persName>
+                    <placeName ref="http://www.geonames.org/2861650">Nürnberg</placeName>
+                    <date when="1871-01-20">20.01.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-76cf-f61e-580b6e941f" type="received">
+                    <persName ref="UUID-XY">Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="149"
+                xml:id="letter-e6d7-4cf7-fe24560bc9">
+                <correspAction xml:id="sender-2b01-c26d-8c0149f673" type="sent">
+                    <persName ref="UUID-XY">Gottfried Lechner</persName>
+                    <placeName>Biöber</placeName>
+                    <date when="1871-01-26">26.01.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-b8f3-a3cb-06b13a982e" type="received">
+                    <persName ref="UUID-XY">Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="150"
+                xml:id="letter-2a15-2d53-e96fbac245">
+                <correspAction xml:id="sender-a17c-da2f-0815c3bef4" type="sent">
+                    <persName ref="UUID-XY">Anton Wagner</persName>
+                    <placeName ref="http://www.geonames.org/2658862">St. Priexe</placeName>
+                    <date when="1871-01-28">28.01.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-eb65-f1ec-e364ca8d72" type="received">
+                    <persName ref="UUID-XY">Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="151"
+                xml:id="letter-97f5-f742-81a02bc54d">
+                <correspAction xml:id="sender-60de-817c-872a9cf13b" type="sent">
+                    <persName ref="UUID-XY">Werner Brückmann</persName>
+                    <placeName ref="http://www.geonames.org/3003603">Le Mans</placeName>
+                    <date when="1871-01-28">28.01.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-f71a-863b-6795da04b1" type="received">
+                    <persName ref="UUID-XY">Familie</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="152"
+                xml:id="letter-6fb5-ec90-0d62c97afb">
+                <correspAction xml:id="sender-39bc-cb83-e31bd59a04" type="sent">
+                    <persName ref="UUID-XY">Max Brohm</persName>
+                    <placeName ref="http://www.geonames.org/2980062">Lemans</placeName>
+                    <date when="1871-02-07">07.02.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-126a-8b97-9d87acf516" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="153"
+                xml:id="letter-8c51-c45b-4e9c5d6370">
+                <correspAction xml:id="sender-8e0d-940c-ec29170f54" type="sent">
+                    <persName ref="UUID-XY">Paul Petri</persName>
+                    <placeName ref="http://www.geonames.org/3029931">Bron</placeName>
+                    <date when="1871-02-09">09.02.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-e9ab-a7c2-af1b5ec497" type="received">
+                    <persName ref="UUID-XY">Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="154"
+                xml:id="letter-52e7-4f92-5b298df70a">
+                <correspAction xml:id="sender-60a1-4b72-d19b273ae0" type="sent">
+                    <persName ref="UUID-XY">Ernst Reich</persName>
+                    <placeName ref="http://www.geonames.org/2982652">Rouen</placeName>
+                    <date when="1871-02-14">14.02.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-1ac9-cd78-92ef0b715c" type="received">
+                    <persName ref="UUID-XY">Onkel</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="155"
+                xml:id="letter-ae9c-0597-dcb29f7ea1">
+                <correspAction xml:id="sender-e859-438c-e4280bda95" type="sent">
+                    <persName ref="UUID-XY">Ludwig Stoeger</persName>
+                    <placeName ref="http://www.geonames.org/3026083">Chatillon</placeName>
+                    <date when="1871-02-14">14.02.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-0a5e-36be-83c1fe74a2" type="received">
+                    <persName ref="UUID-XY">Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="156"
+                xml:id="letter-a285-d2f3-a0d1cfb8e7">
+                <correspAction xml:id="sender-eb48-b378-3d8e71f5a2" type="sent">
+                    <persName ref="UUID-XY">Max Zechetmayr</persName>
+                    <placeName ref="http://www.geonames.org/2988507">Paris</placeName>
+                    <date when="1871-02-16">16.02.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-ac15-ae38-f1db720364" type="received">
+                    <persName ref="UUID-XY">Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="157"
+                xml:id="letter-59e8-7d06-81c5d03b64">
+                <correspAction xml:id="sender-940e-c1f4-36840f12a7" type="sent">
+                    <persName ref="a66f81da-43d1-4231-bbf4-63249b07f6d4">Hugo Schuerer</persName>
+                    <placeName ref="http://www.geonames.org/3036843">Arnouville</placeName>
+                    <date when="1871-03-04">04.03.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-0129-1ad8-8aef03c76d" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="158"
+                xml:id="letter-d802-9354-db8c16ea70">
+                <correspAction xml:id="sender-5efa-618a-65d438fb07" type="sent">
+                    <persName ref="UUID-XY">Hermann Witte</persName>
+                    <placeName ref="http://www.geonames.org/3016830">Gagny</placeName>
+                    <date when="1871-03-14">14.03.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-832e-6032-4a1e8df306" type="received">
+                    <persName ref="UUID-XY">Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="159"
+                xml:id="letter-e2ca-18df-c9d1a237fe">
+                <correspAction xml:id="sender-db35-d276-cfad3209b6" type="sent">
+                    <persName ref="UUID-XY">Hermann Schweinhagen</persName>
+                    <placeName ref="http://www.geonames.org/2968293">Ville sous la Ferté</placeName>
+                    <date when="1871-04-04">04.04.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-d9a2-954b-638a71b925" type="received">
+                    <persName ref="UUID-XY">Bruder und Schwägerin</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="160"
+                xml:id="letter-a3ed-e23a-f0d826ab75">
+                <correspAction xml:id="sender-a537-31d5-35be09f6d7" type="sent">
+                    <persName ref="UUID-XY">Ludwig Köhler</persName>
+                    <placeName>Connsens</placeName>
+                    <date when="1871-04-22">22.04.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-4cf5-5f1a-6a1f42be83" type="received">
+                    <persName ref="UUID-XY">Schwester</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="161"
+                xml:id="letter-c238-0a97-136bf7a94c">
+                <correspAction xml:id="sender-e9b6-a6cb-fbadc60354" type="sent">
+                    <persName ref="https://d-nb.info/gnd/117563218">Adalbert von Barby</persName>
+                    <date when="1871-04-30">30.04.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-73be-62f4-459df8106e" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="162"
+                xml:id="letter-a53f-043f-d4876f5391">
+                <correspAction xml:id="sender-9c2d-218d-c480b1f932" type="sent">
+                    <persName ref="UUID-XY">Adam Weiß</persName>
+                    <placeName ref="http://www.geonames.org/3022267">Crouy</placeName>
+                    <date when="1871-05-02">02.05.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-f026-57e0-5701b89dc6" type="received">
+                    <persName ref="UUID-XY">Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="163"
+                xml:id="letter-bfa4-2073-bdf96512c4">
+                <correspAction xml:id="sender-dac1-b243-c9d46a3580" type="sent">
+                    <persName ref="UUID-XY">Heinrich Fourné</persName>
+                    <placeName ref="http://www.geonames.org/3012236">Jouarre</placeName>
+                    <date when="1871-05-10">10.05.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-c04b-ab87-761ba38f92" type="received">
+                    <persName ref="UUID-XY">Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="164"
+                xml:id="letter-2c09-1e3c-2edaf1643b">
+                <correspAction xml:id="sender-48ac-5629-96371d84e5" type="sent">
+                    <persName ref="UUID-XY">Hermann Eichhorn</persName>
+                    <placeName ref="http://www.geonames.org/2945358">Brandenburg</placeName>
+                    <date when="1871-05-11">11.05.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-106a-6034-d15f034927" type="received">
+                    <persName ref="UUID-XY">Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="165"
+                xml:id="letter-e71a-7b81-a980f6b2dc">
+                <correspAction xml:id="sender-50c4-a5be-73d465b281" type="sent">
+                    <persName ref="UUID-XY">Wilhelm Dittmar</persName>
+                    <placeName ref="http://www.geonames.org/2976921">St. Simeon</placeName>
+                    <date when="1871-05-19">19.05.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-1d75-0cd2-d6173b4f02" type="received">
+                    <persName ref="UUID-XY">Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="166"
+                xml:id="letter-1b50-3a2c-e578dc06ba">
+                <correspAction xml:id="sender-2956-75e2-0bf4a2d658" type="sent">
+                    <persName ref="UUID-XY">Friedrich A. Marx</persName>
+                    <placeName ref="http://www.geonames.org/3002984">le Pecq</placeName>
+                    <date when="1871-05-28">28.05.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-b6d1-49ca-9351c70fe2" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="167"
+                xml:id="letter-12db-638f-31c54bae06">
+                <correspAction xml:id="sender-3756-e217-0fade368b9" type="sent">
+                    <persName ref="https://d-nb.info/gnd/131564714">Dr. Carl F. Pogge</persName>
+                    <placeName ref="http://www.geonames.org/2841771">Sandkrug</placeName>
+                    <date when="1871-08-07">07.08.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-e76a-2adc-824da35c61" type="received">
+                    <persName ref="UUID-XY">Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="168"
+                xml:id="letter-b6c0-916a-e2b71fcda6">
+                <correspAction xml:id="sender-3fe6-1806-27ed6f5a4c" type="sent">
+                    <persName ref="UUID-XY">Hermann Ehlers</persName>
+                    <placeName ref="http://www.geonames.org/2842644">Saarburg</placeName>
+                    <date when="1871-09-04">04.09.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-a5de-046c-e84631c795" type="received">
+                    <persName ref="UUID-XY">Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="169"
+                xml:id="letter-fa71-40e1-78031e59a4">
+                <correspAction xml:id="sender-ad05-f013-5a4d86c2b3" type="sent">
+                    <persName ref="UUID-XY">Michael Eimgartner</persName>
+                    <date when="1871">??.??.1871</date>
+                </correspAction>
+                <correspAction xml:id="addressee-df2b-8570-b590213dc7" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="170"
+                xml:id="letter-fabd-f012-14b3ae9205">
+                <correspAction xml:id="sender-54b2-3502-e07a6f5c1b" type="sent">
+                    <persName ref="UUID-XY">Johann Schramm</persName>
+                    <placeName ref="http://www.geonames.org/3027487">Chalons</placeName>
+                    <date when="1872-02-29">29.02.1872</date>
+                </correspAction>
+                <correspAction xml:id="addressee-c861-a509-b2d6c98701" type="received">
+                    <persName ref="UUID-XY">Eltern</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
