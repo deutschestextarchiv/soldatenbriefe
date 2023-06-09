@@ -4,9 +4,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Soldatenbriefe des 18. und 19.
-                    Jahrhunderts</title>
-                <editor>Marthe Küster</editor>
+                <title>Soldatenbriefe des 18. und 19. Jahrhunderts</title>
+                <editor>Marthe Küster<email>correspSearch@bbaw.de</email></editor>
             </titleStmt>
             <publicationStmt>
                 <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
@@ -14,8 +13,8 @@
                     >https://cmif.saw-leipzig.de/api/2022-09-20T09:12:02.374__Soldatenbriefe(3)/xml</idno>
                 <date when="2022-09-20T09:12:02.926151"/>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by/4.0/">This file is
-                        licensed under the terms of the Creative-Commons-License CC-BY 4.0</licence>
+                    <licence target="https://creativecommons.org/licenses/zero/1.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC0 1.0</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
