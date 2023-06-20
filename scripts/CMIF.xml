@@ -8,7 +8,7 @@
             </titleStmt>
             <publicationStmt>
                 <publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher>
-                <idno type="url">https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/scripts/CMIF.xml</idno>
+                <idno type="url">https://raw.githubusercontent.com/deutschestextarchiv/soldatenbriefe/main/scripts/CMIF.xml</idno>
                 <date when="2023-06-09"/>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/zero/1.0/">This file is
