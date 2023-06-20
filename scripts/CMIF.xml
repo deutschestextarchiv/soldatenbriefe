@@ -1,0 +1,1735 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- Generated from table of letters with csv2cmi 2.1.0 as webservice at https://cmif.saw-leipzig.de-->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Soldatenbriefe des 18. und 19. Jahrhunderts</title>
+                <editor>Marthe Küster<email>correspSearch@bbaw.de</email></editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher>
+                <idno type="url">https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/scripts/CMIF.xml</idno>
+                <date when="2023-06-09"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/zero/1.0/">This file is
+                        licensed under the terms of the Creative-Commons-License CC0 1.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="hybrid" xml:id="fa81f0d5-83c1-49b2-a528-471d1bbad9fc">Neumann, Marko.
+                    Soldatenbriefe des 18. und 19. Jahrhunderts: Untersuchungen zu Syntax und
+                    Textstruktur in der Alltagsschriftlichkeit unterschiedlicher militärischer
+                    Dienstgrade. Germanistische Bibliothek, Band 68. Heidelberg: Universitätsverlag
+                    Winter, 2019. Digitaler Korpus unter <ref target="https://www.dwds.de/d/korpora/soldatenbriefe">https://www.dwds.de/d/korpora/soldatenbriefe</ref></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-001.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="1">
+                <correspAction type="sent">
+                    <persName>Nikolaus Binn</persName>
+                    <placeName ref="http://www.geonames.org/3069310">Königgretz</placeName>
+                    <date when="1745-06-19">19.06.1745</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-002.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="2">
+                <correspAction type="sent">
+                    <persName>Christian Arnholtz</persName>
+                    <placeName ref="http://www.geonames.org/2953927">Außig</placeName>
+                    <date when="1756-09-21">21.09.1756</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Bruder</persName>
+                    <placeName>Zetlingen</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-003.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="3">
+                <correspAction type="sent">
+                    <persName>Kaspar Kalberlah</persName>
+                    <date when="1756-11-11">11.11.1756</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-004.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="4">
+                <correspAction type="sent">
+                    <persName>Joachim D. Kamiet</persName>
+                    <date when="1757-02-08">08.02.1757</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern und Geschwister</persName>
+                    <placeName ref="http://www.geonames.org/3213377">Geinitz</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-005.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="5">
+                <correspAction type="sent">
+                    <persName>Joachim D. Kamiet</persName>
+                    <placeName ref="http://www.geonames.org/2936658">Döbeln</placeName>
+                    <date when="1757-03-01">01.03.1757</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern und Geschwister</persName>
+                    <placeName ref="http://www.geonames.org/3213377">Geinitz</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-006.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="6">
+                <correspAction type="sent">
+                    <persName>? Seiler</persName>
+                    <placeName ref="http://www.geonames.org/2937238">Diesdorf bei
+                        Eckersberg</placeName>
+                    <date when="1757-11-08">08.11.1757</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Mutter</persName>
+                    <placeName ref="http://www.geonames.org/2836108">Schrepkow</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-007.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="7">
+                <correspAction type="sent">
+                    <persName>Nikolaus Binn</persName>
+                    <placeName ref="http://www.geonames.org/2809769">Wickendorf</placeName>
+                    <date when="1758-03-15">15.03.1758</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ehefrau, Kinder und Familie</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-008.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="8">
+                <correspAction type="sent">
+                    <persName>Heinrich Krafft</persName>
+                    <placeName ref="http://www.geonames.org/2815255">Walbeck</placeName>
+                    <date when="1758-05-08">08.05.1758</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Partnerin</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-009.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="9">
+                <correspAction type="sent">
+                    <persName>Kaspar Kalberlah</persName>
+                    <placeName>zwischen Dräfen und Birna</placeName>
+                    <date when="1758-09-26">26.09.1758</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern, Geschwister und Familie</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-010.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="10">
+                <correspAction type="sent">
+                    <persName>Nikolaus Binn</persName>
+                    <placeName>Zetzau bei Frankfuhrt</placeName>
+                    <date when="1759-07-20">20.07.1759</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ehefrau und Kinder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-011.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="11">
+                <correspAction type="sent">
+                    <persName ref="a450d944-70e4-4541-923f-f7b2d6d31540">Johann C. Riemann</persName>
+                    <placeName ref="http://www.geonames.org/2852154">Prätzschendorff</placeName>
+                    <date when="1762-06-16">16.06.1762</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Familie und Freunde</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-012.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="12">
+                <correspAction type="sent">
+                    <persName>E. P. von Anderten</persName>
+                    <placeName ref="http://www.geonames.org/2921379">Gemünden</placeName>
+                    <date when="1762-09-30">30.09.1762</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Mutter und Großmutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-013.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="13">
+                <correspAction type="sent">
+                    <persName>Joachim N. Binn</persName>
+                    <placeName>Bünnefeldt</placeName>
+                    <date when="1776-04-13">13.04.1776</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                    <placeName ref="http://www.geonames.org/2852872">Polkau</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-014.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="14">
+                <correspAction type="sent">
+                    <persName>H. U. Cleve</persName>
+                    <placeName ref="http://www.geonames.org/3042289">St. Anne</placeName>
+                    <date when="1777-03-11">11.03.1777</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-015.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="15">
+                <correspAction type="sent">
+                    <persName ref="aa4314e9-ab35-43da-8d86-3af946260433">C. Klein</persName>
+                    <placeName ref="http://www.geonames.org/2900993">Hochkeppel</placeName>
+                    <date when="1794-12-12">12.12.1794</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-016.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="16">
+                <correspAction type="sent">
+                    <persName ref="a38efb04-8e81-4588-b8eb-f0333287166b">? Marencke</persName>
+                    <placeName ref="http://www.geonames.org/2852458">Potsdam</placeName>
+                    <date when="1796-10-10">10.10.1796</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-017.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="17">
+                <correspAction type="sent">
+                    <persName>Friedrich Reinhard</persName>
+                    <placeName ref="http://www.geonames.org/2906676">Khel</placeName>
+                    <date when="1796-11-22">22.11.1796</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-018.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="18">
+                <correspAction type="sent">
+                    <persName>Friedrich Reinhard</persName>
+                    <placeName>Pontaffel</placeName>
+                    <date when="1798-08-03">03.08.1798</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-019.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="19">
+                <correspAction type="sent">
+                    <persName>? Beddies</persName>
+                    <date when="1807-04-04">04.04.1807</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-020.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="20">
+                <correspAction type="sent">
+                    <persName>Johann B. Zuckerschwedt</persName>
+                    <placeName ref="http://www.geonames.org/2994160">Metz</placeName>
+                    <date when="1809-03-25">25.03.1809</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-021.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="21">
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/133716775">Eduard Freiherr von
+                        Callot</persName>
+                    <date when="1809-09-30">30.09.1809</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-022.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="22">
+                <correspAction type="sent">
+                    <persName>Johan Seib</persName>
+                    <placeName ref="http://www.geonames.org/3172483">Muggia</placeName>
+                    <date when="1811-02-16">16.02.1811</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-023.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="23">
+                <correspAction type="sent">
+                    <persName>Philipp Franzen</persName>
+                    <placeName ref="http://www.geonames.org/2745912">Uttrikt</placeName>
+                    <date when="1811-09-20">20.09.1811</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-024.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="24">
+                <correspAction type="sent">
+                    <persName>Stephan Wahlen</persName>
+                    <placeName ref="http://www.geonames.org/3029162">Calais</placeName>
+                    <date when="1811-07-17">17.07.1811</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-025.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="25">
+                <correspAction type="sent">
+                    <persName>Heinrich Brennecke</persName>
+                    <placeName ref="http://www.geonames.org/2955168">Aschersleben</placeName>
+                    <date when="1812-05-29">29.05.1812</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-026.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="26">
+                <correspAction type="sent">
+                    <persName>August Pöhling</persName>
+                    <placeName ref="http://www.geonames.org/524901">Mosaick bei Moskau</placeName>
+                    <date when="1812-09-28">28.09.1812</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Schwester</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-027.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="27">
+                <correspAction type="sent">
+                    <persName>Ferdinand Metzner</persName>
+                    <placeName ref="http://www.geonames.org/524901">Mosaick bei Moskau</placeName>
+                    <date when="1812-10-13">13.10.1812</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-028.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="28">
+                <correspAction type="sent">
+                    <persName>Stephan Wahlen</persName>
+                    <placeName ref="http://www.geonames.org/3031137">Boulogne</placeName>
+                    <date when="1812-01-01">01.01.1812</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-029.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="29">
+                <correspAction type="sent">
+                    <persName>Wilhelm Nosten</persName>
+                    <placeName ref="http://www.geonames.org/2826287">Stralsund</placeName>
+                    <date when="1812-04-14">14.04.1812</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-030.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="30">
+                <correspAction type="sent">
+                    <persName>Heinrich Brennecke</persName>
+                    <placeName>Ziegenhain</placeName>
+                    <date when="1813-02-01">01.02.1813</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-031.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="31">
+                <correspAction type="sent">
+                    <persName>Johann H. T. von Strombeck</persName>
+                    <placeName ref="http://www.geonames.org/2750053">Nimwegen</placeName>
+                    <date when="1813-05-10">10.05.1813</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-032.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="32">
+                <correspAction type="sent">
+                    <persName ref="a71b9bb8-ad84-43f2-8a5f-cec1210e7be7">Ferdinand Freiherr von Csollich</persName>
+                    <placeName ref="http://www.geonames.org/3071748">Losch bei Duchs</placeName>
+                    <date when="1813-07-06">06.07.1813</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-033.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="33">
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/133716775">Eduard Freiherr von
+                        Callot</persName>
+                    <placeName>Wittich</placeName>
+                    <date when="1813-08-13">13.08.1813</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-034.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="34">
+                <correspAction type="sent">
+                    <persName>Friedrich Binder</persName>
+                    <placeName ref="http://www.geonames.org/2894394">Jüterbog</placeName>
+                    <date when="1813-09-07">07.09.1813</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-035.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="35">
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/133716775">Eduard Freiherr von
+                        Callot</persName>
+                    <placeName ref="http://www.geonames.org/3171058">Piacenza</placeName>
+                    <date when="1814-07-18">18.07.1814</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-036.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="36">
+                <correspAction type="sent">
+                    <persName>Johann H. Baake</persName>
+                    <placeName ref="http://www.geonames.org/2806914">Wolfenbüttel</placeName>
+                    <date when="1815-02-28">28.02.1815</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Partnerin</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-037.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="37">
+                <correspAction type="sent">
+                    <persName>August Kubel</persName>
+                    <placeName ref="http://www.geonames.org/2793656">Laken</placeName>
+                    <date when="1815-06-22">22.06.1815</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-038.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="38">
+                <correspAction type="sent">
+                    <persName>Johann P. W. Schütte</persName>
+                    <placeName ref="http://www.geonames.org/2791301">Merxem</placeName>
+                    <date when="1815-07-02">02.07.1815</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-039.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="39">
+                <correspAction type="sent">
+                    <persName>Friedrich Binder</persName>
+                    <placeName ref="http://www.geonames.org/2988507">Paris</placeName>
+                    <date when="1815-07-08">08.07.1815</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-040.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="40">
+                <correspAction type="sent">
+                    <persName>Ernst C. Schacht</persName>
+                    <placeName ref="http://www.geonames.org/2988507">Paris</placeName>
+                    <date when="1815-08-25">25.08.1815</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Familie</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-041.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="41">
+                <correspAction type="sent">
+                    <persName>Abraham Schnelle</persName>
+                    <placeName ref="http://www.geonames.org/727547">Ruen</placeName>
+                    <date when="1815-10-16">16.10.1815</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-042.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="42">
+                <correspAction type="sent">
+                    <persName>Peter Osterwind</persName>
+                    <placeName ref="http://www.geonames.org/3025466">Scherburg</placeName>
+                    <date when="1815-06-10">10.06.1815</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-043.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="43">
+                <correspAction type="sent">
+                    <persName>Heinrich F. Normann</persName>
+                    <placeName ref="http://www.geonames.org/2950159">Berlin</placeName>
+                    <date when="1816-01-21">21.01.1816</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-044.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="44">
+                <correspAction type="sent">
+                    <persName>Friedrich Hoffmann</persName>
+                    <placeName ref="http://www.geonames.org/2772505">Lienz</placeName>
+                    <date when="1832-12-07">07.12.1832</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-045.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="45">
+                <correspAction type="sent">
+                    <persName>Friedrich Hoffmann</persName>
+                    <placeName>Zeitun</placeName>
+                    <date when="1833-06-17">17.06.1833</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-046.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="46">
+                <correspAction type="sent">
+                    <persName>Friedrich Hoffmann</persName>
+                    <placeName ref="http://www.geonames.org/3165185">Triest</placeName>
+                    <date when="1834-04-24">24.04.1834</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-047.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="47">
+                <correspAction type="sent">
+                    <persName ref="a8db59fc-4767-4d7d-9e7e-f8ac2bba3937">Carl Münchhoff</persName>
+                    <placeName ref="http://www.geonames.org/3046446">Pesth</placeName>
+                    <date when="1848-05-29">29.05.1848</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-048.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="48">
+                <correspAction type="sent">
+                    <persName>Josef Wolfinger</persName>
+                    <placeName ref="http://www.geonames.org/2766824">Saltzburg</placeName>
+                    <date when="1848-07-20">20.07.1848</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Mutter und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-049.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="49">
+                <correspAction type="sent">
+                    <persName>Carl Wicke</persName>
+                    <placeName ref="http://www.geonames.org/2614734">Riesjarup</placeName>
+                    <date when="1848-08-18">18.08.1848</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Schwester</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-050.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="50">
+                <correspAction type="sent">
+                    <persName ref="a8db59fc-4767-4d7d-9e7e-f8ac2bba3937">Carl Münchhoff</persName>
+                    <placeName ref="http://www.geonames.org/3171728">Padua</placeName>
+                    <date when="1848-09-12">12.09.1848</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Schwester</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-051.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="51">
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/118756389">Wilhelm von
+                        Tegetthoff</persName>
+                    <placeName ref="http://www.geonames.org/3165185">Triest</placeName>
+                    <date when="1849-01-14">14.01.1849</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-052.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="52">
+                <correspAction type="sent">
+                    <persName>Johann A. Löw</persName>
+                    <placeName ref="http://www.geonames.org/3165201">Treviso</placeName>
+                    <date when="1849-02-14">14.02.1849</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-053.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="53">
+                <correspAction type="sent">
+                    <persName ref="a1f708dc-694c-4dfa-a305-ed6fd078a4ef">Kaspar Moschberger</persName>
+                    <placeName ref="http://www.geonames.org/2861650">Nürnberg</placeName>
+                    <date when="1849-03-26">26.03.1849</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-054.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="54">
+                <correspAction type="sent">
+                    <persName>Franz Duschl</persName>
+                    <placeName ref="http://www.geonames.org/3069310">Kräzt</placeName>
+                    <date when="1849-04-29">29.04.1849</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-055.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="55">
+                <correspAction type="sent">
+                    <persName>Julius Rothgiesser</persName>
+                    <placeName ref="http://www.geonames.org/2622854">Düppel</placeName>
+                    <date when="1849-05-11">11.05.1849</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Schwester</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-056.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="56">
+                <correspAction type="sent">
+                    <persName>? Kelterborn</persName>
+                    <placeName ref="http://www.geonames.org/2943049">B‘bütel</placeName>
+                    <date when="1849-06-06">06.06.1849</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ehefrau und Tochter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-057.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="57">
+                <correspAction type="sent">
+                    <persName>Adolf Isendahl</persName>
+                    <placeName ref="http://www.geonames.org/2841320">Satrup</placeName>
+                    <date when="1849-06-11">11.06.1849</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Schwiegervater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-058.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="58">
+                <correspAction type="sent">
+                    <persName>Franz Wedecke</persName>
+                    <placeName>Stavegard</placeName>
+                    <date when="1849-06-17">17.06.1849</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Onkel</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-059.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="59">
+                <correspAction type="sent">
+                    <persName>Carl Wicke</persName>
+                    <placeName>Stavgaard</placeName>
+                    <date when="1849-06-22">22.06.1849</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Schwester</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-060.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="60">
+                <correspAction type="sent">
+                    <persName>Franz Duschl</persName>
+                    <placeName ref="http://www.geonames.org/2778067">Gratz</placeName>
+                    <date when="1850-06-05">05.06.1850</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-061.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="61">
+                <correspAction type="sent">
+                    <persName>Franz Duschl</persName>
+                    <placeName ref="http://www.geonames.org/11695400">Tarnopol</placeName>
+                    <date when="1851-04-16">16.04.1851</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-062.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="62">
+                <correspAction type="sent">
+                    <persName ref="a2c2f0e8-69b9-459f-b201-51c64074e091">Heinrich Lippelt</persName>
+                    <placeName ref="http://www.geonames.org/2978742">St. Louis</placeName>
+                    <date when="1861-09-28">28.09.1861</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-063.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="63">
+                <correspAction type="sent">
+                    <persName>Julius Schulze</persName>
+                    <placeName ref="http://www.geonames.org/2827479">Stendal</placeName>
+                    <date when="1863-10-05">05.10.1863</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-064.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="64">
+                <correspAction type="sent">
+                    <persName>Oscar Sachse</persName>
+                    <placeName ref="http://www.geonames.org/10630497">Heppens</placeName>
+                    <date when="1864-01-08">08.01.1864</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-065.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="65">
+                <correspAction type="sent">
+                    <persName>Julius Schulze</persName>
+                    <placeName ref="http://www.geonames.org/3085450">Stolpe</placeName>
+                    <date when="1864-01-26">26.01.1864</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-066.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="66">
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/130130265">Rudolf Potier des
+                        Echelles</persName>
+                    <placeName ref="http://www.geonames.org/2624681">Annerup</placeName>
+                    <date when="1864-02-23">23.02.1864</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-067.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="67">
+                <correspAction type="sent">
+                    <persName ref="a2c2f0e8-69b9-459f-b201-51c64074e091">Heinrich Lippelt</persName>
+                    <placeName ref="http://www.geonames.org/4641239">Memphis Tennesse</placeName>
+                    <date when="1864-03-05">05.03.1864</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-068.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="68">
+                <correspAction type="sent">
+                    <persName>Ludwig L. Lafite</persName>
+                    <placeName ref="http://www.geonames.org/2623516">Bredstrup</placeName>
+                    <date when="1864-05-19">19.05.1864</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Schwester</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-069.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="69">
+                <correspAction type="sent">
+                    <persName>Heinrich Kamphausen</persName>
+                    <placeName ref="http://www.geonames.org/2813427">Wees</placeName>
+                    <date when="1864-02-08">08.02.1864</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-070.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="70">
+                <correspAction type="sent">
+                    <persName>Gustav Keppler</persName>
+                    <placeName ref="http://www.geonames.org/4315588">Betenrouge</placeName>
+                    <date when="1864-09-30">30.09.1864</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-071.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="71">
+                <correspAction type="sent">
+                    <persName>Julius Schulze</persName>
+                    <placeName ref="http://www.geonames.org/2827479">Stendal</placeName>
+                    <date when="1865-04-20">20.04.1865</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-072.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="72">
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/1019375140">Ferdinand Manussi</persName>
+                    <placeName ref="http://www.geonames.org/3531730">Campeche</placeName>
+                    <date when="1865-04-29">29.04.1865</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-073.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="73">
+                <correspAction type="sent">
+                    <persName>Hubert sen. Schoepffer</persName>
+                    <placeName ref="http://www.geonames.org/2950159">Berlin</placeName>
+                    <date when="1865-11-09">09.11.1865</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-074.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="74">
+                <correspAction type="sent">
+                    <persName>Karl Linpökh</persName>
+                    <date when="1866-03-17">17.03.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-075.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="75">
+                <correspAction type="sent">
+                    <persName>Josef von Larisch und Nimsdorf</persName>
+                    <placeName ref="http://www.geonames.org/3071579">Loschitz</placeName>
+                    <date when="1866-05-16">16.05.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-076.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="76">
+                <correspAction type="sent">
+                    <persName ref="a883e343-b44f-4d9e-931f-af349179296a">August W. Gutschke</persName>
+                    <placeName ref="http://www.geonames.org/2768249">Punitz</placeName>
+                    <date when="1866-05-17">17.05.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Schwiegervater und Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-077.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="77">
+                <correspAction type="sent">
+                    <persName>Albert Henschke</persName>
+                    <placeName ref="http://www.geonames.org/11696175">Schwentroschin</placeName>
+                    <date when="1866-05-19">19.05.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-078.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="78">
+                <correspAction type="sent">
+                    <persName>Edmund Freiherr von Schaezler</persName>
+                    <placeName ref="http://www.geonames.org/2923900">Fuchsstadt</placeName>
+                    <date when="1866-06-09">09.06.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Schwester</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-079.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="79">
+                <correspAction type="sent">
+                    <persName>Friedrich Ludwig</persName>
+                    <placeName ref="http://www.geonames.org/2846939">Riesa</placeName>
+                    <date when="1866-06-16">16.06.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-080.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="80">
+                <correspAction type="sent">
+                    <persName>Hubert sen. Schoepffer</persName>
+                    <placeName ref="http://www.geonames.org/3102459">Brieg</placeName>
+                    <date when="1866-06-16">16.06.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-081.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="81">
+                <correspAction type="sent">
+                    <persName>Julius Schulze</persName>
+                    <placeName ref="http://www.geonames.org/2805948">Wülfel bei Hannover</placeName>
+                    <date when="1866-06-20">20.06.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-082.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="82">
+                <correspAction type="sent">
+                    <persName>Wilhelm Graff</persName>
+                    <placeName ref="http://www.geonames.org/2821771">Tornow</placeName>
+                    <date when="1866-06-24">24.06.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Mutter und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-083.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="83">
+                <correspAction type="sent">
+                    <persName>Wilhelm Werk</persName>
+                    <placeName ref="http://www.geonames.org/2761369/">Josephstadt</placeName>
+                    <date when="1866-07-01">01.07.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Mutter und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-084.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="84">
+                <correspAction type="sent">
+                    <persName>Franz Kaufhold</persName>
+                    <placeName ref="http://www.geonames.org/3067696">Prag</placeName>
+                    <date when="1866-07-10">10.07.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Schwiegereltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-085.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="85">
+                <correspAction type="sent">
+                    <persName ref="a0071387-59da-495d-bdac-c97cc39645a8">Edmund Lehmann</persName>
+                    <placeName ref="http://www.geonames.org/2931574">Eisenach</placeName>
+                    <date when="1866-07-15">15.07.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-086.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="86">
+                <correspAction type="sent">
+                    <persName>Wilhelm Radermacher</persName>
+                    <date when="1866-07-21">21.07.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-087.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="87">
+                <correspAction type="sent">
+                    <persName>Hermann Horn</persName>
+                    <placeName ref="http://www.geonames.org/2805615">Würzburg</placeName>
+                    <date when="1866-07-27">27.07.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Vater und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-088.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="88">
+                <correspAction type="sent">
+                    <persName>Bartholomäus Werkmeister</persName>
+                    <placeName ref="http://www.geonames.org/2805615">Würzburg</placeName>
+                    <date when="1866-07-29">29.07.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-089.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="89">
+                <correspAction type="sent">
+                    <persName ref="a006abc7-d6dd-4930-b85f-bf73613d901e">Carl Tettschlag</persName>
+                    <placeName ref="http://www.geonames.org/2951400">Beierdorf</placeName>
+                    <date when="1866-07-30">30.07.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ehefrau und Schwager</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-090.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="90">
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/130130265">Rudolf Potier des
+                        Echelles</persName>
+                    <placeName ref="http://www.geonames.org/2935022">Dresden</placeName>
+                    <date when="1866-07-31">31.07.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-091.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="91">
+                <correspAction type="sent">
+                    <persName>Carl H. Gellern</persName>
+                    <placeName ref="http://www.geonames.org/2805615">Würzburg</placeName>
+                    <date when="1866-08-02">02.08.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-092.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="92">
+                <correspAction type="sent">
+                    <persName>Anton Herz</persName>
+                    <placeName ref="http://www.geonames.org/2839666">Schernau</placeName>
+                    <date when="1866-08-03">03.08.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-093.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="93">
+                <correspAction type="sent">
+                    <persName ref="a1f14a35-de91-45d1-933f-88f1791014a9">Friedrich Grundmann</persName>
+                    <placeName ref="http://www.geonames.org/2924491">Friedrichsort</placeName>
+                    <date when="1866-08-04">04.08.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Familie</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-094.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="94">
+                <correspAction type="sent">
+                    <persName>Bernard Geißler</persName>
+                    <placeName ref="http://www.geonames.org/2813700">Altendrüdingen</placeName>
+                    <date when="1866-08-16">16.08.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-095.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="95">
+                <correspAction type="sent">
+                    <persName>Ludwig Stoeger</persName>
+                    <placeName ref="http://www.geonames.org/2927339">Feldkirchen</placeName>
+                    <date when="1866-08-21">21.08.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-096.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="96">
+                <correspAction type="sent">
+                    <persName>Oscar Sachse</persName>
+                    <placeName ref="http://www.geonames.org/3070323">Budwitz</placeName>
+                    <date when="1866-08-24">24.08.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-097.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="97">
+                <correspAction type="sent">
+                    <persName>Josef von Larisch und Nimsdorf</persName>
+                    <placeName ref="http://www.geonames.org/2765388">Schwechat</placeName>
+                    <date when="1866-09-04">04.09.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-098.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="98">
+                <correspAction type="sent">
+                    <persName>Albert Böhme</persName>
+                    <placeName ref="http://www.geonames.org/2945024">Braunschweig</placeName>
+                    <date when="1866-11-09">09.11.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-099.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="99">
+                <correspAction type="sent">
+                    <persName>Heinrich Keßler</persName>
+                    <placeName ref="http://www.geonames.org/2875786">Losswig</placeName>
+                    <date when="1866-06-07">07.06.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Familie</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-100.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="100">
+                <correspAction type="sent">
+                    <persName>Heinrich Kamphausen</persName>
+                    <placeName ref="http://www.geonames.org/2909998">Hartum</placeName>
+                    <date when="1866-06-14">14.06.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-101.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="101">
+                <correspAction type="sent">
+                    <persName>Gottfried Schüller</persName>
+                    <placeName ref="http://www.geonames.org/2901989">Erda</placeName>
+                    <date when="1866-06-15">15.06.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Partnerin</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-102.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="102">
+                <correspAction type="sent">
+                    <persName>Carl Standtke</persName>
+                    <placeName ref="http://www.geonames.org/3077299">Dalleschitz</placeName>
+                    <date when="1866-07-14">14.07.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-103.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="103">
+                <correspAction type="sent">
+                    <persName ref="a5cb30bb-7f26-4189-95bf-d44369a52ae5">Samuel Löwenherz</persName>
+                    <placeName ref="http://www.geonames.org/2805931">Wülfersdorf</placeName>
+                    <date when="1866-07-19">19.07.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tante und Familie</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-104.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="104">
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/131564714">Dr. Carl F. Pogge</persName>
+                    <placeName ref="http://www.geonames.org/2939811">Cottbus</placeName>
+                    <date when="1866">??.??.1866</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-105.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="105">
+                <correspAction type="sent">
+                    <persName>Carl Holldorf</persName>
+                    <placeName ref="http://www.geonames.org/2925533">Frankfurt</placeName>
+                    <date when="1867-02-22">22.02.1867</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-106.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="106">
+                <correspAction type="sent">
+                    <persName>Bernard Geißler</persName>
+                    <placeName ref="http://www.geonames.org/2943561">Brüchs</placeName>
+                    <date when="1867-07-21">21.07.1867</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-107.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="107">
+                <correspAction type="sent">
+                    <persName>Albert Böhme</persName>
+                    <placeName ref="http://www.geonames.org/2874782">Luttrum</placeName>
+                    <date when="1868-09-07">07.09.1868</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-108.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="108">
+                <correspAction type="sent">
+                    <persName>Max Brohm</persName>
+                    <placeName ref="http://www.geonames.org/2864276">Neuruppin</placeName>
+                    <date when="1869-03-11">11.03.1869</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-109.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="109">
+                <correspAction type="sent">
+                    <persName>Karl Linpökh</persName>
+                    <date when="1869-05-01">01.05.1869</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-110.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="110">
+                <correspAction type="sent">
+                    <persName>Albert Böhme</persName>
+                    <placeName ref="http://www.geonames.org/2857521">Oker</placeName>
+                    <date when="1869-08-23">23.08.1869</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-111.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="111">
+                <correspAction type="sent">
+                    <persName>Ernst Reich</persName>
+                    <placeName ref="http://www.geonames.org/2874131">Malchin</placeName>
+                    <date when="1870-07-01">01.07.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Onkel</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-112.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="112">
+                <correspAction type="sent">
+                    <persName>Hans Kretzschmer</persName>
+                    <placeName ref="http://www.geonames.org/3099213">Glogau</placeName>
+                    <date when="1870-07-16">16.07.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-113.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="113">
+                <correspAction type="sent">
+                    <persName>Carl H. Gellern</persName>
+                    <placeName ref="http://www.geonames.org/2766824">Salzburg</placeName>
+                    <date when="1870-08-05">05.08.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-114.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="114">
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/1031649379">Hugo von Winterfeld</persName>
+                    <placeName ref="http://www.geonames.org/3013407">Herny</placeName>
+                    <date when="1870-08-15">15.08.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Schwager</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-115.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="115">
+                <correspAction type="sent">
+                    <persName>Richard Sichler</persName>
+                    <placeName ref="http://www.geonames.org/3021626">Delme</placeName>
+                    <date when="1870-08-15">15.08.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-116.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="116">
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/131564714">Dr. Carl F. Pogge</persName>
+                    <placeName ref="http://www.geonames.org/3012336">Jezainville</placeName>
+                    <date when="1870-08-17">17.08.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-117.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="117">
+                <correspAction type="sent">
+                    <persName>Max Brohm</persName>
+                    <placeName ref="http://www.geonames.org/2986306">Pont á Mouscon</placeName>
+                    <date when="1870-08-20">20.08.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-118.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="118">
+                <correspAction type="sent">
+                    <persName>Ludwig Köhler</persName>
+                    <date when="1870-08-28">28.08.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Schwester</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-119.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="119">
+                <correspAction type="sent">
+                    <persName>Simon Marx</persName>
+                    <placeName ref="http://www.geonames.org/2990999">Nanzig</placeName>
+                    <date when="1870-08-29">29.08.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-120.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="120">
+                <correspAction type="sent">
+                    <persName>Hermann Eichhorn</persName>
+                    <placeName ref="http://www.geonames.org/7303020">Wittenberg</placeName>
+                    <date when="1870-09-12">12.09.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-121.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="121">
+                <correspAction type="sent">
+                    <persName ref="a9676866-0d25-465f-b8f6-6ac4490e4cd7">Carl Brauer</persName>
+                    <placeName ref="http://www.geonames.org/2902873">Höckelheim</placeName>
+                    <date when="1870-09-13">13.09.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-122.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="122">
+                <correspAction type="sent">
+                    <persName>Heinrich Fourné</persName>
+                    <placeName ref="http://www.geonames.org/2981686">St. Antoine</placeName>
+                    <date when="1870-09-25">25.09.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-123.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="123">
+                <correspAction type="sent">
+                    <persName>H. Behrens</persName>
+                    <placeName ref="http://www.geonames.org/6619421">Ornes</placeName>
+                    <date when="1870-10-01">01.10.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Onkel und Tante</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-124.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="124">
+                <correspAction type="sent">
+                    <persName>Michael Kundinger</persName>
+                    <placeName ref="http://www.geonames.org/12070481">Verieres</placeName>
+                    <date when="1870-10-04">04.10.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Schwester und Schwager</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-125.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="125">
+                <correspAction type="sent">
+                    <persName>Hermann Ehlers</persName>
+                    <placeName ref="http://www.geonames.org/2994160">Metz</placeName>
+                    <date when="1870-10-07">07.10.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Vater und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-126.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="126">
+                <correspAction type="sent">
+                    <persName>Johann F. Henninger</persName>
+                    <placeName ref="http://www.geonames.org/2989317">Orlean</placeName>
+                    <date when="1870-10-14">14.10.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-127.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="127">
+                <correspAction type="sent">
+                    <persName>Carl Holldorf</persName>
+                    <placeName ref="http://www.geonames.org/2885679+">Konstanz</placeName>
+                    <date when="1870-10-20">20.10.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-128.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="128">
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/117563218">Adalbert von Barby</persName>
+                    <placeName ref="http://www.geonames.org/3001402">Les Clayes</placeName>
+                    <date when="1870-10-22">22.10.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-129.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="129">
+                <correspAction type="sent">
+                    <persName>Jakob Marx</persName>
+                    <placeName ref="http://www.geonames.org/2989317">Orleans</placeName>
+                    <date when="1870-10-30">30.10.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-130.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="130">
+                <correspAction type="sent">
+                    <persName>Hermann Witte</persName>
+                    <placeName ref="http://www.geonames.org/3026467">Chartres</placeName>
+                    <date when="1870-11-01">01.11.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Mutter und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-131.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="131">
+                <correspAction type="sent">
+                    <persName>Johann Schramm</persName>
+                    <placeName ref="http://www.geonames.org/2867714">München</placeName>
+                    <date when="1870-11-09">09.11.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern und Patenonkel</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-132.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="132">
+                <correspAction type="sent">
+                    <persName>August Winterholler</persName>
+                    <placeName>Mandes</placeName>
+                    <date when="1870-11-13">13.11.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-133.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="133">
+                <correspAction type="sent">
+                    <persName>Joachim Paul</persName>
+                    <placeName>Montes</placeName>
+                    <date when="1870-11-13">13.11.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-134.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="134">
+                <correspAction type="sent">
+                    <persName>Andreas Keller</persName>
+                    <placeName ref="http://www.geonames.org/3023766">Corbeil</placeName>
+                    <date when="1870-11-14">14.11.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-135.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="135">
+                <correspAction type="sent">
+                    <persName>Hermann Schweinhagen</persName>
+                    <placeName ref="http://www.geonames.org/2989317">Orleans</placeName>
+                    <date when="1870-12-09">09.12.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-136.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="136">
+                <correspAction type="sent">
+                    <persName>Anton Wagner</persName>
+                    <placeName>Four cet cur</placeName>
+                    <date when="1870-12-10">10.12.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-137.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="137">
+                <correspAction type="sent">
+                    <persName>Ernst von Meier</persName>
+                    <placeName ref="http://www.geonames.org/3037044">Argenteuil</placeName>
+                    <date when="1870-12-18">18.12.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-138.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="138">
+                <correspAction type="sent">
+                    <persName>Bernhard Prahmann</persName>
+                    <placeName ref="http://www.geonames.org/2793656">Langny-Thorigny</placeName>
+                    <date when="1870-12-19">19.12.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-139.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="139">
+                <correspAction type="sent">
+                    <persName>Karl Linpökh</persName>
+                    <date when="1870-12-20">20.12.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Schwestern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-140.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="140">
+                <correspAction type="sent">
+                    <persName>Ludwig Westner</persName>
+                    <placeName ref="http://www.geonames.org/2989317">Orleans</placeName>
+                    <date when="1870-12-20">20.12.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-141.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="141">
+                <correspAction type="sent">
+                    <persName>Friedrich Ludwig</persName>
+                    <placeName>Zevers</placeName>
+                    <date when="1870-12-23">23.12.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern und Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-142.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="142">
+                <correspAction type="sent">
+                    <persName>Franz W. Gorges</persName>
+                    <placeName>Mätz</placeName>
+                    <date when="1870">28.??.1870</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-143.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="143">
+                <correspAction type="sent">
+                    <persName ref="aa1bf535-be79-4d60-9318-003f5fc77a9c">Ulrich Enderl</persName>
+                    <placeName ref="http://www.geonames.org/2992309">Montlery</placeName>
+                    <date when="1871-01-01">01.01.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Familie</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-144.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="144">
+                <correspAction type="sent">
+                    <persName>Hans Kretzschmer</persName>
+                    <placeName ref="http://www.geonames.org/933925">Ville d’Avray</placeName>
+                    <date when="1871-01-04">04.01.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-145.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="145">
+                <correspAction type="sent">
+                    <persName>Ernst von Meier</persName>
+                    <placeName ref="http://www.geonames.org/3017341">Franconville</placeName>
+                    <date when="1871-01-16">16.01.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-146.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="146">
+                <correspAction type="sent">
+                    <persName>Carl Holldorf</persName>
+                    <placeName>Lemom</placeName>
+                    <date when="1871-01-17">17.01.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-147.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="147">
+                <correspAction type="sent">
+                    <persName>Bernhard Prahmann</persName>
+                    <placeName ref="http://www.geonames.org/3009070">Lagny</placeName>
+                    <date when="1871-01-17">17.01.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-148.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="148">
+                <correspAction type="sent">
+                    <persName>Bernard Geißler</persName>
+                    <placeName ref="http://www.geonames.org/2861650">Nürnberg</placeName>
+                    <date when="1871-01-20">20.01.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-149.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="149">
+                <correspAction type="sent">
+                    <persName>Gottfried Lechner</persName>
+                    <placeName>Biöber</placeName>
+                    <date when="1871-01-26">26.01.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-150.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="150">
+                <correspAction type="sent">
+                    <persName>Anton Wagner</persName>
+                    <placeName ref="http://www.geonames.org/2658862">St. Priexe</placeName>
+                    <date when="1871-01-28">28.01.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ehefrau</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-151.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="151">
+                <correspAction type="sent">
+                    <persName>Werner Brückmann</persName>
+                    <placeName ref="http://www.geonames.org/3003603">Le Mans</placeName>
+                    <date when="1871-01-28">28.01.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Familie</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-152.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="152">
+                <correspAction type="sent">
+                    <persName>Max Brohm</persName>
+                    <placeName ref="http://www.geonames.org/2980062">Lemans</placeName>
+                    <date when="1871-02-07">07.02.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-153.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="153">
+                <correspAction type="sent">
+                    <persName>Paul Petri</persName>
+                    <placeName ref="http://www.geonames.org/3029931">Bron</placeName>
+                    <date when="1871-02-09">09.02.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-154.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="154">
+                <correspAction type="sent">
+                    <persName>Ernst Reich</persName>
+                    <placeName ref="http://www.geonames.org/2982652">Rouen</placeName>
+                    <date when="1871-02-14">14.02.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Onkel</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-155.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="155">
+                <correspAction type="sent">
+                    <persName>Ludwig Stoeger</persName>
+                    <placeName ref="http://www.geonames.org/3026083">Chatillon</placeName>
+                    <date when="1871-02-14">14.02.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-156.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="156">
+                <correspAction type="sent">
+                    <persName>Max Zechetmayr</persName>
+                    <placeName ref="http://www.geonames.org/2988507">Paris</placeName>
+                    <date when="1871-02-16">16.02.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-157.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="157">
+                <correspAction type="sent">
+                    <persName ref="a66f81da-43d1-4231-bbf4-63249b07f6d4">Hugo Schuerer</persName>
+                    <placeName ref="http://www.geonames.org/3036843">Arnouville</placeName>
+                    <date when="1871-03-04">04.03.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-158.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="158">
+                <correspAction type="sent">
+                    <persName>Hermann Witte</persName>
+                    <placeName ref="http://www.geonames.org/3016830">Gagny</placeName>
+                    <date when="1871-03-14">14.03.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-159.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="159">
+                <correspAction type="sent">
+                    <persName>Hermann Schweinhagen</persName>
+                    <placeName ref="http://www.geonames.org/2968293">Ville sous la Ferté</placeName>
+                    <date when="1871-04-04">04.04.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Bruder und Schwägerin</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-160.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="160">
+                <correspAction type="sent">
+                    <persName>Ludwig Köhler</persName>
+                    <placeName>Connsens</placeName>
+                    <date when="1871-04-22">22.04.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Schwester</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-161.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="161">
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/117563218">Adalbert von Barby</persName>
+                    <date when="1871-04-30">30.04.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-162.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="162">
+                <correspAction type="sent">
+                    <persName>Adam Weiß</persName>
+                    <placeName ref="http://www.geonames.org/3022267">Crouy</placeName>
+                    <date when="1871-05-02">02.05.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-163.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="163">
+                <correspAction type="sent">
+                    <persName>Heinrich Fourné</persName>
+                    <placeName ref="http://www.geonames.org/3012236">Jouarre</placeName>
+                    <date when="1871-05-10">10.05.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-164.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="164">
+                <correspAction type="sent">
+                    <persName>Hermann Eichhorn</persName>
+                    <placeName ref="http://www.geonames.org/2945358">Brandenburg</placeName>
+                    <date when="1871-05-11">11.05.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Bruder</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-165.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="165">
+                <correspAction type="sent">
+                    <persName>Wilhelm Dittmar</persName>
+                    <placeName ref="http://www.geonames.org/2976921">St. Simeon</placeName>
+                    <date when="1871-05-19">19.05.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern und Geschwister</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-166.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="166">
+                <correspAction type="sent">
+                    <persName>Friedrich A. Marx</persName>
+                    <placeName ref="http://www.geonames.org/3002984">le Pecq</placeName>
+                    <date when="1871-05-28">28.05.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-167.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="167">
+                <correspAction type="sent">
+                    <persName ref="https://d-nb.info/gnd/131564714">Dr. Carl F. Pogge</persName>
+                    <placeName ref="http://www.geonames.org/2841771">Sandkrug</placeName>
+                    <date when="1871-08-07">07.08.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Mutter</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-168.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="168">
+                <correspAction type="sent">
+                    <persName>Hermann Ehlers</persName>
+                    <placeName ref="http://www.geonames.org/2842644">Saarburg</placeName>
+                    <date when="1871-09-04">04.09.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Vater</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-169.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="169">
+                <correspAction type="sent">
+                    <persName>Michael Eimgartner</persName>
+                    <date when="1871">??.??.1871</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc ref="https://github.com/deutschestextarchiv/soldatenbriefe/blob/main/data/letter-170.xml" source="#fa81f0d5-83c1-49b2-a528-471d1bbad9fc" key="170">
+                <correspAction type="sent">
+                    <persName>Johann Schramm</persName>
+                    <placeName ref="http://www.geonames.org/3027487">Chalons</placeName>
+                    <date when="1872-02-29">29.02.1872</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Eltern</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
